@@ -1,0 +1,62 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction and Research Context",
+    "objective": "Provide background on pedestrian safety at signalized intersections and the emergence of autonomous vehicle-pedestrian interaction research, establishing the scope and relevance of reviewed studies.",
+    "gap_inputs": [
+      "33438a44-82da-4f00-b533-caafdff2c6ec",
+      "2843b8ac-079f-493c-9383-1a47db912300"
+    ],
+    "matrix_row_count": 3
+  },
+  {
+    "section_id": "sec-2",
+    "title": "Methodological Approaches in Pedestrian Behavior Research",
+    "objective": "Compare and contrast the experimental and observational methods used across reviewed papers, including virtual reality experiments, surveys, and discrete choice modeling techniques.",
+    "gap_inputs": [
+      "33438a44-82da-4f00-b533-caafdff2c6ec",
+      "2843b8ac-079f-493c-9383-1a47db912300"
+    ],
+    "matrix_row_count": 3
+  },
+  {
+    "section_id": "sec-3",
+    "title": "Autonomous Vehicle-Pedestrian Interaction at Crosswalks",
+    "objective": "Synthesize findings from the virtual reality experiment on external interface features for fully autonomous vehicles, including pedestrian receptivity, feature preferences, and demographic differences.",
+    "gap_inputs": [
+      "33438a44-82da-4f00-b533-caafdff2c6ec",
+      "2843b8ac-079f-493c-9383-1a47db912300"
+    ],
+    "matrix_row_count": 5
+  },
+  {
+    "section_id": "sec-4",
+    "title": "Pedestrian Red-Light Running Behavior",
+    "objective": "Synthesize evidence on factors influencing pedestrian red-light running violations, including personal characteristics, environmental factors, and social influences from Chinese-context studies.",
+    "gap_inputs": [
+      "33438a44-82da-4f00-b533-caafdff2c6ec",
+      "2843b8ac-079f-493c-9383-1a47db912300"
+    ],
+    "matrix_row_count": 9
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Comparative Analysis and Evidence Synthesis",
+    "objective": "Compare findings across studies on pedestrian crossing behavior, identify methodological strengths and limitations, and evaluate the generalizability of conclusions across different traffic contexts.",
+    "gap_inputs": [
+      "33438a44-82da-4f00-b533-caafdff2c6ec",
+      "2843b8ac-079f-493c-9383-1a47db912300"
+    ],
+    "matrix_row_count": 3
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Research Limitations and Future Directions",
+    "objective": "Discuss methodological limitations across the reviewed literature, including sample size constraints, geographic scope, and measurement approaches, and propose directions for future pedestrian behavior research.",
+    "gap_inputs": [
+      "33438a44-82da-4f00-b533-caafdff2c6ec",
+      "2843b8ac-079f-493c-9383-1a47db912300"
+    ],
+    "matrix_row_count": 3
+  }
+]

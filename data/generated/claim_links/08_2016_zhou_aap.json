@@ -1,0 +1,44 @@
+[
+  {
+    "claim_id": "claim-1",
+    "chunk_id": "13e19023-2964-49ca-a03e-5aaf15e3a9fb",
+    "support_type": "supports",
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-1",
+    "chunk_id": "2dd6ac08-0a3c-4f71-8f1f-5e8beac71f3e",
+    "support_type": "supports",
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-2",
+    "chunk_id": "5fdcda7c-f1f3-4eaa-97bb-20feed7568bf",
+    "support_type": "supports",
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-3",
+    "chunk_id": "1dce0705-5b85-41f0-aff3-4ee3d9741cf0",
+    "support_type": "supports",
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-4",
+    "chunk_id": "2dd6ac08-0a3c-4f71-8f1f-5e8beac71f3e",
+    "support_type": "supports",
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-4",
+    "chunk_id": "49207d79-f5fc-4363-9f07-ece3d8f54330",
+    "support_type": "supports",
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-5",
+    "chunk_id": "1dce0705-5b85-41f0-aff3-4ee3d9741cf0",
+    "support_type": "supports",
+    "confidence": null
+  }
+]

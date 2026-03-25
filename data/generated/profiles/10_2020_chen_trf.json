@@ -1,0 +1,124 @@
+{
+  "paper_id": "10_2020_chen_trf",
+  "title": "Untitled",
+  "research_problem": "Identify personal and environmental factors affecting pedestrian red light running violation propensity at signalized intersections to inform engineering, enforcement, and educational interventions",
+  "problem_type": "empirical_observational",
+  "domain": "transportation_safety",
+  "language_scope": "english",
+  "method_summary": "Video observation surveys at 6 signalized crosswalks in urban Hong Kong capturing crossing behaviors of 6320 pedestrians during red signal periods. Random parameter logit model developed to measure association between red light running propensity and explanatory factors including pedestrian demographics, behaviors of other pedestrians, signal time, and traffic conditions.",
+  "method_family": [
+    "random_parameter_logit"
+  ],
+  "datasets": [
+    "6320 pedestrians observed at 6 signalized crosswalks in Hong Kong",
+    "652 signal cycles captured",
+    "Six sites: Prince Edward Road West j/w Nathan Road, Argyle Street j/w Nathan Road, Argyle Street j/w Sai Yee Street, Tonkin Street j/w Shun Ning Road, Hung Hom South Road j/w Po loi Street, To Kwa Wan Road j/w Chi Kiang Street"
+  ],
+  "tasks": [
+    "analyze_pedestrian_red_light_violation_behavior",
+    "identify_factors_affecting_violation_propensity",
+    "examine_interaction_effects_between_personal_and_environmental_factors"
+  ],
+  "metrics": [
+    "binary_outcome_run_vs_not_run",
+    "odds_ratios",
+    "marginal_effects",
+    "elasticities",
+    "AIC_for_model_comparison"
+  ],
+  "baselines": [
+    "Model 1: random parameter logit without interaction effects",
+    "Model 2: random parameter logit with interaction effects (superior fit, lower AIC: 2750.1 vs 2776.6)"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "Female pedestrians have significantly lower propensity of red light running compared to males (b=-0.433, odds ratio=0.649)",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "ea55407c-1ad0-4645-bdb8-a4f3c72fe6be",
+        "261fd80c-4852-4037-b56b-394b0cde2b47"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "Pedestrian age significantly affects red light running propensity: adolescents have lower (b=-0.228) and elderly have higher propensity (b=0.174) compared to adults",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "ea55407c-1ad0-4645-bdb8-a4f3c72fe6be",
+        "11c971de-8d81-40a9-ad87-8e5b59058284"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "Presence of a companion significantly reduces red light running propensity (b=-0.984, odds ratio=0.374)",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "ea55407c-1ad0-4645-bdb8-a4f3c72fe6be",
+        "2c67ed1c-8ef6-4112-8ba1-19df94f288e4"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "Social influences strongly affect individual violation decisions: presence of other violators increases propensity (b=1.029) while more pedestrians waiting reduces it (b=-0.394)",
+      "claim_type": "application",
+      "evidence_chunk_ids": [
+        "ea55407c-1ad0-4645-bdb8-a4f3c72fe6be",
+        "2c67ed1c-8ef6-4112-8ba1-19df94f288e4"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-5",
+      "claim_text": "Environmental factors including time to green, red time, traffic volume, and number of lanes significantly affect red light running propensity",
+      "claim_type": "theoretical",
+      "evidence_chunk_ids": [
+        "84ec1043-cd63-48a6-b826-b58220407245",
+        "461a8223-48e4-4466-979b-670a77afc8f2"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Study focuses on red light running propensity rather than actual crash outcomes or safety consequences",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "af81067b-72ae-4ab7-8373-33e5258d923c"
+      ]
+    },
+    {
+      "text": "Effect of vehicular speed on pedestrian red light running behavior not assessed",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "af81067b-72ae-4ab7-8373-33e5258d923c"
+      ]
+    },
+    {
+      "text": "Limited to urban Hong Kong; findings may not generalize to other contexts with different traffic rules (e.g., pedestrian countdown signals)",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "1775ce66-7f09-433b-a8c6-02ecc58d8321",
+        "461a8223-48e4-4466-979b-670a77afc8f2"
+      ]
+    },
+    {
+      "text": "Safety perception and attitude data not available; relies on observed behavior only",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "2c67ed1c-8ef6-4112-8ba1-19df94f288e4",
+        "279b1bed-fc7c-4929-848b-cac9f23a0a81"
+      ]
+    }
+  ],
+  "future_work": [
+    "Evaluate effectiveness of pedestrian signal countdown devices in reducing red light running",
+    "Explore variable pedestrian signal time responsive to pedestrian volume",
+    "Develop attitudinal models to gauge effects of safety perception and anticipated traffic conditions",
+    "Investigate interactions between vehicular speed, pedestrian characteristics, and violation decisions when comprehensive traffic flow data available"
+  ],
+  "notes": "Random parameter approach justified by significant standard deviation of gender coefficient (1.163); 18.5% of observed pedestrians (1169 out of 6320) committed red light running violations; Significant interaction effects found: gender x traffic volume, gender x others violated, elderly x companion, elderly x others violated, others violated x companion; Hong Kong pedestrian signals have three phases: steady green, flashing green, steady red (no countdown device)"
+}

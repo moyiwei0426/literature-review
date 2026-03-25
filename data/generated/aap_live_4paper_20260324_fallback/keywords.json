@@ -1,0 +1,28 @@
+{
+  "keywords": [
+    "controlled field experiment",
+    "predicting pedestrian violating crossing behavior intentions",
+    "pedestrian crossing behavior under mobile phone distraction",
+    "identify factors affecting pedestrian red-light running behavior at signalized intersections",
+    "28 college students at signalized intersection in hefei, china",
+    "survey-based structural equation modeling (sem)",
+    "statistical modeling (binomial logistic regression)",
+    "survey data from 260 respondents in dalian, china"
+  ],
+  "keyword_count": 8,
+  "dominant_axis": "factor taxonomy",
+  "signals": {
+    "controlled field experiment": 8.3,
+    "predicting pedestrian violating crossing behavior intentions": 7.85,
+    "pedestrian crossing behavior under mobile phone distraction": 7.85,
+    "identify factors affecting pedestrian red-light running behavior at signalized intersections": 7.85,
+    "28 college students at signalized intersection in hefei, china": 7.6,
+    "survey-based structural equation modeling (sem)": 7.1,
+    "statistical modeling (binomial logistic regression)": 7.1,
+    "survey data from 260 respondents in dalian, china": 6.1,
+    "pedestrian speed profile modeling, crossing time estimation, vehicle-pedestrian conflict simulation": 5.4,
+    "this paper examines pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (tpb). the study extends tpb by adding new factors including descriptive norm, perceived risk and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions. the survey used a scenario where pedestrians crossed the road violating pedestrian lights at an intersection in dalian, china.": 5.0,
+    "investigates how mobile phone distractions (music, phone conversation, and text) affect pedestrian crossing behavior and visual attention allocation at a signalized intersection": 5.0,
+    "exploring how various factors affect pedestrians' red-light running behaviors at intersection areas using data collected from hefei, china": 5.0
+  }
+}

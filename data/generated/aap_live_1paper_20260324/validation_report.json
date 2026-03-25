@@ -1,0 +1,407 @@
+{
+  "generated_at": "2026-03-24T05:06:47.442522+00:00",
+  "validator": "review_validator.rule_based.v1",
+  "status": "fail",
+  "overall_status": "fail",
+  "counts": {
+    "section_count": 7,
+    "healthy_section_count": 0,
+    "weak_section_count": 7,
+    "finding_count": 28,
+    "findings": 28,
+    "severity_counts": {
+      "error": 18,
+      "warning": 10
+    }
+  },
+  "summary": {
+    "overall_status": "fail",
+    "section_count": 7,
+    "healthy_section_count": 0,
+    "weak_section_count": 7,
+    "finding_count": 28,
+    "severity_counts": {
+      "error": 18,
+      "warning": 10
+    },
+    "flagged_sections": [
+      {
+        "section_id": "sec-1",
+        "title": "Introduction and Research Context",
+        "status": "fail",
+        "finding_count": 4
+      },
+      {
+        "section_id": "sec-2",
+        "title": "Theoretical Background: Theory of Planned Behavior and Extensions",
+        "status": "fail",
+        "finding_count": 4
+      },
+      {
+        "section_id": "sec-3",
+        "title": "Structural Equation Modeling Methodology",
+        "status": "fail",
+        "finding_count": 4
+      },
+      {
+        "section_id": "sec-4",
+        "title": "Behavioral Factors in Crossing Intentions",
+        "status": "fail",
+        "finding_count": 4
+      },
+      {
+        "section_id": "sec-5",
+        "title": "Demographic and Traffic Context Factors",
+        "status": "fail",
+        "finding_count": 4
+      }
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "sec-1",
+      "title": "Introduction and Research Context",
+      "role": "introduction",
+      "status": "fail",
+      "expected_moves": [
+        "framing",
+        "evidence",
+        "synthesis"
+      ],
+      "observed_moves": {},
+      "paragraph_count": 3,
+      "cited_paragraph_count": 3,
+      "section_citation_count": 1,
+      "linked_gap_count": 0,
+      "findings": [
+        {
+          "code": "missing_framing_move",
+          "severity": "error",
+          "message": "Missing expected framing move for introduction-oriented section.",
+          "recommendation": "Add an opening paragraph that states the section lens, scope, and why the evidence cluster matters."
+        },
+        {
+          "code": "missing_evidence_move",
+          "severity": "error",
+          "message": "Missing expected evidence move for introduction-oriented section.",
+          "recommendation": "Add an evidence paragraph grounded in specific studies, metrics, or datasets."
+        },
+        {
+          "code": "missing_synthesis_move",
+          "severity": "warning",
+          "message": "Missing expected synthesis move for introduction-oriented section.",
+          "recommendation": "Add a closing synthesis paragraph that explains what the introduction section implies for the broader review."
+        },
+        {
+          "code": "missing_expected_moves",
+          "severity": "error",
+          "message": "Section is missing expected moves: framing, evidence, synthesis.",
+          "recommendation": "Restore the missing rhetorical moves so the section retains framing, evidence, synthesis, and gap handling where expected."
+        }
+      ],
+      "recommendations": [
+        "Add an opening paragraph that states the section lens, scope, and why the evidence cluster matters.",
+        "Add an evidence paragraph grounded in specific studies, metrics, or datasets.",
+        "Add a closing synthesis paragraph that explains what the introduction section implies for the broader review.",
+        "Restore the missing rhetorical moves so the section retains framing, evidence, synthesis, and gap handling where expected."
+      ]
+    },
+    {
+      "section_id": "sec-2",
+      "title": "Theoretical Background: Theory of Planned Behavior and Extensions",
+      "role": "introduction",
+      "status": "fail",
+      "expected_moves": [
+        "framing",
+        "evidence",
+        "synthesis"
+      ],
+      "observed_moves": {},
+      "paragraph_count": 3,
+      "cited_paragraph_count": 3,
+      "section_citation_count": 1,
+      "linked_gap_count": 0,
+      "findings": [
+        {
+          "code": "missing_framing_move",
+          "severity": "error",
+          "message": "Missing expected framing move for introduction-oriented section.",
+          "recommendation": "Add an opening paragraph that states the section lens, scope, and why the evidence cluster matters."
+        },
+        {
+          "code": "missing_evidence_move",
+          "severity": "error",
+          "message": "Missing expected evidence move for introduction-oriented section.",
+          "recommendation": "Add an evidence paragraph grounded in specific studies, metrics, or datasets."
+        },
+        {
+          "code": "missing_synthesis_move",
+          "severity": "warning",
+          "message": "Missing expected synthesis move for introduction-oriented section.",
+          "recommendation": "Add a closing synthesis paragraph that explains what the introduction section implies for the broader review."
+        },
+        {
+          "code": "missing_expected_moves",
+          "severity": "error",
+          "message": "Section is missing expected moves: framing, evidence, synthesis.",
+          "recommendation": "Restore the missing rhetorical moves so the section retains framing, evidence, synthesis, and gap handling where expected."
+        }
+      ],
+      "recommendations": [
+        "Add an opening paragraph that states the section lens, scope, and why the evidence cluster matters.",
+        "Add an evidence paragraph grounded in specific studies, metrics, or datasets.",
+        "Add a closing synthesis paragraph that explains what the introduction section implies for the broader review.",
+        "Restore the missing rhetorical moves so the section retains framing, evidence, synthesis, and gap handling where expected."
+      ]
+    },
+    {
+      "section_id": "sec-3",
+      "title": "Structural Equation Modeling Methodology",
+      "role": "body",
+      "status": "fail",
+      "expected_moves": [
+        "framing",
+        "evidence",
+        "synthesis"
+      ],
+      "observed_moves": {},
+      "paragraph_count": 3,
+      "cited_paragraph_count": 3,
+      "section_citation_count": 1,
+      "linked_gap_count": 0,
+      "findings": [
+        {
+          "code": "missing_framing_move",
+          "severity": "error",
+          "message": "Missing expected framing move for body-oriented section.",
+          "recommendation": "Add an opening paragraph that states the section lens, scope, and why the evidence cluster matters."
+        },
+        {
+          "code": "missing_evidence_move",
+          "severity": "error",
+          "message": "Missing expected evidence move for body-oriented section.",
+          "recommendation": "Add an evidence paragraph grounded in specific studies, metrics, or datasets."
+        },
+        {
+          "code": "missing_synthesis_move",
+          "severity": "warning",
+          "message": "Missing expected synthesis move for body-oriented section.",
+          "recommendation": "Add a closing synthesis paragraph that explains what the body section implies for the broader review."
+        },
+        {
+          "code": "missing_expected_moves",
+          "severity": "error",
+          "message": "Section is missing expected moves: framing, evidence, synthesis.",
+          "recommendation": "Restore the missing rhetorical moves so the section retains framing, evidence, synthesis, and gap handling where expected."
+        }
+      ],
+      "recommendations": [
+        "Add an opening paragraph that states the section lens, scope, and why the evidence cluster matters.",
+        "Add an evidence paragraph grounded in specific studies, metrics, or datasets.",
+        "Add a closing synthesis paragraph that explains what the body section implies for the broader review.",
+        "Restore the missing rhetorical moves so the section retains framing, evidence, synthesis, and gap handling where expected."
+      ]
+    },
+    {
+      "section_id": "sec-4",
+      "title": "Behavioral Factors in Crossing Intentions",
+      "role": "body",
+      "status": "fail",
+      "expected_moves": [
+        "framing",
+        "evidence",
+        "synthesis"
+      ],
+      "observed_moves": {},
+      "paragraph_count": 3,
+      "cited_paragraph_count": 3,
+      "section_citation_count": 1,
+      "linked_gap_count": 0,
+      "findings": [
+        {
+          "code": "missing_framing_move",
+          "severity": "error",
+          "message": "Missing expected framing move for body-oriented section.",
+          "recommendation": "Add an opening paragraph that states the section lens, scope, and why the evidence cluster matters."
+        },
+        {
+          "code": "missing_evidence_move",
+          "severity": "error",
+          "message": "Missing expected evidence move for body-oriented section.",
+          "recommendation": "Add an evidence paragraph grounded in specific studies, metrics, or datasets."
+        },
+        {
+          "code": "missing_synthesis_move",
+          "severity": "warning",
+          "message": "Missing expected synthesis move for body-oriented section.",
+          "recommendation": "Add a closing synthesis paragraph that explains what the body section implies for the broader review."
+        },
+        {
+          "code": "missing_expected_moves",
+          "severity": "error",
+          "message": "Section is missing expected moves: framing, evidence, synthesis.",
+          "recommendation": "Restore the missing rhetorical moves so the section retains framing, evidence, synthesis, and gap handling where expected."
+        }
+      ],
+      "recommendations": [
+        "Add an opening paragraph that states the section lens, scope, and why the evidence cluster matters.",
+        "Add an evidence paragraph grounded in specific studies, metrics, or datasets.",
+        "Add a closing synthesis paragraph that explains what the body section implies for the broader review.",
+        "Restore the missing rhetorical moves so the section retains framing, evidence, synthesis, and gap handling where expected."
+      ]
+    },
+    {
+      "section_id": "sec-5",
+      "title": "Demographic and Traffic Context Factors",
+      "role": "introduction",
+      "status": "fail",
+      "expected_moves": [
+        "framing",
+        "evidence",
+        "synthesis"
+      ],
+      "observed_moves": {},
+      "paragraph_count": 3,
+      "cited_paragraph_count": 3,
+      "section_citation_count": 1,
+      "linked_gap_count": 0,
+      "findings": [
+        {
+          "code": "missing_framing_move",
+          "severity": "error",
+          "message": "Missing expected framing move for introduction-oriented section.",
+          "recommendation": "Add an opening paragraph that states the section lens, scope, and why the evidence cluster matters."
+        },
+        {
+          "code": "missing_evidence_move",
+          "severity": "error",
+          "message": "Missing expected evidence move for introduction-oriented section.",
+          "recommendation": "Add an evidence paragraph grounded in specific studies, metrics, or datasets."
+        },
+        {
+          "code": "missing_synthesis_move",
+          "severity": "warning",
+          "message": "Missing expected synthesis move for introduction-oriented section.",
+          "recommendation": "Add a closing synthesis paragraph that explains what the introduction section implies for the broader review."
+        },
+        {
+          "code": "missing_expected_moves",
+          "severity": "error",
+          "message": "Section is missing expected moves: framing, evidence, synthesis.",
+          "recommendation": "Restore the missing rhetorical moves so the section retains framing, evidence, synthesis, and gap handling where expected."
+        }
+      ],
+      "recommendations": [
+        "Add an opening paragraph that states the section lens, scope, and why the evidence cluster matters.",
+        "Add an evidence paragraph grounded in specific studies, metrics, or datasets.",
+        "Add a closing synthesis paragraph that explains what the introduction section implies for the broader review.",
+        "Restore the missing rhetorical moves so the section retains framing, evidence, synthesis, and gap handling where expected."
+      ]
+    },
+    {
+      "section_id": "sec-6",
+      "title": "Study Limitations and Methodological Considerations",
+      "role": "gap",
+      "status": "fail",
+      "expected_moves": [
+        "framing",
+        "gap",
+        "synthesis"
+      ],
+      "observed_moves": {},
+      "paragraph_count": 3,
+      "cited_paragraph_count": 3,
+      "section_citation_count": 1,
+      "linked_gap_count": 0,
+      "findings": [
+        {
+          "code": "missing_framing_move",
+          "severity": "error",
+          "message": "Missing expected framing move for gap-oriented section.",
+          "recommendation": "Add an opening paragraph that states the section lens, scope, and why the evidence cluster matters."
+        },
+        {
+          "code": "missing_gap_move",
+          "severity": "error",
+          "message": "Missing expected gap move for gap-oriented section.",
+          "recommendation": "Add a gap paragraph linking unresolved evidence, insufficiency, and concrete research need."
+        },
+        {
+          "code": "missing_synthesis_move",
+          "severity": "warning",
+          "message": "Missing expected synthesis move for gap-oriented section.",
+          "recommendation": "Add a closing synthesis paragraph that explains what the gap section implies for the broader review."
+        },
+        {
+          "code": "missing_expected_moves",
+          "severity": "error",
+          "message": "Section is missing expected moves: framing, gap, synthesis.",
+          "recommendation": "Restore the missing rhetorical moves so the section retains framing, evidence, synthesis, and gap handling where expected."
+        },
+        {
+          "code": "missing_linked_gap_handling",
+          "severity": "warning",
+          "message": "Gap-oriented section lacks explicit linked gap handling.",
+          "recommendation": "Include a paragraph that states the unresolved gap, why evidence is insufficient, and the next research need."
+        }
+      ],
+      "recommendations": [
+        "Add an opening paragraph that states the section lens, scope, and why the evidence cluster matters.",
+        "Add a gap paragraph linking unresolved evidence, insufficiency, and concrete research need.",
+        "Add a closing synthesis paragraph that explains what the gap section implies for the broader review.",
+        "Restore the missing rhetorical moves so the section retains framing, evidence, synthesis, and gap handling where expected.",
+        "Include a paragraph that states the unresolved gap, why evidence is insufficient, and the next research need."
+      ]
+    },
+    {
+      "section_id": "sec-7",
+      "title": "Conclusions and Implications for Safety Interventions",
+      "role": "conclusion",
+      "status": "warn",
+      "expected_moves": [
+        "synthesis",
+        "comparison"
+      ],
+      "observed_moves": {},
+      "paragraph_count": 3,
+      "cited_paragraph_count": 3,
+      "section_citation_count": 1,
+      "linked_gap_count": 0,
+      "findings": [
+        {
+          "code": "missing_synthesis_move",
+          "severity": "warning",
+          "message": "Missing expected synthesis move for conclusion-oriented section.",
+          "recommendation": "Add a closing synthesis paragraph that explains what the conclusion section implies for the broader review."
+        },
+        {
+          "code": "missing_comparison_move",
+          "severity": "warning",
+          "message": "Missing expected comparison move for conclusion-oriented section.",
+          "recommendation": "Add a comparison paragraph that contrasts at least two evidence clusters or reporting patterns."
+        },
+        {
+          "code": "missing_expected_moves",
+          "severity": "warning",
+          "message": "Section is missing expected moves: synthesis, comparison.",
+          "recommendation": "Restore the missing rhetorical moves so the section retains framing, evidence, synthesis, and gap handling where expected."
+        }
+      ],
+      "recommendations": [
+        "Add a closing synthesis paragraph that explains what the conclusion section implies for the broader review.",
+        "Add a comparison paragraph that contrasts at least two evidence clusters or reporting patterns.",
+        "Restore the missing rhetorical moves so the section retains framing, evidence, synthesis, and gap handling where expected."
+      ]
+    }
+  ],
+  "recommendations": [
+    "Add an opening paragraph that states the section lens, scope, and why the evidence cluster matters.",
+    "Add an evidence paragraph grounded in specific studies, metrics, or datasets.",
+    "Add a closing synthesis paragraph that explains what the introduction section implies for the broader review.",
+    "Restore the missing rhetorical moves so the section retains framing, evidence, synthesis, and gap handling where expected.",
+    "Add a closing synthesis paragraph that explains what the body section implies for the broader review.",
+    "Add a gap paragraph linking unresolved evidence, insufficiency, and concrete research need.",
+    "Add a closing synthesis paragraph that explains what the gap section implies for the broader review.",
+    "Include a paragraph that states the unresolved gap, why evidence is insufficient, and the next research need."
+  ]
+}

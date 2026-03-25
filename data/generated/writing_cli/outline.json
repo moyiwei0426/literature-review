@@ -1,0 +1,60 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction and Background",
+    "objective": "Contextualize automated literature review as an emerging research area and establish the scope of this comparative survey",
+    "gap_inputs": [
+      "g1",
+      "g2",
+      "g3"
+    ],
+    "matrix_row_count": 3
+  },
+  {
+    "section_id": "sec-2",
+    "title": "Methodological Approaches",
+    "objective": "Compare the spectrum of methods employed—RAG-based, NLP pipeline, and hybrid approaches—and evaluate their architectural differences",
+    "gap_inputs": [
+      "g3"
+    ],
+    "matrix_row_count": 3
+  },
+  {
+    "section_id": "sec-3",
+    "title": "Evaluation Metrics and Reporting Practices",
+    "objective": "Analyze metric heterogeneity (ROUGE-L, F1, precision, AUC) across studies and identify inconsistencies that hinder cross-study comparison",
+    "gap_inputs": [
+      "g2"
+    ],
+    "matrix_row_count": 3
+  },
+  {
+    "section_id": "sec-4",
+    "title": "Language Coverage and Cross-lingual Generalization",
+    "objective": "Assess the English-language dominance in current benchmarks and review evidence for multilingual capability claims",
+    "gap_inputs": [
+      "g1"
+    ],
+    "matrix_row_count": 3
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Evidence Grounding and Verification",
+    "objective": "Examine how systems ground their claims in source evidence and evaluate the reliability of evidence chains in performance reporting",
+    "gap_inputs": [
+      "g3"
+    ],
+    "matrix_row_count": 3
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Synthesis and Open Research Problems",
+    "objective": "Integrate findings across sections to articulate consolidated research gaps and future directions for the field",
+    "gap_inputs": [
+      "g1",
+      "g2",
+      "g3"
+    ],
+    "matrix_row_count": 3
+  }
+]

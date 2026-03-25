@@ -1,0 +1,48 @@
+[
+  {
+    "claim_id": "claim-1",
+    "claim_text": "Four variables significantly affect pedestrian red-light running probability: trip purpose, time period in a day, pedestrian's attitude towards running red light when in hurry, and pedestrian's attitude towards quality of road facility affecting crossing behavior",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "52a18a3d-0447-454b-9efb-40672fb4600d",
+      "5e6f11a4-2222-42c2-b6ce-90155ba5cc4c"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-2",
+    "claim_text": "Strolling pedestrians are more likely to have safe crossing behavior compared to those going to work or school (odds ratio = 0.394)",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "6a11d51c-08c8-4379-a971-6706386fdd91"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-3",
+    "claim_text": "Daytime has the highest red-light running probability compared to dawn, dusk, and night periods",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "259a1b36-70ba-44d4-8ffc-6501c87e81d4"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-4",
+    "claim_text": "Pedestrians who indicate they will run a red light when in hurry are more likely to actually do so (odds ratio = 0.299)",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "107791be-71b8-4430-8c26-bff5f625991b"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-5",
+    "claim_text": "Pedestrians whose crossing behavior is affected by road facility quality are more likely to run red lights at intersections without monitoring equipment",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "623a98f5-9103-4ada-a239-50a991c7c4df"
+    ],
+    "confidence": null
+  }
+]

@@ -1,0 +1,113 @@
+{
+  "overview": {
+    "paper_count": 1,
+    "matrix_row_count": 5,
+    "verified_gap_count": 0,
+    "scored_gap_count": 0,
+    "rejected_gap_count": 0,
+    "contradiction_count": 0,
+    "dominant_axis": "method",
+    "average_gap_score": 0.0,
+    "theme_counts": {
+      "method": 1,
+      "task": 1,
+      "factor": 1,
+      "application": 1
+    },
+    "coverage_themes": [
+      "Structural equation modeling (SEM) / Survey-based research"
+    ]
+  },
+  "theme_axes": {
+    "method": [
+      {
+        "theme_id": "method:structural_equation_modeling_(sem)_/_survey-based_research",
+        "theme_type": "method",
+        "label": "Structural equation modeling (SEM) / Survey-based research",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Structural equation modeling (SEM) / Survey-based research appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "task": [
+      {
+        "theme_id": "task:predicting_pedestrian_violating_crossing_behavior_intention",
+        "theme_type": "task",
+        "label": "Predicting pedestrian violating crossing behavior intention",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Predicting pedestrian violating crossing behavior intention appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "factor": [
+      {
+        "theme_id": "factor:behavioral_factors",
+        "theme_type": "factor",
+        "label": "behavioral_factors",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "application": [
+      {
+        "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+        "theme_type": "application",
+        "label": "Survey data from 260 respondents in Dalian, China",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ]
+  },
+  "top_themes": [
+    {
+      "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+      "theme_type": "application",
+      "label": "Survey data from 260 respondents in Dalian, China",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "factor:behavioral_factors",
+      "theme_type": "factor",
+      "label": "behavioral_factors",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "method:structural_equation_modeling_(sem)_/_survey-based_research",
+      "theme_type": "method",
+      "label": "Structural equation modeling (SEM) / Survey-based research",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "Structural equation modeling (SEM) / Survey-based research appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "task:predicting_pedestrian_violating_crossing_behavior_intention",
+      "theme_type": "task",
+      "label": "Predicting pedestrian violating crossing behavior intention",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "Predicting pedestrian violating crossing behavior intention appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    }
+  ]
+}

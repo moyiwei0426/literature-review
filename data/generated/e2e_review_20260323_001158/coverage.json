@@ -1,0 +1,38 @@
+{
+  "paper_count": 3,
+  "method_family_distribution": {
+    "Virtual Reality Experiment / Human-subjects laboratory experiment": 1,
+    "Binomial logistic regression / Statistical modeling": 1,
+    "Random parameter logit model (binary logit regression with normally distributed random parameters)": 1
+  },
+  "task_distribution": {
+    "Pedestrian crossing decision at crosswalk with approaching FAV": 1,
+    "Feature preference evaluation": 1,
+    "Receptivity assessment before/after exposure": 1,
+    "Predict probability of pedestrian red-light running behavior": 1,
+    "Identify significant factors affecting red-light running": 1,
+    "Analyze pedestrian red light running decision-making; measure effects of personal factors (gender, age, companion presence), environmental factors (signal timing, traffic volume), and social influences (behavior of other pedestrians)": 1
+  },
+  "language_distribution": {
+    "english": 3
+  },
+  "dataset_distribution": {
+    "Custom VR pedestrian simulator developed in Unity 5": 1,
+    "Pedestrian behavior questionnaire (PBQ) - 20-item short version": 1,
+    "Pedestrian Receptivity Questionnaire for FAVs (PRQF)": 1,
+    "Personal Innovativeness Scale": 1,
+    "Hefei pedestrian survey data (631 valid samples from 6 signalized intersections)": 1,
+    "6320 pedestrians observed across 652 signal cycles at 6 signalized crosswalks in Hong Kong (hotspots with >10 pedestrian crashes in preceding 5 years)": 1
+  },
+  "year_distribution": {
+    "2018": 1,
+    "2016": 1,
+    "2020": 1
+  },
+  "chinese_coverage_count": 2,
+  "themes": [
+    "Virtual Reality Experiment / Human-subjects laboratory experiment",
+    "Binomial logistic regression / Statistical modeling",
+    "Random parameter logit model (binary logit regression with normally distributed random parameters)"
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "key": "p1",
+    "entry": "@article{p1,\n  author={Unknown},\n  title={Automated Literature Review Using NLP and LLM-RAG},\n  year={},\n  journal={preprint}\n}"
+  },
+  {
+    "key": "p2",
+    "entry": "@article{p2,\n  author={Unknown},\n  title={LLM-RAG Review Tool},\n  year={},\n  journal={preprint}\n}"
+  },
+  {
+    "key": "p3",
+    "entry": "@article{p3,\n  author={Unknown},\n  title={NLP Citation Screening},\n  year={},\n  journal={preprint}\n}"
+  }
+]

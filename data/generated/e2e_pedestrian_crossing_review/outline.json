@@ -1,0 +1,56 @@
+[
+  {
+    "section_id": "sec-intro",
+    "title": "Introduction and Research Context",
+    "objective": "Establish the review's motivation, scope, and the specific problem space of automated literature review systems.",
+    "gap_inputs": [],
+    "matrix_row_count": 0
+  },
+  {
+    "section_id": "sec-methods",
+    "title": "Methodological Approaches",
+    "objective": "Categorize and analyze technical approaches, focusing on physical_based_microscopic_simulation; Agent-based modeling / Microscopic traffic simulation / Discrete choice model; cellular_automaton.",
+    "gap_inputs": [],
+    "matrix_row_count": 56
+  },
+  {
+    "section_id": "sec-tasks",
+    "title": "Task Scope and System Capabilities",
+    "objective": "Examine the range of tasks addressed, including lane_formation_reproduction; Pedestrian traffic light scheduling; gap_acceptance_prediction, and how system capabilities vary across them.",
+    "gap_inputs": [],
+    "matrix_row_count": 56
+  },
+  {
+    "section_id": "sec-claims",
+    "title": "Claim Synthesis and Cross-Paper Comparability",
+    "objective": "Synthesize specific claims from the evidence matrix, assess where papers converge or conflict, and evaluate metric standardization.",
+    "gap_inputs": [
+      "23e51c49-2b7d-4acc-89f3-db43626d66b9"
+    ],
+    "matrix_row_count": 56
+  },
+  {
+    "section_id": "sec-gaps",
+    "title": "Research Gaps and Opportunities",
+    "objective": "Present 2 verified gaps and explain what evidence substantiates each.",
+    "gap_inputs": [
+      "7c3ac66f-4bf6-4237-b385-ea37606c75ed",
+      "23e51c49-2b7d-4acc-89f3-db43626d66b9"
+    ],
+    "matrix_row_count": 0
+  },
+  {
+    "section_id": "sec-discussion",
+    "title": "Discussion: Synthesis and Future Directions",
+    "objective": "Synthesize findings and prioritize important open problems for future research.",
+    "gap_inputs": [],
+    "matrix_row_count": 0
+  },
+  {
+    "section_id": "sec-conclusion",
+    "title": "Conclusion",
+    "objective": "Summarize key comparative findings, gap priorities, and the contribution of this review to the field.",
+    "gap_inputs": [],
+    "matrix_row_count": 0
+  }
+]

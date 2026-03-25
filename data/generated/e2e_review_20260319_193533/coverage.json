@@ -1,0 +1,20 @@
+{
+  "paper_count": 1,
+  "method_family_distribution": {
+    "Extractive Summarization": 1,
+    "Seq2Seq Transformer": 1,
+    "Retrieval-Augmented Generation (RAG)": 1
+  },
+  "task_distribution": {
+    "Automated Literature Review Generation": 1,
+    "Scientific Document Summarization": 1
+  },
+  "language_distribution": {
+    "English (scientific documents)": 1
+  },
+  "dataset_distribution": {
+    "SciTLDR (5,400 TLDRs from 3,200+ papers)": 1
+  },
+  "year_distribution": {},
+  "chinese_coverage_count": 0
+}

@@ -1,0 +1,8 @@
+controlled field experiment
+predicting pedestrian violating crossing behavior intentions
+pedestrian crossing behavior under mobile phone distraction
+identify factors affecting pedestrian red-light running behavior at signalized intersections
+28 college students at signalized intersection in hefei, china
+survey-based structural equation modeling (sem)
+statistical modeling (binomial logistic regression)
+survey data from 260 respondents in dalian, china

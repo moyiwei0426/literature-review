@@ -1,0 +1,56 @@
+[
+  {
+    "section_id": "sec-intro",
+    "title": "Introduction and Research Context",
+    "objective": "Establish the review's motivation, scope, and the specific problem space of automated literature review systems.",
+    "gap_inputs": [],
+    "matrix_row_count": 0
+  },
+  {
+    "section_id": "sec-methods",
+    "title": "Methodological Approaches",
+    "objective": "Categorize and analyze technical approaches, focusing on Virtual Reality Experiment, Randomized Complete Block Design; Random parameter logit model (mixed logit); binary_logistic_regression.",
+    "gap_inputs": [],
+    "matrix_row_count": 15
+  },
+  {
+    "section_id": "sec-tasks",
+    "title": "Task Scope and System Capabilities",
+    "objective": "Examine the range of tasks addressed, including Pedestrian crossing behavior at virtual crosswalk; Feature preference assessment; predict probability of pedestrians' red-light running behavior at intersections, and how system capabilities vary across them.",
+    "gap_inputs": [],
+    "matrix_row_count": 15
+  },
+  {
+    "section_id": "sec-claims",
+    "title": "Claim Synthesis and Cross-Paper Comparability",
+    "objective": "Synthesize specific claims from the evidence matrix, assess where papers converge or conflict, and evaluate metric standardization.",
+    "gap_inputs": [
+      "2b44c14b-7698-4c7d-860f-934ee7788022"
+    ],
+    "matrix_row_count": 15
+  },
+  {
+    "section_id": "sec-gaps",
+    "title": "Research Gaps and Opportunities",
+    "objective": "Present 2 verified gaps and explain what evidence substantiates each.",
+    "gap_inputs": [
+      "63f2bf23-2a41-4c3b-82f8-1c6fb8402eb0",
+      "2b44c14b-7698-4c7d-860f-934ee7788022"
+    ],
+    "matrix_row_count": 0
+  },
+  {
+    "section_id": "sec-discussion",
+    "title": "Discussion: Synthesis and Future Directions",
+    "objective": "Synthesize findings and prioritize important open problems for future research.",
+    "gap_inputs": [],
+    "matrix_row_count": 0
+  },
+  {
+    "section_id": "sec-conclusion",
+    "title": "Conclusion",
+    "objective": "Summarize key comparative findings, gap priorities, and the contribution of this review to the field.",
+    "gap_inputs": [],
+    "matrix_row_count": 0
+  }
+]

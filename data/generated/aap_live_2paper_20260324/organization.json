@@ -1,0 +1,18 @@
+{
+  "recommended_structure": "factor_taxonomy",
+  "scores": {
+    "method_taxonomy": 2.6,
+    "task_taxonomy": 3.9,
+    "factor_taxonomy": 14.8,
+    "application_scenario": 2.8
+  },
+  "rationale": "Cross-paper factor signals are dense enough to support a variable-centered narrative.",
+  "signals": {
+    "method_theme_count": 2,
+    "task_theme_count": 3,
+    "factor_theme_count": 6,
+    "application_theme_count": 2,
+    "contradiction_count": 0,
+    "average_gap_score": 0.0
+  }
+}

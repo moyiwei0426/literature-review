@@ -1,0 +1,170 @@
+{
+  "generated_at": "2026-03-24T04:58:35.852307+00:00",
+  "validator": "review_validator.rule_based.v1",
+  "status": "pass",
+  "overall_status": "pass",
+  "counts": {
+    "section_count": 6,
+    "healthy_section_count": 6,
+    "weak_section_count": 0,
+    "finding_count": 0,
+    "findings": 0,
+    "severity_counts": {}
+  },
+  "summary": {
+    "overall_status": "pass",
+    "section_count": 6,
+    "healthy_section_count": 6,
+    "weak_section_count": 0,
+    "finding_count": 0,
+    "severity_counts": {},
+    "flagged_sections": []
+  },
+  "sections": [
+    {
+      "section_id": "sec-intro",
+      "title": "Introduction and Review Scope",
+      "role": "introduction",
+      "status": "pass",
+      "expected_moves": [
+        "framing",
+        "evidence",
+        "synthesis",
+        "gap"
+      ],
+      "observed_moves": {
+        "framing": 1,
+        "evidence": 1,
+        "synthesis": 1,
+        "gap": 1
+      },
+      "paragraph_count": 4,
+      "cited_paragraph_count": 4,
+      "section_citation_count": 3,
+      "linked_gap_count": 1,
+      "findings": [],
+      "recommendations": []
+    },
+    {
+      "section_id": "sec-factor-taxonomy",
+      "title": "Factor Taxonomy and Contextual Drivers",
+      "role": "introduction",
+      "status": "pass",
+      "expected_moves": [
+        "framing",
+        "evidence",
+        "comparison",
+        "synthesis",
+        "gap"
+      ],
+      "observed_moves": {
+        "framing": 1,
+        "evidence": 1,
+        "comparison": 1,
+        "synthesis": 1,
+        "gap": 1
+      },
+      "paragraph_count": 5,
+      "cited_paragraph_count": 5,
+      "section_citation_count": 3,
+      "linked_gap_count": 1,
+      "findings": [],
+      "recommendations": []
+    },
+    {
+      "section_id": "sec-factor-design-factors",
+      "title": "Factor Focus: Design Factors",
+      "role": "body",
+      "status": "pass",
+      "expected_moves": [
+        "framing",
+        "evidence",
+        "synthesis",
+        "gap"
+      ],
+      "observed_moves": {
+        "framing": 1,
+        "evidence": 1,
+        "synthesis": 1,
+        "gap": 1
+      },
+      "paragraph_count": 4,
+      "cited_paragraph_count": 4,
+      "section_citation_count": 3,
+      "linked_gap_count": 1,
+      "findings": [],
+      "recommendations": []
+    },
+    {
+      "section_id": "sec-factor-taxonomy-comparison",
+      "title": "Comparative Factor Evidence and Interactions",
+      "role": "comparison",
+      "status": "pass",
+      "expected_moves": [
+        "framing",
+        "comparison",
+        "evidence",
+        "synthesis",
+        "gap"
+      ],
+      "observed_moves": {
+        "framing": 1,
+        "comparison": 1,
+        "evidence": 1,
+        "synthesis": 1,
+        "gap": 1
+      },
+      "paragraph_count": 5,
+      "cited_paragraph_count": 5,
+      "section_citation_count": 3,
+      "linked_gap_count": 1,
+      "findings": [],
+      "recommendations": []
+    },
+    {
+      "section_id": "sec-gaps",
+      "title": "Research Gaps and Opportunities",
+      "role": "gap",
+      "status": "pass",
+      "expected_moves": [
+        "framing",
+        "gap",
+        "synthesis"
+      ],
+      "observed_moves": {
+        "framing": 1,
+        "gap": 1,
+        "synthesis": 1
+      },
+      "paragraph_count": 3,
+      "cited_paragraph_count": 3,
+      "section_citation_count": 2,
+      "linked_gap_count": 1,
+      "findings": [],
+      "recommendations": []
+    },
+    {
+      "section_id": "sec-conclusion",
+      "title": "Conclusion",
+      "role": "conclusion",
+      "status": "pass",
+      "expected_moves": [
+        "synthesis",
+        "comparison",
+        "gap"
+      ],
+      "observed_moves": {
+        "synthesis": 2,
+        "comparison": 1,
+        "gap": 1
+      },
+      "paragraph_count": 4,
+      "cited_paragraph_count": 4,
+      "section_citation_count": 2,
+      "linked_gap_count": 1,
+      "findings": [],
+      "recommendations": []
+    }
+  ],
+  "recommendations": []
+}

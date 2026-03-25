@@ -1,0 +1,332 @@
+[
+  {
+    "paper_id": "b21b43b2-e157-4fc2-bf4d-e7c3c630ffa8",
+    "title": "A Multiagent Approach to Autonomous Intersection Management",
+    "year": 2008,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 1296,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1613/jair.2502"
+  },
+  {
+    "paper_id": "1b629c74-8096-404e-b6c7-956691813571",
+    "title": "PIE: A Large-Scale Dataset and Models for Pedestrian Intention Estimation and Trajectory Prediction",
+    "year": 2019,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 422,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1109/iccv.2019.00636"
+  },
+  {
+    "paper_id": "dbd1db5f-8dfc-452c-a811-b12731c41974",
+    "title": "Analysis of pedestrians’ behavior at pedestrian crossings",
+    "year": 2001,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 416,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1016/s0925-7535(00)00058-8"
+  },
+  {
+    "paper_id": "61f356c3-b376-4fff-ab04-10e427ccbc2c",
+    "title": "Pedestrian behaviors at and perceptions towards various pedestrian facilities: an examination based on observation and survey data",
+    "year": 2003,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 373,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1016/j.trf.2003.06.001"
+  },
+  {
+    "paper_id": "ba493a1f-bcfb-44a7-8e49-db3ad0d7c8d9",
+    "title": "Understanding Pedestrian Behavior in Complex Traffic Scenes",
+    "year": 2018,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 258,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1109/tiv.2017.2788193"
+  },
+  {
+    "paper_id": "84c02447-b1da-47ee-872c-820c19b3035b",
+    "title": "Application of social force model to pedestrian behavior analysis at signalized crosswalk",
+    "year": 2014,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 245,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1016/j.trc.2014.01.007"
+  },
+  {
+    "paper_id": "3f05a6e8-a0b4-47c1-b128-7c9c044921f8",
+    "title": "Development and validation of a questionnaire to assess pedestrian receptivity toward fully autonomous vehicles",
+    "year": 2017,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 245,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1016/j.trc.2017.08.029"
+  },
+  {
+    "paper_id": "cf576487-e7ec-43db-9544-eb8bfe2a3b94",
+    "title": "Investigating pedestrian suggestions for external features on fully autonomous vehicles: A virtual reality experiment",
+    "year": 2018,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 216,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1016/j.trf.2018.08.016"
+  },
+  {
+    "paper_id": "9d2afaf7-2c26-4651-9d02-8ec449530a1b",
+    "title": "The impact of waiting time and other factors on dangerous pedestrian crossings and violations at signalized intersections: A case study in Montreal",
+    "year": 2013,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 213,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1016/j.trf.2013.09.010"
+  },
+  {
+    "paper_id": "85264c73-4962-4ad5-817a-7036a2f8d96e",
+    "title": "Analysis of Driver Behavior in Dilemma Zones at Signalized Intersections",
+    "year": 2007,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 192,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.3141/2030-05"
+  },
+  {
+    "paper_id": "0be80671-58bd-4f18-8f75-8d1fc4f64f35",
+    "title": "Modeling pedestrians’ road crossing behavior in traffic system micro-simulation in China",
+    "year": 2005,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 178,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1016/j.tra.2005.08.001"
+  },
+  {
+    "paper_id": "37b55d5d-b466-4f94-b014-21c8254ee58c",
+    "title": "Predicting Pedestrian Crossing Intention With Feature Fusion and Spatio-Temporal Attention",
+    "year": 2022,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 176,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1109/tiv.2022.3162719"
+  },
+  {
+    "paper_id": "6d119ff3-d67b-4548-ac35-eb3f82888a3a",
+    "title": "An extension of the theory of planned behavior to predict pedestrians’ violating crossing behavior using structural equation modeling",
+    "year": 2015,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 161,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1016/j.aap.2015.09.009"
+  },
+  {
+    "paper_id": "8b7bfb29-687c-4bf7-aaf4-4be4c3122c21",
+    "title": "Crossing Behaviors of Pedestrians at Signalized Intersections: Observational Study and Survey in China",
+    "year": 2011,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 158,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.3141/2264-08"
+  },
+  {
+    "paper_id": "ef32aee6-8129-4f29-87fc-c2fbee5926c0",
+    "title": "Pedestrian Models for Autonomous Driving Part II: High-Level Models of Human Behavior",
+    "year": 2020,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 140,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1109/tits.2020.3006767"
+  },
+  {
+    "paper_id": "9b5e04c2-8b8a-4c5f-9cde-2170ecdba74f",
+    "title": "Effects of mobile phone distraction on pedestrians’ crossing behavior and visual attention allocation at a signalized intersection: An outdoor experimental study",
+    "year": 2018,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 129,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1016/j.aap.2018.03.019"
+  },
+  {
+    "paper_id": "4ffb0b6a-b8ba-49e8-9e35-098a165aabd6",
+    "title": "Analyzing driver-pedestrian interaction at crosswalks: A contribution to autonomous driving in urban environments",
+    "year": 2016,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 128,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1109/ivs.2016.7535361"
+  },
+  {
+    "paper_id": "1be0bff2-74b5-4311-9189-e2b3e42c7cd2",
+    "title": "A comparative study of safe and unsafe signalized intersections from the view point of pedestrian behavior and perception",
+    "year": 2019,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 97,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1016/j.aap.2019.06.010"
+  },
+  {
+    "paper_id": "19923b9e-f4b6-48b1-a265-312ca1f5e297",
+    "title": "Pedestrian Trajectory Prediction in Pedestrian-Vehicle Mixed Environments: A Systematic Review",
+    "year": 2023,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 89,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1109/tits.2023.3291196"
+  },
+  {
+    "paper_id": "ad8c66a3-9e9f-48a9-85be-493a84b606b0",
+    "title": "A model of pedestrians’ intended waiting times for street crossings at signalized intersections",
+    "year": 2013,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 83,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1016/j.trb.2013.02.002"
+  },
+  {
+    "paper_id": "9594e108-1ea3-4010-9435-c9e67ccb62ac",
+    "title": "Pedestrian Crossing Intention Prediction at Red-Light Using Pose Estimation",
+    "year": 2021,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 74,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1109/tits.2021.3074829"
+  },
+  {
+    "paper_id": "8d0c5c44-ed10-4802-a79c-74c10ddae3b5",
+    "title": "Exploring factors affecting pedestrians’ red-light running behaviors at intersections in China",
+    "year": 2016,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 73,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1016/j.aap.2016.07.038"
+  },
+  {
+    "paper_id": "f372e0c6-b237-496c-b3ec-1f0b74e53bb6",
+    "title": "PIT: Progressive Interaction Transformer for Pedestrian Crossing Intention Prediction",
+    "year": 2023,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 72,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1109/tits.2023.3309309"
+  },
+  {
+    "paper_id": "62439581-34b3-4c3c-9a40-160da9590c07",
+    "title": "Roles of personal and environmental factors in the red light running propensity of pedestrian: Case study at the urban crosswalks",
+    "year": 2020,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 70,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1016/j.trf.2020.11.001"
+  },
+  {
+    "paper_id": "1d7913e9-357a-4e10-ad8c-cd885d5a0eb4",
+    "title": "Modeling the interaction between vehicle yielding and pedestrian crossing behavior at unsignalized midblock crosswalks",
+    "year": 2020,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 69,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1016/j.trf.2020.06.019"
+  },
+  {
+    "paper_id": "4c9a67be-f209-4689-9325-86b3708392ee",
+    "title": "Study on pedestrian crossing behavior at signalized intersections",
+    "year": 2014,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 67,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1016/s2095-7564(15)30094-5"
+  },
+  {
+    "paper_id": "2069a9c6-0761-4289-97cb-7d647acdff1b",
+    "title": "A probabilistic model of pedestrian crossing behavior at signalized intersections for connected vehicles",
+    "year": 2016,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 65,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1016/j.trc.2016.07.011"
+  },
+  {
+    "paper_id": "d671c201-69b1-4102-b38a-20d9924b3d27",
+    "title": "Modeling pedestrian crossing speed profiles considering speed change behavior for the safety assessment of signalized intersections",
+    "year": 2017,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 62,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1016/j.aap.2017.08.028"
+  },
+  {
+    "paper_id": "4d4fb0a2-babc-4e96-bbd8-aeb795780166",
+    "title": "Red Light Running Behavior of Electric Bicycles at Signalized Intersections in China",
+    "year": 2014,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 57,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.3141/2468-04"
+  },
+  {
+    "paper_id": "b5027e94-8172-439b-b23f-e435d140bbf5",
+    "title": "Pedestrian Behavior in Shared Spaces With Autonomous Vehicles: An Integrated Framework and Review",
+    "year": 2021,
+    "sources": [
+      "openalex"
+    ],
+    "citation_count": 56,
+    "arxiv_id": null,
+    "doi": "https://doi.org/10.1109/tiv.2021.3116436"
+  }
+]

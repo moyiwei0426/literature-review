@@ -1,0 +1,1577 @@
+[
+  {
+    "section_id": "sec-intro",
+    "title": "Introduction and Review Scope",
+    "section_goal": "Establish the review motivation, scope, and the evidence base that the selected structure will organize. Use Design Factors, Llm Assisted Extraction as the organizing lens across 6 matrix rows while keeping 1 linked gap signal visible.",
+    "blocks": [
+      {
+        "block_id": "sec-intro-block-1",
+        "move_id": "sec-intro-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Introduction and Review Scope around Design Factors, Llm Assisted Extraction and clarify why this evidence cluster matters.",
+        "intended_purpose": "Frame Introduction and Review Scope around Design Factors, Llm Assisted Extraction and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_points": [
+          "Automatically extract structured literature review signals from academic papers."
+        ],
+        "rhetorical_role": "framing",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-intro-block-2",
+        "move_id": "sec-intro-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "intended_purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The system supports downstream gap analysis by preserving evidence links.",
+          "The system supports downstream gap analysis by preserving evidence links."
+        ],
+        "rhetorical_role": "evidence",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-intro-block-3",
+        "move_id": "sec-intro-synthesis-3",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "intended_purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Design Factors, Llm Assisted Extraction."
+        ],
+        "rhetorical_role": "synthesis",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-intro-block-4",
+        "move_id": "sec-intro-gap-4",
+        "move_type": "gap",
+        "purpose": "Surface 1 linked gap signal(s) and explain what remains unresolved.",
+        "intended_purpose": "Surface 1 linked gap signal(s) and explain what remains unresolved.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_points": [
+          "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation."
+        ],
+        "rhetorical_role": "gap",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Name the unresolved issue directly and frame it as a review-relevant limitation in the evidence base."
+          },
+          {
+            "role": "evidence",
+            "directive": "Point to the partial evidence or reporting pattern that makes the gap visible."
+          },
+          {
+            "role": "closing",
+            "directive": "End with the implication of leaving this gap unresolved and a transition toward synthesis or future work."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-factor-taxonomy",
+    "title": "Factor Taxonomy and Contextual Drivers",
+    "section_goal": "Organize the review around variable-centered factors and explain how the strongest contextual drivers shape the evidence base. Use Design Factors, Llm Assisted Extraction as the organizing lens across 6 matrix rows while keeping 1 linked gap signal visible.",
+    "blocks": [
+      {
+        "block_id": "sec-factor-taxonomy-block-1",
+        "move_id": "sec-factor-taxonomy-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Factor Taxonomy and Contextual Drivers around Design Factors, Llm Assisted Extraction and clarify why this evidence cluster matters.",
+        "intended_purpose": "Frame Factor Taxonomy and Contextual Drivers around Design Factors, Llm Assisted Extraction and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_points": [
+          "Automatically extract structured literature review signals from academic papers."
+        ],
+        "rhetorical_role": "framing",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-factor-taxonomy-block-2",
+        "move_id": "sec-factor-taxonomy-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "intended_purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The system supports downstream gap analysis by preserving evidence links.",
+          "The system supports downstream gap analysis by preserving evidence links."
+        ],
+        "rhetorical_role": "evidence",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-factor-taxonomy-block-3",
+        "move_id": "sec-factor-taxonomy-comparison-3",
+        "move_type": "comparison",
+        "purpose": "Compare how Design Factors, Llm Assisted Extraction diverge in evidence density, contradictions, or reporting conventions.",
+        "intended_purpose": "Compare how Design Factors, Llm Assisted Extraction diverge in evidence density, contradictions, or reporting conventions.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s).",
+          "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        ],
+        "rhetorical_role": "comparison",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Set up the comparison dimension and clarify what is being contrasted."
+          },
+          {
+            "role": "evidence",
+            "directive": "Use the most relevant matched evidence to explain where studies converge or diverge."
+          },
+          {
+            "role": "closing",
+            "directive": "Close by stating the comparative takeaway and transition into the remaining limitation or implication."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-factor-taxonomy-block-4",
+        "move_id": "sec-factor-taxonomy-synthesis-4",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "intended_purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Design Factors, Llm Assisted Extraction."
+        ],
+        "rhetorical_role": "synthesis",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-factor-taxonomy-block-5",
+        "move_id": "sec-factor-taxonomy-gap-5",
+        "move_type": "gap",
+        "purpose": "Surface 1 linked gap signal(s) and explain what remains unresolved.",
+        "intended_purpose": "Surface 1 linked gap signal(s) and explain what remains unresolved.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_points": [
+          "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation."
+        ],
+        "rhetorical_role": "gap",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Name the unresolved issue directly and frame it as a review-relevant limitation in the evidence base."
+          },
+          {
+            "role": "evidence",
+            "directive": "Point to the partial evidence or reporting pattern that makes the gap visible."
+          },
+          {
+            "role": "closing",
+            "directive": "End with the implication of leaving this gap unresolved and a transition toward synthesis or future work."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-factor-design-factors",
+    "title": "Factor Focus: Design Factors",
+    "section_goal": "Synthesize the design factors evidence cluster across 8 studies, highlighting 0 gap signals and 0 contradiction signals. Use Design Factors, Llm Assisted Extraction as the organizing lens across 6 matrix rows while keeping 1 linked gap signal visible.",
+    "blocks": [
+      {
+        "block_id": "sec-factor-design-factors-block-1",
+        "move_id": "sec-factor-design-factors-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Factor Focus: Design Factors around Design Factors, Llm Assisted Extraction and clarify why this evidence cluster matters.",
+        "intended_purpose": "Frame Factor Focus: Design Factors around Design Factors, Llm Assisted Extraction and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_points": [
+          "Automatically extract structured literature review signals from academic papers."
+        ],
+        "rhetorical_role": "framing",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-factor-design-factors-block-2",
+        "move_id": "sec-factor-design-factors-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "intended_purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The system supports downstream gap analysis by preserving evidence links.",
+          "The system supports downstream gap analysis by preserving evidence links."
+        ],
+        "rhetorical_role": "evidence",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-factor-design-factors-block-3",
+        "move_id": "sec-factor-design-factors-synthesis-3",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "intended_purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Design Factors, Llm Assisted Extraction."
+        ],
+        "rhetorical_role": "synthesis",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-factor-design-factors-block-4",
+        "move_id": "sec-factor-design-factors-gap-4",
+        "move_type": "gap",
+        "purpose": "Surface 1 linked gap signal(s) and explain what remains unresolved.",
+        "intended_purpose": "Surface 1 linked gap signal(s) and explain what remains unresolved.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_points": [
+          "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation."
+        ],
+        "rhetorical_role": "gap",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Name the unresolved issue directly and frame it as a review-relevant limitation in the evidence base."
+          },
+          {
+            "role": "evidence",
+            "directive": "Point to the partial evidence or reporting pattern that makes the gap visible."
+          },
+          {
+            "role": "closing",
+            "directive": "End with the implication of leaving this gap unresolved and a transition toward synthesis or future work."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-factor-taxonomy-comparison",
+    "title": "Comparative Factor Evidence and Interactions",
+    "section_goal": "Compare the strongest factor themes, emphasizing interaction patterns, shared covariates, and variable-level gaps. Use Design Factors, Llm Assisted Extraction as the organizing lens across 6 matrix rows while keeping 1 linked gap signal visible.",
+    "blocks": [
+      {
+        "block_id": "sec-factor-taxonomy-comparison-block-1",
+        "move_id": "sec-factor-taxonomy-comparison-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Comparative Factor Evidence and Interactions around Design Factors, Llm Assisted Extraction and clarify why this evidence cluster matters.",
+        "intended_purpose": "Frame Comparative Factor Evidence and Interactions around Design Factors, Llm Assisted Extraction and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_points": [
+          "Automatically extract structured literature review signals from academic papers."
+        ],
+        "rhetorical_role": "framing",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-factor-taxonomy-comparison-block-2",
+        "move_id": "sec-factor-taxonomy-comparison-comparison-2",
+        "move_type": "comparison",
+        "purpose": "Compare how Design Factors, Llm Assisted Extraction diverge in evidence density, contradictions, or reporting conventions.",
+        "intended_purpose": "Compare how Design Factors, Llm Assisted Extraction diverge in evidence density, contradictions, or reporting conventions.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s).",
+          "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        ],
+        "rhetorical_role": "comparison",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Set up the comparison dimension and clarify what is being contrasted."
+          },
+          {
+            "role": "evidence",
+            "directive": "Use the most relevant matched evidence to explain where studies converge or diverge."
+          },
+          {
+            "role": "closing",
+            "directive": "Close by stating the comparative takeaway and transition into the remaining limitation or implication."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-factor-taxonomy-comparison-block-3",
+        "move_id": "sec-factor-taxonomy-comparison-evidence-3",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "intended_purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The system supports downstream gap analysis by preserving evidence links.",
+          "The system supports downstream gap analysis by preserving evidence links."
+        ],
+        "rhetorical_role": "evidence",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-factor-taxonomy-comparison-block-4",
+        "move_id": "sec-factor-taxonomy-comparison-synthesis-4",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "intended_purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Design Factors, Llm Assisted Extraction."
+        ],
+        "rhetorical_role": "synthesis",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-factor-taxonomy-comparison-block-5",
+        "move_id": "sec-factor-taxonomy-comparison-gap-5",
+        "move_type": "gap",
+        "purpose": "Surface 1 linked gap signal(s) and explain what remains unresolved.",
+        "intended_purpose": "Surface 1 linked gap signal(s) and explain what remains unresolved.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_points": [
+          "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation."
+        ],
+        "rhetorical_role": "gap",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Name the unresolved issue directly and frame it as a review-relevant limitation in the evidence base."
+          },
+          {
+            "role": "evidence",
+            "directive": "Point to the partial evidence or reporting pattern that makes the gap visible."
+          },
+          {
+            "role": "closing",
+            "directive": "End with the implication of leaving this gap unresolved and a transition toward synthesis or future work."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-gaps",
+    "title": "Research Gaps and Opportunities",
+    "section_goal": "Present 1 verified gap and explain how they shape the next research agenda. Use Design Factors, Llm Assisted Extraction as the organizing lens across 6 matrix rows while keeping 1 linked gap signal visible.",
+    "blocks": [
+      {
+        "block_id": "sec-gaps-block-1",
+        "move_id": "sec-gaps-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Research Gaps and Opportunities around Design Factors, Llm Assisted Extraction and clarify why this evidence cluster matters.",
+        "intended_purpose": "Frame Research Gaps and Opportunities around Design Factors, Llm Assisted Extraction and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "Automatically extract structured literature review signals from academic papers."
+        ],
+        "rhetorical_role": "framing",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-gaps-block-2",
+        "move_id": "sec-gaps-gap-2",
+        "move_type": "gap",
+        "purpose": "Surface 1 linked gap signal(s) and explain what remains unresolved.",
+        "intended_purpose": "Surface 1 linked gap signal(s) and explain what remains unresolved.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation."
+        ],
+        "rhetorical_role": "gap",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Name the unresolved issue directly and frame it as a review-relevant limitation in the evidence base."
+          },
+          {
+            "role": "evidence",
+            "directive": "Point to the partial evidence or reporting pattern that makes the gap visible."
+          },
+          {
+            "role": "closing",
+            "directive": "End with the implication of leaving this gap unresolved and a transition toward synthesis or future work."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-gaps-block-3",
+        "move_id": "sec-gaps-synthesis-3",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "intended_purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Design Factors, Llm Assisted Extraction."
+        ],
+        "rhetorical_role": "synthesis",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-conclusion",
+    "title": "Conclusion",
+    "section_goal": "Summarize the selected taxonomy, the strongest synthesis themes, and the main future directions implied by the evidence base. Use Design Factors, Llm Assisted Extraction as the organizing lens across 6 matrix rows while keeping 1 linked gap signal visible.",
+    "blocks": [
+      {
+        "block_id": "sec-conclusion-block-1",
+        "move_id": "sec-conclusion-synthesis-1",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "intended_purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Design Factors, Llm Assisted Extraction."
+        ],
+        "rhetorical_role": "synthesis",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-conclusion-block-2",
+        "move_id": "sec-conclusion-comparison-2",
+        "move_type": "comparison",
+        "purpose": "Compare how Design Factors, Llm Assisted Extraction diverge in evidence density, contradictions, or reporting conventions.",
+        "intended_purpose": "Compare how Design Factors, Llm Assisted Extraction diverge in evidence density, contradictions, or reporting conventions.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s).",
+          "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        ],
+        "rhetorical_role": "comparison",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Set up the comparison dimension and clarify what is being contrasted."
+          },
+          {
+            "role": "evidence",
+            "directive": "Use the most relevant matched evidence to explain where studies converge or diverge."
+          },
+          {
+            "role": "closing",
+            "directive": "Close by stating the comparative takeaway and transition into the remaining limitation or implication."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-conclusion-block-3",
+        "move_id": "sec-conclusion-gap-3",
+        "move_type": "gap",
+        "purpose": "Surface 1 linked gap signal(s) and explain what remains unresolved.",
+        "intended_purpose": "Surface 1 linked gap signal(s) and explain what remains unresolved.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:design_factors",
+            "label": "Design Factors",
+            "theme_type": "factor",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "design_factors appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:llm-assisted-extraction",
+            "label": "Llm Assisted Extraction",
+            "theme_type": "method",
+            "evidence_count": 8,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 8.0,
+            "synthesis_note": "llm-assisted-extraction appears in 8 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [
+          {
+            "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+            "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+            "severity": "verified",
+            "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+          }
+        ],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_points": [
+          "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation."
+        ],
+        "rhetorical_role": "gap",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Name the unresolved issue directly and frame it as a review-relevant limitation in the evidence base."
+          },
+          {
+            "role": "evidence",
+            "directive": "Point to the partial evidence or reporting pattern that makes the gap visible."
+          },
+          {
+            "role": "closing",
+            "directive": "End with the implication of leaving this gap unresolved and a transition toward synthesis or future work."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "gap_id": "dc87fdd8-1bd6-4bd7-b82d-50aad12be3e8",
+    "gap_statement": "Current coverage appears to underrepresent Chinese-language or Chinese-context studies.",
+    "gap_type": "language",
+    "supporting_evidence": [
+      "language_distribution={'English': 4, 'english': 9, 'unknown': 1}",
+      "chinese_coverage_count=0"
+    ],
+    "counter_evidence": [
+      "Multiple papers explicitly collect data from Chinese cities: 03_2006_yang_tra (Xi'an), 06_2013_brosseau_trf (Xi'an), 08_2016_zhou_aap (Dalian), 11_2013_yang_trb (Kunming), 14_2020_wang_trf (Shanghai), 10_2020_chen_trf (Hong Kong)",
+      "Paper 03_2006_yang_tra research_problem explicitly states: 'Developing a pedestrian microsimulation model for Chinese cities'",
+      "Paper 06_2013_brosseau_trf addresses 'pedestrian road crossing behavior in traffic system micro-simulation for Chinese cities'"
+    ],
+    "confidence": 0.35,
+    "novelty_value": 0.7,
+    "review_worthiness": 0.49,
+    "status": "partially_verified"
+  },
+  {
+    "gap_id": "e200c51a-8c74-47cd-9b42-f69f98f7d023",
+    "gap_statement": "There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.",
+    "gap_type": "comparison",
+    "supporting_evidence": [
+      "contradiction_count=41",
+      "Papers 03 and 06 both model pedestrian red light running behavior in Chinese cities but report different r2 values (0.69 vs 0.35)",
+      "Paper 04 claims MAPE for position (5.7%) and speed (10.5%) while Paper 17 uses modified_rho_squared as metric - different performance metrics",
+      "Paper 11 claims U-shaped distribution for pedestrian waiting times, which is not addressed by other papers"
+    ],
+    "counter_evidence": [
+      "Some 'tasks' in the matrix are quite distinct - e.g., 'pedestrian_crossing_decision_recognition' (paper 16) vs 'pedestrian_red_light_violation_modeling' (papers 03, 06) are different problem types",
+      "Several contradictions may arise from different methodological approaches rather than conflicting findings"
+    ],
+    "confidence": 0.9,
+    "novelty_value": 0.9,
+    "review_worthiness": 0.9,
+    "status": "verified"
+  }
+]

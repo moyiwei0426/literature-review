@@ -1,0 +1,37 @@
+[
+  {
+    "gap_id": "a621264c-f002-43f8-a362-699946e097d2",
+    "gap_statement": "Current coverage appears to underrepresent Chinese-language or Chinese-context studies.",
+    "gap_type": "language",
+    "supporting_evidence": [
+      "language_distribution={'Persian (Farsi)': 1, 'english': 10}"
+    ],
+    "counter_evidence": [
+      "Multiple papers study Chinese contexts: Xi'an (2003, 2006), Dalian (2016), Kunming (2013), Hefei (2016), Shanghai (2020), Hong Kong (2020)",
+      "8 out of 11 papers collect data in Chinese cities",
+      "However, all publications are in English - no Chinese-language publications are present",
+      "chinese_coverage_count shows 0 in coverage report"
+    ],
+    "confidence": 0.1,
+    "novelty_value": 0.6,
+    "review_worthiness": 0.3,
+    "status": "partially_verified"
+  },
+  {
+    "gap_id": "652719fc-7b3f-457a-b68c-3b6a87dab3af",
+    "gap_statement": "There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.",
+    "gap_type": "comparison",
+    "supporting_evidence": [
+      "contradiction_count=32"
+    ],
+    "counter_evidence": [
+      "Papers nominally under the same task (e.g., 'red light running') use different methodologies: simulation (Yang 2006), SEM (Zhou 2016), random parameter logit (Chen 2020), binary logistic regression (Zhang 2016), mixture distribution modeling (Yang 2013)",
+      "Different task granularities: 'pedestrian_red_light_running_simulation' vs 'predicting_pedestrian_violating_behavior_intention' vs 'examine_effects_of_personal_factors_on_red_light_running' are distinct research foci",
+      "The 32 contradictions may reflect legitimate methodological variation rather than conflicting findings on identical hypotheses"
+    ],
+    "confidence": 0.15,
+    "novelty_value": 0.6,
+    "review_worthiness": 0.33,
+    "status": "partially_verified"
+  }
+]

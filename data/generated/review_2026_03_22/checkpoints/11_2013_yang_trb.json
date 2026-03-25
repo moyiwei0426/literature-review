@@ -1,0 +1,110 @@
+{
+  "paper_id": "11_2013_yang_trb",
+  "title": "Untitled",
+  "research_problem": "Understanding pedestrian street-crossing behavior and modeling pedestrians' intended waiting times at signalized intersections during the red-man phase of traffic light signals",
+  "problem_type": "statistical_modeling",
+  "domain": "transportation_engineering",
+  "language_scope": "english",
+  "method_summary": "The paper proposes a new statistical model for pedestrians' intended waiting times at signalized intersections. It starts from a bounded Pareto distribution for a specific pedestrian under given traffic conditions, then uses a generalized linear model to relate waiting time to vehicle time headway, and finally employs statistical unconditioning to derive the unconditional distribution accounting for vehicle-pedestrian interaction. This leads to a mixture distribution with four components that exhibits a U-shaped pattern.",
+  "method_family": [
+    "mixture_distribution_model"
+  ],
+  "datasets": [
+    "Field data from signalized intersection in Kunming, China (283 valid observations, collected on two consecutive weekend days)"
+  ],
+  "tasks": [
+    "modeling_pedestrian_waiting_times",
+    "pedestrian_behavior_analysis"
+  ],
+  "metrics": [
+    "chi-square_goodness_of_fit_test",
+    "median",
+    "interquartile_range"
+  ],
+  "baselines": [
+    "exponential_distribution",
+    "pareto_distribution",
+    "weibull_distribution",
+    "gamma_distribution"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "Pedestrians' intended waiting times at signalized intersections follow a U-shaped distribution, characterized by a large proportion crossing immediately and a large proportion waiting for the entire red-man phase",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "2b784bd3-a7da-4b5d-b97e-b878d18360d2",
+        "c4b05820-fcfe-47eb-9c44-ad21421b14e1"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "The proposed mixture distribution model with bounded Pareto components can reduce to J-shaped or L-shaped distributions under certain traffic scenarios",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "c8466e52-a9c5-431f-b96e-ba174c6b6f14",
+        "86701135-0f4e-4b85-a254-1538baad0cba"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "The model successfully differentiates between risk-taking and risk-averse pedestrians based on their effective critical headway and sensitivity to vehicle gaps, with practical implications for pedestrian safety",
+      "claim_type": "application",
+      "evidence_chunk_ids": [
+        "c8466e52-a9c5-431f-b96e-ba174c6b6f14",
+        "8f8d76d3-d47e-4b7f-bdfe-fa8d844f5618"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "The commonly used exponential distribution and its extensions are inadequate for modeling bounded pedestrian waiting times at signalized intersections",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "0d9d1d1b-2856-43fd-a5fa-629249473d6c",
+        "c4b05820-fcfe-47eb-9c44-ad21421b14e1"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-5",
+      "claim_text": "Empirical analysis shows that younger pedestrians tend to be risk-takers while elderly pedestrians are more risk-averse, with significant differences in waiting behavior across age and gender groups",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "b8021b0f-7c22-49ab-ab90-09026fcdffcf",
+        "39b61520-9651-43d1-a469-29d6505bf081"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The model focuses on univariate analysis with only waiting time as the explicit variable, limiting ability to simultaneously analyze multiple risk factors",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "215b4b7b-0a00-450d-9f39-7623daeaf176"
+      ]
+    },
+    {
+      "text": "The paper does not address how the model performs at different types of intersections or under varying traffic control schemes beyond the single case study",
+      "source": "inferred",
+      "evidence_chunk_ids": []
+    },
+    {
+      "text": "Parameter estimation relies on EM algorithm which may face identifiability issues common in mixture models, particularly when some components converge to degenerate distributions",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "c2b6ff60-9cc7-4068-bdc6-e10fcfcd9c05",
+        "25703344-0df4-4320-87d2-a3fb7e46f502"
+      ]
+    }
+  ],
+  "future_work": [
+    "Develop multivariate modeling approach for pedestrians' waiting times that can incorporate multiple risk factors simultaneously",
+    "Extend the model to account for multivariate relationships beyond normal or exponential distribution assumptions",
+    "Apply the model to evaluate impact of new traffic-light control schemes and roadway-layout redesigns"
+  ],
+  "notes": "The red-man phase duration in the study was 75 seconds with total signal cycle of 110 seconds; Key model parameters include effective critical headway (ECH) and sensitivity coefficient for excess headway; Risk-taking pedestrians have lower ECH while risk-averse pedestrians have higher ECH; Goodness-of-fit test (chi-square = 3.51) confirmed model validity at 5% significance level; Model was applied to analyze real field data from Kunming, China"
+}

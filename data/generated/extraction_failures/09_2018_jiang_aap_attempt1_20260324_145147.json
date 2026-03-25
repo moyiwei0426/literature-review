@@ -1,0 +1,170 @@
+{
+  "paper_id": "09_2018_jiang_aap",
+  "attempt": 1,
+  "error": "1 validation error for PaperProfile\nmetrics\n  Input should be a valid list [type=list_type, input_value={'crossing_behavior': ['I...', 'Left traffic area']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/list_type",
+  "chunk_count": 47,
+  "normalized_payload": {
+    "title": "Effects of mobile phone distraction on pedestrians' crossing behavior and visual attention allocation at a signalized intersection: An outdoor experimental study",
+    "authors": [
+      "Kang Jiang",
+      "Feiyang Ling",
+      "Zhongxiang Feng",
+      "Changxi Ma",
+      "Wesley Kumfer",
+      "Chen Shao",
+      "Kun Wang"
+    ],
+    "year": 2018,
+    "venue": "Accident Analysis and Prevention",
+    "research_problem": "Investigating how mobile phone distractions (music distraction, phone conversation distraction and text distraction) affect the behavior of pedestrians while they are crossing the street at a signalized intersection, examining both crossing behavior and visual attention allocation.",
+    "problem_type": "Empirical experimental study",
+    "domain": "Transportation safety / Pedestrian safety",
+    "language_scope": "English",
+    "method_summary": "Outdoor-environment experiment conducted among 28 college student pedestrians. Two HD videos and an eye tracker (Tobii Pro Glasses 2) were employed to record and analyze crossing behavior and visual attention allocation under four conditions: undistracted (S0), music distraction (S1), phone conversation distraction (S2), and text distraction (S3).",
+    "method_family": [
+      "Experimental study with repeated measures ANOVA"
+    ],
+    "datasets": [
+      "N/A"
+    ],
+    "tasks": [
+      "Pedestrian street crossing at signalized intersection",
+      "Mobile phone distraction tasks: music listening, phone conversation, text messaging"
+    ],
+    "metrics": {
+      "crossing_behavior": [
+        "Initiate time (time between green light and crossing initiation)",
+        "Look left and right count",
+        "Crossing speed (mean walking speed)"
+      ],
+      "visual_attention": [
+        "Pupil diameter",
+        "Scanning frequency",
+        "Fixation points on five AOIs",
+        "Fixation time on five AOIs",
+        "Fixation duration on five AOIs"
+      ],
+      "areas_of_interest": [
+        "Mobile phone area",
+        "Crosswalk area",
+        "Traffic signal area",
+        "Right traffic area",
+        "Left traffic area"
+      ]
+    },
+    "baselines": [
+      "Undistracted condition (S0) - pedestrians crossing without using mobile phone"
+    ],
+    "main_claims": [
+      {
+        "claim_id": "claim-1",
+        "claim_text": "Text distraction causes the greatest impairment to pedestrian crossing performance, followed by phone conversation distraction and music distraction",
+        "claim_type": "performance",
+        "evidence_chunk_ids": [
+          "3c7ac7c4-614e-4d67-b6c8-0e502155363a",
+          "7e722b72-129d-469e-98bd-6e26b075b1f1",
+          "202c2c0c-a40b-4613-9b68-271e035b5d87",
+          "4edcca08-5e69-4072-91e5-4f0a25bb7c19"
+        ],
+        "confidence": null
+      },
+      {
+        "claim_id": "claim-2",
+        "claim_text": "Music distraction causes pedestrians to initiate crossing later, increase pupil diameter, and reduce scanning frequency as well as fixation points and fixation times toward traffic signal area",
+        "claim_type": "performance",
+        "evidence_chunk_ids": [
+          "7e722b72-129d-469e-98bd-6e26b075b1f1",
+          "202c2c0c-a40b-4613-9b68-271e035b5d87",
+          "ca70ae64-9455-43b1-a309-0a7c9a761bf8",
+          "8b099286-666a-41af-bfe5-84164b9b9fab"
+        ],
+        "confidence": null
+      },
+      {
+        "claim_id": "claim-3",
+        "claim_text": "Pedestrians distracted by phone conversation cross the street more slowly, direct fewer fixation points to the right traffic area, and spend less fixation time and lower average fixation duration on the left traffic area",
+        "claim_type": "performance",
+        "evidence_chunk_ids": [
+          "7e722b72-129d-469e-98bd-6e26b075b1f1",
+          "b560a577-ab88-4a11-83d5-d5471b0d54ba",
+          "fc843270-8b73-4d4c-924d-76c0b7411491"
+        ],
+        "confidence": null
+      },
+      {
+        "claim_id": "claim-4",
+        "claim_text": "Pedestrians distracted by texting look left and right less often and switch, distribute and maintain less visual attention on the traffic environment",
+        "claim_type": "performance",
+        "evidence_chunk_ids": [
+          "7e722b72-129d-469e-98bd-6e26b075b1f1",
+          "b770382d-0015-4179-a4d8-0a69eb22f6b6"
+        ],
+        "confidence": null
+      },
+      {
+        "claim_id": "claim-5",
+        "claim_text": "Eye movement data captured by eye tracker provides more accurate assessment of visual attention allocation than video-derived head movement data",
+        "claim_type": "methodological",
+        "evidence_chunk_ids": [
+          "fc843270-8b73-4d4c-924d-76c0b7411491"
+        ],
+        "confidence": null
+      }
+    ],
+    "limitations": [
+      {
+        "text": "Small sample size (28 college students) limits generalizability to overall pedestrian population",
+        "source": "explicit",
+        "evidence_chunk_ids": [
+          "829ff1ac-46e8-4240-9823-ca15a648866c"
+        ]
+      },
+      {
+        "text": "Sample limited to college students (aged 17-25), may not represent other age groups",
+        "source": "explicit",
+        "evidence_chunk_ids": [
+          "829ff1ac-46e8-4240-9823-ca15a648866c"
+        ]
+      },
+      {
+        "text": "Participants were restricted from self-regulation and behavioral adaptation in experiment, unknown if they would behave same in daily life",
+        "source": "explicit",
+        "evidence_chunk_ids": [
+          "829ff1ac-46e8-4240-9823-ca15a648866c"
+        ]
+      },
+      {
+        "text": "Data collection limited to one specific signalized intersection with very low traffic volume",
+        "source": "explicit",
+        "evidence_chunk_ids": [
+          "829ff1ac-46e8-4240-9823-ca15a648866c"
+        ]
+      },
+      {
+        "text": "Use of unfamiliar phone and mental arithmetic tasks may not exactly conform to participants' daily mobile phone use patterns",
+        "source": "explicit",
+        "evidence_chunk_ids": [
+          "0f7a63da-2ece-4ddf-b2b4-d6a3c55dd556",
+          "829ff1ac-46e8-4240-9823-ca15a648866c"
+        ]
+      },
+      {
+        "text": "Only three specific mobile phone distraction types were studied; other tasks like mobile internet browsing were not examined",
+        "source": "explicit",
+        "evidence_chunk_ids": [
+          "829ff1ac-46e8-4240-9823-ca15a648866c"
+        ]
+      }
+    ],
+    "future_work": [
+      "Extend research to more varied sample with different age groups",
+      "Test this approach in other environments such as non-signalized intersections or intersections with high traffic volume",
+      "Investigate other mobile phone tasks such as mobile internet for fuller understanding of mobile phone distraction and pedestrian crossing safety",
+      "Explore design elements and driver regulations to protect distracted pedestrians",
+      "Examine intervention strategies to reduce distracted walking"
+    ],
+    "notes": "Study conducted at a two-phase traffic-signal-controlled intersection with 40 km/h speed limit in Hefei, China. Participants wore Tobii Pro Glasses 2 eye tracker and used Huawei P9 phone. Green light interval was 21 seconds, red phase was 39 seconds. Crosswalk was 14 meters wide. Experiment conducted December 28, 2016 to January 10, 2017.",
+    "paper_id": "09_2018_jiang_aap"
+  },
+  "raw_response": "{\"title\":\"Effects of mobile phone distraction on pedestrians' crossing behavior and visual attention allocation at a signalized intersection: An outdoor experimental study\",\"authors\":[\"Kang Jiang\",\"Feiyang Ling\",\"Zhongxiang Feng\",\"Changxi Ma\",\"Wesley Kumfer\",\"Chen Shao\",\"Kun Wang\"],\"year\":2018,\"venue\":\"Accident Analysis and Prevention\",\"research_problem\":\"Investigating how mobile phone distractions (music distraction, phone conversation distraction and text distraction) affect the behavior of pedestrians while they are crossing the street at a signalized intersection, examining both crossing behavior and visual attention allocation.\",\"problem_type\":\"Empirical experimental study\",\"domain\":\"Transportation safety / Pedestrian safety\",\"language_scope\":\"English\",\"method_summary\":\"Outdoor-environment experiment conducted among 28 college student pedestrians. Two HD videos and an eye tracker (Tobii Pro Glasses 2) were employed to record and analyze crossing behavior and visual attention allocation under four conditions: undistracted (S0), music distraction (S1), phone conversation distraction (S2), and text distraction (S3).\",\"method_family\":\"Experimental study with repeated measures ANOVA\",\"datasets\":\"N/A\",\"tasks\":[\"Pedestrian street crossing at signalized intersection\",\"Mobile phone distraction tasks: music listening, phone conversation, text messaging\"],\"metrics\":{\"crossing_behavior\":[\"Initiate time (time between green light and crossing initiation)\",\"Look left and right count\",\"Crossing speed (mean walking speed)\"],\"visual_attention\":[\"Pupil diameter\",\"Scanning frequency\",\"Fixation points on five AOIs\",\"Fixation time on five AOIs\",\"Fixation duration on five AOIs\"],\"areas_of_interest\":[\"Mobile phone area\",\"Crosswalk area\",\"Traffic signal area\",\"Right traffic area\",\"Left traffic area\"]},\"baselines\":[\"Undistracted condition (S0) - pedestrians crossing without using mobile phone\"],\"main_claims\":[{\"claim\":\"Text distraction causes the greatest impairment to pedestrian crossing performance, followed by phone conversation distraction and music distraction\",\"claim_type\":\"performance\",\"evidence_chunk_ids\":[\"3c7ac7c4-614e-4d67-b6c8-0e502155363a\",\"7e722b72-129d-469e-98bd-6e26b075b1f1\",\"202c2c0c-a40b-4613-9b68-271e035b5d87\",\"4edcca08-5e69-4072-91e5-4f0a25bb7c19\"]},{\"claim\":\"Music distraction causes pedestrians to initiate crossing later, increase pupil diameter, and reduce scanning frequency as well as fixation points and fixation times toward traffic signal area\",\"claim_type\":\"performance\",\"evidence_chunk_ids\":[\"7e722b72-129d-469e-98bd-6e26b075b1f1\",\"202c2c0c-a40b-4613-9b68-271e035b5d87\",\"ca70ae64-9455-43b1-a309-0a7c9a761bf8\",\"8b099286-666a-41af-bfe5-84164b9b9fab\"]},{\"claim\":\"Pedestrians distracted by phone conversation cross the street more slowly, direct fewer fixation points to the right traffic area, and spend less fixation time and lower average fixation duration on the left traffic area\",\"claim_type\":\"performance\",\"evidence_chunk_ids\":[\"7e722b72-129d-469e-98bd-6e26b075b1f1\",\"b560a577-ab88-4a11-83d5-d5471b0d54ba\",\"fc843270-8b73-4d4c-924d-76c0b7411491\"]},{\"claim\":\"Pedestrians distracted by texting look left and right less often and switch, distribute and maintain less visual attention on the traffic environment\",\"claim_type\":\"performance\",\"evidence_chunk_ids\":[\"7e722b72-129d-469e-98bd-6e26b075b1f1\",\"b770382d-0015-4179-a4d8-0a69eb22f6b6\"]},{\"claim\":\"Eye movement data captured by eye tracker provides more accurate assessment of visual attention allocation than video-derived head movement data\",\"claim_type\":\"methodological\",\"evidence_chunk_ids\":[\"fc843270-8b73-4d4c-924d-76c0b7411491\"]}],\"limitations\":[{\"limitation\":\"Small sample size (28 college students) limits generalizability to overall pedestrian population\",\"source\":\"explicit\",\"evidence_chunk_ids\":[\"829ff1ac-46e8-4240-9823-ca15a648866c\"]},{\"limitation\":\"Sample limited to college students (aged 17-25), may not represent other age groups\",\"source\":\"explicit\",\"evidence_chunk_ids\":[\"829ff1ac-46e8-4240-9823-ca15a648866c\"]},{\"limitation\":\"Participants were restricted from self-regulation and behavioral adaptation in experiment, unknown if they would behave same in daily life\",\"source\":\"explicit\",\"evidence_chunk_ids\":[\"829ff1ac-46e8-4240-9823-ca15a648866c\"]},{\"limitation\":\"Data collection limited to one specific signalized intersection with very low traffic volume\",\"source\":\"explicit\",\"evidence_chunk_ids\":[\"829ff1ac-46e8-4240-9823-ca15a648866c\"]},{\"limitation\":\"Use of unfamiliar phone and mental arithmetic tasks may not exactly conform to participants' daily mobile phone use patterns\",\"source\":\"explicit\",\"evidence_chunk_ids\":[\"0f7a63da-2ece-4ddf-b2b4-d6a3c55dd556\",\"829ff1ac-46e8-4240-9823-ca15a648866c\"]},{\"limitation\":\"Only three specific mobile phone distraction types were studied; other tasks like mobile internet browsing were not examined\",\"source\":\"explicit\",\"evidence_chunk_ids\":[\"829ff1ac-46e8-4240-9823-ca15a648866c\"]}],\"future_work\":[\"Extend research to more varied sample with different age groups\",\"Test this approach in other environments such as non-signalized intersections or intersections with high traffic volume\",\"Investigate other mobile phone tasks such as mobile internet for fuller understanding of mobile phone distraction and pedestrian crossing safety\",\"Explore design elements and driver regulations to protect distracted pedestrians\",\"Examine intervention strategies to reduce distracted walking\"],\"notes\":\"Study conducted at a two-phase traffic-signal-controlled intersection with 40 km/h speed limit in Hefei, China. Participants wore Tobii Pro Glasses 2 eye tracker and used Huawei P9 phone. Green light interval was 21 seconds, red phase was 39 seconds. Crosswalk was 14 meters wide. Experiment conducted December 28, 2016 to January 10, 2017.\"}"
+}

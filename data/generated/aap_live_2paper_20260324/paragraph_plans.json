@@ -1,0 +1,1410 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction and Scope of Pedestrian Crossing Behavior Research",
+    "section_goal": "Introduce the significance of pedestrian safety and define the scope of this review, which synthesizes findings on behavioral and distraction factors influencing pedestrian road-crossing decisions Use Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb), Evaluating Contribution Of Tpb Components And Extended Factors as the organizing lens across 6 matrix rows.",
+    "blocks": [
+      {
+        "block_id": "sec-1-block-1",
+        "move_id": "sec-1-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Introduction and Scope of Pedestrian Crossing Behavior Research around Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb), Evaluating Contribution Of Tpb Components And Extended Factors and clarify why this evidence cluster matters.",
+        "intended_purpose": "Frame Introduction and Scope of Pedestrian Crossing Behavior Research around Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb), Evaluating Contribution Of Tpb Components And Extended Factors and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+            "label": "Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+            "label": "Evaluating Contribution Of Tpb Components And Extended Factors",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "This paper aimed to examine pedestrians' self-reported violating crossing behavior intentions by applying the Theory of Planned Behavior (TPB), extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions."
+        ],
+        "rhetorical_role": "framing",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-1-block-2",
+        "move_id": "sec-1-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "intended_purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+            "label": "Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+            "label": "Evaluating Contribution Of Tpb Components And Extended Factors",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "Instrumental attitude, descriptive norm, and conformity tendency are significant predictors of pedestrian violating crossing behavior intention, providing better predictive utility than the basic TPB model (Model 4 achieved best fit: CFI=0.996, RMSEA=0.030)",
+          "Descriptive norm is a stronger predictor than subjective norm; when descriptive norm was added, subjective norm became non-significant, indicating that pedestrians' observations of family and friends' behavior have greater influence than perceived approval from them"
+        ],
+        "rhetorical_role": "evidence",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-1-block-3",
+        "move_id": "sec-1-synthesis-3",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "intended_purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+            "label": "Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+            "label": "Evaluating Contribution Of Tpb Components And Extended Factors",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb), Evaluating Contribution Of Tpb Components And Extended Factors."
+        ],
+        "rhetorical_role": "synthesis",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-2",
+    "title": "Theoretical Foundations: Theory of Planned Behavior in Pedestrian Crossing",
+    "section_goal": "Review the application of the Theory of Planned Behavior framework to predict pedestrian violating crossing intentions, including its core constructs and extensions Use Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb), Evaluating Contribution Of Tpb Components And Extended Factors as the organizing lens across 6 matrix rows.",
+    "blocks": [
+      {
+        "block_id": "sec-2-block-1",
+        "move_id": "sec-2-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Theoretical Foundations: Theory of Planned Behavior in Pedestrian Crossing around Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb), Evaluating Contribution Of Tpb Components And Extended Factors and clarify why this evidence cluster matters.",
+        "intended_purpose": "Frame Theoretical Foundations: Theory of Planned Behavior in Pedestrian Crossing around Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb), Evaluating Contribution Of Tpb Components And Extended Factors and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+            "label": "Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+            "label": "Evaluating Contribution Of Tpb Components And Extended Factors",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "This paper aimed to examine pedestrians' self-reported violating crossing behavior intentions by applying the Theory of Planned Behavior (TPB), extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions."
+        ],
+        "rhetorical_role": "framing",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-2-block-2",
+        "move_id": "sec-2-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "intended_purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+            "label": "Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+            "label": "Evaluating Contribution Of Tpb Components And Extended Factors",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "Instrumental attitude, descriptive norm, and conformity tendency are significant predictors of pedestrian violating crossing behavior intention, providing better predictive utility than the basic TPB model (Model 4 achieved best fit: CFI=0.996, RMSEA=0.030)",
+          "Descriptive norm is a stronger predictor than subjective norm; when descriptive norm was added, subjective norm became non-significant, indicating that pedestrians' observations of family and friends' behavior have greater influence than perceived approval from them"
+        ],
+        "rhetorical_role": "evidence",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-2-block-3",
+        "move_id": "sec-2-synthesis-3",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "intended_purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+            "label": "Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+            "label": "Evaluating Contribution Of Tpb Components And Extended Factors",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb), Evaluating Contribution Of Tpb Components And Extended Factors."
+        ],
+        "rhetorical_role": "synthesis",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-3",
+    "title": "Behavioral and Social Factors Influencing Crossing Intentions",
+    "section_goal": "Synthesize evidence on key behavioral predictors including instrumental attitude, descriptive norm, subjective norm, and conformity tendency from TPB-based studies Use Evaluating Contribution Of Tpb Components And Extended Factors, Survey Data From 260 Respondents In Dalian, China (2015) as the organizing lens across 6 matrix rows.",
+    "blocks": [
+      {
+        "block_id": "sec-3-block-1",
+        "move_id": "sec-3-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Behavioral and Social Factors Influencing Crossing Intentions around Evaluating Contribution Of Tpb Components And Extended Factors, Survey Data From 260 Respondents In Dalian, China (2015) and clarify why this evidence cluster matters.",
+        "intended_purpose": "Frame Behavioral and Social Factors Influencing Crossing Intentions around Evaluating Contribution Of Tpb Components And Extended Factors, Survey Data From 260 Respondents In Dalian, China (2015) and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+            "label": "Evaluating Contribution Of Tpb Components And Extended Factors",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china_(2015)",
+            "label": "Survey Data From 260 Respondents In Dalian, China (2015)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China (2015) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "This paper aimed to examine pedestrians' self-reported violating crossing behavior intentions by applying the Theory of Planned Behavior (TPB), extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions."
+        ],
+        "rhetorical_role": "framing",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-3-block-2",
+        "move_id": "sec-3-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "intended_purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+            "label": "Evaluating Contribution Of Tpb Components And Extended Factors",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china_(2015)",
+            "label": "Survey Data From 260 Respondents In Dalian, China (2015)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China (2015) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "Instrumental attitude, descriptive norm, and conformity tendency are significant predictors of pedestrian violating crossing behavior intention, providing better predictive utility than the basic TPB model (Model 4 achieved best fit: CFI=0.996, RMSEA=0.030)",
+          "Descriptive norm is a stronger predictor than subjective norm; when descriptive norm was added, subjective norm became non-significant, indicating that pedestrians' observations of family and friends' behavior have greater influence than perceived approval from them"
+        ],
+        "rhetorical_role": "evidence",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-3-block-3",
+        "move_id": "sec-3-synthesis-3",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "intended_purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+            "label": "Evaluating Contribution Of Tpb Components And Extended Factors",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china_(2015)",
+            "label": "Survey Data From 260 Respondents In Dalian, China (2015)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China (2015) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Evaluating Contribution Of Tpb Components And Extended Factors, Survey Data From 260 Respondents In Dalian, China (2015)."
+        ],
+        "rhetorical_role": "synthesis",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-4",
+    "title": "Risk Perception and Control Factors in Crossing Behavior",
+    "section_goal": "Examine the role of perceived risk and perceived behavioral control as predictors of pedestrian crossing behavior intentions Use Evaluating Contribution Of Tpb Components And Extended Factors, Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb) as the organizing lens across 6 matrix rows.",
+    "blocks": [
+      {
+        "block_id": "sec-4-block-1",
+        "move_id": "sec-4-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Risk Perception and Control Factors in Crossing Behavior around Evaluating Contribution Of Tpb Components And Extended Factors, Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb) and clarify why this evidence cluster matters.",
+        "intended_purpose": "Frame Risk Perception and Control Factors in Crossing Behavior around Evaluating Contribution Of Tpb Components And Extended Factors, Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb) and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+            "label": "Evaluating Contribution Of Tpb Components And Extended Factors",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+            "label": "Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "This paper aimed to examine pedestrians' self-reported violating crossing behavior intentions by applying the Theory of Planned Behavior (TPB), extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions."
+        ],
+        "rhetorical_role": "framing",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-4-block-2",
+        "move_id": "sec-4-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "intended_purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+            "label": "Evaluating Contribution Of Tpb Components And Extended Factors",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+            "label": "Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "Instrumental attitude, descriptive norm, and conformity tendency are significant predictors of pedestrian violating crossing behavior intention, providing better predictive utility than the basic TPB model (Model 4 achieved best fit: CFI=0.996, RMSEA=0.030)",
+          "Perceived behavioral control was not a significant predictor in any model, likely because crossing the street was not perceived as challenging for the sample population"
+        ],
+        "rhetorical_role": "evidence",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-4-block-3",
+        "move_id": "sec-4-synthesis-3",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "intended_purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+            "label": "Evaluating Contribution Of Tpb Components And Extended Factors",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+            "label": "Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Evaluating Contribution Of Tpb Components And Extended Factors, Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)."
+        ],
+        "rhetorical_role": "synthesis",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Mobile Phone Distraction Effects on Pedestrian Crossing Performance",
+    "section_goal": "Synthesize experimental findings on how different types of mobile phone use (texting, conversation, music) affect crossing behavior and visual attention allocation Use Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb), Evaluating Contribution Of Tpb Components And Extended Factors as the organizing lens across 6 matrix rows.",
+    "blocks": [
+      {
+        "block_id": "sec-5-block-1",
+        "move_id": "sec-5-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Mobile Phone Distraction Effects on Pedestrian Crossing Performance around Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb), Evaluating Contribution Of Tpb Components And Extended Factors and clarify why this evidence cluster matters.",
+        "intended_purpose": "Frame Mobile Phone Distraction Effects on Pedestrian Crossing Performance around Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb), Evaluating Contribution Of Tpb Components And Extended Factors and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+            "label": "Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+            "label": "Evaluating Contribution Of Tpb Components And Extended Factors",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_citations": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "This study investigates how mobile phone distractions (music distraction, phone conversation distraction, and text distraction) affect the crossing behavior and visual attention allocation of pedestrians at a signalized intersection. The research addresses the growing concern about pedestrian safety as mobile phone usage while crossing has increased globally, with approximately one-third of pedestrians in China and 60% of adults in the US reportedly using mobile phones while crossing streets."
+        ],
+        "rhetorical_role": "framing",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-5-block-2",
+        "move_id": "sec-5-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "intended_purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+            "label": "Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+            "label": "Evaluating Contribution Of Tpb Components And Extended Factors",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_citations": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "Text distraction causes the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction, with music distraction having the least impact",
+          "Instrumental attitude, descriptive norm, and conformity tendency are significant predictors of pedestrian violating crossing behavior intention, providing better predictive utility than the basic TPB model (Model 4 achieved best fit: CFI=0.996, RMSEA=0.030)"
+        ],
+        "rhetorical_role": "evidence",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-5-block-3",
+        "move_id": "sec-5-synthesis-3",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "intended_purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+            "label": "Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+            "label": "Evaluating Contribution Of Tpb Components And Extended Factors",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_citations": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb), Evaluating Contribution Of Tpb Components And Extended Factors."
+        ],
+        "rhetorical_role": "synthesis",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Visual Attention Allocation During Street Crossing",
+    "section_goal": "Review eye-tracking evidence on how distraction affects pupil diameter, scanning frequency, fixation patterns, and attention distribution across traffic environments Use Controlled Laboratory Experiment With Eye Tracking, Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb) as the organizing lens across 6 matrix rows.",
+    "blocks": [
+      {
+        "block_id": "sec-6-block-1",
+        "move_id": "sec-6-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Visual Attention Allocation During Street Crossing around Controlled Laboratory Experiment With Eye Tracking, Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb) and clarify why this evidence cluster matters.",
+        "intended_purpose": "Frame Visual Attention Allocation During Street Crossing around Controlled Laboratory Experiment With Eye Tracking, Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb) and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "method:controlled_laboratory_experiment_with_eye-tracking",
+            "label": "Controlled Laboratory Experiment With Eye Tracking",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Controlled laboratory experiment with eye-tracking appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+            "label": "Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_citations": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "This study investigates how mobile phone distractions (music distraction, phone conversation distraction, and text distraction) affect the crossing behavior and visual attention allocation of pedestrians at a signalized intersection. The research addresses the growing concern about pedestrian safety as mobile phone usage while crossing has increased globally, with approximately one-third of pedestrians in China and 60% of adults in the US reportedly using mobile phones while crossing streets."
+        ],
+        "rhetorical_role": "framing",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-6-block-2",
+        "move_id": "sec-6-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "intended_purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "method:controlled_laboratory_experiment_with_eye-tracking",
+            "label": "Controlled Laboratory Experiment With Eye Tracking",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Controlled laboratory experiment with eye-tracking appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+            "label": "Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_citations": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "Text distraction causes the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction, with music distraction having the least impact",
+          "Music distraction causes pedestrians to initiate crossing later (1.28s vs 0.69s), increase pupil diameter (2.86mm vs 2.75mm), and reduce scanning frequency (6.00 vs 6.82) and fixation points toward traffic signal areas"
+        ],
+        "rhetorical_role": "evidence",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-6-block-3",
+        "move_id": "sec-6-synthesis-3",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "intended_purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "method:controlled_laboratory_experiment_with_eye-tracking",
+            "label": "Controlled Laboratory Experiment With Eye Tracking",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Controlled laboratory experiment with eye-tracking appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+            "label": "Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_citations": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Controlled Laboratory Experiment With Eye Tracking, Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)."
+        ],
+        "rhetorical_role": "synthesis",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-7",
+    "title": "Methodological Approaches and Their Contributions",
+    "section_goal": "Compare and contrast the structural equation modeling approach from survey-based TPB studies with controlled laboratory eye-tracking experiments in understanding pedestrian behavior Use Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb), Controlled Laboratory Experiment With Eye Tracking as the organizing lens across 6 matrix rows.",
+    "blocks": [
+      {
+        "block_id": "sec-7-block-1",
+        "move_id": "sec-7-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Methodological Approaches and Their Contributions around Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb), Controlled Laboratory Experiment With Eye Tracking and clarify why this evidence cluster matters.",
+        "intended_purpose": "Frame Methodological Approaches and Their Contributions around Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb), Controlled Laboratory Experiment With Eye Tracking and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+            "label": "Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:controlled_laboratory_experiment_with_eye-tracking",
+            "label": "Controlled Laboratory Experiment With Eye Tracking",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Controlled laboratory experiment with eye-tracking appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "This paper aimed to examine pedestrians' self-reported violating crossing behavior intentions by applying the Theory of Planned Behavior (TPB), extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions."
+        ],
+        "rhetorical_role": "framing",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-7-block-2",
+        "move_id": "sec-7-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "intended_purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+            "label": "Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:controlled_laboratory_experiment_with_eye-tracking",
+            "label": "Controlled Laboratory Experiment With Eye Tracking",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Controlled laboratory experiment with eye-tracking appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "Instrumental attitude, descriptive norm, and conformity tendency are significant predictors of pedestrian violating crossing behavior intention, providing better predictive utility than the basic TPB model (Model 4 achieved best fit: CFI=0.996, RMSEA=0.030)",
+          "Descriptive norm is a stronger predictor than subjective norm; when descriptive norm was added, subjective norm became non-significant, indicating that pedestrians' observations of family and friends' behavior have greater influence than perceived approval from them"
+        ],
+        "rhetorical_role": "evidence",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-7-block-3",
+        "move_id": "sec-7-synthesis-3",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "intended_purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+            "label": "Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "method:controlled_laboratory_experiment_with_eye-tracking",
+            "label": "Controlled Laboratory Experiment With Eye Tracking",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Controlled laboratory experiment with eye-tracking appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Structural Equation Modeling (Sem) Based On Theory Of Planned Behavior (Tpb), Controlled Laboratory Experiment With Eye Tracking."
+        ],
+        "rhetorical_role": "synthesis",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-8",
+    "title": "Implications for Pedestrian Safety Interventions",
+    "section_goal": "Synthesize practical implications from both research streams for developing effective safety education and infrastructure design strategies Use Survey Data From 260 Respondents In Dalian, China (2015), Evaluating Contribution Of Tpb Components And Extended Factors as the organizing lens across 6 matrix rows.",
+    "blocks": [
+      {
+        "block_id": "sec-8-block-1",
+        "move_id": "sec-8-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Implications for Pedestrian Safety Interventions around Survey Data From 260 Respondents In Dalian, China (2015), Evaluating Contribution Of Tpb Components And Extended Factors and clarify why this evidence cluster matters.",
+        "intended_purpose": "Frame Implications for Pedestrian Safety Interventions around Survey Data From 260 Respondents In Dalian, China (2015), Evaluating Contribution Of Tpb Components And Extended Factors and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china_(2015)",
+            "label": "Survey Data From 260 Respondents In Dalian, China (2015)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China (2015) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+            "label": "Evaluating Contribution Of Tpb Components And Extended Factors",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "This paper aimed to examine pedestrians' self-reported violating crossing behavior intentions by applying the Theory of Planned Behavior (TPB), extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions."
+        ],
+        "rhetorical_role": "framing",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-8-block-2",
+        "move_id": "sec-8-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "intended_purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china_(2015)",
+            "label": "Survey Data From 260 Respondents In Dalian, China (2015)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China (2015) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+            "label": "Evaluating Contribution Of Tpb Components And Extended Factors",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "Instrumental attitude, descriptive norm, and conformity tendency are significant predictors of pedestrian violating crossing behavior intention, providing better predictive utility than the basic TPB model (Model 4 achieved best fit: CFI=0.996, RMSEA=0.030)",
+          "Descriptive norm is a stronger predictor than subjective norm; when descriptive norm was added, subjective norm became non-significant, indicating that pedestrians' observations of family and friends' behavior have greater influence than perceived approval from them"
+        ],
+        "rhetorical_role": "evidence",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-8-block-3",
+        "move_id": "sec-8-synthesis-3",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "intended_purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china_(2015)",
+            "label": "Survey Data From 260 Respondents In Dalian, China (2015)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China (2015) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+            "label": "Evaluating Contribution Of Tpb Components And Extended Factors",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Survey Data From 260 Respondents In Dalian, China (2015), Evaluating Contribution Of Tpb Components And Extended Factors."
+        ],
+        "rhetorical_role": "synthesis",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ]
+      }
+    ]
+  }
+]

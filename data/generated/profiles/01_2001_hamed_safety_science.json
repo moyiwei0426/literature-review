@@ -1,0 +1,37 @@
+{
+  "paper_id": "01_2001_hamed_safety_science",
+  "title": "Untitled",
+  "authors": [],
+  "year": null,
+  "venue": null,
+  "research_problem": "Understand pedestrian crossing behavior.",
+  "problem_type": null,
+  "domain": null,
+  "language_scope": null,
+  "method_summary": "Structured evidence synthesis.",
+  "method_family": [
+    "observational"
+  ],
+  "datasets": [
+    "field"
+  ],
+  "tasks": [
+    "crossing"
+  ],
+  "metrics": [],
+  "baselines": [],
+  "main_claims": [
+    {
+      "claim_id": "c1",
+      "claim_text": "Crossing behavior varies by traffic context.",
+      "claim_type": "application",
+      "evidence_chunk_ids": [
+        "01_2001_hamed_safety_science-c1"
+      ],
+      "confidence": 0.8
+    }
+  ],
+  "limitations": [],
+  "future_work": [],
+  "notes": null
+}

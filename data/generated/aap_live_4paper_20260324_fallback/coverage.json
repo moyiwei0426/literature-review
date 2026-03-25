@@ -1,0 +1,36 @@
+{
+  "paper_count": 4,
+  "method_family_distribution": {
+    "Survey-based Structural Equation Modeling (SEM)": 1,
+    "Controlled field experiment": 1,
+    "Statistical modeling (Binomial logistic regression)": 1,
+    "Discrete choice model with regression analysis": 1
+  },
+  "task_distribution": {
+    "Predicting pedestrian violating crossing behavior intentions": 1,
+    "Pedestrian crossing behavior under mobile phone distraction": 1,
+    "Identify factors affecting pedestrian red-light running behavior at signalized intersections": 1,
+    "Pedestrian speed profile modeling, crossing time estimation, vehicle-pedestrian conflict simulation": 1
+  },
+  "language_distribution": {
+    "english": 4
+  },
+  "dataset_distribution": {
+    "Survey data from 260 respondents in Dalian, China": 1,
+    "28 college students at signalized intersection in Hefei, China": 1,
+    "631 valid survey samples collected from six signalized intersections in Hefei, China during May-June 2015": 1,
+    "Video survey data from 5 crosswalks at 3 intersections in Nagoya City, Japan (Kanayama, Ueda, Fushimi)": 1
+  },
+  "year_distribution": {
+    "2016": 2,
+    "2018": 1,
+    "2017": 1
+  },
+  "chinese_coverage_count": 3,
+  "themes": [
+    "Survey-based Structural Equation Modeling (SEM)",
+    "Controlled field experiment",
+    "Statistical modeling (Binomial logistic regression)",
+    "Discrete choice model with regression analysis"
+  ]
+}

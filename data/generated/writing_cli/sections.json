@@ -1,0 +1,97 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction and Scope",
+    "text": "Automated literature review and knowledge synthesis represent increasingly critical research problems as the volume of scientific publications grows beyond human capacity to process comprehensively. This review examines the methodological landscape of systems designed to automate components of the literature review process, including citation screening, information extraction, and knowledge synthesis. The scope encompasses approaches that employ natural language processing (NLP) pipelines, retrieval-augmented generation (RAG) architectures, and hybrid systems combining these paradigms. The need for systematic comparison arises from the heterogeneity of architectural choices, evaluation practices, and claimed capabilities across this emerging field. Without rigorous comparative analysis, researchers cannot distinguish genuine methodological advances from performance gains attributable to dataset-specific optimizations or evaluation artifacts. This review addresses three verified gaps—English-language dominance in evaluation benchmarks (g1), metric reporting heterogeneity (g2), and limited evidence grounding in system claims (g3)—to establish a foundation for more robust and generalizable research on automated literature review systems.",
+    "citation_keys": [
+      "p1"
+    ],
+    "_citation_scores": {
+      "p1": 4.0
+    }
+  },
+  {
+    "section_id": "sec-2",
+    "title": "Methodological Approaches: RAG versus NLP Pipeline Architectures",
+    "text": "The reviewed systems cluster into two primary methodological families: traditional NLP pipeline architectures and retrieval-augmented generation (RAG) approaches. Paper p3 exemplifies the NLP pipeline paradigm, employing classification-based methods for citation screening using PubMed data. This approach relies on feature engineering and supervised classifiers to determine relevance, achieving competitive F1 scores but demonstrating lower recall compared to language model-based alternatives. Paper p2 represents pure RAG methodology, utilizing LLM-based retrieval to synthesize information from arXiv corpora. The core claim of this approach centers on grounding synthesized claims in source evidence through retrieval mechanisms, though performance remains dependent on underlying LLM quality. Paper p1 presents a hybrid architecture combining NLP extraction with LLM retrieval, claiming superior coverage over keyword-based baselines. The methodological divergence across these approaches reflects fundamentally different assumptions about the role of language models: p3 treats NLP as a classification problem requiring explicit feature representation, while p2 and p1 leverage language models as both retrieval mechanisms and synthesis engines. The trade-off between interpretability (favoring NLP pipelines) and coverage (favoring RAG approaches) emerges as a key architectural tension without resolved consensus.",
+    "citation_keys": [
+      "p1",
+      "p3"
+    ],
+    "_citation_scores": {
+      "p1": 24.5,
+      "p3": 17.0,
+      "p2": 11.0
+    }
+  },
+  {
+    "section_id": "sec-3",
+    "title": "Task Coverage and Evaluation Domains",
+    "text": "Current systems address three primary task types: literature review automation (p1), information extraction (p2), and citation screening (p3). Paper p1 applies its combined NLP+LLM methodology to the general literature review task using custom corpora, positioning coverage as the primary performance dimension. Paper p2 targets information extraction specifically from arXiv scholarly documents, emphasizing precision in retrieved content. Paper p3 addresses citation screening—the initial triage phase of systematic review—using PubMed bibliographies as its evaluation domain. The evaluation datasets reveal a concentration on biomedical literature (PubMed, arXiv) with p1 employing custom corpora of unspecified composition. This distribution raises questions about generalizability to other scientific domains such as computer science, social sciences, or humanities where disciplinary conventions for citation and writing differ substantially. Notably absent from the reviewed literature are evaluations on multilingual corpora, cross-domain transferability, or real-world systematic review workflows requiring sustained human-AI collaboration. The task coverage suggests capability for isolated components of the review process, yet limited evaluation of end-to-end workflow integration.",
+    "citation_keys": [
+      "p1",
+      "p2"
+    ],
+    "_citation_scores": {
+      "p1": 14.5,
+      "p2": 5.0,
+      "p3": 5.0
+    }
+  },
+  {
+    "section_id": "sec-4",
+    "title": "Evaluation Metrics and Reporting Practices",
+    "text": "Significant heterogeneity exists in metric selection across the reviewed studies, addressing gap g2 directly. Paper p1 reports both ROUGE-L (a text overlap metric) and F1 score, combining generation quality and classification-style performance measures. Paper p2 employs F1 and precision, focusing on extraction accuracy without incorporating recall in the reported metrics. Paper p3 uses F1 and AUC, capturing both pointwise classification performance and ranking ability through the area under the ROC curve. This inconsistency in metric reporting prevents direct performance comparison across systems. ROUGE-L, appropriate for generation tasks, appears only in p1; AUC, useful for screening workflows where ranking matters, appears only in p3. The absence of standardized evaluation protocols means that claims such as p1's assertion of \"higher coverage than keyword baselines\" cannot be validated against equivalent metrics from other systems. Furthermore, precision-recall trade-offs—the central optimization problem in citation screening—are not consistently reported, with p2 omitting recall entirely. The field would benefit from consensus evaluation frameworks specifying minimum reporting standards, particularly for the comparative claims that drive methodological selection.",
+    "citation_keys": [
+      "p1",
+      "p2"
+    ],
+    "_citation_scores": {
+      "p1": 10.5,
+      "p2": 5.0,
+      "p3": 5.0
+    }
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Language Coverage and Generalizability",
+    "text": "English-language dominance characterizes the evaluation landscape, confirming gap g1 as a high-severity limitation. Paper p1 explicitly reports English-only as a limitation, restricting its claimed coverage improvements to Anglophone literature. Paper p2 evaluates on arXiv, a repository with strong English-language concentration though increasingly international authorship. Paper p3 trains and tests on PubMed, the biomedical database whose non-English literature, while substantial, remains underrepresented in systematic evaluations. This English-centric evaluation pattern means that claims of effectiveness—including p1's coverage claims, p2's grounding capabilities, and p3's competitive F1 assertions—may not generalize to the substantial body of non-English scientific literature. The consequence for the research community is a system development trajectory optimized for English-language retrieval and synthesis, potentially widening gaps in evidence synthesis capability for non-Anglophone research communities. Cross-lingual transfer, multilingual evaluation, or language-agnostic architectural choices receive no attention in the reviewed works, indicating a significant generalizability gap that limits real-world applicability for global literature review needs.",
+    "citation_keys": [
+      "p1",
+      "p2"
+    ],
+    "_citation_scores": {
+      "p1": 13.0,
+      "p2": 5.0,
+      "p3": 5.0
+    }
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Evidence Grounding and Source Attribution",
+    "text": "The degree to which systems provide grounded evidence for their outputs varies substantially across the reviewed approaches, addressing gap g3. Paper p2 explicitly claims that retrieval augmentation enables grounding of synthesized claims in source evidence—a methodological assertion that distinguishes RAG architectures from pure generation approaches. This grounding capability represents a theoretical advantage for systematic review applications where source verification is essential. However, p2 notes that grounding quality remains dependent on underlying LLM quality, introducing a reliability concern for high-stakes evidence synthesis. Paper p1 combines NLP extraction with retrieval, potentially offering traceable evidence paths through the extraction component, though this is not explicitly evaluated in reported metrics. Paper p3, as a classification-based NLP pipeline, provides explicit relevance scores for each citation but lacks generation-based synthesis that would require source attribution. The absence of systematic evaluation of grounding accuracy—whether retrieved sources actually support synthesized claims—represents a critical gap. Users of these systems in evidence synthesis contexts cannot currently verify whether apparent factual claims are genuinely supported by the cited sources, limiting adoption in rigorous scientific workflows.",
+    "citation_keys": [
+      "p2",
+      "p1"
+    ],
+    "_citation_scores": {
+      "p2": 14.5,
+      "p1": 7.5,
+      "p3": 3.5
+    }
+  },
+  {
+    "section_id": "sec-7",
+    "title": "Synthesis and Open Problems",
+    "text": "This review reveals an emerging field characterized by architectural diversity but constrained by three verified limitations: English-language evaluation dominance, metric reporting heterogeneity, and insufficient evidence grounding. The methodological comparison shows RAG approaches (p1, p2) emphasizing coverage and source grounding while NLP pipelines (p3) offer interpretable classification signals. Neither paradigm has demonstrated robust cross-domain or cross-lingual generalizability. The evaluation analysis confirms that metric inconsistency (gap g2) prevents meaningful cross-study performance comparisons, undermining the cumulative scientific progress of the field. Addressing g1 requires deliberate development of multilingual benchmarks and cross-lingual transfer evaluations, particularly given the global nature of scientific literature. Addressing g3 demands systematic grounding evaluation—whether retrieved evidence actually supports synthesized claims—which currently receives no standardized assessment. The most consequential open problem is the absence of end-to-end evaluation capturing real systematic review workflows rather than isolated task performance. Future research should prioritize standardized evaluation frameworks, multilingual benchmarks, grounding verification methods, and cross-domain transfer studies to establish the generalizable foundations this field requires.",
+    "citation_keys": [
+      "p1",
+      "p2"
+    ],
+    "_citation_scores": {
+      "p1": 7.5,
+      "p2": 3.5,
+      "p3": 3.5
+    }
+  }
+]

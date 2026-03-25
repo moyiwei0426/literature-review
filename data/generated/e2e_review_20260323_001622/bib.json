@@ -1,0 +1,26 @@
+[
+  {
+    "key": "05_2018_deb_trf",
+    "year": 2018,
+    "title": "Investigating pedestrian suggestions for external features on fully autonomous vehicles: A virtual reality experiment",
+    "authors": "Shuchisnigdha Deb; Lesley J. Strawderman; Daniel W. Carruth",
+    "venue": "Transportation Research Part F 59",
+    "entry": "@article{05_2018_deb_trf,\n  author={Shuchisnigdha Deb; Lesley J. Strawderman; Daniel W. Carruth},\n  title={Investigating pedestrian suggestions for external features on fully autonomous vehicles: A virtual reality experiment},\n  year={2018},\n  journal={Transportation Research Part F 59}\n}"
+  },
+  {
+    "key": "12_2016_zhang_aap",
+    "year": 2016,
+    "title": "Exploring factors affecting pedestrians' red-light running behaviors at intersections in China",
+    "authors": "Weihua Zhang; Kun Wang; Lei Wang; Zhongxiang Feng; Yingjie Du",
+    "venue": "Accident Analysis and Prevention",
+    "entry": "@article{12_2016_zhang_aap,\n  author={Weihua Zhang; Kun Wang; Lei Wang; Zhongxiang Feng; Yingjie Du},\n  title={Exploring factors affecting pedestrians' red-light running behaviors at intersections in China},\n  year={2016},\n  journal={Accident Analysis and Prevention}\n}"
+  },
+  {
+    "key": "13_2020_chen_trf",
+    "year": 2020,
+    "title": "Roles of personal and environmental factors in the red light running propensity of pedestrian: Case study at the urban crosswalks",
+    "authors": "Dianchen Zhu; N.N. Sze; Lu Bai",
+    "venue": "Transportation Research Part F",
+    "entry": "@article{13_2020_chen_trf,\n  author={Dianchen Zhu; N.N. Sze; Lu Bai},\n  title={Roles of personal and environmental factors in the red light running propensity of pedestrian: Case study at the urban crosswalks},\n  year={2020},\n  journal={Transportation Research Part F}\n}"
+  }
+]

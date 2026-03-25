@@ -1,0 +1,19 @@
+{
+  "parser": "pymupdf",
+  "status": "ok",
+  "pdf_path": "data/manual_uploads/05_2018_deb_trf.pdf",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "[image]\n•  \nHelp\nThere was a problem providing\nthe content you requested\nPlease contact our support team\nfor more information and provide the details below.\n•  Reference number: 9e017f0e8f422574\n•  IP Address: 171.83.68.0\n•  \n•  \n",
+      "char_count": 230
+    },
+    {
+      "page_number": 2,
+      "text": "[image]\nAbout ScienceDirect\nRemote access\nContact and support\nTerms and conditions\nPrivacy policy\nCookie settings\nAll content on this site: Copyright © 2026 Elsevier B.V., its\nlicensors, and contributors. All rights are reserved, including those\nfor text and data mining, AI training, and similar technologies. For\nall open access content, the relevant licensing terms apply.\n[image]\n",
+      "char_count": 384
+    }
+  ],
+  "full_text": "[image]\n•  \nHelp\nThere was a problem providing\nthe content you requested\nPlease contact our support team\nfor more information and provide the details below.\n•  Reference number: 9e017f0e8f422574\n•  IP Address: 171.83.68.0\n•  \n•\n\n[image]\nAbout ScienceDirect\nRemote access\nContact and support\nTerms and conditions\nPrivacy policy\nCookie settings\nAll content on this site: Copyright © 2026 Elsevier B.V., its\nlicensors, and contributors. All rights are reserved, including those\nfor text and data mining, AI training, and similar technologies. For\nall open access content, the relevant licensing terms apply.\n[image]",
+  "page_count": 2
+}

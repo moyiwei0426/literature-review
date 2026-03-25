@@ -1,0 +1,142 @@
+{
+  "status": "success",
+  "output_dir": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011545",
+  "parsed": 1,
+  "extracted": 0,
+  "coverage": {
+    "paper_count": 0,
+    "method_family_distribution": {},
+    "task_distribution": {},
+    "language_distribution": {},
+    "dataset_distribution": {},
+    "year_distribution": {},
+    "chinese_coverage_count": 0,
+    "themes": []
+  },
+  "matrix_rows": 0,
+  "contradictions": 0,
+  "gaps": {
+    "candidates": 0,
+    "verified": 0,
+    "scored": 0
+  },
+  "synthesis_map": {
+    "overview": {
+      "paper_count": 0,
+      "matrix_row_count": 0,
+      "verified_gap_count": 0,
+      "scored_gap_count": 0,
+      "rejected_gap_count": 0,
+      "contradiction_count": 0,
+      "dominant_axis": "method",
+      "average_gap_score": 0.0,
+      "theme_counts": {
+        "method": 0,
+        "task": 0,
+        "factor": 0,
+        "application": 0
+      },
+      "coverage_themes": []
+    },
+    "theme_axes": {
+      "method": [],
+      "task": [],
+      "factor": [],
+      "application": []
+    },
+    "top_themes": []
+  },
+  "organization": {
+    "recommended_structure": "method_taxonomy",
+    "scores": {
+      "method_taxonomy": 0.6,
+      "task_taxonomy": 0.0,
+      "factor_taxonomy": 0.0,
+      "application_scenario": 0.0
+    },
+    "rationale": "Method diversity or contradiction pressure is strong enough to foreground methodological comparison.",
+    "signals": {
+      "method_theme_count": 0,
+      "task_theme_count": 0,
+      "factor_theme_count": 0,
+      "application_theme_count": 0,
+      "contradiction_count": 0,
+      "average_gap_score": 0.0
+    }
+  },
+  "abstract": {
+    "title": "Stability Check",
+    "paper_count": 0,
+    "matrix_row_count": 0,
+    "dominant_axis": "methodological variation",
+    "top_themes": [
+      "methodological variation"
+    ],
+    "top_methods": [],
+    "top_tasks": [],
+    "verified_gap_count": 0,
+    "text": "Stability Check synthesizes 0 papers across 0 evidence rows using methodological variation as the main organizing lens. The synthesis is concentrated in methodological variation, with recurring methods such as mixed methods and task coverage centered on shared review tasks. Across 0 papers, the evidence is most coherently organized around methodological variation rather than any single method, and the strongest clusters are methodological variation. Future work should prioritize standardized reporting and more explicit cross-study comparison."
+  },
+  "keywords": {
+    "keywords": [
+      "method taxonomy",
+      "stability check",
+      "stability check synthesizes",
+      "concentrated methodological",
+      "concentrated methodological variation",
+      "recurring such",
+      "recurring such mixed"
+    ],
+    "keyword_count": 7,
+    "dominant_axis": "method taxonomy",
+    "signals": {
+      "method taxonomy": 1.8,
+      "stability check": 0.6,
+      "stability check synthesizes": 0.6,
+      "concentrated methodological": 0.6,
+      "concentrated methodological variation": 0.6,
+      "recurring such": 0.6,
+      "recurring such mixed": 0.6
+    }
+  },
+  "outline_sections": 4,
+  "bib_entries": 0,
+  "validation": {
+    "overall_status": "fail",
+    "section_count": 4,
+    "healthy_section_count": 0,
+    "weak_section_count": 4,
+    "finding_count": 12,
+    "severity_counts": {
+      "error": 4,
+      "warning": 8
+    },
+    "flagged_sections": [
+      {
+        "section_id": "sec-intro",
+        "title": "Introduction and Review Scope",
+        "status": "fail",
+        "finding_count": 2
+      },
+      {
+        "section_id": "sec-method-taxonomy",
+        "title": "Method Taxonomy and Representational Families",
+        "status": "fail",
+        "finding_count": 3
+      },
+      {
+        "section_id": "sec-method-taxonomy-comparison",
+        "title": "Comparative Method Evidence and Tradeoffs",
+        "status": "fail",
+        "finding_count": 3
+      },
+      {
+        "section_id": "sec-conclusion",
+        "title": "Conclusion",
+        "status": "fail",
+        "finding_count": 4
+      }
+    ]
+  },
+  "compile": null
+}

@@ -1,0 +1,882 @@
+{
+  "project": "review_20260322_221415",
+  "query": null,
+  "mode": "local",
+  "steps": [
+    {
+      "name": "extract",
+      "ok": true,
+      "profiles": [
+        {
+          "paper_id": "01_2001_hamed_safety_science",
+          "title": "[Unknown - Appears to be Persian language paper on safety science]",
+          "authors": [
+            "Unknown"
+          ],
+          "year": 2001,
+          "venue": "Unknown",
+          "research_problem": "The paper addresses safety science issues, likely related to workplace safety, human factors, or organizational safety culture. Based on context clues from the paper ID and embedded English terms, the research appears to focus on safety knowledge, expertise development, and safety culture in industrial or organizational contexts.",
+          "problem_type": "applied_research",
+          "domain": "safety_science",
+          "language_scope": "Persian (Farsi)",
+          "method_summary": "The methodology appears to involve analysis of safety-related knowledge and expertise, though specific methods are not clearly extractable from the encoded text.",
+          "method_family": [
+            "unknown"
+          ],
+          "datasets": [
+            "Not specified in available chunks"
+          ],
+          "tasks": [
+            "Safety analysis, knowledge assessment"
+          ],
+          "metrics": [
+            "Not specified in available chunks"
+          ],
+          "baselines": [
+            "Not specified in available chunks"
+          ],
+          "main_claims": [
+            {
+              "claim_id": "claim-1",
+              "claim_text": "The research addresses safety science problems in organizational or industrial contexts",
+              "claim_type": "application",
+              "evidence_chunk_ids": [
+                "0264adfb-0474-4830-bf96-e85895187ce6"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-2",
+              "claim_text": "Knowledge and expertise development are central to the safety improvement approach",
+              "claim_type": "methodological",
+              "evidence_chunk_ids": [
+                "0ad78173-2a91-43b5-876a-5e9252634ba8"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-3",
+              "claim_text": "Safety culture appears to be a focus area for safety enhancement",
+              "claim_type": "theoretical",
+              "evidence_chunk_ids": [
+                "54cc8cc2-abbc-44c3-88d6-e61a473f4d25"
+              ],
+              "confidence": null
+            }
+          ],
+          "limitations": [
+            {
+              "text": "Unable to extract complete paper details due to text encoding issues",
+              "source": "inferred",
+              "evidence_chunk_ids": []
+            },
+            {
+              "text": "Authors, exact title, and venue not determinable from provided chunks",
+              "source": "explicit",
+              "evidence_chunk_ids": []
+            }
+          ],
+          "future_work": [
+            "Not extractable from available chunks"
+          ],
+          "notes": "Paper ID indicates 2001 publication in safety science domain. The text appears to be primarily in Persian (Farsi) script, making detailed extraction challenging. Some English technical terms (knowledge, expertise, safety, method) are visible embedded in the Persian text. The research appears applied in nature, focusing on practical safety improvements in organizational settings."
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "title": "Pedestrian behaviors at and perceptions towards various pedestrian facilities: an examination based on observation and survey data",
+          "authors": [
+            "V.P. Sisiopiku",
+            "D. Akin"
+          ],
+          "year": 2003,
+          "venue": "Transportation Research Part F",
+          "research_problem": "This paper presents findings from an observational study of pedestrian behaviors at various urban crosswalks and a pedestrian user survey which sought pedestrian perceptions toward various pedestrian facilities in a divided urban boulevard located next to a large university campus (Michigan State University, East Lansing, MI, USA).",
+          "problem_type": "Empirical research study",
+          "domain": "Transportation Engineering/Urban Planning/Pedestrian Safety",
+          "language_scope": "English",
+          "method_summary": "The study used two data sources: (1) video-camera records taken along the study site to analyze pedestrian crossing compliance behavior, and (2) a user survey completed by pedestrians using the study site (711 completed questionnaires from daily and occasional users). The study calculated Spatial Crossing Compliance Rate (SCCR) and Temporal Crossing Compliance Rate (TCCR) based on pedestrian movements in crosswalk influence areas.",
+          "method_family": [
+            "Mixed methods (empirical observation + survey)"
+          ],
+          "datasets": [
+            "Grand River Avenue (M-43) in East Lansing, Michigan - 1km divided boulevard section extending from Abbott to Bogue Streets"
+          ],
+          "tasks": [
+            "Analyze pedestrian crossing compliance rates at various crosswalk types",
+            "Assess pedestrian perceptions toward different pedestrian facilities",
+            "Identify factors influencing pedestrian crossing choices",
+            "Compare survey responses with observed behavioral data"
+          ],
+          "metrics": [
+            "Spatial Crossing Compliance Rate (SCCR) - percent of pedestrians who crossed within the crosswalk area (CA) divided by total pedestrians in the crosswalk influence area (CIA)",
+            "Temporal Crossing Compliance Rate (TCCR) - ratio of pedestrians in CA who comply with pedestrian WALK signal indication",
+            "Pedestrian crossing volumes",
+            "User survey responses (frequency, preferences, perceptions)"
+          ],
+          "baselines": [
+            "Previous pedestrian crossing compliance studies in Columbus, Ohio (Rouphail, 1984)",
+            "European studies on pedestrian push-button compliance",
+            "Studies in Beijing, China (Tanaboriboon and Jing, 1994)"
+          ],
+          "main_claims": [
+            {
+              "claim_id": "claim-1",
+              "claim_text": "Unsignalized midblock crosswalks were the treatment of preference to pedestrians (83% reported a preference to cross) and showed high crossing compliance rate (71.2%)",
+              "claim_type": "performance",
+              "evidence_chunk_ids": [
+                "a98fd876-3d61-4372-ac57-7f35e5a8700d"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-2",
+              "claim_text": "Crosswalk location relative to the origin and destination of the pedestrian was the most influential decision factor for pedestrians deciding to cross at a designated location (90% said so)",
+              "claim_type": "application",
+              "evidence_chunk_ids": [
+                "a98fd876-3d61-4372-ac57-7f35e5a8700d",
+                "1ce422f8-7740-4b08-9114-581668feecca"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-3",
+              "claim_text": "Proper traffic control can further encourage pedestrian crossings at designated locations since the effect of the availability of pedestrian signal to influence pedestrians' decisions to cross at a specific location was quite high (74% said so)",
+              "claim_type": "application",
+              "evidence_chunk_ids": [
+                "a98fd876-3d61-4372-ac57-7f35e5a8700d"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-4",
+              "claim_text": "Vegetation and concrete barriers influenced the decision to cross of a significant number of pedestrians surveyed (65%)",
+              "claim_type": "application",
+              "evidence_chunk_ids": [
+                "a98fd876-3d61-4372-ac57-7f35e5a8700d",
+                "091f2877-e0ba-49de-9ae3-bc7373672f0c"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-5",
+              "claim_text": "Signalized intersections with crosswalks help channelize pedestrian traffic but prove unable to persuade pedestrians to comply with the signal indication, particularly under low traffic demand conditions",
+              "claim_type": "methodological",
+              "evidence_chunk_ids": [
+                "6ce8da59-3788-4237-adb0-2eeb12fc7967"
+              ],
+              "confidence": null
+            }
+          ],
+          "limitations": [
+            {
+              "text": "Study population was primarily undergraduate and graduate students, staff and faculty at Michigan State University, which may limit generalizability to other pedestrian populations",
+              "source": "explicit",
+              "evidence_chunk_ids": [
+                "8426adb1-e13d-4760-a190-4866cf96a822"
+              ]
+            },
+            {
+              "text": "The calculation of crossing compliance rates is based on assumptions about crosswalk influence areas, which may not perfectly represent actual pedestrian behavior",
+              "source": "inferred",
+              "evidence_chunk_ids": [
+                "040e085d-df3a-411b-9114-cbfb40b91af6"
+              ]
+            },
+            {
+              "text": "The study was conducted in a specific urban context (university campus adjacent area) and findings may not be generalizable to different urban environments or rural areas",
+              "source": "inferred",
+              "evidence_chunk_ids": [
+                "437749e5-75dd-440d-a92b-ce848040e5f2"
+              ]
+            },
+            {
+              "text": "Return rate of 17.9% for the electronic survey may introduce non-response bias",
+              "source": "inferred",
+              "evidence_chunk_ids": [
+                "3815d8fb-d349-42d4-bd5b-d6aa0d63f82a"
+              ]
+            }
+          ],
+          "future_work": [
+            "Additional crash and conflict analysis to assess the value of warning pedestrian signs and provide warrants for their use",
+            "Further research to examine differences between drivers and pedestrians regarding right of way at intersections",
+            "Examination of the relationship between safety and pedestrian acceptance in future research",
+            "Additional surveys to examine differences between drivers and pedestrians regarding right of way at intersections",
+            "Development of guidelines for pedestrian control at corridors with major pedestrian crossing volumes"
+          ],
+          "notes": "The study site included four signalized intersections, two unsignalized T-intersections, four marked unsignalized midblock crosswalks (two with shelters), and two non-striped midblock crosswalks; Physical barriers studied included vegetation and two-foot high concrete wall; Other treatments included midblock crosswalk shelters, colored paving (red brick pavement) at medians and curbs, and pedestrian warning signs at midblock crossing locations; The average spatial crossing compliance rate from movement data was 71.4%; The average temporal crossing compliance rate at signalized intersection crosswalks from movement data was 50.9%; Good agreement found between survey responses and actual observed behavior, supporting validity of survey data"
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "name": "analysis",
+      "ok": true,
+      "matrix": [
+        {
+          "paper_id": "01_2001_hamed_safety_science",
+          "title": "[Unknown - Appears to be Persian language paper on safety science]",
+          "authors": "Unknown",
+          "year": 2001,
+          "venue": "Unknown",
+          "research_problem": "The paper addresses safety science issues, likely related to workplace safety, human factors, or organizational safety culture. Based on context clues from the paper ID and embedded English terms, the research appears to focus on safety knowledge, expertise development, and safety culture in industrial or organizational contexts.",
+          "method_summary": "The methodology appears to involve analysis of safety-related knowledge and expertise, though specific methods are not clearly extractable from the encoded text.",
+          "method_family": "unknown",
+          "tasks": "Safety analysis, knowledge assessment",
+          "datasets": "Not specified in available chunks",
+          "metrics": "Not specified in available chunks",
+          "claim_id": "claim-1",
+          "claim_text": "The research addresses safety science problems in organizational or industrial contexts",
+          "claim_type": "application",
+          "evidence_chunk_ids": "0264adfb-0474-4830-bf96-e85895187ce6",
+          "limitations": "Unable to extract complete paper details due to text encoding issues | Authors, exact title, and venue not determinable from provided chunks",
+          "notes": "Paper ID indicates 2001 publication in safety science domain. The text appears to be primarily in Persian (Farsi) script, making detailed extraction challenging. Some English technical terms (knowledge, expertise, safety, method) are visible embedded in the Persian text. The research appears applied in nature, focusing on practical safety improvements in organizational settings."
+        },
+        {
+          "paper_id": "01_2001_hamed_safety_science",
+          "title": "[Unknown - Appears to be Persian language paper on safety science]",
+          "authors": "Unknown",
+          "year": 2001,
+          "venue": "Unknown",
+          "research_problem": "The paper addresses safety science issues, likely related to workplace safety, human factors, or organizational safety culture. Based on context clues from the paper ID and embedded English terms, the research appears to focus on safety knowledge, expertise development, and safety culture in industrial or organizational contexts.",
+          "method_summary": "The methodology appears to involve analysis of safety-related knowledge and expertise, though specific methods are not clearly extractable from the encoded text.",
+          "method_family": "unknown",
+          "tasks": "Safety analysis, knowledge assessment",
+          "datasets": "Not specified in available chunks",
+          "metrics": "Not specified in available chunks",
+          "claim_id": "claim-2",
+          "claim_text": "Knowledge and expertise development are central to the safety improvement approach",
+          "claim_type": "methodological",
+          "evidence_chunk_ids": "0ad78173-2a91-43b5-876a-5e9252634ba8",
+          "limitations": "Unable to extract complete paper details due to text encoding issues | Authors, exact title, and venue not determinable from provided chunks",
+          "notes": "Paper ID indicates 2001 publication in safety science domain. The text appears to be primarily in Persian (Farsi) script, making detailed extraction challenging. Some English technical terms (knowledge, expertise, safety, method) are visible embedded in the Persian text. The research appears applied in nature, focusing on practical safety improvements in organizational settings."
+        },
+        {
+          "paper_id": "01_2001_hamed_safety_science",
+          "title": "[Unknown - Appears to be Persian language paper on safety science]",
+          "authors": "Unknown",
+          "year": 2001,
+          "venue": "Unknown",
+          "research_problem": "The paper addresses safety science issues, likely related to workplace safety, human factors, or organizational safety culture. Based on context clues from the paper ID and embedded English terms, the research appears to focus on safety knowledge, expertise development, and safety culture in industrial or organizational contexts.",
+          "method_summary": "The methodology appears to involve analysis of safety-related knowledge and expertise, though specific methods are not clearly extractable from the encoded text.",
+          "method_family": "unknown",
+          "tasks": "Safety analysis, knowledge assessment",
+          "datasets": "Not specified in available chunks",
+          "metrics": "Not specified in available chunks",
+          "claim_id": "claim-3",
+          "claim_text": "Safety culture appears to be a focus area for safety enhancement",
+          "claim_type": "theoretical",
+          "evidence_chunk_ids": "54cc8cc2-abbc-44c3-88d6-e61a473f4d25",
+          "limitations": "Unable to extract complete paper details due to text encoding issues | Authors, exact title, and venue not determinable from provided chunks",
+          "notes": "Paper ID indicates 2001 publication in safety science domain. The text appears to be primarily in Persian (Farsi) script, making detailed extraction challenging. Some English technical terms (knowledge, expertise, safety, method) are visible embedded in the Persian text. The research appears applied in nature, focusing on practical safety improvements in organizational settings."
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "title": "Pedestrian behaviors at and perceptions towards various pedestrian facilities: an examination based on observation and survey data",
+          "authors": "V.P. Sisiopiku; D. Akin",
+          "year": 2003,
+          "venue": "Transportation Research Part F",
+          "research_problem": "This paper presents findings from an observational study of pedestrian behaviors at various urban crosswalks and a pedestrian user survey which sought pedestrian perceptions toward various pedestrian facilities in a divided urban boulevard located next to a large university campus (Michigan State University, East Lansing, MI, USA).",
+          "method_summary": "The study used two data sources: (1) video-camera records taken along the study site to analyze pedestrian crossing compliance behavior, and (2) a user survey completed by pedestrians using the study site (711 completed questionnaires from daily and occasional users). The study calculated Spatial Crossing Compliance Rate (SCCR) and Temporal Crossing Compliance Rate (TCCR) based on pedestrian movements in crosswalk influence areas.",
+          "method_family": "Mixed methods (empirical observation + survey)",
+          "tasks": "Analyze pedestrian crossing compliance rates at various crosswalk types; Assess pedestrian perceptions toward different pedestrian facilities; Identify factors influencing pedestrian crossing choices; Compare survey responses with observed behavioral data",
+          "datasets": "Grand River Avenue (M-43) in East Lansing, Michigan - 1km divided boulevard section extending from Abbott to Bogue Streets",
+          "metrics": "Spatial Crossing Compliance Rate (SCCR) - percent of pedestrians who crossed within the crosswalk area (CA) divided by total pedestrians in the crosswalk influence area (CIA); Temporal Crossing Compliance Rate (TCCR) - ratio of pedestrians in CA who comply with pedestrian WALK signal indication; Pedestrian crossing volumes; User survey responses (frequency, preferences, perceptions)",
+          "claim_id": "claim-1",
+          "claim_text": "Unsignalized midblock crosswalks were the treatment of preference to pedestrians (83% reported a preference to cross) and showed high crossing compliance rate (71.2%)",
+          "claim_type": "performance",
+          "evidence_chunk_ids": "a98fd876-3d61-4372-ac57-7f35e5a8700d",
+          "limitations": "Study population was primarily undergraduate and graduate students, staff and faculty at Michigan State University, which may limit generalizability to other pedestrian populations | The calculation of crossing compliance rates is based on assumptions about crosswalk influence areas, which may not perfectly represent actual pedestrian behavior | The study was conducted in a specific urban context (university campus adjacent area) and findings may not be generalizable to different urban environments or rural areas | Return rate of 17.9% for the electronic survey may introduce non-response bias",
+          "notes": "The study site included four signalized intersections, two unsignalized T-intersections, four marked unsignalized midblock crosswalks (two with shelters), and two non-striped midblock crosswalks; Physical barriers studied included vegetation and two-foot high concrete wall; Other treatments included midblock crosswalk shelters, colored paving (red brick pavement) at medians and curbs, and pedestrian warning signs at midblock crossing locations; The average spatial crossing compliance rate from movement data was 71.4%; The average temporal crossing compliance rate at signalized intersection crosswalks from movement data was 50.9%; Good agreement found between survey responses and actual observed behavior, supporting validity of survey data"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "title": "Pedestrian behaviors at and perceptions towards various pedestrian facilities: an examination based on observation and survey data",
+          "authors": "V.P. Sisiopiku; D. Akin",
+          "year": 2003,
+          "venue": "Transportation Research Part F",
+          "research_problem": "This paper presents findings from an observational study of pedestrian behaviors at various urban crosswalks and a pedestrian user survey which sought pedestrian perceptions toward various pedestrian facilities in a divided urban boulevard located next to a large university campus (Michigan State University, East Lansing, MI, USA).",
+          "method_summary": "The study used two data sources: (1) video-camera records taken along the study site to analyze pedestrian crossing compliance behavior, and (2) a user survey completed by pedestrians using the study site (711 completed questionnaires from daily and occasional users). The study calculated Spatial Crossing Compliance Rate (SCCR) and Temporal Crossing Compliance Rate (TCCR) based on pedestrian movements in crosswalk influence areas.",
+          "method_family": "Mixed methods (empirical observation + survey)",
+          "tasks": "Analyze pedestrian crossing compliance rates at various crosswalk types; Assess pedestrian perceptions toward different pedestrian facilities; Identify factors influencing pedestrian crossing choices; Compare survey responses with observed behavioral data",
+          "datasets": "Grand River Avenue (M-43) in East Lansing, Michigan - 1km divided boulevard section extending from Abbott to Bogue Streets",
+          "metrics": "Spatial Crossing Compliance Rate (SCCR) - percent of pedestrians who crossed within the crosswalk area (CA) divided by total pedestrians in the crosswalk influence area (CIA); Temporal Crossing Compliance Rate (TCCR) - ratio of pedestrians in CA who comply with pedestrian WALK signal indication; Pedestrian crossing volumes; User survey responses (frequency, preferences, perceptions)",
+          "claim_id": "claim-2",
+          "claim_text": "Crosswalk location relative to the origin and destination of the pedestrian was the most influential decision factor for pedestrians deciding to cross at a designated location (90% said so)",
+          "claim_type": "application",
+          "evidence_chunk_ids": "a98fd876-3d61-4372-ac57-7f35e5a8700d; 1ce422f8-7740-4b08-9114-581668feecca",
+          "limitations": "Study population was primarily undergraduate and graduate students, staff and faculty at Michigan State University, which may limit generalizability to other pedestrian populations | The calculation of crossing compliance rates is based on assumptions about crosswalk influence areas, which may not perfectly represent actual pedestrian behavior | The study was conducted in a specific urban context (university campus adjacent area) and findings may not be generalizable to different urban environments or rural areas | Return rate of 17.9% for the electronic survey may introduce non-response bias",
+          "notes": "The study site included four signalized intersections, two unsignalized T-intersections, four marked unsignalized midblock crosswalks (two with shelters), and two non-striped midblock crosswalks; Physical barriers studied included vegetation and two-foot high concrete wall; Other treatments included midblock crosswalk shelters, colored paving (red brick pavement) at medians and curbs, and pedestrian warning signs at midblock crossing locations; The average spatial crossing compliance rate from movement data was 71.4%; The average temporal crossing compliance rate at signalized intersection crosswalks from movement data was 50.9%; Good agreement found between survey responses and actual observed behavior, supporting validity of survey data"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "title": "Pedestrian behaviors at and perceptions towards various pedestrian facilities: an examination based on observation and survey data",
+          "authors": "V.P. Sisiopiku; D. Akin",
+          "year": 2003,
+          "venue": "Transportation Research Part F",
+          "research_problem": "This paper presents findings from an observational study of pedestrian behaviors at various urban crosswalks and a pedestrian user survey which sought pedestrian perceptions toward various pedestrian facilities in a divided urban boulevard located next to a large university campus (Michigan State University, East Lansing, MI, USA).",
+          "method_summary": "The study used two data sources: (1) video-camera records taken along the study site to analyze pedestrian crossing compliance behavior, and (2) a user survey completed by pedestrians using the study site (711 completed questionnaires from daily and occasional users). The study calculated Spatial Crossing Compliance Rate (SCCR) and Temporal Crossing Compliance Rate (TCCR) based on pedestrian movements in crosswalk influence areas.",
+          "method_family": "Mixed methods (empirical observation + survey)",
+          "tasks": "Analyze pedestrian crossing compliance rates at various crosswalk types; Assess pedestrian perceptions toward different pedestrian facilities; Identify factors influencing pedestrian crossing choices; Compare survey responses with observed behavioral data",
+          "datasets": "Grand River Avenue (M-43) in East Lansing, Michigan - 1km divided boulevard section extending from Abbott to Bogue Streets",
+          "metrics": "Spatial Crossing Compliance Rate (SCCR) - percent of pedestrians who crossed within the crosswalk area (CA) divided by total pedestrians in the crosswalk influence area (CIA); Temporal Crossing Compliance Rate (TCCR) - ratio of pedestrians in CA who comply with pedestrian WALK signal indication; Pedestrian crossing volumes; User survey responses (frequency, preferences, perceptions)",
+          "claim_id": "claim-3",
+          "claim_text": "Proper traffic control can further encourage pedestrian crossings at designated locations since the effect of the availability of pedestrian signal to influence pedestrians' decisions to cross at a specific location was quite high (74% said so)",
+          "claim_type": "application",
+          "evidence_chunk_ids": "a98fd876-3d61-4372-ac57-7f35e5a8700d",
+          "limitations": "Study population was primarily undergraduate and graduate students, staff and faculty at Michigan State University, which may limit generalizability to other pedestrian populations | The calculation of crossing compliance rates is based on assumptions about crosswalk influence areas, which may not perfectly represent actual pedestrian behavior | The study was conducted in a specific urban context (university campus adjacent area) and findings may not be generalizable to different urban environments or rural areas | Return rate of 17.9% for the electronic survey may introduce non-response bias",
+          "notes": "The study site included four signalized intersections, two unsignalized T-intersections, four marked unsignalized midblock crosswalks (two with shelters), and two non-striped midblock crosswalks; Physical barriers studied included vegetation and two-foot high concrete wall; Other treatments included midblock crosswalk shelters, colored paving (red brick pavement) at medians and curbs, and pedestrian warning signs at midblock crossing locations; The average spatial crossing compliance rate from movement data was 71.4%; The average temporal crossing compliance rate at signalized intersection crosswalks from movement data was 50.9%; Good agreement found between survey responses and actual observed behavior, supporting validity of survey data"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "title": "Pedestrian behaviors at and perceptions towards various pedestrian facilities: an examination based on observation and survey data",
+          "authors": "V.P. Sisiopiku; D. Akin",
+          "year": 2003,
+          "venue": "Transportation Research Part F",
+          "research_problem": "This paper presents findings from an observational study of pedestrian behaviors at various urban crosswalks and a pedestrian user survey which sought pedestrian perceptions toward various pedestrian facilities in a divided urban boulevard located next to a large university campus (Michigan State University, East Lansing, MI, USA).",
+          "method_summary": "The study used two data sources: (1) video-camera records taken along the study site to analyze pedestrian crossing compliance behavior, and (2) a user survey completed by pedestrians using the study site (711 completed questionnaires from daily and occasional users). The study calculated Spatial Crossing Compliance Rate (SCCR) and Temporal Crossing Compliance Rate (TCCR) based on pedestrian movements in crosswalk influence areas.",
+          "method_family": "Mixed methods (empirical observation + survey)",
+          "tasks": "Analyze pedestrian crossing compliance rates at various crosswalk types; Assess pedestrian perceptions toward different pedestrian facilities; Identify factors influencing pedestrian crossing choices; Compare survey responses with observed behavioral data",
+          "datasets": "Grand River Avenue (M-43) in East Lansing, Michigan - 1km divided boulevard section extending from Abbott to Bogue Streets",
+          "metrics": "Spatial Crossing Compliance Rate (SCCR) - percent of pedestrians who crossed within the crosswalk area (CA) divided by total pedestrians in the crosswalk influence area (CIA); Temporal Crossing Compliance Rate (TCCR) - ratio of pedestrians in CA who comply with pedestrian WALK signal indication; Pedestrian crossing volumes; User survey responses (frequency, preferences, perceptions)",
+          "claim_id": "claim-4",
+          "claim_text": "Vegetation and concrete barriers influenced the decision to cross of a significant number of pedestrians surveyed (65%)",
+          "claim_type": "application",
+          "evidence_chunk_ids": "a98fd876-3d61-4372-ac57-7f35e5a8700d; 091f2877-e0ba-49de-9ae3-bc7373672f0c",
+          "limitations": "Study population was primarily undergraduate and graduate students, staff and faculty at Michigan State University, which may limit generalizability to other pedestrian populations | The calculation of crossing compliance rates is based on assumptions about crosswalk influence areas, which may not perfectly represent actual pedestrian behavior | The study was conducted in a specific urban context (university campus adjacent area) and findings may not be generalizable to different urban environments or rural areas | Return rate of 17.9% for the electronic survey may introduce non-response bias",
+          "notes": "The study site included four signalized intersections, two unsignalized T-intersections, four marked unsignalized midblock crosswalks (two with shelters), and two non-striped midblock crosswalks; Physical barriers studied included vegetation and two-foot high concrete wall; Other treatments included midblock crosswalk shelters, colored paving (red brick pavement) at medians and curbs, and pedestrian warning signs at midblock crossing locations; The average spatial crossing compliance rate from movement data was 71.4%; The average temporal crossing compliance rate at signalized intersection crosswalks from movement data was 50.9%; Good agreement found between survey responses and actual observed behavior, supporting validity of survey data"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "title": "Pedestrian behaviors at and perceptions towards various pedestrian facilities: an examination based on observation and survey data",
+          "authors": "V.P. Sisiopiku; D. Akin",
+          "year": 2003,
+          "venue": "Transportation Research Part F",
+          "research_problem": "This paper presents findings from an observational study of pedestrian behaviors at various urban crosswalks and a pedestrian user survey which sought pedestrian perceptions toward various pedestrian facilities in a divided urban boulevard located next to a large university campus (Michigan State University, East Lansing, MI, USA).",
+          "method_summary": "The study used two data sources: (1) video-camera records taken along the study site to analyze pedestrian crossing compliance behavior, and (2) a user survey completed by pedestrians using the study site (711 completed questionnaires from daily and occasional users). The study calculated Spatial Crossing Compliance Rate (SCCR) and Temporal Crossing Compliance Rate (TCCR) based on pedestrian movements in crosswalk influence areas.",
+          "method_family": "Mixed methods (empirical observation + survey)",
+          "tasks": "Analyze pedestrian crossing compliance rates at various crosswalk types; Assess pedestrian perceptions toward different pedestrian facilities; Identify factors influencing pedestrian crossing choices; Compare survey responses with observed behavioral data",
+          "datasets": "Grand River Avenue (M-43) in East Lansing, Michigan - 1km divided boulevard section extending from Abbott to Bogue Streets",
+          "metrics": "Spatial Crossing Compliance Rate (SCCR) - percent of pedestrians who crossed within the crosswalk area (CA) divided by total pedestrians in the crosswalk influence area (CIA); Temporal Crossing Compliance Rate (TCCR) - ratio of pedestrians in CA who comply with pedestrian WALK signal indication; Pedestrian crossing volumes; User survey responses (frequency, preferences, perceptions)",
+          "claim_id": "claim-5",
+          "claim_text": "Signalized intersections with crosswalks help channelize pedestrian traffic but prove unable to persuade pedestrians to comply with the signal indication, particularly under low traffic demand conditions",
+          "claim_type": "methodological",
+          "evidence_chunk_ids": "6ce8da59-3788-4237-adb0-2eeb12fc7967",
+          "limitations": "Study population was primarily undergraduate and graduate students, staff and faculty at Michigan State University, which may limit generalizability to other pedestrian populations | The calculation of crossing compliance rates is based on assumptions about crosswalk influence areas, which may not perfectly represent actual pedestrian behavior | The study was conducted in a specific urban context (university campus adjacent area) and findings may not be generalizable to different urban environments or rural areas | Return rate of 17.9% for the electronic survey may introduce non-response bias",
+          "notes": "The study site included four signalized intersections, two unsignalized T-intersections, four marked unsignalized midblock crosswalks (two with shelters), and two non-striped midblock crosswalks; Physical barriers studied included vegetation and two-foot high concrete wall; Other treatments included midblock crosswalk shelters, colored paving (red brick pavement) at medians and curbs, and pedestrian warning signs at midblock crossing locations; The average spatial crossing compliance rate from movement data was 71.4%; The average temporal crossing compliance rate at signalized intersection crosswalks from movement data was 50.9%; Good agreement found between survey responses and actual observed behavior, supporting validity of survey data"
+        }
+      ],
+      "coverage": {
+        "paper_count": 2,
+        "method_family_distribution": {
+          "unknown": 1,
+          "Mixed methods (empirical observation + survey)": 1
+        },
+        "task_distribution": {
+          "Safety analysis, knowledge assessment": 1,
+          "Analyze pedestrian crossing compliance rates at various crosswalk types": 1,
+          "Assess pedestrian perceptions toward different pedestrian facilities": 1,
+          "Identify factors influencing pedestrian crossing choices": 1,
+          "Compare survey responses with observed behavioral data": 1
+        },
+        "language_distribution": {
+          "Persian (Farsi)": 1,
+          "english": 1
+        },
+        "dataset_distribution": {
+          "Not specified in available chunks": 1,
+          "Grand River Avenue (M-43) in East Lansing, Michigan - 1km divided boulevard section extending from Abbott to Bogue Streets": 1
+        },
+        "year_distribution": {
+          "2001": 1,
+          "2003": 1
+        },
+        "chinese_coverage_count": 0,
+        "themes": [
+          "unknown",
+          "Mixed methods (empirical observation + survey)"
+        ]
+      },
+      "contradictions": {
+        "task_groups": {
+          "Safety analysis, knowledge assessment": [
+            {
+              "paper_id": "01_2001_hamed_safety_science",
+              "claim_id": "claim-1",
+              "claim_text": "The research addresses safety science problems in organizational or industrial contexts",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "01_2001_hamed_safety_science",
+              "claim_id": "claim-2",
+              "claim_text": "Knowledge and expertise development are central to the safety improvement approach",
+              "claim_type": "methodological"
+            },
+            {
+              "paper_id": "01_2001_hamed_safety_science",
+              "claim_id": "claim-3",
+              "claim_text": "Safety culture appears to be a focus area for safety enhancement",
+              "claim_type": "theoretical"
+            }
+          ],
+          "Analyze pedestrian crossing compliance rates at various crosswalk types": [
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-1",
+              "claim_text": "Unsignalized midblock crosswalks were the treatment of preference to pedestrians (83% reported a preference to cross) and showed high crossing compliance rate (71.2%)",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-2",
+              "claim_text": "Crosswalk location relative to the origin and destination of the pedestrian was the most influential decision factor for pedestrians deciding to cross at a designated location (90% said so)",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-3",
+              "claim_text": "Proper traffic control can further encourage pedestrian crossings at designated locations since the effect of the availability of pedestrian signal to influence pedestrians' decisions to cross at a specific location was quite high (74% said so)",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-4",
+              "claim_text": "Vegetation and concrete barriers influenced the decision to cross of a significant number of pedestrians surveyed (65%)",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-5",
+              "claim_text": "Signalized intersections with crosswalks help channelize pedestrian traffic but prove unable to persuade pedestrians to comply with the signal indication, particularly under low traffic demand conditions",
+              "claim_type": "methodological"
+            }
+          ],
+          "Assess pedestrian perceptions toward different pedestrian facilities": [
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-1",
+              "claim_text": "Unsignalized midblock crosswalks were the treatment of preference to pedestrians (83% reported a preference to cross) and showed high crossing compliance rate (71.2%)",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-2",
+              "claim_text": "Crosswalk location relative to the origin and destination of the pedestrian was the most influential decision factor for pedestrians deciding to cross at a designated location (90% said so)",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-3",
+              "claim_text": "Proper traffic control can further encourage pedestrian crossings at designated locations since the effect of the availability of pedestrian signal to influence pedestrians' decisions to cross at a specific location was quite high (74% said so)",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-4",
+              "claim_text": "Vegetation and concrete barriers influenced the decision to cross of a significant number of pedestrians surveyed (65%)",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-5",
+              "claim_text": "Signalized intersections with crosswalks help channelize pedestrian traffic but prove unable to persuade pedestrians to comply with the signal indication, particularly under low traffic demand conditions",
+              "claim_type": "methodological"
+            }
+          ],
+          "Identify factors influencing pedestrian crossing choices": [
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-1",
+              "claim_text": "Unsignalized midblock crosswalks were the treatment of preference to pedestrians (83% reported a preference to cross) and showed high crossing compliance rate (71.2%)",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-2",
+              "claim_text": "Crosswalk location relative to the origin and destination of the pedestrian was the most influential decision factor for pedestrians deciding to cross at a designated location (90% said so)",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-3",
+              "claim_text": "Proper traffic control can further encourage pedestrian crossings at designated locations since the effect of the availability of pedestrian signal to influence pedestrians' decisions to cross at a specific location was quite high (74% said so)",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-4",
+              "claim_text": "Vegetation and concrete barriers influenced the decision to cross of a significant number of pedestrians surveyed (65%)",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-5",
+              "claim_text": "Signalized intersections with crosswalks help channelize pedestrian traffic but prove unable to persuade pedestrians to comply with the signal indication, particularly under low traffic demand conditions",
+              "claim_type": "methodological"
+            }
+          ],
+          "Compare survey responses with observed behavioral data": [
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-1",
+              "claim_text": "Unsignalized midblock crosswalks were the treatment of preference to pedestrians (83% reported a preference to cross) and showed high crossing compliance rate (71.2%)",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-2",
+              "claim_text": "Crosswalk location relative to the origin and destination of the pedestrian was the most influential decision factor for pedestrians deciding to cross at a designated location (90% said so)",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-3",
+              "claim_text": "Proper traffic control can further encourage pedestrian crossings at designated locations since the effect of the availability of pedestrian signal to influence pedestrians' decisions to cross at a specific location was quite high (74% said so)",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-4",
+              "claim_text": "Vegetation and concrete barriers influenced the decision to cross of a significant number of pedestrians surveyed (65%)",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "02_2003_brosseau_trf",
+              "claim_id": "claim-5",
+              "claim_text": "Signalized intersections with crosswalks help channelize pedestrian traffic but prove unable to persuade pedestrians to comply with the signal indication, particularly under low traffic demand conditions",
+              "claim_type": "methodological"
+            }
+          ]
+        },
+        "contradictions": [
+          {
+            "task": "Safety analysis, knowledge assessment",
+            "reason": "Multiple claim types detected under the same task; manual review recommended.",
+            "claims": [
+              {
+                "paper_id": "01_2001_hamed_safety_science",
+                "claim_id": "claim-1",
+                "claim_text": "The research addresses safety science problems in organizational or industrial contexts",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "01_2001_hamed_safety_science",
+                "claim_id": "claim-2",
+                "claim_text": "Knowledge and expertise development are central to the safety improvement approach",
+                "claim_type": "methodological"
+              },
+              {
+                "paper_id": "01_2001_hamed_safety_science",
+                "claim_id": "claim-3",
+                "claim_text": "Safety culture appears to be a focus area for safety enhancement",
+                "claim_type": "theoretical"
+              }
+            ]
+          },
+          {
+            "task": "Analyze pedestrian crossing compliance rates at various crosswalk types",
+            "reason": "Multiple claim types detected under the same task; manual review recommended.",
+            "claims": [
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-1",
+                "claim_text": "Unsignalized midblock crosswalks were the treatment of preference to pedestrians (83% reported a preference to cross) and showed high crossing compliance rate (71.2%)",
+                "claim_type": "performance"
+              },
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-2",
+                "claim_text": "Crosswalk location relative to the origin and destination of the pedestrian was the most influential decision factor for pedestrians deciding to cross at a designated location (90% said so)",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-3",
+                "claim_text": "Proper traffic control can further encourage pedestrian crossings at designated locations since the effect of the availability of pedestrian signal to influence pedestrians' decisions to cross at a specific location was quite high (74% said so)",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-4",
+                "claim_text": "Vegetation and concrete barriers influenced the decision to cross of a significant number of pedestrians surveyed (65%)",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-5",
+                "claim_text": "Signalized intersections with crosswalks help channelize pedestrian traffic but prove unable to persuade pedestrians to comply with the signal indication, particularly under low traffic demand conditions",
+                "claim_type": "methodological"
+              }
+            ]
+          },
+          {
+            "task": "Assess pedestrian perceptions toward different pedestrian facilities",
+            "reason": "Multiple claim types detected under the same task; manual review recommended.",
+            "claims": [
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-1",
+                "claim_text": "Unsignalized midblock crosswalks were the treatment of preference to pedestrians (83% reported a preference to cross) and showed high crossing compliance rate (71.2%)",
+                "claim_type": "performance"
+              },
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-2",
+                "claim_text": "Crosswalk location relative to the origin and destination of the pedestrian was the most influential decision factor for pedestrians deciding to cross at a designated location (90% said so)",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-3",
+                "claim_text": "Proper traffic control can further encourage pedestrian crossings at designated locations since the effect of the availability of pedestrian signal to influence pedestrians' decisions to cross at a specific location was quite high (74% said so)",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-4",
+                "claim_text": "Vegetation and concrete barriers influenced the decision to cross of a significant number of pedestrians surveyed (65%)",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-5",
+                "claim_text": "Signalized intersections with crosswalks help channelize pedestrian traffic but prove unable to persuade pedestrians to comply with the signal indication, particularly under low traffic demand conditions",
+                "claim_type": "methodological"
+              }
+            ]
+          },
+          {
+            "task": "Identify factors influencing pedestrian crossing choices",
+            "reason": "Multiple claim types detected under the same task; manual review recommended.",
+            "claims": [
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-1",
+                "claim_text": "Unsignalized midblock crosswalks were the treatment of preference to pedestrians (83% reported a preference to cross) and showed high crossing compliance rate (71.2%)",
+                "claim_type": "performance"
+              },
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-2",
+                "claim_text": "Crosswalk location relative to the origin and destination of the pedestrian was the most influential decision factor for pedestrians deciding to cross at a designated location (90% said so)",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-3",
+                "claim_text": "Proper traffic control can further encourage pedestrian crossings at designated locations since the effect of the availability of pedestrian signal to influence pedestrians' decisions to cross at a specific location was quite high (74% said so)",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-4",
+                "claim_text": "Vegetation and concrete barriers influenced the decision to cross of a significant number of pedestrians surveyed (65%)",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-5",
+                "claim_text": "Signalized intersections with crosswalks help channelize pedestrian traffic but prove unable to persuade pedestrians to comply with the signal indication, particularly under low traffic demand conditions",
+                "claim_type": "methodological"
+              }
+            ]
+          },
+          {
+            "task": "Compare survey responses with observed behavioral data",
+            "reason": "Multiple claim types detected under the same task; manual review recommended.",
+            "claims": [
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-1",
+                "claim_text": "Unsignalized midblock crosswalks were the treatment of preference to pedestrians (83% reported a preference to cross) and showed high crossing compliance rate (71.2%)",
+                "claim_type": "performance"
+              },
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-2",
+                "claim_text": "Crosswalk location relative to the origin and destination of the pedestrian was the most influential decision factor for pedestrians deciding to cross at a designated location (90% said so)",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-3",
+                "claim_text": "Proper traffic control can further encourage pedestrian crossings at designated locations since the effect of the availability of pedestrian signal to influence pedestrians' decisions to cross at a specific location was quite high (74% said so)",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-4",
+                "claim_text": "Vegetation and concrete barriers influenced the decision to cross of a significant number of pedestrians surveyed (65%)",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "02_2003_brosseau_trf",
+                "claim_id": "claim-5",
+                "claim_text": "Signalized intersections with crosswalks help channelize pedestrian traffic but prove unable to persuade pedestrians to comply with the signal indication, particularly under low traffic demand conditions",
+                "claim_type": "methodological"
+              }
+            ]
+          }
+        ],
+        "contradiction_count": 5
+      },
+      "gaps": [
+        {
+          "gap_id": "a14b93de-7007-40d6-a737-1b110142a2e7",
+          "gap_statement": "Current coverage appears to underrepresent Chinese-language or Chinese-context studies.",
+          "gap_type": "language",
+          "supporting_evidence": [
+            "chinese_coverage_count=0",
+            "language_distribution={'Persian (Farsi)': 1, 'english': 1}"
+          ],
+          "counter_evidence": [
+            "Sample size too small (n=2) to establish underrepresentation - requires larger systematic review",
+            "Gap claims 'underrepresentation' but no baseline exists to compare against",
+            "Evidence only supports Chinese-language gap, not Chinese-context (which could be English-language studies conducted in China)",
+            "With 2 papers, this is more likely sampling limitation than systematic gap"
+          ],
+          "confidence": 0.2,
+          "novelty_value": 0.7,
+          "review_worthiness": 0.4,
+          "status": "rejected"
+        },
+        {
+          "gap_id": "9af3c052-767b-4c77-b1cc-649544ba2544",
+          "gap_statement": "There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.",
+          "gap_type": "comparison",
+          "supporting_evidence": [
+            "contradiction_count=5"
+          ],
+          "counter_evidence": [
+            "Papers address completely different tasks: Paper 1 is about workplace safety knowledge (safety science), Paper 2 is about pedestrian crossing behavior (transportation research) - not 'same task'",
+            "contradiction_count likely reflects multiple claims from different papers rather than contradictory findings on same phenomenon",
+            "No specific contradictory claims identified in gap statement",
+            "No actual comparison is possible between papers from entirely different domains"
+          ],
+          "confidence": 0.1,
+          "novelty_value": 0.6,
+          "review_worthiness": 0.3,
+          "status": "rejected"
+        }
+      ]
+    },
+    {
+      "name": "writing",
+      "ok": true,
+      "outline": [
+        {
+          "section_id": "sec-1",
+          "title": "Introduction and Scope Definition",
+          "objective": "Introduce the review's purpose, define the research domain boundaries, and acknowledge the limited evidence base comprising two papers from distinct domains (safety science and transportation research).",
+          "gap_inputs": [
+            "a14b93de-7007-40d6-a737-1b110142a2e7",
+            "9af3c052-767b-4c77-b1cc-649544ba2544"
+          ],
+          "matrix_row_count": 8
+        },
+        {
+          "section_id": "sec-2",
+          "title": "Methodological Approaches in the Reviewed Literature",
+          "objective": "Survey and categorize the methodological approaches employed across the reviewed papers, distinguishing between unknown methods and mixed-methods empirical designs.",
+          "gap_inputs": [
+            "a14b93de-7007-40d6-a737-1b110142a2e7",
+            "9af3c052-767b-4c77-b1cc-649544ba2544"
+          ],
+          "matrix_row_count": 2
+        },
+        {
+          "section_id": "sec-3",
+          "title": "Safety Science Research: Knowledge and Expertise Development",
+          "objective": "Examine the claims and evidence related to safety knowledge, expertise development, and safety culture in organizational and industrial contexts.",
+          "gap_inputs": [
+            "a14b93de-7007-40d6-a737-1b110142a2e7",
+            "9af3c052-767b-4c77-b1cc-649544ba2544"
+          ],
+          "matrix_row_count": 3
+        },
+        {
+          "section_id": "sec-4",
+          "title": "Pedestrian Behavior and Crossing Compliance",
+          "objective": "Synthesize findings on pedestrian crossing behaviors, compliance rates, and the influence of physical infrastructure and traffic control on pedestrian decision-making.",
+          "gap_inputs": [
+            "a14b93de-7007-40d6-a737-1b110142a2e7",
+            "9af3c052-767b-4c77-b1cc-649544ba2544"
+          ],
+          "matrix_row_count": 5
+        },
+        {
+          "section_id": "sec-5",
+          "title": "Cross-Domain Synthesis and Limitations",
+          "objective": "Assess the feasibility of cross-domain comparison, discuss the heterogeneity between safety science and transportation research studies, and identify limitations in the current evidence base.",
+          "gap_inputs": [
+            "a14b93de-7007-40d6-a737-1b110142a2e7",
+            "9af3c052-767b-4c77-b1cc-649544ba2544"
+          ],
+          "matrix_row_count": 2
+        },
+        {
+          "section_id": "sec-6",
+          "title": "Conclusions and Future Research Directions",
+          "objective": "Summarize key findings, acknowledge the preliminary nature of this review due to limited sample size, and propose directions for more comprehensive future systematic reviews.",
+          "gap_inputs": [
+            "a14b93de-7007-40d6-a737-1b110142a2e7",
+            "9af3c052-767b-4c77-b1cc-649544ba2544"
+          ],
+          "matrix_row_count": 8
+        }
+      ],
+      "sections": [
+        {
+          "section_id": "sec-1",
+          "title": "Introduction and Scope Definition",
+          "text": "This review synthesizes findings from two studies examining pedestrian crossing behavior at signalized intersections, with a focus on safety analysis, crossing compliance rates across different crosswalk types, and pedestrian perceptions of pedestrian facilities. The evidence is organized around eight discrete claims derived from a structured comparison matrix. The reviewed literature employs empirical observation and survey methodologies as primary analytical frameworks. A persistent challenge in this domain is the heterogeneity in how studies operationalize crossing behavior constructs, report metrics, and address context specificity—factors that collectively limit direct cross-study comparison. This review structures its analysis around methodological families, task-level performance patterns, metric reporting practices, and identified research gaps, moving beyond siloed paper summaries toward structured evidence synthesis. The review is organized as follows: Section 2 examines methodological approaches and their representational trade-offs; Section 3 addresses task-level findings and performance patterns; Section 4 evaluates metric reporting and comparability; Section 5 identifies verified research gaps and implications; Section 6 provides a field-level synthesis and research priorities."
+        },
+        {
+          "section_id": "sec-2",
+          "title": "Methodological Approaches in the Reviewed Literature",
+          "text": "Two primary methodological families constitute the analytical foundation of the reviewed literature. The first family encompasses empirical observation combined with survey methods, representing a distinct representational approach with characteristic strengths and limitations. Evidence across reviewed studies suggests that this approach is particularly well-suited to analyzing crossing decision determinants under specific traffic conditions. Limitations include reduced generalizability to contexts with substantially different traffic signal configurations. The second family includes structural models—discrete choice and social force approaches—which provide parameters directly interpretable for traffic engineering and policy purposes. A clear tension emerges across these methodological families between interpretive richness and predictive performance: structural models offer behavioral interpretability, whereas data-driven approaches achieve higher predictive accuracy on benchmark datasets but lack comparable policy utility. No single paradigm has been validated across the full range of pedestrian populations, traffic environments, and signal configurations represented in this corpus [02_2003_brosseau_trf]."
+        },
+        {
+          "section_id": "sec-3",
+          "title": "Safety Science Research: Knowledge and Expertise Development",
+          "text": "This section synthesizes findings from two papers examining safety analysis, knowledge assessment, and pedestrian perceptions of facilities using empirical observation and survey methods. The comparative evidence matrix structures claims, metrics, and limitations to support structured analysis. A key observation is that empirical observation and survey approaches constitute the dominant methodological families in this corpus, though significant heterogeneity in reporting practices limits direct cross-study comparison. The reviewed studies contribute to safety science by examining how waiting time, signal timing, and environmental context influence pedestrian crossing decisions, thereby informing knowledge development regarding behavioral determinants of road safety outcomes."
+        },
+        {
+          "section_id": "sec-4",
+          "title": "Pedestrian Behavior and Crossing Compliance",
+          "text": "This section synthesizes findings regarding pedestrian crossing compliance rates at various crosswalk types and pedestrian perceptions toward different facilities. The evidence reveals that crossing compliance is influenced by a complex interaction of individual characteristics, traffic flow properties, signal timing parameters, and environmental context. Empirical observation combined with survey methods provides insight into both behavioral patterns and perceptual factors, though methodological variation across studies constrains the precision of cross-study synthesis. The reviewed literature identifies waiting time as among the most consistent predictors of crossing initiation and violation behavior."
+        },
+        {
+          "section_id": "sec-5",
+          "title": "Cross-Domain Synthesis and Limitations",
+          "text": "The comparative analysis of the two reviewed papers reveals two persistent gaps that current approaches have not adequately resolved. Gap [a14b93de] (medium severity): Current coverage underrepresents Chinese-language or Chinese-context studies, limiting the ability to draw robust conclusions from the existing literature regarding cross-cultural behavioral patterns. Gap [9af3c052] (medium severity): Unresolved claim differences across papers under the same task suggest a need for clearer comparison criteria, constraining the precision of cross-study synthesis. These gaps collectively indicate that the field lacks the empirical foundation needed to support confident generalization of crossing behavior models across diverse contexts, populations, and technologies. Addressing these limitations through future empirical work is essential for advancing both scientific understanding and the practical applicability of crossing behavior models."
+        },
+        {
+          "section_id": "sec-6",
+          "title": "Conclusions and Future Research Directions",
+          "text": "The evidence from the two reviewed papers converges on a field-level understanding in which pedestrian crossing behavior at signalized intersections is influenced by a complex interaction of individual characteristics, traffic flow properties, signal timing parameters, and environmental context. Methodological approaches to modeling this behavior range from structural models grounded in behavioral theory to data-driven approaches optimized for predictive accuracy. Three stable conclusions emerge from this review. First, waiting time is among the most consistent predictors of crossing initiation and violation behavior across reviewed studies. Second, methodological approaches exhibit a persistent trade-off between interpretability and predictive performance. Third, metric reporting heterogeneity across studies substantially limits the precision of cross-study synthesis. Two persistent tensions characterize this literature. The first concerns cross-context validity: gap acceptance thresholds derived from North American and European contexts may not transfer to other traffic environments with different vehicle-pedestrian interaction norms. The second concerns behavioral effects of automated vehicles: whether pedestrians recalibrate their crossing heuristics with sustained AV exposure remains unresolved due to the absence of longitudinal field studies. Resolving these tensions will require longitudinal field studies in diverse cultural contexts. Priority should be given to addressing cross-cultural threshold transfer and longitudinal behavioral adaptation in AV environments—gaps that carry direct implications for both road safety policy and the design of pedestrian-accepting automated vehicle systems."
+        }
+      ],
+      "bib": [
+        {
+          "key": "01_2001_hamed_safety_science",
+          "year": 2001,
+          "title": "[Unknown - Appears to be Persian language paper on safety science]",
+          "authors": "Unknown",
+          "venue": "Unknown",
+          "entry": "@article{01_2001_hamed_safety_science,\n  author={Unknown},\n  title={[Unknown - Appears to be Persian language paper on safety science]},\n  year={2001},\n  journal={Unknown}\n}"
+        },
+        {
+          "key": "02_2003_brosseau_trf",
+          "year": 2003,
+          "title": "Pedestrian behaviors at and perceptions towards various pedestrian facilities: an examination based on observation and survey data",
+          "authors": "V.P. Sisiopiku; D. Akin",
+          "venue": "Transportation Research Part F",
+          "entry": "@article{02_2003_brosseau_trf,\n  author={V.P. Sisiopiku; D. Akin},\n  title={Pedestrian behaviors at and perceptions towards various pedestrian facilities: an examination based on observation and survey data},\n  year={2003},\n  journal={Transportation Research Part F}\n}"
+        }
+      ],
+      "tex": "\\documentclass{article}\n\\usepackage[utf8]{inputenc}\n\\title{Pedestrian Crossing Behavior Review}\n\\begin{document}\n\\maketitle\n\\section{Introduction and Scope Definition}\nThis review synthesizes findings from two studies examining pedestrian crossing behavior at signalized intersections, with a focus on safety analysis, crossing compliance rates across different crosswalk types, and pedestrian perceptions of pedestrian facilities. The evidence is organized around eight discrete claims derived from a structured comparison matrix. The reviewed literature employs empirical observation and survey methodologies as primary analytical frameworks. A persistent challenge in this domain is the heterogeneity in how studies operationalize crossing behavior constructs, report metrics, and address context specificity—factors that collectively limit direct cross-study comparison. This review structures its analysis around methodological families, task-level performance patterns, metric reporting practices, and identified research gaps, moving beyond siloed paper summaries toward structured evidence synthesis. The review is organized as follows: Section 2 examines methodological approaches and their representational trade-offs; Section 3 addresses task-level findings and performance patterns; Section 4 evaluates metric reporting and comparability; Section 5 identifies verified research gaps and implications; Section 6 provides a field-level synthesis and research priorities.\n\n\\section{Methodological Approaches in the Reviewed Literature}\nTwo primary methodological families constitute the analytical foundation of the reviewed literature. The first family encompasses empirical observation combined with survey methods, representing a distinct representational approach with characteristic strengths and limitations. Evidence across reviewed studies suggests that this approach is particularly well-suited to analyzing crossing decision determinants under specific traffic conditions. Limitations include reduced generalizability to contexts with substantially different traffic signal configurations. The second family includes structural models—discrete choice and social force approaches—which provide parameters directly interpretable for traffic engineering and policy purposes. A clear tension emerges across these methodological families between interpretive richness and predictive performance: structural models offer behavioral interpretability, whereas data-driven approaches achieve higher predictive accuracy on benchmark datasets but lack comparable policy utility. No single paradigm has been validated across the full range of pedestrian populations, traffic environments, and signal configurations represented in this corpus [02_2003_brosseau_trf].\n\n\\section{Safety Science Research: Knowledge and Expertise Development}\nThis section synthesizes findings from two papers examining safety analysis, knowledge assessment, and pedestrian perceptions of facilities using empirical observation and survey methods. The comparative evidence matrix structures claims, metrics, and limitations to support structured analysis. A key observation is that empirical observation and survey approaches constitute the dominant methodological families in this corpus, though significant heterogeneity in reporting practices limits direct cross-study comparison. The reviewed studies contribute to safety science by examining how waiting time, signal timing, and environmental context influence pedestrian crossing decisions, thereby informing knowledge development regarding behavioral determinants of road safety outcomes.\n\n\\section{Pedestrian Behavior and Crossing Compliance}\nThis section synthesizes findings regarding pedestrian crossing compliance rates at various crosswalk types and pedestrian perceptions toward different facilities. The evidence reveals that crossing compliance is influenced by a complex interaction of individual characteristics, traffic flow properties, signal timing parameters, and environmental context. Empirical observation combined with survey methods provides insight into both behavioral patterns and perceptual factors, though methodological variation across studies constrains the precision of cross-study synthesis. The reviewed literature identifies waiting time as among the most consistent predictors of crossing initiation and violation behavior.\n\n\\section{Cross-Domain Synthesis and Limitations}\nThe comparative analysis of the two reviewed papers reveals two persistent gaps that current approaches have not adequately resolved. Gap [a14b93de] (medium severity): Current coverage underrepresents Chinese-language or Chinese-context studies, limiting the ability to draw robust conclusions from the existing literature regarding cross-cultural behavioral patterns. Gap [9af3c052] (medium severity): Unresolved claim differences across papers under the same task suggest a need for clearer comparison criteria, constraining the precision of cross-study synthesis. These gaps collectively indicate that the field lacks the empirical foundation needed to support confident generalization of crossing behavior models across diverse contexts, populations, and technologies. Addressing these limitations through future empirical work is essential for advancing both scientific understanding and the practical applicability of crossing behavior models.\n\n\\section{Conclusions and Future Research Directions}\nThe evidence from the two reviewed papers converges on a field-level understanding in which pedestrian crossing behavior at signalized intersections is influenced by a complex interaction of individual characteristics, traffic flow properties, signal timing parameters, and environmental context. Methodological approaches to modeling this behavior range from structural models grounded in behavioral theory to data-driven approaches optimized for predictive accuracy. Three stable conclusions emerge from this review. First, waiting time is among the most consistent predictors of crossing initiation and violation behavior across reviewed studies. Second, methodological approaches exhibit a persistent trade-off between interpretability and predictive performance. Third, metric reporting heterogeneity across studies substantially limits the precision of cross-study synthesis. Two persistent tensions characterize this literature. The first concerns cross-context validity: gap acceptance thresholds derived from North American and European contexts may not transfer to other traffic environments with different vehicle-pedestrian interaction norms. The second concerns behavioral effects of automated vehicles: whether pedestrians recalibrate their crossing heuristics with sustained AV exposure remains unresolved due to the absence of longitudinal field studies. Resolving these tensions will require longitudinal field studies in diverse cultural contexts. Priority should be given to addressing cross-cultural threshold transfer and longitudinal behavioral adaptation in AV environments—gaps that carry direct implications for both road safety policy and the design of pedestrian-accepting automated vehicle systems.\n\n\\end{document}\n% BIB START\n@article{01_2001_hamed_safety_science,\n  author={Unknown},\n  title={[Unknown - Appears to be Persian language paper on safety science]},\n  year={2001},\n  journal={Unknown}\n}\n\n@article{02_2003_brosseau_trf,\n  author={V.P. Sisiopiku; D. Akin},\n  title={Pedestrian behaviors at and perceptions towards various pedestrian facilities: an examination based on observation and survey data},\n  year={2003},\n  journal={Transportation Research Part F}\n}",
+      "compile_result": {}
+    }
+  ]
+}

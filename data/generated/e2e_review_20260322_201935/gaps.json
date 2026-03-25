@@ -1,0 +1,32 @@
+[
+  {
+    "gap_id": "afa374f6-221d-48c0-8941-3a5382a4dbcd",
+    "gap_statement": "Current coverage appears to underrepresent Chinese-language or Chinese-context studies.",
+    "gap_type": "language",
+    "supporting_evidence": [
+      "chinese_coverage_count=0 in coverage report"
+    ],
+    "counter_evidence": [
+      "Dataset distribution shows 5-6 papers (45-55%) with Chinese context: Xi'an, Dalian, Kunming, Hefei, Hong Kong",
+      "Papers 06_2013, 08_2016, 11_2013, 12_2016, 13_2020 all conducted in Chinese cities"
+    ],
+    "confidence": 0.3,
+    "novelty_value": 0.6,
+    "review_worthiness": 0.42,
+    "status": "rejected"
+  },
+  {
+    "gap_id": "10d9c631-f28d-4a7a-a1c5-e8378d15e3c6",
+    "gap_statement": "There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.",
+    "gap_type": "comparison",
+    "supporting_evidence": [
+      "contradiction_count=26 in contradiction report",
+      "23 distinct task labels with semantic overlap (e.g., multiple variants of 'pedestrian red light running' tasks)"
+    ],
+    "counter_evidence": [],
+    "confidence": 0.8,
+    "novelty_value": 0.7,
+    "review_worthiness": 0.76,
+    "status": "verified"
+  }
+]

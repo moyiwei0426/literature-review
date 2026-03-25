@@ -1,0 +1,28 @@
+{
+  "keywords": [
+    "information extraction",
+    "llm-assisted-extraction",
+    "pipeline",
+    "literature review",
+    "automatically extract structured literature review signals from academic papers.",
+    "factor taxonomy",
+    "design factors",
+    "current set"
+  ],
+  "keyword_count": 8,
+  "dominant_axis": "factor taxonomy",
+  "signals": {
+    "information extraction": 13.4,
+    "llm-assisted-extraction": 12.2,
+    "pipeline": 12.2,
+    "literature review": 11.9,
+    "automatically extract structured literature review signals from academic papers.": 8.0,
+    "factor taxonomy": 1.8,
+    "design factors": 1.5,
+    "current set": 0.8,
+    "current set shows": 0.8,
+    "limiting rigorous": 0.8,
+    "limiting rigorous cross-paper": 0.8,
+    "common evaluation": 0.8
+  }
+}

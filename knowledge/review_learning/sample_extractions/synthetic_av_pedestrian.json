@@ -1,0 +1,135 @@
+{
+  "paper_id": "synthetic_av_pedestrian",
+  "title": "Pedestrian Behavior in Shared Spaces with Autonomous Vehicles: Behavioral Modeling and Road Safety Implications",
+  "year": 2021,
+  "venue": "Transportation Research Part C (archetype)",
+  "paper_type": "review",
+  "domain_role": "both",
+  "access": "synthetic_composite",
+  "source_url": "NA",
+  "sections": [
+    {
+      "name": "Introduction",
+      "role": "intro",
+      "summary": "Contextualizes the AV era's disruptive challenge to pedestrian road-crossing heuristics built over decades of human-driven traffic. Notes that existing pedestrian behavioral models assume human-driver responses and that AVs break these assumptions through novel yielding patterns and communication modalities. Establishes review scope: AV-pedestrian interaction at crosswalks and shared spaces, 2015-2021.",
+      "rhetorical_moves": [
+        "paradigm-shift framing (human-driver to AV context)",
+        "existing model assumption challenge",
+        "novel interaction modality identification",
+        "scope delimitation with temporal boundary",
+        "contribution claim"
+      ],
+      "organization_pattern": "AV deployment context -> pedestrian heuristic assumptions violated -> novel interaction types -> scope -> contribution",
+      "citation_pattern": " Foundational AV papers cited; early AV-pedestrian studies introduced to frame gap",
+      "useful_phrases": [
+        "Pedestrian crossing behavior has long been modeled under the assumption that drivers are human: attentive, responsive, and capable of non-verbal negotiation.",
+        "This assumption is now being violated at scale as autonomous vehicles enter shared road spaces.",
+        "The behavioral adaptations required of pedestrians in AV environments represent a fundamentally different challenge from...",
+        "A central question for the field is whether pedestrians can calibrate their crossing heuristics to AV behavior patterns, and if so, over what timeframe."
+      ]
+    },
+    {
+      "name": "AV-Pedestrian Interaction Modalities",
+      "role": "taxonomy",
+      "summary": "Organizes interaction modalities into three categories: (1) implicit interaction via vehicle motion cues (speed, acceleration profile, yielding trajectory), (2) explicit communication via external human-machine interfaces (eHMI) such as light bars, displays, and audio signals, (3) infrastructure-mediated interaction via V2P communication and smart crosswalks. Reviews behavioral evidence for each.",
+      "rhetorical_moves": [
+        "taxonomy announcement with category count",
+        "per-modality evidence review",
+        "modality comparison on effectiveness",
+        "user comprehension callout",
+        "implementation gap identification"
+      ],
+      "organization_pattern": "define modality -> review behavioral evidence -> compare modalities -> open implementation questions",
+      "citation_pattern": "experimental studies with controlled AV/vehicle behavior; notes sample limitations",
+      "useful_phrases": [
+        "Implicit modality relies on the pedestrian's ability to read vehicle motion cues, a skill that transfers imperfectly from human-driven contexts because AVs...",
+        "eHMI designs range from... to..., but evidence for their effectiveness in improving pedestrian crossing decisions remains mixed.",
+        "The key unresolved question for eHMI design is whether...",
+        "Infrastructure-mediated approaches represent the most recently explored modality and offer the advantage of..., but depend on..."
+      ]
+    },
+    {
+      "name": "Yielding Behavior Models",
+      "role": "methods",
+      "summary": "Reviews models applied to AV-pedestrian yielding: gaze-based collision avoidance models extended to AV contexts, social force models with modified vehicle repulsion terms, data-driven neural network models trained on AV interaction datasets. Notes that most models have been validated in simulated or controlled physical environments, with limited real-world transfer validation.",
+      "rhetorical_moves": [
+        "model family identification",
+        "extension/modification from prior human-driver models noted",
+        "validation context flagged",
+        "transferability concern"
+      ],
+      "organization_pattern": "model family -> origin/modification -> inputs -> validation evidence -> transfer limitations",
+      "citation_pattern": "model papers cited; transfer validation failures noted explicitly",
+      "useful_phrases": [
+        "Social force models have been extended to AV-pedestrian interaction by introducing a modified repulsion term that accounts for...",
+        "While these models reproduce aggregate yielding patterns in simulation, their transfer to real-world AV deployment contexts remains largely untested.",
+        "The neural network approaches achieve higher AUC on benchmark AV-pedestrian datasets, but this performance gain comes at the cost of...",
+        "A critical gap in the validation literature is the absence of studies comparing model predictions against longitudinal field data from..."
+      ]
+    },
+    {
+      "name": "Crossing Intent Prediction",
+      "role": "comparison",
+      "summary": "Covers pedestrian crossing intent prediction models in AV context: video-based CNN/RNN approaches using body pose and gaze tracking, V2P communication-based approaches using smartphone data, multimodal fusion approaches combining vehicle sensors with infrastructure data. Performance metrics reviewed include AUC, precision-recall, and time-to-crossing accuracy.",
+      "rhetorical_moves": [
+        "task definition (why intent prediction matters for AV safety)",
+        "approach comparison on methodology",
+        "metric heterogeneity note",
+        "benchmark dataset limitation"
+      ],
+      "organization_pattern": "task importance -> approach-1 with metrics -> approach-2 with metrics -> comparison table -> dataset limitation",
+      "citation_pattern": "benchmark papers cited; performance claims qualified by dataset specificity",
+      "useful_phrases": [
+        "Accurate crossing intent prediction is a prerequisite for AV planning systems to achieve...",
+        "Video-based approaches achieve AUC values of 0.85-0.93 on benchmark datasets, but these benchmarks are predominantly from...",
+        "A recurring limitation across approaches is the short time horizon of predictions: most models are validated at 1-2 seconds pre-crossing, yet...",
+        "The absence of a unified benchmark dataset spanning diverse infrastructure contexts makes cross-study comparison problematic."
+      ]
+    },
+    {
+      "name": "Research Gaps",
+      "role": "gap",
+      "summary": "Five gaps: (1) longitudinal behavioral adaptation — do pedestrians update heuristics with sustained AV exposure? (2) cross-cultural variation in AV-pedestrian norms — most studies in North America/Europe (3) vulnerable populations (elderly, children, visually impaired) undersampled (4) eHMI standardization absent — designs vary wildly without performance standards (5) real-world transfer of lab/simulator models undocumented.",
+      "rhetorical_moves": [
+        "each gap named precisely with structural cause",
+        "evidence partial address noted",
+        "severity tied to AV deployment scale"
+      ],
+      "organization_pattern": "gap statement -> partial evidence -> insufficiency -> why it matters at scale",
+      "citation_pattern": "each gap anchored to specific study or dataset limitation",
+      "useful_phrases": [
+        "Gap 1 concerns behavioral adaptation: whether pedestrians recalibrate their gap-acceptance thresholds when interacting with consistently yielding AVs remains unknown because...",
+        "The cross-cultural gap is severe: over 80% of published AV-pedestrian studies were conducted in North American or European contexts, yet AV deployment is proceeding rapidly in...",
+        "Vulnerable population undersampling is particularly consequential because these groups show qualitatively different crossing heuristics that...",
+        "The simulator-to-real-world transfer gap represents a foundational validity concern: models validated exclusively in simulator may..."
+      ]
+    },
+    {
+      "name": "Conclusion",
+      "role": "conclusion",
+      "summary": "Field-level synthesis: AV-pedestrian interaction modeling is nascent, methodologically diverse, and currently limited by short-horizon datasets and narrow cultural scope. Stable finding: implicit motion cues are read by pedestrians but incompletely; yielding reliability is the key calibrating signal. Unresolved: long-term behavioral adaptation. Priority: longitudinal field studies in diverse cultural contexts with standardized eHMI.",
+      "rhetorical_moves": [
+        "field-level framing",
+        "stable finding with evidence weight",
+        "unresolved tension",
+        "prioritized research direction"
+      ],
+      "organization_pattern": "field framing -> stable conclusions -> open questions -> prioritized action",
+      "citation_pattern": "sparingly; key claims without per-paper citation",
+      "useful_phrases": [
+        "The field is converging on a view in which pedestrian crossing decisions in AV environments are primarily calibrated to...",
+        "What remains most uncertain is whether...",
+        "The highest-priority empirical need is for longitudinal, multi-site field studies that...",
+        "Until such evidence accumulates, predictive models for AV-pedestrian interaction should be applied with explicit uncertainty bounds reflecting..."
+      ]
+    }
+  ],
+  "global_patterns": {
+    "opening_strategy": "paradigm shift framing: existing model assumptions violated by AV deployment",
+    "synthesis_strategy": "per-modality/approach evidence then cross-method comparison with metric heterogeneity note",
+    "comparison_strategy": "approach-by-approach on metrics + validation context; transfer limitations explicit",
+    "gap_strategy": "named precisely with structural cause + deployment-scale consequence",
+    "ending_strategy": "field framing -> stable -> unresolved -> prioritized longitudinal action"
+  },
+  "notes": "Synthetic composite based on IEEE TITS / TRC AV-pedestrian review patterns 2019-2022. Used as both prose and structure reference for AV-related review sections."
+}

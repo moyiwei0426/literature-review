@@ -1,0 +1,62 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction and Scope Definition",
+    "objective": "Introduce the review's purpose, define the research domain boundaries, and acknowledge the limited evidence base comprising two papers from distinct domains (safety science and transportation research).",
+    "gap_inputs": [
+      "a14b93de-7007-40d6-a737-1b110142a2e7",
+      "9af3c052-767b-4c77-b1cc-649544ba2544"
+    ],
+    "matrix_row_count": 8
+  },
+  {
+    "section_id": "sec-2",
+    "title": "Methodological Approaches in the Reviewed Literature",
+    "objective": "Survey and categorize the methodological approaches employed across the reviewed papers, distinguishing between unknown methods and mixed-methods empirical designs.",
+    "gap_inputs": [
+      "a14b93de-7007-40d6-a737-1b110142a2e7",
+      "9af3c052-767b-4c77-b1cc-649544ba2544"
+    ],
+    "matrix_row_count": 2
+  },
+  {
+    "section_id": "sec-3",
+    "title": "Safety Science Research: Knowledge and Expertise Development",
+    "objective": "Examine the claims and evidence related to safety knowledge, expertise development, and safety culture in organizational and industrial contexts.",
+    "gap_inputs": [
+      "a14b93de-7007-40d6-a737-1b110142a2e7",
+      "9af3c052-767b-4c77-b1cc-649544ba2544"
+    ],
+    "matrix_row_count": 3
+  },
+  {
+    "section_id": "sec-4",
+    "title": "Pedestrian Behavior and Crossing Compliance",
+    "objective": "Synthesize findings on pedestrian crossing behaviors, compliance rates, and the influence of physical infrastructure and traffic control on pedestrian decision-making.",
+    "gap_inputs": [
+      "a14b93de-7007-40d6-a737-1b110142a2e7",
+      "9af3c052-767b-4c77-b1cc-649544ba2544"
+    ],
+    "matrix_row_count": 5
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Cross-Domain Synthesis and Limitations",
+    "objective": "Assess the feasibility of cross-domain comparison, discuss the heterogeneity between safety science and transportation research studies, and identify limitations in the current evidence base.",
+    "gap_inputs": [
+      "a14b93de-7007-40d6-a737-1b110142a2e7",
+      "9af3c052-767b-4c77-b1cc-649544ba2544"
+    ],
+    "matrix_row_count": 2
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Conclusions and Future Research Directions",
+    "objective": "Summarize key findings, acknowledge the preliminary nature of this review due to limited sample size, and propose directions for more comprehensive future systematic reviews.",
+    "gap_inputs": [
+      "a14b93de-7007-40d6-a737-1b110142a2e7",
+      "9af3c052-767b-4c77-b1cc-649544ba2544"
+    ],
+    "matrix_row_count": 8
+  }
+]

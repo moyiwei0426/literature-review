@@ -1,0 +1,137 @@
+{
+  "artifacts.json": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/artifacts.json",
+    "exists": true,
+    "size_bytes": 4034
+  },
+  "summary.json": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/summary.json",
+    "exists": true,
+    "size_bytes": 16171
+  },
+  "coverage.json": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/coverage.json",
+    "exists": true,
+    "size_bytes": 781
+  },
+  "matrix.json": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/matrix.json",
+    "exists": true,
+    "size_bytes": 24804
+  },
+  "matrix.csv": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/matrix.csv",
+    "exists": true,
+    "size_bytes": 21940
+  },
+  "matrix.md": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/matrix.md",
+    "exists": true,
+    "size_bytes": 22313
+  },
+  "contradiction.json": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/contradiction.json",
+    "exists": true,
+    "size_bytes": 10259
+  },
+  "candidate_gaps.json": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/candidate_gaps.json",
+    "exists": true,
+    "size_bytes": 2
+  },
+  "verified_gaps.json": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/verified_gaps.json",
+    "exists": true,
+    "size_bytes": 2
+  },
+  "scored_gaps.json": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/scored_gaps.json",
+    "exists": true,
+    "size_bytes": 2
+  },
+  "synthesis_map.json": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/synthesis_map.json",
+    "exists": true,
+    "size_bytes": 9330
+  },
+  "organization.json": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/organization.json",
+    "exists": true,
+    "size_bytes": 486
+  },
+  "outline.json": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/outline.json",
+    "exists": true,
+    "size_bytes": 3223
+  },
+  "section_plans.json": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/section_plans.json",
+    "exists": true,
+    "size_bytes": 75097
+  },
+  "paragraph_plans.json": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/paragraph_plans.json",
+    "exists": true,
+    "size_bytes": 76618
+  },
+  "sections.json": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/sections.json",
+    "exists": true,
+    "size_bytes": 114357
+  },
+  "validation_report.json": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/validation_report.json",
+    "exists": true,
+    "size_bytes": 5334
+  },
+  "review.md": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/review.md",
+    "exists": true,
+    "size_bytes": 20337
+  },
+  "review.tex": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/review.tex",
+    "exists": true,
+    "size_bytes": 22833
+  },
+  "bib.tex": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/bib.tex",
+    "exists": true,
+    "size_bytes": 659
+  },
+  "abstract.json": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/abstract.json",
+    "exists": true,
+    "size_bytes": 1443
+  },
+  "abstract.txt": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/abstract.txt",
+    "exists": true,
+    "size_bytes": 824
+  },
+  "keywords.json": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/keywords.json",
+    "exists": true,
+    "size_bytes": 1765
+  },
+  "keywords.txt": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/keywords.txt",
+    "exists": true,
+    "size_bytes": 548
+  },
+  "appendix.json": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/appendix.json",
+    "exists": true,
+    "size_bytes": 5085
+  },
+  "evidence_table.json": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/evidence_table.json",
+    "exists": true,
+    "size_bytes": 3888
+  },
+  "evidence_table.md": {
+    "path": "data/generated/aap_live_2paper_20260324_fallback/evidence_table.md",
+    "exists": true,
+    "size_bytes": 3320
+  }
+}

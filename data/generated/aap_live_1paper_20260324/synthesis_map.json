@@ -1,0 +1,153 @@
+{
+  "overview": {
+    "paper_count": 1,
+    "matrix_row_count": 5,
+    "verified_gap_count": 0,
+    "scored_gap_count": 0,
+    "rejected_gap_count": 0,
+    "contradiction_count": 0,
+    "dominant_axis": "factor",
+    "average_gap_score": 0.0,
+    "theme_counts": {
+      "method": 1,
+      "task": 1,
+      "factor": 3,
+      "application": 1
+    },
+    "coverage_themes": [
+      "Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) extension"
+    ]
+  },
+  "theme_axes": {
+    "method": [
+      {
+        "theme_id": "method:structural_equation_modeling_(sem),_theory_of_planned_behavior_(tpb)_extension",
+        "theme_type": "method",
+        "label": "Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) extension",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) extension appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "task": [
+      {
+        "theme_id": "task:predict_pedestrians'_violating_road-crossing_behavior_intentions",
+        "theme_type": "task",
+        "label": "Predict pedestrians' violating road-crossing behavior intentions",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Predict pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "factor": [
+      {
+        "theme_id": "factor:behavioral_factors",
+        "theme_type": "factor",
+        "label": "behavioral_factors",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:demographic_factors",
+        "theme_type": "factor",
+        "label": "demographic_factors",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "demographic_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:traffic_factors",
+        "theme_type": "factor",
+        "label": "traffic_factors",
+        "evidence_count": 2,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 2.0,
+        "synthesis_note": "traffic_factors appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "application": [
+      {
+        "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+        "theme_type": "application",
+        "label": "Survey data from 260 respondents in Dalian, China",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ]
+  },
+  "top_themes": [
+    {
+      "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+      "theme_type": "application",
+      "label": "Survey data from 260 respondents in Dalian, China",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "factor:behavioral_factors",
+      "theme_type": "factor",
+      "label": "behavioral_factors",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "factor:demographic_factors",
+      "theme_type": "factor",
+      "label": "demographic_factors",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "demographic_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "method:structural_equation_modeling_(sem),_theory_of_planned_behavior_(tpb)_extension",
+      "theme_type": "method",
+      "label": "Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) extension",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) extension appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "task:predict_pedestrians'_violating_road-crossing_behavior_intentions",
+      "theme_type": "task",
+      "label": "Predict pedestrians' violating road-crossing behavior intentions",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "Predict pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "factor:traffic_factors",
+      "theme_type": "factor",
+      "label": "traffic_factors",
+      "evidence_count": 2,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 2.0,
+      "synthesis_note": "traffic_factors appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    }
+  ]
+}

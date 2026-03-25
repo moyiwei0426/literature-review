@@ -1,0 +1,37 @@
+[
+  {
+    "gap_id": "33438a44-82da-4f00-b533-caafdff2c6ec",
+    "gap_statement": "Current coverage appears to underrepresent Chinese-language or Chinese-context studies.",
+    "gap_type": "language",
+    "supporting_evidence": [
+      "language_distribution={'english': 3}"
+    ],
+    "counter_evidence": [
+      "Paper 12_2016_zhang_aap conducted in Hefei, China (Chinese context)",
+      "Paper 13_2020_chen_trf conducted in Hong Kong (Chinese context)",
+      "2 out of 3 papers (67%) study Chinese contexts - not underrepresented",
+      "The 'chinese_coverage_count: 0' in coverage appears erroneous given datasets clearly indicate Chinese locations"
+    ],
+    "confidence": 0.1,
+    "novelty_value": 0.6,
+    "review_worthiness": 0.3,
+    "status": "rejected"
+  },
+  {
+    "gap_id": "2843b8ac-079f-493c-9383-1a47db912300",
+    "gap_statement": "There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.",
+    "gap_type": "comparison",
+    "supporting_evidence": [
+      "contradiction_count=5"
+    ],
+    "counter_evidence": [
+      "Papers address fundamentally different research problems: FAV pedestrian interaction (Deb 2018) vs. red-light running behavior (Zhang 2016, Zhu 2020)",
+      "No overlapping claims identified across papers on the same task",
+      "Task distribution shows 6 distinct tasks across 3 papers - no task duplication enabling contradiction"
+    ],
+    "confidence": 0.15,
+    "novelty_value": 0.6,
+    "review_worthiness": 0.33,
+    "status": "rejected"
+  }
+]

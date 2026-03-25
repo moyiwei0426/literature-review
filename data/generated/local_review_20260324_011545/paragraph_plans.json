@@ -1,0 +1,381 @@
+[
+  {
+    "section_id": "sec-intro",
+    "title": "Introduction and Review Scope",
+    "section_goal": "Establish the review motivation, scope, and the evidence base that the selected structure will organize. Use the dominant evidence clusters as the organizing lens across 0 matrix rows.",
+    "blocks": [
+      {
+        "block_id": "sec-intro-block-1",
+        "move_id": "sec-intro-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Introduction and Review Scope around the dominant themes and clarify why this evidence cluster matters.",
+        "intended_purpose": "Frame Introduction and Review Scope around the dominant themes and clarify why this evidence cluster matters.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_citations": [],
+        "supporting_points": [],
+        "rhetorical_role": "framing",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-intro-block-2",
+        "move_id": "sec-intro-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 0 extracted claim signal(s) and the strongest matrix evidence.",
+        "intended_purpose": "Anchor the section in 0 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_citations": [],
+        "supporting_points": [],
+        "rhetorical_role": "evidence",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-intro-block-3",
+        "move_id": "sec-intro-synthesis-3",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "intended_purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_citations": [],
+        "supporting_points": [],
+        "rhetorical_role": "synthesis",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-method-taxonomy",
+    "title": "Method Taxonomy and Representational Families",
+    "section_goal": "Organize the review around methodological families and clarify how the dominant approaches differ in assumptions, strengths, and limitations. Use the dominant evidence clusters as the organizing lens across 0 matrix rows.",
+    "blocks": [
+      {
+        "block_id": "sec-method-taxonomy-block-1",
+        "move_id": "sec-method-taxonomy-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Method Taxonomy and Representational Families around the dominant themes and clarify why this evidence cluster matters.",
+        "intended_purpose": "Frame Method Taxonomy and Representational Families around the dominant themes and clarify why this evidence cluster matters.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_citations": [],
+        "supporting_points": [],
+        "rhetorical_role": "framing",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-method-taxonomy-block-2",
+        "move_id": "sec-method-taxonomy-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 0 extracted claim signal(s) and the strongest matrix evidence.",
+        "intended_purpose": "Anchor the section in 0 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_citations": [],
+        "supporting_points": [],
+        "rhetorical_role": "evidence",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-method-taxonomy-block-3",
+        "move_id": "sec-method-taxonomy-comparison-3",
+        "move_type": "comparison",
+        "purpose": "Compare how the dominant themes diverge in evidence density, contradictions, or reporting conventions.",
+        "intended_purpose": "Compare how the dominant themes diverge in evidence density, contradictions, or reporting conventions.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_citations": [],
+        "supporting_points": [],
+        "rhetorical_role": "comparison",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Set up the comparison dimension and clarify what is being contrasted."
+          },
+          {
+            "role": "evidence",
+            "directive": "Use the most relevant matched evidence to explain where studies converge or diverge."
+          },
+          {
+            "role": "closing",
+            "directive": "Close by stating the comparative takeaway and transition into the remaining limitation or implication."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-method-taxonomy-block-4",
+        "move_id": "sec-method-taxonomy-synthesis-4",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "intended_purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_citations": [],
+        "supporting_points": [],
+        "rhetorical_role": "synthesis",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-method-taxonomy-comparison",
+    "title": "Comparative Method Evidence and Tradeoffs",
+    "section_goal": "Compare the strongest method themes, emphasizing where methodological choices shape claims, coverage, and interpretability. Use the dominant evidence clusters as the organizing lens across 0 matrix rows.",
+    "blocks": [
+      {
+        "block_id": "sec-method-taxonomy-comparison-block-1",
+        "move_id": "sec-method-taxonomy-comparison-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Comparative Method Evidence and Tradeoffs around the dominant themes and clarify why this evidence cluster matters.",
+        "intended_purpose": "Frame Comparative Method Evidence and Tradeoffs around the dominant themes and clarify why this evidence cluster matters.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_citations": [],
+        "supporting_points": [],
+        "rhetorical_role": "framing",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-method-taxonomy-comparison-block-2",
+        "move_id": "sec-method-taxonomy-comparison-comparison-2",
+        "move_type": "comparison",
+        "purpose": "Compare how the dominant themes diverge in evidence density, contradictions, or reporting conventions.",
+        "intended_purpose": "Compare how the dominant themes diverge in evidence density, contradictions, or reporting conventions.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_citations": [],
+        "supporting_points": [],
+        "rhetorical_role": "comparison",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Set up the comparison dimension and clarify what is being contrasted."
+          },
+          {
+            "role": "evidence",
+            "directive": "Use the most relevant matched evidence to explain where studies converge or diverge."
+          },
+          {
+            "role": "closing",
+            "directive": "Close by stating the comparative takeaway and transition into the remaining limitation or implication."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-method-taxonomy-comparison-block-3",
+        "move_id": "sec-method-taxonomy-comparison-evidence-3",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 0 extracted claim signal(s) and the strongest matrix evidence.",
+        "intended_purpose": "Anchor the section in 0 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_citations": [],
+        "supporting_points": [],
+        "rhetorical_role": "evidence",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-method-taxonomy-comparison-block-4",
+        "move_id": "sec-method-taxonomy-comparison-synthesis-4",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "intended_purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_citations": [],
+        "supporting_points": [],
+        "rhetorical_role": "synthesis",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-conclusion",
+    "title": "Conclusion",
+    "section_goal": "Summarize the selected taxonomy, the strongest synthesis themes, and the main future directions implied by the evidence base. Use the dominant evidence clusters as the organizing lens across 0 matrix rows.",
+    "blocks": [
+      {
+        "block_id": "sec-conclusion-block-1",
+        "move_id": "sec-conclusion-synthesis-1",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "intended_purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_citations": [],
+        "supporting_points": [],
+        "rhetorical_role": "synthesis",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ]
+      },
+      {
+        "block_id": "sec-conclusion-block-2",
+        "move_id": "sec-conclusion-comparison-2",
+        "move_type": "comparison",
+        "purpose": "Compare how the dominant themes diverge in evidence density, contradictions, or reporting conventions.",
+        "intended_purpose": "Compare how the dominant themes diverge in evidence density, contradictions, or reporting conventions.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_citations": [],
+        "supporting_points": [],
+        "rhetorical_role": "comparison",
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Set up the comparison dimension and clarify what is being contrasted."
+          },
+          {
+            "role": "evidence",
+            "directive": "Use the most relevant matched evidence to explain where studies converge or diverge."
+          },
+          {
+            "role": "closing",
+            "directive": "Close by stating the comparative takeaway and transition into the remaining limitation or implication."
+          }
+        ]
+      }
+    ]
+  }
+]

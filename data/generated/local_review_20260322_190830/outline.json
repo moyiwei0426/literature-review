@@ -1,0 +1,100 @@
+[
+  {
+    "section_id": "introduction",
+    "title": "Introduction and Research Background",
+    "objective": "Introduce the research domain of pedestrian crossing behavior at signalized facilities, establish its importance for traffic safety, and outline the scope and objectives of this review",
+    "gap_inputs": [
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "matrix_row_count": 17
+  },
+  {
+    "section_id": "methodological-families",
+    "title": "Methodological Families in Pedestrian Crossing Research",
+    "objective": "Systematically categorize and compare the diverse methodological approaches employed in pedestrian crossing behavior research, including simulation, statistical, experimental, and machine learning methods",
+    "gap_inputs": [
+      "G1",
+      "G2"
+    ],
+    "matrix_row_count": 17
+  },
+  {
+    "section_id": "pedestrian-violation-modeling",
+    "title": "Pedestrian Red Light Running and Violation Modeling",
+    "objective": "Review and synthesize research on pedestrian signal violation behavior, including behavioral factors, predictive models, and intervention strategies",
+    "gap_inputs": [
+      "G3",
+      "G4",
+      "G5"
+    ],
+    "matrix_row_count": 10
+  },
+  {
+    "section_id": "microscopic-simulation",
+    "title": "Microscopic Simulation Models for Pedestrian Behavior",
+    "objective": "Examine agent-based and social force models that simulate pedestrian crossing dynamics, with emphasis on calibration methods and behavioral representation",
+    "gap_inputs": [
+      "G6",
+      "G7"
+    ],
+    "matrix_row_count": 5
+  },
+  {
+    "section_id": "autonomous-vehicle-interaction",
+    "title": "Autonomous Vehicle-Pedestrian Interaction and Communication",
+    "objective": "Review studies examining how pedestrians interact with and interpret fully autonomous vehicle behavior at crosswalks, including external communication features",
+    "gap_inputs": [
+      "G8"
+    ],
+    "matrix_row_count": 3
+  },
+  {
+    "section_id": "behavioral-factors",
+    "title": "Behavioral Factors and Psychological Determinants",
+    "objective": "Synthesize research on individual and social psychological factors affecting pedestrian crossing decisions, including attitudes, norms, and conformity patterns",
+    "gap_inputs": [
+      "G4",
+      "G9"
+    ],
+    "matrix_row_count": 4
+  },
+  {
+    "section_id": "mobile-distraction",
+    "title": "Mobile Phone Distraction and Visual Attention",
+    "objective": "Examine research on how mobile phone use affects pedestrian visual attention allocation and crossing behavior at signalized intersections",
+    "gap_inputs": [
+      "G10"
+    ],
+    "matrix_row_count": 3
+  },
+  {
+    "section_id": "prediction-safety-systems",
+    "title": "Pedestrian Behavior Prediction for Safety Systems",
+    "objective": "Review probabilistic and machine learning approaches for predicting pedestrian crossing decisions and motion for connected and autonomous vehicle safety applications",
+    "gap_inputs": [
+      "G7",
+      "G8"
+    ],
+    "matrix_row_count": 3
+  },
+  {
+    "section_id": "gap-analysis-future-directions",
+    "title": "Research Gaps and Future Directions",
+    "objective": "Synthesize the identified research gaps from this review, discuss limitations of current approaches, and propose promising directions for future pedestrian safety research",
+    "gap_inputs": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8",
+      "G9",
+      "G10"
+    ],
+    "matrix_row_count": 17
+  }
+]

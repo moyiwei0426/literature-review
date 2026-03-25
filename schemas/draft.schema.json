@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "aris-lit/draft",
+  "title": "Draft",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["draft_id", "project_id", "version"],
+  "properties": {
+    "draft_id": {"type": "string"},
+    "project_id": {"type": "string"},
+    "version": {"type": "integer", "minimum": 1},
+    "outline": {"type": ["object", "array", "null"], "default": null},
+    "latex_source": {"type": ["string", "null"], "default": null},
+    "compiled_pdf_path": {"type": ["string", "null"], "default": null},
+    "status": {"type": ["string", "null"], "default": null}
+  }
+}

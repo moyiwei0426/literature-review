@@ -1,0 +1,49 @@
+[
+  {
+    "claim_id": "claim-1",
+    "claim_text": "Instrumental attitude was significant in all four models, indicating pedestrians are willing to take risks to cross the road if this behavior is associated with meaningful benefits like saving time or providing convenience",
+    "claim_type": "methodological",
+    "evidence_chunk_ids": [
+      "13e19023-2964-49ca-a03e-5aaf15e3a9fb",
+      "2dd6ac08-0a3c-4f71-8f1f-5e8beac71f3e"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-2",
+    "claim_text": "Model 4 (containing instrumental attitude, descriptive norm, and conformity tendency) provided the best predictive utility with the best goodness of fit (CFI=0.996, CMIN/DF=1.235, RMSEA=0.030)",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "5fdcda7c-f1f3-4eaa-97bb-20feed7568bf"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-3",
+    "claim_text": "Descriptive norm appeared to be a stronger predictor than subjective norm - pedestrians' observations of family and friends' actual behavior had greater influence than perceived approval from them",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "1dce0705-5b85-41f0-aff3-4ee3d9741cf0"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-4",
+    "claim_text": "Conformity tendency was a strong predictor of violating crossing behavior - the presence of other pedestrians would influence behavioral intention",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "2dd6ac08-0a3c-4f71-8f1f-5e8beac71f3e",
+      "49207d79-f5fc-4363-9f07-ece3d8f54330"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-5",
+    "claim_text": "Subjective norm was significant in Model 1 (basic TPB) but became insignificant after descriptive norm was added to the model due to high correlation between the two constructs",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "1dce0705-5b85-41f0-aff3-4ee3d9741cf0"
+    ],
+    "confidence": null
+  }
+]

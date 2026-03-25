@@ -1,0 +1,39 @@
+{
+  "task_groups": {
+    "literature_review": [
+      {
+        "paper_id": "p1",
+        "claim_id": "c1",
+        "claim_text": "Claim A",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "p2",
+        "claim_id": "c2",
+        "claim_text": "Claim B",
+        "claim_type": "application"
+      }
+    ]
+  },
+  "contradictions": [
+    {
+      "task": "literature_review",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "p1",
+          "claim_id": "c1",
+          "claim_text": "Claim A",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "p2",
+          "claim_id": "c2",
+          "claim_text": "Claim B",
+          "claim_type": "application"
+        }
+      ]
+    }
+  ],
+  "contradiction_count": 1
+}

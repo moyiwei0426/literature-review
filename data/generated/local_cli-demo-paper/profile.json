@@ -1,0 +1,101 @@
+{
+  "paper_id": "cli-demo-paper",
+  "title": "Untitled",
+  "research_problem": "The ever-increasing number of research articles makes manual literature review time-consuming, tedious, and error-prone. The primary objective is to develop a system that can automatically generate literature review segments from PDF files using NLP techniques and LLMs.",
+  "problem_type": "applied_nlp_task",
+  "domain": "natural_language_processing",
+  "language_scope": "english",
+  "method_summary": "Three approaches are implemented and compared: (1) frequency-based approach using spaCy for extractive summarization, (2) transformer-based Simple T5 model for abstractive summarization trained on SciTLDR, and (3) retrieval-augmented generation (RAG) using GPT-3.5-TURBO-0125 with the SciTLDR dataset as knowledge base.",
+  "method_family": [
+    "extractive_summarization",
+    "abstractive_summarization",
+    "retrieval_augmented_generation"
+  ],
+  "datasets": [
+    "SciTLDR dataset (Hugging Face) - 5,400 TLDRs from over 3,200 papers containing abstracts, introductions, conclusions, and summaries"
+  ],
+  "tasks": [
+    "automated_literature_review_generation",
+    "text_summarization",
+    "multi_document_summarization"
+  ],
+  "metrics": [
+    "ROUGE-1",
+    "ROUGE-2",
+    "ROUGE-L",
+    "ROUGE-Lsum"
+  ],
+  "baselines": [
+    "spaCy (frequency-based approach)",
+    "Simple T5 (transformer-based model)"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "The LLM-based approach (GPT-3.5-turbo) achieved the highest ROUGE-1 score of 0.364, outperforming T5 (0.268) and spaCy (0.257)",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "bbbb6191-8c29-4e30-84a8-78a4c137a9df",
+        "74f9ae79-6aeb-4b10-9547-900c1340018c"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "All three NLP approaches (spaCy, T5, and GPT-3.5-TURBO-0125) can produce satisfactory results in automating literature review generation",
+      "claim_type": "application",
+      "evidence_chunk_ids": [
+        "22b30696-20f7-45d6-9ea2-a4e26077a50a",
+        "fbb45af1-2fc8-47da-8fd0-b97b8ce8590c"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "The transformer-based T5 model ranks second in performance with ROUGE-1 of 0.268, while spaCy ranks last with ROUGE-1 of 0.257",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "bbbb6191-8c29-4e30-84a8-78a4c137a9df"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "Large language models are proven superior to older NLP approaches for literature review generation based on ROUGE-N scores",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "74f9ae79-6aeb-4b10-9547-900c1340018c"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Models are not yet fully capable of automating literature reviews independently and require human reviewers",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "c312796c-27ae-44de-aa71-465b470b0d31"
+      ]
+    },
+    {
+      "text": "The research uses only the SciTLDR dataset, limiting generalizability to other domains",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "22b30696-20f7-45d6-9ea2-a4e26077a50a"
+      ]
+    },
+    {
+      "text": "The spaCy approach has the lowest performance among the three methods with ROUGE-1 of 0.257",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "bbbb6191-8c29-4e30-84a8-78a4c137a9df"
+      ]
+    }
+  ],
+  "future_work": [
+    "Add more functionality to the GUI such as model options and output size controls",
+    "Experiment with additional models including BERT, Gemini, and LLaMA to find better results",
+    "Enhance the effectiveness and applicability of the developed system tool"
+  ],
+  "notes": "First procedure uses spaCy library with word frequency calculation for sentence weighting; Second procedure uses Simple T5 model fine-tuned on SciTLDR dataset; Third procedure uses GPT-3.5-TURBO-0125 with RAG approach and custom prompt engineering; Final system includes a GUI where users can upload multiple PDFs and receive generated literature review; User evaluation was performed with 4 IoT/Healthcare research articles demonstrating coherent output generation"
+}

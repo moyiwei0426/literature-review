@@ -1,0 +1,1044 @@
+{
+  "openalex": {
+    "meta": {
+      "count": 64680,
+      "db_response_time_ms": 165,
+      "page": 1,
+      "per_page": 1,
+      "groups_count": null,
+      "cost_usd": 0.001
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W4323304850",
+        "doi": "https://doi.org/10.1162/dint_a_00213",
+        "title": "The State of the Art of Natural Language Processing—A Systematic Automated Review of NLP Literature Using NLP Techniques",
+        "display_name": "The State of the Art of Natural Language Processing—A Systematic Automated Review of NLP Literature Using NLP Techniques",
+        "relevance_score": 279.3388,
+        "publication_year": 2023,
+        "publication_date": "2023-01-01",
+        "ids": {
+          "openalex": "https://openalex.org/W4323304850",
+          "doi": "https://doi.org/10.1162/dint_a_00213"
+        },
+        "language": "en",
+        "primary_location": {
+          "id": "doi:10.1162/dint_a_00213",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1162/dint_a_00213",
+          "pdf_url": "https://direct.mit.edu/dint/article-pdf/doi/10.1162/dint_a_00213/2073545/dint_a_00213.pdf",
+          "source": {
+            "id": "https://openalex.org/S4210186383",
+            "display_name": "Data Intelligence",
+            "issn_l": "2096-7004",
+            "issn": [
+              "2096-7004",
+              "2641-435X"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310315718",
+            "host_organization_name": "The MIT Press",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310315718"
+            ],
+            "host_organization_lineage_names": [
+              "The MIT Press"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Data Intelligence",
+          "raw_type": "journal-article"
+        },
+        "type": "article",
+        "indexed_in": [
+          "crossref",
+          "doaj"
+        ],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "diamond",
+          "oa_url": "https://direct.mit.edu/dint/article-pdf/doi/10.1162/dint_a_00213/2073545/dint_a_00213.pdf",
+          "any_repository_has_fulltext": true
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5014127378",
+              "display_name": "Jan Sawicki",
+              "orcid": "https://orcid.org/0000-0002-5945-1047"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I99542240",
+                "display_name": "Polish Academy of Sciences",
+                "ror": "https://ror.org/01dr6c206",
+                "country_code": "PL",
+                "type": "government",
+                "lineage": [
+                  "https://openalex.org/I99542240"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I108403487",
+                "display_name": "Warsaw University of Technology",
+                "ror": "https://ror.org/00y0xnp53",
+                "country_code": "PL",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I108403487"
+                ]
+              }
+            ],
+            "countries": [
+              "PL"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Jan Sawicki",
+            "raw_affiliation_strings": [
+              "Warsaw University of Technology",
+              "email:",
+              "Polish Academy of Sciences"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Warsaw University of Technology",
+                "institution_ids": [
+                  "https://openalex.org/I108403487"
+                ]
+              },
+              {
+                "raw_affiliation_string": "email:",
+                "institution_ids": []
+              },
+              {
+                "raw_affiliation_string": "Polish Academy of Sciences",
+                "institution_ids": [
+                  "https://openalex.org/I99542240"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5017025137",
+              "display_name": "Maria Ganzha",
+              "orcid": "https://orcid.org/0000-0001-7714-4844"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I99542240",
+                "display_name": "Polish Academy of Sciences",
+                "ror": "https://ror.org/01dr6c206",
+                "country_code": "PL",
+                "type": "government",
+                "lineage": [
+                  "https://openalex.org/I99542240"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I108403487",
+                "display_name": "Warsaw University of Technology",
+                "ror": "https://ror.org/00y0xnp53",
+                "country_code": "PL",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I108403487"
+                ]
+              }
+            ],
+            "countries": [
+              "PL"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "Maria Ganzha",
+            "raw_affiliation_strings": [
+              "Warsaw University of Technology",
+              "Polish Academy of Sciences",
+              "email:"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Warsaw University of Technology",
+                "institution_ids": [
+                  "https://openalex.org/I108403487"
+                ]
+              },
+              {
+                "raw_affiliation_string": "Polish Academy of Sciences",
+                "institution_ids": [
+                  "https://openalex.org/I99542240"
+                ]
+              },
+              {
+                "raw_affiliation_string": "email:",
+                "institution_ids": []
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5053781299",
+              "display_name": "Marcin Paprzycki",
+              "orcid": "https://orcid.org/0000-0002-8069-2152"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I99542240",
+                "display_name": "Polish Academy of Sciences",
+                "ror": "https://ror.org/01dr6c206",
+                "country_code": "PL",
+                "type": "government",
+                "lineage": [
+                  "https://openalex.org/I99542240"
+                ]
+              },
+              {
+                "id": "https://openalex.org/I108403487",
+                "display_name": "Warsaw University of Technology",
+                "ror": "https://ror.org/00y0xnp53",
+                "country_code": "PL",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I108403487"
+                ]
+              }
+            ],
+            "countries": [
+              "PL"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "Marcin Paprzycki",
+            "raw_affiliation_strings": [
+              "Polish Academy of Sciences",
+              "email:",
+              "Warsaw University of Technology"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "Polish Academy of Sciences",
+                "institution_ids": [
+                  "https://openalex.org/I99542240"
+                ]
+              },
+              {
+                "raw_affiliation_string": "email:",
+                "institution_ids": []
+              },
+              {
+                "raw_affiliation_string": "Warsaw University of Technology",
+                "institution_ids": [
+                  "https://openalex.org/I108403487"
+                ]
+              }
+            ]
+          }
+        ],
+        "institutions": [],
+        "countries_distinct_count": 1,
+        "institutions_distinct_count": 3,
+        "corresponding_author_ids": [
+          "https://openalex.org/A5017025137",
+          "https://openalex.org/A5053781299"
+        ],
+        "corresponding_institution_ids": [
+          "https://openalex.org/I108403487",
+          "https://openalex.org/I99542240"
+        ],
+        "apc_list": null,
+        "apc_paid": null,
+        "fwci": 6.004,
+        "has_fulltext": false,
+        "cited_by_count": 34,
+        "citation_normalized_percentile": {
+          "value": 0.97043215,
+          "is_in_top_1_percent": false,
+          "is_in_top_10_percent": true
+        },
+        "cited_by_percentile_year": {
+          "min": 89,
+          "max": 100
+        },
+        "biblio": {
+          "volume": "5",
+          "issue": "3",
+          "first_page": "707",
+          "last_page": "749"
+        },
+        "is_retracted": false,
+        "is_paratext": false,
+        "is_xpac": false,
+        "primary_topic": {
+          "id": "https://openalex.org/T10028",
+          "display_name": "Topic Modeling",
+          "score": 0.9998999834060669,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1702",
+            "display_name": "Artificial Intelligence"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T10028",
+            "display_name": "Topic Modeling",
+            "score": 0.9998999834060669,
+            "subfield": {
+              "id": "https://openalex.org/subfields/1702",
+              "display_name": "Artificial Intelligence"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/17",
+              "display_name": "Computer Science"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T10181",
+            "display_name": "Natural Language Processing Techniques",
+            "score": 0.9993000030517578,
+            "subfield": {
+              "id": "https://openalex.org/subfields/1702",
+              "display_name": "Artificial Intelligence"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/17",
+              "display_name": "Computer Science"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T13083",
+            "display_name": "Advanced Text Analysis Techniques",
+            "score": 0.9979000091552734,
+            "subfield": {
+              "id": "https://openalex.org/subfields/1702",
+              "display_name": "Artificial Intelligence"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/17",
+              "display_name": "Computer Science"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/natural-language-processing",
+            "display_name": "Natural language processing",
+            "score": 0.8232018947601318
+          },
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "display_name": "Computer science",
+            "score": 0.7182214856147766
+          },
+          {
+            "id": "https://openalex.org/keywords/artificial-intelligence",
+            "display_name": "Artificial intelligence",
+            "score": 0.707526683807373
+          },
+          {
+            "id": "https://openalex.org/keywords/linguistics",
+            "display_name": "Linguistics",
+            "score": 0.3428916335105896
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C204321447",
+            "wikidata": "https://www.wikidata.org/wiki/Q30642",
+            "display_name": "Natural language processing",
+            "level": 1,
+            "score": 0.8232018947601318
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "wikidata": "https://www.wikidata.org/wiki/Q21198",
+            "display_name": "Computer science",
+            "level": 0,
+            "score": 0.7182214856147766
+          },
+          {
+            "id": "https://openalex.org/C154945302",
+            "wikidata": "https://www.wikidata.org/wiki/Q11660",
+            "display_name": "Artificial intelligence",
+            "level": 1,
+            "score": 0.707526683807373
+          },
+          {
+            "id": "https://openalex.org/C41895202",
+            "wikidata": "https://www.wikidata.org/wiki/Q8162",
+            "display_name": "Linguistics",
+            "level": 1,
+            "score": 0.3428916335105896
+          },
+          {
+            "id": "https://openalex.org/C138885662",
+            "wikidata": "https://www.wikidata.org/wiki/Q5891",
+            "display_name": "Philosophy",
+            "level": 0,
+            "score": 0.0
+          }
+        ],
+        "mesh": [],
+        "locations_count": 2,
+        "locations": [
+          {
+            "id": "doi:10.1162/dint_a_00213",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1162/dint_a_00213",
+            "pdf_url": "https://direct.mit.edu/dint/article-pdf/doi/10.1162/dint_a_00213/2073545/dint_a_00213.pdf",
+            "source": {
+              "id": "https://openalex.org/S4210186383",
+              "display_name": "Data Intelligence",
+              "issn_l": "2096-7004",
+              "issn": [
+                "2096-7004",
+                "2641-435X"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310315718",
+              "host_organization_name": "The MIT Press",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310315718"
+              ],
+              "host_organization_lineage_names": [
+                "The MIT Press"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Data Intelligence",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:ed85f7a870074034a5369033bb8dc372",
+            "is_oa": true,
+            "landing_page_url": "https://doaj.org/article/ed85f7a870074034a5369033bb8dc372",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S112646816",
+              "display_name": "SHILAP Revista de lepidopterología",
+              "issn_l": "0300-5267",
+              "issn": [
+                "0300-5267",
+                "2340-4078"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": false,
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Data Intelligence, Vol 5, Iss 3 (2023)",
+            "raw_type": "article"
+          }
+        ],
+        "best_oa_location": {
+          "id": "doi:10.1162/dint_a_00213",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1162/dint_a_00213",
+          "pdf_url": "https://direct.mit.edu/dint/article-pdf/doi/10.1162/dint_a_00213/2073545/dint_a_00213.pdf",
+          "source": {
+            "id": "https://openalex.org/S4210186383",
+            "display_name": "Data Intelligence",
+            "issn_l": "2096-7004",
+            "issn": [
+              "2096-7004",
+              "2641-435X"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310315718",
+            "host_organization_name": "The MIT Press",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310315718"
+            ],
+            "host_organization_lineage_names": [
+              "The MIT Press"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Data Intelligence",
+          "raw_type": "journal-article"
+        },
+        "sustainable_development_goals": [
+          {
+            "id": "https://metadata.un.org/sdg/4",
+            "score": 0.8500000238418579,
+            "display_name": "Quality Education"
+          }
+        ],
+        "awards": [],
+        "funders": [],
+        "has_content": {
+          "grobid_xml": false,
+          "pdf": true
+        },
+        "content_urls": {
+          "pdf": "https://content.openalex.org/works/W4323304850.pdf"
+        },
+        "referenced_works_count": 135,
+        "referenced_works": [
+          "https://openalex.org/W95608104",
+          "https://openalex.org/W218702423",
+          "https://openalex.org/W1128809682",
+          "https://openalex.org/W1481128830",
+          "https://openalex.org/W1507711477",
+          "https://openalex.org/W1603598191",
+          "https://openalex.org/W1603699530",
+          "https://openalex.org/W1631063262",
+          "https://openalex.org/W1673310716",
+          "https://openalex.org/W1877416079",
+          "https://openalex.org/W1974339500",
+          "https://openalex.org/W1976143336",
+          "https://openalex.org/W1980570680",
+          "https://openalex.org/W1980867644",
+          "https://openalex.org/W1987971958",
+          "https://openalex.org/W1988054515",
+          "https://openalex.org/W2048587526",
+          "https://openalex.org/W2051224630",
+          "https://openalex.org/W2085487226",
+          "https://openalex.org/W2103479483",
+          "https://openalex.org/W2107415458",
+          "https://openalex.org/W2108598243",
+          "https://openalex.org/W2110693578",
+          "https://openalex.org/W2117290474",
+          "https://openalex.org/W2117334662",
+          "https://openalex.org/W2123715374",
+          "https://openalex.org/W2127218421",
+          "https://openalex.org/W2145831846",
+          "https://openalex.org/W2160642098",
+          "https://openalex.org/W2187089797",
+          "https://openalex.org/W2188725950",
+          "https://openalex.org/W2250539671",
+          "https://openalex.org/W2272941681",
+          "https://openalex.org/W2334398681",
+          "https://openalex.org/W2491030916",
+          "https://openalex.org/W2493916176",
+          "https://openalex.org/W2562824057",
+          "https://openalex.org/W2601243251",
+          "https://openalex.org/W2604272474",
+          "https://openalex.org/W2612690371",
+          "https://openalex.org/W2740924709",
+          "https://openalex.org/W2751627669",
+          "https://openalex.org/W2756489700",
+          "https://openalex.org/W2761048258",
+          "https://openalex.org/W2794376802",
+          "https://openalex.org/W2807800730",
+          "https://openalex.org/W2808363228",
+          "https://openalex.org/W2810095012",
+          "https://openalex.org/W2901312569",
+          "https://openalex.org/W2904542630",
+          "https://openalex.org/W2913788248",
+          "https://openalex.org/W2942928164",
+          "https://openalex.org/W2946627182",
+          "https://openalex.org/W2952230511",
+          "https://openalex.org/W2963308332",
+          "https://openalex.org/W2963630207",
+          "https://openalex.org/W2963748441",
+          "https://openalex.org/W2964138343",
+          "https://openalex.org/W2964282813",
+          "https://openalex.org/W2969545244",
+          "https://openalex.org/W2972381853",
+          "https://openalex.org/W2984912569",
+          "https://openalex.org/W3017120257",
+          "https://openalex.org/W3024767511",
+          "https://openalex.org/W3040505781",
+          "https://openalex.org/W3093764699",
+          "https://openalex.org/W3098960752",
+          "https://openalex.org/W3107678601",
+          "https://openalex.org/W3111692359",
+          "https://openalex.org/W3127059340",
+          "https://openalex.org/W3133495528",
+          "https://openalex.org/W3142513648",
+          "https://openalex.org/W3154896207",
+          "https://openalex.org/W3201852505",
+          "https://openalex.org/W3203163340",
+          "https://openalex.org/W3204821521",
+          "https://openalex.org/W4224433779",
+          "https://openalex.org/W4230252867",
+          "https://openalex.org/W4231029117",
+          "https://openalex.org/W4234552385",
+          "https://openalex.org/W4239834094",
+          "https://openalex.org/W4251392686",
+          "https://openalex.org/W4255244594",
+          "https://openalex.org/W4297781239",
+          "https://openalex.org/W6629004733",
+          "https://openalex.org/W6631501603",
+          "https://openalex.org/W6636510571",
+          "https://openalex.org/W6637071414",
+          "https://openalex.org/W6637100280",
+          "https://openalex.org/W6637131181",
+          "https://openalex.org/W6639657675",
+          "https://openalex.org/W6678914141",
+          "https://openalex.org/W6679815717",
+          "https://openalex.org/W6681786542",
+          "https://openalex.org/W6682691769",
+          "https://openalex.org/W6683738474",
+          "https://openalex.org/W6694517276",
+          "https://openalex.org/W6721644399",
+          "https://openalex.org/W6722732564",
+          "https://openalex.org/W6739901393",
+          "https://openalex.org/W6747248625",
+          "https://openalex.org/W6748634344",
+          "https://openalex.org/W6748647628",
+          "https://openalex.org/W6754284059",
+          "https://openalex.org/W6755108618",
+          "https://openalex.org/W6755207826",
+          "https://openalex.org/W6755977528",
+          "https://openalex.org/W6758624997",
+          "https://openalex.org/W6759712169",
+          "https://openalex.org/W6763009387",
+          "https://openalex.org/W6763953266",
+          "https://openalex.org/W6765002658",
+          "https://openalex.org/W6766265545",
+          "https://openalex.org/W6766673545",
+          "https://openalex.org/W6768817161",
+          "https://openalex.org/W6768851824",
+          "https://openalex.org/W6769311223",
+          "https://openalex.org/W6769627184",
+          "https://openalex.org/W6771658506",
+          "https://openalex.org/W6771915120",
+          "https://openalex.org/W6776048684",
+          "https://openalex.org/W6777210584",
+          "https://openalex.org/W6779823327",
+          "https://openalex.org/W6781310873",
+          "https://openalex.org/W6784333009",
+          "https://openalex.org/W6797193757",
+          "https://openalex.org/W6798020986",
+          "https://openalex.org/W6801088774",
+          "https://openalex.org/W6801941971",
+          "https://openalex.org/W6802129361",
+          "https://openalex.org/W6802256996",
+          "https://openalex.org/W6802888284",
+          "https://openalex.org/W6810846676",
+          "https://openalex.org/W6829414550",
+          "https://openalex.org/W6967250164"
+        ],
+        "related_works": [
+          "https://openalex.org/W4391375266",
+          "https://openalex.org/W2748952813",
+          "https://openalex.org/W2390279801",
+          "https://openalex.org/W2358668433",
+          "https://openalex.org/W4396701345",
+          "https://openalex.org/W2376932109",
+          "https://openalex.org/W2001405890",
+          "https://openalex.org/W4396696052",
+          "https://openalex.org/W4402327032",
+          "https://openalex.org/W3204019825"
+        ],
+        "abstract_inverted_index": {
+          "ABSTRACT": [
+            0
+          ],
+          "Nowadays,": [
+            1
+          ],
+          "natural": [
+            2
+          ],
+          "language": [
+            3
+          ],
+          "processing": [
+            4
+          ],
+          "(NLP)": [
+            5
+          ],
+          "is": [
+            6,
+            34,
+            86
+          ],
+          "one": [
+            7
+          ],
+          "of": [
+            8,
+            42,
+            71,
+            82,
+            109,
+            125,
+            138
+          ],
+          "the": [
+            9,
+            29,
+            39,
+            43,
+            52,
+            58,
+            68,
+            94,
+            97,
+            107,
+            129,
+            136
+          ],
+          "most": [
+            10
+          ],
+          "popular": [
+            11
+          ],
+          "areas": [
+            12
+          ],
+          "of,": [
+            13
+          ],
+          "broadly": [
+            14
+          ],
+          "understood,": [
+            15
+          ],
+          "artificial": [
+            16
+          ],
+          "intelligence.": [
+            17
+          ],
+          "Therefore,": [
+            18
+          ],
+          "every": [
+            19
+          ],
+          "day,": [
+            20
+          ],
+          "new": [
+            21,
+            132
+          ],
+          "research": [
+            22,
+            127
+          ],
+          "contributions": [
+            23
+          ],
+          "are": [
+            24,
+            103
+          ],
+          "posted,": [
+            25
+          ],
+          "for": [
+            26
+          ],
+          "instance,": [
+            27
+          ],
+          "to": [
+            28,
+            37,
+            47,
+            56,
+            80
+          ],
+          "arXiv": [
+            30
+          ],
+          "repository.": [
+            31
+          ],
+          "Hence,": [
+            32
+          ],
+          "it": [
+            33
+          ],
+          "rather": [
+            35
+          ],
+          "difficult": [
+            36
+          ],
+          "capture": [
+            38
+          ],
+          "current": [
+            40,
+            69
+          ],
+          "“state": [
+            41
+          ],
+          "field”": [
+            44
+          ],
+          "and": [
+            45,
+            76,
+            96,
+            121,
+            123
+          ],
+          "thus,": [
+            46
+          ],
+          "enter": [
+            48
+          ],
+          "it.": [
+            49
+          ],
+          "This": [
+            50,
+            117
+          ],
+          "brought": [
+            51
+          ],
+          "id-art": [
+            53
+          ],
+          "NLP": [
+            54,
+            72,
+            84
+          ],
+          "techniques": [
+            55
+          ],
+          "analyse": [
+            57
+          ],
+          "NLP-focused": [
+            59
+          ],
+          "literature.": [
+            60
+          ],
+          "As": [
+            61
+          ],
+          "a": [
+            62,
+            78
+          ],
+          "result,": [
+            63
+          ],
+          "(1)": [
+            64
+          ],
+          "meta-level": [
+            65
+          ],
+          "knowledge,": [
+            66
+          ],
+          "concerning": [
+            67
+          ],
+          "state": [
+            70
+          ],
+          "has": [
+            73
+          ],
+          "been": [
+            74
+          ],
+          "captured,": [
+            75
+          ],
+          "(2)": [
+            77
+          ],
+          "guide": [
+            79
+          ],
+          "use": [
+            81
+          ],
+          "basic": [
+            83
+          ],
+          "tools": [
+            85,
+            95
+          ],
+          "provided.": [
+            87
+          ],
+          "It": [
+            88
+          ],
+          "should": [
+            89
+          ],
+          "be": [
+            90
+          ],
+          "noted": [
+            91
+          ],
+          "that": [
+            92
+          ],
+          "all": [
+            93
+          ],
+          "dataset": [
+            98
+          ],
+          "described": [
+            99
+          ],
+          "in": [
+            100,
+            113,
+            128,
+            135
+          ],
+          "this": [
+            101,
+            110,
+            126
+          ],
+          "contribution": [
+            102
+          ],
+          "publicly": [
+            104
+          ],
+          "available.": [
+            105
+          ],
+          "Furthermore,": [
+            106
+          ],
+          "originality": [
+            108
+          ],
+          "review": [
+            111
+          ],
+          "lies": [
+            112
+          ],
+          "its": [
+            114
+          ],
+          "full": [
+            115
+          ],
+          "automation.": [
+            116
+          ],
+          "allows": [
+            118
+          ],
+          "easy": [
+            119
+          ],
+          "reproducibility": [
+            120
+          ],
+          "continuation": [
+            122
+          ],
+          "updating": [
+            124
+          ],
+          "future": [
+            130
+          ],
+          "as": [
+            131
+          ],
+          "researches": [
+            133
+          ],
+          "emerge": [
+            134
+          ],
+          "field": [
+            137
+          ],
+          "NLP.": [
+            139
+          ]
+        },
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 5
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 20
+          },
+          {
+            "year": 2024,
+            "cited_by_count": 8
+          },
+          {
+            "year": 2023,
+            "cited_by_count": 1
+          }
+        ],
+        "updated_date": "2026-03-16T09:10:04.655348",
+        "created_date": "2025-10-10T00:00:00"
+      }
+    ],
+    "group_by": []
+  },
+  "arxiv": {
+    "raw_xml": "<?xml version='1.0' encoding='UTF-8'?>\n<feed xmlns:opensearch=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:arxiv=\"http://arxiv.org/schemas/atom\" xmlns=\"http://www.w3.org/2005/Atom\">\n  <id>https://arxiv.org/api/HVHVh493KuEPj7tUX54Bvlft9tc</id>\n  <title>arXiv Query: search_query=all:automated OR all:literature OR all:review OR all:NLP&amp;id_list=&amp;start=0&amp;max_results=1</title>\n  <updated>2026-03-19T11:30:53Z</updated>\n  <link href=\"https://arxiv.org/api/query?search_query=all:automated+OR+(all:literature+OR+(all:review+OR+all:NLP))&amp;start=0&amp;max_results=1&amp;id_list=\" type=\"application/atom+xml\"/>\n  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>\n  <opensearch:totalResults>261461</opensearch:totalResults>\n  <opensearch:startIndex>0</opensearch:startIndex>\n  <entry>\n    <id>http://arxiv.org/abs/2411.18583v1</id>\n    <title>Automated Literature Review Using NLP Techniques and LLM-Based Retrieval-Augmented Generation</title>\n    <updated>2024-11-27T18:27:07Z</updated>\n    <link href=\"https://arxiv.org/abs/2411.18583v1\" rel=\"alternate\" type=\"text/html\"/>\n    <link href=\"https://arxiv.org/pdf/2411.18583v1\" rel=\"related\" type=\"application/pdf\" title=\"pdf\"/>\n    <summary>This research presents and compares multiple approaches to automate the generation of literature reviews using several Natural Language Processing (NLP) techniques and retrieval-augmented generation (RAG) with a Large Language Model (LLM). The ever-increasing number of research articles provides a huge challenge for manual literature review. It has resulted in an increased demand for automation. Developing a system capable of automatically generating the literature reviews from only the PDF files as input is the primary objective of this research work. The effectiveness of several Natural Language Processing (NLP) strategies, such as the frequency-based method (spaCy), the transformer model (Simple T5), and retrieval-augmented generation (RAG) with Large Language Model (GPT-3.5-turbo), is evaluated to meet the primary objective. The SciTLDR dataset is chosen for this research experiment and three distinct techniques are utilized to implement three different systems for auto-generating the literature reviews. The ROUGE scores are used for the evaluation of all three systems. Based on the evaluation, the Large Language Model GPT-3.5-turbo achieved the highest ROUGE-1 score, 0.364. The transformer model comes in second place and spaCy is at the last position. Finally, a graphical user interface is created for the best system based on the large language model.</summary>\n    <category term=\"cs.CL\" scheme=\"http://arxiv.org/schemas/atom\"/>\n    <category term=\"cs.AI\" scheme=\"http://arxiv.org/schemas/atom\"/>\n    <category term=\"cs.IR\" scheme=\"http://arxiv.org/schemas/atom\"/>\n    <category term=\"cs.LG\" scheme=\"http://arxiv.org/schemas/atom\"/>\n    <published>2024-11-27T18:27:07Z</published>\n    <arxiv:comment>Key Words : T5, SpaCy, Large Language Model, GPT, ROUGE, Literature Review, Natural Language Processing, Retrieval-augmented generation</arxiv:comment>\n    <arxiv:primary_category term=\"cs.CL\"/>\n    <author>\n      <name>Nurshat Fateh Ali</name>\n    </author>\n    <author>\n      <name>Md. Mahdi Mohtasim</name>\n    </author>\n    <author>\n      <name>Shakil Mosharrof</name>\n    </author>\n    <author>\n      <name>T. Gopi Krishna</name>\n    </author>\n  </entry>\n</feed>\n"
+  }
+}

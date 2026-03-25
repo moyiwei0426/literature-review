@@ -1,0 +1,28 @@
+{
+  "keywords": [
+    "predicting pedestrians' violating road-crossing behavior intentions",
+    "structural equation modeling (sem)",
+    "survey data from dalian, china (260 complete and valid responses)",
+    "controlled experiment",
+    "pedestrian crossing behavior",
+    "visual attention allocation",
+    "eye tracking study",
+    "examine pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (tpb), and extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions"
+  ],
+  "keyword_count": 8,
+  "dominant_axis": "factor taxonomy",
+  "signals": {
+    "predicting pedestrians' violating road-crossing behavior intentions": 9.35,
+    "structural equation modeling (sem)": 8.6,
+    "survey data from dalian, china (260 complete and valid responses)": 7.6,
+    "controlled experiment": 7.1,
+    "pedestrian crossing behavior": 6.5,
+    "visual attention allocation": 6.5,
+    "eye tracking study": 5.9,
+    "examine pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (tpb), and extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions": 5.0,
+    "cmin/df ratio": 4.5,
+    "rmsea (root mean square error of approximation)": 4.5,
+    "pclose": 4.5,
+    "this study investigates how mobile phone distractions (music distraction, phone conversation distraction, and text distraction) affect the behavior of pedestrians while crossing the street at a signalized intersection, addressing the growing safety concern of mobile phone use among pedestrians.": 4.0
+  }
+}

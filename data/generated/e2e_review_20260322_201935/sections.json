@@ -1,0 +1,88 @@
+[
+  {
+    "section_id": "sec-intro",
+    "title": "Introduction and Research Context",
+    "text": "This review synthesizes evidence from 10 papers examining Human error analysis, safety risk assessment, system reliability evaluation, measure spatial crossing compliance rate, measure temporal crossing compliance rate, with findings organized around 44 discrete claims drawn from a structured comparison matrix. The reviewed evidence employs Safety analysis / Human reliability analysis / System safety engineering, mixed methods, Microscopic traffic simulation, agent-based modeling as primary analytical frameworks. A persistent challenge in this literature is the heterogeneity in how studies operationalize crossing behavior constructs, report metrics, and handle context specificity — factors that collectively limit direct cross-study comparison. This review structures its analysis around methodological families, task-level performance patterns, metric reporting practices, and verified gaps (2 identified), moving beyond siloed paper summaries toward a structured evidence synthesis. The review is organized as follows: Section 2 examines methodological approaches and their representational tradeoffs; Section 3 addresses task-level findings and performance patterns; Section 4 evaluates metric reporting and comparability; Section 5 identifies verified research gaps and implications; Section 6 provides a field-level synthesis and research priorities.",
+    "citation_keys": [
+      "16_2016_zhang_trc",
+      "16_2016_zhang_trc",
+      "16_2016_zhang_trc"
+    ],
+    "_citation_scores": {
+      "16_2016_zhang_trc": 11.0
+    }
+  },
+  {
+    "section_id": "sec-methods",
+    "title": "Methodological Approaches",
+    "text": "The Safety analysis / Human reliability analysis / System safety engineering family constitutes a primary methodological strand in the reviewed literature. Represents a distinct representational approach with characteristic strengths and limitations. Evidence across reviewed studies suggests that this approach is particularly well-suited to analyzing crossing decision determinants under specific traffic conditions. Limitations of this approach include reduced generalizability to contexts with substantially different traffic signal configurations. The mixed methods family represents a primary methodological strand in the reviewed literature. Represents a distinct representational approach with characteristic strengths and limitations. Evidence across reviewed studies suggests that this approach is particularly well-suited to analyzing crossing decision determinants under specific traffic conditions. Limitations of this approach include reduced generalizability to contexts with substantially different traffic signal configurations. The Microscopic traffic simulation, agent-based modeling family represents a secondary methodological strand in the reviewed literature. Represents a distinct representational approach with characteristic strengths and limitations. Evidence across reviewed studies suggests that this approach is particularly well-suited to analyzing crossing decision determinants under specific traffic conditions. Limitations of this approach include reduced generalizability to contexts with substantially different traffic signal configurations. The Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) framework family represents a secondary methodological strand in the reviewed literature. Represents a distinct representational approach with characteristic strengths and limitations. Evidence across reviewed studies suggests that this approach is particularly well-suited to analyzing crossing decision determinants under specific traffic conditions. Limitations of this approach include reduced generalizability to contexts with substantially different traffic signal configurations. The Statistical mixture modeling, bounded distribution models, EM algorithm family represents a secondary methodological strand in the reviewed literature. Represents a distinct representational approach with characteristic strengths and limitations. Evidence across reviewed studies suggests that this approach is particularly well-suited to analyzing crossing decision determinants under specific traffic conditions. Limitations of this approach include reduced generalizability to contexts with substantially different traffic signal configurations. Across these 10 methodological families, a clear tension emerges between interpretive richness and predictive performance. Structural models — including discrete choice and social force approaches — provide parameters directly interpretable for traffic engineering and policy purposes, whereas data-driven approaches achieve higher predictive accuracy on specific benchmark datasets but lack comparable policy utility. No single paradigm has been validated across the full range of pedestrian populations, traffic environments, and signal configurations represented in this corpus.",
+    "citation_keys": [
+      "01_2001_hamed_safety_science",
+      "01_2001_hamed_safety_science"
+    ],
+    "_citation_scores": {
+      "01_2001_hamed_safety_science": 5.0,
+      "11_2013_yang_trb": 4.0
+    }
+  },
+  {
+    "section_id": "sec-tasks",
+    "title": "Task Scope and System Capabilities",
+    "text": "The reviewed literature addresses a heterogeneous set of crossing-related tasks, including Human error analysis, safety risk assessment, system reliability evaluation, measure spatial crossing compliance rate, measure temporal crossing compliance rate, assess pedestrian perceptions toward facilities, identify factors influencing crossing choices. This task diversity reflects the variety of questions the field has sought to answer: from predicting individual crossing initiation decisions to evaluating system-level safety outcomes. Performance claims vary significantly across task categories. Task-level performance is most consistently reported for Human error analysis, safety risk assessment, system reliability evaluation, where 44 discrete evidence claims were extracted from the reviewed studies. Reported metrics include: Not clearly specified in available chunks, spatial crossing compliance rate SCCR; temporal crossing compliance rate TCCR; pedestrian crossing volume; user survey response rates, Proportion of red light jumpers; Proportion of violation followers; Time interval distribution of pedestrian arrivals, CMIN/df ratio; RMSEA; PCLOSE; CFI; Cronbach's alpha; Regression weights. Metric reporting heterogeneity is substantial — some studies report normalized rates while others report absolute counts or time-based measures — making cross-study performance comparison difficult without explicit normalization. A cross-cutting observation is that task definitions themselves vary across studies: what constitutes a 'crossing violation' or an 'acceptable gap' is operationalized differently across contexts, contributing to the apparent heterogeneity in findings. Standardizing task and metric definitions would substantially improve comparability across studies.",
+    "citation_keys": [
+      "12_2016_zhang_aap",
+      "12_2016_zhang_aap",
+      "12_2016_zhang_aap"
+    ],
+    "_citation_scores": {
+      "12_2016_zhang_aap": 11.5
+    }
+  },
+  {
+    "section_id": "sec-claims",
+    "title": "Claim Synthesis and Cross-Paper Comparability",
+    "text": "Reported metrics in the reviewed literature span multiple dimensions of crossing behavior and traffic system performance, including: Not clearly specified in available chunks, spatial crossing compliance rate SCCR; temporal crossing compliance rate TCCR; pedestrian crossing volume; user survey response rates, Proportion of red light jumpers; Proportion of violation followers; Time interval distribution of pedestrian arrivals, CMIN/df ratio; RMSEA; PCLOSE; CFI; Cronbach's alpha; Regression weights, Goodness-of-fit test (chi-square); Parameter estimates with standard errors; Proportion estimates (r1, r2, r4); Median and average waiting times. Performance reporting is most complete for Human error analysis, safety risk assessment, system reliability evaluation tasks. Metric reporting practices vary considerably across papers in two key respects. First, normalization approaches differ: some studies express outcomes as normalized rates per unit time or per pedestrian, while others report raw counts. Second, the temporal resolution of reported metrics ranges from instantaneous (e.g., crossing initiation delay at a single phase) to aggregate (e.g., violation frequency over a multi-hour observation window). These differences make direct cross-study comparison difficult without explicit standardization. Addressing this heterogeneity will require consensus on metric definitions and reporting standards within the pedestrian behavior modeling community. The absence of such standards currently forces reviewers to rely on narrative synthesis rather than formal meta-analysis, limiting the precision of conclusions that can be drawn.",
+    "citation_keys": [
+      "16_2016_zhang_trc",
+      "16_2016_zhang_trc"
+    ],
+    "_citation_scores": {
+      "16_2016_zhang_trc": 13.5
+    }
+  },
+  {
+    "section_id": "sec-gaps",
+    "title": "Research Gaps and Opportunities",
+    "text": "The comparative analysis of 10 papers reveals 2 persistent gaps that current approaches have not adequately resolved. These gaps are documented through verified evidence from the review matrix and are categorized by severity below. Gap [afa374f6] (medium severity): Current coverage appears to underrepresent Chinese-language or Chinese-context studies.. This gap limits the ability to draw robust conclusions from the existing literature. Gap [10d9c631] (medium severity): There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.. This gap limits the ability to draw robust conclusions from the existing literature. These gaps collectively indicate that the field lacks the empirical foundation needed to support confident generalization of crossing behavior models across contexts, populations, and technologies. Prioritizing the most severe gaps in future empirical work will be essential for advancing both scientific understanding and the practical applicability of crossing behavior models.",
+    "citation_keys": [
+      "11_2013_yang_trb",
+      "11_2013_yang_trb"
+    ],
+    "_citation_scores": {
+      "11_2013_yang_trb": 7.5
+    }
+  },
+  {
+    "section_id": "sec-discussion",
+    "title": "Discussion: Synthesis and Future Directions",
+    "text": "The evidence across 10 reviewed papers converges on a field-level picture in which pedestrian crossing behavior at signalized intersections is influenced by a complex interaction of individual characteristics, traffic flow properties, signal timing parameters, and environmental context. Methodological approaches to modeling this behavior range from structural models grounded in behavioral theory to data-driven approaches optimized for predictive accuracy. Three stable conclusions emerge from this review. First, waiting time is among the most consistent predictors of crossing initiation and violation behavior across reviewed studies. Second, methodological approaches exhibit a persistent tradeoff between interpretability and predictive performance. Third, metric reporting heterogeneity across studies substantially limits the precision of cross-study synthesis. Two persistent tensions run through this literature. The first concerns the cross-context validity of gap acceptance thresholds: values derived from studies in North American and European contexts may not transfer to other traffic environments with different vehicle-pedestrian interaction norms. The second tension concerns the behavioral effects of automated vehicles: whether pedestrians recalibrate their crossing heuristics with sustained AV exposure remains unresolved due to the absence of longitudinal field studies. Resolving these tensions will require longitudinal field studies in diverse cultural contexts. Priority should be given to addressing Gap [0] concerning cross-cultural threshold transfer and Gap [1] concerning longitudinal behavioral adaptation in AV environments — gaps that carry direct implications for both road safety policy and the design of pedestrian-accepting automated vehicle systems.",
+    "citation_keys": [
+      "11_2013_yang_trb",
+      "11_2013_yang_trb"
+    ],
+    "_citation_scores": {
+      "11_2013_yang_trb": 7.5
+    }
+  },
+  {
+    "section_id": "sec-conclusion",
+    "title": "Conclusion",
+    "text": "The evidence across 10 reviewed papers converges on a field-level picture in which pedestrian crossing behavior at signalized intersections is influenced by a complex interaction of individual characteristics, traffic flow properties, signal timing parameters, and environmental context. Methodological approaches to modeling this behavior range from structural models grounded in behavioral theory to data-driven approaches optimized for predictive accuracy. Three stable conclusions emerge from this review. First, waiting time is among the most consistent predictors of crossing initiation and violation behavior across reviewed studies. Second, methodological approaches exhibit a persistent tradeoff between interpretability and predictive performance. Third, metric reporting heterogeneity across studies substantially limits the precision of cross-study synthesis. Two persistent tensions run through this literature. The first concerns the cross-context validity of gap acceptance thresholds: values derived from studies in North American and European contexts may not transfer to other traffic environments with different vehicle-pedestrian interaction norms. The second tension concerns the behavioral effects of automated vehicles: whether pedestrians recalibrate their crossing heuristics with sustained AV exposure remains unresolved due to the absence of longitudinal field studies. Resolving these tensions will require longitudinal field studies in diverse cultural contexts. Priority should be given to addressing Gap [0] concerning cross-cultural threshold transfer and Gap [1] concerning longitudinal behavioral adaptation in AV environments — gaps that carry direct implications for both road safety policy and the design of pedestrian-accepting automated vehicle systems.",
+    "citation_keys": [
+      "15_2014_study_trf"
+    ],
+    "_citation_scores": {
+      "15_2014_study_trf": 1.5
+    }
+  }
+]

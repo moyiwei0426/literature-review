@@ -1,0 +1,1040 @@
+[
+  {
+    "section_id": "sec-intro",
+    "title": "Introduction and Review Scope",
+    "objective": "Establish the review motivation, scope, and the evidence base that the selected structure will organize.",
+    "section_goal": "Establish the review motivation, scope, and the evidence base that the selected structure will organize. Use Behavioral Factors, Traffic Factors as the organizing lens across 6 matrix rows.",
+    "structure": "factor_taxonomy",
+    "dominant_axis": "factor",
+    "theme_refs": [
+      {
+        "theme_id": "factor:behavioral_factors",
+        "label": "Behavioral Factors",
+        "theme_type": "factor",
+        "evidence_count": 16,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 16.0,
+        "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:traffic_factors",
+        "label": "Traffic Factors",
+        "theme_type": "factor",
+        "evidence_count": 14,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 14.0,
+        "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "gap_refs": [],
+    "matrix_signals": {
+      "row_count": 6,
+      "paper_count": 3,
+      "paper_ids": [
+        "12_2016_zhang_aap",
+        "17_2017_chen_aap",
+        "08_2016_zhou_aap"
+      ],
+      "method_families": [
+        "Statistical Modeling (Binomial Logistic Regression)",
+        "Discrete Choice Model With Regression Analysis",
+        "Survey Based Structural Equation Modeling (Sem)"
+      ],
+      "tasks": [
+        "Identify Factors Affecting Pedestrian Red Light Running Behavior At Signalized Intersections",
+        "Pedestrian Speed Profile Modeling, Crossing Time Estimation, Vehicle Pedestrian Conflict Simulation",
+        "Predicting Pedestrian Violating Crossing Behavior Intentions"
+      ],
+      "datasets": [
+        "631 Valid Survey Samples Collected From Six Signalized Intersections In Hefei, China During May June 2015",
+        "Video Survey Data From 5 Crosswalks At 3 Intersections In Nagoya City, Japan (Kanayama, Ueda, Fushimi)",
+        "Survey Data From 260 Respondents In Dalian, China"
+      ],
+      "metrics": [
+        "Score Test, Odds Ratio, P Values, 95% Confidence Intervals",
+        "Modified Rho Squared (0.431), Modified R² (Acceleration: 0.765, Deceleration: 0.725), Vehicle Yield Rate, Post Encroachment Time (Pet)",
+        "Cmin/Df Ratio",
+        "Rmsea (Root Mean Square Error Of Approximation)"
+      ],
+      "claim_count": 6
+    },
+    "argument_moves": [
+      {
+        "move_id": "sec-intro-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Introduction and Review Scope around Behavioral Factors, Traffic Factors and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 16,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 16.0,
+            "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:traffic_factors",
+            "label": "Traffic Factors",
+            "theme_type": "factor",
+            "evidence_count": 14,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 14.0,
+            "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "12_2016_zhang_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_points": [
+          "Exploring how various factors affect pedestrians' red-light running behaviors at intersection areas using data collected from Hefei, China"
+        ]
+      },
+      {
+        "move_id": "sec-intro-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 16,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 16.0,
+            "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:traffic_factors",
+            "label": "Traffic Factors",
+            "theme_type": "factor",
+            "evidence_count": 14,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 14.0,
+            "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "12_2016_zhang_aap",
+          "17_2017_chen_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "Pedestrians who indicate they will run a red light when in hurry are more likely to actually do so (odds ratio = 0.299)",
+          "The proposed model represents pedestrian travel time distribution more accurately than the constant speed model"
+        ]
+      },
+      {
+        "move_id": "sec-intro-synthesis-3",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 16,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 16.0,
+            "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:traffic_factors",
+            "label": "Traffic Factors",
+            "theme_type": "factor",
+            "evidence_count": 14,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 14.0,
+            "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "12_2016_zhang_aap",
+          "17_2017_chen_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Behavioral Factors, Traffic Factors."
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-factor-taxonomy",
+    "title": "Factor Taxonomy and Contextual Drivers",
+    "objective": "Organize the review around variable-centered factors and explain how the strongest contextual drivers shape the evidence base.",
+    "section_goal": "Organize the review around variable-centered factors and explain how the strongest contextual drivers shape the evidence base. Use Behavioral Factors, Traffic Factors as the organizing lens across 6 matrix rows.",
+    "structure": "factor_taxonomy",
+    "dominant_axis": "factor",
+    "theme_refs": [
+      {
+        "theme_id": "factor:behavioral_factors",
+        "label": "Behavioral Factors",
+        "theme_type": "factor",
+        "evidence_count": 16,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 16.0,
+        "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:traffic_factors",
+        "label": "Traffic Factors",
+        "theme_type": "factor",
+        "evidence_count": 14,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 14.0,
+        "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "gap_refs": [],
+    "matrix_signals": {
+      "row_count": 6,
+      "paper_count": 2,
+      "paper_ids": [
+        "09_2018_jiang_aap",
+        "12_2016_zhang_aap"
+      ],
+      "method_families": [
+        "Controlled Field Experiment",
+        "Statistical Modeling (Binomial Logistic Regression)"
+      ],
+      "tasks": [
+        "Pedestrian Crossing Behavior Under Mobile Phone Distraction",
+        "Identify Factors Affecting Pedestrian Red Light Running Behavior At Signalized Intersections"
+      ],
+      "datasets": [
+        "28 College Students At Signalized Intersection In Hefei, China",
+        "631 Valid Survey Samples Collected From Six Signalized Intersections In Hefei, China During May June 2015"
+      ],
+      "metrics": [
+        "Initiate Time",
+        "Look Left And Right Frequency",
+        "Crossing Speed",
+        "Pupil Diameter"
+      ],
+      "claim_count": 6
+    },
+    "argument_moves": [
+      {
+        "move_id": "sec-factor-taxonomy-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Factor Taxonomy and Contextual Drivers around Behavioral Factors, Traffic Factors and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 16,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 16.0,
+            "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:traffic_factors",
+            "label": "Traffic Factors",
+            "theme_type": "factor",
+            "evidence_count": 14,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 14.0,
+            "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "09_2018_jiang_aap",
+          "12_2016_zhang_aap"
+        ],
+        "supporting_points": [
+          "Investigates how mobile phone distractions (music, phone conversation, and text) affect pedestrian crossing behavior and visual attention allocation at a signalized intersection"
+        ]
+      },
+      {
+        "move_id": "sec-factor-taxonomy-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 16,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 16.0,
+            "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:traffic_factors",
+            "label": "Traffic Factors",
+            "theme_type": "factor",
+            "evidence_count": 14,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 14.0,
+            "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "09_2018_jiang_aap",
+          "12_2016_zhang_aap"
+        ],
+        "supporting_points": [
+          "Text distraction causes the greatest impairment to pedestrian crossing performance, followed by phone conversation distraction and music distraction",
+          "Pedestrians distracted by texting look left and right less often and switch, distribute and maintain less visual attention on the traffic environment"
+        ]
+      },
+      {
+        "move_id": "sec-factor-taxonomy-comparison-3",
+        "move_type": "comparison",
+        "purpose": "Compare how Behavioral Factors, Traffic Factors diverge in evidence density, contradictions, or reporting conventions.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 16,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 16.0,
+            "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:traffic_factors",
+            "label": "Traffic Factors",
+            "theme_type": "factor",
+            "evidence_count": 14,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 14.0,
+            "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "09_2018_jiang_aap",
+          "12_2016_zhang_aap"
+        ],
+        "supporting_points": [
+          "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s).",
+          "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        ]
+      },
+      {
+        "move_id": "sec-factor-taxonomy-synthesis-4",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 16,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 16.0,
+            "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:traffic_factors",
+            "label": "Traffic Factors",
+            "theme_type": "factor",
+            "evidence_count": 14,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 14.0,
+            "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "09_2018_jiang_aap",
+          "12_2016_zhang_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Behavioral Factors, Traffic Factors."
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-factor-behavioral-factors",
+    "title": "Factor Focus: Behavioral Factors",
+    "objective": "Synthesize the behavioral factors evidence cluster across 16 studies, highlighting 0 gap signals and 0 contradiction signals.",
+    "section_goal": "Synthesize the behavioral factors evidence cluster across 16 studies, highlighting 0 gap signals and 0 contradiction signals. Use Behavioral Factors, Traffic Factors as the organizing lens across 6 matrix rows.",
+    "structure": "factor_taxonomy",
+    "dominant_axis": "factor",
+    "theme_refs": [
+      {
+        "theme_id": "factor:behavioral_factors",
+        "label": "Behavioral Factors",
+        "theme_type": "factor",
+        "evidence_count": 16,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 16.0,
+        "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:traffic_factors",
+        "label": "Traffic Factors",
+        "theme_type": "factor",
+        "evidence_count": 14,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 14.0,
+        "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "gap_refs": [],
+    "matrix_signals": {
+      "row_count": 6,
+      "paper_count": 2,
+      "paper_ids": [
+        "08_2016_zhou_aap",
+        "09_2018_jiang_aap"
+      ],
+      "method_families": [
+        "Survey Based Structural Equation Modeling (Sem)",
+        "Controlled Field Experiment"
+      ],
+      "tasks": [
+        "Predicting Pedestrian Violating Crossing Behavior Intentions",
+        "Pedestrian Crossing Behavior Under Mobile Phone Distraction"
+      ],
+      "datasets": [
+        "Survey Data From 260 Respondents In Dalian, China",
+        "28 College Students At Signalized Intersection In Hefei, China"
+      ],
+      "metrics": [
+        "Cmin/Df Ratio",
+        "Rmsea (Root Mean Square Error Of Approximation)",
+        "Pclos E (P Value For Rmsea)",
+        "Cfi (Comparative Fit Index)"
+      ],
+      "claim_count": 6
+    },
+    "argument_moves": [
+      {
+        "move_id": "sec-factor-behavioral-factors-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Factor Focus: Behavioral Factors around Behavioral Factors, Traffic Factors and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 16,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 16.0,
+            "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:traffic_factors",
+            "label": "Traffic Factors",
+            "theme_type": "factor",
+            "evidence_count": 14,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 14.0,
+            "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "This paper examines pedestrians' self-reported violating crossing behavior intentions by applying the Theory of Planned Behavior (TPB). The study extends TPB by adding new factors including descriptive norm, perceived risk and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions. The survey used a scenario where pedestrians crossed the road violating pedestrian lights at an intersection in Dalian, China."
+        ]
+      },
+      {
+        "move_id": "sec-factor-behavioral-factors-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 16,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 16.0,
+            "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:traffic_factors",
+            "label": "Traffic Factors",
+            "theme_type": "factor",
+            "evidence_count": 14,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 14.0,
+            "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "Instrumental attitude was significant in all four models, indicating pedestrians are willing to take risks to cross the road if this behavior is associated with meaningful benefits like saving time or providing convenience",
+          "Model 4 (containing instrumental attitude, descriptive norm, and conformity tendency) provided the best predictive utility with the best goodness of fit (CFI=0.996, CMIN/DF=1.235, RMSEA=0.030)"
+        ]
+      },
+      {
+        "move_id": "sec-factor-behavioral-factors-synthesis-3",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 16,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 16.0,
+            "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:traffic_factors",
+            "label": "Traffic Factors",
+            "theme_type": "factor",
+            "evidence_count": 14,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 14.0,
+            "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Behavioral Factors, Traffic Factors."
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-factor-traffic-factors",
+    "title": "Factor Focus: Traffic Factors",
+    "objective": "Synthesize the traffic factors evidence cluster across 14 studies, highlighting 0 gap signals and 0 contradiction signals.",
+    "section_goal": "Synthesize the traffic factors evidence cluster across 14 studies, highlighting 0 gap signals and 0 contradiction signals. Use Behavioral Factors, Traffic Factors as the organizing lens across 6 matrix rows.",
+    "structure": "factor_taxonomy",
+    "dominant_axis": "factor",
+    "theme_refs": [
+      {
+        "theme_id": "factor:behavioral_factors",
+        "label": "Behavioral Factors",
+        "theme_type": "factor",
+        "evidence_count": 16,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 16.0,
+        "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:traffic_factors",
+        "label": "Traffic Factors",
+        "theme_type": "factor",
+        "evidence_count": 14,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 14.0,
+        "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "gap_refs": [],
+    "matrix_signals": {
+      "row_count": 6,
+      "paper_count": 2,
+      "paper_ids": [
+        "08_2016_zhou_aap",
+        "09_2018_jiang_aap"
+      ],
+      "method_families": [
+        "Survey Based Structural Equation Modeling (Sem)",
+        "Controlled Field Experiment"
+      ],
+      "tasks": [
+        "Predicting Pedestrian Violating Crossing Behavior Intentions",
+        "Pedestrian Crossing Behavior Under Mobile Phone Distraction"
+      ],
+      "datasets": [
+        "Survey Data From 260 Respondents In Dalian, China",
+        "28 College Students At Signalized Intersection In Hefei, China"
+      ],
+      "metrics": [
+        "Cmin/Df Ratio",
+        "Rmsea (Root Mean Square Error Of Approximation)",
+        "Pclos E (P Value For Rmsea)",
+        "Cfi (Comparative Fit Index)"
+      ],
+      "claim_count": 6
+    },
+    "argument_moves": [
+      {
+        "move_id": "sec-factor-traffic-factors-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Factor Focus: Traffic Factors around Behavioral Factors, Traffic Factors and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 16,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 16.0,
+            "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:traffic_factors",
+            "label": "Traffic Factors",
+            "theme_type": "factor",
+            "evidence_count": 14,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 14.0,
+            "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "This paper examines pedestrians' self-reported violating crossing behavior intentions by applying the Theory of Planned Behavior (TPB). The study extends TPB by adding new factors including descriptive norm, perceived risk and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions. The survey used a scenario where pedestrians crossed the road violating pedestrian lights at an intersection in Dalian, China."
+        ]
+      },
+      {
+        "move_id": "sec-factor-traffic-factors-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 16,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 16.0,
+            "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:traffic_factors",
+            "label": "Traffic Factors",
+            "theme_type": "factor",
+            "evidence_count": 14,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 14.0,
+            "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "Instrumental attitude was significant in all four models, indicating pedestrians are willing to take risks to cross the road if this behavior is associated with meaningful benefits like saving time or providing convenience",
+          "Model 4 (containing instrumental attitude, descriptive norm, and conformity tendency) provided the best predictive utility with the best goodness of fit (CFI=0.996, CMIN/DF=1.235, RMSEA=0.030)"
+        ]
+      },
+      {
+        "move_id": "sec-factor-traffic-factors-synthesis-3",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 16,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 16.0,
+            "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:traffic_factors",
+            "label": "Traffic Factors",
+            "theme_type": "factor",
+            "evidence_count": 14,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 14.0,
+            "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Behavioral Factors, Traffic Factors."
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-factor-taxonomy-comparison",
+    "title": "Comparative Factor Evidence and Interactions",
+    "objective": "Compare the strongest factor themes, emphasizing interaction patterns, shared covariates, and variable-level gaps.",
+    "section_goal": "Compare the strongest factor themes, emphasizing interaction patterns, shared covariates, and variable-level gaps. Use Behavioral Factors, Traffic Factors as the organizing lens across 6 matrix rows.",
+    "structure": "factor_taxonomy",
+    "dominant_axis": "factor",
+    "theme_refs": [
+      {
+        "theme_id": "factor:behavioral_factors",
+        "label": "Behavioral Factors",
+        "theme_type": "factor",
+        "evidence_count": 16,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 16.0,
+        "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:traffic_factors",
+        "label": "Traffic Factors",
+        "theme_type": "factor",
+        "evidence_count": 14,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 14.0,
+        "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "gap_refs": [],
+    "matrix_signals": {
+      "row_count": 6,
+      "paper_count": 2,
+      "paper_ids": [
+        "08_2016_zhou_aap",
+        "09_2018_jiang_aap"
+      ],
+      "method_families": [
+        "Survey Based Structural Equation Modeling (Sem)",
+        "Controlled Field Experiment"
+      ],
+      "tasks": [
+        "Predicting Pedestrian Violating Crossing Behavior Intentions",
+        "Pedestrian Crossing Behavior Under Mobile Phone Distraction"
+      ],
+      "datasets": [
+        "Survey Data From 260 Respondents In Dalian, China",
+        "28 College Students At Signalized Intersection In Hefei, China"
+      ],
+      "metrics": [
+        "Cmin/Df Ratio",
+        "Rmsea (Root Mean Square Error Of Approximation)",
+        "Pclos E (P Value For Rmsea)",
+        "Cfi (Comparative Fit Index)"
+      ],
+      "claim_count": 6
+    },
+    "argument_moves": [
+      {
+        "move_id": "sec-factor-taxonomy-comparison-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Comparative Factor Evidence and Interactions around Behavioral Factors, Traffic Factors and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 16,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 16.0,
+            "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:traffic_factors",
+            "label": "Traffic Factors",
+            "theme_type": "factor",
+            "evidence_count": 14,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 14.0,
+            "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "This paper examines pedestrians' self-reported violating crossing behavior intentions by applying the Theory of Planned Behavior (TPB). The study extends TPB by adding new factors including descriptive norm, perceived risk and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions. The survey used a scenario where pedestrians crossed the road violating pedestrian lights at an intersection in Dalian, China."
+        ]
+      },
+      {
+        "move_id": "sec-factor-taxonomy-comparison-comparison-2",
+        "move_type": "comparison",
+        "purpose": "Compare how Behavioral Factors, Traffic Factors diverge in evidence density, contradictions, or reporting conventions.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 16,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 16.0,
+            "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:traffic_factors",
+            "label": "Traffic Factors",
+            "theme_type": "factor",
+            "evidence_count": 14,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 14.0,
+            "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s).",
+          "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        ]
+      },
+      {
+        "move_id": "sec-factor-taxonomy-comparison-evidence-3",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 16,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 16.0,
+            "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:traffic_factors",
+            "label": "Traffic Factors",
+            "theme_type": "factor",
+            "evidence_count": 14,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 14.0,
+            "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "Instrumental attitude was significant in all four models, indicating pedestrians are willing to take risks to cross the road if this behavior is associated with meaningful benefits like saving time or providing convenience",
+          "Model 4 (containing instrumental attitude, descriptive norm, and conformity tendency) provided the best predictive utility with the best goodness of fit (CFI=0.996, CMIN/DF=1.235, RMSEA=0.030)"
+        ]
+      },
+      {
+        "move_id": "sec-factor-taxonomy-comparison-synthesis-4",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 16,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 16.0,
+            "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:traffic_factors",
+            "label": "Traffic Factors",
+            "theme_type": "factor",
+            "evidence_count": 14,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 14.0,
+            "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Behavioral Factors, Traffic Factors."
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-conclusion",
+    "title": "Conclusion",
+    "objective": "Summarize the selected taxonomy, the strongest synthesis themes, and the main future directions implied by the evidence base.",
+    "section_goal": "Summarize the selected taxonomy, the strongest synthesis themes, and the main future directions implied by the evidence base. Use Behavioral Factors, Traffic Factors as the organizing lens across 6 matrix rows.",
+    "structure": "factor_taxonomy",
+    "dominant_axis": "factor",
+    "theme_refs": [
+      {
+        "theme_id": "factor:behavioral_factors",
+        "label": "Behavioral Factors",
+        "theme_type": "factor",
+        "evidence_count": 16,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 16.0,
+        "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:traffic_factors",
+        "label": "Traffic Factors",
+        "theme_type": "factor",
+        "evidence_count": 14,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 14.0,
+        "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "gap_refs": [],
+    "matrix_signals": {
+      "row_count": 6,
+      "paper_count": 2,
+      "paper_ids": [
+        "08_2016_zhou_aap",
+        "09_2018_jiang_aap"
+      ],
+      "method_families": [
+        "Survey Based Structural Equation Modeling (Sem)",
+        "Controlled Field Experiment"
+      ],
+      "tasks": [
+        "Predicting Pedestrian Violating Crossing Behavior Intentions",
+        "Pedestrian Crossing Behavior Under Mobile Phone Distraction"
+      ],
+      "datasets": [
+        "Survey Data From 260 Respondents In Dalian, China",
+        "28 College Students At Signalized Intersection In Hefei, China"
+      ],
+      "metrics": [
+        "Cmin/Df Ratio",
+        "Rmsea (Root Mean Square Error Of Approximation)",
+        "Pclos E (P Value For Rmsea)",
+        "Cfi (Comparative Fit Index)"
+      ],
+      "claim_count": 6
+    },
+    "argument_moves": [
+      {
+        "move_id": "sec-conclusion-synthesis-1",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 16,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 16.0,
+            "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:traffic_factors",
+            "label": "Traffic Factors",
+            "theme_type": "factor",
+            "evidence_count": 14,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 14.0,
+            "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Behavioral Factors, Traffic Factors."
+        ]
+      },
+      {
+        "move_id": "sec-conclusion-comparison-2",
+        "move_type": "comparison",
+        "purpose": "Compare how Behavioral Factors, Traffic Factors diverge in evidence density, contradictions, or reporting conventions.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 16,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 16.0,
+            "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:traffic_factors",
+            "label": "Traffic Factors",
+            "theme_type": "factor",
+            "evidence_count": 14,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 14.0,
+            "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s).",
+          "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        ]
+      }
+    ]
+  }
+]

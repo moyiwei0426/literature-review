@@ -1,0 +1,280 @@
+{
+  "task_groups": {
+    "Predicting pedestrian violating crossing behavior intentions": [
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-1",
+        "claim_text": "Instrumental attitude was significant in all four models, indicating pedestrians are willing to take risks to cross the road if this behavior is associated with meaningful benefits like saving time or providing convenience",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-2",
+        "claim_text": "Model 4 (containing instrumental attitude, descriptive norm, and conformity tendency) provided the best predictive utility with the best goodness of fit (CFI=0.996, CMIN/DF=1.235, RMSEA=0.030)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-3",
+        "claim_text": "Descriptive norm appeared to be a stronger predictor than subjective norm - pedestrians' observations of family and friends' actual behavior had greater influence than perceived approval from them",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-4",
+        "claim_text": "Conformity tendency was a strong predictor of violating crossing behavior - the presence of other pedestrians would influence behavioral intention",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-5",
+        "claim_text": "Subjective norm was significant in Model 1 (basic TPB) but became insignificant after descriptive norm was added to the model due to high correlation between the two constructs",
+        "claim_type": "performance"
+      }
+    ],
+    "Pedestrian crossing behavior under mobile phone distraction": [
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-1",
+        "claim_text": "Text distraction causes the greatest impairment to pedestrian crossing performance, followed by phone conversation distraction and music distraction",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-2",
+        "claim_text": "Pedestrians distracted by music initiate crossing later, increase pupil diameter, and reduce scanning frequency and fixation points toward traffic signal area",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-3",
+        "claim_text": "Pedestrians distracted by phone conversation cross more slowly, direct fewer fixation points to right traffic area, and spend less fixation time on left traffic area",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-4",
+        "claim_text": "Pedestrians distracted by texting look left and right less often and switch, distribute and maintain less visual attention on the traffic environment",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-5",
+        "claim_text": "Eye movement data captured by eye tracker provides more accurate determination of visual attention allocation compared to video data alone",
+        "claim_type": "methodological"
+      }
+    ],
+    "Identify factors affecting pedestrian red-light running behavior at signalized intersections": [
+      {
+        "paper_id": "12_2016_zhang_aap",
+        "claim_id": "claim-1",
+        "claim_text": "Four variables significantly affect pedestrian red-light running probability: trip purpose, time period in a day, pedestrian's attitude towards running red light when in hurry, and pedestrian's attitude towards quality of road facility affecting crossing behavior",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "12_2016_zhang_aap",
+        "claim_id": "claim-2",
+        "claim_text": "Strolling pedestrians are more likely to have safe crossing behavior compared to those going to work or school (odds ratio = 0.394)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "12_2016_zhang_aap",
+        "claim_id": "claim-3",
+        "claim_text": "Daytime has the highest red-light running probability compared to dawn, dusk, and night periods",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "12_2016_zhang_aap",
+        "claim_id": "claim-4",
+        "claim_text": "Pedestrians who indicate they will run a red light when in hurry are more likely to actually do so (odds ratio = 0.299)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "12_2016_zhang_aap",
+        "claim_id": "claim-5",
+        "claim_text": "Pedestrians whose crossing behavior is affected by road facility quality are more likely to run red lights at intersections without monitoring equipment",
+        "claim_type": "performance"
+      }
+    ],
+    "Pedestrian speed profile modeling, crossing time estimation, vehicle-pedestrian conflict simulation": [
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-1",
+        "claim_text": "The proposed model represents pedestrian travel time distribution more accurately than the constant speed model",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-2",
+        "claim_text": "The difference between necessary speed to complete crossing and current speed (Vnec - Vcur), conflict area dummy, and pedestrian flashing green (PFG) phase have significant impacts on acceleration/deceleration choices",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-3",
+        "claim_text": "The pedestrian speed change model provides significantly higher vehicle yield rates compared to constant speed assumptions, demonstrating its importance for safety assessment",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-4",
+        "claim_text": "Different models are needed for periods before and after PFG onset due to significantly different speed change behaviors",
+        "claim_type": "methodological"
+      }
+    ]
+  },
+  "normalized_task_groups": [
+    {
+      "tasks": [
+        "Predicting pedestrian violating crossing behavior intentions"
+      ],
+      "paper_count": 1,
+      "claims": [
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-1",
+          "claim_text": "Instrumental attitude was significant in all four models, indicating pedestrians are willing to take risks to cross the road if this behavior is associated with meaningful benefits like saving time or providing convenience",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-2",
+          "claim_text": "Model 4 (containing instrumental attitude, descriptive norm, and conformity tendency) provided the best predictive utility with the best goodness of fit (CFI=0.996, CMIN/DF=1.235, RMSEA=0.030)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-3",
+          "claim_text": "Descriptive norm appeared to be a stronger predictor than subjective norm - pedestrians' observations of family and friends' actual behavior had greater influence than perceived approval from them",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-4",
+          "claim_text": "Conformity tendency was a strong predictor of violating crossing behavior - the presence of other pedestrians would influence behavioral intention",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-5",
+          "claim_text": "Subjective norm was significant in Model 1 (basic TPB) but became insignificant after descriptive norm was added to the model due to high correlation between the two constructs",
+          "claim_type": "performance"
+        }
+      ],
+      "has_conflict": false
+    },
+    {
+      "tasks": [
+        "Pedestrian crossing behavior under mobile phone distraction"
+      ],
+      "paper_count": 1,
+      "claims": [
+        {
+          "paper_id": "09_2018_jiang_aap",
+          "claim_id": "claim-1",
+          "claim_text": "Text distraction causes the greatest impairment to pedestrian crossing performance, followed by phone conversation distraction and music distraction",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "09_2018_jiang_aap",
+          "claim_id": "claim-2",
+          "claim_text": "Pedestrians distracted by music initiate crossing later, increase pupil diameter, and reduce scanning frequency and fixation points toward traffic signal area",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "09_2018_jiang_aap",
+          "claim_id": "claim-3",
+          "claim_text": "Pedestrians distracted by phone conversation cross more slowly, direct fewer fixation points to right traffic area, and spend less fixation time on left traffic area",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "09_2018_jiang_aap",
+          "claim_id": "claim-4",
+          "claim_text": "Pedestrians distracted by texting look left and right less often and switch, distribute and maintain less visual attention on the traffic environment",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "09_2018_jiang_aap",
+          "claim_id": "claim-5",
+          "claim_text": "Eye movement data captured by eye tracker provides more accurate determination of visual attention allocation compared to video data alone",
+          "claim_type": "methodological"
+        }
+      ],
+      "has_conflict": false
+    },
+    {
+      "tasks": [
+        "Identify factors affecting pedestrian red-light running behavior at signalized intersections"
+      ],
+      "paper_count": 1,
+      "claims": [
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "claim_id": "claim-1",
+          "claim_text": "Four variables significantly affect pedestrian red-light running probability: trip purpose, time period in a day, pedestrian's attitude towards running red light when in hurry, and pedestrian's attitude towards quality of road facility affecting crossing behavior",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "claim_id": "claim-2",
+          "claim_text": "Strolling pedestrians are more likely to have safe crossing behavior compared to those going to work or school (odds ratio = 0.394)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "claim_id": "claim-3",
+          "claim_text": "Daytime has the highest red-light running probability compared to dawn, dusk, and night periods",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "claim_id": "claim-4",
+          "claim_text": "Pedestrians who indicate they will run a red light when in hurry are more likely to actually do so (odds ratio = 0.299)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "claim_id": "claim-5",
+          "claim_text": "Pedestrians whose crossing behavior is affected by road facility quality are more likely to run red lights at intersections without monitoring equipment",
+          "claim_type": "performance"
+        }
+      ],
+      "has_conflict": false
+    },
+    {
+      "tasks": [
+        "Pedestrian speed profile modeling, crossing time estimation, vehicle-pedestrian conflict simulation"
+      ],
+      "paper_count": 1,
+      "claims": [
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-1",
+          "claim_text": "The proposed model represents pedestrian travel time distribution more accurately than the constant speed model",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-2",
+          "claim_text": "The difference between necessary speed to complete crossing and current speed (Vnec - Vcur), conflict area dummy, and pedestrian flashing green (PFG) phase have significant impacts on acceleration/deceleration choices",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-3",
+          "claim_text": "The pedestrian speed change model provides significantly higher vehicle yield rates compared to constant speed assumptions, demonstrating its importance for safety assessment",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-4",
+          "claim_text": "Different models are needed for periods before and after PFG onset due to significantly different speed change behaviors",
+          "claim_type": "methodological"
+        }
+      ],
+      "has_conflict": false
+    }
+  ],
+  "contradictions": [],
+  "contradiction_count": 0
+}

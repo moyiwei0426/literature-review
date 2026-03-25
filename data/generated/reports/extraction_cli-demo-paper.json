@@ -1,0 +1,11 @@
+{
+  "provider": "stub",
+  "model": "stub-model",
+  "latency_ms": 0,
+  "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+  },
+  "chunk_count": 24
+}

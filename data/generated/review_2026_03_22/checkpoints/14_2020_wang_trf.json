@@ -1,0 +1,108 @@
+{
+  "paper_id": "14_2020_wang_trf",
+  "title": "Untitled",
+  "research_problem": "Understanding and modeling the interaction between vehicle yielding (VY) and pedestrian gap acceptance (PGA) behaviors at unsignalized midblock crosswalks, and analyzing their effects on traffic flow.",
+  "problem_type": "Modeling and simulation study",
+  "domain": "Transportation Engineering/Traffic Flow",
+  "language_scope": "English",
+  "method_summary": "A microscopic traffic flow model was developed by integrating probabilistic models of vehicle yielding and pedestrian gap acceptance into a car-following model (Full Velocity Difference model). The model uses time-step simulation in MATLAB to describe the interaction between vehicles and pedestrians at unsignalized midblock crosswalks. Validation was performed using empirical data from two crosswalks in Shanghai.",
+  "method_family": [
+    "Microscopic traffic flow model, Car-following model, Simulation-based analysis"
+  ],
+  "datasets": [
+    "Empirical data from 295 Zhenhua Rd. crosswalk in Shanghai (313 veh/h/ln, 251 ped/h)",
+    "Empirical data from 1565 Lingshi Rd. crosswalk in Shanghai (406 veh/h/ln, 172 ped/h)",
+    "VY and PGA models developed from data collected at 13 midblock crosswalk locations in Shanghai"
+  ],
+  "tasks": [
+    "Vehicle-pedestrian interaction modeling",
+    "Traffic flow analysis at unsignalized midblock crosswalks",
+    "Sensitivity analysis of traffic and geometric factors",
+    "Recommendations for control mode selection (unsignalized vs signalized)"
+  ],
+  "metrics": [
+    "Average vehicular delay (s)",
+    "Average pedestrian waiting time (s)",
+    "Relative error between model and survey results",
+    "Wilcoxon signed-rank test for model validation"
+  ],
+  "baselines": [
+    "Traditional Full Velocity Difference (FVD) car-following model",
+    "Separate VY model from Malenje et al. (2019)",
+    "Separate PGA model from Zhao et al. (2019)"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "The proposed model accurately describes the interaction between vehicle yielding and pedestrian gap acceptance behaviors at unsignalized midblock crosswalks, with maximum relative error less than 10% compared to empirical data",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "df280314-e08a-455e-a0c0-37053ac5cb90",
+        "53cf5671-1406-4e2f-8782-0417d99a9747",
+        "c83a5fd6-8c67-4603-b450-2845a6e9aec5"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "Pedestrian waiting time increases with the number of traffic lanes and vehicular volume but decreases with pedestrian volume, while vehicular delay increases with all three factors",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "a1acc430-478e-4710-8e85-acf16003b3ca",
+        "109288cd-3491-44fc-af18-cdba1943cf84",
+        "c83a5fd6-8c67-4603-b450-2845a6e9aec5"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "Signal control is recommended when vehicular volume exceeds 480 veh/h/ln or pedestrian volume exceeds 500 ped/h based on 20s vehicular delay threshold (LOS B)",
+      "claim_type": "application",
+      "evidence_chunk_ids": [
+        "36ac4467-21e7-4db6-a301-e103b6845484",
+        "cf15212d-398b-4560-b63c-cd3efa63032c"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "The model converges probabilistic VY and PGA decision models into the car-following framework, enabling analysis of traffic flow impacts from vehicle-pedestrian interactions",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "7b9a7726-f0b1-43ab-93af-562e4aef9540",
+        "142d8bfe-a4cf-4a22-a455-8858237115a4",
+        "b9e526f8-9cb5-4ea8-8ae9-f6b38b71058d"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The study only considers legal pedestrian crossing behavior at designated crosswalks; illegal pedestrian crossing is not modeled",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "47889977-4a5a-4ec3-b85a-aef43f73bb88"
+      ]
+    },
+    {
+      "text": "The model assumes simplified vehicle and pedestrian arrival distributions (Poisson) without considering effects from adjacent intersections",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "47889977-4a5a-4ec3-b85a-aef43f73bb88"
+      ]
+    },
+    {
+      "text": "The accuracy depends on the separate VY and PGA behavioral models; combined model accuracy was not guaranteed",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "b0b10e5a-5935-409c-aac0-cdce0536c9be"
+      ]
+    }
+  ],
+  "future_work": [
+    "Study illegal pedestrian crossing behavior at locations without designated crosswalks (common in developing countries)",
+    "Investigate combined effects of midblock crosswalks and adjacent intersections on traffic flow",
+    "Develop adaptive signal control systems that respond to real-time pedestrian and vehicle demand fluctuations"
+  ],
+  "notes": "The study uses a logit-based framework for both vehicle yielding and pedestrian gap acceptance decisions. The VY model considers gap size, number of lanes, number of waiting pedestrians, median presence, and e-police presence. The PGA model considers gap size, crossing distance, waiting time, and pedestrian position. Key finding: unsignalized crosswalks with more than 4 lanes should be signalized or include central islands."
+}

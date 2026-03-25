@@ -1,0 +1,84 @@
+[
+  {
+    "section_id": "sec-intro",
+    "title": "Introduction and Research Context",
+    "text": "This review synthesizes evidence from 1 papers addressing Scientific Document Summarization; Automated Literature Review Generation, drawn from the automated literature review domain. Systems examined employ diverse methodological families, including Extractive Summarization; Seq2Seq Transformer; Retrieval-Augmented Generation (RAG). The review structures findings around 4 discrete claims, organized into a comparative matrix that highlights where methods converge, diverge, or lack sufficient evaluation evidence. The objective is to move beyond siloed paper summaries toward a structured understanding of the current state, open problems, and underexplored regions of the literature.",
+    "citation_keys": [
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e"
+    ],
+    "_citation_scores": {
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e": 5.0
+    }
+  },
+  {
+    "section_id": "sec-methods",
+    "title": "Methodological Approaches",
+    "text": "Extractive Summarization; Seq2Seq Transformer; Retrieval-Augmented Generation (RAG) systems make claims including: GPT-3.5-TURBO-0125 with RAG achieved the highest ROUGE-1 score of 0.364, outperforming both T5 (0.268) and spaCy (0.257); The LLM-based approach produces literature reviews with better unigram and bigram overlap with human summaries compared to transformer and frequency-based methods.",
+    "citation_keys": [
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e"
+    ],
+    "_citation_scores": {
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e": 1.5
+    }
+  },
+  {
+    "section_id": "sec-tasks",
+    "title": "Task Scope and System Capabilities",
+    "text": "Covered task types include Scientific Document Summarization; Automated Literature Review Generation. Performance claims vary significantly across task categories, with metric reporting most complete for Scientific Document Summarization.",
+    "citation_keys": [
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e"
+    ],
+    "_citation_scores": {
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e": 5.0
+    }
+  },
+  {
+    "section_id": "sec-claims",
+    "title": "Claim Synthesis and Cross-Paper Comparability",
+    "text": "Reported metrics include: ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum; ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum; ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum; ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum. Metric reporting practices vary considerably across papers, making direct cross-study comparison difficult in several cases.",
+    "citation_keys": [
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e"
+    ],
+    "_citation_scores": {
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e": 5.0
+    }
+  },
+  {
+    "section_id": "sec-gaps",
+    "title": "Research Gaps and Opportunities",
+    "text": "The following gaps have been verified through the evidence matrix:\n\nGap [10617cfa-3771-43f6-8c00-7b7010bf808a] (medium severity): Current coverage appears to underrepresent Chinese-language or Chinese-context studies.\nGap [56fcd571-4a59-49cb-99ff-a369903343eb] (medium severity): There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.",
+    "citation_keys": [
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e"
+    ],
+    "_citation_scores": {
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e": 5.0
+    }
+  },
+  {
+    "section_id": "sec-discussion",
+    "title": "Discussion: Synthesis and Future Directions",
+    "text": "Cross-paper claim synthesis reveals areas of convergence and divergence. Selected claims from the matrix: e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e: GPT-3.5-TURBO-0125 with RAG achieved the highest ROUGE-1 score of 0.364, outperf; e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e: The LLM-based approach produces literature reviews with better unigram and bigra; e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e: All three NLP approaches (spaCy, T5, and GPT-3.5-TURBO-0125) can produce satisfa.",
+    "citation_keys": [
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e"
+    ],
+    "_citation_scores": {
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e": 11.5
+    }
+  },
+  {
+    "section_id": "sec-conclusion",
+    "title": "Conclusion",
+    "text": "This review has examined 1 papers covering Scientific Document Summarization; Automated Literature Review Generation using Extractive Summarization; Seq2Seq Transformer; Retrieval-Augmented Generation (RAG). Key gaps identified include: [10617cfa-3771-43f6-8c00-7b7010bf808a] Current coverage appears to underrepresent Chinese-language or Chinese-context studies. [56fcd571-4a59-49cb-99ff-a369903343eb] There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.. Future research directions emerging from this analysis include addressing metric standardization, expanding linguistic coverage, and resolving conflicting performance claims through rigorous comparative evaluation.",
+    "citation_keys": [
+      "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e"
+    ]
+  }
+]

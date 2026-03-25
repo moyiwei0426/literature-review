@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "aris-lit/paper_chunk",
+  "title": "PaperChunk",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["chunk_id", "paper_id", "section", "text", "order_index"],
+  "properties": {
+    "chunk_id": {"type": "string"},
+    "paper_id": {"type": "string"},
+    "section": {"type": "string"},
+    "page_start": {"type": ["integer", "null"], "minimum": 1, "default": null},
+    "page_end": {"type": ["integer", "null"], "minimum": 1, "default": null},
+    "text": {"type": "string"},
+    "char_start": {"type": ["integer", "null"], "minimum": 0, "default": null},
+    "char_end": {"type": ["integer", "null"], "minimum": 0, "default": null},
+    "order_index": {"type": "integer", "minimum": 0}
+  }
+}

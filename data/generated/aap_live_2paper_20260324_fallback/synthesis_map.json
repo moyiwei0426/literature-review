@@ -1,0 +1,246 @@
+{
+  "overview": {
+    "paper_count": 2,
+    "matrix_row_count": 9,
+    "verified_gap_count": 0,
+    "scored_gap_count": 0,
+    "rejected_gap_count": 0,
+    "contradiction_count": 0,
+    "dominant_axis": "factor",
+    "average_gap_score": 0.0,
+    "theme_counts": {
+      "method": 4,
+      "task": 3,
+      "factor": 5,
+      "application": 1
+    },
+    "coverage_themes": [
+      "Structural Equation Modeling (SEM)",
+      "controlled_experiment",
+      "eye_tracking_study",
+      "laboratory_outdoor_study"
+    ]
+  },
+  "theme_axes": {
+    "method": [
+      {
+        "theme_id": "method:structural_equation_modeling_(sem)",
+        "theme_type": "method",
+        "label": "Structural Equation Modeling (SEM)",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Structural Equation Modeling (SEM) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "method:controlled_experiment",
+        "theme_type": "method",
+        "label": "controlled_experiment",
+        "evidence_count": 4,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 4.0,
+        "synthesis_note": "controlled_experiment appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "method:eye_tracking_study",
+        "theme_type": "method",
+        "label": "eye_tracking_study",
+        "evidence_count": 4,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 4.0,
+        "synthesis_note": "eye_tracking_study appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "method:laboratory_outdoor_study",
+        "theme_type": "method",
+        "label": "laboratory_outdoor_study",
+        "evidence_count": 4,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 4.0,
+        "synthesis_note": "laboratory_outdoor_study appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "task": [
+      {
+        "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+        "theme_type": "task",
+        "label": "Predicting pedestrians' violating road-crossing behavior intentions",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "task:pedestrian_crossing_behavior",
+        "theme_type": "task",
+        "label": "pedestrian_crossing_behavior",
+        "evidence_count": 4,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 4.0,
+        "synthesis_note": "pedestrian_crossing_behavior appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "task:visual_attention_allocation",
+        "theme_type": "task",
+        "label": "visual_attention_allocation",
+        "evidence_count": 4,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 4.0,
+        "synthesis_note": "visual_attention_allocation appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "factor": [
+      {
+        "theme_id": "factor:behavioral_factors",
+        "theme_type": "factor",
+        "label": "behavioral_factors",
+        "evidence_count": 9,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 9.0,
+        "synthesis_note": "behavioral_factors appears in 9 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:design_factors",
+        "theme_type": "factor",
+        "label": "design_factors",
+        "evidence_count": 4,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 4.0,
+        "synthesis_note": "design_factors appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:environmental_factors",
+        "theme_type": "factor",
+        "label": "environmental_factors",
+        "evidence_count": 4,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 4.0,
+        "synthesis_note": "environmental_factors appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:temporal_factors",
+        "theme_type": "factor",
+        "label": "temporal_factors",
+        "evidence_count": 4,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 4.0,
+        "synthesis_note": "temporal_factors appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:traffic_factors",
+        "theme_type": "factor",
+        "label": "traffic_factors",
+        "evidence_count": 4,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 4.0,
+        "synthesis_note": "traffic_factors appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "application": [
+      {
+        "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+        "theme_type": "application",
+        "label": "Survey data from Dalian, China (260 complete and valid responses)",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ]
+  },
+  "top_themes": [
+    {
+      "theme_id": "factor:behavioral_factors",
+      "theme_type": "factor",
+      "label": "behavioral_factors",
+      "evidence_count": 9,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 9.0,
+      "synthesis_note": "behavioral_factors appears in 9 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+      "theme_type": "application",
+      "label": "Survey data from Dalian, China (260 complete and valid responses)",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "method:structural_equation_modeling_(sem)",
+      "theme_type": "method",
+      "label": "Structural Equation Modeling (SEM)",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "Structural Equation Modeling (SEM) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+      "theme_type": "task",
+      "label": "Predicting pedestrians' violating road-crossing behavior intentions",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "factor:design_factors",
+      "theme_type": "factor",
+      "label": "design_factors",
+      "evidence_count": 4,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 4.0,
+      "synthesis_note": "design_factors appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "factor:environmental_factors",
+      "theme_type": "factor",
+      "label": "environmental_factors",
+      "evidence_count": 4,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 4.0,
+      "synthesis_note": "environmental_factors appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "method:controlled_experiment",
+      "theme_type": "method",
+      "label": "controlled_experiment",
+      "evidence_count": 4,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 4.0,
+      "synthesis_note": "controlled_experiment appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "method:eye_tracking_study",
+      "theme_type": "method",
+      "label": "eye_tracking_study",
+      "evidence_count": 4,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 4.0,
+      "synthesis_note": "eye_tracking_study appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    }
+  ]
+}

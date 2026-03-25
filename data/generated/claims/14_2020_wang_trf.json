@@ -1,0 +1,44 @@
+[
+  {
+    "claim_id": "claim-1",
+    "claim_text": "The proposed model successfully describes the interaction between vehicle yielding and pedestrian gap acceptance behaviors at unsignalized midblock crosswalks, with validation showing maximum relative error less than 10% between simulated and surveyed pedestrian waiting times",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "f4f34984-8fc0-41b3-9f4a-f540a951f99d",
+      "950d2eda-2ac9-47d0-9c68-986946b26d7b"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-2",
+    "claim_text": "Pedestrian waiting time increases with the number of traffic lanes and vehicle volume but decreases with pedestrian volume; the number of lanes is the critical factor affecting pedestrian waiting time at unsignalized midblock crosswalks",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "e4393e08-019e-42ac-9516-35e78ad4f49d",
+      "32ae8cd5-3c84-49e2-8410-761248ab0659",
+      "52caf3fb-2463-4faf-bf04-2327c9e0894b"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-3",
+    "claim_text": "Vehicular delay increases more rapidly than pedestrian waiting time with increasing vehicle volume and pedestrian volume, due to queue formation and platoon departure behavior",
+    "claim_type": "methodological",
+    "evidence_chunk_ids": [
+      "e4393e08-019e-42ac-9516-35e78ad4f49d",
+      "32ae8cd5-3c84-49e2-8410-761248ab0659"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-4",
+    "claim_text": "Signal control is recommended when vehicular volume exceeds 480 veh/h/ln or pedestrian volume exceeds 500 ped/h, using 20 seconds delay as LOS B threshold; unsignalized crosswalks should not be set on segments with more than 4 lanes",
+    "claim_type": "application",
+    "evidence_chunk_ids": [
+      "e4393e08-019e-42ac-9516-35e78ad4f49d",
+      "32ae8cd5-3c84-49e2-8410-761248ab0659",
+      "52caf3fb-2463-4faf-bf04-2327c9e0894b"
+    ],
+    "confidence": null
+  }
+]

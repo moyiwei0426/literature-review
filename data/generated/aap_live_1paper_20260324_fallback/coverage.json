@@ -1,0 +1,22 @@
+{
+  "paper_count": 1,
+  "method_family_distribution": {
+    "Structural equation modeling (SEM) / Survey-based research": 1
+  },
+  "task_distribution": {
+    "Predicting pedestrian violating crossing behavior intention": 1
+  },
+  "language_distribution": {
+    "English (study conducted in China)": 1
+  },
+  "dataset_distribution": {
+    "Survey data from 260 respondents in Dalian, China": 1
+  },
+  "year_distribution": {
+    "2016": 1
+  },
+  "chinese_coverage_count": 1,
+  "themes": [
+    "Structural equation modeling (SEM) / Survey-based research"
+  ]
+}

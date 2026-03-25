@@ -1,0 +1,79 @@
+{
+  "task_groups": {
+    "Predict pedestrians' violating road-crossing behavior intentions": [
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-1",
+        "claim_text": "Instrumental attitude was a significant predictor of pedestrian violating crossing behavior intention across all four models tested",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-2",
+        "claim_text": "Descriptive norm was a stronger predictor than subjective norm, and when descriptive norm was added to the model, subjective norm became non-significant",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-3",
+        "claim_text": "Conformity tendency was a significant predictor in Model 4, indicating that pedestrians are more likely to cross against traffic lights when they observe others doing so",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-4",
+        "claim_text": "Perceived behavioral control was not a significant predictor in any model, likely because crossing the street is not perceived as challenging for able-bodied pedestrians",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-5",
+        "claim_text": "Perceived risk was not a significant predictor, suggesting pedestrians fail to adequately perceive the susceptibility and seriousness of risks associated with traffic violations",
+        "claim_type": "application"
+      }
+    ]
+  },
+  "normalized_task_groups": [
+    {
+      "tasks": [
+        "Predict pedestrians' violating road-crossing behavior intentions"
+      ],
+      "paper_count": 1,
+      "claims": [
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-1",
+          "claim_text": "Instrumental attitude was a significant predictor of pedestrian violating crossing behavior intention across all four models tested",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-2",
+          "claim_text": "Descriptive norm was a stronger predictor than subjective norm, and when descriptive norm was added to the model, subjective norm became non-significant",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-3",
+          "claim_text": "Conformity tendency was a significant predictor in Model 4, indicating that pedestrians are more likely to cross against traffic lights when they observe others doing so",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-4",
+          "claim_text": "Perceived behavioral control was not a significant predictor in any model, likely because crossing the street is not perceived as challenging for able-bodied pedestrians",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-5",
+          "claim_text": "Perceived risk was not a significant predictor, suggesting pedestrians fail to adequately perceive the susceptibility and seriousness of risks associated with traffic violations",
+          "claim_type": "application"
+        }
+      ],
+      "has_conflict": false
+    }
+  ],
+  "contradictions": [],
+  "contradiction_count": 0
+}

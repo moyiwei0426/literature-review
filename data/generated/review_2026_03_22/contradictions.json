@@ -1,0 +1,3107 @@
+{
+  "task_groups": {
+    "Named Entity Recognition (NER)": [
+      {
+        "paper_id": "01_2001_hamed_safety_science",
+        "claim_id": "claim-1",
+        "claim_text": "Persian Named Entity Recognition can be effectively performed using the presented computational approach",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "01_2001_hamed_safety_science",
+        "claim_id": "claim-2",
+        "claim_text": "Part-of-Speech tagging for Persian requires handling of morphologically rich features",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "01_2001_hamed_safety_science",
+        "claim_id": "claim-3",
+        "claim_text": "Dependency parsing of Persian text achieves competitive performance with the proposed method",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "01_2001_hamed_safety_science",
+        "claim_id": "claim-4",
+        "claim_text": "The system integrates multiple Persian NLP tasks into a unified framework",
+        "claim_type": "application"
+      }
+    ],
+    "Part-of-Speech (POS) Tagging": [
+      {
+        "paper_id": "01_2001_hamed_safety_science",
+        "claim_id": "claim-1",
+        "claim_text": "Persian Named Entity Recognition can be effectively performed using the presented computational approach",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "01_2001_hamed_safety_science",
+        "claim_id": "claim-2",
+        "claim_text": "Part-of-Speech tagging for Persian requires handling of morphologically rich features",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "01_2001_hamed_safety_science",
+        "claim_id": "claim-3",
+        "claim_text": "Dependency parsing of Persian text achieves competitive performance with the proposed method",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "01_2001_hamed_safety_science",
+        "claim_id": "claim-4",
+        "claim_text": "The system integrates multiple Persian NLP tasks into a unified framework",
+        "claim_type": "application"
+      }
+    ],
+    "Dependency Parsing": [
+      {
+        "paper_id": "01_2001_hamed_safety_science",
+        "claim_id": "claim-1",
+        "claim_text": "Persian Named Entity Recognition can be effectively performed using the presented computational approach",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "01_2001_hamed_safety_science",
+        "claim_id": "claim-2",
+        "claim_text": "Part-of-Speech tagging for Persian requires handling of morphologically rich features",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "01_2001_hamed_safety_science",
+        "claim_id": "claim-3",
+        "claim_text": "Dependency parsing of Persian text achieves competitive performance with the proposed method",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "01_2001_hamed_safety_science",
+        "claim_id": "claim-4",
+        "claim_text": "The system integrates multiple Persian NLP tasks into a unified framework",
+        "claim_type": "application"
+      }
+    ],
+    "pedestrian_crossing_compliance_measurement": [
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-1",
+        "claim_text": "Unsignalized midblock crosswalks are the most preferred pedestrian facility (83% reported preference) with high crossing compliance rate (71.2%)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Crosswalk location relative to pedestrian origin/destination is the most influential decision factor (90% said so)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Pedestrian signal presence significantly influences crossing decisions at specific locations (74% reported influence)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-4",
+        "claim_text": "Physical barriers (vegetation and concrete walls) influence pedestrian crossing decisions significantly (65% reported influence)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-5",
+        "claim_text": "Good agreement exists between self-reported survey behavior and actual observed pedestrian behavior",
+        "claim_type": "methodological"
+      }
+    ],
+    "pedestrian_perception_assessment": [
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-1",
+        "claim_text": "Unsignalized midblock crosswalks are the most preferred pedestrian facility (83% reported preference) with high crossing compliance rate (71.2%)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Crosswalk location relative to pedestrian origin/destination is the most influential decision factor (90% said so)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Pedestrian signal presence significantly influences crossing decisions at specific locations (74% reported influence)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-4",
+        "claim_text": "Physical barriers (vegetation and concrete walls) influence pedestrian crossing decisions significantly (65% reported influence)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-5",
+        "claim_text": "Good agreement exists between self-reported survey behavior and actual observed pedestrian behavior",
+        "claim_type": "methodological"
+      }
+    ],
+    "factor_analysis_of_crossing_choices": [
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-1",
+        "claim_text": "Unsignalized midblock crosswalks are the most preferred pedestrian facility (83% reported preference) with high crossing compliance rate (71.2%)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Crosswalk location relative to pedestrian origin/destination is the most influential decision factor (90% said so)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Pedestrian signal presence significantly influences crossing decisions at specific locations (74% reported influence)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-4",
+        "claim_text": "Physical barriers (vegetation and concrete walls) influence pedestrian crossing decisions significantly (65% reported influence)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-5",
+        "claim_text": "Good agreement exists between self-reported survey behavior and actual observed pedestrian behavior",
+        "claim_type": "methodological"
+      }
+    ],
+    "comparison_of_survey_and_observed_behavior": [
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-1",
+        "claim_text": "Unsignalized midblock crosswalks are the most preferred pedestrian facility (83% reported preference) with high crossing compliance rate (71.2%)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Crosswalk location relative to pedestrian origin/destination is the most influential decision factor (90% said so)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Pedestrian signal presence significantly influences crossing decisions at specific locations (74% reported influence)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-4",
+        "claim_text": "Physical barriers (vegetation and concrete walls) influence pedestrian crossing decisions significantly (65% reported influence)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "02_2003_brosseau_trf",
+        "claim_id": "claim-5",
+        "claim_text": "Good agreement exists between self-reported survey behavior and actual observed pedestrian behavior",
+        "claim_type": "methodological"
+      }
+    ],
+    "Pedestrian road-crossing behavior simulation": [
+      {
+        "paper_id": "03_2006_yang_tra",
+        "claim_id": "claim-1",
+        "claim_text": "The proposed model successfully represents the high rate of pedestrian red light running and mixed traffic characteristics in Chinese cities, with adjusted simulation results closely matching field observations (mean red light runner proportion: 0.82 simulated vs 0.85 field)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "03_2006_yang_tra",
+        "claim_id": "claim-2",
+        "claim_text": "Pedestrians can be effectively classified into two types—law-obeying and opportunistic—with the proportion of opportunistic pedestrians varying based on external situational factors such as policeman presence, traffic volume, and other pedestrians' behavior",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "03_2006_yang_tra",
+        "claim_id": "claim-3",
+        "claim_text": "The violation follower phenomenon (where law-obeying pedestrians follow others to violate traffic signals) significantly affects overall red light running rates, with 69% of Type I pedestrians potentially becoming followers when witnessing violations",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "03_2006_yang_tra",
+        "claim_id": "claim-4",
+        "claim_text": "Questionnaire-based parameter calibration alone is insufficient, as self-reported behavior differs from actual behavior, requiring adjustment of the law-obeying proportion parameter from 0.55 to 0.35 to achieve better simulation-field data alignment",
+        "claim_type": "methodological"
+      }
+    ],
+    "Red light running prediction": [
+      {
+        "paper_id": "03_2006_yang_tra",
+        "claim_id": "claim-1",
+        "claim_text": "The proposed model successfully represents the high rate of pedestrian red light running and mixed traffic characteristics in Chinese cities, with adjusted simulation results closely matching field observations (mean red light runner proportion: 0.82 simulated vs 0.85 field)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "03_2006_yang_tra",
+        "claim_id": "claim-2",
+        "claim_text": "Pedestrians can be effectively classified into two types—law-obeying and opportunistic—with the proportion of opportunistic pedestrians varying based on external situational factors such as policeman presence, traffic volume, and other pedestrians' behavior",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "03_2006_yang_tra",
+        "claim_id": "claim-3",
+        "claim_text": "The violation follower phenomenon (where law-obeying pedestrians follow others to violate traffic signals) significantly affects overall red light running rates, with 69% of Type I pedestrians potentially becoming followers when witnessing violations",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "03_2006_yang_tra",
+        "claim_id": "claim-4",
+        "claim_text": "Questionnaire-based parameter calibration alone is insufficient, as self-reported behavior differs from actual behavior, requiring adjustment of the law-obeying proportion parameter from 0.55 to 0.35 to achieve better simulation-field data alignment",
+        "claim_type": "methodological"
+      }
+    ],
+    "Mixed traffic flow modeling": [
+      {
+        "paper_id": "03_2006_yang_tra",
+        "claim_id": "claim-1",
+        "claim_text": "The proposed model successfully represents the high rate of pedestrian red light running and mixed traffic characteristics in Chinese cities, with adjusted simulation results closely matching field observations (mean red light runner proportion: 0.82 simulated vs 0.85 field)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "03_2006_yang_tra",
+        "claim_id": "claim-2",
+        "claim_text": "Pedestrians can be effectively classified into two types—law-obeying and opportunistic—with the proportion of opportunistic pedestrians varying based on external situational factors such as policeman presence, traffic volume, and other pedestrians' behavior",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "03_2006_yang_tra",
+        "claim_id": "claim-3",
+        "claim_text": "The violation follower phenomenon (where law-obeying pedestrians follow others to violate traffic signals) significantly affects overall red light running rates, with 69% of Type I pedestrians potentially becoming followers when witnessing violations",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "03_2006_yang_tra",
+        "claim_id": "claim-4",
+        "claim_text": "Questionnaire-based parameter calibration alone is insufficient, as self-reported behavior differs from actual behavior, requiring adjustment of the law-obeying proportion parameter from 0.55 to 0.35 to achieve better simulation-field data alignment",
+        "claim_type": "methodological"
+      }
+    ],
+    "Pedestrian trajectory estimation": [
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-1",
+        "claim_text": "The desired direction model using Weibull distribution enables realistic representation of pedestrian maneuver toward predetermined positions at crosswalk, incorporating crosswalk geometry, pedestrian origin-destination movement, and density factors.",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-2",
+        "claim_text": "The modified social force model achieves 5.7% MAPE for position estimation and 10.5% for speed estimation, demonstrating accurate reproduction of pedestrian trajectories at signalized crosswalk.",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-3",
+        "claim_text": "The model successfully reproduces lane-formation phenomenon with 3.5 lanes (vs 2.8 observed) using route-choice based desired direction, and represents collision avoidance behavior with left-turning vehicles.",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-4",
+        "claim_text": "The separation of parameters into measurable and non-measurable groups with respective calibration methods provides effective parameter estimation with all parameters significant at 95% confidence level.",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-5",
+        "claim_text": "The coefficient for vehicle repulsive force interaction strength has the largest parameter value, indicating highest sensitivity of pedestrian behavior to collision avoidance with vehicles.",
+        "claim_type": "theoretical"
+      }
+    ],
+    "Pedestrian crossing behavior simulation at signalized crosswalk": [
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-1",
+        "claim_text": "The desired direction model using Weibull distribution enables realistic representation of pedestrian maneuver toward predetermined positions at crosswalk, incorporating crosswalk geometry, pedestrian origin-destination movement, and density factors.",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-2",
+        "claim_text": "The modified social force model achieves 5.7% MAPE for position estimation and 10.5% for speed estimation, demonstrating accurate reproduction of pedestrian trajectories at signalized crosswalk.",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-3",
+        "claim_text": "The model successfully reproduces lane-formation phenomenon with 3.5 lanes (vs 2.8 observed) using route-choice based desired direction, and represents collision avoidance behavior with left-turning vehicles.",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-4",
+        "claim_text": "The separation of parameters into measurable and non-measurable groups with respective calibration methods provides effective parameter estimation with all parameters significant at 95% confidence level.",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-5",
+        "claim_text": "The coefficient for vehicle repulsive force interaction strength has the largest parameter value, indicating highest sensitivity of pedestrian behavior to collision avoidance with vehicles.",
+        "claim_type": "theoretical"
+      }
+    ],
+    "Collision avoidance modeling with vehicles": [
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-1",
+        "claim_text": "The desired direction model using Weibull distribution enables realistic representation of pedestrian maneuver toward predetermined positions at crosswalk, incorporating crosswalk geometry, pedestrian origin-destination movement, and density factors.",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-2",
+        "claim_text": "The modified social force model achieves 5.7% MAPE for position estimation and 10.5% for speed estimation, demonstrating accurate reproduction of pedestrian trajectories at signalized crosswalk.",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-3",
+        "claim_text": "The model successfully reproduces lane-formation phenomenon with 3.5 lanes (vs 2.8 observed) using route-choice based desired direction, and represents collision avoidance behavior with left-turning vehicles.",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-4",
+        "claim_text": "The separation of parameters into measurable and non-measurable groups with respective calibration methods provides effective parameter estimation with all parameters significant at 95% confidence level.",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-5",
+        "claim_text": "The coefficient for vehicle repulsive force interaction strength has the largest parameter value, indicating highest sensitivity of pedestrian behavior to collision avoidance with vehicles.",
+        "claim_type": "theoretical"
+      }
+    ],
+    "Lane-formation phenomenon reproduction": [
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-1",
+        "claim_text": "The desired direction model using Weibull distribution enables realistic representation of pedestrian maneuver toward predetermined positions at crosswalk, incorporating crosswalk geometry, pedestrian origin-destination movement, and density factors.",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-2",
+        "claim_text": "The modified social force model achieves 5.7% MAPE for position estimation and 10.5% for speed estimation, demonstrating accurate reproduction of pedestrian trajectories at signalized crosswalk.",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-3",
+        "claim_text": "The model successfully reproduces lane-formation phenomenon with 3.5 lanes (vs 2.8 observed) using route-choice based desired direction, and represents collision avoidance behavior with left-turning vehicles.",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-4",
+        "claim_text": "The separation of parameters into measurable and non-measurable groups with respective calibration methods provides effective parameter estimation with all parameters significant at 95% confidence level.",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-5",
+        "claim_text": "The coefficient for vehicle repulsive force interaction strength has the largest parameter value, indicating highest sensitivity of pedestrian behavior to collision avoidance with vehicles.",
+        "claim_type": "theoretical"
+      }
+    ],
+    "Stop/go decision modeling at PFG phase": [
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-1",
+        "claim_text": "The desired direction model using Weibull distribution enables realistic representation of pedestrian maneuver toward predetermined positions at crosswalk, incorporating crosswalk geometry, pedestrian origin-destination movement, and density factors.",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-2",
+        "claim_text": "The modified social force model achieves 5.7% MAPE for position estimation and 10.5% for speed estimation, demonstrating accurate reproduction of pedestrian trajectories at signalized crosswalk.",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-3",
+        "claim_text": "The model successfully reproduces lane-formation phenomenon with 3.5 lanes (vs 2.8 observed) using route-choice based desired direction, and represents collision avoidance behavior with left-turning vehicles.",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-4",
+        "claim_text": "The separation of parameters into measurable and non-measurable groups with respective calibration methods provides effective parameter estimation with all parameters significant at 95% confidence level.",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "04_2014_zeng_trc",
+        "claim_id": "claim-5",
+        "claim_text": "The coefficient for vehicle repulsive force interaction strength has the largest parameter value, indicating highest sensitivity of pedestrian behavior to collision avoidance with vehicles.",
+        "claim_type": "theoretical"
+      }
+    ],
+    "pedestrian_road_crossing_behavior_simulation": [
+      {
+        "paper_id": "06_2013_brosseau_trf",
+        "claim_id": "claim-1",
+        "claim_text": "The developed model successfully represents the high rate of pedestrian red light running (45-83% violation rate) and mixed traffic characteristics in Chinese cities",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "06_2013_brosseau_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Classifying pedestrians into law-obeying and opportunistic types with dynamic proportions based on external factors (policeman presence, other pedestrians' behavior, vehicle flow) improves simulation realism",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "06_2013_brosseau_trf",
+        "claim_id": "claim-3",
+        "claim_text": "The time gap criterion (DT) for pedestrian crossing decisions can be effectively extracted from videotape data using the proposed calculation method",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "06_2013_brosseau_trf",
+        "claim_id": "claim-4",
+        "claim_text": "After parameter adjustment based on analyzing deviations between initial simulation results and field data, the simulation results agree well with field observations (mean red light runner proportion: 0.82 simulation vs 0.85 videotape)",
+        "claim_type": "performance"
+      }
+    ],
+    "modeling_red_light_violation": [
+      {
+        "paper_id": "06_2013_brosseau_trf",
+        "claim_id": "claim-1",
+        "claim_text": "The developed model successfully represents the high rate of pedestrian red light running (45-83% violation rate) and mixed traffic characteristics in Chinese cities",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "06_2013_brosseau_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Classifying pedestrians into law-obeying and opportunistic types with dynamic proportions based on external factors (policeman presence, other pedestrians' behavior, vehicle flow) improves simulation realism",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "06_2013_brosseau_trf",
+        "claim_id": "claim-3",
+        "claim_text": "The time gap criterion (DT) for pedestrian crossing decisions can be effectively extracted from videotape data using the proposed calculation method",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "06_2013_brosseau_trf",
+        "claim_id": "claim-4",
+        "claim_text": "After parameter adjustment based on analyzing deviations between initial simulation results and field data, the simulation results agree well with field observations (mean red light runner proportion: 0.82 simulation vs 0.85 videotape)",
+        "claim_type": "performance"
+      }
+    ],
+    "gap_acceptance_modeling": [
+      {
+        "paper_id": "06_2013_brosseau_trf",
+        "claim_id": "claim-1",
+        "claim_text": "The developed model successfully represents the high rate of pedestrian red light running (45-83% violation rate) and mixed traffic characteristics in Chinese cities",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "06_2013_brosseau_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Classifying pedestrians into law-obeying and opportunistic types with dynamic proportions based on external factors (policeman presence, other pedestrians' behavior, vehicle flow) improves simulation realism",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "06_2013_brosseau_trf",
+        "claim_id": "claim-3",
+        "claim_text": "The time gap criterion (DT) for pedestrian crossing decisions can be effectively extracted from videotape data using the proposed calculation method",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "06_2013_brosseau_trf",
+        "claim_id": "claim-4",
+        "claim_text": "After parameter adjustment based on analyzing deviations between initial simulation results and field data, the simulation results agree well with field observations (mean red light runner proportion: 0.82 simulation vs 0.85 videotape)",
+        "claim_type": "performance"
+      }
+    ],
+    "Pedestrian crossing decision at crosswalk": [
+      {
+        "paper_id": "07_2006_yang_tra",
+        "claim_id": "claim-1",
+        "claim_text": "Inclusion of external features significantly increased pedestrians' receptivity toward FAVs",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "07_2006_yang_tra",
+        "claim_id": "claim-2",
+        "claim_text": "Walking silhouette and 'braking' in text were the most favored visual interfaces, while verbal message was the preferred audible feature",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "07_2006_yang_tra",
+        "claim_id": "claim-3",
+        "claim_text": "Females and people from 30+ age group reacted most positively to the external features",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "07_2006_yang_tra",
+        "claim_id": "claim-4",
+        "claim_text": "Pedestrians who frequently commit errors or show aggressive behaviors rated FAVs poorly even with external features",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "07_2006_yang_tra",
+        "claim_id": "claim-5",
+        "claim_text": "VR setting works well as a valuable mode for research involving FAVs and pedestrians",
+        "claim_type": "application"
+      }
+    ],
+    "Pedestrian-FAV interaction evaluation": [
+      {
+        "paper_id": "07_2006_yang_tra",
+        "claim_id": "claim-1",
+        "claim_text": "Inclusion of external features significantly increased pedestrians' receptivity toward FAVs",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "07_2006_yang_tra",
+        "claim_id": "claim-2",
+        "claim_text": "Walking silhouette and 'braking' in text were the most favored visual interfaces, while verbal message was the preferred audible feature",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "07_2006_yang_tra",
+        "claim_id": "claim-3",
+        "claim_text": "Females and people from 30+ age group reacted most positively to the external features",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "07_2006_yang_tra",
+        "claim_id": "claim-4",
+        "claim_text": "Pedestrians who frequently commit errors or show aggressive behaviors rated FAVs poorly even with external features",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "07_2006_yang_tra",
+        "claim_id": "claim-5",
+        "claim_text": "VR setting works well as a valuable mode for research involving FAVs and pedestrians",
+        "claim_type": "application"
+      }
+    ],
+    "Predict pedestrians' violating road-crossing behavior intention (crossing against pedestrian traffic lights)": [
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-1",
+        "claim_text": "Instrumental attitude was a significant predictor of violating crossing behavior intention in all four models (p<0.001 in all cases)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-2",
+        "claim_text": "Model 4 (containing instrumental attitude, descriptive norm, and conformity tendency) provided the best model fit (CFI=0.996, RMSEA=0.030, CMIN/DF=1.235)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-3",
+        "claim_text": "Subjective norm was significant in Model 1 (basic TPB) but became non-significant when descriptive norm was added to Model 2, indicating descriptive norm is a stronger predictor than subjective norm",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-4",
+        "claim_text": "Conformity tendency was a significant predictor of violating crossing behavior intention (p=0.004), indicating that pedestrians are influenced by other pedestrians' violating behavior",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-5",
+        "claim_text": "Perceived behavioral control and perceived risk were not significant predictors of violating crossing behavior intention in any model",
+        "claim_type": "theoretical"
+      }
+    ],
+    "Pedestrian crossing at signalized intersection": [
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-1",
+        "claim_text": "Text distraction causes the greatest impairment to pedestrian crossing performance, followed by phone conversation distraction and music distraction",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-2",
+        "claim_text": "All three mobile phone distractions significantly increase pedestrian crossing initiation time compared to undistracted condition",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-3",
+        "claim_text": "Music distraction increases pupil diameter and reduces scanning frequency and visual attention toward traffic signal area",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-4",
+        "claim_text": "Phone conversation distraction leads to slower crossing speed and reduced fixation points toward right traffic area and less fixation time/duration on left traffic area",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-5",
+        "claim_text": "Text distraction significantly impairs visual attention allocation, reducing fixation points, fixation time and fixation duration across all traffic-related areas (crosswalk, traffic signal, left and right traffic areas)",
+        "claim_type": "performance"
+      }
+    ],
+    "analyze_pedestrian_red_light_violation_decision": [
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-1",
+        "claim_text": "Female pedestrians have significantly lower red light running propensity compared to males (b=-0.433, odds ratio=0.649)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Presence of a companion reduces red light running propensity by approximately 22.8% (elasticity=-0.228), while increase in number of pedestrians around reduces it by 0.94% per 1% increase",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Red light running propensity increases significantly when other pedestrians violate the red light in the same cycle (b=1.029, odds ratio=2.798), demonstrating strong social influence effect",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-4",
+        "claim_text": "Time to green and red time duration both positively correlate with increased red light running propensity (b=0.090 and b=0.060 respectively)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-5",
+        "claim_text": "Higher traffic volume and percentage of heavy vehicles reduce red light running propensity (elasticities of -0.518 and -0.484 respectively), indicating pedestrian sensitivity to traffic danger",
+        "claim_type": "performance"
+      }
+    ],
+    "identify_personal_factors_affecting_violation": [
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-1",
+        "claim_text": "Female pedestrians have significantly lower red light running propensity compared to males (b=-0.433, odds ratio=0.649)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Presence of a companion reduces red light running propensity by approximately 22.8% (elasticity=-0.228), while increase in number of pedestrians around reduces it by 0.94% per 1% increase",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Red light running propensity increases significantly when other pedestrians violate the red light in the same cycle (b=1.029, odds ratio=2.798), demonstrating strong social influence effect",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-4",
+        "claim_text": "Time to green and red time duration both positively correlate with increased red light running propensity (b=0.090 and b=0.060 respectively)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-5",
+        "claim_text": "Higher traffic volume and percentage of heavy vehicles reduce red light running propensity (elasticities of -0.518 and -0.484 respectively), indicating pedestrian sensitivity to traffic danger",
+        "claim_type": "performance"
+      }
+    ],
+    "identify_environmental_factors_affecting_violation": [
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-1",
+        "claim_text": "Female pedestrians have significantly lower red light running propensity compared to males (b=-0.433, odds ratio=0.649)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Presence of a companion reduces red light running propensity by approximately 22.8% (elasticity=-0.228), while increase in number of pedestrians around reduces it by 0.94% per 1% increase",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Red light running propensity increases significantly when other pedestrians violate the red light in the same cycle (b=1.029, odds ratio=2.798), demonstrating strong social influence effect",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-4",
+        "claim_text": "Time to green and red time duration both positively correlate with increased red light running propensity (b=0.090 and b=0.060 respectively)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-5",
+        "claim_text": "Higher traffic volume and percentage of heavy vehicles reduce red light running propensity (elasticities of -0.518 and -0.484 respectively), indicating pedestrian sensitivity to traffic danger",
+        "claim_type": "performance"
+      }
+    ],
+    "examine_interaction_effects_between_factors": [
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-1",
+        "claim_text": "Female pedestrians have significantly lower red light running propensity compared to males (b=-0.433, odds ratio=0.649)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Presence of a companion reduces red light running propensity by approximately 22.8% (elasticity=-0.228), while increase in number of pedestrians around reduces it by 0.94% per 1% increase",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Red light running propensity increases significantly when other pedestrians violate the red light in the same cycle (b=1.029, odds ratio=2.798), demonstrating strong social influence effect",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-4",
+        "claim_text": "Time to green and red time duration both positively correlate with increased red light running propensity (b=0.090 and b=0.060 respectively)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-5",
+        "claim_text": "Higher traffic volume and percentage of heavy vehicles reduce red light running propensity (elasticities of -0.518 and -0.484 respectively), indicating pedestrian sensitivity to traffic danger",
+        "claim_type": "performance"
+      }
+    ],
+    "measure_social_influence_of_other_pedestrians": [
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-1",
+        "claim_text": "Female pedestrians have significantly lower red light running propensity compared to males (b=-0.433, odds ratio=0.649)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Presence of a companion reduces red light running propensity by approximately 22.8% (elasticity=-0.228), while increase in number of pedestrians around reduces it by 0.94% per 1% increase",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Red light running propensity increases significantly when other pedestrians violate the red light in the same cycle (b=1.029, odds ratio=2.798), demonstrating strong social influence effect",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-4",
+        "claim_text": "Time to green and red time duration both positively correlate with increased red light running propensity (b=0.090 and b=0.060 respectively)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "10_2020_chen_trf",
+        "claim_id": "claim-5",
+        "claim_text": "Higher traffic volume and percentage of heavy vehicles reduce red light running propensity (elasticities of -0.518 and -0.484 respectively), indicating pedestrian sensitivity to traffic danger",
+        "claim_type": "performance"
+      }
+    ],
+    "modeling_pedestrian_waiting_times": [
+      {
+        "paper_id": "11_2013_yang_trb",
+        "claim_id": "claim-1",
+        "claim_text": "Pedestrians' intended waiting times at signalized intersections follow a U-shaped distribution, characterized by a large proportion crossing immediately and a large proportion waiting for the entire red-man phase",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "11_2013_yang_trb",
+        "claim_id": "claim-2",
+        "claim_text": "The proposed mixture distribution model with bounded Pareto components can reduce to J-shaped or L-shaped distributions under certain traffic scenarios",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "11_2013_yang_trb",
+        "claim_id": "claim-3",
+        "claim_text": "The model successfully differentiates between risk-taking and risk-averse pedestrians based on their effective critical headway and sensitivity to vehicle gaps, with practical implications for pedestrian safety",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "11_2013_yang_trb",
+        "claim_id": "claim-4",
+        "claim_text": "The commonly used exponential distribution and its extensions are inadequate for modeling bounded pedestrian waiting times at signalized intersections",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "11_2013_yang_trb",
+        "claim_id": "claim-5",
+        "claim_text": "Empirical analysis shows that younger pedestrians tend to be risk-takers while elderly pedestrians are more risk-averse, with significant differences in waiting behavior across age and gender groups",
+        "claim_type": "performance"
+      }
+    ],
+    "pedestrian_behavior_analysis": [
+      {
+        "paper_id": "11_2013_yang_trb",
+        "claim_id": "claim-1",
+        "claim_text": "Pedestrians' intended waiting times at signalized intersections follow a U-shaped distribution, characterized by a large proportion crossing immediately and a large proportion waiting for the entire red-man phase",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "11_2013_yang_trb",
+        "claim_id": "claim-2",
+        "claim_text": "The proposed mixture distribution model with bounded Pareto components can reduce to J-shaped or L-shaped distributions under certain traffic scenarios",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "11_2013_yang_trb",
+        "claim_id": "claim-3",
+        "claim_text": "The model successfully differentiates between risk-taking and risk-averse pedestrians based on their effective critical headway and sensitivity to vehicle gaps, with practical implications for pedestrian safety",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "11_2013_yang_trb",
+        "claim_id": "claim-4",
+        "claim_text": "The commonly used exponential distribution and its extensions are inadequate for modeling bounded pedestrian waiting times at signalized intersections",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "11_2013_yang_trb",
+        "claim_id": "claim-5",
+        "claim_text": "Empirical analysis shows that younger pedestrians tend to be risk-takers while elderly pedestrians are more risk-averse, with significant differences in waiting behavior across age and gender groups",
+        "claim_type": "performance"
+      }
+    ],
+    "identify_significant_factors_affecting_red_light_running": [
+      {
+        "paper_id": "12_2016_zhang_aap",
+        "claim_id": "claim-1",
+        "claim_text": "Four variables significantly affect pedestrian red-light running probability: trip purpose (stroll vs work/school), time period in a day (daytime vs dawn), attitude towards running red light when in hurry, and attitude towards whether road facility quality affects crossing behavior",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "12_2016_zhang_aap",
+        "claim_id": "claim-2",
+        "claim_text": "Pedestrians in a hurry are more likely to run red lights (odds ratio 0.299), indicating time pressure is a major factor",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "12_2016_zhang_aap",
+        "claim_id": "claim-3",
+        "claim_text": "Daytime has the highest red-light running probability compared to dawn, dusk, and night periods",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "12_2016_zhang_aap",
+        "claim_id": "claim-4",
+        "claim_text": "Pedestrians who believe road facility quality affects their crossing behavior are more likely to run red lights (odds ratio 0.483)",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "12_2016_zhang_aap",
+        "claim_id": "claim-5",
+        "claim_text": "Strolling pedestrians are safer (lower red-light running probability) compared to those going to work or school (odds ratio 0.394)",
+        "claim_type": "application"
+      }
+    ],
+    "predict_probability_of_red_light_running_behavior": [
+      {
+        "paper_id": "12_2016_zhang_aap",
+        "claim_id": "claim-1",
+        "claim_text": "Four variables significantly affect pedestrian red-light running probability: trip purpose (stroll vs work/school), time period in a day (daytime vs dawn), attitude towards running red light when in hurry, and attitude towards whether road facility quality affects crossing behavior",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "12_2016_zhang_aap",
+        "claim_id": "claim-2",
+        "claim_text": "Pedestrians in a hurry are more likely to run red lights (odds ratio 0.299), indicating time pressure is a major factor",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "12_2016_zhang_aap",
+        "claim_id": "claim-3",
+        "claim_text": "Daytime has the highest red-light running probability compared to dawn, dusk, and night periods",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "12_2016_zhang_aap",
+        "claim_id": "claim-4",
+        "claim_text": "Pedestrians who believe road facility quality affects their crossing behavior are more likely to run red lights (odds ratio 0.483)",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "12_2016_zhang_aap",
+        "claim_id": "claim-5",
+        "claim_text": "Strolling pedestrians are safer (lower red-light running probability) compared to those going to work or school (odds ratio 0.394)",
+        "claim_type": "application"
+      }
+    ],
+    "Pedestrian red light running violation analysis": [
+      {
+        "paper_id": "13_2020_chen_trf",
+        "claim_id": "claim-1",
+        "claim_text": "Female pedestrians have significantly lower propensity of red light running compared to males (odds ratio = 0.667)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "13_2020_chen_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Presence of other pedestrians violating red light in the same cycle significantly increases individual red light running propensity (odds ratio = 4.023 for Model 1; 2.797 for Model 2)",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "13_2020_chen_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Older pedestrians have higher propensity of red light running compared to normal adults (odds ratio = 1.208), while adolescents have lower propensity (odds ratio = 0.834)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "13_2020_chen_trf",
+        "claim_id": "claim-4",
+        "claim_text": "Higher traffic volume and higher percentage of heavy vehicles are associated with reduced red light running propensity (elasticities of -0.518 and -0.484 respectively)",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "13_2020_chen_trf",
+        "claim_id": "claim-5",
+        "claim_text": "Significant interaction effects exist between gender and traffic volume, gender and other violators, elderly and companion, and other violators and companion on red light running propensity",
+        "claim_type": "methodological"
+      }
+    ],
+    "Factor analysis of pedestrian crossing behavior": [
+      {
+        "paper_id": "13_2020_chen_trf",
+        "claim_id": "claim-1",
+        "claim_text": "Female pedestrians have significantly lower propensity of red light running compared to males (odds ratio = 0.667)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "13_2020_chen_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Presence of other pedestrians violating red light in the same cycle significantly increases individual red light running propensity (odds ratio = 4.023 for Model 1; 2.797 for Model 2)",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "13_2020_chen_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Older pedestrians have higher propensity of red light running compared to normal adults (odds ratio = 1.208), while adolescents have lower propensity (odds ratio = 0.834)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "13_2020_chen_trf",
+        "claim_id": "claim-4",
+        "claim_text": "Higher traffic volume and higher percentage of heavy vehicles are associated with reduced red light running propensity (elasticities of -0.518 and -0.484 respectively)",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "13_2020_chen_trf",
+        "claim_id": "claim-5",
+        "claim_text": "Significant interaction effects exist between gender and traffic volume, gender and other violators, elderly and companion, and other violators and companion on red light running propensity",
+        "claim_type": "methodological"
+      }
+    ],
+    "Interaction effect analysis between personal and environmental factors": [
+      {
+        "paper_id": "13_2020_chen_trf",
+        "claim_id": "claim-1",
+        "claim_text": "Female pedestrians have significantly lower propensity of red light running compared to males (odds ratio = 0.667)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "13_2020_chen_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Presence of other pedestrians violating red light in the same cycle significantly increases individual red light running propensity (odds ratio = 4.023 for Model 1; 2.797 for Model 2)",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "13_2020_chen_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Older pedestrians have higher propensity of red light running compared to normal adults (odds ratio = 1.208), while adolescents have lower propensity (odds ratio = 0.834)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "13_2020_chen_trf",
+        "claim_id": "claim-4",
+        "claim_text": "Higher traffic volume and higher percentage of heavy vehicles are associated with reduced red light running propensity (elasticities of -0.518 and -0.484 respectively)",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "13_2020_chen_trf",
+        "claim_id": "claim-5",
+        "claim_text": "Significant interaction effects exist between gender and traffic volume, gender and other violators, elderly and companion, and other violators and companion on red light running propensity",
+        "claim_type": "methodological"
+      }
+    ],
+    "Vehicle-pedestrian interaction modeling": [
+      {
+        "paper_id": "14_2020_wang_trf",
+        "claim_id": "claim-1",
+        "claim_text": "The proposed model accurately describes the interaction between vehicle yielding and pedestrian gap acceptance behaviors at unsignalized midblock crosswalks, with maximum relative error less than 10% compared to empirical data",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "14_2020_wang_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Pedestrian waiting time increases with the number of traffic lanes and vehicular volume but decreases with pedestrian volume, while vehicular delay increases with all three factors",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "14_2020_wang_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Signal control is recommended when vehicular volume exceeds 480 veh/h/ln or pedestrian volume exceeds 500 ped/h based on 20s vehicular delay threshold (LOS B)",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "14_2020_wang_trf",
+        "claim_id": "claim-4",
+        "claim_text": "The model converges probabilistic VY and PGA decision models into the car-following framework, enabling analysis of traffic flow impacts from vehicle-pedestrian interactions",
+        "claim_type": "methodological"
+      }
+    ],
+    "Traffic flow analysis at unsignalized midblock crosswalks": [
+      {
+        "paper_id": "14_2020_wang_trf",
+        "claim_id": "claim-1",
+        "claim_text": "The proposed model accurately describes the interaction between vehicle yielding and pedestrian gap acceptance behaviors at unsignalized midblock crosswalks, with maximum relative error less than 10% compared to empirical data",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "14_2020_wang_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Pedestrian waiting time increases with the number of traffic lanes and vehicular volume but decreases with pedestrian volume, while vehicular delay increases with all three factors",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "14_2020_wang_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Signal control is recommended when vehicular volume exceeds 480 veh/h/ln or pedestrian volume exceeds 500 ped/h based on 20s vehicular delay threshold (LOS B)",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "14_2020_wang_trf",
+        "claim_id": "claim-4",
+        "claim_text": "The model converges probabilistic VY and PGA decision models into the car-following framework, enabling analysis of traffic flow impacts from vehicle-pedestrian interactions",
+        "claim_type": "methodological"
+      }
+    ],
+    "Sensitivity analysis of traffic and geometric factors": [
+      {
+        "paper_id": "14_2020_wang_trf",
+        "claim_id": "claim-1",
+        "claim_text": "The proposed model accurately describes the interaction between vehicle yielding and pedestrian gap acceptance behaviors at unsignalized midblock crosswalks, with maximum relative error less than 10% compared to empirical data",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "14_2020_wang_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Pedestrian waiting time increases with the number of traffic lanes and vehicular volume but decreases with pedestrian volume, while vehicular delay increases with all three factors",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "14_2020_wang_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Signal control is recommended when vehicular volume exceeds 480 veh/h/ln or pedestrian volume exceeds 500 ped/h based on 20s vehicular delay threshold (LOS B)",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "14_2020_wang_trf",
+        "claim_id": "claim-4",
+        "claim_text": "The model converges probabilistic VY and PGA decision models into the car-following framework, enabling analysis of traffic flow impacts from vehicle-pedestrian interactions",
+        "claim_type": "methodological"
+      }
+    ],
+    "Recommendations for control mode selection (unsignalized vs signalized)": [
+      {
+        "paper_id": "14_2020_wang_trf",
+        "claim_id": "claim-1",
+        "claim_text": "The proposed model accurately describes the interaction between vehicle yielding and pedestrian gap acceptance behaviors at unsignalized midblock crosswalks, with maximum relative error less than 10% compared to empirical data",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "14_2020_wang_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Pedestrian waiting time increases with the number of traffic lanes and vehicular volume but decreases with pedestrian volume, while vehicular delay increases with all three factors",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "14_2020_wang_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Signal control is recommended when vehicular volume exceeds 480 veh/h/ln or pedestrian volume exceeds 500 ped/h based on 20s vehicular delay threshold (LOS B)",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "14_2020_wang_trf",
+        "claim_id": "claim-4",
+        "claim_text": "The model converges probabilistic VY and PGA decision models into the car-following framework, enabling analysis of traffic flow impacts from vehicle-pedestrian interactions",
+        "claim_type": "methodological"
+      }
+    ],
+    "Analyze pedestrian crossing speed variations": [
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-1",
+        "claim_text": "Pedestrian crossing speed at signalized intersections varies significantly from the IRC standard of 1.2 m/s, with design crossing speeds of 0.95 m/s for old pedestrians and 1.12 m/s for adult pedestrians",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Gender, age, and departure signal phase are statistically significant factors (p<0.05) affecting pedestrian crossing speed variations based on ANOVA test results",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Pedestrian gender and group size are the most significant factors affecting pedestrian compliance behavior, with male pedestrians and single pedestrians showing higher noncompliance rates",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-4",
+        "claim_text": "Approaching vehicle type and suitable gap between pedestrian and vehicle are significant factors (p<0.05) affecting pedestrian-vehicular interactions in crosswalks",
+        "claim_type": "methodological"
+      }
+    ],
+    "Identify factors affecting pedestrian crossing speed": [
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-1",
+        "claim_text": "Pedestrian crossing speed at signalized intersections varies significantly from the IRC standard of 1.2 m/s, with design crossing speeds of 0.95 m/s for old pedestrians and 1.12 m/s for adult pedestrians",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Gender, age, and departure signal phase are statistically significant factors (p<0.05) affecting pedestrian crossing speed variations based on ANOVA test results",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Pedestrian gender and group size are the most significant factors affecting pedestrian compliance behavior, with male pedestrians and single pedestrians showing higher noncompliance rates",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-4",
+        "claim_text": "Approaching vehicle type and suitable gap between pedestrian and vehicle are significant factors (p<0.05) affecting pedestrian-vehicular interactions in crosswalks",
+        "claim_type": "methodological"
+      }
+    ],
+    "Determine factors affecting pedestrian signal compliance": [
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-1",
+        "claim_text": "Pedestrian crossing speed at signalized intersections varies significantly from the IRC standard of 1.2 m/s, with design crossing speeds of 0.95 m/s for old pedestrians and 1.12 m/s for adult pedestrians",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Gender, age, and departure signal phase are statistically significant factors (p<0.05) affecting pedestrian crossing speed variations based on ANOVA test results",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Pedestrian gender and group size are the most significant factors affecting pedestrian compliance behavior, with male pedestrians and single pedestrians showing higher noncompliance rates",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-4",
+        "claim_text": "Approaching vehicle type and suitable gap between pedestrian and vehicle are significant factors (p<0.05) affecting pedestrian-vehicular interactions in crosswalks",
+        "claim_type": "methodological"
+      }
+    ],
+    "Identify factors influencing pedestrian-vehicular interaction": [
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-1",
+        "claim_text": "Pedestrian crossing speed at signalized intersections varies significantly from the IRC standard of 1.2 m/s, with design crossing speeds of 0.95 m/s for old pedestrians and 1.12 m/s for adult pedestrians",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Gender, age, and departure signal phase are statistically significant factors (p<0.05) affecting pedestrian crossing speed variations based on ANOVA test results",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Pedestrian gender and group size are the most significant factors affecting pedestrian compliance behavior, with male pedestrians and single pedestrians showing higher noncompliance rates",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-4",
+        "claim_text": "Approaching vehicle type and suitable gap between pedestrian and vehicle are significant factors (p<0.05) affecting pedestrian-vehicular interactions in crosswalks",
+        "claim_type": "methodological"
+      }
+    ],
+    "Develop logistic regression models for noncompliance and interaction prediction": [
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-1",
+        "claim_text": "Pedestrian crossing speed at signalized intersections varies significantly from the IRC standard of 1.2 m/s, with design crossing speeds of 0.95 m/s for old pedestrians and 1.12 m/s for adult pedestrians",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-2",
+        "claim_text": "Gender, age, and departure signal phase are statistically significant factors (p<0.05) affecting pedestrian crossing speed variations based on ANOVA test results",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-3",
+        "claim_text": "Pedestrian gender and group size are the most significant factors affecting pedestrian compliance behavior, with male pedestrians and single pedestrians showing higher noncompliance rates",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "15_2014_study_trf",
+        "claim_id": "claim-4",
+        "claim_text": "Approaching vehicle type and suitable gap between pedestrian and vehicle are significant factors (p<0.05) affecting pedestrian-vehicular interactions in crosswalks",
+        "claim_type": "methodological"
+      }
+    ],
+    "Pedestrian crossing decision recognition (cross vs wait)": [
+      {
+        "paper_id": "16_2016_zhang_trc",
+        "claim_id": "claim-1",
+        "claim_text": "The DBN+PF system can recognize crossing decisions within 2 seconds of observation and waiting decisions within 3-4 seconds across all noise levels with >85% accuracy",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "16_2016_zhang_trc",
+        "claim_id": "claim-2",
+        "claim_text": "The proposed method achieves >86% recognition accuracy for both cross and wait decisions under different measurement noise levels (rn = 0.1, 0.4, 1.0 m)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "16_2016_zhang_trc",
+        "claim_id": "claim-3",
+        "claim_text": "The DBN model reduces positioning errors from noisy measurements, achieving mean errors of 0.08m (rn=0.1m) and 0.47m (rn=1.0m) with standard deviations of 0.07m and 0.31m respectively",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "16_2016_zhang_trc",
+        "claim_id": "claim-4",
+        "claim_text": "The model integrates contextual information (traffic signal phases) with pedestrian behavior in a probabilistic framework, mimicking human decision-making processes",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "16_2016_zhang_trc",
+        "claim_id": "claim-5",
+        "claim_text": "The system outperforms the baseline Iryo-Asano model after 2.0 seconds of observation time, particularly for recognizing waiting behaviors",
+        "claim_type": "performance"
+      }
+    ],
+    "Motion type classification (standing, walking, running)": [
+      {
+        "paper_id": "16_2016_zhang_trc",
+        "claim_id": "claim-1",
+        "claim_text": "The DBN+PF system can recognize crossing decisions within 2 seconds of observation and waiting decisions within 3-4 seconds across all noise levels with >85% accuracy",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "16_2016_zhang_trc",
+        "claim_id": "claim-2",
+        "claim_text": "The proposed method achieves >86% recognition accuracy for both cross and wait decisions under different measurement noise levels (rn = 0.1, 0.4, 1.0 m)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "16_2016_zhang_trc",
+        "claim_id": "claim-3",
+        "claim_text": "The DBN model reduces positioning errors from noisy measurements, achieving mean errors of 0.08m (rn=0.1m) and 0.47m (rn=1.0m) with standard deviations of 0.07m and 0.31m respectively",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "16_2016_zhang_trc",
+        "claim_id": "claim-4",
+        "claim_text": "The model integrates contextual information (traffic signal phases) with pedestrian behavior in a probabilistic framework, mimicking human decision-making processes",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "16_2016_zhang_trc",
+        "claim_id": "claim-5",
+        "claim_text": "The system outperforms the baseline Iryo-Asano model after 2.0 seconds of observation time, particularly for recognizing waiting behaviors",
+        "claim_type": "performance"
+      }
+    ],
+    "Position estimation from noisy observations": [
+      {
+        "paper_id": "16_2016_zhang_trc",
+        "claim_id": "claim-1",
+        "claim_text": "The DBN+PF system can recognize crossing decisions within 2 seconds of observation and waiting decisions within 3-4 seconds across all noise levels with >85% accuracy",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "16_2016_zhang_trc",
+        "claim_id": "claim-2",
+        "claim_text": "The proposed method achieves >86% recognition accuracy for both cross and wait decisions under different measurement noise levels (rn = 0.1, 0.4, 1.0 m)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "16_2016_zhang_trc",
+        "claim_id": "claim-3",
+        "claim_text": "The DBN model reduces positioning errors from noisy measurements, achieving mean errors of 0.08m (rn=0.1m) and 0.47m (rn=1.0m) with standard deviations of 0.07m and 0.31m respectively",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "16_2016_zhang_trc",
+        "claim_id": "claim-4",
+        "claim_text": "The model integrates contextual information (traffic signal phases) with pedestrian behavior in a probabilistic framework, mimicking human decision-making processes",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "16_2016_zhang_trc",
+        "claim_id": "claim-5",
+        "claim_text": "The system outperforms the baseline Iryo-Asano model after 2.0 seconds of observation time, particularly for recognizing waiting behaviors",
+        "claim_type": "performance"
+      }
+    ],
+    "Model pedestrian speed change events (acceleration/deceleration)": [
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-1",
+        "claim_text": "The proposed model can represent pedestrian travel time distribution more accurately than the constant speed model",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-2",
+        "claim_text": "The difference between necessary speed to complete crossing (Vnec) and current speed, conflict area dummy, and PFG phase have significant impacts on acceleration/deceleration choices",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-3",
+        "claim_text": "The pedestrian speed change model provides significantly higher vehicle yield rates compared to constant speed assumptions when integrated with vehicle maneuver models",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-4",
+        "claim_text": "The PFG interval is critical for safety assessment as it determines high probability of pedestrian behavioral changes",
+        "claim_type": "theoretical"
+      }
+    ],
+    "Predict timing and location of speed changes": [
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-1",
+        "claim_text": "The proposed model can represent pedestrian travel time distribution more accurately than the constant speed model",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-2",
+        "claim_text": "The difference between necessary speed to complete crossing (Vnec) and current speed, conflict area dummy, and PFG phase have significant impacts on acceleration/deceleration choices",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-3",
+        "claim_text": "The pedestrian speed change model provides significantly higher vehicle yield rates compared to constant speed assumptions when integrated with vehicle maneuver models",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-4",
+        "claim_text": "The PFG interval is critical for safety assessment as it determines high probability of pedestrian behavioral changes",
+        "claim_type": "theoretical"
+      }
+    ],
+    "Predict magnitude of speed changes": [
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-1",
+        "claim_text": "The proposed model can represent pedestrian travel time distribution more accurately than the constant speed model",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-2",
+        "claim_text": "The difference between necessary speed to complete crossing (Vnec) and current speed, conflict area dummy, and PFG phase have significant impacts on acceleration/deceleration choices",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-3",
+        "claim_text": "The pedestrian speed change model provides significantly higher vehicle yield rates compared to constant speed assumptions when integrated with vehicle maneuver models",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-4",
+        "claim_text": "The PFG interval is critical for safety assessment as it determines high probability of pedestrian behavioral changes",
+        "claim_type": "theoretical"
+      }
+    ],
+    "Safety assessment of pedestrian-vehicle conflicts using Post Encroachment Time (PET)": [
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-1",
+        "claim_text": "The proposed model can represent pedestrian travel time distribution more accurately than the constant speed model",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-2",
+        "claim_text": "The difference between necessary speed to complete crossing (Vnec) and current speed, conflict area dummy, and PFG phase have significant impacts on acceleration/deceleration choices",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-3",
+        "claim_text": "The pedestrian speed change model provides significantly higher vehicle yield rates compared to constant speed assumptions when integrated with vehicle maneuver models",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "17_2017_chen_aap",
+        "claim_id": "claim-4",
+        "claim_text": "The PFG interval is critical for safety assessment as it determines high probability of pedestrian behavioral changes",
+        "claim_type": "theoretical"
+      }
+    ]
+  },
+  "contradictions": [
+    {
+      "task": "Named Entity Recognition (NER)",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "01_2001_hamed_safety_science",
+          "claim_id": "claim-1",
+          "claim_text": "Persian Named Entity Recognition can be effectively performed using the presented computational approach",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "01_2001_hamed_safety_science",
+          "claim_id": "claim-2",
+          "claim_text": "Part-of-Speech tagging for Persian requires handling of morphologically rich features",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "01_2001_hamed_safety_science",
+          "claim_id": "claim-3",
+          "claim_text": "Dependency parsing of Persian text achieves competitive performance with the proposed method",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "01_2001_hamed_safety_science",
+          "claim_id": "claim-4",
+          "claim_text": "The system integrates multiple Persian NLP tasks into a unified framework",
+          "claim_type": "application"
+        }
+      ]
+    },
+    {
+      "task": "Part-of-Speech (POS) Tagging",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "01_2001_hamed_safety_science",
+          "claim_id": "claim-1",
+          "claim_text": "Persian Named Entity Recognition can be effectively performed using the presented computational approach",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "01_2001_hamed_safety_science",
+          "claim_id": "claim-2",
+          "claim_text": "Part-of-Speech tagging for Persian requires handling of morphologically rich features",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "01_2001_hamed_safety_science",
+          "claim_id": "claim-3",
+          "claim_text": "Dependency parsing of Persian text achieves competitive performance with the proposed method",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "01_2001_hamed_safety_science",
+          "claim_id": "claim-4",
+          "claim_text": "The system integrates multiple Persian NLP tasks into a unified framework",
+          "claim_type": "application"
+        }
+      ]
+    },
+    {
+      "task": "Dependency Parsing",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "01_2001_hamed_safety_science",
+          "claim_id": "claim-1",
+          "claim_text": "Persian Named Entity Recognition can be effectively performed using the presented computational approach",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "01_2001_hamed_safety_science",
+          "claim_id": "claim-2",
+          "claim_text": "Part-of-Speech tagging for Persian requires handling of morphologically rich features",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "01_2001_hamed_safety_science",
+          "claim_id": "claim-3",
+          "claim_text": "Dependency parsing of Persian text achieves competitive performance with the proposed method",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "01_2001_hamed_safety_science",
+          "claim_id": "claim-4",
+          "claim_text": "The system integrates multiple Persian NLP tasks into a unified framework",
+          "claim_type": "application"
+        }
+      ]
+    },
+    {
+      "task": "pedestrian_crossing_compliance_measurement",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-1",
+          "claim_text": "Unsignalized midblock crosswalks are the most preferred pedestrian facility (83% reported preference) with high crossing compliance rate (71.2%)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Crosswalk location relative to pedestrian origin/destination is the most influential decision factor (90% said so)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Pedestrian signal presence significantly influences crossing decisions at specific locations (74% reported influence)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-4",
+          "claim_text": "Physical barriers (vegetation and concrete walls) influence pedestrian crossing decisions significantly (65% reported influence)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-5",
+          "claim_text": "Good agreement exists between self-reported survey behavior and actual observed pedestrian behavior",
+          "claim_type": "methodological"
+        }
+      ]
+    },
+    {
+      "task": "pedestrian_perception_assessment",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-1",
+          "claim_text": "Unsignalized midblock crosswalks are the most preferred pedestrian facility (83% reported preference) with high crossing compliance rate (71.2%)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Crosswalk location relative to pedestrian origin/destination is the most influential decision factor (90% said so)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Pedestrian signal presence significantly influences crossing decisions at specific locations (74% reported influence)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-4",
+          "claim_text": "Physical barriers (vegetation and concrete walls) influence pedestrian crossing decisions significantly (65% reported influence)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-5",
+          "claim_text": "Good agreement exists between self-reported survey behavior and actual observed pedestrian behavior",
+          "claim_type": "methodological"
+        }
+      ]
+    },
+    {
+      "task": "factor_analysis_of_crossing_choices",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-1",
+          "claim_text": "Unsignalized midblock crosswalks are the most preferred pedestrian facility (83% reported preference) with high crossing compliance rate (71.2%)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Crosswalk location relative to pedestrian origin/destination is the most influential decision factor (90% said so)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Pedestrian signal presence significantly influences crossing decisions at specific locations (74% reported influence)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-4",
+          "claim_text": "Physical barriers (vegetation and concrete walls) influence pedestrian crossing decisions significantly (65% reported influence)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-5",
+          "claim_text": "Good agreement exists between self-reported survey behavior and actual observed pedestrian behavior",
+          "claim_type": "methodological"
+        }
+      ]
+    },
+    {
+      "task": "comparison_of_survey_and_observed_behavior",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-1",
+          "claim_text": "Unsignalized midblock crosswalks are the most preferred pedestrian facility (83% reported preference) with high crossing compliance rate (71.2%)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Crosswalk location relative to pedestrian origin/destination is the most influential decision factor (90% said so)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Pedestrian signal presence significantly influences crossing decisions at specific locations (74% reported influence)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-4",
+          "claim_text": "Physical barriers (vegetation and concrete walls) influence pedestrian crossing decisions significantly (65% reported influence)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "02_2003_brosseau_trf",
+          "claim_id": "claim-5",
+          "claim_text": "Good agreement exists between self-reported survey behavior and actual observed pedestrian behavior",
+          "claim_type": "methodological"
+        }
+      ]
+    },
+    {
+      "task": "Pedestrian road-crossing behavior simulation",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "03_2006_yang_tra",
+          "claim_id": "claim-1",
+          "claim_text": "The proposed model successfully represents the high rate of pedestrian red light running and mixed traffic characteristics in Chinese cities, with adjusted simulation results closely matching field observations (mean red light runner proportion: 0.82 simulated vs 0.85 field)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "03_2006_yang_tra",
+          "claim_id": "claim-2",
+          "claim_text": "Pedestrians can be effectively classified into two types—law-obeying and opportunistic—with the proportion of opportunistic pedestrians varying based on external situational factors such as policeman presence, traffic volume, and other pedestrians' behavior",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "03_2006_yang_tra",
+          "claim_id": "claim-3",
+          "claim_text": "The violation follower phenomenon (where law-obeying pedestrians follow others to violate traffic signals) significantly affects overall red light running rates, with 69% of Type I pedestrians potentially becoming followers when witnessing violations",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "03_2006_yang_tra",
+          "claim_id": "claim-4",
+          "claim_text": "Questionnaire-based parameter calibration alone is insufficient, as self-reported behavior differs from actual behavior, requiring adjustment of the law-obeying proportion parameter from 0.55 to 0.35 to achieve better simulation-field data alignment",
+          "claim_type": "methodological"
+        }
+      ]
+    },
+    {
+      "task": "Red light running prediction",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "03_2006_yang_tra",
+          "claim_id": "claim-1",
+          "claim_text": "The proposed model successfully represents the high rate of pedestrian red light running and mixed traffic characteristics in Chinese cities, with adjusted simulation results closely matching field observations (mean red light runner proportion: 0.82 simulated vs 0.85 field)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "03_2006_yang_tra",
+          "claim_id": "claim-2",
+          "claim_text": "Pedestrians can be effectively classified into two types—law-obeying and opportunistic—with the proportion of opportunistic pedestrians varying based on external situational factors such as policeman presence, traffic volume, and other pedestrians' behavior",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "03_2006_yang_tra",
+          "claim_id": "claim-3",
+          "claim_text": "The violation follower phenomenon (where law-obeying pedestrians follow others to violate traffic signals) significantly affects overall red light running rates, with 69% of Type I pedestrians potentially becoming followers when witnessing violations",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "03_2006_yang_tra",
+          "claim_id": "claim-4",
+          "claim_text": "Questionnaire-based parameter calibration alone is insufficient, as self-reported behavior differs from actual behavior, requiring adjustment of the law-obeying proportion parameter from 0.55 to 0.35 to achieve better simulation-field data alignment",
+          "claim_type": "methodological"
+        }
+      ]
+    },
+    {
+      "task": "Mixed traffic flow modeling",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "03_2006_yang_tra",
+          "claim_id": "claim-1",
+          "claim_text": "The proposed model successfully represents the high rate of pedestrian red light running and mixed traffic characteristics in Chinese cities, with adjusted simulation results closely matching field observations (mean red light runner proportion: 0.82 simulated vs 0.85 field)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "03_2006_yang_tra",
+          "claim_id": "claim-2",
+          "claim_text": "Pedestrians can be effectively classified into two types—law-obeying and opportunistic—with the proportion of opportunistic pedestrians varying based on external situational factors such as policeman presence, traffic volume, and other pedestrians' behavior",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "03_2006_yang_tra",
+          "claim_id": "claim-3",
+          "claim_text": "The violation follower phenomenon (where law-obeying pedestrians follow others to violate traffic signals) significantly affects overall red light running rates, with 69% of Type I pedestrians potentially becoming followers when witnessing violations",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "03_2006_yang_tra",
+          "claim_id": "claim-4",
+          "claim_text": "Questionnaire-based parameter calibration alone is insufficient, as self-reported behavior differs from actual behavior, requiring adjustment of the law-obeying proportion parameter from 0.55 to 0.35 to achieve better simulation-field data alignment",
+          "claim_type": "methodological"
+        }
+      ]
+    },
+    {
+      "task": "Pedestrian trajectory estimation",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-1",
+          "claim_text": "The desired direction model using Weibull distribution enables realistic representation of pedestrian maneuver toward predetermined positions at crosswalk, incorporating crosswalk geometry, pedestrian origin-destination movement, and density factors.",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-2",
+          "claim_text": "The modified social force model achieves 5.7% MAPE for position estimation and 10.5% for speed estimation, demonstrating accurate reproduction of pedestrian trajectories at signalized crosswalk.",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-3",
+          "claim_text": "The model successfully reproduces lane-formation phenomenon with 3.5 lanes (vs 2.8 observed) using route-choice based desired direction, and represents collision avoidance behavior with left-turning vehicles.",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-4",
+          "claim_text": "The separation of parameters into measurable and non-measurable groups with respective calibration methods provides effective parameter estimation with all parameters significant at 95% confidence level.",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-5",
+          "claim_text": "The coefficient for vehicle repulsive force interaction strength has the largest parameter value, indicating highest sensitivity of pedestrian behavior to collision avoidance with vehicles.",
+          "claim_type": "theoretical"
+        }
+      ]
+    },
+    {
+      "task": "Pedestrian crossing behavior simulation at signalized crosswalk",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-1",
+          "claim_text": "The desired direction model using Weibull distribution enables realistic representation of pedestrian maneuver toward predetermined positions at crosswalk, incorporating crosswalk geometry, pedestrian origin-destination movement, and density factors.",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-2",
+          "claim_text": "The modified social force model achieves 5.7% MAPE for position estimation and 10.5% for speed estimation, demonstrating accurate reproduction of pedestrian trajectories at signalized crosswalk.",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-3",
+          "claim_text": "The model successfully reproduces lane-formation phenomenon with 3.5 lanes (vs 2.8 observed) using route-choice based desired direction, and represents collision avoidance behavior with left-turning vehicles.",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-4",
+          "claim_text": "The separation of parameters into measurable and non-measurable groups with respective calibration methods provides effective parameter estimation with all parameters significant at 95% confidence level.",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-5",
+          "claim_text": "The coefficient for vehicle repulsive force interaction strength has the largest parameter value, indicating highest sensitivity of pedestrian behavior to collision avoidance with vehicles.",
+          "claim_type": "theoretical"
+        }
+      ]
+    },
+    {
+      "task": "Collision avoidance modeling with vehicles",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-1",
+          "claim_text": "The desired direction model using Weibull distribution enables realistic representation of pedestrian maneuver toward predetermined positions at crosswalk, incorporating crosswalk geometry, pedestrian origin-destination movement, and density factors.",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-2",
+          "claim_text": "The modified social force model achieves 5.7% MAPE for position estimation and 10.5% for speed estimation, demonstrating accurate reproduction of pedestrian trajectories at signalized crosswalk.",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-3",
+          "claim_text": "The model successfully reproduces lane-formation phenomenon with 3.5 lanes (vs 2.8 observed) using route-choice based desired direction, and represents collision avoidance behavior with left-turning vehicles.",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-4",
+          "claim_text": "The separation of parameters into measurable and non-measurable groups with respective calibration methods provides effective parameter estimation with all parameters significant at 95% confidence level.",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-5",
+          "claim_text": "The coefficient for vehicle repulsive force interaction strength has the largest parameter value, indicating highest sensitivity of pedestrian behavior to collision avoidance with vehicles.",
+          "claim_type": "theoretical"
+        }
+      ]
+    },
+    {
+      "task": "Lane-formation phenomenon reproduction",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-1",
+          "claim_text": "The desired direction model using Weibull distribution enables realistic representation of pedestrian maneuver toward predetermined positions at crosswalk, incorporating crosswalk geometry, pedestrian origin-destination movement, and density factors.",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-2",
+          "claim_text": "The modified social force model achieves 5.7% MAPE for position estimation and 10.5% for speed estimation, demonstrating accurate reproduction of pedestrian trajectories at signalized crosswalk.",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-3",
+          "claim_text": "The model successfully reproduces lane-formation phenomenon with 3.5 lanes (vs 2.8 observed) using route-choice based desired direction, and represents collision avoidance behavior with left-turning vehicles.",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-4",
+          "claim_text": "The separation of parameters into measurable and non-measurable groups with respective calibration methods provides effective parameter estimation with all parameters significant at 95% confidence level.",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-5",
+          "claim_text": "The coefficient for vehicle repulsive force interaction strength has the largest parameter value, indicating highest sensitivity of pedestrian behavior to collision avoidance with vehicles.",
+          "claim_type": "theoretical"
+        }
+      ]
+    },
+    {
+      "task": "Stop/go decision modeling at PFG phase",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-1",
+          "claim_text": "The desired direction model using Weibull distribution enables realistic representation of pedestrian maneuver toward predetermined positions at crosswalk, incorporating crosswalk geometry, pedestrian origin-destination movement, and density factors.",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-2",
+          "claim_text": "The modified social force model achieves 5.7% MAPE for position estimation and 10.5% for speed estimation, demonstrating accurate reproduction of pedestrian trajectories at signalized crosswalk.",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-3",
+          "claim_text": "The model successfully reproduces lane-formation phenomenon with 3.5 lanes (vs 2.8 observed) using route-choice based desired direction, and represents collision avoidance behavior with left-turning vehicles.",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-4",
+          "claim_text": "The separation of parameters into measurable and non-measurable groups with respective calibration methods provides effective parameter estimation with all parameters significant at 95% confidence level.",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "04_2014_zeng_trc",
+          "claim_id": "claim-5",
+          "claim_text": "The coefficient for vehicle repulsive force interaction strength has the largest parameter value, indicating highest sensitivity of pedestrian behavior to collision avoidance with vehicles.",
+          "claim_type": "theoretical"
+        }
+      ]
+    },
+    {
+      "task": "pedestrian_road_crossing_behavior_simulation",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "06_2013_brosseau_trf",
+          "claim_id": "claim-1",
+          "claim_text": "The developed model successfully represents the high rate of pedestrian red light running (45-83% violation rate) and mixed traffic characteristics in Chinese cities",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "06_2013_brosseau_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Classifying pedestrians into law-obeying and opportunistic types with dynamic proportions based on external factors (policeman presence, other pedestrians' behavior, vehicle flow) improves simulation realism",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "06_2013_brosseau_trf",
+          "claim_id": "claim-3",
+          "claim_text": "The time gap criterion (DT) for pedestrian crossing decisions can be effectively extracted from videotape data using the proposed calculation method",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "06_2013_brosseau_trf",
+          "claim_id": "claim-4",
+          "claim_text": "After parameter adjustment based on analyzing deviations between initial simulation results and field data, the simulation results agree well with field observations (mean red light runner proportion: 0.82 simulation vs 0.85 videotape)",
+          "claim_type": "performance"
+        }
+      ]
+    },
+    {
+      "task": "modeling_red_light_violation",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "06_2013_brosseau_trf",
+          "claim_id": "claim-1",
+          "claim_text": "The developed model successfully represents the high rate of pedestrian red light running (45-83% violation rate) and mixed traffic characteristics in Chinese cities",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "06_2013_brosseau_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Classifying pedestrians into law-obeying and opportunistic types with dynamic proportions based on external factors (policeman presence, other pedestrians' behavior, vehicle flow) improves simulation realism",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "06_2013_brosseau_trf",
+          "claim_id": "claim-3",
+          "claim_text": "The time gap criterion (DT) for pedestrian crossing decisions can be effectively extracted from videotape data using the proposed calculation method",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "06_2013_brosseau_trf",
+          "claim_id": "claim-4",
+          "claim_text": "After parameter adjustment based on analyzing deviations between initial simulation results and field data, the simulation results agree well with field observations (mean red light runner proportion: 0.82 simulation vs 0.85 videotape)",
+          "claim_type": "performance"
+        }
+      ]
+    },
+    {
+      "task": "gap_acceptance_modeling",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "06_2013_brosseau_trf",
+          "claim_id": "claim-1",
+          "claim_text": "The developed model successfully represents the high rate of pedestrian red light running (45-83% violation rate) and mixed traffic characteristics in Chinese cities",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "06_2013_brosseau_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Classifying pedestrians into law-obeying and opportunistic types with dynamic proportions based on external factors (policeman presence, other pedestrians' behavior, vehicle flow) improves simulation realism",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "06_2013_brosseau_trf",
+          "claim_id": "claim-3",
+          "claim_text": "The time gap criterion (DT) for pedestrian crossing decisions can be effectively extracted from videotape data using the proposed calculation method",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "06_2013_brosseau_trf",
+          "claim_id": "claim-4",
+          "claim_text": "After parameter adjustment based on analyzing deviations between initial simulation results and field data, the simulation results agree well with field observations (mean red light runner proportion: 0.82 simulation vs 0.85 videotape)",
+          "claim_type": "performance"
+        }
+      ]
+    },
+    {
+      "task": "Pedestrian crossing decision at crosswalk",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "07_2006_yang_tra",
+          "claim_id": "claim-1",
+          "claim_text": "Inclusion of external features significantly increased pedestrians' receptivity toward FAVs",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "07_2006_yang_tra",
+          "claim_id": "claim-2",
+          "claim_text": "Walking silhouette and 'braking' in text were the most favored visual interfaces, while verbal message was the preferred audible feature",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "07_2006_yang_tra",
+          "claim_id": "claim-3",
+          "claim_text": "Females and people from 30+ age group reacted most positively to the external features",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "07_2006_yang_tra",
+          "claim_id": "claim-4",
+          "claim_text": "Pedestrians who frequently commit errors or show aggressive behaviors rated FAVs poorly even with external features",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "07_2006_yang_tra",
+          "claim_id": "claim-5",
+          "claim_text": "VR setting works well as a valuable mode for research involving FAVs and pedestrians",
+          "claim_type": "application"
+        }
+      ]
+    },
+    {
+      "task": "Pedestrian-FAV interaction evaluation",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "07_2006_yang_tra",
+          "claim_id": "claim-1",
+          "claim_text": "Inclusion of external features significantly increased pedestrians' receptivity toward FAVs",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "07_2006_yang_tra",
+          "claim_id": "claim-2",
+          "claim_text": "Walking silhouette and 'braking' in text were the most favored visual interfaces, while verbal message was the preferred audible feature",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "07_2006_yang_tra",
+          "claim_id": "claim-3",
+          "claim_text": "Females and people from 30+ age group reacted most positively to the external features",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "07_2006_yang_tra",
+          "claim_id": "claim-4",
+          "claim_text": "Pedestrians who frequently commit errors or show aggressive behaviors rated FAVs poorly even with external features",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "07_2006_yang_tra",
+          "claim_id": "claim-5",
+          "claim_text": "VR setting works well as a valuable mode for research involving FAVs and pedestrians",
+          "claim_type": "application"
+        }
+      ]
+    },
+    {
+      "task": "Predict pedestrians' violating road-crossing behavior intention (crossing against pedestrian traffic lights)",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-1",
+          "claim_text": "Instrumental attitude was a significant predictor of violating crossing behavior intention in all four models (p<0.001 in all cases)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-2",
+          "claim_text": "Model 4 (containing instrumental attitude, descriptive norm, and conformity tendency) provided the best model fit (CFI=0.996, RMSEA=0.030, CMIN/DF=1.235)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-3",
+          "claim_text": "Subjective norm was significant in Model 1 (basic TPB) but became non-significant when descriptive norm was added to Model 2, indicating descriptive norm is a stronger predictor than subjective norm",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-4",
+          "claim_text": "Conformity tendency was a significant predictor of violating crossing behavior intention (p=0.004), indicating that pedestrians are influenced by other pedestrians' violating behavior",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-5",
+          "claim_text": "Perceived behavioral control and perceived risk were not significant predictors of violating crossing behavior intention in any model",
+          "claim_type": "theoretical"
+        }
+      ]
+    },
+    {
+      "task": "analyze_pedestrian_red_light_violation_decision",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-1",
+          "claim_text": "Female pedestrians have significantly lower red light running propensity compared to males (b=-0.433, odds ratio=0.649)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Presence of a companion reduces red light running propensity by approximately 22.8% (elasticity=-0.228), while increase in number of pedestrians around reduces it by 0.94% per 1% increase",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Red light running propensity increases significantly when other pedestrians violate the red light in the same cycle (b=1.029, odds ratio=2.798), demonstrating strong social influence effect",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-4",
+          "claim_text": "Time to green and red time duration both positively correlate with increased red light running propensity (b=0.090 and b=0.060 respectively)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-5",
+          "claim_text": "Higher traffic volume and percentage of heavy vehicles reduce red light running propensity (elasticities of -0.518 and -0.484 respectively), indicating pedestrian sensitivity to traffic danger",
+          "claim_type": "performance"
+        }
+      ]
+    },
+    {
+      "task": "identify_personal_factors_affecting_violation",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-1",
+          "claim_text": "Female pedestrians have significantly lower red light running propensity compared to males (b=-0.433, odds ratio=0.649)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Presence of a companion reduces red light running propensity by approximately 22.8% (elasticity=-0.228), while increase in number of pedestrians around reduces it by 0.94% per 1% increase",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Red light running propensity increases significantly when other pedestrians violate the red light in the same cycle (b=1.029, odds ratio=2.798), demonstrating strong social influence effect",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-4",
+          "claim_text": "Time to green and red time duration both positively correlate with increased red light running propensity (b=0.090 and b=0.060 respectively)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-5",
+          "claim_text": "Higher traffic volume and percentage of heavy vehicles reduce red light running propensity (elasticities of -0.518 and -0.484 respectively), indicating pedestrian sensitivity to traffic danger",
+          "claim_type": "performance"
+        }
+      ]
+    },
+    {
+      "task": "identify_environmental_factors_affecting_violation",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-1",
+          "claim_text": "Female pedestrians have significantly lower red light running propensity compared to males (b=-0.433, odds ratio=0.649)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Presence of a companion reduces red light running propensity by approximately 22.8% (elasticity=-0.228), while increase in number of pedestrians around reduces it by 0.94% per 1% increase",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Red light running propensity increases significantly when other pedestrians violate the red light in the same cycle (b=1.029, odds ratio=2.798), demonstrating strong social influence effect",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-4",
+          "claim_text": "Time to green and red time duration both positively correlate with increased red light running propensity (b=0.090 and b=0.060 respectively)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-5",
+          "claim_text": "Higher traffic volume and percentage of heavy vehicles reduce red light running propensity (elasticities of -0.518 and -0.484 respectively), indicating pedestrian sensitivity to traffic danger",
+          "claim_type": "performance"
+        }
+      ]
+    },
+    {
+      "task": "examine_interaction_effects_between_factors",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-1",
+          "claim_text": "Female pedestrians have significantly lower red light running propensity compared to males (b=-0.433, odds ratio=0.649)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Presence of a companion reduces red light running propensity by approximately 22.8% (elasticity=-0.228), while increase in number of pedestrians around reduces it by 0.94% per 1% increase",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Red light running propensity increases significantly when other pedestrians violate the red light in the same cycle (b=1.029, odds ratio=2.798), demonstrating strong social influence effect",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-4",
+          "claim_text": "Time to green and red time duration both positively correlate with increased red light running propensity (b=0.090 and b=0.060 respectively)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-5",
+          "claim_text": "Higher traffic volume and percentage of heavy vehicles reduce red light running propensity (elasticities of -0.518 and -0.484 respectively), indicating pedestrian sensitivity to traffic danger",
+          "claim_type": "performance"
+        }
+      ]
+    },
+    {
+      "task": "measure_social_influence_of_other_pedestrians",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-1",
+          "claim_text": "Female pedestrians have significantly lower red light running propensity compared to males (b=-0.433, odds ratio=0.649)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Presence of a companion reduces red light running propensity by approximately 22.8% (elasticity=-0.228), while increase in number of pedestrians around reduces it by 0.94% per 1% increase",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Red light running propensity increases significantly when other pedestrians violate the red light in the same cycle (b=1.029, odds ratio=2.798), demonstrating strong social influence effect",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-4",
+          "claim_text": "Time to green and red time duration both positively correlate with increased red light running propensity (b=0.090 and b=0.060 respectively)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "10_2020_chen_trf",
+          "claim_id": "claim-5",
+          "claim_text": "Higher traffic volume and percentage of heavy vehicles reduce red light running propensity (elasticities of -0.518 and -0.484 respectively), indicating pedestrian sensitivity to traffic danger",
+          "claim_type": "performance"
+        }
+      ]
+    },
+    {
+      "task": "modeling_pedestrian_waiting_times",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "11_2013_yang_trb",
+          "claim_id": "claim-1",
+          "claim_text": "Pedestrians' intended waiting times at signalized intersections follow a U-shaped distribution, characterized by a large proportion crossing immediately and a large proportion waiting for the entire red-man phase",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "11_2013_yang_trb",
+          "claim_id": "claim-2",
+          "claim_text": "The proposed mixture distribution model with bounded Pareto components can reduce to J-shaped or L-shaped distributions under certain traffic scenarios",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "11_2013_yang_trb",
+          "claim_id": "claim-3",
+          "claim_text": "The model successfully differentiates between risk-taking and risk-averse pedestrians based on their effective critical headway and sensitivity to vehicle gaps, with practical implications for pedestrian safety",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "11_2013_yang_trb",
+          "claim_id": "claim-4",
+          "claim_text": "The commonly used exponential distribution and its extensions are inadequate for modeling bounded pedestrian waiting times at signalized intersections",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "11_2013_yang_trb",
+          "claim_id": "claim-5",
+          "claim_text": "Empirical analysis shows that younger pedestrians tend to be risk-takers while elderly pedestrians are more risk-averse, with significant differences in waiting behavior across age and gender groups",
+          "claim_type": "performance"
+        }
+      ]
+    },
+    {
+      "task": "pedestrian_behavior_analysis",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "11_2013_yang_trb",
+          "claim_id": "claim-1",
+          "claim_text": "Pedestrians' intended waiting times at signalized intersections follow a U-shaped distribution, characterized by a large proportion crossing immediately and a large proportion waiting for the entire red-man phase",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "11_2013_yang_trb",
+          "claim_id": "claim-2",
+          "claim_text": "The proposed mixture distribution model with bounded Pareto components can reduce to J-shaped or L-shaped distributions under certain traffic scenarios",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "11_2013_yang_trb",
+          "claim_id": "claim-3",
+          "claim_text": "The model successfully differentiates between risk-taking and risk-averse pedestrians based on their effective critical headway and sensitivity to vehicle gaps, with practical implications for pedestrian safety",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "11_2013_yang_trb",
+          "claim_id": "claim-4",
+          "claim_text": "The commonly used exponential distribution and its extensions are inadequate for modeling bounded pedestrian waiting times at signalized intersections",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "11_2013_yang_trb",
+          "claim_id": "claim-5",
+          "claim_text": "Empirical analysis shows that younger pedestrians tend to be risk-takers while elderly pedestrians are more risk-averse, with significant differences in waiting behavior across age and gender groups",
+          "claim_type": "performance"
+        }
+      ]
+    },
+    {
+      "task": "identify_significant_factors_affecting_red_light_running",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "claim_id": "claim-1",
+          "claim_text": "Four variables significantly affect pedestrian red-light running probability: trip purpose (stroll vs work/school), time period in a day (daytime vs dawn), attitude towards running red light when in hurry, and attitude towards whether road facility quality affects crossing behavior",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "claim_id": "claim-2",
+          "claim_text": "Pedestrians in a hurry are more likely to run red lights (odds ratio 0.299), indicating time pressure is a major factor",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "claim_id": "claim-3",
+          "claim_text": "Daytime has the highest red-light running probability compared to dawn, dusk, and night periods",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "claim_id": "claim-4",
+          "claim_text": "Pedestrians who believe road facility quality affects their crossing behavior are more likely to run red lights (odds ratio 0.483)",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "claim_id": "claim-5",
+          "claim_text": "Strolling pedestrians are safer (lower red-light running probability) compared to those going to work or school (odds ratio 0.394)",
+          "claim_type": "application"
+        }
+      ]
+    },
+    {
+      "task": "predict_probability_of_red_light_running_behavior",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "claim_id": "claim-1",
+          "claim_text": "Four variables significantly affect pedestrian red-light running probability: trip purpose (stroll vs work/school), time period in a day (daytime vs dawn), attitude towards running red light when in hurry, and attitude towards whether road facility quality affects crossing behavior",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "claim_id": "claim-2",
+          "claim_text": "Pedestrians in a hurry are more likely to run red lights (odds ratio 0.299), indicating time pressure is a major factor",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "claim_id": "claim-3",
+          "claim_text": "Daytime has the highest red-light running probability compared to dawn, dusk, and night periods",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "claim_id": "claim-4",
+          "claim_text": "Pedestrians who believe road facility quality affects their crossing behavior are more likely to run red lights (odds ratio 0.483)",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "claim_id": "claim-5",
+          "claim_text": "Strolling pedestrians are safer (lower red-light running probability) compared to those going to work or school (odds ratio 0.394)",
+          "claim_type": "application"
+        }
+      ]
+    },
+    {
+      "task": "Pedestrian red light running violation analysis",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "13_2020_chen_trf",
+          "claim_id": "claim-1",
+          "claim_text": "Female pedestrians have significantly lower propensity of red light running compared to males (odds ratio = 0.667)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "13_2020_chen_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Presence of other pedestrians violating red light in the same cycle significantly increases individual red light running propensity (odds ratio = 4.023 for Model 1; 2.797 for Model 2)",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "13_2020_chen_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Older pedestrians have higher propensity of red light running compared to normal adults (odds ratio = 1.208), while adolescents have lower propensity (odds ratio = 0.834)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "13_2020_chen_trf",
+          "claim_id": "claim-4",
+          "claim_text": "Higher traffic volume and higher percentage of heavy vehicles are associated with reduced red light running propensity (elasticities of -0.518 and -0.484 respectively)",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "13_2020_chen_trf",
+          "claim_id": "claim-5",
+          "claim_text": "Significant interaction effects exist between gender and traffic volume, gender and other violators, elderly and companion, and other violators and companion on red light running propensity",
+          "claim_type": "methodological"
+        }
+      ]
+    },
+    {
+      "task": "Factor analysis of pedestrian crossing behavior",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "13_2020_chen_trf",
+          "claim_id": "claim-1",
+          "claim_text": "Female pedestrians have significantly lower propensity of red light running compared to males (odds ratio = 0.667)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "13_2020_chen_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Presence of other pedestrians violating red light in the same cycle significantly increases individual red light running propensity (odds ratio = 4.023 for Model 1; 2.797 for Model 2)",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "13_2020_chen_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Older pedestrians have higher propensity of red light running compared to normal adults (odds ratio = 1.208), while adolescents have lower propensity (odds ratio = 0.834)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "13_2020_chen_trf",
+          "claim_id": "claim-4",
+          "claim_text": "Higher traffic volume and higher percentage of heavy vehicles are associated with reduced red light running propensity (elasticities of -0.518 and -0.484 respectively)",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "13_2020_chen_trf",
+          "claim_id": "claim-5",
+          "claim_text": "Significant interaction effects exist between gender and traffic volume, gender and other violators, elderly and companion, and other violators and companion on red light running propensity",
+          "claim_type": "methodological"
+        }
+      ]
+    },
+    {
+      "task": "Interaction effect analysis between personal and environmental factors",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "13_2020_chen_trf",
+          "claim_id": "claim-1",
+          "claim_text": "Female pedestrians have significantly lower propensity of red light running compared to males (odds ratio = 0.667)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "13_2020_chen_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Presence of other pedestrians violating red light in the same cycle significantly increases individual red light running propensity (odds ratio = 4.023 for Model 1; 2.797 for Model 2)",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "13_2020_chen_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Older pedestrians have higher propensity of red light running compared to normal adults (odds ratio = 1.208), while adolescents have lower propensity (odds ratio = 0.834)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "13_2020_chen_trf",
+          "claim_id": "claim-4",
+          "claim_text": "Higher traffic volume and higher percentage of heavy vehicles are associated with reduced red light running propensity (elasticities of -0.518 and -0.484 respectively)",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "13_2020_chen_trf",
+          "claim_id": "claim-5",
+          "claim_text": "Significant interaction effects exist between gender and traffic volume, gender and other violators, elderly and companion, and other violators and companion on red light running propensity",
+          "claim_type": "methodological"
+        }
+      ]
+    },
+    {
+      "task": "Vehicle-pedestrian interaction modeling",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "14_2020_wang_trf",
+          "claim_id": "claim-1",
+          "claim_text": "The proposed model accurately describes the interaction between vehicle yielding and pedestrian gap acceptance behaviors at unsignalized midblock crosswalks, with maximum relative error less than 10% compared to empirical data",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "14_2020_wang_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Pedestrian waiting time increases with the number of traffic lanes and vehicular volume but decreases with pedestrian volume, while vehicular delay increases with all three factors",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "14_2020_wang_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Signal control is recommended when vehicular volume exceeds 480 veh/h/ln or pedestrian volume exceeds 500 ped/h based on 20s vehicular delay threshold (LOS B)",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "14_2020_wang_trf",
+          "claim_id": "claim-4",
+          "claim_text": "The model converges probabilistic VY and PGA decision models into the car-following framework, enabling analysis of traffic flow impacts from vehicle-pedestrian interactions",
+          "claim_type": "methodological"
+        }
+      ]
+    },
+    {
+      "task": "Traffic flow analysis at unsignalized midblock crosswalks",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "14_2020_wang_trf",
+          "claim_id": "claim-1",
+          "claim_text": "The proposed model accurately describes the interaction between vehicle yielding and pedestrian gap acceptance behaviors at unsignalized midblock crosswalks, with maximum relative error less than 10% compared to empirical data",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "14_2020_wang_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Pedestrian waiting time increases with the number of traffic lanes and vehicular volume but decreases with pedestrian volume, while vehicular delay increases with all three factors",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "14_2020_wang_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Signal control is recommended when vehicular volume exceeds 480 veh/h/ln or pedestrian volume exceeds 500 ped/h based on 20s vehicular delay threshold (LOS B)",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "14_2020_wang_trf",
+          "claim_id": "claim-4",
+          "claim_text": "The model converges probabilistic VY and PGA decision models into the car-following framework, enabling analysis of traffic flow impacts from vehicle-pedestrian interactions",
+          "claim_type": "methodological"
+        }
+      ]
+    },
+    {
+      "task": "Sensitivity analysis of traffic and geometric factors",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "14_2020_wang_trf",
+          "claim_id": "claim-1",
+          "claim_text": "The proposed model accurately describes the interaction between vehicle yielding and pedestrian gap acceptance behaviors at unsignalized midblock crosswalks, with maximum relative error less than 10% compared to empirical data",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "14_2020_wang_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Pedestrian waiting time increases with the number of traffic lanes and vehicular volume but decreases with pedestrian volume, while vehicular delay increases with all three factors",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "14_2020_wang_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Signal control is recommended when vehicular volume exceeds 480 veh/h/ln or pedestrian volume exceeds 500 ped/h based on 20s vehicular delay threshold (LOS B)",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "14_2020_wang_trf",
+          "claim_id": "claim-4",
+          "claim_text": "The model converges probabilistic VY and PGA decision models into the car-following framework, enabling analysis of traffic flow impacts from vehicle-pedestrian interactions",
+          "claim_type": "methodological"
+        }
+      ]
+    },
+    {
+      "task": "Recommendations for control mode selection (unsignalized vs signalized)",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "14_2020_wang_trf",
+          "claim_id": "claim-1",
+          "claim_text": "The proposed model accurately describes the interaction between vehicle yielding and pedestrian gap acceptance behaviors at unsignalized midblock crosswalks, with maximum relative error less than 10% compared to empirical data",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "14_2020_wang_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Pedestrian waiting time increases with the number of traffic lanes and vehicular volume but decreases with pedestrian volume, while vehicular delay increases with all three factors",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "14_2020_wang_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Signal control is recommended when vehicular volume exceeds 480 veh/h/ln or pedestrian volume exceeds 500 ped/h based on 20s vehicular delay threshold (LOS B)",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "14_2020_wang_trf",
+          "claim_id": "claim-4",
+          "claim_text": "The model converges probabilistic VY and PGA decision models into the car-following framework, enabling analysis of traffic flow impacts from vehicle-pedestrian interactions",
+          "claim_type": "methodological"
+        }
+      ]
+    },
+    {
+      "task": "Analyze pedestrian crossing speed variations",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-1",
+          "claim_text": "Pedestrian crossing speed at signalized intersections varies significantly from the IRC standard of 1.2 m/s, with design crossing speeds of 0.95 m/s for old pedestrians and 1.12 m/s for adult pedestrians",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Gender, age, and departure signal phase are statistically significant factors (p<0.05) affecting pedestrian crossing speed variations based on ANOVA test results",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Pedestrian gender and group size are the most significant factors affecting pedestrian compliance behavior, with male pedestrians and single pedestrians showing higher noncompliance rates",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-4",
+          "claim_text": "Approaching vehicle type and suitable gap between pedestrian and vehicle are significant factors (p<0.05) affecting pedestrian-vehicular interactions in crosswalks",
+          "claim_type": "methodological"
+        }
+      ]
+    },
+    {
+      "task": "Identify factors affecting pedestrian crossing speed",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-1",
+          "claim_text": "Pedestrian crossing speed at signalized intersections varies significantly from the IRC standard of 1.2 m/s, with design crossing speeds of 0.95 m/s for old pedestrians and 1.12 m/s for adult pedestrians",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Gender, age, and departure signal phase are statistically significant factors (p<0.05) affecting pedestrian crossing speed variations based on ANOVA test results",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Pedestrian gender and group size are the most significant factors affecting pedestrian compliance behavior, with male pedestrians and single pedestrians showing higher noncompliance rates",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-4",
+          "claim_text": "Approaching vehicle type and suitable gap between pedestrian and vehicle are significant factors (p<0.05) affecting pedestrian-vehicular interactions in crosswalks",
+          "claim_type": "methodological"
+        }
+      ]
+    },
+    {
+      "task": "Determine factors affecting pedestrian signal compliance",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-1",
+          "claim_text": "Pedestrian crossing speed at signalized intersections varies significantly from the IRC standard of 1.2 m/s, with design crossing speeds of 0.95 m/s for old pedestrians and 1.12 m/s for adult pedestrians",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Gender, age, and departure signal phase are statistically significant factors (p<0.05) affecting pedestrian crossing speed variations based on ANOVA test results",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Pedestrian gender and group size are the most significant factors affecting pedestrian compliance behavior, with male pedestrians and single pedestrians showing higher noncompliance rates",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-4",
+          "claim_text": "Approaching vehicle type and suitable gap between pedestrian and vehicle are significant factors (p<0.05) affecting pedestrian-vehicular interactions in crosswalks",
+          "claim_type": "methodological"
+        }
+      ]
+    },
+    {
+      "task": "Identify factors influencing pedestrian-vehicular interaction",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-1",
+          "claim_text": "Pedestrian crossing speed at signalized intersections varies significantly from the IRC standard of 1.2 m/s, with design crossing speeds of 0.95 m/s for old pedestrians and 1.12 m/s for adult pedestrians",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Gender, age, and departure signal phase are statistically significant factors (p<0.05) affecting pedestrian crossing speed variations based on ANOVA test results",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Pedestrian gender and group size are the most significant factors affecting pedestrian compliance behavior, with male pedestrians and single pedestrians showing higher noncompliance rates",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-4",
+          "claim_text": "Approaching vehicle type and suitable gap between pedestrian and vehicle are significant factors (p<0.05) affecting pedestrian-vehicular interactions in crosswalks",
+          "claim_type": "methodological"
+        }
+      ]
+    },
+    {
+      "task": "Develop logistic regression models for noncompliance and interaction prediction",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-1",
+          "claim_text": "Pedestrian crossing speed at signalized intersections varies significantly from the IRC standard of 1.2 m/s, with design crossing speeds of 0.95 m/s for old pedestrians and 1.12 m/s for adult pedestrians",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-2",
+          "claim_text": "Gender, age, and departure signal phase are statistically significant factors (p<0.05) affecting pedestrian crossing speed variations based on ANOVA test results",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-3",
+          "claim_text": "Pedestrian gender and group size are the most significant factors affecting pedestrian compliance behavior, with male pedestrians and single pedestrians showing higher noncompliance rates",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "15_2014_study_trf",
+          "claim_id": "claim-4",
+          "claim_text": "Approaching vehicle type and suitable gap between pedestrian and vehicle are significant factors (p<0.05) affecting pedestrian-vehicular interactions in crosswalks",
+          "claim_type": "methodological"
+        }
+      ]
+    },
+    {
+      "task": "Pedestrian crossing decision recognition (cross vs wait)",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "16_2016_zhang_trc",
+          "claim_id": "claim-1",
+          "claim_text": "The DBN+PF system can recognize crossing decisions within 2 seconds of observation and waiting decisions within 3-4 seconds across all noise levels with >85% accuracy",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "16_2016_zhang_trc",
+          "claim_id": "claim-2",
+          "claim_text": "The proposed method achieves >86% recognition accuracy for both cross and wait decisions under different measurement noise levels (rn = 0.1, 0.4, 1.0 m)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "16_2016_zhang_trc",
+          "claim_id": "claim-3",
+          "claim_text": "The DBN model reduces positioning errors from noisy measurements, achieving mean errors of 0.08m (rn=0.1m) and 0.47m (rn=1.0m) with standard deviations of 0.07m and 0.31m respectively",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "16_2016_zhang_trc",
+          "claim_id": "claim-4",
+          "claim_text": "The model integrates contextual information (traffic signal phases) with pedestrian behavior in a probabilistic framework, mimicking human decision-making processes",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "16_2016_zhang_trc",
+          "claim_id": "claim-5",
+          "claim_text": "The system outperforms the baseline Iryo-Asano model after 2.0 seconds of observation time, particularly for recognizing waiting behaviors",
+          "claim_type": "performance"
+        }
+      ]
+    },
+    {
+      "task": "Motion type classification (standing, walking, running)",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "16_2016_zhang_trc",
+          "claim_id": "claim-1",
+          "claim_text": "The DBN+PF system can recognize crossing decisions within 2 seconds of observation and waiting decisions within 3-4 seconds across all noise levels with >85% accuracy",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "16_2016_zhang_trc",
+          "claim_id": "claim-2",
+          "claim_text": "The proposed method achieves >86% recognition accuracy for both cross and wait decisions under different measurement noise levels (rn = 0.1, 0.4, 1.0 m)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "16_2016_zhang_trc",
+          "claim_id": "claim-3",
+          "claim_text": "The DBN model reduces positioning errors from noisy measurements, achieving mean errors of 0.08m (rn=0.1m) and 0.47m (rn=1.0m) with standard deviations of 0.07m and 0.31m respectively",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "16_2016_zhang_trc",
+          "claim_id": "claim-4",
+          "claim_text": "The model integrates contextual information (traffic signal phases) with pedestrian behavior in a probabilistic framework, mimicking human decision-making processes",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "16_2016_zhang_trc",
+          "claim_id": "claim-5",
+          "claim_text": "The system outperforms the baseline Iryo-Asano model after 2.0 seconds of observation time, particularly for recognizing waiting behaviors",
+          "claim_type": "performance"
+        }
+      ]
+    },
+    {
+      "task": "Position estimation from noisy observations",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "16_2016_zhang_trc",
+          "claim_id": "claim-1",
+          "claim_text": "The DBN+PF system can recognize crossing decisions within 2 seconds of observation and waiting decisions within 3-4 seconds across all noise levels with >85% accuracy",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "16_2016_zhang_trc",
+          "claim_id": "claim-2",
+          "claim_text": "The proposed method achieves >86% recognition accuracy for both cross and wait decisions under different measurement noise levels (rn = 0.1, 0.4, 1.0 m)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "16_2016_zhang_trc",
+          "claim_id": "claim-3",
+          "claim_text": "The DBN model reduces positioning errors from noisy measurements, achieving mean errors of 0.08m (rn=0.1m) and 0.47m (rn=1.0m) with standard deviations of 0.07m and 0.31m respectively",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "16_2016_zhang_trc",
+          "claim_id": "claim-4",
+          "claim_text": "The model integrates contextual information (traffic signal phases) with pedestrian behavior in a probabilistic framework, mimicking human decision-making processes",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "16_2016_zhang_trc",
+          "claim_id": "claim-5",
+          "claim_text": "The system outperforms the baseline Iryo-Asano model after 2.0 seconds of observation time, particularly for recognizing waiting behaviors",
+          "claim_type": "performance"
+        }
+      ]
+    },
+    {
+      "task": "Model pedestrian speed change events (acceleration/deceleration)",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-1",
+          "claim_text": "The proposed model can represent pedestrian travel time distribution more accurately than the constant speed model",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-2",
+          "claim_text": "The difference between necessary speed to complete crossing (Vnec) and current speed, conflict area dummy, and PFG phase have significant impacts on acceleration/deceleration choices",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-3",
+          "claim_text": "The pedestrian speed change model provides significantly higher vehicle yield rates compared to constant speed assumptions when integrated with vehicle maneuver models",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-4",
+          "claim_text": "The PFG interval is critical for safety assessment as it determines high probability of pedestrian behavioral changes",
+          "claim_type": "theoretical"
+        }
+      ]
+    },
+    {
+      "task": "Predict timing and location of speed changes",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-1",
+          "claim_text": "The proposed model can represent pedestrian travel time distribution more accurately than the constant speed model",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-2",
+          "claim_text": "The difference between necessary speed to complete crossing (Vnec) and current speed, conflict area dummy, and PFG phase have significant impacts on acceleration/deceleration choices",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-3",
+          "claim_text": "The pedestrian speed change model provides significantly higher vehicle yield rates compared to constant speed assumptions when integrated with vehicle maneuver models",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-4",
+          "claim_text": "The PFG interval is critical for safety assessment as it determines high probability of pedestrian behavioral changes",
+          "claim_type": "theoretical"
+        }
+      ]
+    },
+    {
+      "task": "Predict magnitude of speed changes",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-1",
+          "claim_text": "The proposed model can represent pedestrian travel time distribution more accurately than the constant speed model",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-2",
+          "claim_text": "The difference between necessary speed to complete crossing (Vnec) and current speed, conflict area dummy, and PFG phase have significant impacts on acceleration/deceleration choices",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-3",
+          "claim_text": "The pedestrian speed change model provides significantly higher vehicle yield rates compared to constant speed assumptions when integrated with vehicle maneuver models",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-4",
+          "claim_text": "The PFG interval is critical for safety assessment as it determines high probability of pedestrian behavioral changes",
+          "claim_type": "theoretical"
+        }
+      ]
+    },
+    {
+      "task": "Safety assessment of pedestrian-vehicle conflicts using Post Encroachment Time (PET)",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-1",
+          "claim_text": "The proposed model can represent pedestrian travel time distribution more accurately than the constant speed model",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-2",
+          "claim_text": "The difference between necessary speed to complete crossing (Vnec) and current speed, conflict area dummy, and PFG phase have significant impacts on acceleration/deceleration choices",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-3",
+          "claim_text": "The pedestrian speed change model provides significantly higher vehicle yield rates compared to constant speed assumptions when integrated with vehicle maneuver models",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "17_2017_chen_aap",
+          "claim_id": "claim-4",
+          "claim_text": "The PFG interval is critical for safety assessment as it determines high probability of pedestrian behavioral changes",
+          "claim_type": "theoretical"
+        }
+      ]
+    }
+  ],
+  "contradiction_count": 49
+}

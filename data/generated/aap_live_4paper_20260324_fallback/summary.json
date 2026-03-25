@@ -1,0 +1,643 @@
+{
+  "status": "success",
+  "output_dir": "data/generated/aap_live_4paper_20260324_fallback",
+  "parsed": 4,
+  "extracted": 4,
+  "processing_errors": [],
+  "extraction_reports": [
+    {
+      "paper_id": "08_2016_zhou_aap",
+      "provider": "openai_compatible",
+      "model": "MiniMax-M2.5",
+      "latency_ms": 29997,
+      "usage": {
+        "total_tokens": 13399,
+        "total_characters": 0,
+        "prompt_tokens": 11465,
+        "completion_tokens": 1934,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "chunk_count": 36,
+      "attempts": 1,
+      "recovered_after_retry": false,
+      "fallback_used": false
+    },
+    {
+      "paper_id": "09_2018_jiang_aap",
+      "provider": "openai_compatible",
+      "model": "MiniMax-M2.5",
+      "latency_ms": 12442,
+      "usage": {
+        "total_tokens": 16984,
+        "total_characters": 0,
+        "prompt_tokens": 15238,
+        "completion_tokens": 1746,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "chunk_count": 47,
+      "attempts": 1,
+      "recovered_after_retry": false,
+      "fallback_used": false
+    },
+    {
+      "paper_id": "12_2016_zhang_aap",
+      "provider": "openai_compatible",
+      "model": "MiniMax-M2.5",
+      "latency_ms": 41001,
+      "usage": {
+        "total_tokens": 20278,
+        "total_characters": 0,
+        "prompt_tokens": 18687,
+        "completion_tokens": 1591,
+        "completion_tokens_details": {
+          "reasoning_tokens": 448
+        }
+      },
+      "chunk_count": 48,
+      "attempts": 1,
+      "recovered_after_retry": false,
+      "fallback_used": false
+    },
+    {
+      "paper_id": "17_2017_chen_aap",
+      "provider": "openai_compatible",
+      "model": "MiniMax-M2.5",
+      "latency_ms": 36706,
+      "usage": {
+        "total_tokens": 16015,
+        "total_characters": 0,
+        "prompt_tokens": 14244,
+        "completion_tokens": 1771,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "chunk_count": 48,
+      "attempts": 1,
+      "recovered_after_retry": false,
+      "fallback_used": false
+    }
+  ],
+  "coverage": {
+    "paper_count": 4,
+    "method_family_distribution": {
+      "Survey-based Structural Equation Modeling (SEM)": 1,
+      "Controlled field experiment": 1,
+      "Statistical modeling (Binomial logistic regression)": 1,
+      "Discrete choice model with regression analysis": 1
+    },
+    "task_distribution": {
+      "Predicting pedestrian violating crossing behavior intentions": 1,
+      "Pedestrian crossing behavior under mobile phone distraction": 1,
+      "Identify factors affecting pedestrian red-light running behavior at signalized intersections": 1,
+      "Pedestrian speed profile modeling, crossing time estimation, vehicle-pedestrian conflict simulation": 1
+    },
+    "language_distribution": {
+      "english": 4
+    },
+    "dataset_distribution": {
+      "Survey data from 260 respondents in Dalian, China": 1,
+      "28 college students at signalized intersection in Hefei, China": 1,
+      "631 valid survey samples collected from six signalized intersections in Hefei, China during May-June 2015": 1,
+      "Video survey data from 5 crosswalks at 3 intersections in Nagoya City, Japan (Kanayama, Ueda, Fushimi)": 1
+    },
+    "year_distribution": {
+      "2016": 2,
+      "2018": 1,
+      "2017": 1
+    },
+    "chinese_coverage_count": 3,
+    "themes": [
+      "Survey-based Structural Equation Modeling (SEM)",
+      "Controlled field experiment",
+      "Statistical modeling (Binomial logistic regression)",
+      "Discrete choice model with regression analysis"
+    ]
+  },
+  "matrix_rows": 19,
+  "contradictions": 0,
+  "gaps": {
+    "candidates": 0,
+    "verified": 0,
+    "scored": 0
+  },
+  "synthesis_map": {
+    "overview": {
+      "paper_count": 4,
+      "matrix_row_count": 19,
+      "verified_gap_count": 0,
+      "scored_gap_count": 0,
+      "rejected_gap_count": 0,
+      "contradiction_count": 0,
+      "dominant_axis": "factor",
+      "average_gap_score": 0.0,
+      "theme_counts": {
+        "method": 4,
+        "task": 4,
+        "factor": 6,
+        "application": 4
+      },
+      "coverage_themes": [
+        "Survey-based Structural Equation Modeling (SEM)",
+        "Controlled field experiment",
+        "Statistical modeling (Binomial logistic regression)",
+        "Discrete choice model with regression analysis"
+      ]
+    },
+    "theme_axes": {
+      "method": [
+        {
+          "theme_id": "method:controlled_field_experiment",
+          "theme_type": "method",
+          "label": "Controlled field experiment",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Controlled field experiment appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "method:statistical_modeling_(binomial_logistic_regression)",
+          "theme_type": "method",
+          "label": "Statistical modeling (Binomial logistic regression)",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Statistical modeling (Binomial logistic regression) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "method:survey-based_structural_equation_modeling_(sem)",
+          "theme_type": "method",
+          "label": "Survey-based Structural Equation Modeling (SEM)",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Survey-based Structural Equation Modeling (SEM) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "method:discrete_choice_model_with_regression_analysis",
+          "theme_type": "method",
+          "label": "Discrete choice model with regression analysis",
+          "evidence_count": 4,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 4.0,
+          "synthesis_note": "Discrete choice model with regression analysis appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ],
+      "task": [
+        {
+          "theme_id": "task:identify_factors_affecting_pedestrian_red-light_running_behavior_at_signalized_intersections",
+          "theme_type": "task",
+          "label": "Identify factors affecting pedestrian red-light running behavior at signalized intersections",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Identify factors affecting pedestrian red-light running behavior at signalized intersections appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "task:pedestrian_crossing_behavior_under_mobile_phone_distraction",
+          "theme_type": "task",
+          "label": "Pedestrian crossing behavior under mobile phone distraction",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Pedestrian crossing behavior under mobile phone distraction appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "task:predicting_pedestrian_violating_crossing_behavior_intentions",
+          "theme_type": "task",
+          "label": "Predicting pedestrian violating crossing behavior intentions",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Predicting pedestrian violating crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "task:pedestrian_speed_profile_modeling,_crossing_time_estimation,_vehicle-pedestrian_conflict_simulation",
+          "theme_type": "task",
+          "label": "Pedestrian speed profile modeling, crossing time estimation, vehicle-pedestrian conflict simulation",
+          "evidence_count": 4,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 4.0,
+          "synthesis_note": "Pedestrian speed profile modeling, crossing time estimation, vehicle-pedestrian conflict simulation appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ],
+      "factor": [
+        {
+          "theme_id": "factor:behavioral_factors",
+          "theme_type": "factor",
+          "label": "behavioral_factors",
+          "evidence_count": 16,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 16.0,
+          "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "factor:traffic_factors",
+          "theme_type": "factor",
+          "label": "traffic_factors",
+          "evidence_count": 14,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 14.0,
+          "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "factor:design_factors",
+          "theme_type": "factor",
+          "label": "design_factors",
+          "evidence_count": 10,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 10.0,
+          "synthesis_note": "design_factors appears in 10 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "factor:demographic_factors",
+          "theme_type": "factor",
+          "label": "demographic_factors",
+          "evidence_count": 9,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 9.0,
+          "synthesis_note": "demographic_factors appears in 9 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "factor:temporal_factors",
+          "theme_type": "factor",
+          "label": "temporal_factors",
+          "evidence_count": 9,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 9.0,
+          "synthesis_note": "temporal_factors appears in 9 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "factor:environmental_factors",
+          "theme_type": "factor",
+          "label": "environmental_factors",
+          "evidence_count": 3,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 3.0,
+          "synthesis_note": "environmental_factors appears in 3 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ],
+      "application": [
+        {
+          "theme_id": "application:28_college_students_at_signalized_intersection_in_hefei,_china",
+          "theme_type": "application",
+          "label": "28 college students at signalized intersection in Hefei, China",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "28 college students at signalized intersection in Hefei, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "application:631_valid_survey_samples_collected_from_six_signalized_intersections_in_hefei,_china_during_may-june_2015",
+          "theme_type": "application",
+          "label": "631 valid survey samples collected from six signalized intersections in Hefei, China during May-June 2015",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "631 valid survey samples collected from six signalized intersections in Hefei, China during May-June 2015 appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+          "theme_type": "application",
+          "label": "Survey data from 260 respondents in Dalian, China",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "application:video_survey_data_from_5_crosswalks_at_3_intersections_in_nagoya_city,_japan_(kanayama,_ueda,_fushimi)",
+          "theme_type": "application",
+          "label": "Video survey data from 5 crosswalks at 3 intersections in Nagoya City, Japan (Kanayama, Ueda, Fushimi)",
+          "evidence_count": 4,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 4.0,
+          "synthesis_note": "Video survey data from 5 crosswalks at 3 intersections in Nagoya City, Japan (Kanayama, Ueda, Fushimi) appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ]
+    },
+    "top_themes": [
+      {
+        "theme_id": "factor:behavioral_factors",
+        "theme_type": "factor",
+        "label": "behavioral_factors",
+        "evidence_count": 16,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 16.0,
+        "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:traffic_factors",
+        "theme_type": "factor",
+        "label": "traffic_factors",
+        "evidence_count": 14,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 14.0,
+        "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:design_factors",
+        "theme_type": "factor",
+        "label": "design_factors",
+        "evidence_count": 10,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 10.0,
+        "synthesis_note": "design_factors appears in 10 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "application:28_college_students_at_signalized_intersection_in_hefei,_china",
+        "theme_type": "application",
+        "label": "28 college students at signalized intersection in Hefei, China",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "28 college students at signalized intersection in Hefei, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "application:631_valid_survey_samples_collected_from_six_signalized_intersections_in_hefei,_china_during_may-june_2015",
+        "theme_type": "application",
+        "label": "631 valid survey samples collected from six signalized intersections in Hefei, China during May-June 2015",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "631 valid survey samples collected from six signalized intersections in Hefei, China during May-June 2015 appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+        "theme_type": "application",
+        "label": "Survey data from 260 respondents in Dalian, China",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "method:controlled_field_experiment",
+        "theme_type": "method",
+        "label": "Controlled field experiment",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Controlled field experiment appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "method:statistical_modeling_(binomial_logistic_regression)",
+        "theme_type": "method",
+        "label": "Statistical modeling (Binomial logistic regression)",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Statistical modeling (Binomial logistic regression) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ]
+  },
+  "organization": {
+    "recommended_structure": "factor_taxonomy",
+    "scores": {
+      "method_taxonomy": 5.2,
+      "task_taxonomy": 5.2,
+      "factor_taxonomy": 15.421,
+      "application_scenario": 5.2
+    },
+    "rationale": "Cross-paper factor signals are dense enough to support a variable-centered narrative.",
+    "signals": {
+      "method_theme_count": 4,
+      "task_theme_count": 4,
+      "factor_theme_count": 6,
+      "application_theme_count": 4,
+      "contradiction_count": 0,
+      "average_gap_score": 0.0
+    }
+  },
+  "abstract": {
+    "title": "AAP live four-paper fallback",
+    "paper_count": 4,
+    "matrix_row_count": 19,
+    "dominant_axis": "factor structure",
+    "top_themes": [
+      "behavioral factors",
+      "traffic factors",
+      "design factors"
+    ],
+    "top_methods": [
+      "Survey-based Structural Equation Modeling (SEM)",
+      "Controlled field experiment",
+      "Statistical modeling (Binomial logistic regression)"
+    ],
+    "top_tasks": [
+      "Predicting pedestrian violating crossing behavior intentions",
+      "Pedestrian crossing behavior under mobile phone distraction",
+      "Identify factors affecting pedestrian red-light running behavior at signalized intersections"
+    ],
+    "verified_gap_count": 0,
+    "text": "AAP live four-paper fallback synthesizes 4 papers across 19 evidence rows using factor structure as the main organizing lens. The synthesis is concentrated in behavioral factors, traffic factors, with recurring methods such as Survey-based Structural Equation Modeling (SEM), Controlled field experiment and task coverage centered on Predicting pedestrian violating crossing behavior intentions, Pedestrian crossing behavior under mobile phone distraction. Across 4 papers, the evidence is most coherently organized around factor structure rather than any single method, and the strongest clusters are behavioral factors, traffic factors, design factors. Future work should prioritize standardized reporting and more explicit cross-study comparison."
+  },
+  "keywords": {
+    "keywords": [
+      "controlled field experiment",
+      "predicting pedestrian violating crossing behavior intentions",
+      "pedestrian crossing behavior under mobile phone distraction",
+      "identify factors affecting pedestrian red-light running behavior at signalized intersections",
+      "28 college students at signalized intersection in hefei, china",
+      "survey-based structural equation modeling (sem)",
+      "statistical modeling (binomial logistic regression)",
+      "survey data from 260 respondents in dalian, china"
+    ],
+    "keyword_count": 8,
+    "dominant_axis": "factor taxonomy",
+    "signals": {
+      "controlled field experiment": 8.3,
+      "predicting pedestrian violating crossing behavior intentions": 7.85,
+      "pedestrian crossing behavior under mobile phone distraction": 7.85,
+      "identify factors affecting pedestrian red-light running behavior at signalized intersections": 7.85,
+      "28 college students at signalized intersection in hefei, china": 7.6,
+      "survey-based structural equation modeling (sem)": 7.1,
+      "statistical modeling (binomial logistic regression)": 7.1,
+      "survey data from 260 respondents in dalian, china": 6.1,
+      "pedestrian speed profile modeling, crossing time estimation, vehicle-pedestrian conflict simulation": 5.4,
+      "this paper examines pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (tpb). the study extends tpb by adding new factors including descriptive norm, perceived risk and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions. the survey used a scenario where pedestrians crossed the road violating pedestrian lights at an intersection in dalian, china.": 5.0,
+      "investigates how mobile phone distractions (music, phone conversation, and text) affect pedestrian crossing behavior and visual attention allocation at a signalized intersection": 5.0,
+      "exploring how various factors affect pedestrians' red-light running behaviors at intersection areas using data collected from hefei, china": 5.0
+    }
+  },
+  "outline_sections": 6,
+  "bib_entries": 4,
+  "validation": {
+    "overall_status": "pass",
+    "section_count": 6,
+    "healthy_section_count": 6,
+    "weak_section_count": 0,
+    "finding_count": 0,
+    "severity_counts": {},
+    "flagged_sections": []
+  },
+  "compile": null,
+  "warnings": [],
+  "artifacts": {
+    "artifacts.json": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/artifacts.json",
+      "exists": true,
+      "size_bytes": 4036
+    },
+    "summary.json": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/summary.json",
+      "exists": true,
+      "size_bytes": 21864
+    },
+    "coverage.json": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/coverage.json",
+      "exists": true,
+      "size_bytes": 1429
+    },
+    "matrix.json": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/matrix.json",
+      "exists": true,
+      "size_bytes": 52961
+    },
+    "matrix.csv": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/matrix.csv",
+      "exists": true,
+      "size_bytes": 46775
+    },
+    "matrix.md": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/matrix.md",
+      "exists": true,
+      "size_bytes": 47360
+    },
+    "contradiction.json": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/contradiction.json",
+      "exists": true,
+      "size_bytes": 13423
+    },
+    "candidate_gaps.json": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/candidate_gaps.json",
+      "exists": true,
+      "size_bytes": 2
+    },
+    "verified_gaps.json": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/verified_gaps.json",
+      "exists": true,
+      "size_bytes": 2
+    },
+    "scored_gaps.json": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/scored_gaps.json",
+      "exists": true,
+      "size_bytes": 2
+    },
+    "synthesis_map.json": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/synthesis_map.json",
+      "exists": true,
+      "size_bytes": 12979
+    },
+    "organization.json": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/organization.json",
+      "exists": true,
+      "size_bytes": 486
+    },
+    "outline.json": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/outline.json",
+      "exists": true,
+      "size_bytes": 1733
+    },
+    "section_plans.json": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/section_plans.json",
+      "exists": true,
+      "size_bytes": 43163
+    },
+    "paragraph_plans.json": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/paragraph_plans.json",
+      "exists": true,
+      "size_bytes": 48383
+    },
+    "sections.json": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/sections.json",
+      "exists": true,
+      "size_bytes": 76450
+    },
+    "validation_report.json": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/validation_report.json",
+      "exists": true,
+      "size_bytes": 3846
+    },
+    "review.md": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/review.md",
+      "exists": true,
+      "size_bytes": 14997
+    },
+    "review.tex": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/review.tex",
+      "exists": true,
+      "size_bytes": 17734
+    },
+    "bib.tex": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/bib.tex",
+      "exists": true,
+      "size_bytes": 1214
+    },
+    "abstract.json": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/abstract.json",
+      "exists": true,
+      "size_bytes": 1441
+    },
+    "abstract.txt": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/abstract.txt",
+      "exists": true,
+      "size_bytes": 749
+    },
+    "keywords.json": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/keywords.json",
+      "exists": true,
+      "size_bytes": 2079
+    },
+    "keywords.txt": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/keywords.txt",
+      "exists": true,
+      "size_bytes": 454
+    },
+    "appendix.json": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/appendix.json",
+      "exists": true,
+      "size_bytes": 8948
+    },
+    "evidence_table.json": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/evidence_table.json",
+      "exists": true,
+      "size_bytes": 7144
+    },
+    "evidence_table.md": {
+      "path": "data/generated/aap_live_4paper_20260324_fallback/evidence_table.md",
+      "exists": true,
+      "size_bytes": 5890
+    }
+  }
+}

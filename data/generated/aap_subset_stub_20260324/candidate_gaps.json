@@ -1,0 +1,15 @@
+[
+  {
+    "gap_id": "b028cd5f-0fc9-4850-8068-b94b543db743",
+    "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+    "gap_type": "evaluation",
+    "supporting_evidence": [
+      "metric_rows=0"
+    ],
+    "counter_evidence": [],
+    "confidence": null,
+    "novelty_value": null,
+    "review_worthiness": null,
+    "status": "candidate"
+  }
+]

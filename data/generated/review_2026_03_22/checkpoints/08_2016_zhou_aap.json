@@ -1,0 +1,106 @@
+{
+  "paper_id": "08_2016_zhou_aap",
+  "title": "Untitled",
+  "research_problem": "Examine pedestrians' self-reported violating crossing behavior intentions by applying and extending the Theory of Planned Behavior (TPB) with new factors including descriptive norm, perceived risk, and conformity tendency.",
+  "problem_type": "Behavioral prediction",
+  "domain": "Transportation safety, Pedestrian behavior",
+  "language_scope": "English",
+  "method_summary": "Survey-based study using structured questionnaire administered in Dalian, China. Data analyzed with Structural Equation Modeling (SEM) using maximum likelihood estimation. Four models were tested: Model 1 (basic TPB: instrumental attitude, subjective norm, perceived behavioral control), Model 2 (adding descriptive norm), Model 3 (adding perceived risk), and Model 4 (adding conformity tendency).",
+  "method_family": [
+    "Quantitative, Structural Equation Modeling (SEM), Survey research"
+  ],
+  "datasets": [
+    "260 complete and valid questionnaire responses from pedestrians in Dalian, China"
+  ],
+  "tasks": [
+    "Predict pedestrians' violating road-crossing behavior intention (crossing against pedestrian traffic lights)"
+  ],
+  "metrics": [
+    "CMIN/df ratio",
+    "RMSEA (Root Mean Square Error of Approximation)",
+    "PCLOSE",
+    "CFI (Comparative Fit Index)",
+    "Cronbach's alpha for reliability",
+    "Regression weights (unstandardized)"
+  ],
+  "baselines": [
+    "Basic TPB model (Model 1) with instrumental attitude, subjective norm, and perceived behavioral control"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "Instrumental attitude was a significant predictor of violating crossing behavior intention in all four models (p<0.001 in all cases)",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "5da1d224-8615-4985-ab3c-40166fbe64e1"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "Model 4 (containing instrumental attitude, descriptive norm, and conformity tendency) provided the best model fit (CFI=0.996, RMSEA=0.030, CMIN/DF=1.235)",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "ea7489d2-f0be-4353-8478-0a85ee197432"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "Subjective norm was significant in Model 1 (basic TPB) but became non-significant when descriptive norm was added to Model 2, indicating descriptive norm is a stronger predictor than subjective norm",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "6e76e156-a592-40ff-adde-a9b67a2dfa6f"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "Conformity tendency was a significant predictor of violating crossing behavior intention (p=0.004), indicating that pedestrians are influenced by other pedestrians' violating behavior",
+      "claim_type": "application",
+      "evidence_chunk_ids": [
+        "8f27f626-55b3-44d9-a98e-ebc5ced6cf12"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-5",
+      "claim_text": "Perceived behavioral control and perceived risk were not significant predictors of violating crossing behavior intention in any model",
+      "claim_type": "theoretical",
+      "evidence_chunk_ids": [
+        "d88a32da-5e98-4dd3-8ed8-8f414e013403"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Self-reported behavior may be biased, especially for negative behaviors",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "d88a32da-5e98-4dd3-8ed8-8f414e013403"
+      ]
+    },
+    {
+      "text": "Relatively small number of items in each construct to maintain high internal reliability",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "d88a32da-5e98-4dd3-8ed8-8f414e013403"
+      ]
+    },
+    {
+      "text": "Perceived behavioral control was not significant, contrary to TPB theory expectations - may need more risky scenarios to demonstrate effect",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "8f27f626-55b3-44d9-a98e-ebc5ced6cf12",
+        "d88a32da-5e98-4dd3-8ed8-8f414e013403"
+      ]
+    }
+  ],
+  "future_work": [
+    "Increase the number of items in each construct to improve validity",
+    "Investigate perceived behavioral control effects under scenarios with different difficulty levels (wider roads, higher speed traffic)",
+    "Compare self-reported behavior with actual observed behavior for validation"
+  ],
+  "notes": "Study was conducted in Dalian, China with 260 respondents (57.3% female, 42.7% male); Model 4 with instrumental attitude, descriptive norm, and conformity tendency explained pedestrian violating crossing intentions better than basic TPB; Findings suggest pedestrians' observations of family/friends' behavior have greater influence than perceived approval from them; Results support using descriptive norms and conformity tendency in safety interventions to reduce pedestrian violations"
+}

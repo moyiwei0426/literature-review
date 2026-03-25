@@ -1,0 +1,18 @@
+{
+  "recommended_structure": "method_taxonomy",
+  "scores": {
+    "method_taxonomy": 0.6,
+    "task_taxonomy": 0.0,
+    "factor_taxonomy": 0.0,
+    "application_scenario": 0.0
+  },
+  "rationale": "Method diversity or contradiction pressure is strong enough to foreground methodological comparison.",
+  "signals": {
+    "method_theme_count": 0,
+    "task_theme_count": 0,
+    "factor_theme_count": 0,
+    "application_theme_count": 0,
+    "contradiction_count": 0,
+    "average_gap_score": 0.0
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "paper_id": "pmc10131759",
+  "title": "Mobile Device Use While Crossing the Street: Utilizing the Theory of Planned Behavior",
+  "year": 2019,
+  "venue": "Transportation Research Part F",
+  "paper_type": "research_article",
+  "domain_role": "prose_reference",
+  "access": "oa_fulltext",
+  "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10131759/",
+  "sections": [
+    {
+      "name": "Introduction",
+      "role": "intro",
+      "summary": "Starts from public-safety stakes with concrete fatality/injury/cost statistics, then narrows to distracted pedestrian behavior and motivates theory-driven analysis.",
+      "rhetorical_moves": [
+        "high-level societal stakes",
+        "quantitative grounding",
+        "problem narrowing",
+        "literature tension",
+        "specific study motivation"
+      ],
+      "organization_pattern": "macro safety problem -> trend statistics -> specific behavioral risk -> prior evidence ambiguity -> present analytical focus",
+      "citation_pattern": "dense citation use for factual claims; each numerical or contextual claim is anchored",
+      "useful_phrases": [
+        "Despite mixed evidence across...",
+        "Additionally, a concerning trend is illustrated by...",
+        "The present study was designed to..."
+      ]
+    },
+    {
+      "name": "Discussion",
+      "role": "discussion",
+      "summary": "Interprets results by comparing them against prior studies, explains why differences may arise, and links findings back to theory and measurement choices.",
+      "rhetorical_moves": [
+        "restate analytical goal",
+        "identify strongest and weakest predictors",
+        "cross-study comparison",
+        "explain discrepancy",
+        "implication statement"
+      ],
+      "organization_pattern": "main result -> contrast with prior studies -> explanation of divergence -> theory linkage -> implication",
+      "citation_pattern": "comparative citation use; prior studies are introduced to support similarity/contrast rather than mere listing",
+      "useful_phrases": [
+        "This is in contrast to... yet similar to...",
+        "As indicated previously...",
+        "One study examining... also found..."
+      ]
+    }
+  ],
+  "global_patterns": {
+    "opening_strategy": "use concrete stakes and numbers before narrowing to focal behavior",
+    "synthesis_strategy": "compare new evidence against specific prior findings and explain divergence",
+    "comparison_strategy": "contrast predictors, populations, and measurement framing",
+    "gap_strategy": "highlight ambiguity or inconsistent evidence before defining need",
+    "ending_strategy": "translate findings into intervention or research implications"
+  },
+  "notes": "Not a review paper, but a strong prose reference for evidence-grounded academic writing in pedestrian behavior research."
+}

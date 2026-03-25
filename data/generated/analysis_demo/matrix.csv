@@ -1,0 +1,3 @@
+paper_id,research_problem,method_summary,method_family,tasks,datasets,metrics,claim_id,claim_text,claim_type,evidence_chunk_ids,limitations,notes
+p1,Problem A,Method A,pipeline,literature_review,demo,coverage,c1,Claim A,methodological,x1,Lim A,
+p2,Problem B,Method B,llm-assisted-extraction,literature_review,demo,accuracy,c2,Claim B,application,x2,Lim B,

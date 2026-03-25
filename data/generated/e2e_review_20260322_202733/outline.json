@@ -1,0 +1,76 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction and Scope",
+    "objective": "Define the review scope covering pedestrian behavior modeling at signalized intersections and unsignalized crosswalks, establishing the comparative framework for examining methodological approaches and claim conflicts",
+    "gap_inputs": [
+      "dc87fdd8-1bd6-4bd7-b82d-50aad12be3e8",
+      "e200c51a-8c74-47cd-9b42-f69f98f7d023"
+    ],
+    "matrix_row_count": 59
+  },
+  {
+    "section_id": "sec-2",
+    "title": "Microscopic Simulation Models for Pedestrian Behavior",
+    "objective": "Synthesize microscopic simulation approaches including agent-based force models and pedestrian type classification systems, examining their applicability to signal compliance and crossing behavior",
+    "gap_inputs": [
+      "e200c51a-8c74-47cd-9b42-f69f98f7d023"
+    ],
+    "matrix_row_count": 14
+  },
+  {
+    "section_id": "sec-3",
+    "title": "Statistical and Econometric Models for Crossing Behavior",
+    "objective": "Compare statistical mixture models, random parameter logit models, and discrete choice models for analyzing pedestrian waiting times, red light violation propensity, and speed change events",
+    "gap_inputs": [
+      "e200c51a-8c74-47cd-9b42-f69f98f7d023"
+    ],
+    "matrix_row_count": 15
+  },
+  {
+    "section_id": "sec-4",
+    "title": "Probabilistic and Machine Learning Approaches",
+    "objective": "Evaluate Dynamic Bayesian Network models with particle filtering for pedestrian crossing decision recognition and motion classification, comparing with regression-based prediction methods",
+    "gap_inputs": [
+      "e200c51a-8c74-47cd-9b42-f69f98f7d023"
+    ],
+    "matrix_row_count": 5
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Experimental and Field Study Methods",
+    "objective": "Review VR-based experiments for autonomous vehicle-pedestrian interaction, field experiments on mobile phone distraction effects, and video observation methodologies for behavior analysis",
+    "gap_inputs": [
+      "e200c51a-8c74-47cd-9b42-f69f98f7d023"
+    ],
+    "matrix_row_count": 9
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Geographic Context and Cross-Cultural Applicability",
+    "objective": "Examine the geographic distribution of study sites (China, Japan, Hong Kong, India), assess generalizability claims, and address the verified gap regarding Chinese-context representation",
+    "gap_inputs": [
+      "dc87fdd8-1bd6-4bd7-b82d-50aad12be3e8"
+    ],
+    "matrix_row_count": 18
+  },
+  {
+    "section_id": "sec-7",
+    "title": "Claim Conflicts and Methodological Discrepancies",
+    "objective": "Analyze the 41 documented contradictions across papers including metric inconsistencies (MAPE vs modified_rho_squared), parameter value differences (r2=0.69 vs 0.35), and conflicting findings on waiting time distributions",
+    "gap_inputs": [
+      "e200c51a-8c74-47cd-9b42-f69f98f7d023"
+    ],
+    "matrix_row_count": 18
+  },
+  {
+    "section_id": "sec-8",
+    "title": "Synthesis and Recommendations",
+    "objective": "Provide integrated findings across methodological families, identify gaps in current research, and propose standardized comparison criteria for future pedestrian behavior studies",
+    "gap_inputs": [
+      "dc87fdd8-1bd6-4bd7-b82d-50aad12be3e8",
+      "e200c51a-8c74-47cd-9b42-f69f98f7d023"
+    ],
+    "matrix_row_count": 59
+  }
+]

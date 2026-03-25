@@ -1,0 +1,51 @@
+[
+  {
+    "claim_id": "claim-1",
+    "claim_text": "Text distraction causes the greatest impairment to pedestrian crossing performance, followed by phone conversation distraction and music distraction",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "2ca34838-68b7-46e9-a56a-6f914a4257cf",
+      "40020352-822e-435c-8715-3cf2b3ae41db"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-2",
+    "claim_text": "Pedestrians distracted by music initiate crossing later, increase pupil diameter, and reduce scanning frequency and fixation points toward traffic signal area",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "2ca34838-68b7-46e9-a56a-6f914a4257cf",
+      "bc18614e-a870-40ae-9bb9-7731a4cf95c1"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-3",
+    "claim_text": "Pedestrians distracted by phone conversation cross more slowly, direct fewer fixation points to right traffic area, and spend less fixation time on left traffic area",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "709b998c-c0db-45dd-884c-9467f7bdf9a4",
+      "69d0bcc3-2f37-4471-b94c-b1a76f5a68ea"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-4",
+    "claim_text": "Pedestrians distracted by texting look left and right less often and switch, distribute and maintain less visual attention on the traffic environment",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "a6f02f35-aa44-48a1-bf5f-e014253f91af",
+      "709b998c-c0db-45dd-884c-9467f7bdf9a4"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-5",
+    "claim_text": "Eye movement data captured by eye tracker provides more accurate determination of visual attention allocation compared to video data alone",
+    "claim_type": "methodological",
+    "evidence_chunk_ids": [
+      "137b2eea-b019-4e6b-b55f-7137650ed118"
+    ],
+    "confidence": null
+  }
+]

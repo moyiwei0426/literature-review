@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "aris-lit/gap",
+  "title": "Gap",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["gap_id", "gap_statement", "gap_type", "supporting_evidence", "counter_evidence"],
+  "properties": {
+    "gap_id": {"type": "string"},
+    "gap_statement": {"type": "string"},
+    "gap_type": {
+      "type": "string",
+      "enum": ["coverage", "comparison", "methodology", "evaluation", "language", "application", "taxonomy"]
+    },
+    "supporting_evidence": {"type": "array", "items": {"type": "string"}, "default": []},
+    "counter_evidence": {"type": "array", "items": {"type": "string"}, "default": []},
+    "partial_evidence_paper_ids": {"type": "array", "items": {"type": "string"}, "default": []},
+    "partial_evidence_summary": {"type": ["string", "null"], "default": null},
+    "why_insufficient": {"type": ["string", "null"], "default": null},
+    "practical_consequence": {"type": ["string", "null"], "default": null},
+    "research_need": {"type": ["string", "null"], "default": null},
+    "resolution_needed": {"type": ["string", "null"], "default": null},
+    "partial_evidence": {"type": ["string", "null"], "default": null},
+    "insufficiency_reason": {"type": ["string", "null"], "default": null},
+    "consequence": {"type": ["string", "null"], "default": null},
+    "confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1, "default": null},
+    "novelty_value": {"type": ["number", "null"], "minimum": 0, "maximum": 1, "default": null},
+    "review_worthiness": {"type": ["number", "null"], "minimum": 0, "maximum": 1, "default": null},
+    "status": {"type": ["string", "null"], "default": null}
+  }
+}

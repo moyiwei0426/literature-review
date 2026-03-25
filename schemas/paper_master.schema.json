@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "aris-lit/paper_master",
+  "title": "PaperMaster",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["paper_id", "canonical_title", "normalized_title", "authors", "sources"],
+  "properties": {
+    "paper_id": {"type": "string"},
+    "canonical_title": {"type": "string"},
+    "normalized_title": {"type": "string"},
+    "authors": {"type": "array", "items": {"type": "string"}, "default": []},
+    "year": {"type": ["integer", "null"], "default": null},
+    "venue": {"type": ["string", "null"], "default": null},
+    "doi": {"type": ["string", "null"], "default": null},
+    "arxiv_id": {"type": ["string", "null"], "default": null},
+    "abstract": {"type": ["string", "null"], "default": null},
+    "sources": {"type": "array", "items": {"type": "string"}, "default": []},
+    "pdf_candidates": {"type": "array", "items": {"type": "string"}, "default": []},
+    "citation_count": {"type": ["integer", "null"], "default": null}
+  }
+}

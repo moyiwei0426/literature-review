@@ -1,0 +1,21 @@
+{
+  "title": "Full local review smoke",
+  "paper_count": 3,
+  "matrix_row_count": 6,
+  "dominant_axis": "factor structure",
+  "top_themes": [
+    "design factors",
+    "llm-assisted-extraction",
+    "pipeline"
+  ],
+  "top_methods": [
+    "pipeline",
+    "llm-assisted-extraction"
+  ],
+  "top_tasks": [
+    "literature review",
+    "information extraction"
+  ],
+  "verified_gap_count": 1,
+  "text": "Full local review smoke synthesizes 3 papers across 6 evidence rows using factor structure as the main organizing lens. The synthesis is concentrated in design factors, llm-assisted-extraction, with recurring methods such as pipeline, llm-assisted-extraction and task coverage centered on literature review, information extraction. Across 3 papers, the evidence is most coherently organized around factor structure rather than any single method, and the strongest clusters are design factors, llm-assisted-extraction, pipeline. The main unresolved gap is that the current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation., which keeps broader comparison and transfer claims provisional."
+}

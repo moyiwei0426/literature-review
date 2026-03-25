@@ -1,0 +1,129 @@
+{
+  "paper_id": "10_2020_chen_trf",
+  "title": "Untitled",
+  "research_problem": "Identify factors affecting pedestrian red light running violation propensity at signalized intersections in urban Hong Kong, examining both personal factors (demographics, behavior) and environmental factors (signal time, traffic condition, presence of other pedestrians)",
+  "problem_type": "empirical_observational",
+  "domain": "transportation_safety_pedestrian_behavior",
+  "language_scope": "en",
+  "method_summary": "Video observation surveys conducted at six signalized crosswalks in urban Hong Kong during weekdays, capturing crossing behaviors of 6320 pedestrians during red signal periods across 652 cycles. Random parameter logit model developed to measure association between red light running propensity and explanatory factors, accounting for unobserved heterogeneity.",
+  "method_family": [
+    "discrete_choice_model_random_parameter_logit"
+  ],
+  "datasets": [
+    "6320 pedestrians observed at 6 signalized crosswalks in Hong Kong",
+    "652 signal cycles captured",
+    "6 locations: Prince Edward Road West j/w Nathan Road, Argyle Street j/w Nathan Road, Argyle Street j/w Sai Yee Street, Tonkin Street j/w Shun Ning Road, Hung Hom South Road j/w Po loi Street, To Kwa Wan Road j/w Chi Kiang Street"
+  ],
+  "tasks": [
+    "analyze_pedestrian_red_light_violation_decision",
+    "identify_personal_factors_affecting_violation",
+    "identify_environmental_factors_affecting_violation",
+    "examine_interaction_effects_between_factors",
+    "measure_social_influence_of_other_pedestrians"
+  ],
+  "metrics": [
+    "binary_logit_coefficients",
+    "odds_ratios",
+    "Akaike_Information_Criterion_AIC",
+    "elasticity_measurements",
+    "statistical_significance_z_values"
+  ],
+  "baselines": [
+    "binary_logit_probit_models_previous_studies",
+    "fixed_parameter_logit_model_comparison",
+    "Model_1_without_interaction_terms_vs_Model_2_with_interaction_terms"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "Female pedestrians have significantly lower red light running propensity compared to males (b=-0.433, odds ratio=0.649)",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "c8ec164a-80f8-4317-97c3-5b99b4591f0a",
+        "b4ba86dc-daa6-4122-9ba2-ef2fe9f1a424"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "Presence of a companion reduces red light running propensity by approximately 22.8% (elasticity=-0.228), while increase in number of pedestrians around reduces it by 0.94% per 1% increase",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "006056d1-cb55-41fa-a7c9-a6746f4763e3",
+        "c8ec164a-80f8-4317-97c3-5b99b4591f0a"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "Red light running propensity increases significantly when other pedestrians violate the red light in the same cycle (b=1.029, odds ratio=2.798), demonstrating strong social influence effect",
+      "claim_type": "application",
+      "evidence_chunk_ids": [
+        "006056d1-cb55-41fa-a7c9-a6746f4763e3",
+        "6c4584a5-e3af-4f52-8180-f2f86ea89d98"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "Time to green and red time duration both positively correlate with increased red light running propensity (b=0.090 and b=0.060 respectively)",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "c8ec164a-80f8-4317-97c3-5b99b4591f0a",
+        "720f650a-98de-4f79-94c2-9a666039cc17"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-5",
+      "claim_text": "Higher traffic volume and percentage of heavy vehicles reduce red light running propensity (elasticities of -0.518 and -0.484 respectively), indicating pedestrian sensitivity to traffic danger",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "a2662eb4-fb63-4c0a-93d6-e134d38530ff",
+        "756d4c14-4d50-40bf-9dbc-fe99ff5a1d4d"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Study focuses on factors affecting red light running propensity but does not assess safety outcomes or associated crash risk",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "128607e4-0f55-4884-8fbd-76e96812eb93"
+      ]
+    },
+    {
+      "text": "Effect of vehicular speed on pedestrian red light running behavior was not measured despite its correlation with crash risk and severity",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "756d4c14-4d50-40bf-9dbc-fe99ff5a1d4d",
+        "128607e4-0f55-4884-8fbd-76e96812eb93"
+      ]
+    },
+    {
+      "text": "Information on pedestrian safety perception, attitude, and safety awareness not available in observation survey; only behavioral data collected",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "6c4584a5-e3af-4f52-8180-f2f86ea89d98",
+        "b4ba86dc-daa6-4122-9ba2-ef2fe9f1a424"
+      ]
+    },
+    {
+      "text": "Sample limited to urban crosswalks in Hong Kong with specific characteristics (high pedestrian/vehicle volumes, no countdown signals); generalizability to other contexts may be limited",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "cc713a2d-89fb-495f-88b6-ebe95bd154fb",
+        "357966d0-203a-4fc2-a6b1-d356e96f19e8"
+      ]
+    }
+  ],
+  "future_work": [
+    "Evaluate effectiveness of pedestrian signal countdown devices in reducing red light running",
+    "Develop attitudinal models to gauge safety perception and anticipated behavior",
+    "Explore interactions between vehicular speed, pedestrian characteristics and red light running decisions",
+    "Investigate effectiveness of variable pedestrian signal time responsive to pedestrian volume",
+    "Extend research to include crash risk outcomes and comprehensive traffic flow characteristics (flow, density, speed)"
+  ],
+  "notes": "Study uniquely combines individual-level (pedestrian demographics, behavior) and cycle-level (traffic condition, signal time) factors in same model. Novel examination of social norm effects through presence/behavior of other pedestrians. Model 2 with interaction terms shows superior fit (AIC=2750.1 vs 2776.6). Random parameter approach justified by significant standard deviation of gender effect (1.163)."
+}

@@ -1,0 +1,29 @@
+{
+  "paper_id": "string",
+  "title": "string",
+  "year": 0,
+  "venue": "string",
+  "paper_type": "review|survey|research_article|perspective|methods",
+  "domain_role": "prose_reference|structure_reference|both",
+  "access": "oa_fulltext|abstract_only|metadata_only",
+  "source_url": "string",
+  "sections": [
+    {
+      "name": "string",
+      "role": "intro|background|taxonomy|methods|comparison|discussion|gap|future|conclusion",
+      "summary": "string",
+      "rhetorical_moves": ["string"],
+      "organization_pattern": "string",
+      "citation_pattern": "string",
+      "useful_phrases": ["string"]
+    }
+  ],
+  "global_patterns": {
+    "opening_strategy": "string",
+    "synthesis_strategy": "string",
+    "comparison_strategy": "string",
+    "gap_strategy": "string",
+    "ending_strategy": "string"
+  },
+  "notes": "string"
+}

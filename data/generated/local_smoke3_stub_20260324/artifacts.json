@@ -1,0 +1,137 @@
+{
+  "artifacts.json": {
+    "path": "data/generated/local_smoke3_stub_20260324/artifacts.json",
+    "exists": true,
+    "size_bytes": 3846
+  },
+  "summary.json": {
+    "path": "data/generated/local_smoke3_stub_20260324/summary.json",
+    "exists": true,
+    "size_bytes": 9499
+  },
+  "coverage.json": {
+    "path": "data/generated/local_smoke3_stub_20260324/coverage.json",
+    "exists": true,
+    "size_bytes": 454
+  },
+  "matrix.json": {
+    "path": "data/generated/local_smoke3_stub_20260324/matrix.json",
+    "exists": true,
+    "size_bytes": 5755
+  },
+  "matrix.csv": {
+    "path": "data/generated/local_smoke3_stub_20260324/matrix.csv",
+    "exists": true,
+    "size_bytes": 3861
+  },
+  "matrix.md": {
+    "path": "data/generated/local_smoke3_stub_20260324/matrix.md",
+    "exists": true,
+    "size_bytes": 4197
+  },
+  "contradiction.json": {
+    "path": "data/generated/local_smoke3_stub_20260324/contradiction.json",
+    "exists": true,
+    "size_bytes": 6209
+  },
+  "candidate_gaps.json": {
+    "path": "data/generated/local_smoke3_stub_20260324/candidate_gaps.json",
+    "exists": true,
+    "size_bytes": 411
+  },
+  "verified_gaps.json": {
+    "path": "data/generated/local_smoke3_stub_20260324/verified_gaps.json",
+    "exists": true,
+    "size_bytes": 1724
+  },
+  "scored_gaps.json": {
+    "path": "data/generated/local_smoke3_stub_20260324/scored_gaps.json",
+    "exists": true,
+    "size_bytes": 1721
+  },
+  "synthesis_map.json": {
+    "path": "data/generated/local_smoke3_stub_20260324/synthesis_map.json",
+    "exists": true,
+    "size_bytes": 4265
+  },
+  "organization.json": {
+    "path": "data/generated/local_smoke3_stub_20260324/organization.json",
+    "exists": true,
+    "size_bytes": 483
+  },
+  "outline.json": {
+    "path": "data/generated/local_smoke3_stub_20260324/outline.json",
+    "exists": true,
+    "size_bytes": 1753
+  },
+  "section_plans.json": {
+    "path": "data/generated/local_smoke3_stub_20260324/section_plans.json",
+    "exists": true,
+    "size_bytes": 57807
+  },
+  "paragraph_plans.json": {
+    "path": "data/generated/local_smoke3_stub_20260324/paragraph_plans.json",
+    "exists": true,
+    "size_bytes": 68466
+  },
+  "sections.json": {
+    "path": "data/generated/local_smoke3_stub_20260324/sections.json",
+    "exists": true,
+    "size_bytes": 85811
+  },
+  "validation_report.json": {
+    "path": "data/generated/local_smoke3_stub_20260324/validation_report.json",
+    "exists": true,
+    "size_bytes": 6311
+  },
+  "review.md": {
+    "path": "data/generated/local_smoke3_stub_20260324/review.md",
+    "exists": true,
+    "size_bytes": 12990
+  },
+  "review.tex": {
+    "path": "data/generated/local_smoke3_stub_20260324/review.tex",
+    "exists": true,
+    "size_bytes": 15762
+  },
+  "bib.tex": {
+    "path": "data/generated/local_smoke3_stub_20260324/bib.tex",
+    "exists": true,
+    "size_bytes": 544
+  },
+  "abstract.json": {
+    "path": "data/generated/local_smoke3_stub_20260324/abstract.json",
+    "exists": true,
+    "size_bytes": 1124
+  },
+  "abstract.txt": {
+    "path": "data/generated/local_smoke3_stub_20260324/abstract.txt",
+    "exists": true,
+    "size_bytes": 722
+  },
+  "keywords.json": {
+    "path": "data/generated/local_smoke3_stub_20260324/keywords.json",
+    "exists": true,
+    "size_bytes": 782
+  },
+  "keywords.txt": {
+    "path": "data/generated/local_smoke3_stub_20260324/keywords.txt",
+    "exists": true,
+    "size_bytes": 197
+  },
+  "appendix.json": {
+    "path": "data/generated/local_smoke3_stub_20260324/appendix.json",
+    "exists": true,
+    "size_bytes": 4043
+  },
+  "evidence_table.json": {
+    "path": "data/generated/local_smoke3_stub_20260324/evidence_table.json",
+    "exists": true,
+    "size_bytes": 2439
+  },
+  "evidence_table.md": {
+    "path": "data/generated/local_smoke3_stub_20260324/evidence_table.md",
+    "exists": true,
+    "size_bytes": 1756
+  }
+}

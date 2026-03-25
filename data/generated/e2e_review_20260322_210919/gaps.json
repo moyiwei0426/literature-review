@@ -1,0 +1,34 @@
+[
+  {
+    "gap_id": "fc77227a-cfa1-48b9-9e08-ce39dbb0c8f9",
+    "gap_statement": "Current coverage appears to underrepresent Chinese-language or Chinese-context studies.",
+    "gap_type": "language",
+    "supporting_evidence": [
+      "language_distribution={'english': 5, 'English': 7}",
+      "chinese_coverage_count=0"
+    ],
+    "counter_evidence": [
+      "Paper 06_2013_brosseau_trf: Study conducted in Xi'an, China with 495 questionnaire respondents and 989 videotape samples",
+      "Paper 08_2016_zhou_aap: Study conducted in Dalian, China with 260 respondents",
+      "Paper 11_2013_yang_trb: Field data from signalized intersection in Kunming, China with 283 observations",
+      "Paper 12_2016_zhang_aap: Survey data from Hefei, China with 631 valid samples"
+    ],
+    "confidence": 0.2,
+    "novelty_value": 0.7,
+    "review_worthiness": 0.4,
+    "status": "partially_supported_but_misspecified"
+  },
+  {
+    "gap_id": "75ee894d-48a4-43dd-9a70-e72b07d055cd",
+    "gap_statement": "There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.",
+    "gap_type": "comparison",
+    "supporting_evidence": [
+      "contradiction_count=36"
+    ],
+    "counter_evidence": [],
+    "confidence": 0.6,
+    "novelty_value": 0.6,
+    "review_worthiness": 0.6,
+    "status": "insufficient_evidence"
+  }
+]

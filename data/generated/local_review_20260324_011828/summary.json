@@ -1,0 +1,413 @@
+{
+  "status": "success",
+  "output_dir": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828",
+  "parsed": 1,
+  "extracted": 1,
+  "processing_errors": [],
+  "extraction_reports": [
+    {
+      "paper_id": "01_2001_hamed_safety_science",
+      "provider": "stub",
+      "model": "stub-model",
+      "latency_ms": 0,
+      "usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      "chunk_count": 108,
+      "attempts": 1,
+      "recovered_after_retry": false,
+      "fallback_used": true,
+      "fallback_reason": "[Errno 8] nodename nor servname provided, or not known",
+      "primary_provider": "openai_compatible"
+    }
+  ],
+  "coverage": {
+    "paper_count": 1,
+    "method_family_distribution": {
+      "pipeline": 1,
+      "llm-assisted-extraction": 1
+    },
+    "task_distribution": {
+      "literature_review": 1,
+      "information_extraction": 1
+    },
+    "language_distribution": {
+      "english": 1
+    },
+    "dataset_distribution": {},
+    "year_distribution": {
+      "2001": 1
+    },
+    "chinese_coverage_count": 0,
+    "themes": [
+      "pipeline",
+      "llm-assisted-extraction"
+    ]
+  },
+  "matrix_rows": 2,
+  "contradictions": 0,
+  "gaps": {
+    "candidates": 1,
+    "verified": 1,
+    "scored": 1
+  },
+  "synthesis_map": {
+    "overview": {
+      "paper_count": 1,
+      "matrix_row_count": 2,
+      "verified_gap_count": 1,
+      "scored_gap_count": 1,
+      "rejected_gap_count": 0,
+      "contradiction_count": 0,
+      "dominant_axis": "method",
+      "average_gap_score": 0.6,
+      "theme_counts": {
+        "method": 2,
+        "task": 2,
+        "factor": 1,
+        "application": 0
+      },
+      "coverage_themes": [
+        "pipeline",
+        "llm-assisted-extraction"
+      ]
+    },
+    "theme_axes": {
+      "method": [
+        {
+          "theme_id": "method:llm-assisted-extraction",
+          "theme_type": "method",
+          "label": "llm-assisted-extraction",
+          "evidence_count": 2,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 2.0,
+          "synthesis_note": "llm-assisted-extraction appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "method:pipeline",
+          "theme_type": "method",
+          "label": "pipeline",
+          "evidence_count": 2,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 2.0,
+          "synthesis_note": "pipeline appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ],
+      "task": [
+        {
+          "theme_id": "task:information_extraction",
+          "theme_type": "task",
+          "label": "information_extraction",
+          "evidence_count": 2,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 2.0,
+          "synthesis_note": "information_extraction appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "task:literature_review",
+          "theme_type": "task",
+          "label": "literature_review",
+          "evidence_count": 2,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 2.0,
+          "synthesis_note": "literature_review appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ],
+      "factor": [
+        {
+          "theme_id": "factor:design_factors",
+          "theme_type": "factor",
+          "label": "design_factors",
+          "evidence_count": 2,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 2.0,
+          "synthesis_note": "design_factors appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ],
+      "application": []
+    },
+    "top_themes": [
+      {
+        "theme_id": "factor:design_factors",
+        "theme_type": "factor",
+        "label": "design_factors",
+        "evidence_count": 2,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 2.0,
+        "synthesis_note": "design_factors appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "method:llm-assisted-extraction",
+        "theme_type": "method",
+        "label": "llm-assisted-extraction",
+        "evidence_count": 2,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 2.0,
+        "synthesis_note": "llm-assisted-extraction appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "method:pipeline",
+        "theme_type": "method",
+        "label": "pipeline",
+        "evidence_count": 2,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 2.0,
+        "synthesis_note": "pipeline appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "task:information_extraction",
+        "theme_type": "task",
+        "label": "information_extraction",
+        "evidence_count": 2,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 2.0,
+        "synthesis_note": "information_extraction appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "task:literature_review",
+        "theme_type": "task",
+        "label": "literature_review",
+        "evidence_count": 2,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 2.0,
+        "synthesis_note": "literature_review appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ]
+  },
+  "organization": {
+    "recommended_structure": "factor_taxonomy",
+    "scores": {
+      "method_taxonomy": 3.2,
+      "task_taxonomy": 3.2,
+      "factor_taxonomy": 3.4,
+      "application_scenario": 0.4
+    },
+    "rationale": "Cross-paper factor signals are dense enough to support a variable-centered narrative.",
+    "signals": {
+      "method_theme_count": 2,
+      "task_theme_count": 2,
+      "factor_theme_count": 1,
+      "application_theme_count": 0,
+      "contradiction_count": 0,
+      "average_gap_score": 0.6
+    }
+  },
+  "abstract": {
+    "title": "Stability Check",
+    "paper_count": 1,
+    "matrix_row_count": 2,
+    "dominant_axis": "factor structure",
+    "top_themes": [
+      "design factors",
+      "llm-assisted-extraction",
+      "pipeline"
+    ],
+    "top_methods": [
+      "pipeline",
+      "llm-assisted-extraction"
+    ],
+    "top_tasks": [
+      "literature review",
+      "information extraction"
+    ],
+    "verified_gap_count": 1,
+    "text": "Stability Check synthesizes 1 papers across 2 evidence rows using factor structure as the main organizing lens. The synthesis is concentrated in design factors, llm-assisted-extraction, with recurring methods such as pipeline, llm-assisted-extraction and task coverage centered on literature review, information extraction. Across 1 papers, the evidence is most coherently organized around factor structure rather than any single method, and the strongest clusters are design factors, llm-assisted-extraction, pipeline. The main unresolved gap is that the current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation., which keeps broader comparison and transfer claims provisional."
+  },
+  "keywords": {
+    "keywords": [
+      "information extraction",
+      "llm-assisted-extraction",
+      "pipeline",
+      "literature review",
+      "automatically extract structured literature review signals from academic papers.",
+      "factor taxonomy",
+      "design factors",
+      "current set"
+    ],
+    "keyword_count": 8,
+    "dominant_axis": "factor taxonomy",
+    "signals": {
+      "information extraction": 5.3,
+      "llm-assisted-extraction": 5.0,
+      "pipeline": 5.0,
+      "literature review": 3.8,
+      "automatically extract structured literature review signals from academic papers.": 2.0,
+      "factor taxonomy": 1.8,
+      "design factors": 1.5,
+      "current set": 0.8,
+      "current set shows": 0.8,
+      "limiting rigorous": 0.8,
+      "limiting rigorous cross-paper": 0.8,
+      "common evaluation": 0.8
+    }
+  },
+  "outline_sections": 6,
+  "bib_entries": 1,
+  "validation": {
+    "overall_status": "fail",
+    "section_count": 6,
+    "healthy_section_count": 5,
+    "weak_section_count": 1,
+    "finding_count": 4,
+    "severity_counts": {
+      "warning": 3,
+      "error": 1
+    },
+    "flagged_sections": [
+      {
+        "section_id": "sec-conclusion",
+        "title": "Conclusion",
+        "status": "fail",
+        "finding_count": 4
+      }
+    ]
+  },
+  "compile": null,
+  "warnings": [
+    "Stub extraction fallback used for 1 paper(s): 01_2001_hamed_safety_science"
+  ],
+  "artifacts": {
+    "summary.json": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/summary.json",
+      "exists": false,
+      "size_bytes": 0
+    },
+    "coverage.json": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/coverage.json",
+      "exists": true,
+      "size_bytes": 424
+    },
+    "matrix.json": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/matrix.json",
+      "exists": true,
+      "size_bytes": 1847
+    },
+    "matrix.csv": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/matrix.csv",
+      "exists": true,
+      "size_bytes": 1329
+    },
+    "matrix.md": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/matrix.md",
+      "exists": true,
+      "size_bytes": 1533
+    },
+    "contradiction.json": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/contradiction.json",
+      "exists": true,
+      "size_bytes": 2441
+    },
+    "candidate_gaps.json": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/candidate_gaps.json",
+      "exists": true,
+      "size_bytes": 411
+    },
+    "verified_gaps.json": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/verified_gaps.json",
+      "exists": true,
+      "size_bytes": 1668
+    },
+    "scored_gaps.json": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/scored_gaps.json",
+      "exists": true,
+      "size_bytes": 1665
+    },
+    "synthesis_map.json": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/synthesis_map.json",
+      "exists": true,
+      "size_bytes": 4265
+    },
+    "organization.json": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/organization.json",
+      "exists": true,
+      "size_bytes": 483
+    },
+    "outline.json": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/outline.json",
+      "exists": true,
+      "size_bytes": 1753
+    },
+    "section_plans.json": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/section_plans.json",
+      "exists": true,
+      "size_bytes": 56445
+    },
+    "paragraph_plans.json": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/paragraph_plans.json",
+      "exists": true,
+      "size_bytes": 66438
+    },
+    "sections.json": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/sections.json",
+      "exists": true,
+      "size_bytes": 79958
+    },
+    "validation_report.json": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/validation_report.json",
+      "exists": true,
+      "size_bytes": 6311
+    },
+    "review.md": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/review.md",
+      "exists": true,
+      "size_bytes": 12504
+    },
+    "review.tex": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/review.tex",
+      "exists": true,
+      "size_bytes": 14404
+    },
+    "bib.tex": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/bib.tex",
+      "exists": true,
+      "size_bytes": 191
+    },
+    "abstract.json": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/abstract.json",
+      "exists": true,
+      "size_bytes": 1108
+    },
+    "abstract.txt": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/abstract.txt",
+      "exists": true,
+      "size_bytes": 714
+    },
+    "keywords.json": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/keywords.json",
+      "exists": true,
+      "size_bytes": 781
+    },
+    "keywords.txt": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/keywords.txt",
+      "exists": true,
+      "size_bytes": 197
+    },
+    "appendix.json": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/appendix.json",
+      "exists": true,
+      "size_bytes": 2138
+    },
+    "evidence_table.json": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/evidence_table.json",
+      "exists": true,
+      "size_bytes": 778
+    },
+    "evidence_table.md": {
+      "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/evidence_table.md",
+      "exists": true,
+      "size_bytes": 697
+    }
+  }
+}

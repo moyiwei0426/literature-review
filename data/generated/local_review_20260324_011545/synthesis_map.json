@@ -1,0 +1,26 @@
+{
+  "overview": {
+    "paper_count": 0,
+    "matrix_row_count": 0,
+    "verified_gap_count": 0,
+    "scored_gap_count": 0,
+    "rejected_gap_count": 0,
+    "contradiction_count": 0,
+    "dominant_axis": "method",
+    "average_gap_score": 0.0,
+    "theme_counts": {
+      "method": 0,
+      "task": 0,
+      "factor": 0,
+      "application": 0
+    },
+    "coverage_themes": []
+  },
+  "theme_axes": {
+    "method": [],
+    "task": [],
+    "factor": [],
+    "application": []
+  },
+  "top_themes": []
+}

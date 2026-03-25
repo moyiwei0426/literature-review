@@ -1,0 +1,59 @@
+{
+  "paper_id": "03_2006_yang_tra",
+  "title": "Modeling pedestrians’ road crossing behavior in traffic system",
+  "authors": [
+    "Yang"
+  ],
+  "year": 2006,
+  "venue": "tra",
+  "research_problem": "Automatically extract structured literature review signals from academic papers.",
+  "problem_type": "information_extraction",
+  "domain": "scholarly_nlp",
+  "language_scope": "english",
+  "method_summary": "A pipeline that combines retrieval, PDF parsing, chunking, and structured extraction.",
+  "method_family": [
+    "pipeline",
+    "llm-assisted-extraction"
+  ],
+  "datasets": [],
+  "tasks": [
+    "literature_review",
+    "information_extraction"
+  ],
+  "metrics": [],
+  "baselines": [],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "The pipeline can transform parsed paper chunks into a structured paper profile.",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "537b5489-9062-4c86-9f09-03568131b95e"
+      ],
+      "confidence": 0.7
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "The system supports downstream gap analysis by preserving evidence links.",
+      "claim_type": "application",
+      "evidence_chunk_ids": [
+        "474cb77d-f4a7-44da-a348-d62ea3c65e33"
+      ],
+      "confidence": 0.68
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The current output may rely on stubbed model behavior before real LLM integration.",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "537b5489-9062-4c86-9f09-03568131b95e"
+      ]
+    }
+  ],
+  "future_work": [
+    "Integrate real LLM provider",
+    "Improve claim grounding"
+  ],
+  "notes": "Stub extraction response for local development."
+}

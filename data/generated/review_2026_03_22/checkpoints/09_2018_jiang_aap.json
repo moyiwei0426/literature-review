@@ -1,0 +1,137 @@
+{
+  "paper_id": "09_2018_jiang_aap",
+  "title": "Untitled",
+  "research_problem": "Investigating how mobile phone distractions (music, phone conversation, and text) affect pedestrian crossing behavior and visual attention allocation at a signalized intersection",
+  "problem_type": "Empirical quantitative experimental study",
+  "domain": "Transportation safety / Pedestrian safety / Traffic engineering",
+  "language_scope": "English",
+  "method_summary": "Outdoor-environment experiment with 28 college student pedestrians at a signalized intersection. Two HD video cameras recorded crossing behavior while Tobii Pro Glasses 2 eye tracker captured visual attention data. Participants completed 8 crossing trials under 4 conditions: undistracted (S0), music distraction (S1), phone conversation distraction (S2), and text distraction (S3). Three crossing behavior variables and five eye movement variables were measured.",
+  "method_family": [
+    "Controlled field experiment"
+  ],
+  "datasets": [
+    "Not applicable - experimental study rather than dataset analysis"
+  ],
+  "tasks": [
+    "Pedestrian crossing at signalized intersection"
+  ],
+  "metrics": [
+    "Initiate time (time between green light and crossing initiation)",
+    "Look left and right (frequency)",
+    "Crossing speed (m/s)",
+    "Pupil diameter (mm)",
+    "Scanning frequency (scans per unit time)",
+    "Fixation points (count per AOI)",
+    "Fixation time (percentage per AOI)",
+    "Fixation duration (seconds per AOI)"
+  ],
+  "baselines": [
+    "Undistracted condition (no mobile phone use)"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "Text distraction causes the greatest impairment to pedestrian crossing performance, followed by phone conversation distraction and music distraction",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "be933fa4-2ade-481f-bb78-9d3febe42a6f",
+        "d191e43b-72ee-4efd-b773-90af934eb8de"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "All three mobile phone distractions significantly increase pedestrian crossing initiation time compared to undistracted condition",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "7a9b71e1-9c37-4714-8a02-cc27a0777fda",
+        "2898927d-067f-4e35-b79c-1a245c7c5f6c"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "Music distraction increases pupil diameter and reduces scanning frequency and visual attention toward traffic signal area",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "be933fa4-2ade-481f-bb78-9d3febe42a6f",
+        "3ec2801c-34a3-486a-8846-af884463e82c"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "Phone conversation distraction leads to slower crossing speed and reduced fixation points toward right traffic area and less fixation time/duration on left traffic area",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "be933fa4-2ade-481f-bb78-9d3febe42a6f",
+        "7705aa51-167d-4f1a-b160-fa15d1f9ebea"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-5",
+      "claim_text": "Text distraction significantly impairs visual attention allocation, reducing fixation points, fixation time and fixation duration across all traffic-related areas (crosswalk, traffic signal, left and right traffic areas)",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "197b0aa0-bcb0-477b-81c0-890f10eee450",
+        "8b44b210-ee1e-4bf2-8df5-842cedc92292"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Sample limited to college students (age 17-25), limiting generalizability to broader pedestrian population",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "c70d0caa-57ef-4058-9f0f-b19d8fee11ef",
+        "83f4dd64-5828-4f31-b975-5c53ab128ed8"
+      ]
+    },
+    {
+      "text": "Small sample size (n=28) may limit statistical power and generalizability",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "c70d0caa-57ef-4058-9f0f-b19d8fee11ef"
+      ]
+    },
+    {
+      "text": "Experiment conducted at one signalized intersection with low traffic volume (fewer than 5 vehicles per minute), may not generalize to higher traffic or non-signalized intersections",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "68e963ce-f487-4703-9fa2-a5a784fde35d",
+        "83f4dd64-5828-4f31-b975-5c53ab128ed8"
+      ]
+    },
+    {
+      "text": "Participants used unfamiliar experimental phone (Huawei P9) rather than their own, may not reflect real-world behavior",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "29c9bea7-3a50-4070-bb8c-f8ea06834d20",
+        "83f4dd64-5828-4f31-b975-5c53ab128ed8"
+      ]
+    },
+    {
+      "text": "Mental arithmetic tasks used for phone conversation and text conditions may not accurately represent typical phone use patterns",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "164902b7-f599-4ca4-a5d5-a22d2ec29ad4"
+      ]
+    },
+    {
+      "text": "Participants were restricted from self-regulation and behavioral adaptation during experiment",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "83f4dd64-5828-4f31-b975-5c53ab128ed8"
+      ]
+    }
+  ],
+  "future_work": [
+    "Extend research to more diverse samples beyond college students",
+    "Test at other road environments including non-signalized intersections and high-traffic volume intersections",
+    "Study other mobile phone tasks such as mobile internet browsing",
+    "Investigate pedestrian behavior under different road complexity conditions"
+  ],
+  "notes": "Study addresses growing pedestrian safety concern with mobile phone distraction. Three distraction types compared: music (audio only), phone conversation (cognitive + audio), and text (cognitive + visual + manual). Findings suggest text distraction poses the greatest risk due to combined cognitive, visual, and manual demands. Research has implications for pedestrian safety policy and infrastructure design."
+}

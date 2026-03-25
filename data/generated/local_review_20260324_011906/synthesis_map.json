@@ -1,0 +1,133 @@
+{
+  "overview": {
+    "paper_count": 1,
+    "matrix_row_count": 2,
+    "verified_gap_count": 1,
+    "scored_gap_count": 1,
+    "rejected_gap_count": 0,
+    "contradiction_count": 0,
+    "dominant_axis": "method",
+    "average_gap_score": 0.6,
+    "theme_counts": {
+      "method": 2,
+      "task": 2,
+      "factor": 1,
+      "application": 0
+    },
+    "coverage_themes": [
+      "pipeline",
+      "llm-assisted-extraction"
+    ]
+  },
+  "theme_axes": {
+    "method": [
+      {
+        "theme_id": "method:llm-assisted-extraction",
+        "theme_type": "method",
+        "label": "llm-assisted-extraction",
+        "evidence_count": 2,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 2.0,
+        "synthesis_note": "llm-assisted-extraction appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "method:pipeline",
+        "theme_type": "method",
+        "label": "pipeline",
+        "evidence_count": 2,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 2.0,
+        "synthesis_note": "pipeline appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "task": [
+      {
+        "theme_id": "task:information_extraction",
+        "theme_type": "task",
+        "label": "information_extraction",
+        "evidence_count": 2,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 2.0,
+        "synthesis_note": "information_extraction appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "task:literature_review",
+        "theme_type": "task",
+        "label": "literature_review",
+        "evidence_count": 2,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 2.0,
+        "synthesis_note": "literature_review appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "factor": [
+      {
+        "theme_id": "factor:design_factors",
+        "theme_type": "factor",
+        "label": "design_factors",
+        "evidence_count": 2,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 2.0,
+        "synthesis_note": "design_factors appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "application": []
+  },
+  "top_themes": [
+    {
+      "theme_id": "factor:design_factors",
+      "theme_type": "factor",
+      "label": "design_factors",
+      "evidence_count": 2,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 2.0,
+      "synthesis_note": "design_factors appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "method:llm-assisted-extraction",
+      "theme_type": "method",
+      "label": "llm-assisted-extraction",
+      "evidence_count": 2,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 2.0,
+      "synthesis_note": "llm-assisted-extraction appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "method:pipeline",
+      "theme_type": "method",
+      "label": "pipeline",
+      "evidence_count": 2,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 2.0,
+      "synthesis_note": "pipeline appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "task:information_extraction",
+      "theme_type": "task",
+      "label": "information_extraction",
+      "evidence_count": 2,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 2.0,
+      "synthesis_note": "information_extraction appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "task:literature_review",
+      "theme_type": "task",
+      "label": "literature_review",
+      "evidence_count": 2,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 2.0,
+      "synthesis_note": "literature_review appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction and Background",
+    "objective": "Introduce the research context of pedestrian interaction with vehicles at crosswalks, establish the importance of understanding pedestrian crossing behavior, and outline the scope of this comparative review",
+    "gap_inputs": [
+      "600082f0-67d3-48ff-a001-fc026ab8aae5"
+    ],
+    "matrix_row_count": 15
+  },
+  {
+    "section_id": "sec-2",
+    "title": "Methodological Approaches in Pedestrian Crossing Research",
+    "objective": "Survey and categorize the methodological families used in the literature, including virtual reality experiments, regression-based modeling, and discrete choice models",
+    "gap_inputs": [
+      "600082f0-67d3-48ff-a001-fc026ab8aae5"
+    ],
+    "matrix_row_count": 15
+  },
+  {
+    "section_id": "sec-3",
+    "title": "External Vehicle Communication Features for Autonomous Vehicles",
+    "objective": "Synthesize evidence on pedestrian preferences for external features on fully autonomous vehicles, including visual interfaces (walking silhouette, braking text, smiley face) and audible signals",
+    "gap_inputs": [
+      "600082f0-67d3-48ff-a001-fc026ab8aae5"
+    ],
+    "matrix_row_count": 5
+  },
+  {
+    "section_id": "sec-4",
+    "title": "Pedestrian Red-Light Running Behavior at Signalized Intersections",
+    "objective": "Analyze factors influencing pedestrian red-light running propensity, including personal characteristics (gender, age, trip purpose) and environmental factors (signal timing, traffic conditions)",
+    "gap_inputs": [
+      "600082f0-67d3-48ff-a001-fc026ab8aae5"
+    ],
+    "matrix_row_count": 10
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Comparative Analysis and Claim Reconciliation",
+    "objective": "Identify and analyze claim differences across papers addressing related pedestrian crossing tasks, highlighting contradictions in findings and proposing clearer comparison criteria",
+    "gap_inputs": [
+      "600082f0-67d3-48ff-a001-fc026ab8aae5"
+    ],
+    "matrix_row_count": 15
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Research Gaps and Future Directions",
+    "objective": "Synthesize the identified research gaps from the comparison analysis and propose directions for future research to resolve discrepancies and advance understanding of pedestrian-vehicle interaction",
+    "gap_inputs": [
+      "600082f0-67d3-48ff-a001-fc026ab8aae5"
+    ],
+    "matrix_row_count": 15
+  }
+]

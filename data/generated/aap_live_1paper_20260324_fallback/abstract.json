@@ -1,0 +1,19 @@
+{
+  "title": "AAP live one-paper fallback",
+  "paper_count": 1,
+  "matrix_row_count": 5,
+  "dominant_axis": "factor structure",
+  "top_themes": [
+    "Survey data from 260 respondents in Dalian, China",
+    "behavioral factors",
+    "Structural equation modeling (SEM) / Survey-based research"
+  ],
+  "top_methods": [
+    "Structural equation modeling (SEM) / Survey-based research"
+  ],
+  "top_tasks": [
+    "Predicting pedestrian violating crossing behavior intention"
+  ],
+  "verified_gap_count": 0,
+  "text": "AAP live one-paper fallback synthesizes 1 papers across 5 evidence rows using factor structure as the main organizing lens. The synthesis is concentrated in Survey data from 260 respondents in Dalian, China, behavioral factors, with recurring methods such as Structural equation modeling (SEM) / Survey-based research and task coverage centered on Predicting pedestrian violating crossing behavior intention. Across 1 papers, the evidence is most coherently organized around factor structure rather than any single method, and the strongest clusters are Survey data from 260 respondents in Dalian, China, behavioral factors, Structural equation modeling (SEM) / Survey-based research. Future work should prioritize standardized reporting and more explicit cross-study comparison."
+}

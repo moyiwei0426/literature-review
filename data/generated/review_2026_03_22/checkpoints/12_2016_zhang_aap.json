@@ -1,0 +1,117 @@
+{
+  "paper_id": "12_2016_zhang_aap",
+  "title": "Untitled",
+  "research_problem": "Pedestrian red-light running behavior at intersections in China is a critical factor contributing to pedestrian-involved traffic crashes. The study aims to explore how various factors affect pedestrians' red-light running behaviors at intersection areas using data collected from Hefei, China.",
+  "problem_type": "empirical_quantitative",
+  "domain": "traffic_safety",
+  "language_scope": "english",
+  "method_summary": "A questionnaire survey (SP survey) with 15 items was designed to collect pedestrians' socio-economic characteristics, trip-related features, and attitude variables. Based on 631 valid samples collected from 6 signalized intersections in Hefei, China, a binomial logistic regression model was established to evaluate the impacts of contributing factors on pedestrians' red-light running behavior.",
+  "method_family": [
+    "binomial_logistic_regression"
+  ],
+  "datasets": [
+    "Hefei pedestrian survey data (631 valid samples from 6 signalized intersections, May-June 2015)"
+  ],
+  "tasks": [
+    "identify_significant_factors_affecting_red_light_running",
+    "predict_probability_of_red_light_running_behavior"
+  ],
+  "metrics": [
+    "odds_ratio",
+    "statistical_significance_p_values",
+    "score_test"
+  ],
+  "baselines": [
+    "Previous studies on pedestrian red-light running in other countries (Florian et al. 2011, Duduta et al. 2014, Medina et al. 2014, Onelcin and Alver 2015)"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "Four variables significantly affect pedestrian red-light running probability: trip purpose (stroll vs work/school), time period in a day (daytime vs dawn), attitude towards running red light when in hurry, and attitude towards whether road facility quality affects crossing behavior",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "dffef5ed-2850-48e8-be9c-814a726f3ecd",
+        "2bf0c955-3be2-41cf-91e6-d258f5525d46"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "Pedestrians in a hurry are more likely to run red lights (odds ratio 0.299), indicating time pressure is a major factor",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "4e972c6f-af21-46f7-aa9f-25f536e2654b",
+        "4ec9f07d-57a3-4b6d-b2e7-8850fb271442"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "Daytime has the highest red-light running probability compared to dawn, dusk, and night periods",
+      "claim_type": "application",
+      "evidence_chunk_ids": [
+        "ffe92332-0c09-4b96-a08b-efb27471e03f",
+        "6debd59d-f337-4d01-96f4-98f2f8959b94"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "Pedestrians who believe road facility quality affects their crossing behavior are more likely to run red lights (odds ratio 0.483)",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "0d378d25-0e36-478e-918c-023f86812ddb",
+        "cc75e6d7-67b7-466d-a41e-ab4d8d8ce482"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-5",
+      "claim_text": "Strolling pedestrians are safer (lower red-light running probability) compared to those going to work or school (odds ratio 0.394)",
+      "claim_type": "application",
+      "evidence_chunk_ids": [
+        "2bf0c955-3be2-41cf-91e6-d258f5525d46",
+        "4f89b516-8f2d-4cc0-b065-750915d1d756"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Data were collected in only one Chinese city (Hefei), so results may not generalize to other cities or countries due to cultural and driving behavior differences",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "b611960a-0741-4a82-9d62-272689ffe3e1",
+        "a437116e-b773-473e-ba38-fdb4c3b1b211"
+      ]
+    },
+    {
+      "text": "Study only considered signalized intersection areas, excluding other crossing facilities like midblock crossings",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "ff9b022f-5e74-4013-8f7c-1983a81b253a"
+      ]
+    },
+    {
+      "text": "Sample size of 631 may be insufficient for full generalization; more data from multiple intersections needed",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "b611960a-0741-4a82-9d62-272689ffe3e1"
+      ]
+    },
+    {
+      "text": "Study focused on individual crossing behaviors, ignoring impacts of pedestrian platoons/herd mentality effects",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "ff9b022f-5e74-4013-8f7c-1983a81b253a"
+      ]
+    }
+  ],
+  "future_work": [
+    "Collect data at multiple intersections in other Chinese cities to validate findings",
+    "Extend study to other types of crossing facilities (midblock with/without crosswalk buttons)",
+    "Study pedestrian platoon effects on crossing behavior",
+    "Compare results with other countries to identify cultural and driving factor impacts"
+  ],
+  "notes": "Study uses binomial logistic regression with Score test for variable selection; Four significant variables emerged from initial 15 explanatory variables; Model provides probability prediction function (Equation 3); Key policy implications: strengthen law enforcement in CBD areas, install electronic facilities, improve road crossing facilities and traffic signal control systems"
+}

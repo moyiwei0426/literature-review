@@ -1,0 +1,112 @@
+[
+  {
+    "gap_id": "G1",
+    "gap_statement": "",
+    "gap_type": "coverage",
+    "supporting_evidence": [],
+    "counter_evidence": [],
+    "confidence": 0.4,
+    "novelty_value": 0.5,
+    "review_worthiness": 0.44,
+    "status": "verified"
+  },
+  {
+    "gap_id": "G2",
+    "gap_statement": "",
+    "gap_type": "coverage",
+    "supporting_evidence": [],
+    "counter_evidence": [],
+    "confidence": 0.4,
+    "novelty_value": 0.5,
+    "review_worthiness": 0.44,
+    "status": "verified"
+  },
+  {
+    "gap_id": "G3",
+    "gap_statement": "",
+    "gap_type": "coverage",
+    "supporting_evidence": [],
+    "counter_evidence": [],
+    "confidence": 0.4,
+    "novelty_value": 0.5,
+    "review_worthiness": 0.44,
+    "status": "verified"
+  },
+  {
+    "gap_id": "G4",
+    "gap_statement": "",
+    "gap_type": "coverage",
+    "supporting_evidence": [],
+    "counter_evidence": [],
+    "confidence": 0.4,
+    "novelty_value": 0.5,
+    "review_worthiness": 0.44,
+    "status": "verified"
+  },
+  {
+    "gap_id": "G5",
+    "gap_statement": "",
+    "gap_type": "coverage",
+    "supporting_evidence": [],
+    "counter_evidence": [],
+    "confidence": 0.4,
+    "novelty_value": 0.5,
+    "review_worthiness": 0.44,
+    "status": "verified"
+  },
+  {
+    "gap_id": "G6",
+    "gap_statement": "",
+    "gap_type": "coverage",
+    "supporting_evidence": [],
+    "counter_evidence": [],
+    "confidence": 0.4,
+    "novelty_value": 0.5,
+    "review_worthiness": 0.44,
+    "status": "verified"
+  },
+  {
+    "gap_id": "G7",
+    "gap_statement": "",
+    "gap_type": "coverage",
+    "supporting_evidence": [],
+    "counter_evidence": [],
+    "confidence": 0.4,
+    "novelty_value": 0.5,
+    "review_worthiness": 0.44,
+    "status": "verified"
+  },
+  {
+    "gap_id": "G8",
+    "gap_statement": "",
+    "gap_type": "coverage",
+    "supporting_evidence": [],
+    "counter_evidence": [],
+    "confidence": 0.4,
+    "novelty_value": 0.5,
+    "review_worthiness": 0.44,
+    "status": "verified"
+  },
+  {
+    "gap_id": "G9",
+    "gap_statement": "",
+    "gap_type": "coverage",
+    "supporting_evidence": [],
+    "counter_evidence": [],
+    "confidence": 0.4,
+    "novelty_value": 0.5,
+    "review_worthiness": 0.44,
+    "status": "verified"
+  },
+  {
+    "gap_id": "G10",
+    "gap_statement": "",
+    "gap_type": "coverage",
+    "supporting_evidence": [],
+    "counter_evidence": [],
+    "confidence": 0.4,
+    "novelty_value": 0.5,
+    "review_worthiness": 0.44,
+    "status": "verified"
+  }
+]

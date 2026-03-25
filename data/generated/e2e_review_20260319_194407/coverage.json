@@ -1,0 +1,18 @@
+{
+  "paper_count": 1,
+  "method_family_distribution": {
+    "Text Summarization (Extractive and Abstractive)": 1
+  },
+  "task_distribution": {
+    "Automated literature review generation from PDF files": 1,
+    "Multi-document summarization for academic papers": 1
+  },
+  "language_distribution": {
+    "English (scientific documents)": 1
+  },
+  "dataset_distribution": {
+    "SciTLDR dataset (5,400 TLDRs from over 3,200 scientific papers from Hugging Face)": 1
+  },
+  "year_distribution": {},
+  "chinese_coverage_count": 0
+}

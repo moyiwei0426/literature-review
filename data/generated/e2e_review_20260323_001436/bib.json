@@ -1,0 +1,58 @@
+[
+  {
+    "key": "01_2001_hamed_safety_science",
+    "year": 2001,
+    "title": "Safety Science Research (2001)",
+    "authors": "Unknown",
+    "venue": "Unknown",
+    "entry": "@article{01_2001_hamed_safety_science,\n  author={Unknown},\n  title={Safety Science Research (2001)},\n  year={2001},\n  journal={Unknown}\n}"
+  },
+  {
+    "key": "02_2003_brosseau_trf",
+    "year": 2003,
+    "title": "Pedestrian behaviors at and perceptions towards various pedestrian facilities: an examination based on observation and survey data",
+    "authors": "V.P. Sisiopiku; D. Akin",
+    "venue": "Transportation Research Part F",
+    "entry": "@article{02_2003_brosseau_trf,\n  author={V.P. Sisiopiku; D. Akin},\n  title={Pedestrian behaviors at and perceptions towards various pedestrian facilities: an examination based on observation and survey data},\n  year={2003},\n  journal={Transportation Research Part F}\n}"
+  },
+  {
+    "key": "05_2018_deb_trf",
+    "year": 2018,
+    "title": "Investigating pedestrian suggestions for external features on fully autonomous vehicles: A virtual reality experiment",
+    "authors": "Shuchisnigdha Deb; Lesley J. Strawderman; Daniel W. Carruth",
+    "venue": "Transportation Research Part F",
+    "entry": "@article{05_2018_deb_trf,\n  author={Shuchisnigdha Deb; Lesley J. Strawderman; Daniel W. Carruth},\n  title={Investigating pedestrian suggestions for external features on fully autonomous vehicles: A virtual reality experiment},\n  year={2018},\n  journal={Transportation Research Part F}\n}"
+  },
+  {
+    "key": "06_2013_brosseau_trf",
+    "year": 2006,
+    "title": "Modeling pedestrians' road crossing behavior in traffic system micro-simulation in China",
+    "authors": "Jianguo Yang; Wen Deng; Jinmei Wang; Qingfeng Li; Zhaoan Wang",
+    "venue": "Transportation Research Part A",
+    "entry": "@article{06_2013_brosseau_trf,\n  author={Jianguo Yang; Wen Deng; Jinmei Wang; Qingfeng Li; Zhaoan Wang},\n  title={Modeling pedestrians' road crossing behavior in traffic system micro-simulation in China},\n  year={2006},\n  journal={Transportation Research Part A}\n}"
+  },
+  {
+    "key": "13_2020_chen_trf",
+    "year": 2020,
+    "title": "Roles of personal and environmental factors in the red light running propensity of pedestrian: Case study at the urban crosswalks",
+    "authors": "Dianchen Zhu; N.N. Sze; Lu Bai",
+    "venue": "Transportation Research Part F",
+    "entry": "@article{13_2020_chen_trf,\n  author={Dianchen Zhu; N.N. Sze; Lu Bai},\n  title={Roles of personal and environmental factors in the red light running propensity of pedestrian: Case study at the urban crosswalks},\n  year={2020},\n  journal={Transportation Research Part F}\n}"
+  },
+  {
+    "key": "14_2020_wang_trf",
+    "year": 2020,
+    "title": "Modeling the interaction between vehicle yielding and pedestrian crossing behavior at unsignalized midblock crosswalks",
+    "authors": "Jing Zhao; Jairus Odawa Malenje; Jingxian Wu; Ruoming Ma",
+    "venue": "Transportation Research Part F",
+    "entry": "@article{14_2020_wang_trf,\n  author={Jing Zhao; Jairus Odawa Malenje; Jingxian Wu; Ruoming Ma},\n  title={Modeling the interaction between vehicle yielding and pedestrian crossing behavior at unsignalized midblock crosswalks},\n  year={2020},\n  journal={Transportation Research Part F}\n}"
+  },
+  {
+    "key": "16_2016_zhang_trc",
+    "year": 2016,
+    "title": "A probabilistic model of pedestrian crossing behavior at signalized intersections for connected vehicles",
+    "authors": "Yoriyoshi Hashimoto; Yanlei Gu; Li-Ta Hsu; Miho Iryo-Asano; Shunsuke Kamijo",
+    "venue": "Transportation Research Part C",
+    "entry": "@article{16_2016_zhang_trc,\n  author={Yoriyoshi Hashimoto; Yanlei Gu; Li-Ta Hsu; Miho Iryo-Asano; Shunsuke Kamijo},\n  title={A probabilistic model of pedestrian crossing behavior at signalized intersections for connected vehicles},\n  year={2016},\n  journal={Transportation Research Part C}\n}"
+  }
+]

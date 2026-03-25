@@ -1,0 +1,130 @@
+{
+  "paper_id": "07_2006_yang_tra",
+  "title": "Untitled",
+  "research_problem": "Investigating potential external features on fully autonomous vehicles (FAVs) that help pedestrians understand vehicle intentions at crosswalks, improve receptivity toward FAVs, and influence crossing behavior",
+  "problem_type": "Experimental study",
+  "domain": "Human-Computer Interaction, Autonomous Vehicles, Transportation Research",
+  "language_scope": "English",
+  "method_summary": "VR experiment with 30 participants walking across a virtual crosswalk in front of a FAV. Used a 4x4 randomized complete block design testing 4 visual features (walking silhouette, 'braking' text, flashing smile, control) and 4 audible features (horn, music, verbal message, control). Collected objective measures (crossing time, waiting time from headset tracking) and subjective measures (feature ratings, receptivity surveys, pedestrian behavior questionnaire, personal innovativeness scale).",
+  "method_family": [
+    "Virtual Reality Experiment, Randomized Complete Block Design"
+  ],
+  "datasets": [
+    "Virtual environment developed using Unity 3D with HTC Vive VR headset"
+  ],
+  "tasks": [
+    "Pedestrian crossing decision at crosswalk",
+    "Pedestrian-FAV interaction evaluation"
+  ],
+  "metrics": [
+    "Feature ratings (1-7 Likert scale)",
+    "Crossing time (seconds)",
+    "Waiting time before crossing",
+    "Pedestrian Receptivity Questionnaire for FAVs (PRQF)",
+    "Pedestrian Behavior Questionnaire (PBQ) - 20-item short version",
+    "Personal Innovativeness scale",
+    "Simulation Sickness Questionnaire (SSQ)"
+  ],
+  "baselines": [
+    "No visual feature (control)",
+    "No audible feature (control)",
+    "FAV without any external interfaces"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "Inclusion of external features significantly increased pedestrians' receptivity toward FAVs",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "98eb3063-678e-41a3-a360-c135c9cc973e",
+        "d752c9e0-b0f7-4780-b2fd-d8463a2b5acc"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "Walking silhouette and 'braking' in text were the most favored visual interfaces, while verbal message was the preferred audible feature",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "98eb3063-678e-41a3-a360-c135c9cc973e",
+        "78395f76-e0ac-4470-ab7a-9087c0bdeff5"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "Females and people from 30+ age group reacted most positively to the external features",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "98eb3063-678e-41a3-a360-c135c9cc973e",
+        "1fa919b1-8ef7-4b4d-a772-e547c895f249"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "Pedestrians who frequently commit errors or show aggressive behaviors rated FAVs poorly even with external features",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "98eb3063-678e-41a3-a360-c135c9cc973e",
+        "339c533a-db48-42a5-b8c5-2a0b64555d12"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-5",
+      "claim_text": "VR setting works well as a valuable mode for research involving FAVs and pedestrians",
+      "claim_type": "application",
+      "evidence_chunk_ids": [
+        "3ea31890-a0dc-4f4f-816d-bdbd3e1c572d"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Study used a non-signalized intersection with single controlled scenario where FAV approached from one direction and stopped at intersection",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "33ee8820-259e-42cd-a93e-ed6573ab8815"
+      ]
+    },
+    {
+      "text": "No other traffic was included in the virtual environment to eliminate distractions, reducing ecological validity",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "33ee8820-259e-42cd-a93e-ed6573ab8815"
+      ]
+    },
+    {
+      "text": "Proposed features indicated safe crossing conditions only; vehicle stopped in every trial - did not study feature termination or negative signals",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "33ee8820-259e-42cd-a93e-ed6573ab8815"
+      ]
+    },
+    {
+      "text": "Small sample size (n=30) limits generalizability of findings",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "67973215-80a3-4399-98ac-ed375be27254"
+      ]
+    },
+    {
+      "text": "Participants were primarily from US and all fluent English speakers; findings may not generalize to other cultures or language groups",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "67973215-80a3-4399-98ac-ed375be27254"
+      ]
+    }
+  ],
+  "future_work": [
+    "Investigate complex traffic systems with signals, presence of vehicle operator, and pedestrian signals at crosswalk",
+    "Include near-miss conditions to observe pedestrian perception of highly rated features",
+    "Study start and termination of signals at intersections",
+    "Examine feasibility and preference for reported features from other road-users' perspectives",
+    "Test positive and negative interface communication signals",
+    "Add environmental sounds and distractions to increase realism"
+  ],
+  "notes": "Validated VR platform for pedestrian safety research (Deb, Carruth, et al., 2017). First-time exposure for all participants to FAVs. Walking silhouette considered familiar as it mimics existing pedestrian crossing signals. Verbal message beneficial for visually impaired pedestrians and those distracted. Smiley face confused participants about vehicle's intended action."
+}

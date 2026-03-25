@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "aris-lit/claim_evidence_link",
+  "title": "ClaimEvidenceLink",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["claim_id", "chunk_id"],
+  "properties": {
+    "claim_id": {"type": "string"},
+    "chunk_id": {"type": "string"},
+    "support_type": {"type": ["string", "null"], "default": null},
+    "confidence": {"type": ["number", "null"], "default": null}
+  }
+}

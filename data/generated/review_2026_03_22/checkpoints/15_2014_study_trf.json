@@ -1,0 +1,104 @@
+{
+  "paper_id": "15_2014_study_trf",
+  "title": "Untitled",
+  "research_problem": "Understanding pedestrian crossing behavior at signalized intersections under mixed traffic conditions in highly populous cities, addressing issues of crossing speed variations, signal compliance, and pedestrian-vehicular interactions to improve pedestrian safety and infrastructure design",
+  "problem_type": "empirical_observational_study",
+  "domain": "Transportation Engineering / Traffic Engineering / Pedestrian Behavior",
+  "language_scope": "English",
+  "method_summary": "Video-based field observations at 3 signalized intersections in Mumbai, India. Data collected from 775 pedestrian samples during peak hours. Statistical analyses performed using Pearson's correlation coefficient, ANOVA test, and Student t test at 95% confidence interval. Logistic regression models developed to model odds of pedestrian noncompliance and pedestrian-vehicular interactions using SPSS 16.0 software.",
+  "method_family": [
+    "Empirical observational study with statistical modeling (logistic regression)"
+  ],
+  "datasets": [
+    "775 pedestrian samples from 3 signalized intersections in Mumbai: Swami Vivekanand Junction (166 samples), Mahim Junction (272 samples), Holkar Junction (337 samples)"
+  ],
+  "tasks": [
+    "Analyze pedestrian crossing speed variations",
+    "Identify factors affecting pedestrian crossing speed",
+    "Determine factors affecting pedestrian signal compliance",
+    "Identify factors influencing pedestrian-vehicular interaction",
+    "Develop logistic regression models for noncompliance and interaction prediction"
+  ],
+  "metrics": [
+    "Crossing speed (mean, standard deviation, 15th/50th/85th percentiles)",
+    "Crossing Speed Deviation Factor (CSDF)",
+    "Pedestrian compliance rate (green phase usage)",
+    "Pedestrian-vehicular interaction rate",
+    "Odds Ratio (OR) from logistic regression"
+  ],
+  "baselines": [
+    "Indian Road Congress (IRC) estimated walking speed of 1.2 m/s",
+    "Field observed average crossing speed of 1.33 m/s from China (Li et al. 2005)"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "Pedestrian crossing speed at signalized intersections varies significantly from the IRC standard of 1.2 m/s, with design crossing speeds of 0.95 m/s for old pedestrians and 1.12 m/s for adult pedestrians",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "aa75f690-099c-46f4-a31e-29d7d548a5d0",
+        "e14eb67a-aec7-40bd-9d48-e46949659dc5"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "Gender, age, and departure signal phase are statistically significant factors (p<0.05) affecting pedestrian crossing speed variations based on ANOVA test results",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "dbbfe252-c532-4162-ad1c-a1057be6f2ef",
+        "a072d70c-ba65-4776-b66c-12e43c47f700"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "Pedestrian gender and group size are the most significant factors affecting pedestrian compliance behavior, with male pedestrians and single pedestrians showing higher noncompliance rates",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "1a201b6a-83aa-43a7-a49a-a6bf7f637c67",
+        "9a3d2664-e397-4bbd-9421-32ad1be0dcbf"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "Approaching vehicle type and suitable gap between pedestrian and vehicle are significant factors (p<0.05) affecting pedestrian-vehicular interactions in crosswalks",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "b0b0e0b5-f8a0-40d7-be06-ee97fea25fec"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Study conducted at only 3 signalized intersections in Mumbai, which may not represent all mixed traffic conditions",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "be30ce8d-76a4-4231-8387-789b98ad2e6c"
+      ]
+    },
+    {
+      "text": "Sample size of 775 pedestrians, though substantial, may not capture all behavioral variations; authors suggest larger samples needed for better statistical results",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "319093e4-6b9b-49e3-8b84-9ed1100d8609"
+      ]
+    },
+    {
+      "text": "The constant IRC value of 1.2 m/s used as baseline may not reflect current pedestrian behavior patterns",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "78cde05f-5689-4492-ab3b-fda940d3a246"
+      ]
+    }
+  ],
+  "future_work": [
+    "Expand study with larger sample sizes for more robust statistical results",
+    "Analyze pedestrian crossing behavior including pedestrian arrival patterns with influencing parameters",
+    "Develop pedestrian delay models under mixed traffic conditions",
+    "Develop pedestrian level of service models at signalized intersections"
+  ],
+  "notes": "Introduced Crossing Speed Deviation Factor (CSDF) as new metric to understand pedestrian speed variations; Logistic regression models developed for both noncompliance (n=434) and interaction (n=141) behaviors; Study found 56% overall pedestrian noncompliance rate at studied intersections; Mixed traffic conditions specific to Indian context ( Mumbai) with vehicles like auto/vans, taxis, two-wheelers and HCVs"
+}

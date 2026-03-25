@@ -1,0 +1,1988 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction and Research Context",
+    "text": "Introduction and Research Context establishes the analytical framework for this subsection, centering the discussion on Survey Data from Dalian, China (260 Complete and Valid Responses) and the prediction of pedestrians' violating road crossing behavior intentions. Across 2 evidence units, the relevant literature encompasses methodological approaches including Structural Equation Modeling (SEM), Controlled Experiment, Eye Tracking Study, and Laboratory Outdoor Study; research tasks such as Predicting Pedestrians' Violating Road Crossing Behavior Intentions, Pedestrian Crossing Behavior, and Visual Attention Allocation; and datasets including Survey Data from Dalian, China (260 Complete and Valid Responses), which defines the comparison set for this discussion. Viewed this way, the subsection originates from a shared problem space rather than a sequence of isolated paper summaries.\n\nAcross the reviewed studies, a recurring pattern emerges in the introduction and research context. Instrumental attitude emerged as a significant predictor of pedestrians' violating crossing behavior intention across all four models tested. When descriptive norm was added to the model, subjective norm became insignificant while descriptive norm emerged as a stronger predictor, indicating that pedestrians' observations of family and friends' behavior carried greater influence than perceived approval from them. Collectively, these observations support a subsection-level claim rather than presenting the evidence as a descriptive inventory.\n\nTaken together, the literature on introduction and research context reveals a field-level pattern rather than a single-study result. The evidence clusters most clearly around Survey Data from Dalian, China (260 Complete and Valid Responses) and Predicting Pedestrians' Violating Road Crossing Behavior Intentions. This synthesis clarifies both the main takeaway and the boundary conditions that qualify it.",
+    "paragraphs": [
+      {
+        "text": "Introduction and Research Context establishes the analytical framework for this subsection, centering the discussion on Survey Data from Dalian, China (260 Complete and Valid Responses) and the prediction of pedestrians' violating road crossing behavior intentions. Across 2 evidence units, the relevant literature encompasses methodological approaches including Structural Equation Modeling (SEM), Controlled Experiment, Eye Tracking Study, and Laboratory Outdoor Study; research tasks such as Predicting Pedestrians' Violating Road Crossing Behavior Intentions, Pedestrian Crossing Behavior, and Visual Attention Allocation; and datasets including Survey Data from Dalian, China (260 Complete and Valid Responses), which defines the comparison set for this discussion. Viewed this way, the subsection originates from a shared problem space rather than a sequence of isolated paper summaries.",
+        "move_type": "framing",
+        "purpose": "Frame Introduction and Research Context around Survey Data From Dalian, China (260 Complete And Valid Responses), Predicting Pedestrians' Violating Road Crossing Behavior Intentions and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+            "label": "Predicting Pedestrians' Violating Road Crossing Behavior Intentions",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "Examine pedestrians' self-reported violating crossing behavior intentions by applying the Theory of Planned Behavior (TPB), and extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions"
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ],
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 848.0,
+          "09_2018_jiang_aap": 321.5
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "08_2016_zhou_aap",
+            "09_2018_jiang_aap"
+          ]
+        }
+      },
+      {
+        "text": "Across the reviewed studies, a recurring pattern emerges in the introduction and research context. Instrumental attitude emerged as a significant predictor of pedestrians' violating crossing behavior intention across all four models tested. When descriptive norm was added to the model, subjective norm became insignificant while descriptive norm emerged as a stronger predictor, indicating that pedestrians' observations of family and friends' behavior carried greater influence than perceived approval from them. Collectively, these observations support a subsection-level claim rather than presenting the evidence as a descriptive inventory.",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+            "label": "Predicting Pedestrians' Violating Road Crossing Behavior Intentions",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "Instrumental attitude was a significant predictor of pedestrians' violating crossing behavior intention across all four models tested",
+          "When descriptive norm was added to the model, subjective norm became insignificant while descriptive norm emerged as a stronger predictor, indicating that pedestrians' observations of family and friends' behavior had greater influence than perceived approval from them"
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ],
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 1191.5,
+          "09_2018_jiang_aap": 165.5
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "08_2016_zhou_aap",
+            "09_2018_jiang_aap"
+          ]
+        }
+      },
+      {
+        "text": "Taken together, the literature on introduction and research context reveals a field-level pattern rather than a single-study result. The evidence clusters most clearly around Survey Data from Dalian, China (260 Complete and Valid Responses) and Predicting Pedestrians' Violating Road Crossing Behavior Intentions. This synthesis clarifies both the main takeaway and the boundary conditions that qualify it.",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+            "label": "Predicting Pedestrians' Violating Road Crossing Behavior Intentions",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Survey Data From Dalian, China (260 Complete And Valid Responses), Predicting Pedestrians' Violating Road Crossing Behavior Intentions."
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ],
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 333.0,
+          "09_2018_jiang_aap": 121.5
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "08_2016_zhou_aap",
+            "09_2018_jiang_aap"
+          ]
+        }
+      }
+    ],
+    "citation_keys": [
+      "08_2016_zhou_aap",
+      "09_2018_jiang_aap"
+    ],
+    "_citation_scores": {
+      "09_2018_jiang_aap": 7.0,
+      "08_2016_zhou_aap": 5.5
+    }
+  },
+  {
+    "section_id": "sec-2",
+    "title": "Theoretical Foundations of Pedestrian Crossing Behavior",
+    "text": "Theoretical Foundations of Pedestrian Crossing Behavior provides the analytical framework for this subsection, focusing on Predicting Pedestrians' Violating Road Crossing Behavior Intentions and Survey Data from Dalian, China (260 Complete and Valid Responses). Across 2 evidence units, the relevant literature encompasses method families such as Structural Equation Modeling (SEM), Controlled Experiment, Eye Tracking Study, and Laboratory Outdoor Study; tasks including Predicting Pedestrians' Violating Road Crossing Behavior Intentions, Pedestrian Crossing Behavior, and Visual Attention Allocation; and datasets such as Survey Data from Dalian, China (260 Complete and Valid Responses), which defines the comparison set. This approach situates the subsection within a shared problem space rather than presenting isolated paper summaries.\n\nAcross the reviewed studies, a recurring pattern emerges in the theoretical foundations of pedestrian crossing behavior. When descriptive norm was added to the model, subjective norm became insignificant while descriptive norm emerged as a stronger predictor, indicating that pedestrians' observations of family and friends' behavior had greater influence than perceived approval from them. Perceived behavioral control was not a significant predictor in any model, suggesting that violating crossing behavior was not perceived as challenging by respondents. Collectively, these observations support a subsection-level claim rather than leaving the evidence as a descriptive inventory.\n\nTaken together, the literature on theoretical foundations of pedestrian crossing behavior points to a field-level pattern rather than a single-study result. The evidence clusters most clearly around Predicting Pedestrians' Violating Road Crossing Behavior Intentions and Survey Data from Dalian, China (260 Complete and Valid Responses). The synthesis therefore clarifies both the main takeaway and the boundary conditions that qualify it.",
+    "paragraphs": [
+      {
+        "text": "Theoretical Foundations of Pedestrian Crossing Behavior provides the analytical framework for this subsection, focusing on Predicting Pedestrians' Violating Road Crossing Behavior Intentions and Survey Data from Dalian, China (260 Complete and Valid Responses). Across 2 evidence units, the relevant literature encompasses method families such as Structural Equation Modeling (SEM), Controlled Experiment, Eye Tracking Study, and Laboratory Outdoor Study; tasks including Predicting Pedestrians' Violating Road Crossing Behavior Intentions, Pedestrian Crossing Behavior, and Visual Attention Allocation; and datasets such as Survey Data from Dalian, China (260 Complete and Valid Responses), which defines the comparison set. This approach situates the subsection within a shared problem space rather than presenting isolated paper summaries.",
+        "move_type": "framing",
+        "purpose": "Frame Theoretical Foundations of Pedestrian Crossing Behavior around Predicting Pedestrians' Violating Road Crossing Behavior Intentions, Survey Data From Dalian, China (260 Complete And Valid Responses) and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+            "label": "Predicting Pedestrians' Violating Road Crossing Behavior Intentions",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "Examine pedestrians' self-reported violating crossing behavior intentions by applying the Theory of Planned Behavior (TPB), and extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions"
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ],
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 848.0,
+          "09_2018_jiang_aap": 321.5
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "08_2016_zhou_aap",
+            "09_2018_jiang_aap"
+          ]
+        }
+      },
+      {
+        "text": "Across the reviewed studies, a recurring pattern emerges in the theoretical foundations of pedestrian crossing behavior. When descriptive norm was added to the model, subjective norm became insignificant while descriptive norm emerged as a stronger predictor, indicating that pedestrians' observations of family and friends' behavior had greater influence than perceived approval from them. Perceived behavioral control was not a significant predictor in any model, suggesting that violating crossing behavior was not perceived as challenging by respondents. Collectively, these observations support a subsection-level claim rather than leaving the evidence as a descriptive inventory.",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+            "label": "Predicting Pedestrians' Violating Road Crossing Behavior Intentions",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "When descriptive norm was added to the model, subjective norm became insignificant while descriptive norm emerged as a stronger predictor, indicating that pedestrians' observations of family and friends' behavior had greater influence than perceived approval from them",
+          "Perceived behavioral control was not a significant predictor in any model, suggesting that the violating crossing behavior was not perceived as challenging by respondents"
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ],
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 1272.0,
+          "09_2018_jiang_aap": 185.0
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "08_2016_zhou_aap",
+            "09_2018_jiang_aap"
+          ]
+        }
+      },
+      {
+        "text": "Taken together, the literature on theoretical foundations of pedestrian crossing behavior points to a field-level pattern rather than a single-study result. The evidence clusters most clearly around Predicting Pedestrians' Violating Road Crossing Behavior Intentions and Survey Data from Dalian, China (260 Complete and Valid Responses). The synthesis therefore clarifies both the main takeaway and the boundary conditions that qualify it.",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+            "label": "Predicting Pedestrians' Violating Road Crossing Behavior Intentions",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Predicting Pedestrians' Violating Road Crossing Behavior Intentions, Survey Data From Dalian, China (260 Complete And Valid Responses)."
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ],
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 337.0,
+          "09_2018_jiang_aap": 139.0
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "08_2016_zhou_aap",
+            "09_2018_jiang_aap"
+          ]
+        }
+      }
+    ],
+    "citation_keys": [
+      "08_2016_zhou_aap",
+      "09_2018_jiang_aap"
+    ],
+    "_citation_scores": {
+      "09_2018_jiang_aap": 37.0,
+      "08_2016_zhou_aap": 23.0
+    }
+  },
+  {
+    "section_id": "sec-3",
+    "title": "Behavioral Factors Influencing Crossing Intentions",
+    "text": "Behavioral Factors Influencing Crossing Intentions establishes the analytical framework for this subsection, centering on Predicting Pedestrians' Violating Road Crossing Behavior Intentions and Survey Data from Dalian, China (260 Complete and Valid Responses). Across 2 evidence units, the relevant literature assembles method families including Structural Equation Modeling (SEM), Controlled Experiment, Eye Tracking Study, and Laboratory Outdoor Study; tasks such as Predicting Pedestrians' Violating Road Crossing Behavior Intentions, Pedestrian Crossing Behavior, and Visual Attention Allocation; and datasets including Survey Data from Dalian, China (260 Complete and Valid Responses), which defines the comparison set. This approach begins from a shared problem space rather than a sequence of isolated paper summaries.\n\nAcross the reviewed studies, a recurring pattern emerges in behavioral factors influencing crossing intentions. Instrumental attitude was a significant predictor of pedestrians' violating crossing behavior intention across all four models tested. When descriptive norm was added to the model, subjective norm became insignificant while descriptive norm emerged as a stronger predictor, indicating that pedestrians' observations of family and friends' behavior had greater influence than perceived approval from them. Collectively, these observations support a subsection-level claim instead of leaving the evidence as a descriptive inventory.\n\nTaken together, the literature on behavioral factors influencing crossing intentions points to a field-level pattern rather than a single-study result. The evidence clusters most clearly around Predicting Pedestrians' Violating Road Crossing Behavior Intentions and Survey Data from Dalian, China (260 Complete and Valid Responses). This synthesis clarifies both the main takeaway and the boundary conditions that qualify it.",
+    "paragraphs": [
+      {
+        "text": "Behavioral Factors Influencing Crossing Intentions establishes the analytical framework for this subsection, centering on Predicting Pedestrians' Violating Road Crossing Behavior Intentions and Survey Data from Dalian, China (260 Complete and Valid Responses). Across 2 evidence units, the relevant literature assembles method families including Structural Equation Modeling (SEM), Controlled Experiment, Eye Tracking Study, and Laboratory Outdoor Study; tasks such as Predicting Pedestrians' Violating Road Crossing Behavior Intentions, Pedestrian Crossing Behavior, and Visual Attention Allocation; and datasets including Survey Data from Dalian, China (260 Complete and Valid Responses), which defines the comparison set. This approach begins from a shared problem space rather than a sequence of isolated paper summaries.",
+        "move_type": "framing",
+        "purpose": "Frame Behavioral Factors Influencing Crossing Intentions around Predicting Pedestrians' Violating Road Crossing Behavior Intentions, Survey Data From Dalian, China (260 Complete And Valid Responses) and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+            "label": "Predicting Pedestrians' Violating Road Crossing Behavior Intentions",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "Examine pedestrians' self-reported violating crossing behavior intentions by applying the Theory of Planned Behavior (TPB), and extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions"
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ],
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 853.0,
+          "09_2018_jiang_aap": 326.5
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "08_2016_zhou_aap",
+            "09_2018_jiang_aap"
+          ]
+        }
+      },
+      {
+        "text": "Across the reviewed studies, a recurring pattern emerges in behavioral factors influencing crossing intentions. Instrumental attitude was a significant predictor of pedestrians' violating crossing behavior intention across all four models tested. When descriptive norm was added to the model, subjective norm became insignificant while descriptive norm emerged as a stronger predictor, indicating that pedestrians' observations of family and friends' behavior had greater influence than perceived approval from them. Collectively, these observations support a subsection-level claim instead of leaving the evidence as a descriptive inventory.",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+            "label": "Predicting Pedestrians' Violating Road Crossing Behavior Intentions",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "Instrumental attitude was a significant predictor of pedestrians' violating crossing behavior intention across all four models tested",
+          "When descriptive norm was added to the model, subjective norm became insignificant while descriptive norm emerged as a stronger predictor, indicating that pedestrians' observations of family and friends' behavior had greater influence than perceived approval from them"
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ],
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 1202.0,
+          "09_2018_jiang_aap": 170.5
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "08_2016_zhou_aap",
+            "09_2018_jiang_aap"
+          ]
+        }
+      },
+      {
+        "text": "Taken together, the literature on behavioral factors influencing crossing intentions points to a field-level pattern rather than a single-study result. The evidence clusters most clearly around Predicting Pedestrians' Violating Road Crossing Behavior Intentions and Survey Data from Dalian, China (260 Complete and Valid Responses). This synthesis clarifies both the main takeaway and the boundary conditions that qualify it.",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+            "label": "Predicting Pedestrians' Violating Road Crossing Behavior Intentions",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Predicting Pedestrians' Violating Road Crossing Behavior Intentions, Survey Data From Dalian, China (260 Complete And Valid Responses)."
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ],
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 338.0,
+          "09_2018_jiang_aap": 126.5
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "08_2016_zhou_aap",
+            "09_2018_jiang_aap"
+          ]
+        }
+      }
+    ],
+    "citation_keys": [
+      "08_2016_zhou_aap",
+      "09_2018_jiang_aap"
+    ],
+    "_citation_scores": {
+      "08_2016_zhou_aap": 17.5,
+      "09_2018_jiang_aap": 12.5
+    }
+  },
+  {
+    "section_id": "sec-4",
+    "title": "The Role of Perceived Risk and Control in Crossing Behavior",
+    "text": "The Role of Perceived Risk and Control in Crossing Behavior provides the analytical entry point for this subsection, focusing on Survey Data from Dalian, China (260 Complete and Valid Responses) and Predicting Pedestrians' Violating Road Crossing Behavior Intentions. Across 2 evidence units, the relevant literature assembles method families such as Structural Equation Modeling (SEM), Controlled Experiment, Eye Tracking Study, and Laboratory Outdoor Study; tasks including Predicting Pedestrians' Violating Road Crossing Behavior Intentions, Pedestrian Crossing Behavior, and Visual Attention Allocation; and datasets such as Survey Data from Dalian, China (260 Complete and Valid Responses), which defines the comparison set. This approach situates the discussion within a shared problem space rather than presenting isolated paper summaries.\n\nAcross the reviewed studies, a recurring pattern emerges in the role of perceived risk and control in crossing behavior. Perceived risk was not a significant predictor, indicating that pedestrians may fail to realize or adequately perceive the danger of violating crossing behavior. Instrumental attitude was a significant predictor of pedestrians' violating crossing behavior intention across all four models tested. Collectively, these observations support a subsection-level claim instead of leaving the evidence as a descriptive inventory.\n\nTaken together, the literature on the role of perceived risk and control in crossing behavior points to a field-level pattern rather than a single-study result. The evidence clusters most clearly around Survey Data from Dalian, China (260 Complete and Valid Responses) and Predicting Pedestrians' Violating Road Crossing Behavior Intentions. The synthesis therefore clarifies both the main takeaway and the boundary conditions that qualify it.",
+    "paragraphs": [
+      {
+        "text": "The Role of Perceived Risk and Control in Crossing Behavior provides the analytical entry point for this subsection, focusing on Survey Data from Dalian, China (260 Complete and Valid Responses) and Predicting Pedestrians' Violating Road Crossing Behavior Intentions. Across 2 evidence units, the relevant literature assembles method families such as Structural Equation Modeling (SEM), Controlled Experiment, Eye Tracking Study, and Laboratory Outdoor Study; tasks including Predicting Pedestrians' Violating Road Crossing Behavior Intentions, Pedestrian Crossing Behavior, and Visual Attention Allocation; and datasets such as Survey Data from Dalian, China (260 Complete and Valid Responses), which defines the comparison set. This approach situates the discussion within a shared problem space rather than presenting isolated paper summaries.",
+        "move_type": "framing",
+        "purpose": "Frame The Role of Perceived Risk and Control in Crossing Behavior around Survey Data From Dalian, China (260 Complete And Valid Responses), Predicting Pedestrians' Violating Road Crossing Behavior Intentions and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+            "label": "Predicting Pedestrians' Violating Road Crossing Behavior Intentions",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "Examine pedestrians' self-reported violating crossing behavior intentions by applying the Theory of Planned Behavior (TPB), and extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions"
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ],
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 874.0,
+          "09_2018_jiang_aap": 321.5
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "08_2016_zhou_aap",
+            "09_2018_jiang_aap"
+          ]
+        }
+      },
+      {
+        "text": "Across the reviewed studies, a recurring pattern emerges in the role of perceived risk and control in crossing behavior. Perceived risk was not a significant predictor, indicating that pedestrians may fail to realize or adequately perceive the danger of violating crossing behavior. Instrumental attitude was a significant predictor of pedestrians' violating crossing behavior intention across all four models tested. Collectively, these observations support a subsection-level claim instead of leaving the evidence as a descriptive inventory.",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+            "label": "Predicting Pedestrians' Violating Road Crossing Behavior Intentions",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "Perceived risk was not a significant predictor, indicating that pedestrians may fail to realize or adequately perceive the danger of violating crossing behavior",
+          "Instrumental attitude was a significant predictor of pedestrians' violating crossing behavior intention across all four models tested"
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ],
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 789.5,
+          "09_2018_jiang_aap": 161.5
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "08_2016_zhou_aap",
+            "09_2018_jiang_aap"
+          ]
+        }
+      },
+      {
+        "text": "Taken together, the literature on the role of perceived risk and control in crossing behavior points to a field-level pattern rather than a single-study result. The evidence clusters most clearly around Survey Data from Dalian, China (260 Complete and Valid Responses) and Predicting Pedestrians' Violating Road Crossing Behavior Intentions. The synthesis therefore clarifies both the main takeaway and the boundary conditions that qualify it.",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+            "label": "Predicting Pedestrians' Violating Road Crossing Behavior Intentions",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Survey Data From Dalian, China (260 Complete And Valid Responses), Predicting Pedestrians' Violating Road Crossing Behavior Intentions."
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ],
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 359.0,
+          "09_2018_jiang_aap": 121.5
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "08_2016_zhou_aap",
+            "09_2018_jiang_aap"
+          ]
+        }
+      }
+    ],
+    "citation_keys": [
+      "08_2016_zhou_aap",
+      "09_2018_jiang_aap"
+    ],
+    "_citation_scores": {
+      "08_2016_zhou_aap": 54.0,
+      "09_2018_jiang_aap": 31.5
+    }
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Mobile Phone Distraction Effects on Crossing Performance",
+    "text": "Mobile Phone Distraction Effects on Crossing Performance establishes the analytical framework for this subsection, centering on Survey Data from Dalian, China (260 Complete and Valid Responses) and Predicting Pedestrians' Violating Road Crossing Behavior Intentions. Across 2 evidence units, the relevant literature assembles method families such as Controlled Experiment, Eye Tracking Study, Laboratory Outdoor Study, and Structural Equation Modeling (SEM); tasks including Pedestrian Crossing Behavior, Visual Attention Allocation, and Predicting Pedestrians' Violating Road Crossing Behavior Intentions; and datasets such as Survey Data from Dalian, China (260 Complete and Valid Responses), which defines the comparison set. This approach positions the subsection within a shared problem space rather than a sequence of isolated paper summaries.\n\nAcross the reviewed studies, a recurring pattern emerges in mobile phone distraction effects on crossing performance. Text distraction causes the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction and music distraction, with text distraction significantly affecting all three crossing behavior variables and five visual attention variables. Music distraction increases pedestrian pupil diameter and reduces scanning frequency as well as fixation points and fixation times toward traffic signal area priority, indicating cognitive load without extreme behavioral impairment. Collectively, these observations support a subsection-level claim instead of leaving the evidence as a descriptive inventory.\n\nTaken together, the literature on mobile phone distraction effects on crossing performance points to a field-level pattern rather than a single-study result. The evidence clusters most clearly around Survey Data from Dalian, China (260 Complete and Valid Responses) and Predicting Pedestrians' Violating Road Crossing Behavior Intentions. The synthesis therefore clarifies both the main takeaway and the boundary conditions that qualify it.",
+    "paragraphs": [
+      {
+        "text": "Mobile Phone Distraction Effects on Crossing Performance establishes the analytical framework for this subsection, centering on Survey Data from Dalian, China (260 Complete and Valid Responses) and Predicting Pedestrians' Violating Road Crossing Behavior Intentions. Across 2 evidence units, the relevant literature assembles method families such as Controlled Experiment, Eye Tracking Study, Laboratory Outdoor Study, and Structural Equation Modeling (SEM); tasks including Pedestrian Crossing Behavior, Visual Attention Allocation, and Predicting Pedestrians' Violating Road Crossing Behavior Intentions; and datasets such as Survey Data from Dalian, China (260 Complete and Valid Responses), which defines the comparison set. This approach positions the subsection within a shared problem space rather than a sequence of isolated paper summaries.",
+        "move_type": "framing",
+        "purpose": "Frame Mobile Phone Distraction Effects on Crossing Performance around Survey Data From Dalian, China (260 Complete And Valid Responses), Predicting Pedestrians' Violating Road Crossing Behavior Intentions and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+            "label": "Predicting Pedestrians' Violating Road Crossing Behavior Intentions",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_citations": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "This study investigates how mobile phone distractions (music distraction, phone conversation distraction, and text distraction) affect the behavior of pedestrians while crossing the street at a signalized intersection, addressing the growing safety concern of mobile phone use among pedestrians."
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ],
+        "citation_keys": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "09_2018_jiang_aap": 873.5,
+          "08_2016_zhou_aap": 434.5
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "09_2018_jiang_aap",
+            "08_2016_zhou_aap"
+          ]
+        }
+      },
+      {
+        "text": "Across the reviewed studies, a recurring pattern emerges in mobile phone distraction effects on crossing performance. Text distraction causes the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction and music distraction, with text distraction significantly affecting all three crossing behavior variables and five visual attention variables. Music distraction increases pedestrian pupil diameter and reduces scanning frequency as well as fixation points and fixation times toward traffic signal area priority, indicating cognitive load without extreme behavioral impairment. Collectively, these observations support a subsection-level claim instead of leaving the evidence as a descriptive inventory.",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+            "label": "Predicting Pedestrians' Violating Road Crossing Behavior Intentions",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_citations": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "Text distraction causes the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction and music distraction, with text distraction significantly affecting all three crossing behavior variables and five visual attention variables",
+          "Music distraction increases pedestrian pupil diameter and reduces scanning frequency as well as fixation points and fixation times toward traffic signal area priority, indicating cognitive load without extreme behavioral impairment"
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ],
+        "citation_keys": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "09_2018_jiang_aap": 1145.0,
+          "08_2016_zhou_aap": 269.0
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "09_2018_jiang_aap",
+            "08_2016_zhou_aap"
+          ]
+        }
+      },
+      {
+        "text": "Taken together, the literature on mobile phone distraction effects on crossing performance points to a field-level pattern rather than a single-study result. The evidence clusters most clearly around Survey Data from Dalian, China (260 Complete and Valid Responses) and Predicting Pedestrians' Violating Road Crossing Behavior Intentions. The synthesis therefore clarifies both the main takeaway and the boundary conditions that qualify it.",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+            "label": "Predicting Pedestrians' Violating Road Crossing Behavior Intentions",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_citations": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Survey Data From Dalian, China (260 Complete And Valid Responses), Predicting Pedestrians' Violating Road Crossing Behavior Intentions."
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ],
+        "citation_keys": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 333.5,
+          "09_2018_jiang_aap": 157.5
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "09_2018_jiang_aap",
+            "08_2016_zhou_aap"
+          ]
+        }
+      }
+    ],
+    "citation_keys": [
+      "09_2018_jiang_aap",
+      "08_2016_zhou_aap"
+    ],
+    "_citation_scores": {
+      "09_2018_jiang_aap": 51.0,
+      "08_2016_zhou_aap": 8.5
+    }
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Visual Attention Allocation Under Distraction",
+    "text": "Visual Attention Allocation Under Distraction provides the analytical entry point for this subsection, focusing on Survey Data from Dalian, China (260 Complete and Valid Responses) and Predicting Pedestrians' Violating Road Crossing Behavior Intentions. Across 2 evidence units, the relevant literature assembles method families such as Controlled Experiment, Eye Tracking Study, Laboratory Outdoor Study, and Structural Equation Modeling (SEM); tasks including Pedestrian Crossing Behavior, Visual Attention Allocation, and Predicting Pedestrians' Violating Road Crossing Behavior Intentions; and datasets such as Survey Data from Dalian, China (260 Complete and Valid Responses), which defines the comparison set. This approach situates the subsection within a shared problem space rather than presenting isolated paper summaries.\n\nAcross the reviewed studies, a recurring pattern emerges in visual attention allocation under distraction. Music distraction increases pedestrian pupil diameter and reduces scanning frequency as well as fixation points and fixation times toward traffic signal area priority, indicating cognitive load without extreme behavioral impairment. Text distraction causes the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction and music distraction, with text distraction significantly affecting all three crossing behavior variables and five visual attention variables. Collectively, these observations support a subsection-level claim instead of leaving the evidence as a descriptive inventory.\n\nTaken together, the literature on visual attention allocation under distraction points to a field-level pattern rather than a single-study result. The evidence clusters most clearly around Survey Data from Dalian, China (260 Complete and Valid Responses) and Predicting Pedestrians' Violating Road Crossing Behavior Intentions. This synthesis clarifies both the main takeaway and the boundary conditions that qualify it.",
+    "paragraphs": [
+      {
+        "text": "Visual Attention Allocation Under Distraction provides the analytical entry point for this subsection, focusing on Survey Data from Dalian, China (260 Complete and Valid Responses) and Predicting Pedestrians' Violating Road Crossing Behavior Intentions. Across 2 evidence units, the relevant literature assembles method families such as Controlled Experiment, Eye Tracking Study, Laboratory Outdoor Study, and Structural Equation Modeling (SEM); tasks including Pedestrian Crossing Behavior, Visual Attention Allocation, and Predicting Pedestrians' Violating Road Crossing Behavior Intentions; and datasets such as Survey Data from Dalian, China (260 Complete and Valid Responses), which defines the comparison set. This approach situates the subsection within a shared problem space rather than presenting isolated paper summaries.",
+        "move_type": "framing",
+        "purpose": "Frame Visual Attention Allocation Under Distraction around Survey Data From Dalian, China (260 Complete And Valid Responses), Predicting Pedestrians' Violating Road Crossing Behavior Intentions and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+            "label": "Predicting Pedestrians' Violating Road Crossing Behavior Intentions",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_citations": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "This study investigates how mobile phone distractions (music distraction, phone conversation distraction, and text distraction) affect the behavior of pedestrians while crossing the street at a signalized intersection, addressing the growing safety concern of mobile phone use among pedestrians."
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ],
+        "citation_keys": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "09_2018_jiang_aap": 845.5,
+          "08_2016_zhou_aap": 434.0
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "09_2018_jiang_aap",
+            "08_2016_zhou_aap"
+          ]
+        }
+      },
+      {
+        "text": "Across the reviewed studies, a recurring pattern emerges in visual attention allocation under distraction. Music distraction increases pedestrian pupil diameter and reduces scanning frequency as well as fixation points and fixation times toward traffic signal area priority, indicating cognitive load without extreme behavioral impairment. Text distraction causes the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction and music distraction, with text distraction significantly affecting all three crossing behavior variables and five visual attention variables. Collectively, these observations support a subsection-level claim instead of leaving the evidence as a descriptive inventory.",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+            "label": "Predicting Pedestrians' Violating Road Crossing Behavior Intentions",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_citations": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "Music distraction increases pedestrian pupil diameter and reduces scanning frequency as well as fixation points and fixation times toward traffic signal area priority, indicating cognitive load without extreme behavioral impairment",
+          "Text distraction causes the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction and music distraction, with text distraction significantly affecting all three crossing behavior variables and five visual attention variables"
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ],
+        "citation_keys": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "09_2018_jiang_aap": 1140.5,
+          "08_2016_zhou_aap": 266.0
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "09_2018_jiang_aap",
+            "08_2016_zhou_aap"
+          ]
+        }
+      },
+      {
+        "text": "Taken together, the literature on visual attention allocation under distraction points to a field-level pattern rather than a single-study result. The evidence clusters most clearly around Survey Data from Dalian, China (260 Complete and Valid Responses) and Predicting Pedestrians' Violating Road Crossing Behavior Intentions. This synthesis clarifies both the main takeaway and the boundary conditions that qualify it.",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+            "label": "Predicting Pedestrians' Violating Road Crossing Behavior Intentions",
+            "theme_type": "task",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_citations": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Survey Data From Dalian, China (260 Complete And Valid Responses), Predicting Pedestrians' Violating Road Crossing Behavior Intentions."
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ],
+        "citation_keys": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 333.0,
+          "09_2018_jiang_aap": 162.5
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "09_2018_jiang_aap",
+            "08_2016_zhou_aap"
+          ]
+        }
+      }
+    ],
+    "citation_keys": [
+      "09_2018_jiang_aap",
+      "08_2016_zhou_aap"
+    ],
+    "_citation_scores": {
+      "09_2018_jiang_aap": 42.5
+    }
+  },
+  {
+    "section_id": "sec-7",
+    "title": "Environmental and Design Factors in Pedestrian Safety",
+    "text": "Environmental and Design Factors in Pedestrian Safety provides the analytical framework for this subsection, centering on Survey Data from Dalian, China (260 Complete and Valid Responses) and Behavioral Factors. Across 2 evidence units, the relevant literature assembles method families including Controlled Experiment, Eye Tracking Study, Laboratory Outdoor Study, and Structural Equation Modeling (SEM); tasks such as Pedestrian Crossing Behavior, Visual Attention Allocation, and Predicting Pedestrians' Violating Road Crossing Behavior Intentions; and datasets such as Survey Data from Dalian, China (260 Complete and Valid Responses), which defines the comparison set. This approach positions the subsection within a shared problem space rather than a sequence of isolated paper summaries.\n\nAcross the reviewed studies, a recurring pattern emerges in environmental and design factors in pedestrian safety. Text distraction causes the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction and music distraction, with text distraction significantly affecting all three crossing behavior variables and five visual attention variables. Music distraction increases pedestrian pupil diameter and reduces scanning frequency as well as fixation points and fixation times toward traffic signal area priority, indicating cognitive load without extreme behavioral impairment. Collectively, these observations support a subsection-level claim instead of leaving the evidence as a descriptive inventory.\n\nTaken together, the literature on environmental and design factors in pedestrian safety points to a field-level pattern rather than a single-study result. The evidence clusters most clearly around Survey Data from Dalian, China (260 Complete and Valid Responses) and Behavioral Factors. This synthesis clarifies both the main takeaway and the boundary conditions that qualify it.",
+    "paragraphs": [
+      {
+        "text": "Environmental and Design Factors in Pedestrian Safety provides the analytical framework for this subsection, centering on Survey Data from Dalian, China (260 Complete and Valid Responses) and Behavioral Factors. Across 2 evidence units, the relevant literature assembles method families including Controlled Experiment, Eye Tracking Study, Laboratory Outdoor Study, and Structural Equation Modeling (SEM); tasks such as Pedestrian Crossing Behavior, Visual Attention Allocation, and Predicting Pedestrians' Violating Road Crossing Behavior Intentions; and datasets such as Survey Data from Dalian, China (260 Complete and Valid Responses), which defines the comparison set. This approach positions the subsection within a shared problem space rather than a sequence of isolated paper summaries.",
+        "move_type": "framing",
+        "purpose": "Frame Environmental and Design Factors in Pedestrian Safety around Survey Data From Dalian, China (260 Complete And Valid Responses), Behavioral Factors and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 9,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 9.0,
+            "synthesis_note": "behavioral_factors appears in 9 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_citations": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "This study investigates how mobile phone distractions (music distraction, phone conversation distraction, and text distraction) affect the behavior of pedestrians while crossing the street at a signalized intersection, addressing the growing safety concern of mobile phone use among pedestrians."
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ],
+        "citation_keys": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "09_2018_jiang_aap": 846.5,
+          "08_2016_zhou_aap": 355.0
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "09_2018_jiang_aap",
+            "08_2016_zhou_aap"
+          ]
+        }
+      },
+      {
+        "text": "Across the reviewed studies, a recurring pattern emerges in environmental and design factors in pedestrian safety. Text distraction causes the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction and music distraction, with text distraction significantly affecting all three crossing behavior variables and five visual attention variables. Music distraction increases pedestrian pupil diameter and reduces scanning frequency as well as fixation points and fixation times toward traffic signal area priority, indicating cognitive load without extreme behavioral impairment. Collectively, these observations support a subsection-level claim instead of leaving the evidence as a descriptive inventory.",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 9,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 9.0,
+            "synthesis_note": "behavioral_factors appears in 9 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_citations": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "Text distraction causes the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction and music distraction, with text distraction significantly affecting all three crossing behavior variables and five visual attention variables",
+          "Music distraction increases pedestrian pupil diameter and reduces scanning frequency as well as fixation points and fixation times toward traffic signal area priority, indicating cognitive load without extreme behavioral impairment"
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ],
+        "citation_keys": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "09_2018_jiang_aap": 1124.0,
+          "08_2016_zhou_aap": 182.0
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "09_2018_jiang_aap",
+            "08_2016_zhou_aap"
+          ]
+        }
+      },
+      {
+        "text": "Taken together, the literature on environmental and design factors in pedestrian safety points to a field-level pattern rather than a single-study result. The evidence clusters most clearly around Survey Data from Dalian, China (260 Complete and Valid Responses) and Behavioral Factors. This synthesis clarifies both the main takeaway and the boundary conditions that qualify it.",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 9,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 9.0,
+            "synthesis_note": "behavioral_factors appears in 9 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_citations": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Survey Data From Dalian, China (260 Complete And Valid Responses), Behavioral Factors."
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ],
+        "citation_keys": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 140.0,
+          "09_2018_jiang_aap": 95.5
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "09_2018_jiang_aap",
+            "08_2016_zhou_aap"
+          ]
+        }
+      }
+    ],
+    "citation_keys": [
+      "09_2018_jiang_aap",
+      "08_2016_zhou_aap"
+    ],
+    "_citation_scores": {
+      "09_2018_jiang_aap": 19.0,
+      "08_2016_zhou_aap": 8.0
+    }
+  },
+  {
+    "section_id": "sec-8",
+    "title": "Methodological Approaches and Their Contributions",
+    "text": "Methodological Approaches and Their Contributions provides the analytical entry point for this subsection, focusing on Structural Equation Modeling (SEM) and Survey Data from Dalian, China (260 Complete and Valid Responses). Across 2 evidence units, the relevant literature assembles method families such as Structural Equation Modeling (SEM), Controlled Experiment, Eye Tracking Study, and Laboratory Outdoor Study; tasks including Predicting Pedestrians' Violating Road Crossing Behavior Intentions, Pedestrian Crossing Behavior, and Visual Attention Allocation; and datasets such as Survey Data from Dalian, China (260 Complete and Valid Responses), which defines the comparison set. This approach situates the discussion within a shared problem space rather than presenting isolated paper summaries.\n\nAcross the reviewed studies, a recurring pattern emerges in methodological approaches and their contributions. Instrumental attitude was a significant predictor of pedestrians' violating crossing behavior intention across all four models tested. When descriptive norm was added to the model, subjective norm became insignificant while descriptive norm emerged as a stronger predictor, indicating that pedestrians' observations of family and friends' behavior had greater influence than perceived approval from them. Collectively, these observations support a subsection-level claim instead of leaving the evidence as a descriptive inventory.\n\nTaken together, the literature on methodological approaches and their contributions points to a field-level pattern rather than a single-study result. The evidence clusters most clearly around Structural Equation Modeling (SEM) and Survey Data from Dalian, China (260 Complete and Valid Responses). The synthesis therefore clarifies both the main takeaway and the boundary conditions that qualify it.",
+    "paragraphs": [
+      {
+        "text": "Methodological Approaches and Their Contributions provides the analytical entry point for this subsection, focusing on Structural Equation Modeling (SEM) and Survey Data from Dalian, China (260 Complete and Valid Responses). Across 2 evidence units, the relevant literature assembles method families such as Structural Equation Modeling (SEM), Controlled Experiment, Eye Tracking Study, and Laboratory Outdoor Study; tasks including Predicting Pedestrians' Violating Road Crossing Behavior Intentions, Pedestrian Crossing Behavior, and Visual Attention Allocation; and datasets such as Survey Data from Dalian, China (260 Complete and Valid Responses), which defines the comparison set. This approach situates the discussion within a shared problem space rather than presenting isolated paper summaries.",
+        "move_type": "framing",
+        "purpose": "Frame Methodological Approaches and Their Contributions around Structural Equation Modeling (Sem), Survey Data From Dalian, China (260 Complete And Valid Responses) and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)",
+            "label": "Structural Equation Modeling (Sem)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural Equation Modeling (SEM) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "Examine pedestrians' self-reported violating crossing behavior intentions by applying the Theory of Planned Behavior (TPB), and extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions"
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Introduce the subsection focus and explain why this evidence cluster matters for the review argument."
+          },
+          {
+            "role": "evidence",
+            "directive": "Anchor the framing in the strongest relevant evidence, themes, or matrix signals rather than generic setup."
+          },
+          {
+            "role": "closing",
+            "directive": "Close with a sentence that narrows toward the next evidence-bearing claim."
+          }
+        ],
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 846.0,
+          "09_2018_jiang_aap": 321.5
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "08_2016_zhou_aap",
+            "09_2018_jiang_aap"
+          ]
+        }
+      },
+      {
+        "text": "Across the reviewed studies, a recurring pattern emerges in methodological approaches and their contributions. Instrumental attitude was a significant predictor of pedestrians' violating crossing behavior intention across all four models tested. When descriptive norm was added to the model, subjective norm became insignificant while descriptive norm emerged as a stronger predictor, indicating that pedestrians' observations of family and friends' behavior had greater influence than perceived approval from them. Collectively, these observations support a subsection-level claim instead of leaving the evidence as a descriptive inventory.",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 6 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)",
+            "label": "Structural Equation Modeling (Sem)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural Equation Modeling (SEM) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "Instrumental attitude was a significant predictor of pedestrians' violating crossing behavior intention across all four models tested",
+          "When descriptive norm was added to the model, subjective norm became insignificant while descriptive norm emerged as a stronger predictor, indicating that pedestrians' observations of family and friends' behavior had greater influence than perceived approval from them"
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the main analytical claim for the paragraph instead of a paper-by-paper recap."
+          },
+          {
+            "role": "evidence",
+            "directive": "State the strongest evidence-bearing observation drawn from the planner targets and supporting points."
+          },
+          {
+            "role": "closing",
+            "directive": "End by interpreting what the evidence means for the section argument or the next paragraph."
+          }
+        ],
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 1177.5,
+          "09_2018_jiang_aap": 165.5
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "08_2016_zhou_aap",
+            "09_2018_jiang_aap"
+          ]
+        }
+      },
+      {
+        "text": "Taken together, the literature on methodological approaches and their contributions points to a field-level pattern rather than a single-study result. The evidence clusters most clearly around Structural Equation Modeling (SEM) and Survey Data from Dalian, China (260 Complete and Valid Responses). The synthesis therefore clarifies both the main takeaway and the boundary conditions that qualify it.",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "method:structural_equation_modeling_(sem)",
+            "label": "Structural Equation Modeling (Sem)",
+            "theme_type": "method",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Structural Equation Modeling (SEM) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Structural Equation Modeling (Sem), Survey Data From Dalian, China (260 Complete And Valid Responses)."
+        ],
+        "sentence_plan": [
+          {
+            "role": "topic",
+            "directive": "Open with the field-level takeaway that follows from the preceding evidence."
+          },
+          {
+            "role": "evidence",
+            "directive": "Briefly restate the strongest supporting pattern or tension that justifies the synthesis."
+          },
+          {
+            "role": "closing",
+            "directive": "Conclude with a transition that either closes the section or opens the next analytical move."
+          }
+        ],
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 237.0,
+          "09_2018_jiang_aap": 74.0
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "08_2016_zhou_aap",
+            "09_2018_jiang_aap"
+          ]
+        }
+      }
+    ],
+    "citation_keys": [
+      "08_2016_zhou_aap",
+      "09_2018_jiang_aap"
+    ],
+    "_citation_scores": {
+      "08_2016_zhou_aap": 9.5,
+      "09_2018_jiang_aap": 7.0
+    }
+  },
+  {
+    "section_id": "sec-9",
+    "title": "Conclusions and Future Research Directions",
+    "text": "The field-level picture across 2 papers indicates that factor structure provides the clearest organizing lens, with the strongest signals concentrated in behavioral factors, Survey data from Dalian, China (260 complete and valid responses), and Structural Equation Modeling (SEM).\n\nStable conclusions: Across 2 papers, the evidence is most coherently organized around factor structure rather than any single method, and the strongest clusters are behavioral factors, Survey data from Dalian, China (260 complete and valid responses), and Structural Equation Modeling (SEM). Methodological diversity is evident, but the review still shows recurring families such as Structural Equation Modeling (SEM), controlled experiment, and eye tracking study, which suggests the field is addressing similar problems with different operational choices. Reporting remains uneven across tasks and metrics such as Predicting pedestrians' violating road-crossing behavior intentions, pedestrian crossing behavior, and CMIN/df ratio, RMSEA (Root Mean Square Error of Approximation), which limits direct comparison across studies.\n\nUnresolved tensions: A second tension is that cross-study comparison still depends on inconsistent reporting conventions.\n\nResearch priorities: Future work should prioritize standardized reporting and more explicit cross-study comparison. A third priority is to align methods, metrics, and context descriptors so the literature can be synthesized more defensibly.",
+    "paragraphs": [
+      {
+        "text": "The field-level picture across 2 papers indicates that factor structure provides the clearest organizing lens, with the strongest signals concentrated in behavioral factors, Survey data from Dalian, China (260 complete and valid responses), and Structural Equation Modeling (SEM).",
+        "move_type": "synthesis",
+        "purpose": "Close the review with the main field-level takeaway.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 9,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 9.0,
+            "synthesis_note": "behavioral_factors appears in 9 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [],
+        "sentence_plan": [],
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 190.0,
+          "09_2018_jiang_aap": 72.0
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "08_2016_zhou_aap",
+            "09_2018_jiang_aap"
+          ]
+        }
+      },
+      {
+        "text": "Stable conclusions: Across 2 papers, the evidence is most coherently organized around factor structure rather than any single method, and the strongest clusters are behavioral factors, Survey data from Dalian, China (260 complete and valid responses), and Structural Equation Modeling (SEM). Methodological diversity is evident, but the review still shows recurring families such as Structural Equation Modeling (SEM), controlled experiment, and eye tracking study, which suggests the field is addressing similar problems with different operational choices. Reporting remains uneven across tasks and metrics such as Predicting pedestrians' violating road-crossing behavior intentions, pedestrian crossing behavior, and CMIN/df ratio, RMSEA (Root Mean Square Error of Approximation), which limits direct comparison across studies.",
+        "move_type": "synthesis",
+        "purpose": "Close the review with the main field-level takeaway.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 9,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 9.0,
+            "synthesis_note": "behavioral_factors appears in 9 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [],
+        "sentence_plan": [],
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 440.0,
+          "09_2018_jiang_aap": 198.0
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "08_2016_zhou_aap",
+            "09_2018_jiang_aap"
+          ]
+        }
+      },
+      {
+        "text": "Unresolved tensions: A second tension is that cross-study comparison still depends on inconsistent reporting conventions.",
+        "move_type": "comparison",
+        "purpose": "Surface the key unresolved tensions that still differentiate evidence clusters.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 9,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 9.0,
+            "synthesis_note": "behavioral_factors appears in 9 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [],
+        "sentence_plan": [],
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 90.0,
+          "09_2018_jiang_aap": 43.0
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "08_2016_zhou_aap",
+            "09_2018_jiang_aap"
+          ]
+        }
+      },
+      {
+        "text": "Research priorities: Future work should prioritize standardized reporting and more explicit cross-study comparison. A third priority is to align methods, metrics, and context descriptors so the literature can be synthesized more defensibly.",
+        "move_type": "gap",
+        "purpose": "Translate unresolved tensions into explicit future priorities.",
+        "theme_refs": [
+          {
+            "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+            "label": "Survey Data From Dalian, China (260 Complete And Valid Responses)",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 9,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 9.0,
+            "synthesis_note": "behavioral_factors appears in 9 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_citations": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "supporting_points": [],
+        "sentence_plan": [],
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 96.0,
+          "09_2018_jiang_aap": 52.0
+        },
+        "_citation_rationale": {
+          "strategy": "planner_targets",
+          "targets": [
+            "08_2016_zhou_aap",
+            "09_2018_jiang_aap"
+          ]
+        }
+      }
+    ],
+    "citation_keys": [
+      "08_2016_zhou_aap",
+      "09_2018_jiang_aap"
+    ],
+    "_citation_scores": {
+      "08_2016_zhou_aap": 9.0,
+      "09_2018_jiang_aap": 7.0
+    }
+  }
+]

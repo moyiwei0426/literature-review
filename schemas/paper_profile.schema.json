@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "aris-lit/paper_profile",
+  "title": "PaperProfile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["paper_id", "research_problem", "method_summary", "method_family", "tasks", "datasets", "metrics", "main_claims", "limitations"],
+  "properties": {
+    "paper_id": {"type": "string"},
+    "research_problem": {"type": "string"},
+    "problem_type": {"type": ["string", "null"], "default": null},
+    "domain": {"type": ["string", "null"], "default": null},
+    "language_scope": {"type": ["string", "null"], "default": null},
+    "method_summary": {"type": "string"},
+    "method_family": {"type": "array", "items": {"type": "string"}, "default": []},
+    "datasets": {"type": "array", "items": {"type": "string"}, "default": []},
+    "tasks": {"type": "array", "items": {"type": "string"}, "default": []},
+    "metrics": {"type": "array", "items": {"type": "string"}, "default": []},
+    "baselines": {"type": "array", "items": {"type": "string"}, "default": []},
+    "main_claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["claim_id", "claim_text", "claim_type", "evidence_chunk_ids"],
+        "properties": {
+          "claim_id": {"type": "string"},
+          "claim_text": {"type": "string"},
+          "claim_type": {"type": "string", "enum": ["performance", "methodological", "application", "theoretical"]},
+          "evidence_chunk_ids": {"type": "array", "items": {"type": "string"}, "default": []},
+          "confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1, "default": null}
+        }
+      },
+      "default": []
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["text", "source", "evidence_chunk_ids"],
+        "properties": {
+          "text": {"type": "string"},
+          "source": {"type": "string", "enum": ["explicit", "inferred"]},
+          "evidence_chunk_ids": {"type": "array", "items": {"type": "string"}, "default": []}
+        }
+      },
+      "default": []
+    },
+    "future_work": {"type": "array", "items": {"type": "string"}, "default": []},
+    "notes": {"type": ["string", "null"], "default": null}
+  }
+}

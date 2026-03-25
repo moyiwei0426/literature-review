@@ -1,0 +1,28 @@
+{
+  "keywords": [
+    "predicting pedestrian violating crossing behavior intention",
+    "structural equation modeling (sem) / survey-based research",
+    "survey data from 260 respondents in dalian, china",
+    "examining pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (tpb) and extending it with descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on behavioral intentions.",
+    "cmin/df ratio",
+    "rmsea",
+    "pclose",
+    "behavioral factors"
+  ],
+  "keyword_count": 8,
+  "dominant_axis": "factor taxonomy",
+  "signals": {
+    "predicting pedestrian violating crossing behavior intention": 9.35,
+    "structural equation modeling (sem) / survey-based research": 8.6,
+    "survey data from 260 respondents in dalian, china": 7.6,
+    "examining pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (tpb) and extending it with descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on behavioral intentions.": 5.0,
+    "cmin/df ratio": 4.5,
+    "rmsea": 4.5,
+    "pclose": 4.5,
+    "behavioral factors": 2.7,
+    "survey-based research": 2.4,
+    "factor taxonomy": 1.8,
+    "aap live": 0.6,
+    "aap live one-paper": 0.6
+  }
+}

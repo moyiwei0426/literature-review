@@ -1,0 +1,30 @@
+[
+  {
+    "section_id": "sec-intro",
+    "title": "Introduction and Review Scope",
+    "objective": "Establish the review motivation, scope, and the evidence base that the selected structure will organize.",
+    "gap_inputs": [],
+    "matrix_row_count": 0
+  },
+  {
+    "section_id": "sec-method-taxonomy",
+    "title": "Method Taxonomy and Representational Families",
+    "objective": "Organize the review around methodological families and clarify how the dominant approaches differ in assumptions, strengths, and limitations.",
+    "gap_inputs": [],
+    "matrix_row_count": 0
+  },
+  {
+    "section_id": "sec-method-taxonomy-comparison",
+    "title": "Comparative Method Evidence and Tradeoffs",
+    "objective": "Compare the strongest method themes, emphasizing where methodological choices shape claims, coverage, and interpretability.",
+    "gap_inputs": [],
+    "matrix_row_count": 0
+  },
+  {
+    "section_id": "sec-conclusion",
+    "title": "Conclusion",
+    "objective": "Summarize the selected taxonomy, the strongest synthesis themes, and the main future directions implied by the evidence base.",
+    "gap_inputs": [],
+    "matrix_row_count": 0
+  }
+]

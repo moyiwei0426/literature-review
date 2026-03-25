@@ -1,0 +1,44 @@
+[
+  {
+    "paper_id": "08_2016_zhou_aap",
+    "title": "An extension of the theory of planned behavior to predict pedestrians' violating crossing behavior using structural equation modeling",
+    "year": 2016,
+    "venue": "Accident Analysis and Prevention",
+    "authors": [
+      "Hongmei Zhou",
+      "Stephanie Ballon Romero",
+      "Xiao Qin"
+    ],
+    "methods": [
+      "Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) extension"
+    ],
+    "tasks": [
+      "Predict pedestrians' violating road-crossing behavior intentions"
+    ],
+    "datasets": [
+      "Survey data from 260 respondents in Dalian, China"
+    ],
+    "metrics": [
+      "Cronbach's alpha (reliability)",
+      "Confirmatory Factor Analysis (validity)",
+      "CMIN/df ratio",
+      "RMSEA",
+      "PCLOSE",
+      "CFI"
+    ],
+    "claim_count": 5,
+    "claims": [
+      "Instrumental attitude was a significant predictor of pedestrian violating crossing behavior intention across all four models tested",
+      "Descriptive norm was a stronger predictor than subjective norm, and when descriptive norm was added to the model, subjective norm became non-significant",
+      "Conformity tendency was a significant predictor in Model 4, indicating that pedestrians are more likely to cross against traffic lights when they observe others doing so"
+    ],
+    "gap_matches": [],
+    "evidence_chunk_ids": [
+      "0d54f955-50a1-478a-9c03-91f2b9901526",
+      "29349915-0163-431d-ad2d-b33ddf1f3e26",
+      "8e693f48-6f5a-446c-a195-88677df2ac87",
+      "b0a5af8b-15e4-47b9-8894-d1a171726086",
+      "669beeb2-0faf-407a-aef2-6df35d4e5773"
+    ]
+  }
+]

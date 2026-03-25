@@ -1,0 +1,87 @@
+[
+  {
+    "section_id": "sec-intro",
+    "title": "Introduction and Research Context",
+    "text": "This review synthesizes evidence from 13 papers addressing lane_formation_reproduction; Pedestrian traffic light scheduling; gap_acceptance_prediction, drawn from the automated literature review domain. Systems examined employ diverse methodological families, including physical_based_microscopic_simulation; Agent-based modeling / Microscopic traffic simulation / Discrete choice model; cellular_automaton. The review structures findings around 56 discrete claims, organized into a comparative matrix that highlights where methods converge, diverge, or lack sufficient evaluation evidence. The objective is to move beyond siloed paper summaries toward a structured understanding of the current state, open problems, and underexplored regions of the literature.",
+    "citation_keys": [
+      "a45a7953-fda1-43b2-bf0f-14348a9c1269",
+      "a45a7953-fda1-43b2-bf0f-14348a9c1269",
+      "a45a7953-fda1-43b2-bf0f-14348a9c1269"
+    ],
+    "_citation_scores": {
+      "a45a7953-fda1-43b2-bf0f-14348a9c1269": 6.5
+    }
+  },
+  {
+    "section_id": "sec-methods",
+    "title": "Methodological Approaches",
+    "text": "physical_based_microscopic_simulation systems make claims including: The microscopic pedestrian simulation model based on physical forces can effectively evaluate pedestrian policies quantitatively before implementation; Lane-like segregation policy produces higher average walking speed than mix-lane policy, with speed difference increasing with pedestrian density. Agent-based modeling / Microscopic traffic simulation / Discrete choice model systems make claims including: The Intend-Wait-Cross model generates diverse pedestrian behaviors by incorporating individual characteristics (type, trait, law obedience, gap acceptance, crossing pattern, perceptual noise) that are motivated by traffic behavior research.; The dynamic TTC computation with adjustment for pedestrian travel time and vehicle length (Dynamic+adj) nearly eliminates vehicle-pedestrian collisions (0.0-0.4 collisions) across light, medium, and heavy traffic conditions, compared to 3.2-7.0 collisions with constant and average methods.. cellular_automaton systems make claims including: The stochastic cellular automaton model successfully reproduces the characteristic shape of the fundamental diagram of pedestrian dynamics with vmax = 4 (3) speed characteristic; The model reproduces self-organizing behaviors including lane formation in counter-flow scenarios through the dynamic motion field component. discrete_choice_modeling_virtual_reality_simulation systems make claims including: Distracted pedestrians have significantly lower PET measures and higher crossing speeds, resulting in more dangerous crossings compared to non-distracted pedestrians; The smart LED flashing and color-changing lights installed on crosswalks improve pedestrian safety by increasing PET measures by 13% and improving the successful crossing rate by 7.4% compared to the untreated distracted condition. Machine learning - Logistic Regression, Support-Vector Machine (SVM), Random Forest (RF), Multilayer Perceptron (MLP) neural network systems make claims including: The proposed MLP model improves crossing decision prediction accuracy by 4.46% and F1 score by 3.23% compared to logistic regression baseline; The RF model reduces CIT prediction RMSE by 21.56% compared to linear regression baseline.",
+    "citation_keys": [
+      "ce9d4338-bc4c-4198-a870-de2dcefcebcc",
+      "ef79e9ed-89e0-478d-8a69-edef78facefd"
+    ],
+    "_citation_scores": {
+      "ce9d4338-bc4c-4198-a870-de2dcefcebcc": 3.0,
+      "ef79e9ed-89e0-478d-8a69-edef78facefd": 1.5,
+      "18f983fc-557e-4ff3-8dbb-5e62228813a4": 1.5
+    }
+  },
+  {
+    "section_id": "sec-tasks",
+    "title": "Task Scope and System Capabilities",
+    "text": "Covered task types include lane_formation_reproduction; Pedestrian traffic light scheduling; gap_acceptance_prediction; Traffic simulation for autonomous driving applications; Density-speed relationship analysis (fundamental diagram). Performance claims vary significantly across task categories, with metric reporting most complete for lane_formation_reproduction.",
+    "citation_keys": [
+      "a45a7953-fda1-43b2-bf0f-14348a9c1269",
+      "a45a7953-fda1-43b2-bf0f-14348a9c1269",
+      "a45a7953-fda1-43b2-bf0f-14348a9c1269"
+    ],
+    "_citation_scores": {
+      "a45a7953-fda1-43b2-bf0f-14348a9c1269": 6.5
+    }
+  },
+  {
+    "section_id": "sec-claims",
+    "title": "Claim Synthesis and Cross-Paper Comparability",
+    "text": "Reported metrics include: number_of_pedestrian_violations_persons_per_hour; volume_capacity_ratio; vehicle_queue_length_meters; traffic_flow_delay_seconds_per_vehicle; restrictive_signal_duration_seconds; number_of_pedestrian_violations_persons_per_hour; volume_capacity_ratio; vehicle_queue_length_meters; traffic_flow_delay_seconds_per_vehicle; restrictive_signal_duration_seconds; number_of_pedestrian_violations_persons_per_hour; volume_capacity_ratio; vehicle_queue_length_meters; traffic_flow_delay_seconds_per_vehicle; restrictive_signal_duration_seconds; number_of_pedestrian_violations_persons_per_hour; volume_capacity_ratio; vehicle_queue_length_meters; traffic_flow_delay_seconds_per_vehicle; restrictive_signal_duration_seconds. Metric reporting practices vary considerably across papers, making direct cross-study comparison difficult in several cases.",
+    "citation_keys": [
+      "883e1270-f0be-4a51-9791-9362b65a5ae8",
+      "883e1270-f0be-4a51-9791-9362b65a5ae8"
+    ],
+    "_citation_scores": {
+      "883e1270-f0be-4a51-9791-9362b65a5ae8": 11.5
+    }
+  },
+  {
+    "section_id": "sec-gaps",
+    "title": "Research Gaps and Opportunities",
+    "text": "The following gaps have been verified through the evidence matrix:\n\nGap [7c3ac66f-4bf6-4237-b385-ea37606c75ed] (medium severity): Current coverage appears to underrepresent Chinese-language or Chinese-context studies.\nGap [23e51c49-2b7d-4acc-89f3-db43626d66b9] (medium severity): There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.",
+    "citation_keys": [
+      "883e1270-f0be-4a51-9791-9362b65a5ae8",
+      "ef79e9ed-89e0-478d-8a69-edef78facefd"
+    ],
+    "_citation_scores": {
+      "883e1270-f0be-4a51-9791-9362b65a5ae8": 14.5,
+      "ef79e9ed-89e0-478d-8a69-edef78facefd": 9.0
+    }
+  },
+  {
+    "section_id": "sec-discussion",
+    "title": "Discussion: Synthesis and Future Directions",
+    "text": "Cross-paper claim synthesis reveals areas of convergence and divergence. Selected claims from the matrix: a45a7953-fda1-43b2-bf0f-14348a9c1269: Intersections should be classified into three types based on location characteri; a45a7953-fda1-43b2-bf0f-14348a9c1269: The smallest number of pedestrian violations occurs with restrictive signal dura; a45a7953-fda1-43b2-bf0f-14348a9c1269: The maximum vehicle queue length varies significantly by intersection type, reac.",
+    "citation_keys": [
+      "a45a7953-fda1-43b2-bf0f-14348a9c1269",
+      "a45a7953-fda1-43b2-bf0f-14348a9c1269"
+    ],
+    "_citation_scores": {
+      "a45a7953-fda1-43b2-bf0f-14348a9c1269": 13.0
+    }
+  },
+  {
+    "section_id": "sec-conclusion",
+    "title": "Conclusion",
+    "text": "This review has examined 13 papers covering lane_formation_reproduction; Pedestrian traffic light scheduling; gap_acceptance_prediction using physical_based_microscopic_simulation; Agent-based modeling / Microscopic traffic simulation / Discrete choice model; cellular_automaton. Key gaps identified include: [7c3ac66f-4bf6-4237-b385-ea37606c75ed] Current coverage appears to underrepresent Chinese-language or Chinese-context studies. [23e51c49-2b7d-4acc-89f3-db43626d66b9] There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.. Future research directions emerging from this analysis include addressing metric standardization, expanding linguistic coverage, and resolving conflicting performance claims through rigorous comparative evaluation.",
+    "citation_keys": [
+      "a45a7953-fda1-43b2-bf0f-14348a9c1269"
+    ]
+  }
+]

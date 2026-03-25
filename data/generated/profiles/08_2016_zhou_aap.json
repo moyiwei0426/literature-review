@@ -1,0 +1,121 @@
+{
+  "paper_id": "08_2016_zhou_aap",
+  "title": "An extension of the theory of planned behavior to predict pedestrians' violating crossing behavior using structural equation modeling",
+  "authors": [
+    "Hongmei Zhou",
+    "Stephanie Ballon Romero",
+    "Xiao Qin"
+  ],
+  "year": 2016,
+  "venue": "Accident Analysis and Prevention",
+  "research_problem": "This paper examines pedestrians' self-reported violating crossing behavior intentions by applying the Theory of Planned Behavior (TPB). The study extends TPB by adding new factors including descriptive norm, perceived risk and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions. The survey used a scenario where pedestrians crossed the road violating pedestrian lights at an intersection in Dalian, China.",
+  "problem_type": "Behavioral prediction",
+  "domain": "Transportation safety / Traffic psychology",
+  "language_scope": "English",
+  "method_summary": "The study used a questionnaire with scenario-based items about pedestrians crossing the road violating pedestrian lights at an intersection. Survey was conducted in Dalian, China with 260 complete and valid responses. Data was analyzed using Structural Equation Modeling (SEM) with maximum likelihood estimation. Seven constructs were measured: behavioral intention, instrumental attitude, subjective norm, perceived behavioral control, descriptive norm, perceived risk, and conformity tendency.",
+  "method_family": [
+    "Survey-based Structural Equation Modeling (SEM)"
+  ],
+  "datasets": [
+    "Survey data from 260 respondents in Dalian, China"
+  ],
+  "tasks": [
+    "Predicting pedestrian violating crossing behavior intentions"
+  ],
+  "metrics": [
+    "CMIN/df ratio",
+    "RMSEA (Root Mean Square Error of Approximation)",
+    "PCLOS E (p-value for RMSEA)",
+    "CFI (Comparative Fit Index)",
+    "Regression weights",
+    "Cronbach's alpha for reliability"
+  ],
+  "baselines": [
+    "Basic TPB model (Model 1) - containing instrumental attitude, subjective norm, and perceived behavioral control"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "Instrumental attitude was significant in all four models, indicating pedestrians are willing to take risks to cross the road if this behavior is associated with meaningful benefits like saving time or providing convenience",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "13e19023-2964-49ca-a03e-5aaf15e3a9fb",
+        "2dd6ac08-0a3c-4f71-8f1f-5e8beac71f3e"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "Model 4 (containing instrumental attitude, descriptive norm, and conformity tendency) provided the best predictive utility with the best goodness of fit (CFI=0.996, CMIN/DF=1.235, RMSEA=0.030)",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "5fdcda7c-f1f3-4eaa-97bb-20feed7568bf"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "Descriptive norm appeared to be a stronger predictor than subjective norm - pedestrians' observations of family and friends' actual behavior had greater influence than perceived approval from them",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "1dce0705-5b85-41f0-aff3-4ee3d9741cf0"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "Conformity tendency was a strong predictor of violating crossing behavior - the presence of other pedestrians would influence behavioral intention",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "2dd6ac08-0a3c-4f71-8f1f-5e8beac71f3e",
+        "49207d79-f5fc-4363-9f07-ece3d8f54330"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-5",
+      "claim_text": "Subjective norm was significant in Model 1 (basic TPB) but became insignificant after descriptive norm was added to the model due to high correlation between the two constructs",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "1dce0705-5b85-41f0-aff3-4ee3d9741cf0"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Relatively small number of items in each construct to maintain internal reliability of the data could affect the results",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "5a223128-f7fe-47d2-95c3-3f21ea14a9e2"
+      ]
+    },
+    {
+      "text": "Bias of reported behavior, especially negative behavior, as actual behavior was not observed for comparison or validation",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "5a223128-f7fe-47d2-95c3-3f21ea14a9e2"
+      ]
+    },
+    {
+      "text": "Perceived behavioral control was not significant - this may be because the scenario did not represent a sufficiently challenging situation; results might differ with more risky scenarios",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "0460fcc6-b0c2-4df4-97bd-658f9a4a3eb2"
+      ]
+    },
+    {
+      "text": "Perceived risk was not a significant predictor - pedestrians may not adequately perceive the susceptibility and seriousness of the risk pertaining to such violations",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "0460fcc6-b0c2-4df4-97bd-658f9a4a3eb2"
+      ]
+    }
+  ],
+  "future_work": [
+    "Increase the number of items in each construct to improve construct validity",
+    "Investigate effects of perceived behavioral control under scenarios representing different levels of difficulty (e.g., wider roads, higher speed traffic)",
+    "Observe actual behavior for comparison or validation with self-reported behavior"
+  ],
+  "notes": "The study was supported by the Fundamental Research Funds for the Central Universities of China (Grant No. DUT14RW132) and the National Natural Science Foundation of China (Grant No. 51308092). The survey was conducted in Dalian, China with 260 respondents; 57.3% female, 49.2% aged 18-24 years, 58.5% with undergraduate degree."
+}

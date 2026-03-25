@@ -1,0 +1,11 @@
+[
+  {
+    "claim_id": "c1",
+    "claim_text": "Crossing behavior varies by traffic context.",
+    "claim_type": "application",
+    "evidence_chunk_ids": [
+      "01_2001_hamed_safety_science-c1"
+    ],
+    "confidence": 0.8
+  }
+]

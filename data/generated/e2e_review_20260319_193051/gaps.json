@@ -1,0 +1,36 @@
+[
+  {
+    "gap_id": "37b68705-6b07-4780-9c7d-2b1da20a0750",
+    "gap_statement": "Current coverage appears to underrepresent Chinese-language or Chinese-context studies.",
+    "gap_type": "language",
+    "supporting_evidence": [
+      "language_distribution={'English (scientific documents)': 1}",
+      "chinese_coverage_count=0"
+    ],
+    "counter_evidence": [
+      "Only 1 paper in entire coverage - cannot establish 'underrepresentation' vs 'no representation'",
+      "Coverage appears to be a single-study review rather than a comprehensive literature survey"
+    ],
+    "confidence": 0.5,
+    "novelty_value": 0.7,
+    "review_worthiness": 0.58,
+    "status": "rejected"
+  },
+  {
+    "gap_id": "72695c62-fa5c-43b0-b136-8baa0d29182d",
+    "gap_statement": "There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.",
+    "gap_type": "comparison",
+    "supporting_evidence": [
+      "contradiction_count=2"
+    ],
+    "counter_evidence": [
+      "All 4 claims (claim-1 through claim-4) originate from the same single paper (paper_id: a0f14952-bf4a-4939-b435-86355649476f)",
+      "No cross-paper comparisons exist in the matrix - only one paper is covered",
+      "Apparent 'contradictions' are within-paper interpretive differences (e.g., 'all approaches satisfactory' vs 'LLM outperforms'), not inter-paper conflicts"
+    ],
+    "confidence": 0.15,
+    "novelty_value": 0.6,
+    "review_worthiness": 0.33,
+    "status": "rejected"
+  }
+]

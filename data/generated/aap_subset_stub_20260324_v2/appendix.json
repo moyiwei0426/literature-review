@@ -1,0 +1,167 @@
+{
+  "title": "Appendix",
+  "summary": {
+    "paper_count": 4,
+    "row_count": 8,
+    "verified_gap_count": 1,
+    "dominant_axis": "factor",
+    "top_methods": [
+      "pipeline",
+      "llm-assisted-extraction"
+    ],
+    "top_tasks": [
+      "literature review",
+      "information extraction"
+    ],
+    "top_datasets": [],
+    "narrative": [
+      "The appendix records 4 papers and 8 matrix rows used to generate the review synthesis.",
+      "The most visible methodological families are pipeline, llm-assisted-extraction, while recurring tasks include literature review, information extraction.",
+      "Verified gaps are indexed separately so readers can trace which evidence clusters remain unresolved before moving to the main conclusion."
+    ]
+  },
+  "evidence_table": [
+    {
+      "paper_id": "09_2018_jiang_aap",
+      "title": "c Highway Safety Research Center, University of North Carolina, 730 Martin Luther King Jr Blvd, Suite 300, Chapel Hill, NC, 27599-3430, United States",
+      "year": 2018,
+      "venue": "aap",
+      "authors": [
+        "Jiang"
+      ],
+      "methods": [
+        "pipeline",
+        "llm-assisted-extraction"
+      ],
+      "tasks": [
+        "literature review",
+        "information extraction"
+      ],
+      "datasets": [],
+      "metrics": [],
+      "claim_count": 2,
+      "claims": [
+        "The pipeline can transform parsed paper chunks into a structured paper profile.",
+        "The system supports downstream gap analysis by preserving evidence links."
+      ],
+      "gap_matches": [
+        "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062"
+      ],
+      "evidence_chunk_ids": [
+        "ecd81ff3-bda8-4488-ac52-6ceae89ea787",
+        "43f432a9-b2b4-49b6-be94-dc247cac3cd0"
+      ]
+    },
+    {
+      "paper_id": "17_2017_chen_aap",
+      "title": "b Qatar Transportation and Traﬃc Safety Center, College of Engineering, Qatar University, P.O. Box 2713, Doha, Qatar",
+      "year": 2017,
+      "venue": "aap",
+      "authors": [
+        "Chen"
+      ],
+      "methods": [
+        "pipeline",
+        "llm-assisted-extraction"
+      ],
+      "tasks": [
+        "literature review",
+        "information extraction"
+      ],
+      "datasets": [],
+      "metrics": [],
+      "claim_count": 2,
+      "claims": [
+        "The pipeline can transform parsed paper chunks into a structured paper profile.",
+        "The system supports downstream gap analysis by preserving evidence links."
+      ],
+      "gap_matches": [
+        "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062"
+      ],
+      "evidence_chunk_ids": [
+        "2859cf35-ee96-41eb-a56d-ecbce64d5ab0",
+        "e367adce-b797-4294-bbfd-7818addbeae0"
+      ]
+    },
+    {
+      "paper_id": "08_2016_zhou_aap",
+      "title": "b Civil and Environmental Engineering, University of Wisconsin-Milwaukee, Milwaukee, WI 53201-0784, United States",
+      "year": 2016,
+      "venue": "aap",
+      "authors": [
+        "Zhou"
+      ],
+      "methods": [
+        "pipeline",
+        "llm-assisted-extraction"
+      ],
+      "tasks": [
+        "literature review",
+        "information extraction"
+      ],
+      "datasets": [],
+      "metrics": [],
+      "claim_count": 2,
+      "claims": [
+        "The pipeline can transform parsed paper chunks into a structured paper profile.",
+        "The system supports downstream gap analysis by preserving evidence links."
+      ],
+      "gap_matches": [
+        "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062"
+      ],
+      "evidence_chunk_ids": [
+        "c5c716a5-099e-4612-a618-d1a48f21fd8f",
+        "98564ef8-a79d-448d-bd04-2c937576bdd1"
+      ]
+    },
+    {
+      "paper_id": "12_2016_zhang_aap",
+      "title": "Untitled",
+      "year": 2016,
+      "venue": "aap",
+      "authors": [
+        "Zhang"
+      ],
+      "methods": [
+        "pipeline",
+        "llm-assisted-extraction"
+      ],
+      "tasks": [
+        "literature review",
+        "information extraction"
+      ],
+      "datasets": [],
+      "metrics": [],
+      "claim_count": 2,
+      "claims": [
+        "The pipeline can transform parsed paper chunks into a structured paper profile.",
+        "The system supports downstream gap analysis by preserving evidence links."
+      ],
+      "gap_matches": [
+        "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062"
+      ],
+      "evidence_chunk_ids": [
+        "682301ea-3a18-435c-8fb3-c0163aefa039",
+        "f11f3b3e-b42a-461e-93e3-cc5e53bc69de"
+      ]
+    }
+  ],
+  "gap_index": [
+    {
+      "gap_id": "7ab6b5d7-2d73-41c9-a1c5-c2372ca23062",
+      "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+      "severity": null,
+      "supporting_paper_ids": [
+        "08_2016_zhou_aap",
+        "08_2016_zhou_aap",
+        "09_2018_jiang_aap",
+        "09_2018_jiang_aap",
+        "12_2016_zhang_aap",
+        "12_2016_zhang_aap",
+        "17_2017_chen_aap",
+        "17_2017_chen_aap"
+      ],
+      "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "task_groups": {
+    "Predicting pedestrians' violating road-crossing behavior intentions": [
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-1",
+        "claim_text": "Instrumental attitude was a significant predictor of pedestrians' violating crossing behavior intention across all four models tested",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-2",
+        "claim_text": "When descriptive norm was added to the model, subjective norm became insignificant while descriptive norm emerged as a stronger predictor, indicating that pedestrians' observations of family and friends' behavior had greater influence than perceived approval from them",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-3",
+        "claim_text": "Conformity tendency was a strong predictor of violating crossing behavior, indicating that the presence of other pedestrians influences behavioral intention",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-4",
+        "claim_text": "Perceived behavioral control was not a significant predictor in any model, suggesting that the violating crossing behavior was not perceived as challenging by respondents",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-5",
+        "claim_text": "Perceived risk was not a significant predictor, indicating that pedestrians may fail to realize or adequately perceive the danger of violating crossing behavior",
+        "claim_type": "performance"
+      }
+    ],
+    "pedestrian_crossing_behavior": [
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-1",
+        "claim_text": "Text distraction causes the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction and music distraction, with text distraction significantly affecting all three crossing behavior variables and five visual attention variables",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-2",
+        "claim_text": "Music distraction increases pedestrian pupil diameter and reduces scanning frequency as well as fixation points and fixation times toward traffic signal area priority, indicating cognitive load without extreme behavioral impairment",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-3",
+        "claim_text": "Pedestrians distracted by phone conversation cross the street more slowly, direct fewer fixation points to the right traffic area, and spend less fixation time and lower average fixation duration on the left traffic area",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-4",
+        "claim_text": "Text distraction causes pedestrians to look left and right less often and switch, distribute and maintain less visual attention on the traffic environment across all areas of interest",
+        "claim_type": "performance"
+      }
+    ],
+    "visual_attention_allocation": [
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-1",
+        "claim_text": "Text distraction causes the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction and music distraction, with text distraction significantly affecting all three crossing behavior variables and five visual attention variables",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-2",
+        "claim_text": "Music distraction increases pedestrian pupil diameter and reduces scanning frequency as well as fixation points and fixation times toward traffic signal area priority, indicating cognitive load without extreme behavioral impairment",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-3",
+        "claim_text": "Pedestrians distracted by phone conversation cross the street more slowly, direct fewer fixation points to the right traffic area, and spend less fixation time and lower average fixation duration on the left traffic area",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-4",
+        "claim_text": "Text distraction causes pedestrians to look left and right less often and switch, distribute and maintain less visual attention on the traffic environment across all areas of interest",
+        "claim_type": "performance"
+      }
+    ]
+  },
+  "normalized_task_groups": [
+    {
+      "tasks": [
+        "Predicting pedestrians' violating road-crossing behavior intentions"
+      ],
+      "paper_count": 1,
+      "claims": [
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-1",
+          "claim_text": "Instrumental attitude was a significant predictor of pedestrians' violating crossing behavior intention across all four models tested",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-2",
+          "claim_text": "When descriptive norm was added to the model, subjective norm became insignificant while descriptive norm emerged as a stronger predictor, indicating that pedestrians' observations of family and friends' behavior had greater influence than perceived approval from them",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-3",
+          "claim_text": "Conformity tendency was a strong predictor of violating crossing behavior, indicating that the presence of other pedestrians influences behavioral intention",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-4",
+          "claim_text": "Perceived behavioral control was not a significant predictor in any model, suggesting that the violating crossing behavior was not perceived as challenging by respondents",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-5",
+          "claim_text": "Perceived risk was not a significant predictor, indicating that pedestrians may fail to realize or adequately perceive the danger of violating crossing behavior",
+          "claim_type": "performance"
+        }
+      ],
+      "has_conflict": false
+    },
+    {
+      "tasks": [
+        "pedestrian_crossing_behavior"
+      ],
+      "paper_count": 1,
+      "claims": [
+        {
+          "paper_id": "09_2018_jiang_aap",
+          "claim_id": "claim-1",
+          "claim_text": "Text distraction causes the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction and music distraction, with text distraction significantly affecting all three crossing behavior variables and five visual attention variables",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "09_2018_jiang_aap",
+          "claim_id": "claim-2",
+          "claim_text": "Music distraction increases pedestrian pupil diameter and reduces scanning frequency as well as fixation points and fixation times toward traffic signal area priority, indicating cognitive load without extreme behavioral impairment",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "09_2018_jiang_aap",
+          "claim_id": "claim-3",
+          "claim_text": "Pedestrians distracted by phone conversation cross the street more slowly, direct fewer fixation points to the right traffic area, and spend less fixation time and lower average fixation duration on the left traffic area",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "09_2018_jiang_aap",
+          "claim_id": "claim-4",
+          "claim_text": "Text distraction causes pedestrians to look left and right less often and switch, distribute and maintain less visual attention on the traffic environment across all areas of interest",
+          "claim_type": "performance"
+        }
+      ],
+      "has_conflict": false
+    },
+    {
+      "tasks": [
+        "visual_attention_allocation"
+      ],
+      "paper_count": 1,
+      "claims": [
+        {
+          "paper_id": "09_2018_jiang_aap",
+          "claim_id": "claim-1",
+          "claim_text": "Text distraction causes the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction and music distraction, with text distraction significantly affecting all three crossing behavior variables and five visual attention variables",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "09_2018_jiang_aap",
+          "claim_id": "claim-2",
+          "claim_text": "Music distraction increases pedestrian pupil diameter and reduces scanning frequency as well as fixation points and fixation times toward traffic signal area priority, indicating cognitive load without extreme behavioral impairment",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "09_2018_jiang_aap",
+          "claim_id": "claim-3",
+          "claim_text": "Pedestrians distracted by phone conversation cross the street more slowly, direct fewer fixation points to the right traffic area, and spend less fixation time and lower average fixation duration on the left traffic area",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "09_2018_jiang_aap",
+          "claim_id": "claim-4",
+          "claim_text": "Text distraction causes pedestrians to look left and right less often and switch, distribute and maintain less visual attention on the traffic environment across all areas of interest",
+          "claim_type": "performance"
+        }
+      ],
+      "has_conflict": false
+    }
+  ],
+  "contradictions": [],
+  "contradiction_count": 0
+}

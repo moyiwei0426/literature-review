@@ -1,0 +1,19 @@
+{
+  "title": "AAP live one-paper",
+  "paper_count": 1,
+  "matrix_row_count": 5,
+  "dominant_axis": "factor structure",
+  "top_themes": [
+    "Survey data from 260 respondents in Dalian, China",
+    "behavioral factors",
+    "demographic factors"
+  ],
+  "top_methods": [
+    "Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) extension"
+  ],
+  "top_tasks": [
+    "Predict pedestrians' violating road-crossing behavior intentions"
+  ],
+  "verified_gap_count": 0,
+  "text": "AAP live one-paper synthesizes 1 papers across 5 evidence rows using factor structure as the main organizing lens. The synthesis is concentrated in Survey data from 260 respondents in Dalian, China, behavioral factors, with recurring methods such as Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) extension and task coverage centered on Predict pedestrians' violating road-crossing behavior intentions. Across 1 papers, the evidence is most coherently organized around factor structure rather than any single method, and the strongest clusters are Survey data from 260 respondents in Dalian, China, behavioral factors, demographic factors. Future work should prioritize standardized reporting and more explicit cross-study comparison."
+}

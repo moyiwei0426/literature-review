@@ -1,0 +1,110 @@
+{
+  "paper_id": "06_2013_brosseau_trf",
+  "title": "Untitled",
+  "research_problem": "Developing a pedestrian microsimulation model for Chinese cities that accurately represents the high rate of signal non-compliance (red light running) and mixed traffic characteristics, as existing foreign micro-simulation tools (CORSIM, SIMTRAFFIC) fail to capture Chinese traffic conditions due to different behavioral patterns",
+  "problem_type": "empirical_modeling_microsimulation",
+  "domain": "transportation_traffic_engineering",
+  "language_scope": "english",
+  "method_summary": "A pedestrian microsimulation model that classifies pedestrians into two types (law-obeying Type I and opportunistic Type II), uses questionnaires (495 respondents in Xi'an) to determine proportions and external factor influences, and extracts time gap distribution (DT) from videotape data (989 samples) to calibrate the critical gap acceptance criterion for pedestrian crossing decisions",
+  "method_family": [
+    "microsimulation_agent_based_modeling"
+  ],
+  "datasets": [
+    "Questionnaire data from 495 respondents in Xi'an (November 2003)",
+    "Videotape data from zebra crossing outside Southeast Gate of Xi'an Jiaotong University (989 samples)"
+  ],
+  "tasks": [
+    "pedestrian_road_crossing_behavior_simulation",
+    "modeling_red_light_violation",
+    "gap_acceptance_modeling"
+  ],
+  "metrics": [
+    "proportion_of_red_light_jumpers",
+    "proportion_of_violation_followers",
+    "distribution_of_pedestrian_arriving_intervals"
+  ],
+  "baselines": [
+    "CORSIM_and_SIMTRAFFIC (mentioned as not suitable for Chinese conditions)",
+    "General cellular automata models",
+    "Social force models"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "The developed model successfully represents the high rate of pedestrian red light running (45-83% violation rate) and mixed traffic characteristics in Chinese cities",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "8433c3aa-1804-41df-9de7-db2e6f0b0840",
+        "34ae3d4b-3ad8-4875-bf8b-fda66ebcf30e"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "Classifying pedestrians into law-obeying and opportunistic types with dynamic proportions based on external factors (policeman presence, other pedestrians' behavior, vehicle flow) improves simulation realism",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "6aaa57b4-e0a-446b-b85d-de8516041ccd",
+        "fdc044b9-144e-47f9-9bc6-8cae3f039f18"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "The time gap criterion (DT) for pedestrian crossing decisions can be effectively extracted from videotape data using the proposed calculation method",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "7b18efd8-4d64-4625-93e9-0fbe3ec2a9d6",
+        "5bfded74-acc6-4bcd-bdfc-3b07703fd688"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "After parameter adjustment based on analyzing deviations between initial simulation results and field data, the simulation results agree well with field observations (mean red light runner proportion: 0.82 simulation vs 0.85 videotape)",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "d581a7d5-c5b8-4d64-8689-098d02f043f9",
+        "669af9ac-9ed5-4b4a-8be7-8f171ae26973"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The model only considers pedestrian decision making based on instantaneous states of oncoming vehicles; does not account for vehicle state changes (acceleration/deceleration) during crossing",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "c687bd57-acff-493e-bcf5-1e720929990a"
+      ]
+    },
+    {
+      "text": "Questionnaire respondents may not represent all pedestrian populations; self-reported behavior may differ from actual behavior",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "669af9ac-9ed5-4b4a-8be7-8f171ae26973"
+      ]
+    },
+    {
+      "text": "The DT calculation method needs improvement for turning vehicles to make the model more practical",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "c687bd57-acff-493e-bcf5-1e720929990a"
+      ]
+    },
+    {
+      "text": "Pedestrians' estimation of vehicle velocity cannot be directly extracted from videotape, requiring use of instantaneous speed as approximation",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "5bfded74-acc6-4bcd-bdfc-3b07703fd688"
+      ]
+    }
+  ],
+  "future_work": [
+    "Extend model to handle pedestrian decision-making when oncoming vehicles change states (accelerate, decelerate)",
+    "Improve DT calculation method for turning vehicles",
+    "Validate model across multiple Chinese cities beyond Xi'an",
+    "Incorporate more sophisticated pedestrian following behavior dynamics"
+  ],
+  "notes": "Model parameters calibrated: r1=0.55 (proportion of law-obeying pedestrians), r2 adjusted from 0.69 to 0.35 based on validation; r3 derived from videotape gap acceptance data. Pedestrian average walking speed used: 1.2 m/s. Key finding: presence of other violating pedestrians has strong influence on signal non-compliance (30% report high/very high probability), while policeman presence has surprisingly low impact (only 2% high/very high)."
+}

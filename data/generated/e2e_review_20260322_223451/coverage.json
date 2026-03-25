@@ -1,0 +1,37 @@
+{
+  "paper_count": 3,
+  "method_family_distribution": {
+    "Virtual Reality Experiment, Randomized Complete Block Design": 1,
+    "binomial logistic regression": 1,
+    "Random parameter logit model (discrete choice model)": 1
+  },
+  "task_distribution": {
+    "Pedestrian crossing behavior at crosswalks with FAVs": 1,
+    "Feature preference evaluation": 1,
+    "Receptivity assessment toward autonomous vehicles": 1,
+    "analyze factors affecting pedestrian red-light running behavior at signalized intersections": 1,
+    "Pedestrian red light running violation prediction": 1,
+    "Factor analysis of pedestrian crossing behavior": 1
+  },
+  "language_distribution": {
+    "english": 3
+  },
+  "dataset_distribution": {
+    "N/A - primary experimental data collection": 1,
+    "631 valid survey samples from 6 signalized intersections in Hefei, China (May-June 2015)": 1,
+    "6320 pedestrians observed at 6 signalized crosswalks in Hong Kong": 1,
+    "652 signal cycles": 1,
+    "Six locations: Prince Edward Road West j/w Nathan Road, Argyle Street j/w Nathan Road, Argyle Street j/w Sai Yee Street, Tonkin Street j/w Shun Ning Road, Hung Hom South Road j/w Po loi Street, To Kwa Wan Road j/w Chi Kiang Street": 1
+  },
+  "year_distribution": {
+    "2018": 1,
+    "2016": 1,
+    "2020": 1
+  },
+  "chinese_coverage_count": 0,
+  "themes": [
+    "Virtual Reality Experiment, Randomized Complete Block Design",
+    "binomial logistic regression",
+    "Random parameter logit model (discrete choice model)"
+  ]
+}

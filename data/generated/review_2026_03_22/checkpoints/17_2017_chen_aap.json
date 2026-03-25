@@ -1,0 +1,121 @@
+{
+  "paper_id": "17_2017_chen_aap",
+  "title": "Untitled",
+  "research_problem": "Pedestrian safety at signalized intersections, specifically the challenge of modeling sudden speed changes (acceleration/deceleration) that pedestrians exhibit while crossing, which can lead to hazardous situations when drivers cannot anticipate these behavioral changes.",
+  "problem_type": "Predictive modeling",
+  "domain": "Transportation engineering / Traffic safety",
+  "language_scope": "English",
+  "method_summary": "The study develops a probabilistic discrete choice model to predict when pedestrians will change speed while crossing signalized crosswalks. The model uses stepwise speed functions to represent pedestrian speed profiles. It consists of two sub-models: (1) a speed change event choice model determining acceleration/deceleration probability based on necessary speed to complete crossing (Vnec), current speed, conflict area presence, and pedestrian flashing green (PFG) phase; (2) acceleration/deceleration magnitude sub-models using linear regression for acceleration and normal distribution for deceleration. Monte Carlo simulation is applied to generate complete pedestrian speed profiles.",
+  "method_family": [
+    "Discrete choice model (multinomial logit), Regression analysis, Monte Carlo simulation"
+  ],
+  "datasets": [
+    "Video data from 5 crosswalks at 3 intersections in Nagoya, Japan (Kanayama, Ueda, Fushimi)",
+    "Manual tracking using TrafficAnalyzer software at 0.5s intervals",
+    "4009 aggregated data samples (5s intervals)",
+    "Pedestrian demand: low-to-medium to minimize pedestrian-pedestrian interaction"
+  ],
+  "tasks": [
+    "Model pedestrian speed change events (acceleration/deceleration)",
+    "Predict timing and location of speed changes",
+    "Predict magnitude of speed changes",
+    "Safety assessment of pedestrian-vehicle conflicts using Post Encroachment Time (PET)"
+  ],
+  "metrics": [
+    "Modified ρ² = 0.431 for speed change event choice model",
+    "Modified R² = 0.765 for acceleration sub-model",
+    "Modified R² = 0.725 for deceleration sub-model",
+    "Crossing time distribution comparison",
+    "Vehicle yield rate",
+    "Post Encroachment Time (PET)"
+  ],
+  "baselines": [
+    "Constant speed model (assuming pedestrian maintains initial speed throughout crossing)"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "The proposed model can represent pedestrian travel time distribution more accurately than the constant speed model",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "c00319c3-2770-4012-9994-4ca7f001b57b"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "The difference between necessary speed to complete crossing (Vnec) and current speed, conflict area dummy, and PFG phase have significant impacts on acceleration/deceleration choices",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "3c2f231e-836b-4faf-9725-4847bdc57c69",
+        "f67f623c-af96-4590-8176-8992875650f3"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "The pedestrian speed change model provides significantly higher vehicle yield rates compared to constant speed assumptions when integrated with vehicle maneuver models",
+      "claim_type": "application",
+      "evidence_chunk_ids": [
+        "4dde5efc-deb7-4198-9ada-ff75d2e962ea"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "The PFG interval is critical for safety assessment as it determines high probability of pedestrian behavioral changes",
+      "claim_type": "theoretical",
+      "evidence_chunk_ids": [
+        "f797ee85-7c45-4d57-9c4a-1253e6f25a62",
+        "2dc7f21c-e711-446c-8508-7596f8fbc669"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Sample size limitation - data collected from only five sites, which may have prevented some variables (PG/PFG length, crosswalk length, elapsed time from PFG onset) from showing significance",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "0f70e02b-e67a-4b2d-a0fd-123661dd6bbd"
+      ]
+    },
+    {
+      "text": "The model tends to underestimate the probability of acceleration events (43.8% error in predicting actual acceleration events)",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "da60ffb1-cb0f-42e2-8890-fd7e9cf0d6ac"
+      ]
+    },
+    {
+      "text": "Pedestrian-pedestrian interaction not considered in the model due to low traffic volumes at study sites",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "62050de2-7f35-4b8e-b1ee-0f06dd29b465"
+      ]
+    },
+    {
+      "text": "Pedestrian characteristics such as age, gender, and distraction (e.g., smartphone use) were not considered despite their potential impact on behavior",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "5af20f16-d05a-4ca1-873e-0828ae71a603"
+      ]
+    },
+    {
+      "text": "The model does not capture real-time interaction between pedestrians and turning vehicles, only uses conflict area dummy variable",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "f67f623c-af96-4590-8176-8992875650f3"
+      ]
+    }
+  ],
+  "future_work": [
+    "Incorporate pedestrian characteristics (age, gender) into the model",
+    "Investigate impact of pedestrian distraction from mobile devices on crossing behavior",
+    "Improve accuracy of individual speed-change event detection",
+    "Integrate real-time vehicle detection information for better prediction",
+    "Apply advanced tracking techniques like laser scanning for higher precision data collection",
+    "Extend model to consider pedestrian-pedestrian interactions in higher demand conditions"
+  ],
+  "notes": "The study was conducted in Japan where pedestrian signals do not include countdown timers. The model was integrated with vehicle maneuver models to assess safety using PET (Post Encroachment Time). Key application areas include traffic simulation for safety assessment, real-time warning systems for vehicles, and development of avoidance maneuver modeling for autonomous vehicles."
+}

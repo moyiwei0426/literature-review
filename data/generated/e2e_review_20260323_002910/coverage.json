@@ -1,0 +1,27 @@
+{
+  "paper_count": 2,
+  "method_family_distribution": {
+    "Virtual Reality Experiment, Randomized Complete Block Design": 1,
+    "Binary logistic regression": 1
+  },
+  "task_distribution": {
+    "Walking across virtual crosswalk in front of FAV with external features": 1,
+    "Pedestrian red-light running behavior prediction": 1,
+    "Factor analysis of pedestrian crossing behavior": 1
+  },
+  "language_distribution": {
+    "english": 2
+  },
+  "dataset_distribution": {
+    "Hefei pedestrian survey data (631 valid samples, May-June 2015)": 1
+  },
+  "year_distribution": {
+    "2018": 1,
+    "2016": 1
+  },
+  "chinese_coverage_count": 1,
+  "themes": [
+    "Virtual Reality Experiment, Randomized Complete Block Design",
+    "Binary logistic regression"
+  ]
+}

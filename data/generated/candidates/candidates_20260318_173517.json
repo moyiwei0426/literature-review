@@ -1,0 +1,96 @@
+[
+  {
+    "source": "arxiv",
+    "source_id": "2411.18583v1",
+    "title": "Automated Literature Review Using NLP Techniques and LLM-Based Retrieval-Augmented Generation",
+    "authors": [
+      "Nurshat Fateh Ali",
+      "Md. Mahdi Mohtasim",
+      "Shakil Mosharrof",
+      "T. Gopi Krishna"
+    ],
+    "year": null,
+    "venue": null,
+    "doi": null,
+    "arxiv_id": "2411.18583v1",
+    "abstract": "This research presents and compares multiple approaches to automate the generation of literature reviews using several Natural Language Processing (NLP) techniques and retrieval-augmented generation (RAG) with a Large Language Model (LLM). The ever-increasing number of research articles provides a huge challenge for manual literature review. It has resulted in an increased demand for automation. Developing a system capable of automatically generating the literature reviews from only the PDF files as input is the primary objective of this research work. The effectiveness of several Natural Language Processing (NLP) strategies, such as the frequency-based method (spaCy), the transformer model (Simple T5), and retrieval-augmented generation (RAG) with Large Language Model (GPT-3.5-turbo), is evaluated to meet the primary objective. The SciTLDR dataset is chosen for this research experiment and three distinct techniques are utilized to implement three different systems for auto-generating the literature reviews. The ROUGE scores are used for the evaluation of all three systems. Based on the evaluation, the Large Language Model GPT-3.5-turbo achieved the highest ROUGE-1 score, 0.364. The transformer model comes in second place and spaCy is at the last position. Finally, a graphical user interface is created for the best system based on the large language model.",
+    "keywords": [],
+    "citation_count": null,
+    "references": [],
+    "related_urls": [],
+    "pdf_url": "https://arxiv.org/pdf/2411.18583v1",
+    "is_open_access": null,
+    "retrieval_query": "automated literature review llm",
+    "retrieval_score": null
+  },
+  {
+    "source": "arxiv",
+    "source_id": "2503.23249v1",
+    "title": "Context in object detection: a systematic literature review",
+    "authors": [
+      "Mahtab Jamali",
+      "Paul Davidsson",
+      "Reza Khoshkangini",
+      "Martin Georg Ljungqvist",
+      "Radu-Casian Mihailescu"
+    ],
+    "year": null,
+    "venue": null,
+    "doi": null,
+    "arxiv_id": "2503.23249v1",
+    "abstract": "Context is an important factor in computer vision as it offers valuable information to clarify and analyze visual data. Utilizing the contextual information inherent in an image or a video can improve the precision and effectiveness of object detectors. For example, where recognizing an isolated object might be challenging, context information can improve comprehension of the scene. This study explores the impact of various context-based approaches to object detection. Initially, we investigate the role of context in object detection and survey it from several perspectives. We then review and discuss the most recent context-based object detection approaches and compare them. Finally, we conclude by addressing research questions and identifying gaps for further studies. More than 265 publications are included in this survey, covering different aspects of context in different categories of object detection, including general object detection, video object detection, small object detection, camouflaged object detection, zero-shot, one-shot, and few-shot object detection. This literature review presents a comprehensive overview of the latest advancements in context-based object detection, providing valuable contributions such as a thorough understanding of contextual information and effective methods for integrating various context types into object detection, thus benefiting researchers.",
+    "keywords": [],
+    "citation_count": null,
+    "references": [],
+    "related_urls": [],
+    "pdf_url": "https://arxiv.org/pdf/2503.23249v1",
+    "is_open_access": null,
+    "retrieval_query": "automated literature review llm",
+    "retrieval_score": null
+  },
+  {
+    "source": "arxiv",
+    "source_id": "2308.02443v1",
+    "title": "AI Literature Review Suite",
+    "authors": [
+      "David A. Tovar"
+    ],
+    "year": null,
+    "venue": null,
+    "doi": null,
+    "arxiv_id": "2308.02443v1",
+    "abstract": "The process of conducting literature reviews is often time-consuming and labor-intensive. To streamline this process, I present an AI Literature Review Suite that integrates several functionalities to provide a comprehensive literature review. This tool leverages the power of open access science, large language models (LLMs) and natural language processing to enable the searching, downloading, and organizing of PDF files, as well as extracting content from articles. Semantic search queries are used for data retrieval, while text embeddings and summarization using LLMs present succinct literature reviews. Interaction with PDFs is enhanced through a user-friendly graphical user interface (GUI). The suite also features integrated programs for bibliographic organization, interaction and query, and literature review summaries. This tool presents a robust solution to automate and optimize the process of literature review in academic and industrial research.",
+    "keywords": [],
+    "citation_count": null,
+    "references": [],
+    "related_urls": [],
+    "pdf_url": "https://arxiv.org/pdf/2308.02443v1",
+    "is_open_access": null,
+    "retrieval_query": "automated literature review llm",
+    "retrieval_score": null
+  },
+  {
+    "source": "arxiv",
+    "source_id": "2204.03741v1",
+    "title": "Drivers' attention detection: a systematic literature review",
+    "authors": [
+      "Luiz G. Véras",
+      "Anna K. F. Gomes",
+      "Guilherme A. R. Dominguez",
+      "Alexandre T. Oliveira"
+    ],
+    "year": null,
+    "venue": null,
+    "doi": null,
+    "arxiv_id": "2204.03741v1",
+    "abstract": "Countless traffic accidents often occur because of the inattention of the drivers. Many factors can contribute to distractions while driving, since objects or events to physiological conditions, as drowsiness and fatigue, do not allow the driver to stay attentive. The technological progress allowed the development and application of many solutions to detect the attention in real situations, promoting the interest of the scientific community in these last years. Commonly, these solutions identify the lack of attention and alert the driver, in order to help her/him to recover the attention, avoiding serious accidents and preserving lives. Our work presents a Systematic Literature Review (SLR) of the methods and criteria used to detect attention of drivers at the wheel, focusing on those methods based on images. As results, 50 studies were selected from the literature on drivers' attention detection, in which 22 contain solutions in the desired context. The results of SLR can be used as a resource in the preparation of new research projects in drivers' attention detection.",
+    "keywords": [],
+    "citation_count": null,
+    "references": [],
+    "related_urls": [],
+    "pdf_url": "https://arxiv.org/pdf/2204.03741v1",
+    "is_open_access": null,
+    "retrieval_query": "automated literature review llm",
+    "retrieval_score": null
+  }
+]

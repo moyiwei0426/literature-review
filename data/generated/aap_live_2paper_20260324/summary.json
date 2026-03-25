@@ -1,0 +1,578 @@
+{
+  "status": "success",
+  "output_dir": "data/generated/aap_live_2paper_20260324",
+  "parsed": 2,
+  "extracted": 2,
+  "processing_errors": [],
+  "extraction_reports": [
+    {
+      "paper_id": "08_2016_zhou_aap",
+      "provider": "openai_compatible",
+      "model": "MiniMax-M2.5",
+      "latency_ms": 42948,
+      "usage": {
+        "total_tokens": 13241,
+        "total_characters": 0,
+        "prompt_tokens": 11453,
+        "completion_tokens": 1788,
+        "completion_tokens_details": {
+          "reasoning_tokens": 560
+        }
+      },
+      "chunk_count": 36,
+      "attempts": 1,
+      "recovered_after_retry": false,
+      "fallback_used": false
+    },
+    {
+      "paper_id": "09_2018_jiang_aap",
+      "provider": "openai_compatible",
+      "model": "MiniMax-M2.5",
+      "latency_ms": 71315,
+      "usage": {
+        "total_tokens": 17637,
+        "total_characters": 0,
+        "prompt_tokens": 15279,
+        "completion_tokens": 2358,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "chunk_count": 47,
+      "attempts": 1,
+      "recovered_after_retry": false,
+      "fallback_used": false
+    }
+  ],
+  "coverage": {
+    "paper_count": 2,
+    "method_family_distribution": {
+      "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB)": 1,
+      "Controlled laboratory experiment with eye-tracking": 1
+    },
+    "task_distribution": {
+      "Predicting pedestrian violating road-crossing behavior intentions": 1,
+      "Evaluating contribution of TPB components and extended factors": 1,
+      "Pedestrian street crossing under various mobile phone distraction conditions": 1
+    },
+    "language_distribution": {
+      "english": 2
+    },
+    "dataset_distribution": {
+      "Survey data from 260 respondents in Dalian, China (2015)": 1,
+      "N/A - experimental study with 28 participants": 1
+    },
+    "year_distribution": {
+      "2016": 1,
+      "2018": 1
+    },
+    "chinese_coverage_count": 2,
+    "themes": [
+      "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB)",
+      "Controlled laboratory experiment with eye-tracking"
+    ]
+  },
+  "matrix_rows": 10,
+  "contradictions": 0,
+  "gaps": {
+    "candidates": 0,
+    "verified": 0,
+    "scored": 0
+  },
+  "synthesis_map": {
+    "overview": {
+      "paper_count": 2,
+      "matrix_row_count": 10,
+      "verified_gap_count": 0,
+      "scored_gap_count": 0,
+      "rejected_gap_count": 0,
+      "contradiction_count": 0,
+      "dominant_axis": "factor",
+      "average_gap_score": 0.0,
+      "theme_counts": {
+        "method": 2,
+        "task": 3,
+        "factor": 6,
+        "application": 2
+      },
+      "coverage_themes": [
+        "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB)",
+        "Controlled laboratory experiment with eye-tracking"
+      ]
+    },
+    "theme_axes": {
+      "method": [
+        {
+          "theme_id": "method:controlled_laboratory_experiment_with_eye-tracking",
+          "theme_type": "method",
+          "label": "Controlled laboratory experiment with eye-tracking",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Controlled laboratory experiment with eye-tracking appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+          "theme_type": "method",
+          "label": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB)",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ],
+      "task": [
+        {
+          "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+          "theme_type": "task",
+          "label": "Evaluating contribution of TPB components and extended factors",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "task:pedestrian_street_crossing_under_various_mobile_phone_distraction_conditions",
+          "theme_type": "task",
+          "label": "Pedestrian street crossing under various mobile phone distraction conditions",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Pedestrian street crossing under various mobile phone distraction conditions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "task:predicting_pedestrian_violating_road-crossing_behavior_intentions",
+          "theme_type": "task",
+          "label": "Predicting pedestrian violating road-crossing behavior intentions",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Predicting pedestrian violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ],
+      "factor": [
+        {
+          "theme_id": "factor:behavioral_factors",
+          "theme_type": "factor",
+          "label": "behavioral_factors",
+          "evidence_count": 10,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 10.0,
+          "synthesis_note": "behavioral_factors appears in 10 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "factor:traffic_factors",
+          "theme_type": "factor",
+          "label": "traffic_factors",
+          "evidence_count": 10,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 10.0,
+          "synthesis_note": "traffic_factors appears in 10 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "factor:demographic_factors",
+          "theme_type": "factor",
+          "label": "demographic_factors",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "demographic_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "factor:design_factors",
+          "theme_type": "factor",
+          "label": "design_factors",
+          "evidence_count": 2,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 2.0,
+          "synthesis_note": "design_factors appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "factor:environmental_factors",
+          "theme_type": "factor",
+          "label": "environmental_factors",
+          "evidence_count": 1,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 1.0,
+          "synthesis_note": "environmental_factors appears in 1 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "factor:temporal_factors",
+          "theme_type": "factor",
+          "label": "temporal_factors",
+          "evidence_count": 1,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 1.0,
+          "synthesis_note": "temporal_factors appears in 1 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ],
+      "application": [
+        {
+          "theme_id": "application:n/a_-_experimental_study_with_28_participants",
+          "theme_type": "application",
+          "label": "N/A - experimental study with 28 participants",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "N/A - experimental study with 28 participants appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china_(2015)",
+          "theme_type": "application",
+          "label": "Survey data from 260 respondents in Dalian, China (2015)",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Survey data from 260 respondents in Dalian, China (2015) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ]
+    },
+    "top_themes": [
+      {
+        "theme_id": "factor:behavioral_factors",
+        "theme_type": "factor",
+        "label": "behavioral_factors",
+        "evidence_count": 10,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 10.0,
+        "synthesis_note": "behavioral_factors appears in 10 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:traffic_factors",
+        "theme_type": "factor",
+        "label": "traffic_factors",
+        "evidence_count": 10,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 10.0,
+        "synthesis_note": "traffic_factors appears in 10 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "application:n/a_-_experimental_study_with_28_participants",
+        "theme_type": "application",
+        "label": "N/A - experimental study with 28 participants",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "N/A - experimental study with 28 participants appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china_(2015)",
+        "theme_type": "application",
+        "label": "Survey data from 260 respondents in Dalian, China (2015)",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Survey data from 260 respondents in Dalian, China (2015) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:demographic_factors",
+        "theme_type": "factor",
+        "label": "demographic_factors",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "demographic_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "method:controlled_laboratory_experiment_with_eye-tracking",
+        "theme_type": "method",
+        "label": "Controlled laboratory experiment with eye-tracking",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Controlled laboratory experiment with eye-tracking appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+        "theme_type": "method",
+        "label": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB)",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+        "theme_type": "task",
+        "label": "Evaluating contribution of TPB components and extended factors",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ]
+  },
+  "organization": {
+    "recommended_structure": "factor_taxonomy",
+    "scores": {
+      "method_taxonomy": 2.6,
+      "task_taxonomy": 3.9,
+      "factor_taxonomy": 14.8,
+      "application_scenario": 2.8
+    },
+    "rationale": "Cross-paper factor signals are dense enough to support a variable-centered narrative.",
+    "signals": {
+      "method_theme_count": 2,
+      "task_theme_count": 3,
+      "factor_theme_count": 6,
+      "application_theme_count": 2,
+      "contradiction_count": 0,
+      "average_gap_score": 0.0
+    }
+  },
+  "abstract": {
+    "title": "AAP live two-paper",
+    "paper_count": 2,
+    "matrix_row_count": 10,
+    "dominant_axis": "factor structure",
+    "top_themes": [
+      "behavioral factors",
+      "traffic factors",
+      "N/A - experimental study with 28 participants"
+    ],
+    "top_methods": [
+      "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB)",
+      "Controlled laboratory experiment with eye-tracking"
+    ],
+    "top_tasks": [
+      "Predicting pedestrian violating road-crossing behavior intentions",
+      "Evaluating contribution of TPB components and extended factors",
+      "Pedestrian street crossing under various mobile phone distraction conditions"
+    ],
+    "verified_gap_count": 0,
+    "text": "AAP live two-paper synthesizes 2 papers across 10 evidence rows using factor structure as the main organizing lens. The synthesis is concentrated in behavioral factors, traffic factors, with recurring methods such as Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB), Controlled laboratory experiment with eye-tracking and task coverage centered on Predicting pedestrian violating road-crossing behavior intentions, Evaluating contribution of TPB components and extended factors. Across 2 papers, the evidence is most coherently organized around factor structure rather than any single method, and the strongest clusters are behavioral factors, traffic factors, N/A - experimental study with 28 participants. Future work should prioritize standardized reporting and more explicit cross-study comparison."
+  },
+  "keywords": {
+    "keywords": [
+      "predicting pedestrian violating road-crossing behavior intentions",
+      "evaluating contribution of tpb components and extended factors",
+      "pedestrian street crossing under various mobile phone distraction conditions",
+      "n/a - experimental study with 28 participants",
+      "survey data from 260 respondents in dalian, china (2015)",
+      "structural equation modeling (sem) based on theory of planned behavior (tpb)",
+      "controlled laboratory experiment with eye-tracking",
+      "this paper aimed to examine pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (tpb), extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions."
+    ],
+    "keyword_count": 8,
+    "dominant_axis": "factor taxonomy",
+    "signals": {
+      "predicting pedestrian violating road-crossing behavior intentions": 7.85,
+      "evaluating contribution of tpb components and extended factors": 7.85,
+      "pedestrian street crossing under various mobile phone distraction conditions": 7.85,
+      "n/a - experimental study with 28 participants": 7.6,
+      "survey data from 260 respondents in dalian, china (2015)": 7.6,
+      "structural equation modeling (sem) based on theory of planned behavior (tpb)": 7.1,
+      "controlled laboratory experiment with eye-tracking": 7.1,
+      "this paper aimed to examine pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (tpb), extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions.": 5.0,
+      "this study investigates how mobile phone distractions (music distraction, phone conversation distraction, and text distraction) affect the crossing behavior and visual attention allocation of pedestrians at a signalized intersection. the research addresses the growing concern about pedestrian safety as mobile phone usage while crossing has increased globally, with approximately one-third of pedestrians in china and 60% of adults in the us reportedly using mobile phones while crossing streets.": 5.0,
+      "cmin/df ratio": 4.5,
+      "rmsea (root mean square error of approximation)": 4.5,
+      "pclose": 4.5
+    }
+  },
+  "outline_sections": 8,
+  "bib_entries": 2,
+  "validation": {
+    "overall_status": "fail",
+    "section_count": 8,
+    "healthy_section_count": 0,
+    "weak_section_count": 8,
+    "finding_count": 32,
+    "severity_counts": {
+      "error": 24,
+      "warning": 8
+    },
+    "flagged_sections": [
+      {
+        "section_id": "sec-1",
+        "title": "Introduction and Scope of Pedestrian Crossing Behavior Research",
+        "status": "fail",
+        "finding_count": 4
+      },
+      {
+        "section_id": "sec-2",
+        "title": "Theoretical Foundations: Theory of Planned Behavior in Pedestrian Crossing",
+        "status": "fail",
+        "finding_count": 4
+      },
+      {
+        "section_id": "sec-3",
+        "title": "Behavioral and Social Factors Influencing Crossing Intentions",
+        "status": "fail",
+        "finding_count": 4
+      },
+      {
+        "section_id": "sec-4",
+        "title": "Risk Perception and Control Factors in Crossing Behavior",
+        "status": "fail",
+        "finding_count": 4
+      },
+      {
+        "section_id": "sec-5",
+        "title": "Mobile Phone Distraction Effects on Pedestrian Crossing Performance",
+        "status": "fail",
+        "finding_count": 4
+      }
+    ]
+  },
+  "compile": null,
+  "warnings": [],
+  "artifacts": {
+    "artifacts.json": {
+      "path": "data/generated/aap_live_2paper_20260324/artifacts.json",
+      "exists": true,
+      "size_bytes": 3792
+    },
+    "summary.json": {
+      "path": "data/generated/aap_live_2paper_20260324/summary.json",
+      "exists": true,
+      "size_bytes": 18717
+    },
+    "coverage.json": {
+      "path": "data/generated/aap_live_2paper_20260324/coverage.json",
+      "exists": true,
+      "size_bytes": 929
+    },
+    "matrix.json": {
+      "path": "data/generated/aap_live_2paper_20260324/matrix.json",
+      "exists": true,
+      "size_bytes": 35517
+    },
+    "matrix.csv": {
+      "path": "data/generated/aap_live_2paper_20260324/matrix.csv",
+      "exists": true,
+      "size_bytes": 32345
+    },
+    "matrix.md": {
+      "path": "data/generated/aap_live_2paper_20260324/matrix.md",
+      "exists": true,
+      "size_bytes": 32715
+    },
+    "contradiction.json": {
+      "path": "data/generated/aap_live_2paper_20260324/contradiction.json",
+      "exists": true,
+      "size_bytes": 11721
+    },
+    "candidate_gaps.json": {
+      "path": "data/generated/aap_live_2paper_20260324/candidate_gaps.json",
+      "exists": true,
+      "size_bytes": 2
+    },
+    "verified_gaps.json": {
+      "path": "data/generated/aap_live_2paper_20260324/verified_gaps.json",
+      "exists": true,
+      "size_bytes": 2
+    },
+    "scored_gaps.json": {
+      "path": "data/generated/aap_live_2paper_20260324/scored_gaps.json",
+      "exists": true,
+      "size_bytes": 2
+    },
+    "synthesis_map.json": {
+      "path": "data/generated/aap_live_2paper_20260324/synthesis_map.json",
+      "exists": true,
+      "size_bytes": 10116
+    },
+    "organization.json": {
+      "path": "data/generated/aap_live_2paper_20260324/organization.json",
+      "exists": true,
+      "size_bytes": 484
+    },
+    "outline.json": {
+      "path": "data/generated/aap_live_2paper_20260324/outline.json",
+      "exists": true,
+      "size_bytes": 2744
+    },
+    "section_plans.json": {
+      "path": "data/generated/aap_live_2paper_20260324/section_plans.json",
+      "exists": true,
+      "size_bytes": 73134
+    },
+    "paragraph_plans.json": {
+      "path": "data/generated/aap_live_2paper_20260324/paragraph_plans.json",
+      "exists": true,
+      "size_bytes": 72658
+    },
+    "sections.json": {
+      "path": "data/generated/aap_live_2paper_20260324/sections.json",
+      "exists": true,
+      "size_bytes": 39709
+    },
+    "validation_report.json": {
+      "path": "data/generated/aap_live_2paper_20260324/validation_report.json",
+      "exists": true,
+      "size_bytes": 19514
+    },
+    "review.md": {
+      "path": "data/generated/aap_live_2paper_20260324/review.md",
+      "exists": true,
+      "size_bytes": 19766
+    },
+    "review.tex": {
+      "path": "data/generated/aap_live_2paper_20260324/review.tex",
+      "exists": true,
+      "size_bytes": 21795
+    },
+    "bib.tex": {
+      "path": "data/generated/aap_live_2paper_20260324/bib.tex",
+      "exists": true,
+      "size_bytes": 686
+    },
+    "abstract.json": {
+      "path": "data/generated/aap_live_2paper_20260324/abstract.json",
+      "exists": true,
+      "size_bytes": 1528
+    },
+    "abstract.txt": {
+      "path": "data/generated/aap_live_2paper_20260324/abstract.txt",
+      "exists": true,
+      "size_bytes": 830
+    },
+    "keywords.json": {
+      "path": "data/generated/aap_live_2paper_20260324/keywords.json",
+      "exists": true,
+      "size_bytes": 2343
+    },
+    "keywords.txt": {
+      "path": "data/generated/aap_live_2paper_20260324/keywords.txt",
+      "exists": true,
+      "size_bytes": 735
+    },
+    "appendix.json": {
+      "path": "data/generated/aap_live_2paper_20260324/appendix.json",
+      "exists": true,
+      "size_bytes": 5901
+    },
+    "evidence_table.json": {
+      "path": "data/generated/aap_live_2paper_20260324/evidence_table.json",
+      "exists": true,
+      "size_bytes": 4390
+    },
+    "evidence_table.md": {
+      "path": "data/generated/aap_live_2paper_20260324/evidence_table.md",
+      "exists": true,
+      "size_bytes": 3792
+    }
+  }
+}

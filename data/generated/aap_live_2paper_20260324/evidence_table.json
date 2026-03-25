@@ -1,0 +1,100 @@
+[
+  {
+    "paper_id": "09_2018_jiang_aap",
+    "title": "Effects of mobile phone distraction on pedestrians' crossing behavior and visual attention allocation at a signalized intersection: An outdoor experimental study",
+    "year": 2018,
+    "venue": "Accident Analysis and Prevention, Volume 115, Pages 170-177",
+    "authors": [
+      "Kang Jiang",
+      "Feiyang Ling",
+      "Zhongxiang Feng",
+      "Changxi Ma",
+      "Wesley Kumfer",
+      "Chen Shao",
+      "Kun Wang"
+    ],
+    "methods": [
+      "Controlled laboratory experiment with eye-tracking"
+    ],
+    "tasks": [
+      "Pedestrian street crossing under various mobile phone distraction conditions"
+    ],
+    "datasets": [
+      "N/A - experimental study with 28 participants"
+    ],
+    "metrics": [
+      "Initiate time (time between green light and crossing initiation)",
+      "Look left/right frequency (attention to traffic)",
+      "Crossing speed (walking speed during crossing)",
+      "Pupil diameter (cognitive load indicator)",
+      "Scanning frequency (visual alertness)",
+      "Fixation points (attention switching between AOIs)",
+      "Fixation time (attention resource distribution)",
+      "Fixation duration (attention maintenance)"
+    ],
+    "claim_count": 5,
+    "claims": [
+      "Text distraction causes the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction, with music distraction having the least impact",
+      "Music distraction causes pedestrians to initiate crossing later (1.28s vs 0.69s), increase pupil diameter (2.86mm vs 2.75mm), and reduce scanning frequency (6.00 vs 6.82) and fixation points toward traffic signal areas",
+      "Phone conversation distraction causes pedestrians to cross at slower speeds (1.37m/s vs 1.46m/s), direct fewer fixation points to right traffic area, and spend less fixation time and average fixation duration on left traffic area"
+    ],
+    "gap_matches": [],
+    "evidence_chunk_ids": [
+      "ec196e15-6a5c-4cfd-b5b2-c1b4fbe138ab",
+      "b3be5e9d-9300-498d-9516-7ee632b9b3f8",
+      "7a4fe6d6-d373-4e36-aedc-55719a6aa66b",
+      "0dd59533-996d-4265-8290-df46170adeab",
+      "4aac8c2e-5c0e-467e-87cc-97bd1e8af1c0",
+      "e3bbdf60-47b8-4629-9286-0a12d51495d7",
+      "b006967d-8550-4801-bbae-10af6d21002f",
+      "0dafae70-4c9e-4afc-8ec9-361b213be13f",
+      "50902efb-5f21-491e-b77c-7457495d479e",
+      "eb6427d6-60bf-4ef1-8dd4-62c5e5d0f85f"
+    ]
+  },
+  {
+    "paper_id": "08_2016_zhou_aap",
+    "title": "An extension of the theory of planned behavior to predict pedestrians' violating crossing behavior using structural equation modeling",
+    "year": 2016,
+    "venue": "Accident Analysis and Prevention",
+    "authors": [
+      "Hongmei Zhou",
+      "Stephanie Ballon Romero",
+      "Xiao Qin"
+    ],
+    "methods": [
+      "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB)"
+    ],
+    "tasks": [
+      "Predicting pedestrian violating road-crossing behavior intentions",
+      "Evaluating contribution of TPB components and extended factors"
+    ],
+    "datasets": [
+      "Survey data from 260 respondents in Dalian, China (2015)"
+    ],
+    "metrics": [
+      "CMIN/df ratio",
+      "RMSEA (Root Mean Square Error of Approximation)",
+      "PCLOSE",
+      "CFI (Comparative Fit Index)",
+      "Cronbach's alpha for reliability",
+      "Regression weights (unstandardized)"
+    ],
+    "claim_count": 6,
+    "claims": [
+      "Instrumental attitude, descriptive norm, and conformity tendency are significant predictors of pedestrian violating crossing behavior intention, providing better predictive utility than the basic TPB model (Model 4 achieved best fit: CFI=0.996, RMSEA=0.030)",
+      "Descriptive norm is a stronger predictor than subjective norm",
+      "when descriptive norm was added, subjective norm became non-significant, indicating that pedestrians' observations of family and friends' behavior have greater influence than perceived approval from them"
+    ],
+    "gap_matches": [],
+    "evidence_chunk_ids": [
+      "9677707f-a866-4c61-bb5d-38ce339ed67a",
+      "ae2ef9ad-a546-4b40-b5fd-617119bf4cd3",
+      "0c5179bf-72a4-4110-a022-5709cccc265b",
+      "31d746f2-a407-459b-b102-29080a49d9ff",
+      "5797cd00-e439-4d61-bd2d-54479895f72a",
+      "fa783c3b-941b-458d-b282-603896747f04",
+      "a0b9ab86-3b5f-49f0-b9d3-467cce4e5352"
+    ]
+  }
+]

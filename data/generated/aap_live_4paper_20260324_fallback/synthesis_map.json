@@ -1,0 +1,296 @@
+{
+  "overview": {
+    "paper_count": 4,
+    "matrix_row_count": 19,
+    "verified_gap_count": 0,
+    "scored_gap_count": 0,
+    "rejected_gap_count": 0,
+    "contradiction_count": 0,
+    "dominant_axis": "factor",
+    "average_gap_score": 0.0,
+    "theme_counts": {
+      "method": 4,
+      "task": 4,
+      "factor": 6,
+      "application": 4
+    },
+    "coverage_themes": [
+      "Survey-based Structural Equation Modeling (SEM)",
+      "Controlled field experiment",
+      "Statistical modeling (Binomial logistic regression)",
+      "Discrete choice model with regression analysis"
+    ]
+  },
+  "theme_axes": {
+    "method": [
+      {
+        "theme_id": "method:controlled_field_experiment",
+        "theme_type": "method",
+        "label": "Controlled field experiment",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Controlled field experiment appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "method:statistical_modeling_(binomial_logistic_regression)",
+        "theme_type": "method",
+        "label": "Statistical modeling (Binomial logistic regression)",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Statistical modeling (Binomial logistic regression) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "method:survey-based_structural_equation_modeling_(sem)",
+        "theme_type": "method",
+        "label": "Survey-based Structural Equation Modeling (SEM)",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Survey-based Structural Equation Modeling (SEM) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "method:discrete_choice_model_with_regression_analysis",
+        "theme_type": "method",
+        "label": "Discrete choice model with regression analysis",
+        "evidence_count": 4,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 4.0,
+        "synthesis_note": "Discrete choice model with regression analysis appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "task": [
+      {
+        "theme_id": "task:identify_factors_affecting_pedestrian_red-light_running_behavior_at_signalized_intersections",
+        "theme_type": "task",
+        "label": "Identify factors affecting pedestrian red-light running behavior at signalized intersections",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Identify factors affecting pedestrian red-light running behavior at signalized intersections appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "task:pedestrian_crossing_behavior_under_mobile_phone_distraction",
+        "theme_type": "task",
+        "label": "Pedestrian crossing behavior under mobile phone distraction",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Pedestrian crossing behavior under mobile phone distraction appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "task:predicting_pedestrian_violating_crossing_behavior_intentions",
+        "theme_type": "task",
+        "label": "Predicting pedestrian violating crossing behavior intentions",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Predicting pedestrian violating crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "task:pedestrian_speed_profile_modeling,_crossing_time_estimation,_vehicle-pedestrian_conflict_simulation",
+        "theme_type": "task",
+        "label": "Pedestrian speed profile modeling, crossing time estimation, vehicle-pedestrian conflict simulation",
+        "evidence_count": 4,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 4.0,
+        "synthesis_note": "Pedestrian speed profile modeling, crossing time estimation, vehicle-pedestrian conflict simulation appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "factor": [
+      {
+        "theme_id": "factor:behavioral_factors",
+        "theme_type": "factor",
+        "label": "behavioral_factors",
+        "evidence_count": 16,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 16.0,
+        "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:traffic_factors",
+        "theme_type": "factor",
+        "label": "traffic_factors",
+        "evidence_count": 14,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 14.0,
+        "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:design_factors",
+        "theme_type": "factor",
+        "label": "design_factors",
+        "evidence_count": 10,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 10.0,
+        "synthesis_note": "design_factors appears in 10 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:demographic_factors",
+        "theme_type": "factor",
+        "label": "demographic_factors",
+        "evidence_count": 9,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 9.0,
+        "synthesis_note": "demographic_factors appears in 9 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:temporal_factors",
+        "theme_type": "factor",
+        "label": "temporal_factors",
+        "evidence_count": 9,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 9.0,
+        "synthesis_note": "temporal_factors appears in 9 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:environmental_factors",
+        "theme_type": "factor",
+        "label": "environmental_factors",
+        "evidence_count": 3,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 3.0,
+        "synthesis_note": "environmental_factors appears in 3 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "application": [
+      {
+        "theme_id": "application:28_college_students_at_signalized_intersection_in_hefei,_china",
+        "theme_type": "application",
+        "label": "28 college students at signalized intersection in Hefei, China",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "28 college students at signalized intersection in Hefei, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "application:631_valid_survey_samples_collected_from_six_signalized_intersections_in_hefei,_china_during_may-june_2015",
+        "theme_type": "application",
+        "label": "631 valid survey samples collected from six signalized intersections in Hefei, China during May-June 2015",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "631 valid survey samples collected from six signalized intersections in Hefei, China during May-June 2015 appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+        "theme_type": "application",
+        "label": "Survey data from 260 respondents in Dalian, China",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "application:video_survey_data_from_5_crosswalks_at_3_intersections_in_nagoya_city,_japan_(kanayama,_ueda,_fushimi)",
+        "theme_type": "application",
+        "label": "Video survey data from 5 crosswalks at 3 intersections in Nagoya City, Japan (Kanayama, Ueda, Fushimi)",
+        "evidence_count": 4,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 4.0,
+        "synthesis_note": "Video survey data from 5 crosswalks at 3 intersections in Nagoya City, Japan (Kanayama, Ueda, Fushimi) appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ]
+  },
+  "top_themes": [
+    {
+      "theme_id": "factor:behavioral_factors",
+      "theme_type": "factor",
+      "label": "behavioral_factors",
+      "evidence_count": 16,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 16.0,
+      "synthesis_note": "behavioral_factors appears in 16 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "factor:traffic_factors",
+      "theme_type": "factor",
+      "label": "traffic_factors",
+      "evidence_count": 14,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 14.0,
+      "synthesis_note": "traffic_factors appears in 14 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "factor:design_factors",
+      "theme_type": "factor",
+      "label": "design_factors",
+      "evidence_count": 10,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 10.0,
+      "synthesis_note": "design_factors appears in 10 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "application:28_college_students_at_signalized_intersection_in_hefei,_china",
+      "theme_type": "application",
+      "label": "28 college students at signalized intersection in Hefei, China",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "28 college students at signalized intersection in Hefei, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "application:631_valid_survey_samples_collected_from_six_signalized_intersections_in_hefei,_china_during_may-june_2015",
+      "theme_type": "application",
+      "label": "631 valid survey samples collected from six signalized intersections in Hefei, China during May-June 2015",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "631 valid survey samples collected from six signalized intersections in Hefei, China during May-June 2015 appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+      "theme_type": "application",
+      "label": "Survey data from 260 respondents in Dalian, China",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "method:controlled_field_experiment",
+      "theme_type": "method",
+      "label": "Controlled field experiment",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "Controlled field experiment appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "method:statistical_modeling_(binomial_logistic_regression)",
+      "theme_type": "method",
+      "label": "Statistical modeling (Binomial logistic regression)",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "Statistical modeling (Binomial logistic regression) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    }
+  ]
+}

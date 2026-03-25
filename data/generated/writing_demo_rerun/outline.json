@@ -1,0 +1,62 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction and Background",
+    "objective": "Establish the research context for automated literature review systems and their role in accelerating knowledge synthesis",
+    "gap_inputs": [
+      "g1",
+      "g2",
+      "g3"
+    ],
+    "matrix_row_count": 3
+  },
+  {
+    "section_id": "sec-2",
+    "title": "Methodological Approaches",
+    "objective": "Compare the technical architectures including RAG-based, NLP pipeline, and hybrid RAG+NLP methods used across systems",
+    "gap_inputs": [
+      "g1",
+      "g2",
+      "g3"
+    ],
+    "matrix_row_count": 3
+  },
+  {
+    "section_id": "sec-3",
+    "title": "Performance Metrics and Reporting Heterogeneity",
+    "objective": "Analyze metric usage (ROUGE-L, F1, precision, AUC) across studies and identify inconsistencies affecting cross-study comparison",
+    "gap_inputs": [
+      "g2"
+    ],
+    "matrix_row_count": 3
+  },
+  {
+    "section_id": "sec-4",
+    "title": "Evaluation Scope and Cross-Lingual Generalization",
+    "objective": "Examine the linguistic and dataset coverage of current systems, highlighting English-language dominance and untested cross-lingual generalization",
+    "gap_inputs": [
+      "g1"
+    ],
+    "matrix_row_count": 3
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Evidence Grounding and Claim Verification",
+    "objective": "Evaluate how systems anchor their performance claims in verifiable evidence chains and assess the reliability of stated limitations",
+    "gap_inputs": [
+      "g3"
+    ],
+    "matrix_row_count": 2
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Open Challenges and Future Directions",
+    "objective": "Synthesize the identified research gaps and propose priorities for advancing reproducible and globally applicable literature review automation",
+    "gap_inputs": [
+      "g1",
+      "g2",
+      "g3"
+    ],
+    "matrix_row_count": 3
+  }
+]

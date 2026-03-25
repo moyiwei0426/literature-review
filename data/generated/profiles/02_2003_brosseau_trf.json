@@ -1,0 +1,59 @@
+{
+  "paper_id": "02_2003_brosseau_trf",
+  "title": "crosswalks and a pedestrian user survey which sought pedestrian perceptions toward various pedestrian",
+  "authors": [
+    "Brosseau"
+  ],
+  "year": 2003,
+  "venue": "trf",
+  "research_problem": "Automatically extract structured literature review signals from academic papers.",
+  "problem_type": "information_extraction",
+  "domain": "scholarly_nlp",
+  "language_scope": "english",
+  "method_summary": "A pipeline that combines retrieval, PDF parsing, chunking, and structured extraction.",
+  "method_family": [
+    "pipeline",
+    "llm-assisted-extraction"
+  ],
+  "datasets": [],
+  "tasks": [
+    "literature_review",
+    "information_extraction"
+  ],
+  "metrics": [],
+  "baselines": [],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "The pipeline can transform parsed paper chunks into a structured paper profile.",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "3a96bcfa-783a-4e59-90f4-12b54b0ba419"
+      ],
+      "confidence": 0.7
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "The system supports downstream gap analysis by preserving evidence links.",
+      "claim_type": "application",
+      "evidence_chunk_ids": [
+        "cf8c86a4-8329-480b-a159-6504ee0e128b"
+      ],
+      "confidence": 0.68
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The current output may rely on stubbed model behavior before real LLM integration.",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "3a96bcfa-783a-4e59-90f4-12b54b0ba419"
+      ]
+    }
+  ],
+  "future_work": [
+    "Integrate real LLM provider",
+    "Improve claim grounding"
+  ],
+  "notes": "Stub extraction response for local development."
+}

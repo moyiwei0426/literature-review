@@ -1,0 +1,660 @@
+{
+  "project": "review_20260319_193533",
+  "query": "retrieval augmented generation literature review",
+  "steps": [
+    {
+      "name": "retrieval",
+      "ok": true,
+      "candidates": [
+        {
+          "source": "openalex",
+          "source_id": "https://openalex.org/W4403248625",
+          "title": "Automating Systematic Literature Reviews with Retrieval-Augmented Generation: A Comprehensive Overview",
+          "authors": [
+            "Binglan Han",
+            "Teo Sušnjak",
+            "Anuradha Mathrani"
+          ],
+          "year": 2024,
+          "venue": null,
+          "doi": "https://doi.org/10.3390/app14199103",
+          "arxiv_id": null,
+          "abstract": null,
+          "keywords": [],
+          "citation_count": 37,
+          "references": [],
+          "related_urls": [],
+          "pdf_url": "https://www.mdpi.com/2076-3417/14/19/9103/pdf?version=1728436391",
+          "is_open_access": true,
+          "retrieval_query": "retrieval augmented generation literature review",
+          "retrieval_score": null
+        },
+        {
+          "source": "arxiv",
+          "source_id": "2411.18583v1",
+          "title": "Automated Literature Review Using NLP Techniques and LLM-Based Retrieval-Augmented Generation",
+          "authors": [
+            "Nurshat Fateh Ali",
+            "Md. Mahdi Mohtasim",
+            "Shakil Mosharrof",
+            "T. Gopi Krishna"
+          ],
+          "year": null,
+          "venue": null,
+          "doi": null,
+          "arxiv_id": "2411.18583v1",
+          "abstract": "This research presents and compares multiple approaches to automate the generation of literature reviews using several Natural Language Processing (NLP) techniques and retrieval-augmented generation (RAG) with a Large Language Model (LLM). The ever-increasing number of research articles provides a huge challenge for manual literature review. It has resulted in an increased demand for automation. Developing a system capable of automatically generating the literature reviews from only the PDF files as input is the primary objective of this research work. The effectiveness of several Natural Language Processing (NLP) strategies, such as the frequency-based method (spaCy), the transformer model (Simple T5), and retrieval-augmented generation (RAG) with Large Language Model (GPT-3.5-turbo), is evaluated to meet the primary objective. The SciTLDR dataset is chosen for this research experiment and three distinct techniques are utilized to implement three different systems for auto-generating the literature reviews. The ROUGE scores are used for the evaluation of all three systems. Based on the evaluation, the Large Language Model GPT-3.5-turbo achieved the highest ROUGE-1 score, 0.364. The transformer model comes in second place and spaCy is at the last position. Finally, a graphical user interface is created for the best system based on the large language model.",
+          "keywords": [],
+          "citation_count": null,
+          "references": [],
+          "related_urls": [],
+          "pdf_url": "https://arxiv.org/pdf/2411.18583v1",
+          "is_open_access": null,
+          "retrieval_query": "retrieval augmented generation literature review",
+          "retrieval_score": null
+        }
+      ]
+    },
+    {
+      "name": "dedup",
+      "ok": true,
+      "deduped": [
+        {
+          "paper_id": "8df63488-2aa1-42d0-80a9-dd39979c1b44",
+          "canonical_title": "Automating Systematic Literature Reviews with Retrieval-Augmented Generation: A Comprehensive Overview",
+          "normalized_title": "automating systematic literature reviews with retrieval augmented generation a comprehensive overview",
+          "authors": [
+            "Binglan Han",
+            "Teo Sušnjak",
+            "Anuradha Mathrani"
+          ],
+          "year": 2024,
+          "venue": null,
+          "doi": "https://doi.org/10.3390/app14199103",
+          "arxiv_id": null,
+          "abstract": null,
+          "sources": [
+            "openalex"
+          ],
+          "pdf_candidates": [
+            "https://www.mdpi.com/2076-3417/14/19/9103/pdf?version=1728436391"
+          ],
+          "citation_count": 37
+        },
+        {
+          "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+          "canonical_title": "Automated Literature Review Using NLP Techniques and LLM-Based Retrieval-Augmented Generation",
+          "normalized_title": "automated literature review using nlp techniques and llm based retrieval augmented generation",
+          "authors": [
+            "Nurshat Fateh Ali",
+            "Md. Mahdi Mohtasim",
+            "Shakil Mosharrof",
+            "T. Gopi Krishna"
+          ],
+          "year": null,
+          "venue": null,
+          "doi": null,
+          "arxiv_id": "2411.18583v1",
+          "abstract": "This research presents and compares multiple approaches to automate the generation of literature reviews using several Natural Language Processing (NLP) techniques and retrieval-augmented generation (RAG) with a Large Language Model (LLM). The ever-increasing number of research articles provides a huge challenge for manual literature review. It has resulted in an increased demand for automation. Developing a system capable of automatically generating the literature reviews from only the PDF files as input is the primary objective of this research work. The effectiveness of several Natural Language Processing (NLP) strategies, such as the frequency-based method (spaCy), the transformer model (Simple T5), and retrieval-augmented generation (RAG) with Large Language Model (GPT-3.5-turbo), is evaluated to meet the primary objective. The SciTLDR dataset is chosen for this research experiment and three distinct techniques are utilized to implement three different systems for auto-generating the literature reviews. The ROUGE scores are used for the evaluation of all three systems. Based on the evaluation, the Large Language Model GPT-3.5-turbo achieved the highest ROUGE-1 score, 0.364. The transformer model comes in second place and spaCy is at the last position. Finally, a graphical user interface is created for the best system based on the large language model.",
+          "sources": [
+            "arxiv"
+          ],
+          "pdf_candidates": [
+            "https://arxiv.org/pdf/2411.18583v1"
+          ],
+          "citation_count": null
+        }
+      ],
+      "dedup_report": {
+        "before_count": 2,
+        "after_count": 2,
+        "merged_count": 0,
+        "groups": [
+          [
+            {
+              "source": "openalex",
+              "source_id": "https://openalex.org/W4403248625",
+              "title": "Automating Systematic Literature Reviews with Retrieval-Augmented Generation: A Comprehensive Overview",
+              "doi": "https://doi.org/10.3390/app14199103",
+              "arxiv_id": null
+            }
+          ],
+          [
+            {
+              "source": "arxiv",
+              "source_id": "2411.18583v1",
+              "title": "Automated Literature Review Using NLP Techniques and LLM-Based Retrieval-Augmented Generation",
+              "doi": null,
+              "arxiv_id": "2411.18583v1"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "name": "fetch",
+      "ok": true,
+      "fetched": [
+        {
+          "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+          "title": "",
+          "pdf_path": "data/raw/pdfs/e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e.pdf",
+          "source": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "extract",
+      "ok": true,
+      "profiles": [
+        {
+          "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+          "title": "Untitled",
+          "research_problem": "The exponential growth of research articles makes manual literature review increasingly time-consuming, tedious, and error-prone, creating a need for automated systems that can generate literature review segments from PDF inputs",
+          "problem_type": "Applied NLP - Automated Text Summarization",
+          "domain": "Natural Language Processing, Academic Text Processing",
+          "language_scope": "English (scientific documents)",
+          "method_summary": "Three approaches are compared for automated literature review generation: (1) Frequency-based extractive summarization using spaCy to calculate sentence weights based on word frequency and select top 10% sentences; (2) Fine-tuned T5 transformer model trained on SciTLDR dataset for abstractive summarization; (3) Retrieval-augmented generation using GPT-3.5-TURBO-0125 with SciTLDR as knowledge base and custom prompt engineering",
+          "method_family": [
+            "Extractive Summarization",
+            "Seq2Seq Transformer",
+            "Retrieval-Augmented Generation (RAG)"
+          ],
+          "datasets": [
+            "SciTLDR (5,400 TLDRs from 3,200+ papers)"
+          ],
+          "tasks": [
+            "Automated Literature Review Generation",
+            "Scientific Document Summarization"
+          ],
+          "metrics": [
+            "ROUGE-1",
+            "ROUGE-2",
+            "ROUGE-L",
+            "ROUGE-Lsum"
+          ],
+          "baselines": [
+            "spaCy (frequency-based)",
+            "Simple T5 (transformer-based)",
+            "GPT-3.5-TURBO-0125 (LLM-based)"
+          ],
+          "main_claims": [
+            {
+              "claim_id": "claim-1",
+              "claim_text": "GPT-3.5-TURBO-0125 with RAG achieved the highest ROUGE-1 score of 0.364, outperforming both T5 (0.268) and spaCy (0.257)",
+              "claim_type": "performance",
+              "evidence_chunk_ids": [
+                "3a991b57-6272-4484-8ca5-922bb09a750f",
+                "f04c7856-fe0d-40cf-8cd4-66e6daf8a438",
+                "8cfcdcdd-0860-4a4a-97e4-d2e5a6f772ef"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-2",
+              "claim_text": "The LLM-based approach produces literature reviews with better unigram and bigram overlap with human summaries compared to transformer and frequency-based methods",
+              "claim_type": "performance",
+              "evidence_chunk_ids": [
+                "8cfcdcdd-0860-4a4a-97e4-d2e5a6f772ef"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-3",
+              "claim_text": "All three NLP approaches (spaCy, T5, and GPT-3.5-TURBO-0125) can produce satisfactory results in automating literature review generation",
+              "claim_type": "application",
+              "evidence_chunk_ids": [
+                "24f174bc-9091-425d-a024-e059ec2a1ceb"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-4",
+              "claim_text": "The T5 transformer model trained on SciTLDR achieves second-place performance with ROUGE-1 of 0.268 and ROUGE-L of 0.204",
+              "claim_type": "performance",
+              "evidence_chunk_ids": [
+                "f04c7856-fe0d-40cf-8cd4-66e6daf8a438"
+              ],
+              "confidence": null
+            }
+          ],
+          "limitations": [
+            {
+              "text": "The ROUGE-L score for LLM (0.181) is lower than T5 (0.204), indicating potential issues with longest common subsequence overlap",
+              "source": "inferred",
+              "evidence_chunk_ids": [
+                "f04c7856-fe0d-40cf-8cd4-66e6daf8a438"
+              ]
+            },
+            {
+              "text": "The frequency-based spaCy approach achieved the lowest scores across all metrics, with ROUGE-2 at only 0.055",
+              "source": "explicit",
+              "evidence_chunk_ids": [
+                "f04c7856-fe0d-40cf-8cd4-66e6daf8a438"
+              ]
+            },
+            {
+              "text": "No training was performed for spaCy approach - only used for extractive summarization testing",
+              "source": "explicit",
+              "evidence_chunk_ids": [
+                "5d629bd6-1418-4b4c-ae44-1af9eb594d19"
+              ]
+            },
+            {
+              "text": "Limited to English scientific documents in the SciTLDR dataset; applicability to other languages and document types not validated",
+              "source": "inferred",
+              "evidence_chunk_ids": [
+                "b16661ce-aceb-4a0e-ac90-0ade30323be3"
+              ]
+            }
+          ],
+          "future_work": [
+            "Add more functionality to GUI such as model options and output size controls",
+            "Explore additional models including BERT, Gemini, and LLaMA for potentially better results",
+            "Enhance system effectiveness and applicability to broader domains",
+            "Address the gap between model performance metrics and human evaluation of coherence"
+          ],
+          "notes": "The paper implements three complete end-to-end pipelines where users can directly generate literature reviews from PDF inputs. A GUI tool was created for the best-performing LLM-based system. The comparison contributes to understanding the effectiveness of different NLP approaches for literature review automation."
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "name": "analysis",
+      "ok": true,
+      "matrix": [
+        {
+          "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+          "title": "Untitled",
+          "research_problem": "The exponential growth of research articles makes manual literature review increasingly time-consuming, tedious, and error-prone, creating a need for automated systems that can generate literature review segments from PDF inputs",
+          "method_summary": "Three approaches are compared for automated literature review generation: (1) Frequency-based extractive summarization using spaCy to calculate sentence weights based on word frequency and select top 10% sentences; (2) Fine-tuned T5 transformer model trained on SciTLDR dataset for abstractive summarization; (3) Retrieval-augmented generation using GPT-3.5-TURBO-0125 with SciTLDR as knowledge base and custom prompt engineering",
+          "method_family": "Extractive Summarization; Seq2Seq Transformer; Retrieval-Augmented Generation (RAG)",
+          "tasks": "Automated Literature Review Generation; Scientific Document Summarization",
+          "datasets": "SciTLDR (5,400 TLDRs from 3,200+ papers)",
+          "metrics": "ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum",
+          "claim_id": "claim-1",
+          "claim_text": "GPT-3.5-TURBO-0125 with RAG achieved the highest ROUGE-1 score of 0.364, outperforming both T5 (0.268) and spaCy (0.257)",
+          "claim_type": "performance",
+          "evidence_chunk_ids": "3a991b57-6272-4484-8ca5-922bb09a750f; f04c7856-fe0d-40cf-8cd4-66e6daf8a438; 8cfcdcdd-0860-4a4a-97e4-d2e5a6f772ef",
+          "limitations": "The ROUGE-L score for LLM (0.181) is lower than T5 (0.204), indicating potential issues with longest common subsequence overlap | The frequency-based spaCy approach achieved the lowest scores across all metrics, with ROUGE-2 at only 0.055 | No training was performed for spaCy approach - only used for extractive summarization testing | Limited to English scientific documents in the SciTLDR dataset; applicability to other languages and document types not validated",
+          "notes": "The paper implements three complete end-to-end pipelines where users can directly generate literature reviews from PDF inputs. A GUI tool was created for the best-performing LLM-based system. The comparison contributes to understanding the effectiveness of different NLP approaches for literature review automation."
+        },
+        {
+          "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+          "title": "Untitled",
+          "research_problem": "The exponential growth of research articles makes manual literature review increasingly time-consuming, tedious, and error-prone, creating a need for automated systems that can generate literature review segments from PDF inputs",
+          "method_summary": "Three approaches are compared for automated literature review generation: (1) Frequency-based extractive summarization using spaCy to calculate sentence weights based on word frequency and select top 10% sentences; (2) Fine-tuned T5 transformer model trained on SciTLDR dataset for abstractive summarization; (3) Retrieval-augmented generation using GPT-3.5-TURBO-0125 with SciTLDR as knowledge base and custom prompt engineering",
+          "method_family": "Extractive Summarization; Seq2Seq Transformer; Retrieval-Augmented Generation (RAG)",
+          "tasks": "Automated Literature Review Generation; Scientific Document Summarization",
+          "datasets": "SciTLDR (5,400 TLDRs from 3,200+ papers)",
+          "metrics": "ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum",
+          "claim_id": "claim-2",
+          "claim_text": "The LLM-based approach produces literature reviews with better unigram and bigram overlap with human summaries compared to transformer and frequency-based methods",
+          "claim_type": "performance",
+          "evidence_chunk_ids": "8cfcdcdd-0860-4a4a-97e4-d2e5a6f772ef",
+          "limitations": "The ROUGE-L score for LLM (0.181) is lower than T5 (0.204), indicating potential issues with longest common subsequence overlap | The frequency-based spaCy approach achieved the lowest scores across all metrics, with ROUGE-2 at only 0.055 | No training was performed for spaCy approach - only used for extractive summarization testing | Limited to English scientific documents in the SciTLDR dataset; applicability to other languages and document types not validated",
+          "notes": "The paper implements three complete end-to-end pipelines where users can directly generate literature reviews from PDF inputs. A GUI tool was created for the best-performing LLM-based system. The comparison contributes to understanding the effectiveness of different NLP approaches for literature review automation."
+        },
+        {
+          "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+          "title": "Untitled",
+          "research_problem": "The exponential growth of research articles makes manual literature review increasingly time-consuming, tedious, and error-prone, creating a need for automated systems that can generate literature review segments from PDF inputs",
+          "method_summary": "Three approaches are compared for automated literature review generation: (1) Frequency-based extractive summarization using spaCy to calculate sentence weights based on word frequency and select top 10% sentences; (2) Fine-tuned T5 transformer model trained on SciTLDR dataset for abstractive summarization; (3) Retrieval-augmented generation using GPT-3.5-TURBO-0125 with SciTLDR as knowledge base and custom prompt engineering",
+          "method_family": "Extractive Summarization; Seq2Seq Transformer; Retrieval-Augmented Generation (RAG)",
+          "tasks": "Automated Literature Review Generation; Scientific Document Summarization",
+          "datasets": "SciTLDR (5,400 TLDRs from 3,200+ papers)",
+          "metrics": "ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum",
+          "claim_id": "claim-3",
+          "claim_text": "All three NLP approaches (spaCy, T5, and GPT-3.5-TURBO-0125) can produce satisfactory results in automating literature review generation",
+          "claim_type": "application",
+          "evidence_chunk_ids": "24f174bc-9091-425d-a024-e059ec2a1ceb",
+          "limitations": "The ROUGE-L score for LLM (0.181) is lower than T5 (0.204), indicating potential issues with longest common subsequence overlap | The frequency-based spaCy approach achieved the lowest scores across all metrics, with ROUGE-2 at only 0.055 | No training was performed for spaCy approach - only used for extractive summarization testing | Limited to English scientific documents in the SciTLDR dataset; applicability to other languages and document types not validated",
+          "notes": "The paper implements three complete end-to-end pipelines where users can directly generate literature reviews from PDF inputs. A GUI tool was created for the best-performing LLM-based system. The comparison contributes to understanding the effectiveness of different NLP approaches for literature review automation."
+        },
+        {
+          "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+          "title": "Untitled",
+          "research_problem": "The exponential growth of research articles makes manual literature review increasingly time-consuming, tedious, and error-prone, creating a need for automated systems that can generate literature review segments from PDF inputs",
+          "method_summary": "Three approaches are compared for automated literature review generation: (1) Frequency-based extractive summarization using spaCy to calculate sentence weights based on word frequency and select top 10% sentences; (2) Fine-tuned T5 transformer model trained on SciTLDR dataset for abstractive summarization; (3) Retrieval-augmented generation using GPT-3.5-TURBO-0125 with SciTLDR as knowledge base and custom prompt engineering",
+          "method_family": "Extractive Summarization; Seq2Seq Transformer; Retrieval-Augmented Generation (RAG)",
+          "tasks": "Automated Literature Review Generation; Scientific Document Summarization",
+          "datasets": "SciTLDR (5,400 TLDRs from 3,200+ papers)",
+          "metrics": "ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum",
+          "claim_id": "claim-4",
+          "claim_text": "The T5 transformer model trained on SciTLDR achieves second-place performance with ROUGE-1 of 0.268 and ROUGE-L of 0.204",
+          "claim_type": "performance",
+          "evidence_chunk_ids": "f04c7856-fe0d-40cf-8cd4-66e6daf8a438",
+          "limitations": "The ROUGE-L score for LLM (0.181) is lower than T5 (0.204), indicating potential issues with longest common subsequence overlap | The frequency-based spaCy approach achieved the lowest scores across all metrics, with ROUGE-2 at only 0.055 | No training was performed for spaCy approach - only used for extractive summarization testing | Limited to English scientific documents in the SciTLDR dataset; applicability to other languages and document types not validated",
+          "notes": "The paper implements three complete end-to-end pipelines where users can directly generate literature reviews from PDF inputs. A GUI tool was created for the best-performing LLM-based system. The comparison contributes to understanding the effectiveness of different NLP approaches for literature review automation."
+        }
+      ],
+      "coverage": {
+        "paper_count": 1,
+        "method_family_distribution": {
+          "Extractive Summarization": 1,
+          "Seq2Seq Transformer": 1,
+          "Retrieval-Augmented Generation (RAG)": 1
+        },
+        "task_distribution": {
+          "Automated Literature Review Generation": 1,
+          "Scientific Document Summarization": 1
+        },
+        "language_distribution": {
+          "English (scientific documents)": 1
+        },
+        "dataset_distribution": {
+          "SciTLDR (5,400 TLDRs from 3,200+ papers)": 1
+        },
+        "year_distribution": {},
+        "chinese_coverage_count": 0
+      },
+      "contradictions": {
+        "task_groups": {
+          "Automated Literature Review Generation": [
+            {
+              "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+              "claim_id": "claim-1",
+              "claim_text": "GPT-3.5-TURBO-0125 with RAG achieved the highest ROUGE-1 score of 0.364, outperforming both T5 (0.268) and spaCy (0.257)",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+              "claim_id": "claim-2",
+              "claim_text": "The LLM-based approach produces literature reviews with better unigram and bigram overlap with human summaries compared to transformer and frequency-based methods",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+              "claim_id": "claim-3",
+              "claim_text": "All three NLP approaches (spaCy, T5, and GPT-3.5-TURBO-0125) can produce satisfactory results in automating literature review generation",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+              "claim_id": "claim-4",
+              "claim_text": "The T5 transformer model trained on SciTLDR achieves second-place performance with ROUGE-1 of 0.268 and ROUGE-L of 0.204",
+              "claim_type": "performance"
+            }
+          ],
+          "Scientific Document Summarization": [
+            {
+              "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+              "claim_id": "claim-1",
+              "claim_text": "GPT-3.5-TURBO-0125 with RAG achieved the highest ROUGE-1 score of 0.364, outperforming both T5 (0.268) and spaCy (0.257)",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+              "claim_id": "claim-2",
+              "claim_text": "The LLM-based approach produces literature reviews with better unigram and bigram overlap with human summaries compared to transformer and frequency-based methods",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+              "claim_id": "claim-3",
+              "claim_text": "All three NLP approaches (spaCy, T5, and GPT-3.5-TURBO-0125) can produce satisfactory results in automating literature review generation",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+              "claim_id": "claim-4",
+              "claim_text": "The T5 transformer model trained on SciTLDR achieves second-place performance with ROUGE-1 of 0.268 and ROUGE-L of 0.204",
+              "claim_type": "performance"
+            }
+          ]
+        },
+        "contradictions": [
+          {
+            "task": "Automated Literature Review Generation",
+            "reason": "Multiple claim types detected under the same task; manual review recommended.",
+            "claims": [
+              {
+                "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+                "claim_id": "claim-1",
+                "claim_text": "GPT-3.5-TURBO-0125 with RAG achieved the highest ROUGE-1 score of 0.364, outperforming both T5 (0.268) and spaCy (0.257)",
+                "claim_type": "performance"
+              },
+              {
+                "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+                "claim_id": "claim-2",
+                "claim_text": "The LLM-based approach produces literature reviews with better unigram and bigram overlap with human summaries compared to transformer and frequency-based methods",
+                "claim_type": "performance"
+              },
+              {
+                "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+                "claim_id": "claim-3",
+                "claim_text": "All three NLP approaches (spaCy, T5, and GPT-3.5-TURBO-0125) can produce satisfactory results in automating literature review generation",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+                "claim_id": "claim-4",
+                "claim_text": "The T5 transformer model trained on SciTLDR achieves second-place performance with ROUGE-1 of 0.268 and ROUGE-L of 0.204",
+                "claim_type": "performance"
+              }
+            ]
+          },
+          {
+            "task": "Scientific Document Summarization",
+            "reason": "Multiple claim types detected under the same task; manual review recommended.",
+            "claims": [
+              {
+                "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+                "claim_id": "claim-1",
+                "claim_text": "GPT-3.5-TURBO-0125 with RAG achieved the highest ROUGE-1 score of 0.364, outperforming both T5 (0.268) and spaCy (0.257)",
+                "claim_type": "performance"
+              },
+              {
+                "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+                "claim_id": "claim-2",
+                "claim_text": "The LLM-based approach produces literature reviews with better unigram and bigram overlap with human summaries compared to transformer and frequency-based methods",
+                "claim_type": "performance"
+              },
+              {
+                "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+                "claim_id": "claim-3",
+                "claim_text": "All three NLP approaches (spaCy, T5, and GPT-3.5-TURBO-0125) can produce satisfactory results in automating literature review generation",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+                "claim_id": "claim-4",
+                "claim_text": "The T5 transformer model trained on SciTLDR achieves second-place performance with ROUGE-1 of 0.268 and ROUGE-L of 0.204",
+                "claim_type": "performance"
+              }
+            ]
+          }
+        ],
+        "contradiction_count": 2
+      },
+      "gaps": [
+        {
+          "gap_id": "10617cfa-3771-43f6-8c00-7b7010bf808a",
+          "gap_statement": "Current coverage appears to underrepresent Chinese-language or Chinese-context studies.",
+          "gap_type": "language",
+          "supporting_evidence": [
+            "language_distribution={'English (scientific documents)': 1}",
+            "chinese_coverage_count=0"
+          ],
+          "counter_evidence": [],
+          "confidence": 0.8,
+          "novelty_value": 0.7,
+          "review_worthiness": 0.76,
+          "status": "calibrated_weak"
+        },
+        {
+          "gap_id": "56fcd571-4a59-49cb-99ff-a369903343eb",
+          "gap_statement": "There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.",
+          "gap_type": "comparison",
+          "supporting_evidence": [
+            "contradiction_count=2 (source unclear - not found in provided data)"
+          ],
+          "counter_evidence": [
+            "Matrix contains only ONE paper (paper_id: e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e) with 4 claims",
+            "All 4 claims originate from the same single study comparing 3 methods (spaCy, T5, GPT-3.5-TURBO-0125)",
+            "claim-1: ROUGE-1 - GPT(0.364) > T5(0.268) > spaCy(0.257)",
+            "claim-4: T5 achieves second-place with ROUGE-1=0.268, ROUGE-L=0.204",
+            "These claims are internally consistent; no cross-paper contradictions exist",
+            "The noted limitation in claim-3 ('satisfactory results') is subjective language rather than a factual contradiction"
+          ],
+          "confidence": 0.1,
+          "novelty_value": 0.6,
+          "review_worthiness": 0.3,
+          "status": "invalidated"
+        }
+      ]
+    },
+    {
+      "name": "writing",
+      "ok": true,
+      "outline": [
+        {
+          "section_id": "sec-intro",
+          "title": "Introduction and Research Context",
+          "objective": "Establish the review's motivation, scope, and the specific problem space of automated literature review systems.",
+          "gap_inputs": [],
+          "matrix_row_count": 0
+        },
+        {
+          "section_id": "sec-methods",
+          "title": "Methodological Approaches",
+          "objective": "Categorize and analyze technical approaches, focusing on Extractive Summarization; Seq2Seq Transformer; Retrieval-Augmented Generation (RAG).",
+          "gap_inputs": [],
+          "matrix_row_count": 4
+        },
+        {
+          "section_id": "sec-tasks",
+          "title": "Task Scope and System Capabilities",
+          "objective": "Examine the range of tasks addressed, including Scientific Document Summarization; Automated Literature Review Generation, and how system capabilities vary across them.",
+          "gap_inputs": [],
+          "matrix_row_count": 4
+        },
+        {
+          "section_id": "sec-claims",
+          "title": "Claim Synthesis and Cross-Paper Comparability",
+          "objective": "Synthesize specific claims from the evidence matrix, assess where papers converge or conflict, and evaluate metric standardization.",
+          "gap_inputs": [
+            "56fcd571-4a59-49cb-99ff-a369903343eb"
+          ],
+          "matrix_row_count": 4
+        },
+        {
+          "section_id": "sec-gaps",
+          "title": "Research Gaps and Opportunities",
+          "objective": "Present 2 verified gaps and explain what evidence substantiates each.",
+          "gap_inputs": [
+            "10617cfa-3771-43f6-8c00-7b7010bf808a",
+            "56fcd571-4a59-49cb-99ff-a369903343eb"
+          ],
+          "matrix_row_count": 0
+        },
+        {
+          "section_id": "sec-discussion",
+          "title": "Discussion: Synthesis and Future Directions",
+          "objective": "Synthesize findings and prioritize important open problems for future research.",
+          "gap_inputs": [],
+          "matrix_row_count": 0
+        },
+        {
+          "section_id": "sec-conclusion",
+          "title": "Conclusion",
+          "objective": "Summarize key comparative findings, gap priorities, and the contribution of this review to the field.",
+          "gap_inputs": [],
+          "matrix_row_count": 0
+        }
+      ],
+      "sections": [
+        {
+          "section_id": "sec-intro",
+          "title": "Introduction and Research Context",
+          "text": "This review synthesizes evidence from 1 papers addressing Scientific Document Summarization; Automated Literature Review Generation, drawn from the automated literature review domain. Systems examined employ diverse methodological families, including Extractive Summarization; Seq2Seq Transformer; Retrieval-Augmented Generation (RAG). The review structures findings around 4 discrete claims, organized into a comparative matrix that highlights where methods converge, diverge, or lack sufficient evaluation evidence. The objective is to move beyond siloed paper summaries toward a structured understanding of the current state, open problems, and underexplored regions of the literature.",
+          "citation_keys": [
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e"
+          ],
+          "_citation_scores": {
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e": 5.0
+          }
+        },
+        {
+          "section_id": "sec-methods",
+          "title": "Methodological Approaches",
+          "text": "Extractive Summarization; Seq2Seq Transformer; Retrieval-Augmented Generation (RAG) systems make claims including: GPT-3.5-TURBO-0125 with RAG achieved the highest ROUGE-1 score of 0.364, outperforming both T5 (0.268) and spaCy (0.257); The LLM-based approach produces literature reviews with better unigram and bigram overlap with human summaries compared to transformer and frequency-based methods.",
+          "citation_keys": [
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e"
+          ],
+          "_citation_scores": {
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e": 1.5
+          }
+        },
+        {
+          "section_id": "sec-tasks",
+          "title": "Task Scope and System Capabilities",
+          "text": "Covered task types include Scientific Document Summarization; Automated Literature Review Generation. Performance claims vary significantly across task categories, with metric reporting most complete for Scientific Document Summarization.",
+          "citation_keys": [
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e"
+          ],
+          "_citation_scores": {
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e": 5.0
+          }
+        },
+        {
+          "section_id": "sec-claims",
+          "title": "Claim Synthesis and Cross-Paper Comparability",
+          "text": "Reported metrics include: ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum; ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum; ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum; ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum. Metric reporting practices vary considerably across papers, making direct cross-study comparison difficult in several cases.",
+          "citation_keys": [
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e"
+          ],
+          "_citation_scores": {
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e": 5.0
+          }
+        },
+        {
+          "section_id": "sec-gaps",
+          "title": "Research Gaps and Opportunities",
+          "text": "The following gaps have been verified through the evidence matrix:\n\nGap [10617cfa-3771-43f6-8c00-7b7010bf808a] (medium severity): Current coverage appears to underrepresent Chinese-language or Chinese-context studies.\nGap [56fcd571-4a59-49cb-99ff-a369903343eb] (medium severity): There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.",
+          "citation_keys": [
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e"
+          ],
+          "_citation_scores": {
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e": 5.0
+          }
+        },
+        {
+          "section_id": "sec-discussion",
+          "title": "Discussion: Synthesis and Future Directions",
+          "text": "Cross-paper claim synthesis reveals areas of convergence and divergence. Selected claims from the matrix: e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e: GPT-3.5-TURBO-0125 with RAG achieved the highest ROUGE-1 score of 0.364, outperf; e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e: The LLM-based approach produces literature reviews with better unigram and bigra; e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e: All three NLP approaches (spaCy, T5, and GPT-3.5-TURBO-0125) can produce satisfa.",
+          "citation_keys": [
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e"
+          ],
+          "_citation_scores": {
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e": 11.5
+          }
+        },
+        {
+          "section_id": "sec-conclusion",
+          "title": "Conclusion",
+          "text": "This review has examined 1 papers covering Scientific Document Summarization; Automated Literature Review Generation using Extractive Summarization; Seq2Seq Transformer; Retrieval-Augmented Generation (RAG). Key gaps identified include: [10617cfa-3771-43f6-8c00-7b7010bf808a] Current coverage appears to underrepresent Chinese-language or Chinese-context studies. [56fcd571-4a59-49cb-99ff-a369903343eb] There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.. Future research directions emerging from this analysis include addressing metric standardization, expanding linguistic coverage, and resolving conflicting performance claims through rigorous comparative evaluation.",
+          "citation_keys": [
+            "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e"
+          ]
+        }
+      ],
+      "bib": [
+        {
+          "key": "e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e",
+          "entry": "@article{e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e,\n  author={Unknown},\n  title={Untitled},\n  year={},\n  journal={preprint}\n}"
+        }
+      ],
+      "tex": "\\documentclass{article}\n\\usepackage[utf8]{inputenc}\n\\title{ARIS-Lit Literature Review}\n\\begin{document}\n\\maketitle\n\\section{Introduction and Research Context}\nThis review synthesizes evidence from 1 papers addressing Scientific Document Summarization; Automated Literature Review Generation, drawn from the automated literature review domain. Systems examined employ diverse methodological families, including Extractive Summarization; Seq2Seq Transformer; Retrieval-Augmented Generation (RAG). The review structures findings around 4 discrete claims, organized into a comparative matrix that highlights where methods converge, diverge, or lack sufficient evaluation evidence. The objective is to move beyond siloed paper summaries toward a structured understanding of the current state, open problems, and underexplored regions of the literature.\n\n\\section{Methodological Approaches}\nExtractive Summarization; Seq2Seq Transformer; Retrieval-Augmented Generation (RAG) systems make claims including: GPT-3.5-TURBO-0125 with RAG achieved the highest ROUGE-1 score of 0.364, outperforming both T5 (0.268) and spaCy (0.257); The LLM-based approach produces literature reviews with better unigram and bigram overlap with human summaries compared to transformer and frequency-based methods.\n\n\\section{Task Scope and System Capabilities}\nCovered task types include Scientific Document Summarization; Automated Literature Review Generation. Performance claims vary significantly across task categories, with metric reporting most complete for Scientific Document Summarization.\n\n\\section{Claim Synthesis and Cross-Paper Comparability}\nReported metrics include: ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum; ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum; ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum; ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum. Metric reporting practices vary considerably across papers, making direct cross-study comparison difficult in several cases.\n\n\\section{Research Gaps and Opportunities}\nThe following gaps have been verified through the evidence matrix:\n\nGap [10617cfa-3771-43f6-8c00-7b7010bf808a] (medium severity): Current coverage appears to underrepresent Chinese-language or Chinese-context studies.\nGap [56fcd571-4a59-49cb-99ff-a369903343eb] (medium severity): There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.\n\n\\section{Discussion: Synthesis and Future Directions}\nCross-paper claim synthesis reveals areas of convergence and divergence. Selected claims from the matrix: e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e: GPT-3.5-TURBO-0125 with RAG achieved the highest ROUGE-1 score of 0.364, outperf; e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e: The LLM-based approach produces literature reviews with better unigram and bigra; e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e: All three NLP approaches (spaCy, T5, and GPT-3.5-TURBO-0125) can produce satisfa.\n\n\\section{Conclusion}\nThis review has examined 1 papers covering Scientific Document Summarization; Automated Literature Review Generation using Extractive Summarization; Seq2Seq Transformer; Retrieval-Augmented Generation (RAG). Key gaps identified include: [10617cfa-3771-43f6-8c00-7b7010bf808a] Current coverage appears to underrepresent Chinese-language or Chinese-context studies. [56fcd571-4a59-49cb-99ff-a369903343eb] There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.. Future research directions emerging from this analysis include addressing metric standardization, expanding linguistic coverage, and resolving conflicting performance claims through rigorous comparative evaluation.\n\n\\end{document}\n% BIB START\n@article{e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e,\n  author={Unknown},\n  title={Untitled},\n  year={},\n  journal={preprint}\n}",
+      "compile_result": {}
+    }
+  ]
+}

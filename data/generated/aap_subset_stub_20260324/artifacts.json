@@ -1,0 +1,137 @@
+{
+  "artifacts.json": {
+    "path": "data/generated/aap_subset_stub_20260324/artifacts.json",
+    "exists": true,
+    "size_bytes": 3792
+  },
+  "summary.json": {
+    "path": "data/generated/aap_subset_stub_20260324/summary.json",
+    "exists": true,
+    "size_bytes": 9829
+  },
+  "coverage.json": {
+    "path": "data/generated/aap_subset_stub_20260324/coverage.json",
+    "exists": true,
+    "size_bytes": 454
+  },
+  "matrix.json": {
+    "path": "data/generated/aap_subset_stub_20260324/matrix.json",
+    "exists": true,
+    "size_bytes": 7910
+  },
+  "matrix.csv": {
+    "path": "data/generated/aap_subset_stub_20260324/matrix.csv",
+    "exists": true,
+    "size_bytes": 5340
+  },
+  "matrix.md": {
+    "path": "data/generated/aap_subset_stub_20260324/matrix.md",
+    "exists": true,
+    "size_bytes": 5730
+  },
+  "contradiction.json": {
+    "path": "data/generated/aap_subset_stub_20260324/contradiction.json",
+    "exists": true,
+    "size_bytes": 7965
+  },
+  "candidate_gaps.json": {
+    "path": "data/generated/aap_subset_stub_20260324/candidate_gaps.json",
+    "exists": true,
+    "size_bytes": 411
+  },
+  "verified_gaps.json": {
+    "path": "data/generated/aap_subset_stub_20260324/verified_gaps.json",
+    "exists": true,
+    "size_bytes": 1710
+  },
+  "scored_gaps.json": {
+    "path": "data/generated/aap_subset_stub_20260324/scored_gaps.json",
+    "exists": true,
+    "size_bytes": 1707
+  },
+  "synthesis_map.json": {
+    "path": "data/generated/aap_subset_stub_20260324/synthesis_map.json",
+    "exists": true,
+    "size_bytes": 4265
+  },
+  "organization.json": {
+    "path": "data/generated/aap_subset_stub_20260324/organization.json",
+    "exists": true,
+    "size_bytes": 483
+  },
+  "outline.json": {
+    "path": "data/generated/aap_subset_stub_20260324/outline.json",
+    "exists": true,
+    "size_bytes": 1753
+  },
+  "section_plans.json": {
+    "path": "data/generated/aap_subset_stub_20260324/section_plans.json",
+    "exists": true,
+    "size_bytes": 57517
+  },
+  "paragraph_plans.json": {
+    "path": "data/generated/aap_subset_stub_20260324/paragraph_plans.json",
+    "exists": true,
+    "size_bytes": 67718
+  },
+  "sections.json": {
+    "path": "data/generated/aap_subset_stub_20260324/sections.json",
+    "exists": true,
+    "size_bytes": 85011
+  },
+  "validation_report.json": {
+    "path": "data/generated/aap_subset_stub_20260324/validation_report.json",
+    "exists": true,
+    "size_bytes": 6311
+  },
+  "review.md": {
+    "path": "data/generated/aap_subset_stub_20260324/review.md",
+    "exists": true,
+    "size_bytes": 13355
+  },
+  "review.tex": {
+    "path": "data/generated/aap_subset_stub_20260324/review.tex",
+    "exists": true,
+    "size_bytes": 15877
+  },
+  "bib.tex": {
+    "path": "data/generated/aap_subset_stub_20260324/bib.tex",
+    "exists": true,
+    "size_bytes": 650
+  },
+  "abstract.json": {
+    "path": "data/generated/aap_subset_stub_20260324/abstract.json",
+    "exists": true,
+    "size_bytes": 1112
+  },
+  "abstract.txt": {
+    "path": "data/generated/aap_subset_stub_20260324/abstract.txt",
+    "exists": true,
+    "size_bytes": 716
+  },
+  "keywords.json": {
+    "path": "data/generated/aap_subset_stub_20260324/keywords.json",
+    "exists": true,
+    "size_bytes": 785
+  },
+  "keywords.txt": {
+    "path": "data/generated/aap_subset_stub_20260324/keywords.txt",
+    "exists": true,
+    "size_bytes": 197
+  },
+  "appendix.json": {
+    "path": "data/generated/aap_subset_stub_20260324/appendix.json",
+    "exists": true,
+    "size_bytes": 5064
+  },
+  "evidence_table.json": {
+    "path": "data/generated/aap_subset_stub_20260324/evidence_table.json",
+    "exists": true,
+    "size_bytes": 3370
+  },
+  "evidence_table.md": {
+    "path": "data/generated/aap_subset_stub_20260324/evidence_table.md",
+    "exists": true,
+    "size_bytes": 2386
+  }
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "gap_id": "7c3ac66f-4bf6-4237-b385-ea37606c75ed",
+    "gap_statement": "Current coverage appears to underrepresent Chinese-language or Chinese-context studies.",
+    "gap_type": "language",
+    "supporting_evidence": [
+      "language_distribution shows all 13 papers in English (9 'english' + 3 'English' + 1 'en')",
+      "chinese_coverage_count = 0 explicitly confirms no Chinese-language publications",
+      "Only one paper (c106e35c) uses Chinese field data (Xi'an) but is published in English"
+    ],
+    "counter_evidence": [
+      "Paper c106e35c-ae95-4918-940c-604e5cbdd8cf uses field data from Xi'an, China - provides Chinese-context data even if not Chinese-language publication"
+    ],
+    "confidence": 0.85,
+    "novelty_value": 0.8,
+    "review_worthiness": 0.83,
+    "status": "verified"
+  },
+  {
+    "gap_id": "23e51c49-2b7d-4acc-89f3-db43626d66b9",
+    "gap_statement": "There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.",
+    "gap_type": "comparison",
+    "supporting_evidence": [
+      "contradiction_count = 43 reported from contradiction analysis"
+    ],
+    "counter_evidence": [
+      "The 43 contradictions may include methodological variations rather than direct disagreements - papers often use different approaches (cognitive modeling vs ML vs simulation) addressing same task from different angles",
+      "Many 'contradictions' could be scope/context differences (e.g., different traffic conditions, pedestrian populations, or geographical contexts)",
+      "Without access to specific contradiction pairs, cannot determine if these are genuine conflicting claims or just methodological diversity"
+    ],
+    "confidence": 0.15,
+    "novelty_value": 0.6,
+    "review_worthiness": 0.33,
+    "status": "partially_verified"
+  }
+]

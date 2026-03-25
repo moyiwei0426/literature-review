@@ -1,0 +1,132 @@
+{
+  "summary.json": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/summary.json",
+    "exists": false,
+    "size_bytes": 0
+  },
+  "coverage.json": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/coverage.json",
+    "exists": true,
+    "size_bytes": 424
+  },
+  "matrix.json": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/matrix.json",
+    "exists": true,
+    "size_bytes": 1847
+  },
+  "matrix.csv": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/matrix.csv",
+    "exists": true,
+    "size_bytes": 1329
+  },
+  "matrix.md": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/matrix.md",
+    "exists": true,
+    "size_bytes": 1533
+  },
+  "contradiction.json": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/contradiction.json",
+    "exists": true,
+    "size_bytes": 2441
+  },
+  "candidate_gaps.json": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/candidate_gaps.json",
+    "exists": true,
+    "size_bytes": 411
+  },
+  "verified_gaps.json": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/verified_gaps.json",
+    "exists": true,
+    "size_bytes": 1668
+  },
+  "scored_gaps.json": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/scored_gaps.json",
+    "exists": true,
+    "size_bytes": 1665
+  },
+  "synthesis_map.json": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/synthesis_map.json",
+    "exists": true,
+    "size_bytes": 4265
+  },
+  "organization.json": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/organization.json",
+    "exists": true,
+    "size_bytes": 483
+  },
+  "outline.json": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/outline.json",
+    "exists": true,
+    "size_bytes": 1753
+  },
+  "section_plans.json": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/section_plans.json",
+    "exists": true,
+    "size_bytes": 56445
+  },
+  "paragraph_plans.json": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/paragraph_plans.json",
+    "exists": true,
+    "size_bytes": 66438
+  },
+  "sections.json": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/sections.json",
+    "exists": true,
+    "size_bytes": 79958
+  },
+  "validation_report.json": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/validation_report.json",
+    "exists": true,
+    "size_bytes": 6311
+  },
+  "review.md": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/review.md",
+    "exists": true,
+    "size_bytes": 12504
+  },
+  "review.tex": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/review.tex",
+    "exists": true,
+    "size_bytes": 14404
+  },
+  "bib.tex": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/bib.tex",
+    "exists": true,
+    "size_bytes": 191
+  },
+  "abstract.json": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/abstract.json",
+    "exists": true,
+    "size_bytes": 1108
+  },
+  "abstract.txt": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/abstract.txt",
+    "exists": true,
+    "size_bytes": 714
+  },
+  "keywords.json": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/keywords.json",
+    "exists": true,
+    "size_bytes": 781
+  },
+  "keywords.txt": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/keywords.txt",
+    "exists": true,
+    "size_bytes": 197
+  },
+  "appendix.json": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/appendix.json",
+    "exists": true,
+    "size_bytes": 2138
+  },
+  "evidence_table.json": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/evidence_table.json",
+    "exists": true,
+    "size_bytes": 778
+  },
+  "evidence_table.md": {
+    "path": "/Users/momo/.openclaw/workspace/projects/aris-lit/data/generated/local_review_20260324_011828/evidence_table.md",
+    "exists": true,
+    "size_bytes": 697
+  }
+}

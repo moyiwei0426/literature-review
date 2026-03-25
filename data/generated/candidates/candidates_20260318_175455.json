@@ -1,0 +1,96 @@
+[
+  {
+    "source": "openalex",
+    "source_id": "https://openalex.org/W4385027818",
+    "title": "ChatGPT Chemistry Assistant for Text Mining and the Prediction of MOF Synthesis",
+    "authors": [
+      "Zhiling Zheng",
+      "Oufan Zhang",
+      "Christian Borgs",
+      "Jennifer Chayes",
+      "Omar M. Yaghi"
+    ],
+    "year": 2023,
+    "venue": null,
+    "doi": "https://doi.org/10.1021/jacs.3c05819",
+    "arxiv_id": null,
+    "abstract": null,
+    "keywords": [],
+    "citation_count": 431,
+    "references": [],
+    "related_urls": [],
+    "pdf_url": null,
+    "is_open_access": true,
+    "retrieval_query": "large language model literature review automation",
+    "retrieval_score": null
+  },
+  {
+    "source": "openalex",
+    "source_id": "https://openalex.org/W4401667275",
+    "title": "Artificial intelligence for literature reviews: opportunities and challenges",
+    "authors": [
+      "F. J. Bolaños",
+      "Angelo A. Salatino",
+      "Francesco Osborne",
+      "Enrico Motta"
+    ],
+    "year": 2024,
+    "venue": null,
+    "doi": "https://doi.org/10.1007/s10462-024-10902-3",
+    "arxiv_id": null,
+    "abstract": null,
+    "keywords": [],
+    "citation_count": 144,
+    "references": [],
+    "related_urls": [],
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10462-024-10902-3.pdf",
+    "is_open_access": true,
+    "retrieval_query": "large language model literature review automation",
+    "retrieval_score": null
+  },
+  {
+    "source": "arxiv",
+    "source_id": "2411.18583v1",
+    "title": "Automated Literature Review Using NLP Techniques and LLM-Based Retrieval-Augmented Generation",
+    "authors": [
+      "Nurshat Fateh Ali",
+      "Md. Mahdi Mohtasim",
+      "Shakil Mosharrof",
+      "T. Gopi Krishna"
+    ],
+    "year": null,
+    "venue": null,
+    "doi": null,
+    "arxiv_id": "2411.18583v1",
+    "abstract": "This research presents and compares multiple approaches to automate the generation of literature reviews using several Natural Language Processing (NLP) techniques and retrieval-augmented generation (RAG) with a Large Language Model (LLM). The ever-increasing number of research articles provides a huge challenge for manual literature review. It has resulted in an increased demand for automation. Developing a system capable of automatically generating the literature reviews from only the PDF files as input is the primary objective of this research work. The effectiveness of several Natural Language Processing (NLP) strategies, such as the frequency-based method (spaCy), the transformer model (Simple T5), and retrieval-augmented generation (RAG) with Large Language Model (GPT-3.5-turbo), is evaluated to meet the primary objective. The SciTLDR dataset is chosen for this research experiment and three distinct techniques are utilized to implement three different systems for auto-generating the literature reviews. The ROUGE scores are used for the evaluation of all three systems. Based on the evaluation, the Large Language Model GPT-3.5-turbo achieved the highest ROUGE-1 score, 0.364. The transformer model comes in second place and spaCy is at the last position. Finally, a graphical user interface is created for the best system based on the large language model.",
+    "keywords": [],
+    "citation_count": null,
+    "references": [],
+    "related_urls": [],
+    "pdf_url": "https://arxiv.org/pdf/2411.18583v1",
+    "is_open_access": null,
+    "retrieval_query": "large language model literature review automation",
+    "retrieval_score": null
+  },
+  {
+    "source": "arxiv",
+    "source_id": "2308.02443v1",
+    "title": "AI Literature Review Suite",
+    "authors": [
+      "David A. Tovar"
+    ],
+    "year": null,
+    "venue": null,
+    "doi": null,
+    "arxiv_id": "2308.02443v1",
+    "abstract": "The process of conducting literature reviews is often time-consuming and labor-intensive. To streamline this process, I present an AI Literature Review Suite that integrates several functionalities to provide a comprehensive literature review. This tool leverages the power of open access science, large language models (LLMs) and natural language processing to enable the searching, downloading, and organizing of PDF files, as well as extracting content from articles. Semantic search queries are used for data retrieval, while text embeddings and summarization using LLMs present succinct literature reviews. Interaction with PDFs is enhanced through a user-friendly graphical user interface (GUI). The suite also features integrated programs for bibliographic organization, interaction and query, and literature review summaries. This tool presents a robust solution to automate and optimize the process of literature review in academic and industrial research.",
+    "keywords": [],
+    "citation_count": null,
+    "references": [],
+    "related_urls": [],
+    "pdf_url": "https://arxiv.org/pdf/2308.02443v1",
+    "is_open_access": null,
+    "retrieval_query": "large language model literature review automation",
+    "retrieval_score": null
+  }
+]

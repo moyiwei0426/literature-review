@@ -1,0 +1,74 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction: Automated Literature Review Generation",
+    "text": "This review synthesizes evidence from 1 papers addressing Multi-document summarization for academic papers; Automated literature review generation from PDF files, drawn from the automated literature review domain. Systems examined employ diverse methodological families, including Text Summarization (Extractive and Abstractive). The review structures findings around 4 discrete claims, organized into a comparative matrix that highlights where methods converge, diverge, or lack sufficient evaluation evidence. The objective is to move beyond siloed paper summaries toward a structured understanding of the current state, open problems, and underexplored regions of the literature.",
+    "citation_keys": [
+      "4ac9b6e4-8898-40ae-b3f0-230eb39778ed",
+      "4ac9b6e4-8898-40ae-b3f0-230eb39778ed"
+    ],
+    "_citation_scores": {
+      "4ac9b6e4-8898-40ae-b3f0-230eb39778ed": 27.5
+    }
+  },
+  {
+    "section_id": "sec-2",
+    "title": "NLP Approaches for Literature Review Automation",
+    "text": "Text Summarization (Extractive and Abstractive) systems make claims including: The LLM-based approach (GPT-3.5-turbo) achieved the highest ROUGE-1 score of 0.364, outperforming both T5 (0.268) and spaCy (0.257); All three NLP approaches (spaCy, T5, and GPT-3.5-TURBO) can produce satisfactory results in automating literature review generation.",
+    "citation_keys": [
+      "4ac9b6e4-8898-40ae-b3f0-230eb39778ed",
+      "4ac9b6e4-8898-40ae-b3f0-230eb39778ed"
+    ],
+    "_citation_scores": {
+      "4ac9b6e4-8898-40ae-b3f0-230eb39778ed": 16.0
+    }
+  },
+  {
+    "section_id": "sec-3",
+    "title": "Evaluation Framework and Dataset Limitations",
+    "text": "Reported metrics include: ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum; ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum; ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum; ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum. Metric reporting practices vary considerably across papers, making direct cross-study comparison difficult in several cases.",
+    "citation_keys": [
+      "4ac9b6e4-8898-40ae-b3f0-230eb39778ed",
+      "4ac9b6e4-8898-40ae-b3f0-230eb39778ed"
+    ],
+    "_citation_scores": {
+      "4ac9b6e4-8898-40ae-b3f0-230eb39778ed": 12.0
+    }
+  },
+  {
+    "section_id": "sec-4",
+    "title": "Single-Document vs. Multi-Document Summarization",
+    "text": "This review has examined 1 papers covering Multi-document summarization for academic papers; Automated literature review generation from PDF files using Text Summarization (Extractive and Abstractive). Key gaps identified include: [gap-1] Evaluation is limited to the SciTLDR dataset (5,400 TLDRs from 3,200 papers), which may not represent the full spectrum of scientific domains or document structures encountered in real-world literature reviews. [gap-2] All approaches are evaluated exclusively on English scientific documents, leaving a critical gap in multi-lingual literature review automation. [gap-3] Only three specific NLP approaches (spaCy extractive, T5 abstractive, GPT-3.5 with RAG) are compared, representing a narrow slice of available text summarization methods.. Future research directions emerging from this analysis include addressing metric standardization, expanding linguistic coverage, and resolving conflicting performance claims through rigorous comparative evaluation.",
+    "citation_keys": [
+      "4ac9b6e4-8898-40ae-b3f0-230eb39778ed",
+      "4ac9b6e4-8898-40ae-b3f0-230eb39778ed"
+    ],
+    "_citation_scores": {
+      "4ac9b6e4-8898-40ae-b3f0-230eb39778ed": 35.0
+    }
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Human-AI Collaboration and Interactive Refinement",
+    "text": "This section synthesizes findings from 1 papers in the review corpus, addressing Multi-document summarization for academic papers; Automated literature review generation from PDF files with Text Summarization (Extractive and Abstractive). The comparative evidence matrix structures claims, metrics, and limitations to support structured analysis.",
+    "citation_keys": [
+      "4ac9b6e4-8898-40ae-b3f0-230eb39778ed",
+      "4ac9b6e4-8898-40ae-b3f0-230eb39778ed"
+    ],
+    "_citation_scores": {
+      "4ac9b6e4-8898-40ae-b3f0-230eb39778ed": 12.0
+    }
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Multilingual and Cross-Domain Generalization",
+    "text": "This section synthesizes findings from 1 papers in the review corpus, addressing Multi-document summarization for academic papers; Automated literature review generation from PDF files with Text Summarization (Extractive and Abstractive). The comparative evidence matrix structures claims, metrics, and limitations to support structured analysis.",
+    "citation_keys": [
+      "4ac9b6e4-8898-40ae-b3f0-230eb39778ed",
+      "4ac9b6e4-8898-40ae-b3f0-230eb39778ed"
+    ],
+    "_citation_scores": {
+      "4ac9b6e4-8898-40ae-b3f0-230eb39778ed": 7.0
+    }
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "section_id": "sec-intro",
+    "title": "Introduction and Research Context",
+    "objective": "Establish the review's motivation, scope, and the specific problem space of automated literature review systems.",
+    "gap_inputs": [],
+    "matrix_row_count": 0
+  },
+  {
+    "section_id": "sec-methods",
+    "title": "Methodological Approaches",
+    "objective": "Categorize and analyze technical approaches, focusing on Experimental VR simulation study; statistical_modeling; random_parameter_logit_model.",
+    "gap_inputs": [],
+    "matrix_row_count": 15
+  },
+  {
+    "section_id": "sec-tasks",
+    "title": "Task Scope and System Capabilities",
+    "objective": "Examine the range of tasks addressed, including predict probability of red-light running based on significant variables; examine_interaction_effects_between_personal_and_environmental_factors; analyze_pedestrian_red_light_running_behavior, and how system capabilities vary across them.",
+    "gap_inputs": [],
+    "matrix_row_count": 15
+  },
+  {
+    "section_id": "sec-claims",
+    "title": "Claim Synthesis and Cross-Paper Comparability",
+    "objective": "Synthesize specific claims from the evidence matrix, assess where papers converge or conflict, and evaluate metric standardization.",
+    "gap_inputs": [
+      "9964e351-7c84-4e54-8c45-ee4ab8406aeb"
+    ],
+    "matrix_row_count": 15
+  },
+  {
+    "section_id": "sec-gaps",
+    "title": "Research Gaps and Opportunities",
+    "objective": "Present 1 verified gap and explain what evidence substantiates each.",
+    "gap_inputs": [
+      "9964e351-7c84-4e54-8c45-ee4ab8406aeb"
+    ],
+    "matrix_row_count": 0
+  },
+  {
+    "section_id": "sec-discussion",
+    "title": "Discussion: Synthesis and Future Directions",
+    "objective": "Synthesize findings and prioritize important open problems for future research.",
+    "gap_inputs": [],
+    "matrix_row_count": 0
+  },
+  {
+    "section_id": "sec-conclusion",
+    "title": "Conclusion",
+    "objective": "Summarize key comparative findings, gap priorities, and the contribution of this review to the field.",
+    "gap_inputs": [],
+    "matrix_row_count": 0
+  }
+]

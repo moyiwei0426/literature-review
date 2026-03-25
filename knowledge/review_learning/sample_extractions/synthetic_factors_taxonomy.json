@@ -1,0 +1,120 @@
+{
+  "paper_id": "synthetic_factors_taxonomy",
+  "title": "Factors Influencing Pedestrian Crossing Behavior at Signalized Intersections: Evidence from Observational and Experimental Studies",
+  "year": 2022,
+  "venue": "Transportation Research Part F / Sustainability (composite archetype)",
+  "paper_type": "review",
+  "domain_role": "structure_reference",
+  "access": "synthetic_composite",
+  "source_url": "NA",
+  "sections": [
+    {
+      "name": "Introduction",
+      "role": "intro",
+      "summary": "Opens with quantified safety stakes (pedestrian fatalities at intersections), narrows to signalized crosswalk context, identifies fragmentation in how prior reviews handle determinant categories, states scope: 2000-2021 observational and experimental evidence.",
+      "rhetorical_moves": [
+        "quantified safety stakes (global fatality burden)",
+        "problem narrowing to signalized context",
+        "literature fragmentation identification",
+        "scope delimitation (time, evidence type, geography)",
+        "contribution statement"
+      ],
+      "organization_pattern": "global burden -> specific context -> literature gap -> scope -> contribution roadmap",
+      "citation_pattern": "frequent use of meta-analytic statistics; citation density increases at moments of contested evidence",
+      "useful_phrases": [
+        "A consistent picture has yet to emerge from the extant literature, in part because...",
+        "This heterogeneity in findings across contexts suggests that...",
+        "Despite a growing body of work, no consensus has been reached regarding...",
+        "The present review advances this literature by..."
+      ]
+    },
+    {
+      "name": "Determinants and Factors",
+      "role": "taxonomy",
+      "summary": "Partitions determinants into five clusters: (1) individual/demographic factors, (2) traffic flow and vehicle characteristics, (3) signal timing and infrastructure design, (4) temporal and environmental factors, (5) social and group factors. For each cluster, synthesizes consensus first then highlights contradictory findings.",
+      "rhetorical_moves": [
+        "explicit taxonomy announcement",
+        "cluster-by-cluster synthesis",
+        "consensus statement then contradiction",
+        "cross-study comparison on specific dimensions",
+        "moderator identification (age, culture, context)",
+        "synthesis closing per cluster"
+      ],
+      "organization_pattern": "announce framework -> cluster 1 with evidence -> cluster 2 with evidence -> ... -> cross-cluster synthesis",
+      "citation_pattern": "cites specific effect sizes and direction; notes when findings conflict and proposes explanation",
+      "useful_phrases": [
+        "The evidence for a [factor] effect is broadly consistent, though the magnitude varies substantially with...",
+        "By contrast, studies examining [factor] have reported null or opposite-direction effects, a divergence likely attributable to...",
+        "When considered together, these findings suggest that [factor] operates through [mechanism], but only under conditions where...",
+        "A notable moderator across studies is [variable], which appears to condition the direction of the [factor] effect."
+      ]
+    },
+    {
+      "name": "Methodological Approaches",
+      "role": "methods",
+      "summary": "Reviews methodological families: observational field studies (naturalistic observation, video recording), stated preference surveys, controlled experiments ( simulator, virtual reality), and modelling approaches. Evaluates each on ecological validity, internal validity, and measurement precision.",
+      "rhetorical_moves": [
+        "methodological taxonomy announcement",
+        "strengths then limitations per method",
+        "ecological validity vs internal validity tension",
+        "cross-method triangulation observation",
+        "data quality callout"
+      ],
+      "organization_pattern": "method family -> definition + typical use -> strengths -> limitations -> representative studies",
+      "citation_pattern": "methods papers and validation studies cited; notes when method choice confounds interpretation",
+      "useful_phrases": [
+        "The dominant approach in this literature has been [method], which offers [strength] but is limited by...",
+        "Ecological validity concerns have been raised regarding [method], given that...",
+        "Studies employing [method] have consistently found that..., yet this approach cannot distinguish whether...",
+        "Only a small subset of studies using [method] additionally validated their instruments against..."
+      ]
+    },
+    {
+      "name": "Research Gaps",
+      "role": "gap",
+      "summary": "Identifies five verified gaps: (1) insufficient cross-cultural coverage of gap-acceptance thresholds, (2) limited longitudinal data on behavior change, (3) underdeveloped AV-interaction behavioral models, (4) underspecification of distraction as multidimensional construct, (5) lack of standardized reporting of signal timing parameters.",
+      "rhetorical_moves": [
+        "gap statement with specific evidence anchor",
+        "partial address acknowledgment (what has been done)",
+        "insufficiency explanation (why existing is not enough)",
+        "gap severity assessment",
+        "research need articulation"
+      ],
+      "organization_pattern": "gap-1: claim + partial evidence + insufficiency reason + severity -> gap-2 ...",
+      "citation_pattern": "each gap anchored to specific studies that partially address it; explicitly notes what those studies do not cover",
+      "useful_phrases": [
+        "Gap [N]: While [study] provides initial evidence for..., this work is limited by [specific methodological or coverage gap], leaving open the question of...",
+        "A persistent gap concerns..., for which the existing evidence base is insufficient because most studies...",
+        "This gap is particularly severe because [reason], and addressing it would require [specific research design or data type].",
+        "The field currently lacks sufficient evidence on..., in part because [structural reason: no datasets, no infrastructure, no incentive]."
+      ]
+    },
+    {
+      "name": "Conclusion",
+      "role": "conclusion",
+      "summary": "Re-states field-level picture (not section-by-section recap), highlights 2-3 stable conclusions, 2-3 unresolved tensions, and 2-3 research priorities directly tied to identified gaps.",
+      "rhetorical_moves": [
+        "field-level framing (not summary)",
+        "stable conclusions with evidence weight",
+        "unresolved tensions with attribution",
+        "priority research directions from gaps"
+      ],
+      "organization_pattern": "field framing -> what we reliably know -> what remains contested -> what needs to happen next",
+      "citation_pattern": "minimal; key claims referenced by venue rather than per-paper citation",
+      "useful_phrases": [
+        "The evidence across [N] studies converges on a field-level picture in which...",
+        "Two persistent tensions run through this literature: first..., and second...",
+        "Resolving these tensions will require [specific research designs or data infrastructure].",
+        "Priority should be given to [gap area], which not only represents a scientific gap but carries direct implications for [practical outcome]."
+      ]
+    }
+  ],
+  "global_patterns": {
+    "opening_strategy": "quantified stakes -> narrowing -> fragmentation -> scope -> contribution",
+    "synthesis_strategy": "consensus first, then contradiction with explanation, then moderator identification, then cross-cluster synthesis",
+    "comparison_strategy": "explicit dimension-by-dimension comparison; effect-size reporting; heterogeneity acknowledgment",
+    "gap_strategy": "gap anchored in specific partial evidence; insufficiency explained structurally; severity indicated",
+    "ending_strategy": "field-level synthesis, stable vs contested separation, priorities tied to gaps"
+  },
+  "notes": "Synthetic composite based on typical structure of high-quality Transportation Research Part F/F-part C reviews in pedestrian behavior. For use as a structural reference and few-shot archetype. Not cited from any single paper."
+}

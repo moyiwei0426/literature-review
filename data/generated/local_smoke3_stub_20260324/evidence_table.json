@@ -1,0 +1,95 @@
+[
+  {
+    "paper_id": "03_2006_yang_tra",
+    "title": "Modeling pedestrians’ road crossing behavior in traffic system",
+    "year": 2006,
+    "venue": "tra",
+    "authors": [
+      "Yang"
+    ],
+    "methods": [
+      "pipeline",
+      "llm-assisted-extraction"
+    ],
+    "tasks": [
+      "literature review",
+      "information extraction"
+    ],
+    "datasets": [],
+    "metrics": [],
+    "claim_count": 2,
+    "claims": [
+      "The pipeline can transform parsed paper chunks into a structured paper profile.",
+      "The system supports downstream gap analysis by preserving evidence links."
+    ],
+    "gap_matches": [
+      "e3ceb20c-9aef-4214-b4d6-e84da48999fb"
+    ],
+    "evidence_chunk_ids": [
+      "537b5489-9062-4c86-9f09-03568131b95e",
+      "474cb77d-f4a7-44da-a348-d62ea3c65e33"
+    ]
+  },
+  {
+    "paper_id": "02_2003_brosseau_trf",
+    "title": "crosswalks and a pedestrian user survey which sought pedestrian perceptions toward various pedestrian",
+    "year": 2003,
+    "venue": "trf",
+    "authors": [
+      "Brosseau"
+    ],
+    "methods": [
+      "pipeline",
+      "llm-assisted-extraction"
+    ],
+    "tasks": [
+      "literature review",
+      "information extraction"
+    ],
+    "datasets": [],
+    "metrics": [],
+    "claim_count": 2,
+    "claims": [
+      "The pipeline can transform parsed paper chunks into a structured paper profile.",
+      "The system supports downstream gap analysis by preserving evidence links."
+    ],
+    "gap_matches": [
+      "e3ceb20c-9aef-4214-b4d6-e84da48999fb"
+    ],
+    "evidence_chunk_ids": [
+      "3a96bcfa-783a-4e59-90f4-12b54b0ba419",
+      "cf8c86a4-8329-480b-a159-6504ee0e128b"
+    ]
+  },
+  {
+    "paper_id": "01_2001_hamed_safety_science",
+    "title": "Untitled",
+    "year": 2001,
+    "venue": "safety science",
+    "authors": [
+      "Hamed"
+    ],
+    "methods": [
+      "pipeline",
+      "llm-assisted-extraction"
+    ],
+    "tasks": [
+      "literature review",
+      "information extraction"
+    ],
+    "datasets": [],
+    "metrics": [],
+    "claim_count": 2,
+    "claims": [
+      "The pipeline can transform parsed paper chunks into a structured paper profile.",
+      "The system supports downstream gap analysis by preserving evidence links."
+    ],
+    "gap_matches": [
+      "e3ceb20c-9aef-4214-b4d6-e84da48999fb"
+    ],
+    "evidence_chunk_ids": [
+      "4f858a1c-12a1-4a1b-8574-1bc2e6f7a9e7",
+      "543fdafb-55a2-40ea-aa28-dd152440fd0f"
+    ]
+  }
+]

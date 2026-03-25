@@ -1,0 +1,459 @@
+{
+  "status": "success",
+  "output_dir": "data/generated/aap_live_1paper_20260324",
+  "parsed": 1,
+  "extracted": 1,
+  "processing_errors": [],
+  "extraction_reports": [
+    {
+      "paper_id": "08_2016_zhou_aap",
+      "provider": "openai_compatible",
+      "model": "MiniMax-M2.5",
+      "latency_ms": 41389,
+      "usage": {
+        "total_tokens": 13272,
+        "total_characters": 0,
+        "prompt_tokens": 11475,
+        "completion_tokens": 1797,
+        "completion_tokens_details": {
+          "reasoning_tokens": 632
+        }
+      },
+      "chunk_count": 36,
+      "attempts": 1,
+      "recovered_after_retry": false,
+      "fallback_used": false
+    }
+  ],
+  "coverage": {
+    "paper_count": 1,
+    "method_family_distribution": {
+      "Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) extension": 1
+    },
+    "task_distribution": {
+      "Predict pedestrians' violating road-crossing behavior intentions": 1
+    },
+    "language_distribution": {
+      "english": 1
+    },
+    "dataset_distribution": {
+      "Survey data from 260 respondents in Dalian, China": 1
+    },
+    "year_distribution": {
+      "2016": 1
+    },
+    "chinese_coverage_count": 1,
+    "themes": [
+      "Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) extension"
+    ]
+  },
+  "matrix_rows": 5,
+  "contradictions": 0,
+  "gaps": {
+    "candidates": 0,
+    "verified": 0,
+    "scored": 0
+  },
+  "synthesis_map": {
+    "overview": {
+      "paper_count": 1,
+      "matrix_row_count": 5,
+      "verified_gap_count": 0,
+      "scored_gap_count": 0,
+      "rejected_gap_count": 0,
+      "contradiction_count": 0,
+      "dominant_axis": "factor",
+      "average_gap_score": 0.0,
+      "theme_counts": {
+        "method": 1,
+        "task": 1,
+        "factor": 3,
+        "application": 1
+      },
+      "coverage_themes": [
+        "Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) extension"
+      ]
+    },
+    "theme_axes": {
+      "method": [
+        {
+          "theme_id": "method:structural_equation_modeling_(sem),_theory_of_planned_behavior_(tpb)_extension",
+          "theme_type": "method",
+          "label": "Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) extension",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) extension appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ],
+      "task": [
+        {
+          "theme_id": "task:predict_pedestrians'_violating_road-crossing_behavior_intentions",
+          "theme_type": "task",
+          "label": "Predict pedestrians' violating road-crossing behavior intentions",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Predict pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ],
+      "factor": [
+        {
+          "theme_id": "factor:behavioral_factors",
+          "theme_type": "factor",
+          "label": "behavioral_factors",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "factor:demographic_factors",
+          "theme_type": "factor",
+          "label": "demographic_factors",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "demographic_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "factor:traffic_factors",
+          "theme_type": "factor",
+          "label": "traffic_factors",
+          "evidence_count": 2,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 2.0,
+          "synthesis_note": "traffic_factors appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ],
+      "application": [
+        {
+          "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+          "theme_type": "application",
+          "label": "Survey data from 260 respondents in Dalian, China",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ]
+    },
+    "top_themes": [
+      {
+        "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+        "theme_type": "application",
+        "label": "Survey data from 260 respondents in Dalian, China",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:behavioral_factors",
+        "theme_type": "factor",
+        "label": "behavioral_factors",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:demographic_factors",
+        "theme_type": "factor",
+        "label": "demographic_factors",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "demographic_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "method:structural_equation_modeling_(sem),_theory_of_planned_behavior_(tpb)_extension",
+        "theme_type": "method",
+        "label": "Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) extension",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) extension appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "task:predict_pedestrians'_violating_road-crossing_behavior_intentions",
+        "theme_type": "task",
+        "label": "Predict pedestrians' violating road-crossing behavior intentions",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Predict pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:traffic_factors",
+        "theme_type": "factor",
+        "label": "traffic_factors",
+        "evidence_count": 2,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 2.0,
+        "synthesis_note": "traffic_factors appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ]
+  },
+  "organization": {
+    "recommended_structure": "factor_taxonomy",
+    "scores": {
+      "method_taxonomy": 1.3,
+      "task_taxonomy": 1.3,
+      "factor_taxonomy": 9.6,
+      "application_scenario": 1.6
+    },
+    "rationale": "Cross-paper factor signals are dense enough to support a variable-centered narrative.",
+    "signals": {
+      "method_theme_count": 1,
+      "task_theme_count": 1,
+      "factor_theme_count": 3,
+      "application_theme_count": 1,
+      "contradiction_count": 0,
+      "average_gap_score": 0.0
+    }
+  },
+  "abstract": {
+    "title": "AAP live one-paper",
+    "paper_count": 1,
+    "matrix_row_count": 5,
+    "dominant_axis": "factor structure",
+    "top_themes": [
+      "Survey data from 260 respondents in Dalian, China",
+      "behavioral factors",
+      "demographic factors"
+    ],
+    "top_methods": [
+      "Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) extension"
+    ],
+    "top_tasks": [
+      "Predict pedestrians' violating road-crossing behavior intentions"
+    ],
+    "verified_gap_count": 0,
+    "text": "AAP live one-paper synthesizes 1 papers across 5 evidence rows using factor structure as the main organizing lens. The synthesis is concentrated in Survey data from 260 respondents in Dalian, China, behavioral factors, with recurring methods such as Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) extension and task coverage centered on Predict pedestrians' violating road-crossing behavior intentions. Across 1 papers, the evidence is most coherently organized around factor structure rather than any single method, and the strongest clusters are Survey data from 260 respondents in Dalian, China, behavioral factors, demographic factors. Future work should prioritize standardized reporting and more explicit cross-study comparison."
+  },
+  "keywords": {
+    "keywords": [
+      "structural equation modeling (sem), theory of planned behavior (tpb) extension",
+      "predict pedestrians' violating road-crossing behavior intentions",
+      "survey data from 260 respondents in dalian, china",
+      "examine pedestrians' self-reported violating crossing behavior intentions by applying and extending the theory of planned behavior (tpb), testing instrumental attitude, subjective norm, perceived behavioral control, and extended factors including descriptive norm, perceived risk, and conformity tendency",
+      "cronbach's alpha (reliability)",
+      "confirmatory factor analysis (validity)",
+      "cmin/df ratio",
+      "behavioral factors"
+    ],
+    "keyword_count": 8,
+    "dominant_axis": "factor taxonomy",
+    "signals": {
+      "structural equation modeling (sem), theory of planned behavior (tpb) extension": 8.6,
+      "predict pedestrians' violating road-crossing behavior intentions": 7.85,
+      "survey data from 260 respondents in dalian, china": 7.6,
+      "examine pedestrians' self-reported violating crossing behavior intentions by applying and extending the theory of planned behavior (tpb), testing instrumental attitude, subjective norm, perceived behavioral control, and extended factors including descriptive norm, perceived risk, and conformity tendency": 5.0,
+      "cronbach's alpha (reliability)": 4.5,
+      "confirmatory factor analysis (validity)": 4.5,
+      "cmin/df ratio": 4.5,
+      "behavioral factors": 2.7,
+      "factor taxonomy": 1.8,
+      "demographic factors": 1.5,
+      "theory planned": 1.2,
+      "theory planned behavior": 1.2
+    }
+  },
+  "outline_sections": 7,
+  "bib_entries": 1,
+  "validation": {
+    "overall_status": "fail",
+    "section_count": 7,
+    "healthy_section_count": 0,
+    "weak_section_count": 7,
+    "finding_count": 28,
+    "severity_counts": {
+      "error": 18,
+      "warning": 10
+    },
+    "flagged_sections": [
+      {
+        "section_id": "sec-1",
+        "title": "Introduction and Research Context",
+        "status": "fail",
+        "finding_count": 4
+      },
+      {
+        "section_id": "sec-2",
+        "title": "Theoretical Background: Theory of Planned Behavior and Extensions",
+        "status": "fail",
+        "finding_count": 4
+      },
+      {
+        "section_id": "sec-3",
+        "title": "Structural Equation Modeling Methodology",
+        "status": "fail",
+        "finding_count": 4
+      },
+      {
+        "section_id": "sec-4",
+        "title": "Behavioral Factors in Crossing Intentions",
+        "status": "fail",
+        "finding_count": 4
+      },
+      {
+        "section_id": "sec-5",
+        "title": "Demographic and Traffic Context Factors",
+        "status": "fail",
+        "finding_count": 4
+      }
+    ]
+  },
+  "compile": null,
+  "warnings": [],
+  "artifacts": {
+    "artifacts.json": {
+      "path": "data/generated/aap_live_1paper_20260324/artifacts.json",
+      "exists": true,
+      "size_bytes": 3790
+    },
+    "summary.json": {
+      "path": "data/generated/aap_live_1paper_20260324/summary.json",
+      "exists": true,
+      "size_bytes": 12344
+    },
+    "coverage.json": {
+      "path": "data/generated/aap_live_1paper_20260324/coverage.json",
+      "exists": true,
+      "size_bytes": 575
+    },
+    "matrix.json": {
+      "path": "data/generated/aap_live_1paper_20260324/matrix.json",
+      "exists": true,
+      "size_bytes": 13351
+    },
+    "matrix.csv": {
+      "path": "data/generated/aap_live_1paper_20260324/matrix.csv",
+      "exists": true,
+      "size_bytes": 11859
+    },
+    "matrix.md": {
+      "path": "data/generated/aap_live_1paper_20260324/matrix.md",
+      "exists": true,
+      "size_bytes": 12104
+    },
+    "contradiction.json": {
+      "path": "data/generated/aap_live_1paper_20260324/contradiction.json",
+      "exists": true,
+      "size_bytes": 3551
+    },
+    "candidate_gaps.json": {
+      "path": "data/generated/aap_live_1paper_20260324/candidate_gaps.json",
+      "exists": true,
+      "size_bytes": 2
+    },
+    "verified_gaps.json": {
+      "path": "data/generated/aap_live_1paper_20260324/verified_gaps.json",
+      "exists": true,
+      "size_bytes": 2
+    },
+    "scored_gaps.json": {
+      "path": "data/generated/aap_live_1paper_20260324/scored_gaps.json",
+      "exists": true,
+      "size_bytes": 2
+    },
+    "synthesis_map.json": {
+      "path": "data/generated/aap_live_1paper_20260324/synthesis_map.json",
+      "exists": true,
+      "size_bytes": 5930
+    },
+    "organization.json": {
+      "path": "data/generated/aap_live_1paper_20260324/organization.json",
+      "exists": true,
+      "size_bytes": 483
+    },
+    "outline.json": {
+      "path": "data/generated/aap_live_1paper_20260324/outline.json",
+      "exists": true,
+      "size_bytes": 2018
+    },
+    "section_plans.json": {
+      "path": "data/generated/aap_live_1paper_20260324/section_plans.json",
+      "exists": true,
+      "size_bytes": 55719
+    },
+    "paragraph_plans.json": {
+      "path": "data/generated/aap_live_1paper_20260324/paragraph_plans.json",
+      "exists": true,
+      "size_bytes": 56831
+    },
+    "sections.json": {
+      "path": "data/generated/aap_live_1paper_20260324/sections.json",
+      "exists": true,
+      "size_bytes": 41570
+    },
+    "validation_report.json": {
+      "path": "data/generated/aap_live_1paper_20260324/validation_report.json",
+      "exists": true,
+      "size_bytes": 17663
+    },
+    "review.md": {
+      "path": "data/generated/aap_live_1paper_20260324/review.md",
+      "exists": true,
+      "size_bytes": 20826
+    },
+    "review.tex": {
+      "path": "data/generated/aap_live_1paper_20260324/review.tex",
+      "exists": true,
+      "size_bytes": 22283
+    },
+    "bib.tex": {
+      "path": "data/generated/aap_live_1paper_20260324/bib.tex",
+      "exists": true,
+      "size_bytes": 293
+    },
+    "abstract.json": {
+      "path": "data/generated/aap_live_1paper_20260324/abstract.json",
+      "exists": true,
+      "size_bytes": 1250
+    },
+    "abstract.txt": {
+      "path": "data/generated/aap_live_1paper_20260324/abstract.txt",
+      "exists": true,
+      "size_bytes": 756
+    },
+    "keywords.json": {
+      "path": "data/generated/aap_live_1paper_20260324/keywords.json",
+      "exists": true,
+      "size_bytes": 1583
+    },
+    "keywords.txt": {
+      "path": "data/generated/aap_live_1paper_20260324/keywords.txt",
+      "exists": true,
+      "size_bytes": 602
+    },
+    "appendix.json": {
+      "path": "data/generated/aap_live_1paper_20260324/appendix.json",
+      "exists": true,
+      "size_bytes": 2565
+    },
+    "evidence_table.json": {
+      "path": "data/generated/aap_live_1paper_20260324/evidence_table.json",
+      "exists": true,
+      "size_bytes": 1640
+    },
+    "evidence_table.md": {
+      "path": "data/generated/aap_live_1paper_20260324/evidence_table.md",
+      "exists": true,
+      "size_bytes": 1493
+    }
+  }
+}

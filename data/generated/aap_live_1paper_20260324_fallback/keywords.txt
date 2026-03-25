@@ -1,0 +1,8 @@
+predicting pedestrian violating crossing behavior intention
+structural equation modeling (sem) / survey-based research
+survey data from 260 respondents in dalian, china
+examining pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (tpb) and extending it with descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on behavioral intentions.
+cmin/df ratio
+rmsea
+pclose
+behavioral factors

@@ -1,0 +1,68 @@
+{
+  "title": "Appendix",
+  "summary": {
+    "paper_count": 1,
+    "row_count": 5,
+    "verified_gap_count": 0,
+    "dominant_axis": "factor",
+    "top_methods": [
+      "Structural equation modeling (SEM) / Survey-based research"
+    ],
+    "top_tasks": [
+      "Predicting pedestrian violating crossing behavior intention"
+    ],
+    "top_datasets": [
+      "Survey data from 260 respondents in Dalian, China"
+    ],
+    "narrative": [
+      "The appendix records 1 papers and 5 matrix rows used to generate the review synthesis.",
+      "The most visible methodological families are Structural equation modeling (SEM) / Survey-based research, while recurring tasks include Predicting pedestrian violating crossing behavior intention."
+    ]
+  },
+  "evidence_table": [
+    {
+      "paper_id": "08_2016_zhou_aap",
+      "title": "An extension of the theory of planned behavior to predict pedestrians' violating crossing behavior using structural equation modeling",
+      "year": 2016,
+      "venue": "Accident Analysis and Prevention",
+      "authors": [
+        "Hongmei Zhou",
+        "Stephanie Ballon Romero",
+        "Xiao Qin"
+      ],
+      "methods": [
+        "Structural equation modeling (SEM) / Survey-based research"
+      ],
+      "tasks": [
+        "Predicting pedestrian violating crossing behavior intention"
+      ],
+      "datasets": [
+        "Survey data from 260 respondents in Dalian, China"
+      ],
+      "metrics": [
+        "CMIN/df ratio",
+        "RMSEA",
+        "PCLOSE",
+        "CFI",
+        "Regression weights"
+      ],
+      "claim_count": 5,
+      "claims": [
+        "Instrumental attitude is a significant predictor of pedestrians' violating crossing behavior intention across all models tested.",
+        "Descriptive norm (perceived actual behavior of family and friends) is a stronger predictor than subjective norm (perceived approval) and remains significant when added to the basic TPB model.",
+        "Conformity tendency (the tendency to modify behavior when around others) is a strong predictor of violating crossing intention, indicating that the presence of other pedestrians influences behavioral intention."
+      ],
+      "gap_matches": [],
+      "evidence_chunk_ids": [
+        "1e5ba93e-7eb3-4e32-ae30-9211e14e1b9a",
+        "1754dcbf-a58e-48ae-8322-aa04acc30238",
+        "7bb8dbde-0a61-49d9-beb8-22cdac7791ed",
+        "9c660922-0c1f-4caf-92bc-e2433c0ec0b2",
+        "134ea475-a359-4b03-bd7f-2e20d7989bcb",
+        "d5731a5c-1d64-4311-b721-41c398f7c358",
+        "d1e281ef-cadb-46bc-8992-f87d62ddc36c"
+      ]
+    }
+  ],
+  "gap_index": []
+}

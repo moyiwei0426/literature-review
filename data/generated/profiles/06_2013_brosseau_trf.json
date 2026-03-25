@@ -1,0 +1,111 @@
+{
+  "paper_id": "06_2013_brosseau_trf",
+  "title": "Untitled",
+  "research_problem": "Pedestrian road crossing behavior in Chinese cities differs significantly from developed countries due to high rates of signal non-compliance (red light running). Existing micro-simulation tools from foreign countries fail to accurately represent Chinese traffic conditions, particularly pedestrian violation behaviors and mixed traffic flows.",
+  "problem_type": "application_development",
+  "domain": "traffic_engineering_pedestrian_simulation",
+  "language_scope": "english",
+  "method_summary": "A pedestrian microsimulation model for Chinese traffic that classifies pedestrians into two types (law-obeying and opportunistic). Parameters are calibrated using questionnaires (495 respondents in Xi'an) to determine behavioral proportions and videotape analysis (989 samples) to extract time gap (DT) distributions for gap acceptance decisions. The model incorporates external factors including policeman presence, other pedestrians' behavior, and vehicle flow.",
+  "method_family": [
+    "microscopic_traffic_simulation_behavioral_modeling"
+  ],
+  "datasets": [
+    "questionnaire_data_495_respondents_xi_an_2003",
+    "videotape_data_989_samples_zebra_crossing_southeast_gate_xi_an_jiaotong_university"
+  ],
+  "tasks": [
+    "pedestrian_behavior_simulation_at_signalized_intersections",
+    "red_light_running_simulation",
+    "gap_acceptance_modeling"
+  ],
+  "metrics": [
+    "proportion_of_red_light_jumpers",
+    "proportion_of_violation_followers",
+    "pedestrian_arriving_interval_distribution",
+    "dt_time_gap_distribution"
+  ],
+  "baselines": [
+    "data_extracted_from_videotape_at_xi_an_intersections",
+    "corsim_and_simtraffic_applicability_study_beijing_he_2003",
+    "existing_pedestrian_models_cellular_automata_social_force_magnetic_force"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "The model successfully represents the high rate of pedestrian red light running and mixed traffic characteristics in Chinese cities, with simulated red light runner proportions (0.82 mean) matching field observations (0.85 mean) after parameter adjustment",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "c787943d-905c-4947-821d-d09522a57b04",
+        "e4041b6a-8622-41f8-bd58-331749aa4570"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "Classifying pedestrians into law-obeying and opportunistic types with dynamic proportions based on external factors (policeman, other pedestrians' behavior, vehicle flow) provides more accurate simulation than fixed proportions",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "0814125a-ee1c-4e25-8cf7-13063135f937",
+        "aa37494c-1681-4bb7-8826-c2f088c50556"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "The gap acceptance criterion DT calculated from pedestrian-estimated vehicle velocity better represents real pedestrian decision-making compared to methods using actual vehicle instantaneous speed",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "056a8f45-bfce-4e74-8ce9-3fcb2ebf2ccb",
+        "a7f68a18-ee60-4d56-bf1b-6855854a452c"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "Questionnaire calibration alone produces discrepancies (red light jumper proportion 0.69 vs field 0.85), requiring adjustment based on analyzing deviation causes to achieve better agreement",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "c787943d-905c-4947-821d-d09522a57b04",
+        "bdb7b3e8-ce76-41ff-ba01-54acc1c1f1a4"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The model only considers pedestrian decision-making based on instantaneous states of oncoming vehicles, without modeling pedestrian responses to vehicle state changes (acceleration, deceleration)",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "74b5a7e8-1c6e-4bf8-9089-58285537f149"
+      ]
+    },
+    {
+      "text": "The DT calculation method needs improvement for turning vehicles, limiting practical application for more complex intersection scenarios",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "74b5a7e8-1c6e-4bf8-9089-58285537f149"
+      ]
+    },
+    {
+      "text": "Questionnaire respondents may not represent all pedestrians; self-reported behavior may not reflect actual daily behavior, leading to calibration uncertainty",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "e4041b6a-8622-41f8-bd58-331749aa4570"
+      ]
+    },
+    {
+      "text": "Model parameters were calibrated for Xi'an and may not generalize to other Chinese cities with different traffic characteristics",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "e479580f-f93b-4495-832a-8b9b6c67ca12"
+      ]
+    }
+  ],
+  "future_work": [
+    "Extend model to handle pedestrian responses to vehicle state changes (acceleration, deceleration)",
+    "Improve DT calculation method for turning vehicles",
+    "Validate model applicability in other Chinese cities",
+    "Incorporate additional behavioral factors affecting pedestrian crossing decisions"
+  ],
+  "notes": "Published in Transportation Research Part A (2006). Key parameters: r1 (proportion of law-obeying pedestrians, calibrated to 0.35-0.55), r2 (proportion of Type I who follow others to violate, adjusted to 0.35), r3 (proportion accepting specific DT gap). Walking speed assumed as 1.2 m/s. Mixed traffic flow with pedestrians and vehicles influencing each other is a typical feature modeled."
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction and Background",
+    "objective": "Define the scope of the review on pedestrian crossing behavior research, establish the research problem domain, and outline the structure of the review",
+    "gap_inputs": [
+      "4c163add-ba72-41cb-80fb-62255ed5439b",
+      "67b03b55-ecc9-4154-9614-04a2aa7964fe"
+    ],
+    "matrix_row_count": 55
+  },
+  {
+    "section_id": "sec-2",
+    "title": "Research Methodologies in Pedestrian Crossing Studies",
+    "objective": "Synthesize the methodological approaches employed across reviewed papers, examining the spectrum from empirical observation to advanced computational modeling",
+    "gap_inputs": [
+      "67b03b55"
+    ],
+    "matrix_row_count": 45
+  },
+  {
+    "section_id": "sec-3",
+    "title": "Microscopic Simulation and Behavioral Modeling Approaches",
+    "objective": "Examine the development of pedestrian behavior models for micro-simulation, including gap acceptance criteria, social force models, and agent-based frameworks",
+    "gap_inputs": [
+      "67b03b55"
+    ],
+    "matrix_row_count": 20
+  },
+  {
+    "section_id": "sec-4",
+    "title": "Psychological and Attitudinal Models of Signal Non-Compliance",
+    "objective": "Analyze theoretical frameworks including the Theory of Planned Behavior and structural equation models for predicting pedestrian violating behavior intentions",
+    "gap_inputs": [
+      "67b03b55"
+    ],
+    "matrix_row_count": 8
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Mobile Phone Distraction and Visual Attention",
+    "objective": "Review experimental studies on how mobile phone use affects pedestrian crossing behavior and visual attention allocation at signalized intersections",
+    "gap_inputs": [
+      "67b03b55"
+    ],
+    "matrix_row_count": 5
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Geographic and Contextual Variation in Crossing Behavior",
+    "objective": "Evaluate how pedestrian compliance and violation patterns vary across different geographic contexts, with particular attention to Chinese-city studies and mixed traffic conditions",
+    "gap_inputs": [
+      "4c163add",
+      "67b03b55"
+    ],
+    "matrix_row_count": 28
+  },
+  {
+    "section_id": "sec-7",
+    "title": "Gap Analysis and Synthesis of Findings",
+    "objective": "Identify unresolved claim differences across studies, synthesize conflicting and complementary findings, and assess the evidence base for key behavioral factors",
+    "gap_inputs": [
+      "67b03b55"
+    ],
+    "matrix_row_count": 32
+  },
+  {
+    "section_id": "sec-8",
+    "title": "Conclusions and Future Research Directions",
+    "objective": "Summarize key insights, acknowledge limitations in the current evidence base, and propose future research priorities to address identified gaps",
+    "gap_inputs": [
+      "4c163add",
+      "67b03b55"
+    ],
+    "matrix_row_count": 55
+  }
+]

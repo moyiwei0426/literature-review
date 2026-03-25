@@ -1,0 +1,137 @@
+{
+  "artifacts.json": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/artifacts.json",
+    "exists": true,
+    "size_bytes": 4036
+  },
+  "summary.json": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/summary.json",
+    "exists": true,
+    "size_bytes": 21864
+  },
+  "coverage.json": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/coverage.json",
+    "exists": true,
+    "size_bytes": 1429
+  },
+  "matrix.json": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/matrix.json",
+    "exists": true,
+    "size_bytes": 52961
+  },
+  "matrix.csv": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/matrix.csv",
+    "exists": true,
+    "size_bytes": 46775
+  },
+  "matrix.md": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/matrix.md",
+    "exists": true,
+    "size_bytes": 47360
+  },
+  "contradiction.json": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/contradiction.json",
+    "exists": true,
+    "size_bytes": 13423
+  },
+  "candidate_gaps.json": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/candidate_gaps.json",
+    "exists": true,
+    "size_bytes": 2
+  },
+  "verified_gaps.json": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/verified_gaps.json",
+    "exists": true,
+    "size_bytes": 2
+  },
+  "scored_gaps.json": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/scored_gaps.json",
+    "exists": true,
+    "size_bytes": 2
+  },
+  "synthesis_map.json": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/synthesis_map.json",
+    "exists": true,
+    "size_bytes": 12979
+  },
+  "organization.json": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/organization.json",
+    "exists": true,
+    "size_bytes": 486
+  },
+  "outline.json": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/outline.json",
+    "exists": true,
+    "size_bytes": 1733
+  },
+  "section_plans.json": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/section_plans.json",
+    "exists": true,
+    "size_bytes": 43163
+  },
+  "paragraph_plans.json": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/paragraph_plans.json",
+    "exists": true,
+    "size_bytes": 48383
+  },
+  "sections.json": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/sections.json",
+    "exists": true,
+    "size_bytes": 76450
+  },
+  "validation_report.json": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/validation_report.json",
+    "exists": true,
+    "size_bytes": 3846
+  },
+  "review.md": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/review.md",
+    "exists": true,
+    "size_bytes": 14997
+  },
+  "review.tex": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/review.tex",
+    "exists": true,
+    "size_bytes": 17734
+  },
+  "bib.tex": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/bib.tex",
+    "exists": true,
+    "size_bytes": 1214
+  },
+  "abstract.json": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/abstract.json",
+    "exists": true,
+    "size_bytes": 1441
+  },
+  "abstract.txt": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/abstract.txt",
+    "exists": true,
+    "size_bytes": 749
+  },
+  "keywords.json": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/keywords.json",
+    "exists": true,
+    "size_bytes": 2079
+  },
+  "keywords.txt": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/keywords.txt",
+    "exists": true,
+    "size_bytes": 454
+  },
+  "appendix.json": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/appendix.json",
+    "exists": true,
+    "size_bytes": 8948
+  },
+  "evidence_table.json": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/evidence_table.json",
+    "exists": true,
+    "size_bytes": 7144
+  },
+  "evidence_table.md": {
+    "path": "data/generated/aap_live_4paper_20260324_fallback/evidence_table.md",
+    "exists": true,
+    "size_bytes": 5890
+  }
+}

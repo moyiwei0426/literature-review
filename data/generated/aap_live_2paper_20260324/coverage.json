@@ -1,0 +1,28 @@
+{
+  "paper_count": 2,
+  "method_family_distribution": {
+    "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB)": 1,
+    "Controlled laboratory experiment with eye-tracking": 1
+  },
+  "task_distribution": {
+    "Predicting pedestrian violating road-crossing behavior intentions": 1,
+    "Evaluating contribution of TPB components and extended factors": 1,
+    "Pedestrian street crossing under various mobile phone distraction conditions": 1
+  },
+  "language_distribution": {
+    "english": 2
+  },
+  "dataset_distribution": {
+    "Survey data from 260 respondents in Dalian, China (2015)": 1,
+    "N/A - experimental study with 28 participants": 1
+  },
+  "year_distribution": {
+    "2016": 1,
+    "2018": 1
+  },
+  "chinese_coverage_count": 2,
+  "themes": [
+    "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB)",
+    "Controlled laboratory experiment with eye-tracking"
+  ]
+}

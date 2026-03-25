@@ -1,0 +1,26 @@
+[
+  {
+    "gap_id": "0cb730cf-80e0-402b-8e39-817fc9dc6575",
+    "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+    "gap_type": "evaluation",
+    "supporting_evidence": [
+      "metric_rows=0"
+    ],
+    "counter_evidence": [],
+    "confidence": 0.6,
+    "novelty_value": 0.6,
+    "review_worthiness": 0.6,
+    "status": "verified",
+    "partial_evidence_paper_ids": [
+      "01_2001_hamed_safety_science"
+    ],
+    "partial_evidence_summary": "The corpus contains 2 matrix rows, but only 0 rows expose reusable metric information for cross-paper evaluation.",
+    "why_insufficient": "too few studies report metrics in a consistent, reusable form for rigorous comparison or downstream benchmarking",
+    "practical_consequence": "section-level synthesis must stay narrative because cross-paper performance claims cannot be normalized with confidence",
+    "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale",
+    "resolution_needed": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale",
+    "partial_evidence": "The corpus contains 2 matrix rows, but only 0 rows expose reusable metric information for cross-paper evaluation.",
+    "insufficiency_reason": "too few studies report metrics in a consistent, reusable form for rigorous comparison or downstream benchmarking",
+    "consequence": "section-level synthesis must stay narrative because cross-paper performance claims cannot be normalized with confidence"
+  }
+]

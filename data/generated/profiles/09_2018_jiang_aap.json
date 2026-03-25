@@ -1,0 +1,144 @@
+{
+  "paper_id": "09_2018_jiang_aap",
+  "title": "Effects of mobile phone distraction on pedestrians' crossing behavior and visual attention allocation at a signalized intersection: An outdoor experimental study",
+  "authors": [
+    "Kang Jiang",
+    "Feiyang Ling",
+    "Zhongxiang Feng",
+    "Changxi Ma",
+    "Wesley Kumfer",
+    "Chen Shao",
+    "Kun Wang"
+  ],
+  "year": 2018,
+  "venue": "Accident Analysis and Prevention",
+  "research_problem": "Investigates how mobile phone distractions (music, phone conversation, and text) affect pedestrian crossing behavior and visual attention allocation at a signalized intersection",
+  "problem_type": "Empirical experimental study",
+  "domain": "Transportation safety / Pedestrian safety",
+  "language_scope": "English",
+  "method_summary": "Outdoor-environment experiment with 28 college student pedestrians using two HD videos and Tobii Pro Glasses 2 eye tracker to record crossing behavior and visual attention under four conditions: undistracted, music distraction, phone conversation distraction, and text distraction",
+  "method_family": [
+    "Controlled field experiment"
+  ],
+  "datasets": [
+    "28 college students at signalized intersection in Hefei, China"
+  ],
+  "tasks": [
+    "Pedestrian crossing behavior under mobile phone distraction"
+  ],
+  "metrics": [
+    "Initiate time",
+    "Look left and right frequency",
+    "Crossing speed",
+    "Pupil diameter",
+    "Scanning frequency",
+    "Fixation points",
+    "Fixation time",
+    "Mean fixation duration"
+  ],
+  "baselines": [
+    "Undistracted condition (S0)"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "Text distraction causes the greatest impairment to pedestrian crossing performance, followed by phone conversation distraction and music distraction",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "2ca34838-68b7-46e9-a56a-6f914a4257cf",
+        "40020352-822e-435c-8715-3cf2b3ae41db"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "Pedestrians distracted by music initiate crossing later, increase pupil diameter, and reduce scanning frequency and fixation points toward traffic signal area",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "2ca34838-68b7-46e9-a56a-6f914a4257cf",
+        "bc18614e-a870-40ae-9bb9-7731a4cf95c1"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "Pedestrians distracted by phone conversation cross more slowly, direct fewer fixation points to right traffic area, and spend less fixation time on left traffic area",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "709b998c-c0db-45dd-884c-9467f7bdf9a4",
+        "69d0bcc3-2f37-4471-b94c-b1a76f5a68ea"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "Pedestrians distracted by texting look left and right less often and switch, distribute and maintain less visual attention on the traffic environment",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "a6f02f35-aa44-48a1-bf5f-e014253f91af",
+        "709b998c-c0db-45dd-884c-9467f7bdf9a4"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-5",
+      "claim_text": "Eye movement data captured by eye tracker provides more accurate determination of visual attention allocation compared to video data alone",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "137b2eea-b019-4e6b-b55f-7137650ed118"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Small sample size (n=28) limits generalizability",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "9c0f0676-d19e-4098-8e1e-2bbadbfc65b3"
+      ]
+    },
+    {
+      "text": "Sample limited to college students (ages 17-25), may not represent overall pedestrian population",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "9c0f0676-d19e-4098-8e1e-2bbadbfc65b3"
+      ]
+    },
+    {
+      "text": "Participants restricted from self-regulation and behavioral adaptation in experiment, may not reflect daily life behavior",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "9c0f0676-d19e-4098-8e1e-2bbadbfc65b3"
+      ]
+    },
+    {
+      "text": "Data collected at one specific signalized intersection with very low traffic volume, may not generalize to complex intersections",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "9c0f0676-d19e-4098-8e1e-2bbadbfc65b3"
+      ]
+    },
+    {
+      "text": "Use of unfamiliar phone and mental arithmetic tasks may not conform to participants' daily life mobile phone use patterns",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "6605a936-d10f-437a-beb1-5b86d535fcb5"
+      ]
+    },
+    {
+      "text": "Only three types of mobile phone distractions studied (music, conversation, text), other tasks like mobile internet not examined",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "6605a936-d10f-437a-beb1-5b86d535fcb5"
+      ]
+    }
+  ],
+  "future_work": [
+    "Extend research to more varied sample populations beyond college students",
+    "Test in other environments such as non-signalized intersections or intersections with high traffic volume",
+    "Study other mobile phone tasks such as mobile internet for fuller understanding of distraction effects",
+    "Investigate design elements and driver regulations to protect distracted pedestrians"
+  ],
+  "notes": "Outdoor experimental study using Tobii Pro Glasses 2 for eye tracking; found text distraction most harmful, followed by phone conversation and music; research funded by National Natural Science Foundation of China"
+}

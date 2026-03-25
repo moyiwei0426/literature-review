@@ -1,0 +1,36 @@
+{
+  "paper_count": 3,
+  "method_family_distribution": {
+    "virtual_reality_experiment_mixed_measures": 1,
+    "binomial_logistic_regression": 1,
+    "Random parameter logit model (discrete choice model)": 1
+  },
+  "task_distribution": {
+    "walking_across_virtual_crosswalk": 1,
+    "analyze_factors_affecting_red_light_running": 1,
+    "predict_probability_of_red_light_running_behavior": 1,
+    "Analyze pedestrian red light running behavior": 1,
+    "Identify effects of personal factors (gender, age, companion presence)": 1,
+    "Identify effects of environmental factors (signal time, traffic condition)": 1,
+    "Examine interaction effects between personal and environmental factors": 1
+  },
+  "language_distribution": {
+    "english": 3
+  },
+  "dataset_distribution": {
+    "631 valid survey samples from Hefei, China (collected May-June 2015)": 1,
+    "Six typical signalized intersections selected near central business district or transit stations": 1,
+    "Video observation data from 6 signalized crosswalks in Hong Kong (6320 pedestrians, 652 cycles)": 1
+  },
+  "year_distribution": {
+    "2018": 1,
+    "2016": 1,
+    "2020": 1
+  },
+  "chinese_coverage_count": 2,
+  "themes": [
+    "virtual_reality_experiment_mixed_measures",
+    "binomial_logistic_regression",
+    "Random parameter logit model (discrete choice model)"
+  ]
+}

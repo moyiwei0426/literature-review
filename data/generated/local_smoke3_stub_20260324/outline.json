@@ -1,0 +1,48 @@
+[
+  {
+    "section_id": "sec-intro",
+    "title": "Introduction and Review Scope",
+    "objective": "Establish the review motivation, scope, and the evidence base that the selected structure will organize.",
+    "gap_inputs": [],
+    "matrix_row_count": 0
+  },
+  {
+    "section_id": "sec-factor-taxonomy",
+    "title": "Factor Taxonomy and Contextual Drivers",
+    "objective": "Organize the review around variable-centered factors and explain how the strongest contextual drivers shape the evidence base.",
+    "gap_inputs": [],
+    "matrix_row_count": 6
+  },
+  {
+    "section_id": "sec-factor-design-factors",
+    "title": "Factor Focus: Design Factors",
+    "objective": "Synthesize the design factors evidence cluster across 6 studies, highlighting 0 gap signals and 0 contradiction signals.",
+    "gap_inputs": [
+      "e3ceb20c-9aef-4214-b4d6-e84da48999fb"
+    ],
+    "matrix_row_count": 6
+  },
+  {
+    "section_id": "sec-factor-taxonomy-comparison",
+    "title": "Comparative Factor Evidence and Interactions",
+    "objective": "Compare the strongest factor themes, emphasizing interaction patterns, shared covariates, and variable-level gaps.",
+    "gap_inputs": [],
+    "matrix_row_count": 6
+  },
+  {
+    "section_id": "sec-gaps",
+    "title": "Research Gaps and Opportunities",
+    "objective": "Present 1 verified gap and explain how they shape the next research agenda.",
+    "gap_inputs": [
+      "e3ceb20c-9aef-4214-b4d6-e84da48999fb"
+    ],
+    "matrix_row_count": 0
+  },
+  {
+    "section_id": "sec-conclusion",
+    "title": "Conclusion",
+    "objective": "Summarize the selected taxonomy, the strongest synthesis themes, and the main future directions implied by the evidence base.",
+    "gap_inputs": [],
+    "matrix_row_count": 0
+  }
+]

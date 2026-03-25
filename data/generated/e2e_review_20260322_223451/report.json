@@ -1,0 +1,1278 @@
+{
+  "project": "review_20260322_223451",
+  "query": null,
+  "mode": "local",
+  "steps": [
+    {
+      "name": "extract",
+      "ok": true,
+      "profiles": [
+        {
+          "paper_id": "05_2018_deb_trf",
+          "title": "Investigating pedestrian suggestions for external features on fully autonomous vehicles: A virtual reality experiment",
+          "authors": [
+            "Shuchisnigdha Deb",
+            "Lesley J. Strawderman",
+            "Daniel W. Carruth"
+          ],
+          "year": 2018,
+          "venue": "Transportation Research Part F",
+          "research_problem": "Identify potential external features on fully autonomous vehicles (FAVs) that would help pedestrians understand vehicle intended behavior at crosswalks, improve receptivity toward FAVs, and influence crossing behavior",
+          "problem_type": "Empirical experimental study",
+          "domain": "Human-Computer Interaction, Transportation Research, Autonomous Vehicles",
+          "language_scope": "English",
+          "method_summary": "Virtual reality experiment with 30 participants walking across a virtual crosswalk in front of a FAV. Tested 4 visual features (walking silhouette, 'braking' in text, flashing smile, no signal) and 4 audible features (horn sound, music, verbal message, no signal) in a 4x4 randomized complete block design. Collected simulator data (crossing time, waiting time, head rotation) and survey data (receptivity surveys, pedestrian behavior questionnaire, personal innovativeness scale, feature ratings)",
+          "method_family": [
+            "Virtual Reality Experiment, Randomized Complete Block Design"
+          ],
+          "datasets": [
+            "N/A - primary experimental data collection"
+          ],
+          "tasks": [
+            "Pedestrian crossing behavior at crosswalks with FAVs",
+            "Feature preference evaluation",
+            "Receptivity assessment toward autonomous vehicles"
+          ],
+          "metrics": [
+            "Feature ratings (1-7 scale)",
+            "Crossing time",
+            "Waiting time",
+            "Pedestrian Receptivity Questionnaire for FAVs (PRQF) scores",
+            "Pedestrian Behavior Questionnaire (PBQ) scores",
+            "Personal innovativeness scale scores",
+            "Simulation Sickness Questionnaire (SSQ) scores"
+          ],
+          "baselines": [
+            "No signal control (FAV without any visual or audible features)"
+          ],
+          "main_claims": [
+            {
+              "claim_id": "claim-1",
+              "claim_text": "External features on FAVs significantly increased pedestrian receptivity toward autonomous vehicles",
+              "claim_type": "performance",
+              "evidence_chunk_ids": [
+                "563b176c-9ddc-46da-83b8-5838fa0b8f3e",
+                "bbc66d03-e3a1-4846-bcba-e8cd0f817964"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-2",
+              "claim_text": "Walking silhouette and 'braking' in text were the most favored visual interfaces, while verbal message was the preferred audible feature",
+              "claim_type": "performance",
+              "evidence_chunk_ids": [
+                "563b176c-9ddc-46da-83b8-5838fa0b8f3e",
+                "937b78a5-8d00-49dc-9c50-a97e62d13c07",
+                "41dad406-d5f2-46e9-bc07-9cd39ffae3f4"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-3",
+              "claim_text": "Visual features had stronger effect on participant ratings (η²=0.151) than audible features (η²=0.086)",
+              "claim_type": "methodological",
+              "evidence_chunk_ids": [
+                "41dad406-d5f2-46e9-bc07-9cd39ffae3f4"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-4",
+              "claim_text": "Females and people aged 30+ reacted most positively to the external features",
+              "claim_type": "application",
+              "evidence_chunk_ids": [
+                "9714a262-376c-4f3d-9e7b-ee96a4e131cd",
+                "e1998d3a-53c5-4b09-9261-a292fbc2196a",
+                "648417ec-333d-4724-85cd-744134fa86f9"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-5",
+              "claim_text": "Pedestrians who commit errors or show aggressive behaviors rated FAV implementation poorly even with external features",
+              "claim_type": "application",
+              "evidence_chunk_ids": [
+                "563b176c-9ddc-46da-83b8-5838fa0b8f3e",
+                "6644b049-c352-41ea-968f-d6623f1dacaa",
+                "c632937e-5357-41bc-8cef-7b62d028ac3d"
+              ],
+              "confidence": null
+            }
+          ],
+          "limitations": [
+            {
+              "text": "Single controlled scenario with FAV approaching from one direction and stopping at intersection; no other traffic in virtual environment",
+              "source": "explicit",
+              "evidence_chunk_ids": [
+                "cc9484fd-d7f3-46cf-8c24-2d13752aeff9"
+              ]
+            },
+            {
+              "text": "Features indicated safe crossing conditions only; vehicle stopped in every trial - did not test negative or terminating signals",
+              "source": "explicit",
+              "evidence_chunk_ids": [
+                "cc9484fd-d7f3-46cf-8c24-2d13752aeff9"
+              ]
+            },
+            {
+              "text": "First-time exposure to FAV may not reflect long-term behavior and adaptation",
+              "source": "inferred",
+              "evidence_chunk_ids": [
+                "cc9484fd-d7f3-46cf-8c24-2d13752aeff9"
+              ]
+            },
+            {
+              "text": "Small sample size (n=30) limits generalizability; conducted at single university with U.S. citizens only",
+              "source": "inferred",
+              "evidence_chunk_ids": [
+                "5e1ac6b0-9b25-4dbd-80f4-3ff745451cc4"
+              ]
+            }
+          ],
+          "future_work": [
+            "Investigate complex traffic systems with signals, vehicle operators, pedestrian signals, and near-miss conditions",
+            "Study start and termination of signals at intersections",
+            "Test feasibility and preference for reported features from other road-users' perspectives",
+            "Include positive and negative interface designs and environmental sounds"
+          ],
+          "notes": "VR platform validated by previous study (Deb, Carruth, et al., 2017) confirmed pedestrians respond similarly in virtual and real traffic environments; External features selected based on previous research, development feasibility, and pedestrians' ability to interpret without prior training; Participants had normal or corrected full-color vision, normal hearing, and normal walking gait; Personal innovativeness negatively correlated with waiting time - higher innovativeness led to shorter waiting times before crossing"
+        },
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "title": "Exploring factors affecting pedestrians' red-light running behaviors at intersections in China",
+          "authors": [
+            "Weihua Zhang",
+            "Kun Wang",
+            "Lei Wang",
+            "Zhongxiang Feng",
+            "Yingjie Du"
+          ],
+          "year": 2016,
+          "venue": "Accident Analysis and Prevention",
+          "research_problem": "Exploring factors affecting pedestrians' red-light running behaviors at intersections in China, using data collected from Hefei",
+          "problem_type": "empirical",
+          "domain": "traffic safety",
+          "language_scope": "English",
+          "method_summary": "SP survey with 15 items collecting pedestrian socio-economic characteristics, trip related features, and attitude variables. Based on 631 valid samples, a binomial logistic model was established using Score test and iterative variable selection to evaluate impacts of contributing factors on pedestrian red-light running behavior.",
+          "method_family": [
+            "binomial logistic regression"
+          ],
+          "datasets": [
+            "631 valid survey samples from 6 signalized intersections in Hefei, China (May-June 2015)"
+          ],
+          "tasks": [
+            "analyze factors affecting pedestrian red-light running behavior at signalized intersections"
+          ],
+          "metrics": [
+            "Score test, coefficients, odds ratios, p-values, 95% confidence intervals"
+          ],
+          "baselines": [
+            "gender",
+            "age groups",
+            "education level",
+            "profession",
+            "annual income",
+            "trip purpose",
+            "time requirement",
+            "intersection familiarity",
+            "tolerable waiting time",
+            "time period",
+            "attitude variables (voice remind, hurry, small traffic volume, elders/children, road facility quality)"
+          ],
+          "main_claims": [
+            {
+              "claim_id": "claim-1",
+              "claim_text": "Trip purpose significantly affects red-light running behavior - strolling pedestrians are more likely to have safe crossing behavior compared to those going to work/school",
+              "claim_type": "performance",
+              "evidence_chunk_ids": [
+                "47c72b46-5350-4604-94c0-521b8de749c5",
+                "ed68a398-6868-45bc-b34c-2b545ecf38f1"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-2",
+              "claim_text": "Time period in a day significantly affects red-light running probability, with daytime having the highest probability (OR=3.326) compared to dawn",
+              "claim_type": "performance",
+              "evidence_chunk_ids": [
+                "83b8f7ac-e364-4c5f-9c5a-211e7233bfd2",
+                "7f5db276-1c71-4a98-b882-6c00012f3a0c"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-3",
+              "claim_text": "Pedestrians who indicate they will run red-light when in hurry have significantly higher probability of such behavior (OR=0.299 for non-hurry group)",
+              "claim_type": "performance",
+              "evidence_chunk_ids": [
+                "56038d69-e653-4ffa-a6a5-025df91b3719",
+                "25304836-3db1-4752-ab3a-e9bdfef8eaf0"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-4",
+              "claim_text": "Pedestrians whose crossing behavior is affected by road facility quality are more likely to run red-lights at intersections (OR=0.483 for unaffected group)",
+              "claim_type": "performance",
+              "evidence_chunk_ids": [
+                "28457467-5fd2-48da-a8e1-c69b560c7f93",
+                "d1da741d-feb3-438e-9461-366667ede438"
+              ],
+              "confidence": null
+            }
+          ],
+          "limitations": [
+            {
+              "text": "Data collected only from one Chinese city (Hefei); results may not generalize to other cities or countries due to cultural and driving behavior differences",
+              "source": "explicit",
+              "evidence_chunk_ids": [
+                "c5e1a8e9-6d68-4b5b-b89b-0e87f252478a",
+                "b4c64529-ccad-412a-a269-2f04afd1e854"
+              ]
+            },
+            {
+              "text": "Study only considered pedestrian red-light running at signalized intersection areas; other crossing facility types not examined",
+              "source": "explicit",
+              "evidence_chunk_ids": [
+                "1d24c94d-5e29-45d0-8b80-8a5859b4b438"
+              ]
+            },
+            {
+              "text": "Study focused on individual crossing behaviors, ignoring impacts of pedestrian platoons and herd mentality effects",
+              "source": "inferred",
+              "evidence_chunk_ids": [
+                "25304836-3db1-4752-ab3a-e9bdfef8eaf0"
+              ]
+            },
+            {
+              "text": "Sample size of 631 may limit generalizability despite being sufficient for model estimation",
+              "source": "inferred",
+              "evidence_chunk_ids": [
+                "355c3e8b-7b4d-40ee-9c6c-bc80e077ef95"
+              ]
+            }
+          ],
+          "future_work": [
+            "Collect data at multiple intersections in other Chinese cities to validate findings",
+            "Examine pedestrian red-light running behaviors at other crossing facility types (midblock with/without crosswalk buttons)",
+            "Study impacts of pedestrian platoons on individual crossing behaviors",
+            "Compare results across different countries to identify cultural and driving factor effects"
+          ],
+          "notes": "Four significant variables identified: trip purpose, time period, attitude towards running red-light when in hurry, attitude towards road facility quality affecting crossing behavior; Model uses binomial logistic regression with Score test for variable selection; Field survey conducted during peak periods on weekdays and weekends; Voice reminder and monitoring equipment suggested as countermeasures"
+        },
+        {
+          "paper_id": "13_2020_chen_trf",
+          "title": "Roles of personal and environmental factors in the red light running propensity of pedestrian: Case study at the urban crosswalks",
+          "authors": [
+            "Dianchen Zhu",
+            "N.N. Sze",
+            "Lu Bai"
+          ],
+          "year": 2020,
+          "venue": "Transportation Research Part F",
+          "research_problem": "Identify factors that affect the propensity of red light running of pedestrians at signalized intersections, including both personal factors (pedestrian demographics and behavior) and environmental factors (presence and behavior of other pedestrians, signal time, and traffic condition)",
+          "problem_type": "empirical",
+          "domain": "Transportation Safety",
+          "language_scope": "English",
+          "method_summary": "Video observation surveys conducted at six signalized crosswalks in urban Hong Kong, capturing crossing behaviors of 6320 pedestrians during 652 signal cycles. Random parameter logit model developed to measure association between red light running propensity and explanatory factors, accounting for unobserved heterogeneity",
+          "method_family": [
+            "Random parameter logit model (discrete choice model)"
+          ],
+          "datasets": [
+            "6320 pedestrians observed at 6 signalized crosswalks in Hong Kong",
+            "652 signal cycles",
+            "Six locations: Prince Edward Road West j/w Nathan Road, Argyle Street j/w Nathan Road, Argyle Street j/w Sai Yee Street, Tonkin Street j/w Shun Ning Road, Hung Hom South Road j/w Po loi Street, To Kwa Wan Road j/w Chi Kiang Street"
+          ],
+          "tasks": [
+            "Pedestrian red light running violation prediction",
+            "Factor analysis of pedestrian crossing behavior"
+          ],
+          "metrics": [
+            "Red light running violation (binary outcome)",
+            "Odds ratios",
+            "Elasticities",
+            "AIC (Akaike Information Criterion) for model comparison",
+            "Z-values for statistical significance"
+          ],
+          "baselines": [
+            "Model 1: Random parameter logit without interaction effects",
+            "Model 2: Random parameter logit with interaction effects (selected as better performing model)"
+          ],
+          "main_claims": [
+            {
+              "claim_id": "claim-1",
+              "claim_text": "Pedestrian gender, age, number of lanes, presence of a companion, number of pedestrians around, presence of other violators in the same cycle, time to green, red time, traffic volume, and percentage of heavy vehicles all significantly affect the propensity of red light running violation of pedestrians",
+              "claim_type": "performance",
+              "evidence_chunk_ids": [
+                "57372e5e-33f9-4d31-906d-27a6a83937a8",
+                "e75c04b7-e9f7-4731-8866-398550a9166c"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-2",
+              "claim_text": "Female pedestrians have lower propensity of red light running compared to males; given normally distributed gender parameter, probability that females have lower propensity than males is 64.3%",
+              "claim_type": "performance",
+              "evidence_chunk_ids": [
+                "24a2d4f9-5301-4839-8225-cc45296cc056",
+                "7a602a56-6dc9-4fc6-83a1-3dd3c05dce27"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-3",
+              "claim_text": "Older pedestrians have higher propensity to violate red light compared to normal adults, potentially due to lower educational attainment and poor cognitive abilities in Hong Kong",
+              "claim_type": "methodological",
+              "evidence_chunk_ids": [
+                "0a79bd9f-b257-4e99-b7a9-9628c2a15f83",
+                "2eca12d7-eebc-4874-9b47-a8271cdbaccf"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-4",
+              "claim_text": "Presence of other pedestrians violating red light significantly increases individual red light running propensity, indicating social norm influence and vicarious experience of punishment avoidance",
+              "claim_type": "application",
+              "evidence_chunk_ids": [
+                "63afe99e-8dc7-4736-8396-4909af55b889",
+                "bfe4b510-74d1-48c8-9017-194c21339d9a"
+              ],
+              "confidence": null
+            },
+            {
+              "claim_id": "claim-5",
+              "claim_text": "Traffic volume and percentage of heavy vehicles are negatively correlated with red light running propensity; elasticity values show 0.48% and 0.52% reduction per 1% increase respectively",
+              "claim_type": "performance",
+              "evidence_chunk_ids": [
+                "e4766756-d632-4c5b-a2a3-c77b91d59789",
+                "4c357ebd-d951-4889-87d8-a9e8254376d2"
+              ],
+              "confidence": null
+            }
+          ],
+          "limitations": [
+            {
+              "text": "Study focuses on red light running propensity but does not analyze safety outcomes (associated crash risk)",
+              "source": "explicit",
+              "evidence_chunk_ids": [
+                "b602450d-31be-4d04-8304-bd1a337bc22e"
+              ]
+            },
+            {
+              "text": "Effect of vehicular speed on red light running behavior was not assessed despite its correlation with crash risk and severity",
+              "source": "explicit",
+              "evidence_chunk_ids": [
+                "4c357ebd-d951-4889-87d8-a9e8254376d2",
+                "b602450d-31be-4d04-8304-bd1a337bc22e"
+              ]
+            },
+            {
+              "text": "Video observation survey cannot capture pedestrian safety perception, attitude, or anticipated crossing behavior that could be gauged through questionnaire or attitudinal surveys",
+              "source": "inferred",
+              "evidence_chunk_ids": [
+                "87b2d4e6-a55e-4f9b-b81c-d9601ef95b62",
+                "14302e98-c237-432a-b446-281f11f8e9d4"
+              ]
+            },
+            {
+              "text": "Limited to urban Hong Kong context; findings may not generalize to other cities with different traffic signal systems (e.g., pedestrian countdown displays)",
+              "source": "inferred",
+              "evidence_chunk_ids": [
+                "6c794de3-c6bd-406f-b8ae-9b8ccd757170"
+              ]
+            }
+          ],
+          "future_work": [
+            "Explore effectiveness of pedestrian signal countdown devices in improving pedestrian perception and combating red light running",
+            "Investigate variable pedestrian signal time responsive to pedestrian volume",
+            "Develop attitudinal models to gauge effects of social norms, safety perception, and anticipated traffic condition",
+            "Explore interactions between vehicular speed, pedestrian characteristics, and red light running decisions when comprehensive traffic flow data available",
+            "Conduct comparative studies across cities with different pedestrian signal systems and cultural contexts"
+          ],
+          "notes": "Study addresses gap in literature by examining both individual-level (personal demographics and behavior) and cycle-level (traffic condition and signal time) factors together; Novel contribution includes examining influence of social norms through presence of companion, number of pedestrians around, and violation behavior of others; Hong Kong pedestrian signal cycle has three phases: steady green, flashing green, and steady red (no countdown display); Random parameter approach justified by statistically significant standard deviation components indicating unobserved heterogeneity in gender and number of people waiting effects; 18.5% of observed pedestrians (1169 out of 6320) committed red light running violation"
+        }
+      ],
+      "parse_errors": []
+    },
+    {
+      "name": "analysis",
+      "ok": true,
+      "matrix": [
+        {
+          "paper_id": "05_2018_deb_trf",
+          "title": "Investigating pedestrian suggestions for external features on fully autonomous vehicles: A virtual reality experiment",
+          "authors": "Shuchisnigdha Deb; Lesley J. Strawderman; Daniel W. Carruth",
+          "year": 2018,
+          "venue": "Transportation Research Part F",
+          "research_problem": "Identify potential external features on fully autonomous vehicles (FAVs) that would help pedestrians understand vehicle intended behavior at crosswalks, improve receptivity toward FAVs, and influence crossing behavior",
+          "method_summary": "Virtual reality experiment with 30 participants walking across a virtual crosswalk in front of a FAV. Tested 4 visual features (walking silhouette, 'braking' in text, flashing smile, no signal) and 4 audible features (horn sound, music, verbal message, no signal) in a 4x4 randomized complete block design. Collected simulator data (crossing time, waiting time, head rotation) and survey data (receptivity surveys, pedestrian behavior questionnaire, personal innovativeness scale, feature ratings)",
+          "method_family": "Virtual Reality Experiment, Randomized Complete Block Design",
+          "tasks": "Pedestrian crossing behavior at crosswalks with FAVs; Feature preference evaluation; Receptivity assessment toward autonomous vehicles",
+          "datasets": "N/A - primary experimental data collection",
+          "metrics": "Feature ratings (1-7 scale); Crossing time; Waiting time; Pedestrian Receptivity Questionnaire for FAVs (PRQF) scores; Pedestrian Behavior Questionnaire (PBQ) scores; Personal innovativeness scale scores; Simulation Sickness Questionnaire (SSQ) scores",
+          "claim_id": "claim-1",
+          "claim_text": "External features on FAVs significantly increased pedestrian receptivity toward autonomous vehicles",
+          "claim_type": "performance",
+          "evidence_chunk_ids": "563b176c-9ddc-46da-83b8-5838fa0b8f3e; bbc66d03-e3a1-4846-bcba-e8cd0f817964",
+          "limitations": "Single controlled scenario with FAV approaching from one direction and stopping at intersection; no other traffic in virtual environment | Features indicated safe crossing conditions only; vehicle stopped in every trial - did not test negative or terminating signals | First-time exposure to FAV may not reflect long-term behavior and adaptation | Small sample size (n=30) limits generalizability; conducted at single university with U.S. citizens only",
+          "notes": "VR platform validated by previous study (Deb, Carruth, et al., 2017) confirmed pedestrians respond similarly in virtual and real traffic environments; External features selected based on previous research, development feasibility, and pedestrians' ability to interpret without prior training; Participants had normal or corrected full-color vision, normal hearing, and normal walking gait; Personal innovativeness negatively correlated with waiting time - higher innovativeness led to shorter waiting times before crossing"
+        },
+        {
+          "paper_id": "05_2018_deb_trf",
+          "title": "Investigating pedestrian suggestions for external features on fully autonomous vehicles: A virtual reality experiment",
+          "authors": "Shuchisnigdha Deb; Lesley J. Strawderman; Daniel W. Carruth",
+          "year": 2018,
+          "venue": "Transportation Research Part F",
+          "research_problem": "Identify potential external features on fully autonomous vehicles (FAVs) that would help pedestrians understand vehicle intended behavior at crosswalks, improve receptivity toward FAVs, and influence crossing behavior",
+          "method_summary": "Virtual reality experiment with 30 participants walking across a virtual crosswalk in front of a FAV. Tested 4 visual features (walking silhouette, 'braking' in text, flashing smile, no signal) and 4 audible features (horn sound, music, verbal message, no signal) in a 4x4 randomized complete block design. Collected simulator data (crossing time, waiting time, head rotation) and survey data (receptivity surveys, pedestrian behavior questionnaire, personal innovativeness scale, feature ratings)",
+          "method_family": "Virtual Reality Experiment, Randomized Complete Block Design",
+          "tasks": "Pedestrian crossing behavior at crosswalks with FAVs; Feature preference evaluation; Receptivity assessment toward autonomous vehicles",
+          "datasets": "N/A - primary experimental data collection",
+          "metrics": "Feature ratings (1-7 scale); Crossing time; Waiting time; Pedestrian Receptivity Questionnaire for FAVs (PRQF) scores; Pedestrian Behavior Questionnaire (PBQ) scores; Personal innovativeness scale scores; Simulation Sickness Questionnaire (SSQ) scores",
+          "claim_id": "claim-2",
+          "claim_text": "Walking silhouette and 'braking' in text were the most favored visual interfaces, while verbal message was the preferred audible feature",
+          "claim_type": "performance",
+          "evidence_chunk_ids": "563b176c-9ddc-46da-83b8-5838fa0b8f3e; 937b78a5-8d00-49dc-9c50-a97e62d13c07; 41dad406-d5f2-46e9-bc07-9cd39ffae3f4",
+          "limitations": "Single controlled scenario with FAV approaching from one direction and stopping at intersection; no other traffic in virtual environment | Features indicated safe crossing conditions only; vehicle stopped in every trial - did not test negative or terminating signals | First-time exposure to FAV may not reflect long-term behavior and adaptation | Small sample size (n=30) limits generalizability; conducted at single university with U.S. citizens only",
+          "notes": "VR platform validated by previous study (Deb, Carruth, et al., 2017) confirmed pedestrians respond similarly in virtual and real traffic environments; External features selected based on previous research, development feasibility, and pedestrians' ability to interpret without prior training; Participants had normal or corrected full-color vision, normal hearing, and normal walking gait; Personal innovativeness negatively correlated with waiting time - higher innovativeness led to shorter waiting times before crossing"
+        },
+        {
+          "paper_id": "05_2018_deb_trf",
+          "title": "Investigating pedestrian suggestions for external features on fully autonomous vehicles: A virtual reality experiment",
+          "authors": "Shuchisnigdha Deb; Lesley J. Strawderman; Daniel W. Carruth",
+          "year": 2018,
+          "venue": "Transportation Research Part F",
+          "research_problem": "Identify potential external features on fully autonomous vehicles (FAVs) that would help pedestrians understand vehicle intended behavior at crosswalks, improve receptivity toward FAVs, and influence crossing behavior",
+          "method_summary": "Virtual reality experiment with 30 participants walking across a virtual crosswalk in front of a FAV. Tested 4 visual features (walking silhouette, 'braking' in text, flashing smile, no signal) and 4 audible features (horn sound, music, verbal message, no signal) in a 4x4 randomized complete block design. Collected simulator data (crossing time, waiting time, head rotation) and survey data (receptivity surveys, pedestrian behavior questionnaire, personal innovativeness scale, feature ratings)",
+          "method_family": "Virtual Reality Experiment, Randomized Complete Block Design",
+          "tasks": "Pedestrian crossing behavior at crosswalks with FAVs; Feature preference evaluation; Receptivity assessment toward autonomous vehicles",
+          "datasets": "N/A - primary experimental data collection",
+          "metrics": "Feature ratings (1-7 scale); Crossing time; Waiting time; Pedestrian Receptivity Questionnaire for FAVs (PRQF) scores; Pedestrian Behavior Questionnaire (PBQ) scores; Personal innovativeness scale scores; Simulation Sickness Questionnaire (SSQ) scores",
+          "claim_id": "claim-3",
+          "claim_text": "Visual features had stronger effect on participant ratings (η²=0.151) than audible features (η²=0.086)",
+          "claim_type": "methodological",
+          "evidence_chunk_ids": "41dad406-d5f2-46e9-bc07-9cd39ffae3f4",
+          "limitations": "Single controlled scenario with FAV approaching from one direction and stopping at intersection; no other traffic in virtual environment | Features indicated safe crossing conditions only; vehicle stopped in every trial - did not test negative or terminating signals | First-time exposure to FAV may not reflect long-term behavior and adaptation | Small sample size (n=30) limits generalizability; conducted at single university with U.S. citizens only",
+          "notes": "VR platform validated by previous study (Deb, Carruth, et al., 2017) confirmed pedestrians respond similarly in virtual and real traffic environments; External features selected based on previous research, development feasibility, and pedestrians' ability to interpret without prior training; Participants had normal or corrected full-color vision, normal hearing, and normal walking gait; Personal innovativeness negatively correlated with waiting time - higher innovativeness led to shorter waiting times before crossing"
+        },
+        {
+          "paper_id": "05_2018_deb_trf",
+          "title": "Investigating pedestrian suggestions for external features on fully autonomous vehicles: A virtual reality experiment",
+          "authors": "Shuchisnigdha Deb; Lesley J. Strawderman; Daniel W. Carruth",
+          "year": 2018,
+          "venue": "Transportation Research Part F",
+          "research_problem": "Identify potential external features on fully autonomous vehicles (FAVs) that would help pedestrians understand vehicle intended behavior at crosswalks, improve receptivity toward FAVs, and influence crossing behavior",
+          "method_summary": "Virtual reality experiment with 30 participants walking across a virtual crosswalk in front of a FAV. Tested 4 visual features (walking silhouette, 'braking' in text, flashing smile, no signal) and 4 audible features (horn sound, music, verbal message, no signal) in a 4x4 randomized complete block design. Collected simulator data (crossing time, waiting time, head rotation) and survey data (receptivity surveys, pedestrian behavior questionnaire, personal innovativeness scale, feature ratings)",
+          "method_family": "Virtual Reality Experiment, Randomized Complete Block Design",
+          "tasks": "Pedestrian crossing behavior at crosswalks with FAVs; Feature preference evaluation; Receptivity assessment toward autonomous vehicles",
+          "datasets": "N/A - primary experimental data collection",
+          "metrics": "Feature ratings (1-7 scale); Crossing time; Waiting time; Pedestrian Receptivity Questionnaire for FAVs (PRQF) scores; Pedestrian Behavior Questionnaire (PBQ) scores; Personal innovativeness scale scores; Simulation Sickness Questionnaire (SSQ) scores",
+          "claim_id": "claim-4",
+          "claim_text": "Females and people aged 30+ reacted most positively to the external features",
+          "claim_type": "application",
+          "evidence_chunk_ids": "9714a262-376c-4f3d-9e7b-ee96a4e131cd; e1998d3a-53c5-4b09-9261-a292fbc2196a; 648417ec-333d-4724-85cd-744134fa86f9",
+          "limitations": "Single controlled scenario with FAV approaching from one direction and stopping at intersection; no other traffic in virtual environment | Features indicated safe crossing conditions only; vehicle stopped in every trial - did not test negative or terminating signals | First-time exposure to FAV may not reflect long-term behavior and adaptation | Small sample size (n=30) limits generalizability; conducted at single university with U.S. citizens only",
+          "notes": "VR platform validated by previous study (Deb, Carruth, et al., 2017) confirmed pedestrians respond similarly in virtual and real traffic environments; External features selected based on previous research, development feasibility, and pedestrians' ability to interpret without prior training; Participants had normal or corrected full-color vision, normal hearing, and normal walking gait; Personal innovativeness negatively correlated with waiting time - higher innovativeness led to shorter waiting times before crossing"
+        },
+        {
+          "paper_id": "05_2018_deb_trf",
+          "title": "Investigating pedestrian suggestions for external features on fully autonomous vehicles: A virtual reality experiment",
+          "authors": "Shuchisnigdha Deb; Lesley J. Strawderman; Daniel W. Carruth",
+          "year": 2018,
+          "venue": "Transportation Research Part F",
+          "research_problem": "Identify potential external features on fully autonomous vehicles (FAVs) that would help pedestrians understand vehicle intended behavior at crosswalks, improve receptivity toward FAVs, and influence crossing behavior",
+          "method_summary": "Virtual reality experiment with 30 participants walking across a virtual crosswalk in front of a FAV. Tested 4 visual features (walking silhouette, 'braking' in text, flashing smile, no signal) and 4 audible features (horn sound, music, verbal message, no signal) in a 4x4 randomized complete block design. Collected simulator data (crossing time, waiting time, head rotation) and survey data (receptivity surveys, pedestrian behavior questionnaire, personal innovativeness scale, feature ratings)",
+          "method_family": "Virtual Reality Experiment, Randomized Complete Block Design",
+          "tasks": "Pedestrian crossing behavior at crosswalks with FAVs; Feature preference evaluation; Receptivity assessment toward autonomous vehicles",
+          "datasets": "N/A - primary experimental data collection",
+          "metrics": "Feature ratings (1-7 scale); Crossing time; Waiting time; Pedestrian Receptivity Questionnaire for FAVs (PRQF) scores; Pedestrian Behavior Questionnaire (PBQ) scores; Personal innovativeness scale scores; Simulation Sickness Questionnaire (SSQ) scores",
+          "claim_id": "claim-5",
+          "claim_text": "Pedestrians who commit errors or show aggressive behaviors rated FAV implementation poorly even with external features",
+          "claim_type": "application",
+          "evidence_chunk_ids": "563b176c-9ddc-46da-83b8-5838fa0b8f3e; 6644b049-c352-41ea-968f-d6623f1dacaa; c632937e-5357-41bc-8cef-7b62d028ac3d",
+          "limitations": "Single controlled scenario with FAV approaching from one direction and stopping at intersection; no other traffic in virtual environment | Features indicated safe crossing conditions only; vehicle stopped in every trial - did not test negative or terminating signals | First-time exposure to FAV may not reflect long-term behavior and adaptation | Small sample size (n=30) limits generalizability; conducted at single university with U.S. citizens only",
+          "notes": "VR platform validated by previous study (Deb, Carruth, et al., 2017) confirmed pedestrians respond similarly in virtual and real traffic environments; External features selected based on previous research, development feasibility, and pedestrians' ability to interpret without prior training; Participants had normal or corrected full-color vision, normal hearing, and normal walking gait; Personal innovativeness negatively correlated with waiting time - higher innovativeness led to shorter waiting times before crossing"
+        },
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "title": "Exploring factors affecting pedestrians' red-light running behaviors at intersections in China",
+          "authors": "Weihua Zhang; Kun Wang; Lei Wang; Zhongxiang Feng; Yingjie Du",
+          "year": 2016,
+          "venue": "Accident Analysis and Prevention",
+          "research_problem": "Exploring factors affecting pedestrians' red-light running behaviors at intersections in China, using data collected from Hefei",
+          "method_summary": "SP survey with 15 items collecting pedestrian socio-economic characteristics, trip related features, and attitude variables. Based on 631 valid samples, a binomial logistic model was established using Score test and iterative variable selection to evaluate impacts of contributing factors on pedestrian red-light running behavior.",
+          "method_family": "binomial logistic regression",
+          "tasks": "analyze factors affecting pedestrian red-light running behavior at signalized intersections",
+          "datasets": "631 valid survey samples from 6 signalized intersections in Hefei, China (May-June 2015)",
+          "metrics": "Score test, coefficients, odds ratios, p-values, 95% confidence intervals",
+          "claim_id": "claim-1",
+          "claim_text": "Trip purpose significantly affects red-light running behavior - strolling pedestrians are more likely to have safe crossing behavior compared to those going to work/school",
+          "claim_type": "performance",
+          "evidence_chunk_ids": "47c72b46-5350-4604-94c0-521b8de749c5; ed68a398-6868-45bc-b34c-2b545ecf38f1",
+          "limitations": "Data collected only from one Chinese city (Hefei); results may not generalize to other cities or countries due to cultural and driving behavior differences | Study only considered pedestrian red-light running at signalized intersection areas; other crossing facility types not examined | Study focused on individual crossing behaviors, ignoring impacts of pedestrian platoons and herd mentality effects | Sample size of 631 may limit generalizability despite being sufficient for model estimation",
+          "notes": "Four significant variables identified: trip purpose, time period, attitude towards running red-light when in hurry, attitude towards road facility quality affecting crossing behavior; Model uses binomial logistic regression with Score test for variable selection; Field survey conducted during peak periods on weekdays and weekends; Voice reminder and monitoring equipment suggested as countermeasures"
+        },
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "title": "Exploring factors affecting pedestrians' red-light running behaviors at intersections in China",
+          "authors": "Weihua Zhang; Kun Wang; Lei Wang; Zhongxiang Feng; Yingjie Du",
+          "year": 2016,
+          "venue": "Accident Analysis and Prevention",
+          "research_problem": "Exploring factors affecting pedestrians' red-light running behaviors at intersections in China, using data collected from Hefei",
+          "method_summary": "SP survey with 15 items collecting pedestrian socio-economic characteristics, trip related features, and attitude variables. Based on 631 valid samples, a binomial logistic model was established using Score test and iterative variable selection to evaluate impacts of contributing factors on pedestrian red-light running behavior.",
+          "method_family": "binomial logistic regression",
+          "tasks": "analyze factors affecting pedestrian red-light running behavior at signalized intersections",
+          "datasets": "631 valid survey samples from 6 signalized intersections in Hefei, China (May-June 2015)",
+          "metrics": "Score test, coefficients, odds ratios, p-values, 95% confidence intervals",
+          "claim_id": "claim-2",
+          "claim_text": "Time period in a day significantly affects red-light running probability, with daytime having the highest probability (OR=3.326) compared to dawn",
+          "claim_type": "performance",
+          "evidence_chunk_ids": "83b8f7ac-e364-4c5f-9c5a-211e7233bfd2; 7f5db276-1c71-4a98-b882-6c00012f3a0c",
+          "limitations": "Data collected only from one Chinese city (Hefei); results may not generalize to other cities or countries due to cultural and driving behavior differences | Study only considered pedestrian red-light running at signalized intersection areas; other crossing facility types not examined | Study focused on individual crossing behaviors, ignoring impacts of pedestrian platoons and herd mentality effects | Sample size of 631 may limit generalizability despite being sufficient for model estimation",
+          "notes": "Four significant variables identified: trip purpose, time period, attitude towards running red-light when in hurry, attitude towards road facility quality affecting crossing behavior; Model uses binomial logistic regression with Score test for variable selection; Field survey conducted during peak periods on weekdays and weekends; Voice reminder and monitoring equipment suggested as countermeasures"
+        },
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "title": "Exploring factors affecting pedestrians' red-light running behaviors at intersections in China",
+          "authors": "Weihua Zhang; Kun Wang; Lei Wang; Zhongxiang Feng; Yingjie Du",
+          "year": 2016,
+          "venue": "Accident Analysis and Prevention",
+          "research_problem": "Exploring factors affecting pedestrians' red-light running behaviors at intersections in China, using data collected from Hefei",
+          "method_summary": "SP survey with 15 items collecting pedestrian socio-economic characteristics, trip related features, and attitude variables. Based on 631 valid samples, a binomial logistic model was established using Score test and iterative variable selection to evaluate impacts of contributing factors on pedestrian red-light running behavior.",
+          "method_family": "binomial logistic regression",
+          "tasks": "analyze factors affecting pedestrian red-light running behavior at signalized intersections",
+          "datasets": "631 valid survey samples from 6 signalized intersections in Hefei, China (May-June 2015)",
+          "metrics": "Score test, coefficients, odds ratios, p-values, 95% confidence intervals",
+          "claim_id": "claim-3",
+          "claim_text": "Pedestrians who indicate they will run red-light when in hurry have significantly higher probability of such behavior (OR=0.299 for non-hurry group)",
+          "claim_type": "performance",
+          "evidence_chunk_ids": "56038d69-e653-4ffa-a6a5-025df91b3719; 25304836-3db1-4752-ab3a-e9bdfef8eaf0",
+          "limitations": "Data collected only from one Chinese city (Hefei); results may not generalize to other cities or countries due to cultural and driving behavior differences | Study only considered pedestrian red-light running at signalized intersection areas; other crossing facility types not examined | Study focused on individual crossing behaviors, ignoring impacts of pedestrian platoons and herd mentality effects | Sample size of 631 may limit generalizability despite being sufficient for model estimation",
+          "notes": "Four significant variables identified: trip purpose, time period, attitude towards running red-light when in hurry, attitude towards road facility quality affecting crossing behavior; Model uses binomial logistic regression with Score test for variable selection; Field survey conducted during peak periods on weekdays and weekends; Voice reminder and monitoring equipment suggested as countermeasures"
+        },
+        {
+          "paper_id": "12_2016_zhang_aap",
+          "title": "Exploring factors affecting pedestrians' red-light running behaviors at intersections in China",
+          "authors": "Weihua Zhang; Kun Wang; Lei Wang; Zhongxiang Feng; Yingjie Du",
+          "year": 2016,
+          "venue": "Accident Analysis and Prevention",
+          "research_problem": "Exploring factors affecting pedestrians' red-light running behaviors at intersections in China, using data collected from Hefei",
+          "method_summary": "SP survey with 15 items collecting pedestrian socio-economic characteristics, trip related features, and attitude variables. Based on 631 valid samples, a binomial logistic model was established using Score test and iterative variable selection to evaluate impacts of contributing factors on pedestrian red-light running behavior.",
+          "method_family": "binomial logistic regression",
+          "tasks": "analyze factors affecting pedestrian red-light running behavior at signalized intersections",
+          "datasets": "631 valid survey samples from 6 signalized intersections in Hefei, China (May-June 2015)",
+          "metrics": "Score test, coefficients, odds ratios, p-values, 95% confidence intervals",
+          "claim_id": "claim-4",
+          "claim_text": "Pedestrians whose crossing behavior is affected by road facility quality are more likely to run red-lights at intersections (OR=0.483 for unaffected group)",
+          "claim_type": "performance",
+          "evidence_chunk_ids": "28457467-5fd2-48da-a8e1-c69b560c7f93; d1da741d-feb3-438e-9461-366667ede438",
+          "limitations": "Data collected only from one Chinese city (Hefei); results may not generalize to other cities or countries due to cultural and driving behavior differences | Study only considered pedestrian red-light running at signalized intersection areas; other crossing facility types not examined | Study focused on individual crossing behaviors, ignoring impacts of pedestrian platoons and herd mentality effects | Sample size of 631 may limit generalizability despite being sufficient for model estimation",
+          "notes": "Four significant variables identified: trip purpose, time period, attitude towards running red-light when in hurry, attitude towards road facility quality affecting crossing behavior; Model uses binomial logistic regression with Score test for variable selection; Field survey conducted during peak periods on weekdays and weekends; Voice reminder and monitoring equipment suggested as countermeasures"
+        },
+        {
+          "paper_id": "13_2020_chen_trf",
+          "title": "Roles of personal and environmental factors in the red light running propensity of pedestrian: Case study at the urban crosswalks",
+          "authors": "Dianchen Zhu; N.N. Sze; Lu Bai",
+          "year": 2020,
+          "venue": "Transportation Research Part F",
+          "research_problem": "Identify factors that affect the propensity of red light running of pedestrians at signalized intersections, including both personal factors (pedestrian demographics and behavior) and environmental factors (presence and behavior of other pedestrians, signal time, and traffic condition)",
+          "method_summary": "Video observation surveys conducted at six signalized crosswalks in urban Hong Kong, capturing crossing behaviors of 6320 pedestrians during 652 signal cycles. Random parameter logit model developed to measure association between red light running propensity and explanatory factors, accounting for unobserved heterogeneity",
+          "method_family": "Random parameter logit model (discrete choice model)",
+          "tasks": "Pedestrian red light running violation prediction; Factor analysis of pedestrian crossing behavior",
+          "datasets": "6320 pedestrians observed at 6 signalized crosswalks in Hong Kong; 652 signal cycles; Six locations: Prince Edward Road West j/w Nathan Road, Argyle Street j/w Nathan Road, Argyle Street j/w Sai Yee Street, Tonkin Street j/w Shun Ning Road, Hung Hom South Road j/w Po loi Street, To Kwa Wan Road j/w Chi Kiang Street",
+          "metrics": "Red light running violation (binary outcome); Odds ratios; Elasticities; AIC (Akaike Information Criterion) for model comparison; Z-values for statistical significance",
+          "claim_id": "claim-1",
+          "claim_text": "Pedestrian gender, age, number of lanes, presence of a companion, number of pedestrians around, presence of other violators in the same cycle, time to green, red time, traffic volume, and percentage of heavy vehicles all significantly affect the propensity of red light running violation of pedestrians",
+          "claim_type": "performance",
+          "evidence_chunk_ids": "57372e5e-33f9-4d31-906d-27a6a83937a8; e75c04b7-e9f7-4731-8866-398550a9166c",
+          "limitations": "Study focuses on red light running propensity but does not analyze safety outcomes (associated crash risk) | Effect of vehicular speed on red light running behavior was not assessed despite its correlation with crash risk and severity | Video observation survey cannot capture pedestrian safety perception, attitude, or anticipated crossing behavior that could be gauged through questionnaire or attitudinal surveys | Limited to urban Hong Kong context; findings may not generalize to other cities with different traffic signal systems (e.g., pedestrian countdown displays)",
+          "notes": "Study addresses gap in literature by examining both individual-level (personal demographics and behavior) and cycle-level (traffic condition and signal time) factors together; Novel contribution includes examining influence of social norms through presence of companion, number of pedestrians around, and violation behavior of others; Hong Kong pedestrian signal cycle has three phases: steady green, flashing green, and steady red (no countdown display); Random parameter approach justified by statistically significant standard deviation components indicating unobserved heterogeneity in gender and number of people waiting effects; 18.5% of observed pedestrians (1169 out of 6320) committed red light running violation"
+        },
+        {
+          "paper_id": "13_2020_chen_trf",
+          "title": "Roles of personal and environmental factors in the red light running propensity of pedestrian: Case study at the urban crosswalks",
+          "authors": "Dianchen Zhu; N.N. Sze; Lu Bai",
+          "year": 2020,
+          "venue": "Transportation Research Part F",
+          "research_problem": "Identify factors that affect the propensity of red light running of pedestrians at signalized intersections, including both personal factors (pedestrian demographics and behavior) and environmental factors (presence and behavior of other pedestrians, signal time, and traffic condition)",
+          "method_summary": "Video observation surveys conducted at six signalized crosswalks in urban Hong Kong, capturing crossing behaviors of 6320 pedestrians during 652 signal cycles. Random parameter logit model developed to measure association between red light running propensity and explanatory factors, accounting for unobserved heterogeneity",
+          "method_family": "Random parameter logit model (discrete choice model)",
+          "tasks": "Pedestrian red light running violation prediction; Factor analysis of pedestrian crossing behavior",
+          "datasets": "6320 pedestrians observed at 6 signalized crosswalks in Hong Kong; 652 signal cycles; Six locations: Prince Edward Road West j/w Nathan Road, Argyle Street j/w Nathan Road, Argyle Street j/w Sai Yee Street, Tonkin Street j/w Shun Ning Road, Hung Hom South Road j/w Po loi Street, To Kwa Wan Road j/w Chi Kiang Street",
+          "metrics": "Red light running violation (binary outcome); Odds ratios; Elasticities; AIC (Akaike Information Criterion) for model comparison; Z-values for statistical significance",
+          "claim_id": "claim-2",
+          "claim_text": "Female pedestrians have lower propensity of red light running compared to males; given normally distributed gender parameter, probability that females have lower propensity than males is 64.3%",
+          "claim_type": "performance",
+          "evidence_chunk_ids": "24a2d4f9-5301-4839-8225-cc45296cc056; 7a602a56-6dc9-4fc6-83a1-3dd3c05dce27",
+          "limitations": "Study focuses on red light running propensity but does not analyze safety outcomes (associated crash risk) | Effect of vehicular speed on red light running behavior was not assessed despite its correlation with crash risk and severity | Video observation survey cannot capture pedestrian safety perception, attitude, or anticipated crossing behavior that could be gauged through questionnaire or attitudinal surveys | Limited to urban Hong Kong context; findings may not generalize to other cities with different traffic signal systems (e.g., pedestrian countdown displays)",
+          "notes": "Study addresses gap in literature by examining both individual-level (personal demographics and behavior) and cycle-level (traffic condition and signal time) factors together; Novel contribution includes examining influence of social norms through presence of companion, number of pedestrians around, and violation behavior of others; Hong Kong pedestrian signal cycle has three phases: steady green, flashing green, and steady red (no countdown display); Random parameter approach justified by statistically significant standard deviation components indicating unobserved heterogeneity in gender and number of people waiting effects; 18.5% of observed pedestrians (1169 out of 6320) committed red light running violation"
+        },
+        {
+          "paper_id": "13_2020_chen_trf",
+          "title": "Roles of personal and environmental factors in the red light running propensity of pedestrian: Case study at the urban crosswalks",
+          "authors": "Dianchen Zhu; N.N. Sze; Lu Bai",
+          "year": 2020,
+          "venue": "Transportation Research Part F",
+          "research_problem": "Identify factors that affect the propensity of red light running of pedestrians at signalized intersections, including both personal factors (pedestrian demographics and behavior) and environmental factors (presence and behavior of other pedestrians, signal time, and traffic condition)",
+          "method_summary": "Video observation surveys conducted at six signalized crosswalks in urban Hong Kong, capturing crossing behaviors of 6320 pedestrians during 652 signal cycles. Random parameter logit model developed to measure association between red light running propensity and explanatory factors, accounting for unobserved heterogeneity",
+          "method_family": "Random parameter logit model (discrete choice model)",
+          "tasks": "Pedestrian red light running violation prediction; Factor analysis of pedestrian crossing behavior",
+          "datasets": "6320 pedestrians observed at 6 signalized crosswalks in Hong Kong; 652 signal cycles; Six locations: Prince Edward Road West j/w Nathan Road, Argyle Street j/w Nathan Road, Argyle Street j/w Sai Yee Street, Tonkin Street j/w Shun Ning Road, Hung Hom South Road j/w Po loi Street, To Kwa Wan Road j/w Chi Kiang Street",
+          "metrics": "Red light running violation (binary outcome); Odds ratios; Elasticities; AIC (Akaike Information Criterion) for model comparison; Z-values for statistical significance",
+          "claim_id": "claim-3",
+          "claim_text": "Older pedestrians have higher propensity to violate red light compared to normal adults, potentially due to lower educational attainment and poor cognitive abilities in Hong Kong",
+          "claim_type": "methodological",
+          "evidence_chunk_ids": "0a79bd9f-b257-4e99-b7a9-9628c2a15f83; 2eca12d7-eebc-4874-9b47-a8271cdbaccf",
+          "limitations": "Study focuses on red light running propensity but does not analyze safety outcomes (associated crash risk) | Effect of vehicular speed on red light running behavior was not assessed despite its correlation with crash risk and severity | Video observation survey cannot capture pedestrian safety perception, attitude, or anticipated crossing behavior that could be gauged through questionnaire or attitudinal surveys | Limited to urban Hong Kong context; findings may not generalize to other cities with different traffic signal systems (e.g., pedestrian countdown displays)",
+          "notes": "Study addresses gap in literature by examining both individual-level (personal demographics and behavior) and cycle-level (traffic condition and signal time) factors together; Novel contribution includes examining influence of social norms through presence of companion, number of pedestrians around, and violation behavior of others; Hong Kong pedestrian signal cycle has three phases: steady green, flashing green, and steady red (no countdown display); Random parameter approach justified by statistically significant standard deviation components indicating unobserved heterogeneity in gender and number of people waiting effects; 18.5% of observed pedestrians (1169 out of 6320) committed red light running violation"
+        },
+        {
+          "paper_id": "13_2020_chen_trf",
+          "title": "Roles of personal and environmental factors in the red light running propensity of pedestrian: Case study at the urban crosswalks",
+          "authors": "Dianchen Zhu; N.N. Sze; Lu Bai",
+          "year": 2020,
+          "venue": "Transportation Research Part F",
+          "research_problem": "Identify factors that affect the propensity of red light running of pedestrians at signalized intersections, including both personal factors (pedestrian demographics and behavior) and environmental factors (presence and behavior of other pedestrians, signal time, and traffic condition)",
+          "method_summary": "Video observation surveys conducted at six signalized crosswalks in urban Hong Kong, capturing crossing behaviors of 6320 pedestrians during 652 signal cycles. Random parameter logit model developed to measure association between red light running propensity and explanatory factors, accounting for unobserved heterogeneity",
+          "method_family": "Random parameter logit model (discrete choice model)",
+          "tasks": "Pedestrian red light running violation prediction; Factor analysis of pedestrian crossing behavior",
+          "datasets": "6320 pedestrians observed at 6 signalized crosswalks in Hong Kong; 652 signal cycles; Six locations: Prince Edward Road West j/w Nathan Road, Argyle Street j/w Nathan Road, Argyle Street j/w Sai Yee Street, Tonkin Street j/w Shun Ning Road, Hung Hom South Road j/w Po loi Street, To Kwa Wan Road j/w Chi Kiang Street",
+          "metrics": "Red light running violation (binary outcome); Odds ratios; Elasticities; AIC (Akaike Information Criterion) for model comparison; Z-values for statistical significance",
+          "claim_id": "claim-4",
+          "claim_text": "Presence of other pedestrians violating red light significantly increases individual red light running propensity, indicating social norm influence and vicarious experience of punishment avoidance",
+          "claim_type": "application",
+          "evidence_chunk_ids": "63afe99e-8dc7-4736-8396-4909af55b889; bfe4b510-74d1-48c8-9017-194c21339d9a",
+          "limitations": "Study focuses on red light running propensity but does not analyze safety outcomes (associated crash risk) | Effect of vehicular speed on red light running behavior was not assessed despite its correlation with crash risk and severity | Video observation survey cannot capture pedestrian safety perception, attitude, or anticipated crossing behavior that could be gauged through questionnaire or attitudinal surveys | Limited to urban Hong Kong context; findings may not generalize to other cities with different traffic signal systems (e.g., pedestrian countdown displays)",
+          "notes": "Study addresses gap in literature by examining both individual-level (personal demographics and behavior) and cycle-level (traffic condition and signal time) factors together; Novel contribution includes examining influence of social norms through presence of companion, number of pedestrians around, and violation behavior of others; Hong Kong pedestrian signal cycle has three phases: steady green, flashing green, and steady red (no countdown display); Random parameter approach justified by statistically significant standard deviation components indicating unobserved heterogeneity in gender and number of people waiting effects; 18.5% of observed pedestrians (1169 out of 6320) committed red light running violation"
+        },
+        {
+          "paper_id": "13_2020_chen_trf",
+          "title": "Roles of personal and environmental factors in the red light running propensity of pedestrian: Case study at the urban crosswalks",
+          "authors": "Dianchen Zhu; N.N. Sze; Lu Bai",
+          "year": 2020,
+          "venue": "Transportation Research Part F",
+          "research_problem": "Identify factors that affect the propensity of red light running of pedestrians at signalized intersections, including both personal factors (pedestrian demographics and behavior) and environmental factors (presence and behavior of other pedestrians, signal time, and traffic condition)",
+          "method_summary": "Video observation surveys conducted at six signalized crosswalks in urban Hong Kong, capturing crossing behaviors of 6320 pedestrians during 652 signal cycles. Random parameter logit model developed to measure association between red light running propensity and explanatory factors, accounting for unobserved heterogeneity",
+          "method_family": "Random parameter logit model (discrete choice model)",
+          "tasks": "Pedestrian red light running violation prediction; Factor analysis of pedestrian crossing behavior",
+          "datasets": "6320 pedestrians observed at 6 signalized crosswalks in Hong Kong; 652 signal cycles; Six locations: Prince Edward Road West j/w Nathan Road, Argyle Street j/w Nathan Road, Argyle Street j/w Sai Yee Street, Tonkin Street j/w Shun Ning Road, Hung Hom South Road j/w Po loi Street, To Kwa Wan Road j/w Chi Kiang Street",
+          "metrics": "Red light running violation (binary outcome); Odds ratios; Elasticities; AIC (Akaike Information Criterion) for model comparison; Z-values for statistical significance",
+          "claim_id": "claim-5",
+          "claim_text": "Traffic volume and percentage of heavy vehicles are negatively correlated with red light running propensity; elasticity values show 0.48% and 0.52% reduction per 1% increase respectively",
+          "claim_type": "performance",
+          "evidence_chunk_ids": "e4766756-d632-4c5b-a2a3-c77b91d59789; 4c357ebd-d951-4889-87d8-a9e8254376d2",
+          "limitations": "Study focuses on red light running propensity but does not analyze safety outcomes (associated crash risk) | Effect of vehicular speed on red light running behavior was not assessed despite its correlation with crash risk and severity | Video observation survey cannot capture pedestrian safety perception, attitude, or anticipated crossing behavior that could be gauged through questionnaire or attitudinal surveys | Limited to urban Hong Kong context; findings may not generalize to other cities with different traffic signal systems (e.g., pedestrian countdown displays)",
+          "notes": "Study addresses gap in literature by examining both individual-level (personal demographics and behavior) and cycle-level (traffic condition and signal time) factors together; Novel contribution includes examining influence of social norms through presence of companion, number of pedestrians around, and violation behavior of others; Hong Kong pedestrian signal cycle has three phases: steady green, flashing green, and steady red (no countdown display); Random parameter approach justified by statistically significant standard deviation components indicating unobserved heterogeneity in gender and number of people waiting effects; 18.5% of observed pedestrians (1169 out of 6320) committed red light running violation"
+        }
+      ],
+      "coverage": {
+        "paper_count": 3,
+        "method_family_distribution": {
+          "Virtual Reality Experiment, Randomized Complete Block Design": 1,
+          "binomial logistic regression": 1,
+          "Random parameter logit model (discrete choice model)": 1
+        },
+        "task_distribution": {
+          "Pedestrian crossing behavior at crosswalks with FAVs": 1,
+          "Feature preference evaluation": 1,
+          "Receptivity assessment toward autonomous vehicles": 1,
+          "analyze factors affecting pedestrian red-light running behavior at signalized intersections": 1,
+          "Pedestrian red light running violation prediction": 1,
+          "Factor analysis of pedestrian crossing behavior": 1
+        },
+        "language_distribution": {
+          "english": 3
+        },
+        "dataset_distribution": {
+          "N/A - primary experimental data collection": 1,
+          "631 valid survey samples from 6 signalized intersections in Hefei, China (May-June 2015)": 1,
+          "6320 pedestrians observed at 6 signalized crosswalks in Hong Kong": 1,
+          "652 signal cycles": 1,
+          "Six locations: Prince Edward Road West j/w Nathan Road, Argyle Street j/w Nathan Road, Argyle Street j/w Sai Yee Street, Tonkin Street j/w Shun Ning Road, Hung Hom South Road j/w Po loi Street, To Kwa Wan Road j/w Chi Kiang Street": 1
+        },
+        "year_distribution": {
+          "2018": 1,
+          "2016": 1,
+          "2020": 1
+        },
+        "chinese_coverage_count": 0,
+        "themes": [
+          "Virtual Reality Experiment, Randomized Complete Block Design",
+          "binomial logistic regression",
+          "Random parameter logit model (discrete choice model)"
+        ]
+      },
+      "contradictions": {
+        "task_groups": {
+          "Pedestrian crossing behavior at crosswalks with FAVs": [
+            {
+              "paper_id": "05_2018_deb_trf",
+              "claim_id": "claim-1",
+              "claim_text": "External features on FAVs significantly increased pedestrian receptivity toward autonomous vehicles",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "05_2018_deb_trf",
+              "claim_id": "claim-2",
+              "claim_text": "Walking silhouette and 'braking' in text were the most favored visual interfaces, while verbal message was the preferred audible feature",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "05_2018_deb_trf",
+              "claim_id": "claim-3",
+              "claim_text": "Visual features had stronger effect on participant ratings (η²=0.151) than audible features (η²=0.086)",
+              "claim_type": "methodological"
+            },
+            {
+              "paper_id": "05_2018_deb_trf",
+              "claim_id": "claim-4",
+              "claim_text": "Females and people aged 30+ reacted most positively to the external features",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "05_2018_deb_trf",
+              "claim_id": "claim-5",
+              "claim_text": "Pedestrians who commit errors or show aggressive behaviors rated FAV implementation poorly even with external features",
+              "claim_type": "application"
+            }
+          ],
+          "Feature preference evaluation": [
+            {
+              "paper_id": "05_2018_deb_trf",
+              "claim_id": "claim-1",
+              "claim_text": "External features on FAVs significantly increased pedestrian receptivity toward autonomous vehicles",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "05_2018_deb_trf",
+              "claim_id": "claim-2",
+              "claim_text": "Walking silhouette and 'braking' in text were the most favored visual interfaces, while verbal message was the preferred audible feature",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "05_2018_deb_trf",
+              "claim_id": "claim-3",
+              "claim_text": "Visual features had stronger effect on participant ratings (η²=0.151) than audible features (η²=0.086)",
+              "claim_type": "methodological"
+            },
+            {
+              "paper_id": "05_2018_deb_trf",
+              "claim_id": "claim-4",
+              "claim_text": "Females and people aged 30+ reacted most positively to the external features",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "05_2018_deb_trf",
+              "claim_id": "claim-5",
+              "claim_text": "Pedestrians who commit errors or show aggressive behaviors rated FAV implementation poorly even with external features",
+              "claim_type": "application"
+            }
+          ],
+          "Receptivity assessment toward autonomous vehicles": [
+            {
+              "paper_id": "05_2018_deb_trf",
+              "claim_id": "claim-1",
+              "claim_text": "External features on FAVs significantly increased pedestrian receptivity toward autonomous vehicles",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "05_2018_deb_trf",
+              "claim_id": "claim-2",
+              "claim_text": "Walking silhouette and 'braking' in text were the most favored visual interfaces, while verbal message was the preferred audible feature",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "05_2018_deb_trf",
+              "claim_id": "claim-3",
+              "claim_text": "Visual features had stronger effect on participant ratings (η²=0.151) than audible features (η²=0.086)",
+              "claim_type": "methodological"
+            },
+            {
+              "paper_id": "05_2018_deb_trf",
+              "claim_id": "claim-4",
+              "claim_text": "Females and people aged 30+ reacted most positively to the external features",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "05_2018_deb_trf",
+              "claim_id": "claim-5",
+              "claim_text": "Pedestrians who commit errors or show aggressive behaviors rated FAV implementation poorly even with external features",
+              "claim_type": "application"
+            }
+          ],
+          "analyze factors affecting pedestrian red-light running behavior at signalized intersections": [
+            {
+              "paper_id": "12_2016_zhang_aap",
+              "claim_id": "claim-1",
+              "claim_text": "Trip purpose significantly affects red-light running behavior - strolling pedestrians are more likely to have safe crossing behavior compared to those going to work/school",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "12_2016_zhang_aap",
+              "claim_id": "claim-2",
+              "claim_text": "Time period in a day significantly affects red-light running probability, with daytime having the highest probability (OR=3.326) compared to dawn",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "12_2016_zhang_aap",
+              "claim_id": "claim-3",
+              "claim_text": "Pedestrians who indicate they will run red-light when in hurry have significantly higher probability of such behavior (OR=0.299 for non-hurry group)",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "12_2016_zhang_aap",
+              "claim_id": "claim-4",
+              "claim_text": "Pedestrians whose crossing behavior is affected by road facility quality are more likely to run red-lights at intersections (OR=0.483 for unaffected group)",
+              "claim_type": "performance"
+            }
+          ],
+          "Pedestrian red light running violation prediction": [
+            {
+              "paper_id": "13_2020_chen_trf",
+              "claim_id": "claim-1",
+              "claim_text": "Pedestrian gender, age, number of lanes, presence of a companion, number of pedestrians around, presence of other violators in the same cycle, time to green, red time, traffic volume, and percentage of heavy vehicles all significantly affect the propensity of red light running violation of pedestrians",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "13_2020_chen_trf",
+              "claim_id": "claim-2",
+              "claim_text": "Female pedestrians have lower propensity of red light running compared to males; given normally distributed gender parameter, probability that females have lower propensity than males is 64.3%",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "13_2020_chen_trf",
+              "claim_id": "claim-3",
+              "claim_text": "Older pedestrians have higher propensity to violate red light compared to normal adults, potentially due to lower educational attainment and poor cognitive abilities in Hong Kong",
+              "claim_type": "methodological"
+            },
+            {
+              "paper_id": "13_2020_chen_trf",
+              "claim_id": "claim-4",
+              "claim_text": "Presence of other pedestrians violating red light significantly increases individual red light running propensity, indicating social norm influence and vicarious experience of punishment avoidance",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "13_2020_chen_trf",
+              "claim_id": "claim-5",
+              "claim_text": "Traffic volume and percentage of heavy vehicles are negatively correlated with red light running propensity; elasticity values show 0.48% and 0.52% reduction per 1% increase respectively",
+              "claim_type": "performance"
+            }
+          ],
+          "Factor analysis of pedestrian crossing behavior": [
+            {
+              "paper_id": "13_2020_chen_trf",
+              "claim_id": "claim-1",
+              "claim_text": "Pedestrian gender, age, number of lanes, presence of a companion, number of pedestrians around, presence of other violators in the same cycle, time to green, red time, traffic volume, and percentage of heavy vehicles all significantly affect the propensity of red light running violation of pedestrians",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "13_2020_chen_trf",
+              "claim_id": "claim-2",
+              "claim_text": "Female pedestrians have lower propensity of red light running compared to males; given normally distributed gender parameter, probability that females have lower propensity than males is 64.3%",
+              "claim_type": "performance"
+            },
+            {
+              "paper_id": "13_2020_chen_trf",
+              "claim_id": "claim-3",
+              "claim_text": "Older pedestrians have higher propensity to violate red light compared to normal adults, potentially due to lower educational attainment and poor cognitive abilities in Hong Kong",
+              "claim_type": "methodological"
+            },
+            {
+              "paper_id": "13_2020_chen_trf",
+              "claim_id": "claim-4",
+              "claim_text": "Presence of other pedestrians violating red light significantly increases individual red light running propensity, indicating social norm influence and vicarious experience of punishment avoidance",
+              "claim_type": "application"
+            },
+            {
+              "paper_id": "13_2020_chen_trf",
+              "claim_id": "claim-5",
+              "claim_text": "Traffic volume and percentage of heavy vehicles are negatively correlated with red light running propensity; elasticity values show 0.48% and 0.52% reduction per 1% increase respectively",
+              "claim_type": "performance"
+            }
+          ]
+        },
+        "contradictions": [
+          {
+            "task": "Pedestrian crossing behavior at crosswalks with FAVs",
+            "reason": "Multiple claim types detected under the same task; manual review recommended.",
+            "claims": [
+              {
+                "paper_id": "05_2018_deb_trf",
+                "claim_id": "claim-1",
+                "claim_text": "External features on FAVs significantly increased pedestrian receptivity toward autonomous vehicles",
+                "claim_type": "performance"
+              },
+              {
+                "paper_id": "05_2018_deb_trf",
+                "claim_id": "claim-2",
+                "claim_text": "Walking silhouette and 'braking' in text were the most favored visual interfaces, while verbal message was the preferred audible feature",
+                "claim_type": "performance"
+              },
+              {
+                "paper_id": "05_2018_deb_trf",
+                "claim_id": "claim-3",
+                "claim_text": "Visual features had stronger effect on participant ratings (η²=0.151) than audible features (η²=0.086)",
+                "claim_type": "methodological"
+              },
+              {
+                "paper_id": "05_2018_deb_trf",
+                "claim_id": "claim-4",
+                "claim_text": "Females and people aged 30+ reacted most positively to the external features",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "05_2018_deb_trf",
+                "claim_id": "claim-5",
+                "claim_text": "Pedestrians who commit errors or show aggressive behaviors rated FAV implementation poorly even with external features",
+                "claim_type": "application"
+              }
+            ]
+          },
+          {
+            "task": "Feature preference evaluation",
+            "reason": "Multiple claim types detected under the same task; manual review recommended.",
+            "claims": [
+              {
+                "paper_id": "05_2018_deb_trf",
+                "claim_id": "claim-1",
+                "claim_text": "External features on FAVs significantly increased pedestrian receptivity toward autonomous vehicles",
+                "claim_type": "performance"
+              },
+              {
+                "paper_id": "05_2018_deb_trf",
+                "claim_id": "claim-2",
+                "claim_text": "Walking silhouette and 'braking' in text were the most favored visual interfaces, while verbal message was the preferred audible feature",
+                "claim_type": "performance"
+              },
+              {
+                "paper_id": "05_2018_deb_trf",
+                "claim_id": "claim-3",
+                "claim_text": "Visual features had stronger effect on participant ratings (η²=0.151) than audible features (η²=0.086)",
+                "claim_type": "methodological"
+              },
+              {
+                "paper_id": "05_2018_deb_trf",
+                "claim_id": "claim-4",
+                "claim_text": "Females and people aged 30+ reacted most positively to the external features",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "05_2018_deb_trf",
+                "claim_id": "claim-5",
+                "claim_text": "Pedestrians who commit errors or show aggressive behaviors rated FAV implementation poorly even with external features",
+                "claim_type": "application"
+              }
+            ]
+          },
+          {
+            "task": "Receptivity assessment toward autonomous vehicles",
+            "reason": "Multiple claim types detected under the same task; manual review recommended.",
+            "claims": [
+              {
+                "paper_id": "05_2018_deb_trf",
+                "claim_id": "claim-1",
+                "claim_text": "External features on FAVs significantly increased pedestrian receptivity toward autonomous vehicles",
+                "claim_type": "performance"
+              },
+              {
+                "paper_id": "05_2018_deb_trf",
+                "claim_id": "claim-2",
+                "claim_text": "Walking silhouette and 'braking' in text were the most favored visual interfaces, while verbal message was the preferred audible feature",
+                "claim_type": "performance"
+              },
+              {
+                "paper_id": "05_2018_deb_trf",
+                "claim_id": "claim-3",
+                "claim_text": "Visual features had stronger effect on participant ratings (η²=0.151) than audible features (η²=0.086)",
+                "claim_type": "methodological"
+              },
+              {
+                "paper_id": "05_2018_deb_trf",
+                "claim_id": "claim-4",
+                "claim_text": "Females and people aged 30+ reacted most positively to the external features",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "05_2018_deb_trf",
+                "claim_id": "claim-5",
+                "claim_text": "Pedestrians who commit errors or show aggressive behaviors rated FAV implementation poorly even with external features",
+                "claim_type": "application"
+              }
+            ]
+          },
+          {
+            "task": "Pedestrian red light running violation prediction",
+            "reason": "Multiple claim types detected under the same task; manual review recommended.",
+            "claims": [
+              {
+                "paper_id": "13_2020_chen_trf",
+                "claim_id": "claim-1",
+                "claim_text": "Pedestrian gender, age, number of lanes, presence of a companion, number of pedestrians around, presence of other violators in the same cycle, time to green, red time, traffic volume, and percentage of heavy vehicles all significantly affect the propensity of red light running violation of pedestrians",
+                "claim_type": "performance"
+              },
+              {
+                "paper_id": "13_2020_chen_trf",
+                "claim_id": "claim-2",
+                "claim_text": "Female pedestrians have lower propensity of red light running compared to males; given normally distributed gender parameter, probability that females have lower propensity than males is 64.3%",
+                "claim_type": "performance"
+              },
+              {
+                "paper_id": "13_2020_chen_trf",
+                "claim_id": "claim-3",
+                "claim_text": "Older pedestrians have higher propensity to violate red light compared to normal adults, potentially due to lower educational attainment and poor cognitive abilities in Hong Kong",
+                "claim_type": "methodological"
+              },
+              {
+                "paper_id": "13_2020_chen_trf",
+                "claim_id": "claim-4",
+                "claim_text": "Presence of other pedestrians violating red light significantly increases individual red light running propensity, indicating social norm influence and vicarious experience of punishment avoidance",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "13_2020_chen_trf",
+                "claim_id": "claim-5",
+                "claim_text": "Traffic volume and percentage of heavy vehicles are negatively correlated with red light running propensity; elasticity values show 0.48% and 0.52% reduction per 1% increase respectively",
+                "claim_type": "performance"
+              }
+            ]
+          },
+          {
+            "task": "Factor analysis of pedestrian crossing behavior",
+            "reason": "Multiple claim types detected under the same task; manual review recommended.",
+            "claims": [
+              {
+                "paper_id": "13_2020_chen_trf",
+                "claim_id": "claim-1",
+                "claim_text": "Pedestrian gender, age, number of lanes, presence of a companion, number of pedestrians around, presence of other violators in the same cycle, time to green, red time, traffic volume, and percentage of heavy vehicles all significantly affect the propensity of red light running violation of pedestrians",
+                "claim_type": "performance"
+              },
+              {
+                "paper_id": "13_2020_chen_trf",
+                "claim_id": "claim-2",
+                "claim_text": "Female pedestrians have lower propensity of red light running compared to males; given normally distributed gender parameter, probability that females have lower propensity than males is 64.3%",
+                "claim_type": "performance"
+              },
+              {
+                "paper_id": "13_2020_chen_trf",
+                "claim_id": "claim-3",
+                "claim_text": "Older pedestrians have higher propensity to violate red light compared to normal adults, potentially due to lower educational attainment and poor cognitive abilities in Hong Kong",
+                "claim_type": "methodological"
+              },
+              {
+                "paper_id": "13_2020_chen_trf",
+                "claim_id": "claim-4",
+                "claim_text": "Presence of other pedestrians violating red light significantly increases individual red light running propensity, indicating social norm influence and vicarious experience of punishment avoidance",
+                "claim_type": "application"
+              },
+              {
+                "paper_id": "13_2020_chen_trf",
+                "claim_id": "claim-5",
+                "claim_text": "Traffic volume and percentage of heavy vehicles are negatively correlated with red light running propensity; elasticity values show 0.48% and 0.52% reduction per 1% increase respectively",
+                "claim_type": "performance"
+              }
+            ]
+          }
+        ],
+        "contradiction_count": 5
+      },
+      "gaps": [
+        {
+          "gap_id": "33438a44-82da-4f00-b533-caafdff2c6ec",
+          "gap_statement": "Current coverage appears to underrepresent Chinese-language or Chinese-context studies.",
+          "gap_type": "language",
+          "supporting_evidence": [
+            "language_distribution={'english': 3}"
+          ],
+          "counter_evidence": [
+            "Paper 12_2016_zhang_aap conducted in Hefei, China (Chinese context)",
+            "Paper 13_2020_chen_trf conducted in Hong Kong (Chinese context)",
+            "2 out of 3 papers (67%) study Chinese contexts - not underrepresented",
+            "The 'chinese_coverage_count: 0' in coverage appears erroneous given datasets clearly indicate Chinese locations"
+          ],
+          "confidence": 0.1,
+          "novelty_value": 0.6,
+          "review_worthiness": 0.3,
+          "status": "rejected"
+        },
+        {
+          "gap_id": "2843b8ac-079f-493c-9383-1a47db912300",
+          "gap_statement": "There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.",
+          "gap_type": "comparison",
+          "supporting_evidence": [
+            "contradiction_count=5"
+          ],
+          "counter_evidence": [
+            "Papers address fundamentally different research problems: FAV pedestrian interaction (Deb 2018) vs. red-light running behavior (Zhang 2016, Zhu 2020)",
+            "No overlapping claims identified across papers on the same task",
+            "Task distribution shows 6 distinct tasks across 3 papers - no task duplication enabling contradiction"
+          ],
+          "confidence": 0.15,
+          "novelty_value": 0.6,
+          "review_worthiness": 0.33,
+          "status": "rejected"
+        }
+      ]
+    },
+    {
+      "name": "writing",
+      "ok": true,
+      "outline": [
+        {
+          "section_id": "sec-1",
+          "title": "Introduction and Research Context",
+          "objective": "Provide background on pedestrian safety at signalized intersections and the emergence of autonomous vehicle-pedestrian interaction research, establishing the scope and relevance of reviewed studies.",
+          "gap_inputs": [
+            "33438a44-82da-4f00-b533-caafdff2c6ec",
+            "2843b8ac-079f-493c-9383-1a47db912300"
+          ],
+          "matrix_row_count": 3
+        },
+        {
+          "section_id": "sec-2",
+          "title": "Methodological Approaches in Pedestrian Behavior Research",
+          "objective": "Compare and contrast the experimental and observational methods used across reviewed papers, including virtual reality experiments, surveys, and discrete choice modeling techniques.",
+          "gap_inputs": [
+            "33438a44-82da-4f00-b533-caafdff2c6ec",
+            "2843b8ac-079f-493c-9383-1a47db912300"
+          ],
+          "matrix_row_count": 3
+        },
+        {
+          "section_id": "sec-3",
+          "title": "Autonomous Vehicle-Pedestrian Interaction at Crosswalks",
+          "objective": "Synthesize findings from the virtual reality experiment on external interface features for fully autonomous vehicles, including pedestrian receptivity, feature preferences, and demographic differences.",
+          "gap_inputs": [
+            "33438a44-82da-4f00-b533-caafdff2c6ec",
+            "2843b8ac-079f-493c-9383-1a47db912300"
+          ],
+          "matrix_row_count": 5
+        },
+        {
+          "section_id": "sec-4",
+          "title": "Pedestrian Red-Light Running Behavior",
+          "objective": "Synthesize evidence on factors influencing pedestrian red-light running violations, including personal characteristics, environmental factors, and social influences from Chinese-context studies.",
+          "gap_inputs": [
+            "33438a44-82da-4f00-b533-caafdff2c6ec",
+            "2843b8ac-079f-493c-9383-1a47db912300"
+          ],
+          "matrix_row_count": 9
+        },
+        {
+          "section_id": "sec-5",
+          "title": "Comparative Analysis and Evidence Synthesis",
+          "objective": "Compare findings across studies on pedestrian crossing behavior, identify methodological strengths and limitations, and evaluate the generalizability of conclusions across different traffic contexts.",
+          "gap_inputs": [
+            "33438a44-82da-4f00-b533-caafdff2c6ec",
+            "2843b8ac-079f-493c-9383-1a47db912300"
+          ],
+          "matrix_row_count": 3
+        },
+        {
+          "section_id": "sec-6",
+          "title": "Research Limitations and Future Directions",
+          "objective": "Discuss methodological limitations across the reviewed literature, including sample size constraints, geographic scope, and measurement approaches, and propose directions for future pedestrian behavior research.",
+          "gap_inputs": [
+            "33438a44-82da-4f00-b533-caafdff2c6ec",
+            "2843b8ac-079f-493c-9383-1a47db912300"
+          ],
+          "matrix_row_count": 3
+        }
+      ],
+      "sections": [
+        {
+          "section_id": "sec-1",
+          "title": "Introduction and Research Context",
+          "text": "This review synthesizes evidence from 3 papers examining Pedestrian crossing behavior at crosswalks with FAVs, Feature preference evaluation, Receptivity assessment toward autonomous vehicles, with findings organized around 14 discrete claims drawn from a structured comparison matrix. The reviewed evidence employs Virtual Reality Experiment, Randomized Complete Block Design, binomial logistic regression, Random parameter logit model (discrete choice model) as primary analytical frameworks. A persistent challenge in this literature is the heterogeneity in how studies operationalize crossing behavior constructs, report metrics, and handle context specificity — factors that collectively limit direct cross-study comparison. This review structures its analysis around methodological families, task-level performance patterns, metric reporting practices, and verified gaps (2 identified), moving beyond siloed paper summaries toward a structured evidence synthesis. The review is organized as follows: Section 2 examines methodological approaches and their representational tradeoffs; Section 3 addresses task-level findings and performance patterns; Section 4 evaluates metric reporting and comparability; Section 5 identifies verified research gaps and implications; Section 6 provides a field-level synthesis and research priorities.",
+          "citation_keys": [
+            "13_2020_chen_trf",
+            "13_2020_chen_trf",
+            "13_2020_chen_trf"
+          ],
+          "_citation_scores": {
+            "13_2020_chen_trf": 10.0
+          }
+        },
+        {
+          "section_id": "sec-2",
+          "title": "Methodological Approaches in Pedestrian Behavior Research",
+          "text": "The Virtual Reality Experiment, Randomized Complete Block Design family constitutes a primary methodological strand in the reviewed literature. Represents a distinct representational approach with characteristic strengths and limitations. Evidence across reviewed studies suggests that this approach is particularly well-suited to analyzing crossing decision determinants under specific traffic conditions. Limitations of this approach include reduced generalizability to contexts with substantially different traffic signal configurations. The binomial logistic regression family represents a primary methodological strand in the reviewed literature. Represents a distinct representational approach with characteristic strengths and limitations. Evidence across reviewed studies suggests that this approach is particularly well-suited to analyzing crossing decision determinants under specific traffic conditions. Limitations of this approach include reduced generalizability to contexts with substantially different traffic signal configurations. The Random parameter logit model (discrete choice model) family represents a secondary methodological strand in the reviewed literature. Offers interpretable policy-relevant parameters but relies on strong distributional assumptions. Evidence across reviewed studies suggests that this approach is particularly well-suited to analyzing crossing decision determinants under specific traffic conditions. Limitations of this approach include reduced generalizability to contexts with substantially different traffic signal configurations. Across these 3 methodological families, a clear tension emerges between interpretive richness and predictive performance. Structural models — including discrete choice and social force approaches — provide parameters directly interpretable for traffic engineering and policy purposes, whereas data-driven approaches achieve higher predictive accuracy on specific benchmark datasets but lack comparable policy utility. No single paradigm has been validated across the full range of pedestrian populations, traffic environments, and signal configurations represented in this corpus.",
+          "citation_keys": [
+            "05_2018_deb_trf",
+            "05_2018_deb_trf"
+          ],
+          "_citation_scores": {
+            "05_2018_deb_trf": 22.0
+          }
+        },
+        {
+          "section_id": "sec-3",
+          "title": "Autonomous Vehicle-Pedestrian Interaction at Crosswalks",
+          "text": "This section synthesizes findings from 3 papers examining Pedestrian crossing behavior at crosswalks with FAVs, Feature preference evaluation, Receptivity assessment toward autonomous vehicles using Virtual Reality Experiment, Randomized Complete Block Design, binomial logistic regression, Random parameter logit model (discrete choice model). The comparative evidence matrix structures claims, metrics, and limitations to support structured analysis. A key observation is that Virtual Reality Experiment, Randomized Complete Block Design and binomial logistic regression approaches are the dominant methodological families in this corpus, though significant heterogeneity in reporting practices limits direct cross-study comparison.",
+          "citation_keys": [
+            "05_2018_deb_trf",
+            "05_2018_deb_trf"
+          ],
+          "_citation_scores": {
+            "05_2018_deb_trf": 23.5
+          }
+        },
+        {
+          "section_id": "sec-4",
+          "title": "Pedestrian Red-Light Running Behavior",
+          "text": "This section synthesizes findings from 3 papers examining Pedestrian crossing behavior at crosswalks with FAVs, Feature preference evaluation, Receptivity assessment toward autonomous vehicles using Virtual Reality Experiment, Randomized Complete Block Design, binomial logistic regression, Random parameter logit model (discrete choice model). The comparative evidence matrix structures claims, metrics, and limitations to support structured analysis. A key observation is that Virtual Reality Experiment, Randomized Complete Block Design and binomial logistic regression approaches are the dominant methodological families in this corpus, though significant heterogeneity in reporting practices limits direct cross-study comparison.",
+          "citation_keys": [
+            "13_2020_chen_trf",
+            "13_2020_chen_trf"
+          ],
+          "_citation_scores": {
+            "13_2020_chen_trf": 85.0
+          }
+        },
+        {
+          "section_id": "sec-5",
+          "title": "Comparative Analysis and Evidence Synthesis",
+          "text": "Reported metrics in the reviewed literature span multiple dimensions of crossing behavior and traffic system performance, including: Feature ratings (1-7 scale); Crossing time; Waiting time; Pedestrian Receptivity Questionnaire for FAVs (PRQF) scores; Pedestrian Behavior Questionnaire (PBQ) scores; Personal innovativeness scale scores; Simulation Sickness Questionnaire (SSQ) scores, Score test, coefficients, odds ratios, p-values, 95% confidence intervals, Red light running violation (binary outcome); Odds ratios; Elasticities; AIC (Akaike Information Criterion) for model comparison; Z-values for statistical significance. Performance reporting is most complete for Pedestrian crossing behavior at crosswalks with FAVs tasks. Metric reporting practices vary considerably across papers in two key respects. First, normalization approaches differ: some studies express outcomes as normalized rates per unit time or per pedestrian, while others report raw counts. Second, the temporal resolution of reported metrics ranges from instantaneous (e.g., crossing initiation delay at a single phase) to aggregate (e.g., violation frequency over a multi-hour observation window). These differences make direct cross-study comparison difficult without explicit standardization. Addressing this heterogeneity will require consensus on metric definitions and reporting standards within the pedestrian behavior modeling community. The absence of such standards currently forces reviewers to rely on narrative synthesis rather than formal meta-analysis, limiting the precision of conclusions that can be drawn.",
+          "citation_keys": [
+            "13_2020_chen_trf",
+            "13_2020_chen_trf"
+          ],
+          "_citation_scores": {
+            "13_2020_chen_trf": 10.5
+          }
+        },
+        {
+          "section_id": "sec-6",
+          "title": "Research Limitations and Future Directions",
+          "text": "The comparative analysis of 3 papers reveals 2 persistent gaps that current approaches have not adequately resolved. These gaps are documented through verified evidence from the review matrix and are categorized by severity below. Gap [33438a44] (medium severity): Current coverage appears to underrepresent Chinese-language or Chinese-context studies.. This gap limits the ability to draw robust conclusions from the existing literature. Gap [2843b8ac] (medium severity): There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.. This gap limits the ability to draw robust conclusions from the existing literature. These gaps collectively indicate that the field lacks the empirical foundation needed to support confident generalization of crossing behavior models across contexts, populations, and technologies. Prioritizing the most severe gaps in future empirical work will be essential for advancing both scientific understanding and the practical applicability of crossing behavior models.",
+          "citation_keys": [
+            "05_2018_deb_trf",
+            "05_2018_deb_trf"
+          ],
+          "_citation_scores": {
+            "05_2018_deb_trf": 5.0
+          }
+        }
+      ],
+      "bib": [
+        {
+          "key": "05_2018_deb_trf",
+          "year": 2018,
+          "title": "Investigating pedestrian suggestions for external features on fully autonomous vehicles: A virtual reality experiment",
+          "authors": "Shuchisnigdha Deb; Lesley J. Strawderman; Daniel W. Carruth",
+          "venue": "Transportation Research Part F",
+          "entry": "@article{05_2018_deb_trf,\n  author={Shuchisnigdha Deb; Lesley J. Strawderman; Daniel W. Carruth},\n  title={Investigating pedestrian suggestions for external features on fully autonomous vehicles: A virtual reality experiment},\n  year={2018},\n  journal={Transportation Research Part F}\n}"
+        },
+        {
+          "key": "13_2020_chen_trf",
+          "year": 2020,
+          "title": "Roles of personal and environmental factors in the red light running propensity of pedestrian: Case study at the urban crosswalks",
+          "authors": "Dianchen Zhu; N.N. Sze; Lu Bai",
+          "venue": "Transportation Research Part F",
+          "entry": "@article{13_2020_chen_trf,\n  author={Dianchen Zhu; N.N. Sze; Lu Bai},\n  title={Roles of personal and environmental factors in the red light running propensity of pedestrian: Case study at the urban crosswalks},\n  year={2020},\n  journal={Transportation Research Part F}\n}"
+        }
+      ],
+      "tex": "\\documentclass{article}\n\\usepackage[utf8]{inputenc}\n\\title{Pedestrian Crossing Behavior Review}\n\\begin{document}\n\\maketitle\n\\section{Introduction and Research Context}\nThis review synthesizes evidence from 3 papers examining Pedestrian crossing behavior at crosswalks with FAVs, Feature preference evaluation, Receptivity assessment toward autonomous vehicles, with findings organized around 14 discrete claims drawn from a structured comparison matrix. The reviewed evidence employs Virtual Reality Experiment, Randomized Complete Block Design, binomial logistic regression, Random parameter logit model (discrete choice model) as primary analytical frameworks. A persistent challenge in this literature is the heterogeneity in how studies operationalize crossing behavior constructs, report metrics, and handle context specificity — factors that collectively limit direct cross-study comparison. This review structures its analysis around methodological families, task-level performance patterns, metric reporting practices, and verified gaps (2 identified), moving beyond siloed paper summaries toward a structured evidence synthesis. The review is organized as follows: Section 2 examines methodological approaches and their representational tradeoffs; Section 3 addresses task-level findings and performance patterns; Section 4 evaluates metric reporting and comparability; Section 5 identifies verified research gaps and implications; Section 6 provides a field-level synthesis and research priorities.\n\n\\section{Methodological Approaches in Pedestrian Behavior Research}\nThe Virtual Reality Experiment, Randomized Complete Block Design family constitutes a primary methodological strand in the reviewed literature. Represents a distinct representational approach with characteristic strengths and limitations. Evidence across reviewed studies suggests that this approach is particularly well-suited to analyzing crossing decision determinants under specific traffic conditions. Limitations of this approach include reduced generalizability to contexts with substantially different traffic signal configurations. The binomial logistic regression family represents a primary methodological strand in the reviewed literature. Represents a distinct representational approach with characteristic strengths and limitations. Evidence across reviewed studies suggests that this approach is particularly well-suited to analyzing crossing decision determinants under specific traffic conditions. Limitations of this approach include reduced generalizability to contexts with substantially different traffic signal configurations. The Random parameter logit model (discrete choice model) family represents a secondary methodological strand in the reviewed literature. Offers interpretable policy-relevant parameters but relies on strong distributional assumptions. Evidence across reviewed studies suggests that this approach is particularly well-suited to analyzing crossing decision determinants under specific traffic conditions. Limitations of this approach include reduced generalizability to contexts with substantially different traffic signal configurations. Across these 3 methodological families, a clear tension emerges between interpretive richness and predictive performance. Structural models — including discrete choice and social force approaches — provide parameters directly interpretable for traffic engineering and policy purposes, whereas data-driven approaches achieve higher predictive accuracy on specific benchmark datasets but lack comparable policy utility. No single paradigm has been validated across the full range of pedestrian populations, traffic environments, and signal configurations represented in this corpus.\n\n\\section{Autonomous Vehicle-Pedestrian Interaction at Crosswalks}\nThis section synthesizes findings from 3 papers examining Pedestrian crossing behavior at crosswalks with FAVs, Feature preference evaluation, Receptivity assessment toward autonomous vehicles using Virtual Reality Experiment, Randomized Complete Block Design, binomial logistic regression, Random parameter logit model (discrete choice model). The comparative evidence matrix structures claims, metrics, and limitations to support structured analysis. A key observation is that Virtual Reality Experiment, Randomized Complete Block Design and binomial logistic regression approaches are the dominant methodological families in this corpus, though significant heterogeneity in reporting practices limits direct cross-study comparison.\n\n\\section{Pedestrian Red-Light Running Behavior}\nThis section synthesizes findings from 3 papers examining Pedestrian crossing behavior at crosswalks with FAVs, Feature preference evaluation, Receptivity assessment toward autonomous vehicles using Virtual Reality Experiment, Randomized Complete Block Design, binomial logistic regression, Random parameter logit model (discrete choice model). The comparative evidence matrix structures claims, metrics, and limitations to support structured analysis. A key observation is that Virtual Reality Experiment, Randomized Complete Block Design and binomial logistic regression approaches are the dominant methodological families in this corpus, though significant heterogeneity in reporting practices limits direct cross-study comparison.\n\n\\section{Comparative Analysis and Evidence Synthesis}\nReported metrics in the reviewed literature span multiple dimensions of crossing behavior and traffic system performance, including: Feature ratings (1-7 scale); Crossing time; Waiting time; Pedestrian Receptivity Questionnaire for FAVs (PRQF) scores; Pedestrian Behavior Questionnaire (PBQ) scores; Personal innovativeness scale scores; Simulation Sickness Questionnaire (SSQ) scores, Score test, coefficients, odds ratios, p-values, 95% confidence intervals, Red light running violation (binary outcome); Odds ratios; Elasticities; AIC (Akaike Information Criterion) for model comparison; Z-values for statistical significance. Performance reporting is most complete for Pedestrian crossing behavior at crosswalks with FAVs tasks. Metric reporting practices vary considerably across papers in two key respects. First, normalization approaches differ: some studies express outcomes as normalized rates per unit time or per pedestrian, while others report raw counts. Second, the temporal resolution of reported metrics ranges from instantaneous (e.g., crossing initiation delay at a single phase) to aggregate (e.g., violation frequency over a multi-hour observation window). These differences make direct cross-study comparison difficult without explicit standardization. Addressing this heterogeneity will require consensus on metric definitions and reporting standards within the pedestrian behavior modeling community. The absence of such standards currently forces reviewers to rely on narrative synthesis rather than formal meta-analysis, limiting the precision of conclusions that can be drawn.\n\n\\section{Research Limitations and Future Directions}\nThe comparative analysis of 3 papers reveals 2 persistent gaps that current approaches have not adequately resolved. These gaps are documented through verified evidence from the review matrix and are categorized by severity below. Gap [33438a44] (medium severity): Current coverage appears to underrepresent Chinese-language or Chinese-context studies.. This gap limits the ability to draw robust conclusions from the existing literature. Gap [2843b8ac] (medium severity): There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.. This gap limits the ability to draw robust conclusions from the existing literature. These gaps collectively indicate that the field lacks the empirical foundation needed to support confident generalization of crossing behavior models across contexts, populations, and technologies. Prioritizing the most severe gaps in future empirical work will be essential for advancing both scientific understanding and the practical applicability of crossing behavior models.\n\n\\end{document}\n% BIB START\n@article{05_2018_deb_trf,\n  author={Shuchisnigdha Deb; Lesley J. Strawderman; Daniel W. Carruth},\n  title={Investigating pedestrian suggestions for external features on fully autonomous vehicles: A virtual reality experiment},\n  year={2018},\n  journal={Transportation Research Part F}\n}\n\n@article{13_2020_chen_trf,\n  author={Dianchen Zhu; N.N. Sze; Lu Bai},\n  title={Roles of personal and environmental factors in the red light running propensity of pedestrian: Case study at the urban crosswalks},\n  year={2020},\n  journal={Transportation Research Part F}\n}",
+      "compile_result": {}
+    }
+  ]
+}

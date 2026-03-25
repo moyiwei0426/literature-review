@@ -1,0 +1,86 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction and Research Scope",
+    "objective": "Define the domain of pedestrian crossing behavior research at signalized intersections, establish the need for comparative analysis, and outline the review's contribution to understanding methodological approaches and geographic coverage.",
+    "gap_inputs": [
+      "fc77227a-cfa1-48b9-9e08-ce39dbb0c8f9",
+      "75ee894d-48a4-43dd-9a70-e72b07d055cd"
+    ],
+    "matrix_row_count": 53
+  },
+  {
+    "section_id": "sec-2",
+    "title": "Methodological Approaches to Pedestrian Crossing Analysis",
+    "objective": "Synthesize the range of methods employed in the literature, including statistical, computational, and experimental approaches, and evaluate their strengths and limitations for studying pedestrian behavior at signalized intersections.",
+    "gap_inputs": [
+      "75ee894d-48a4-43dd-9a70-e72b07d055cd"
+    ],
+    "matrix_row_count": 56
+  },
+  {
+    "section_id": "sec-3",
+    "title": "Pedestrian Compliance and Red Light Running Behavior",
+    "objective": "Examine factors influencing pedestrian signal compliance, including demographic, environmental, and social determinants, and identify areas of consensus and conflict in the empirical findings across studies.",
+    "gap_inputs": [
+      "75ee894d-48a4-43dd-9a70-e72b07d055cd"
+    ],
+    "matrix_row_count": 48
+  },
+  {
+    "section_id": "sec-4",
+    "title": "Pedestrian Waiting Time and Crossing Dynamics",
+    "objective": "Review modeling approaches for pedestrian waiting behavior at signalized intersections, including bounded distribution models and their capacity to capture diverse pedestrian decision-making patterns.",
+    "gap_inputs": [
+      "75ee894d-48a4-43dd-9a70-e72b07d055cd"
+    ],
+    "matrix_row_count": 12
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Autonomous Vehicle Interaction and External Communication Features",
+    "objective": "Analyze studies examining pedestrian interaction with autonomous vehicles, focusing on external human-machine interface features and their effects on pedestrian crossing decisions and receptivity.",
+    "gap_inputs": [
+      "75ee894d-48a4-43dd-9a70-e72b07d055cd"
+    ],
+    "matrix_row_count": 4
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Distraction Effects on Pedestrian Crossing Behavior",
+    "objective": "Evaluate evidence on how mobile phone distractions (text, conversation, music) affect pedestrian visual attention allocation and crossing performance at signalized intersections.",
+    "gap_inputs": [
+      "75ee894d-48a4-43dd-9a70-e72b07d055cd"
+    ],
+    "matrix_row_count": 4
+  },
+  {
+    "section_id": "sec-7",
+    "title": "Geographic Distribution and Contextual Factors",
+    "objective": "Assess the geographic coverage of existing studies, examine findings from Chinese and Asian contexts, and evaluate whether regional differences in traffic culture and infrastructure design are adequately represented in the literature.",
+    "gap_inputs": [
+      "fc77227a-cfa1-48b9-9e08-ce39dbb0c8f9",
+      "75ee894d-48a4-43dd-9a70-e72b07d055cd"
+    ],
+    "matrix_row_count": 40
+  },
+  {
+    "section_id": "sec-8",
+    "title": "Synthesis of Conflicting Claims and Research Gaps",
+    "objective": "Identify specific claim contradictions across papers, analyze potential sources of divergence (methodological, contextual, metric-based), and articulate remaining unresolved questions in the field.",
+    "gap_inputs": [
+      "75ee894d-48a4-43dd-9a70-e72b07d055cd"
+    ],
+    "matrix_row_count": 56
+  },
+  {
+    "section_id": "sec-9",
+    "title": "Conclusions and Future Research Directions",
+    "objective": "Summarize the state of knowledge, highlight methodological best practices, propose standardized comparison criteria, and outline priority areas for future pedestrian crossing behavior research.",
+    "gap_inputs": [
+      "fc77227a-cfa1-48b9-9e08-ce39dbb0c8f9",
+      "75ee894d-48a4-43dd-9a70-e72b07d055cd"
+    ],
+    "matrix_row_count": 53
+  }
+]

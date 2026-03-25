@@ -1,0 +1,39 @@
+[
+  {
+    "gap_id": "a14b93de-7007-40d6-a737-1b110142a2e7",
+    "gap_statement": "Current coverage appears to underrepresent Chinese-language or Chinese-context studies.",
+    "gap_type": "language",
+    "supporting_evidence": [
+      "chinese_coverage_count=0",
+      "language_distribution={'Persian (Farsi)': 1, 'english': 1}"
+    ],
+    "counter_evidence": [
+      "Sample size too small (n=2) to establish underrepresentation - requires larger systematic review",
+      "Gap claims 'underrepresentation' but no baseline exists to compare against",
+      "Evidence only supports Chinese-language gap, not Chinese-context (which could be English-language studies conducted in China)",
+      "With 2 papers, this is more likely sampling limitation than systematic gap"
+    ],
+    "confidence": 0.2,
+    "novelty_value": 0.7,
+    "review_worthiness": 0.4,
+    "status": "rejected"
+  },
+  {
+    "gap_id": "9af3c052-767b-4c77-b1cc-649544ba2544",
+    "gap_statement": "There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.",
+    "gap_type": "comparison",
+    "supporting_evidence": [
+      "contradiction_count=5"
+    ],
+    "counter_evidence": [
+      "Papers address completely different tasks: Paper 1 is about workplace safety knowledge (safety science), Paper 2 is about pedestrian crossing behavior (transportation research) - not 'same task'",
+      "contradiction_count likely reflects multiple claims from different papers rather than contradictory findings on same phenomenon",
+      "No specific contradictory claims identified in gap statement",
+      "No actual comparison is possible between papers from entirely different domains"
+    ],
+    "confidence": 0.1,
+    "novelty_value": 0.6,
+    "review_worthiness": 0.3,
+    "status": "rejected"
+  }
+]

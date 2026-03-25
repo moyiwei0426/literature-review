@@ -1,0 +1,385 @@
+{
+  "status": "success",
+  "output_dir": "data/generated/aap_live_1paper_20260324_fallback",
+  "parsed": 1,
+  "extracted": 1,
+  "processing_errors": [],
+  "extraction_reports": [
+    {
+      "paper_id": "08_2016_zhou_aap",
+      "provider": "openai_compatible",
+      "model": "MiniMax-M2.5",
+      "latency_ms": 20296,
+      "usage": {
+        "total_tokens": 13221,
+        "total_characters": 0,
+        "prompt_tokens": 11447,
+        "completion_tokens": 1774,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "chunk_count": 36,
+      "attempts": 1,
+      "recovered_after_retry": false,
+      "fallback_used": false
+    }
+  ],
+  "coverage": {
+    "paper_count": 1,
+    "method_family_distribution": {
+      "Structural equation modeling (SEM) / Survey-based research": 1
+    },
+    "task_distribution": {
+      "Predicting pedestrian violating crossing behavior intention": 1
+    },
+    "language_distribution": {
+      "English (study conducted in China)": 1
+    },
+    "dataset_distribution": {
+      "Survey data from 260 respondents in Dalian, China": 1
+    },
+    "year_distribution": {
+      "2016": 1
+    },
+    "chinese_coverage_count": 1,
+    "themes": [
+      "Structural equation modeling (SEM) / Survey-based research"
+    ]
+  },
+  "matrix_rows": 5,
+  "contradictions": 0,
+  "gaps": {
+    "candidates": 0,
+    "verified": 0,
+    "scored": 0
+  },
+  "synthesis_map": {
+    "overview": {
+      "paper_count": 1,
+      "matrix_row_count": 5,
+      "verified_gap_count": 0,
+      "scored_gap_count": 0,
+      "rejected_gap_count": 0,
+      "contradiction_count": 0,
+      "dominant_axis": "method",
+      "average_gap_score": 0.0,
+      "theme_counts": {
+        "method": 1,
+        "task": 1,
+        "factor": 1,
+        "application": 1
+      },
+      "coverage_themes": [
+        "Structural equation modeling (SEM) / Survey-based research"
+      ]
+    },
+    "theme_axes": {
+      "method": [
+        {
+          "theme_id": "method:structural_equation_modeling_(sem)_/_survey-based_research",
+          "theme_type": "method",
+          "label": "Structural equation modeling (SEM) / Survey-based research",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Structural equation modeling (SEM) / Survey-based research appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ],
+      "task": [
+        {
+          "theme_id": "task:predicting_pedestrian_violating_crossing_behavior_intention",
+          "theme_type": "task",
+          "label": "Predicting pedestrian violating crossing behavior intention",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Predicting pedestrian violating crossing behavior intention appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ],
+      "factor": [
+        {
+          "theme_id": "factor:behavioral_factors",
+          "theme_type": "factor",
+          "label": "behavioral_factors",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ],
+      "application": [
+        {
+          "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+          "theme_type": "application",
+          "label": "Survey data from 260 respondents in Dalian, China",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ]
+    },
+    "top_themes": [
+      {
+        "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+        "theme_type": "application",
+        "label": "Survey data from 260 respondents in Dalian, China",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:behavioral_factors",
+        "theme_type": "factor",
+        "label": "behavioral_factors",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "method:structural_equation_modeling_(sem)_/_survey-based_research",
+        "theme_type": "method",
+        "label": "Structural equation modeling (SEM) / Survey-based research",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Structural equation modeling (SEM) / Survey-based research appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "task:predicting_pedestrian_violating_crossing_behavior_intention",
+        "theme_type": "task",
+        "label": "Predicting pedestrian violating crossing behavior intention",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Predicting pedestrian violating crossing behavior intention appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ]
+  },
+  "organization": {
+    "recommended_structure": "factor_taxonomy",
+    "scores": {
+      "method_taxonomy": 1.9,
+      "task_taxonomy": 1.3,
+      "factor_taxonomy": 3.4,
+      "application_scenario": 1.6
+    },
+    "rationale": "Cross-paper factor signals are dense enough to support a variable-centered narrative.",
+    "signals": {
+      "method_theme_count": 1,
+      "task_theme_count": 1,
+      "factor_theme_count": 1,
+      "application_theme_count": 1,
+      "contradiction_count": 0,
+      "average_gap_score": 0.0
+    }
+  },
+  "abstract": {
+    "title": "AAP live one-paper fallback",
+    "paper_count": 1,
+    "matrix_row_count": 5,
+    "dominant_axis": "factor structure",
+    "top_themes": [
+      "Survey data from 260 respondents in Dalian, China",
+      "behavioral factors",
+      "Structural equation modeling (SEM) / Survey-based research"
+    ],
+    "top_methods": [
+      "Structural equation modeling (SEM) / Survey-based research"
+    ],
+    "top_tasks": [
+      "Predicting pedestrian violating crossing behavior intention"
+    ],
+    "verified_gap_count": 0,
+    "text": "AAP live one-paper fallback synthesizes 1 papers across 5 evidence rows using factor structure as the main organizing lens. The synthesis is concentrated in Survey data from 260 respondents in Dalian, China, behavioral factors, with recurring methods such as Structural equation modeling (SEM) / Survey-based research and task coverage centered on Predicting pedestrian violating crossing behavior intention. Across 1 papers, the evidence is most coherently organized around factor structure rather than any single method, and the strongest clusters are Survey data from 260 respondents in Dalian, China, behavioral factors, Structural equation modeling (SEM) / Survey-based research. Future work should prioritize standardized reporting and more explicit cross-study comparison."
+  },
+  "keywords": {
+    "keywords": [
+      "predicting pedestrian violating crossing behavior intention",
+      "structural equation modeling (sem) / survey-based research",
+      "survey data from 260 respondents in dalian, china",
+      "examining pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (tpb) and extending it with descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on behavioral intentions.",
+      "cmin/df ratio",
+      "rmsea",
+      "pclose",
+      "behavioral factors"
+    ],
+    "keyword_count": 8,
+    "dominant_axis": "factor taxonomy",
+    "signals": {
+      "predicting pedestrian violating crossing behavior intention": 9.35,
+      "structural equation modeling (sem) / survey-based research": 8.6,
+      "survey data from 260 respondents in dalian, china": 7.6,
+      "examining pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (tpb) and extending it with descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on behavioral intentions.": 5.0,
+      "cmin/df ratio": 4.5,
+      "rmsea": 4.5,
+      "pclose": 4.5,
+      "behavioral factors": 2.7,
+      "survey-based research": 2.4,
+      "factor taxonomy": 1.8,
+      "aap live": 0.6,
+      "aap live one-paper": 0.6
+    }
+  },
+  "outline_sections": 5,
+  "bib_entries": 1,
+  "validation": {
+    "overall_status": "pass",
+    "section_count": 5,
+    "healthy_section_count": 5,
+    "weak_section_count": 0,
+    "finding_count": 0,
+    "severity_counts": {},
+    "flagged_sections": []
+  },
+  "compile": null,
+  "warnings": [],
+  "artifacts": {
+    "artifacts.json": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/artifacts.json",
+      "exists": true,
+      "size_bytes": 4031
+    },
+    "summary.json": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/summary.json",
+      "exists": true,
+      "size_bytes": 9508
+    },
+    "coverage.json": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/coverage.json",
+      "exists": true,
+      "size_bytes": 557
+    },
+    "matrix.json": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/matrix.json",
+      "exists": true,
+      "size_bytes": 12381
+    },
+    "matrix.csv": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/matrix.csv",
+      "exists": true,
+      "size_bytes": 10877
+    },
+    "matrix.md": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/matrix.md",
+      "exists": true,
+      "size_bytes": 11134
+    },
+    "contradiction.json": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/contradiction.json",
+      "exists": true,
+      "size_bytes": 3805
+    },
+    "candidate_gaps.json": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/candidate_gaps.json",
+      "exists": true,
+      "size_bytes": 2
+    },
+    "verified_gaps.json": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/verified_gaps.json",
+      "exists": true,
+      "size_bytes": 2
+    },
+    "scored_gaps.json": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/scored_gaps.json",
+      "exists": true,
+      "size_bytes": 2
+    },
+    "synthesis_map.json": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/synthesis_map.json",
+      "exists": true,
+      "size_bytes": 4272
+    },
+    "organization.json": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/organization.json",
+      "exists": true,
+      "size_bytes": 483
+    },
+    "outline.json": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/outline.json",
+      "exists": true,
+      "size_bytes": 1434
+    },
+    "section_plans.json": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/section_plans.json",
+      "exists": true,
+      "size_bytes": 36340
+    },
+    "paragraph_plans.json": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/paragraph_plans.json",
+      "exists": true,
+      "size_bytes": 41964
+    },
+    "sections.json": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/sections.json",
+      "exists": true,
+      "size_bytes": 60698
+    },
+    "validation_report.json": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/validation_report.json",
+      "exists": true,
+      "size_bytes": 3316
+    },
+    "review.md": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/review.md",
+      "exists": true,
+      "size_bytes": 11212
+    },
+    "review.tex": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/review.tex",
+      "exists": true,
+      "size_bytes": 12585
+    },
+    "bib.tex": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/bib.tex",
+      "exists": true,
+      "size_bytes": 293
+    },
+    "abstract.json": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/abstract.json",
+      "exists": true,
+      "size_bytes": 1296
+    },
+    "abstract.txt": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/abstract.txt",
+      "exists": true,
+      "size_bytes": 779
+    },
+    "keywords.json": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/keywords.json",
+      "exists": true,
+      "size_bytes": 1334
+    },
+    "keywords.txt": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/keywords.txt",
+      "exists": true,
+      "size_bytes": 482
+    },
+    "appendix.json": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/appendix.json",
+      "exists": true,
+      "size_bytes": 2600
+    },
+    "evidence_table.json": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/evidence_table.json",
+      "exists": true,
+      "size_bytes": 1723
+    },
+    "evidence_table.md": {
+      "path": "data/generated/aap_live_1paper_20260324_fallback/evidence_table.md",
+      "exists": true,
+      "size_bytes": 1570
+    }
+  }
+}

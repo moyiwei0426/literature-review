@@ -1,0 +1,48 @@
+[
+  {
+    "claim_id": "claim-1",
+    "claim_text": "The proposed DBN+PF system correctly recognizes pedestrian crossing decisions with >85% accuracy after 2 seconds of observation across different noise levels (rn = 0.1, 0.4, 1.0 m)",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "17fb86b9-8d12-4eb2-aaae-cd74b6a020c9"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-2",
+    "claim_text": "The system recognizes wait decisions with 85% accuracy after 3-4 seconds of observation, taking longer than cross decisions due to deceleration cues",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "bf488793-c8e7-489e-94b6-85a23fd1f262"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-3",
+    "claim_text": "The proposed probabilistic model provides confidence scores (probabilities) for states rather than binary classifications, enabling varied vehicle behaviors based on confidence levels",
+    "claim_type": "methodological",
+    "evidence_chunk_ids": [
+      "ee5e3073-cc3c-4218-812e-cd9acf9da4f7"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-4",
+    "claim_text": "The DBN model successfully integrates contextual information (traffic signal phases) with pedestrian physical states, mimicking human decision-making processes",
+    "claim_type": "methodological",
+    "evidence_chunk_ids": [
+      "3f1eb382-c17a-40ae-8a0e-8ddfd5f4c929",
+      "a2f76aec-3c2d-40f9-8706-7918e294f07f"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-5",
+    "claim_text": "Walking motion recognition maintains 90% accuracy across noise levels, while running motion recognition is more challenging due to overlapping speed distributions with walking",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "80f189eb-62a0-44d3-a729-7a2441d0333d"
+    ],
+    "confidence": null
+  }
+]

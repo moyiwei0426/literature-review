@@ -1,0 +1,116 @@
+{
+  "paper_id": "14_2020_wang_trf",
+  "title": "Untitled",
+  "research_problem": "The interaction between vehicles and pedestrians at unsignalized midblock crosswalks is not adequately modeled in existing microscopic traffic flow models. While pedestrian gap acceptance, vehicle yielding behavior, and car-following models have been studied separately, no existing model converges vehicle yielding (VY) and pedestrian gap acceptance (PGA) behaviors into a unified car-following model to analyze their interaction effects on traffic flow.",
+  "problem_type": "simulation_modeling",
+  "domain": "transportation_traffic_engineering",
+  "language_scope": "english",
+  "method_summary": "A microscopic traffic flow model was developed by extending the Full Velocity Difference (FVD) car-following model to incorporate vehicle yielding and pedestrian gap acceptance behaviors. The VY and PGA behaviors are modeled using logit models (Zhao et al., 2019; Malenje et al., 2019), and the interaction between vehicles and pedestrians is simulated through a time-step simulation in MATLAB. The model determines vehicle behavior (yield or not yield) based on pedestrian crossing status and driver willingness, while pedestrians decide whether to cross based on gap acceptance probability.",
+  "method_family": [
+    "car_following_model_microscopic_simulation_logit_model"
+  ],
+  "datasets": [
+    "Empirical data from two unsignalized midblock crosswalks in Shanghai, China (295 Zhenhua Rd. and 1565 Lingshi Rd.)",
+    "Vehicle and pedestrian arrival distributions (Poisson)",
+    "Parameters from Zhao et al. (2019) for pedestrian gap acceptance",
+    "Parameters from Malenje et al. (2019) for vehicle yielding"
+  ],
+  "tasks": [
+    "modeling_vehicle_pedestrian_interaction",
+    "traffic_flow_analysis",
+    "operational_performance_evaluation",
+    "sensitivity_analysis"
+  ],
+  "metrics": [
+    "average_vehicular_delay_seconds",
+    "average_pedestrian_waiting_time_seconds",
+    "relative_error_percentage",
+    "level_of_service_LOS"
+  ],
+  "baselines": [
+    "traditional_FVD_full_velocity_difference_car_following_model",
+    "separate_VY_and_PGA_models_from_previous_studies"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "The proposed model successfully describes the interaction between vehicle yielding and pedestrian gap acceptance behaviors at unsignalized midblock crosswalks, with validation showing maximum relative error less than 10% between simulated and surveyed pedestrian waiting times",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "f4f34984-8fc0-41b3-9f4a-f540a951f99d",
+        "950d2eda-2ac9-47d0-9c68-986946b26d7b"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "Pedestrian waiting time increases with the number of traffic lanes and vehicle volume but decreases with pedestrian volume; the number of lanes is the critical factor affecting pedestrian waiting time at unsignalized midblock crosswalks",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "e4393e08-019e-42ac-9516-35e78ad4f49d",
+        "32ae8cd5-3c84-49e2-8410-761248ab0659",
+        "52caf3fb-2463-4faf-bf04-2327c9e0894b"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "Vehicular delay increases more rapidly than pedestrian waiting time with increasing vehicle volume and pedestrian volume, due to queue formation and platoon departure behavior",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "e4393e08-019e-42ac-9516-35e78ad4f49d",
+        "32ae8cd5-3c84-49e2-8410-761248ab0659"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "Signal control is recommended when vehicular volume exceeds 480 veh/h/ln or pedestrian volume exceeds 500 ped/h, using 20 seconds delay as LOS B threshold; unsignalized crosswalks should not be set on segments with more than 4 lanes",
+      "claim_type": "application",
+      "evidence_chunk_ids": [
+        "e4393e08-019e-42ac-9516-35e78ad4f49d",
+        "32ae8cd5-3c84-49e2-8410-761248ab0659",
+        "52caf3fb-2463-4faf-bf04-2327c9e0894b"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The study only considers legal pedestrian crossing behavior at designated crosswalks; illegal pedestrian crossing (crossing at locations without crosswalks) common in developing countries is not addressed",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "e3407c16-b7cc-4fef-9f18-c1b62378be42"
+      ]
+    },
+    {
+      "text": "The model does not consider the combined effect of midblock crosswalks and adjacent intersections; vehicle arrival distribution may be strongly affected when distance to adjacent intersections is considered",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "e3407c16-b7cc-4fef-9f18-c1b62378be42"
+      ]
+    },
+    {
+      "text": "The empirical validation was conducted only at two locations in Shanghai, China, which may limit generalizability to other traffic environments with different driver-pedestrian behavior patterns",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "f38d3545-25c8-4973-b233-eaaac14e60de",
+        "f2fedd00-9cfe-43af-96e3-d1d54d291413"
+      ]
+    },
+    {
+      "text": "The model assumes fixed parameter values from previous studies without recalibration, which may not capture local behavioral variations",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "f4f34984-8fc0-41b3-9f4a-f540a951f99d"
+      ]
+    }
+  ],
+  "future_work": [
+    "Study illegal pedestrian crossing behavior at locations without designated crosswalks",
+    "Investigate the combined effect of midblock crosswalks and adjacent intersections on traffic flow",
+    "Extend the model to consider traffic demand fluctuation and adaptive signal control",
+    "Develop pushbutton-activated signal control alternatives for flexibility"
+  ],
+  "notes": "The model integrates four logistic decision models: pedestrian gap acceptance (Eqs. 9-11), vehicle yielding (Eqs. 8, 12-13), pedestrian crossing completion (Eq. 14), and crosswalk state determination (Eq. 16); Simulation uses Euler forward difference method with 0.1s time step; Wilcoxon signed-rank test confirmed no significant difference (p > 0.05) between simulated and surveyed values; Vehicle delay threshold of 20s corresponds to LOS B for signalized intersections per HCM 2010"
+}

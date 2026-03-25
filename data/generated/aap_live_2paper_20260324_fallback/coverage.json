@@ -1,0 +1,31 @@
+{
+  "paper_count": 2,
+  "method_family_distribution": {
+    "Structural Equation Modeling (SEM)": 1,
+    "controlled_experiment": 1,
+    "eye_tracking_study": 1,
+    "laboratory_outdoor_study": 1
+  },
+  "task_distribution": {
+    "Predicting pedestrians' violating road-crossing behavior intentions": 1,
+    "pedestrian_crossing_behavior": 1,
+    "visual_attention_allocation": 1
+  },
+  "language_distribution": {
+    "english": 2
+  },
+  "dataset_distribution": {
+    "Survey data from Dalian, China (260 complete and valid responses)": 1
+  },
+  "year_distribution": {
+    "2016": 1,
+    "2018": 1
+  },
+  "chinese_coverage_count": 1,
+  "themes": [
+    "Structural Equation Modeling (SEM)",
+    "controlled_experiment",
+    "eye_tracking_study",
+    "laboratory_outdoor_study"
+  ]
+}

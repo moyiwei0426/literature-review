@@ -1,0 +1,123 @@
+{
+  "paper_id": "16_2016_zhang_trc",
+  "title": "Untitled",
+  "research_problem": "Developing a probabilistic model to predict pedestrian crossing behavior at signalized intersections for collision avoidance in connected and autonomous vehicles, specifically addressing the hazardous scenario of pedestrian-vehicle collisions at turning locations.",
+  "problem_type": "state_estimation,prediction,classification",
+  "domain": "Intelligent Transportation Systems, Autonomous Vehicles, Pedestrian Behavior Modeling",
+  "language_scope": "English",
+  "method_summary": "A Dynamic Bayesian Network (DBN) that models relationships among traffic signal phases, pedestrian crossing decisions, motion types (standing/walking/running), and physical movement. The model uses particle filtering for Bayesian inference to estimate pedestrian states including position, crossing decision, and motion type from noisy position observations and signal phase information.",
+  "method_family": [
+    "Probabilistic Graphical Models, Dynamic Bayesian Networks, Particle Filter"
+  ],
+  "datasets": [
+    "Real traffic data collected from a vehicle at a signalized intersection in Japan using three monocular cameras. Contains 289 pedestrian sequences: 251 cross-scenarios and 38 wait-scenarios. Pedestrian data includes position trajectories and motion types labeled manually."
+  ],
+  "tasks": [
+    "Pedestrian crossing decision recognition (cross vs wait)",
+    "Motion type classification (standing, walking, running)",
+    "Position estimation from noisy observations"
+  ],
+  "metrics": [
+    "Confusion matrices for decision recognition",
+    "Precision values for decision and motion recognition",
+    "Positioning error (mean and standard deviation in meters)"
+  ],
+  "baselines": [
+    "Iryo-Asano et al. (2015) model using logistic regression with distance to crosswalk and traveling speed at onset of PFG as explanatory variables"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "The DBN+PF system can recognize crossing decisions within 2 seconds of observation and waiting decisions within 3-4 seconds across all noise levels with >85% accuracy",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "c3fd8347-3093-4351-a99f-d896ca044e1b",
+        "72972cb1-c51f-41a1-9651-10b96209f57a"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "The proposed method achieves >86% recognition accuracy for both cross and wait decisions under different measurement noise levels (rn = 0.1, 0.4, 1.0 m)",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "215ed5ba-1653-4fb6-bd18-d5bf6d432d8f"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "The DBN model reduces positioning errors from noisy measurements, achieving mean errors of 0.08m (rn=0.1m) and 0.47m (rn=1.0m) with standard deviations of 0.07m and 0.31m respectively",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "97b0ecec-fcd1-4c59-bf76-61419302758d"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "The model integrates contextual information (traffic signal phases) with pedestrian behavior in a probabilistic framework, mimicking human decision-making processes",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "c5141404-d4b4-45c5-9802-ab1e1f012028",
+        "99c1c722-1eae-4c90-abeb-dbba962ab0d3"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-5",
+      "claim_text": "The system outperforms the baseline Iryo-Asano model after 2.0 seconds of observation time, particularly for recognizing waiting behaviors",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "ef0bfb58-3bb9-4652-8b0c-a2ac7efdc5e7",
+        "7e106cf3-3507-4bb1-aba7-9d9551291483"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Running motion is difficult to distinguish from walking motion due to overlapping speed distributions in the model (recognition rate ~35-56%)",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "874bc538-8ce4-4eea-90f9-34d2c2bc3171"
+      ]
+    },
+    {
+      "text": "Larger observation errors cause recognition delay and decrease accuracy - wait decision recognition takes 3-4s compared to 2s for cross decisions",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "72972cb1-c51f-41a1-9651-10b96209f57a"
+      ]
+    },
+    {
+      "text": "The model assumes straight-line pedestrian trajectories, making position estimation less accurate for curved trajectories (common in cross-scenarios)",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "97b0ecec-fcd1-4c59-bf76-61419302758d",
+        "c0b9b1f2-a6b9-4ea0-971b-fc84cb8f64b6"
+      ]
+    },
+    {
+      "text": "The model assumes pedestrians make crossing decisions primarily at the onset of PFG, but pedestrians may change decisions based on traffic situations (e.g., turning vehicles)",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "f19dc0c0-13f5-439e-af91-7903f33e083b"
+      ]
+    },
+    {
+      "text": "The system cannot predict paths for curved trajectories, limiting its application to path prediction tasks",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "39d3d1d4-55c7-4b8f-986b-10103c6b2a08"
+      ]
+    }
+  ],
+  "future_work": [
+    "Incorporate additional contextual information such as existence and positions of turning vehicles into the model",
+    "Learn turning motion as a spatial feature to achieve path prediction for curved trajectories",
+    "Analyze pedestrian decision-making considering time elapsed from onset of PFG for pedestrians entering the field after PFG begins",
+    "Extend the model to handle pedestrians crossing from different directions and road configurations"
+  ],
+  "notes": "The paper focuses on near-side pedestrians at left-turning scenarios (Japan uses left-hand traffic). The three-phase pedestrian signal in Japan (PG/PFG/PR) is used as contextual information. The model assumes signal phase information can be obtained via V2I communication in connected vehicle settings."
+}

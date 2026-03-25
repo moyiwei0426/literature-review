@@ -1,0 +1,207 @@
+[
+  {
+    "section_id": "sec-intro",
+    "title": "Introduction and Review Scope",
+    "objective": "Establish the review motivation, scope, and the evidence base that the selected structure will organize.",
+    "section_goal": "Establish the review motivation, scope, and the evidence base that the selected structure will organize. Use the dominant evidence clusters as the organizing lens across 0 matrix rows.",
+    "structure": "method_taxonomy",
+    "dominant_axis": "method",
+    "theme_refs": [],
+    "gap_refs": [],
+    "matrix_signals": {
+      "row_count": 0,
+      "paper_count": 0,
+      "paper_ids": [],
+      "method_families": [],
+      "tasks": [],
+      "datasets": [],
+      "metrics": [],
+      "claim_count": 0
+    },
+    "argument_moves": [
+      {
+        "move_id": "sec-intro-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Introduction and Review Scope around the dominant themes and clarify why this evidence cluster matters.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_points": []
+      },
+      {
+        "move_id": "sec-intro-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 0 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_points": []
+      },
+      {
+        "move_id": "sec-intro-synthesis-3",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_points": []
+      }
+    ]
+  },
+  {
+    "section_id": "sec-method-taxonomy",
+    "title": "Method Taxonomy and Representational Families",
+    "objective": "Organize the review around methodological families and clarify how the dominant approaches differ in assumptions, strengths, and limitations.",
+    "section_goal": "Organize the review around methodological families and clarify how the dominant approaches differ in assumptions, strengths, and limitations. Use the dominant evidence clusters as the organizing lens across 0 matrix rows.",
+    "structure": "method_taxonomy",
+    "dominant_axis": "method",
+    "theme_refs": [],
+    "gap_refs": [],
+    "matrix_signals": {
+      "row_count": 0,
+      "paper_count": 0,
+      "paper_ids": [],
+      "method_families": [],
+      "tasks": [],
+      "datasets": [],
+      "metrics": [],
+      "claim_count": 0
+    },
+    "argument_moves": [
+      {
+        "move_id": "sec-method-taxonomy-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Method Taxonomy and Representational Families around the dominant themes and clarify why this evidence cluster matters.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_points": []
+      },
+      {
+        "move_id": "sec-method-taxonomy-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 0 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_points": []
+      },
+      {
+        "move_id": "sec-method-taxonomy-comparison-3",
+        "move_type": "comparison",
+        "purpose": "Compare how the dominant themes diverge in evidence density, contradictions, or reporting conventions.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_points": []
+      },
+      {
+        "move_id": "sec-method-taxonomy-synthesis-4",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_points": []
+      }
+    ]
+  },
+  {
+    "section_id": "sec-method-taxonomy-comparison",
+    "title": "Comparative Method Evidence and Tradeoffs",
+    "objective": "Compare the strongest method themes, emphasizing where methodological choices shape claims, coverage, and interpretability.",
+    "section_goal": "Compare the strongest method themes, emphasizing where methodological choices shape claims, coverage, and interpretability. Use the dominant evidence clusters as the organizing lens across 0 matrix rows.",
+    "structure": "method_taxonomy",
+    "dominant_axis": "method",
+    "theme_refs": [],
+    "gap_refs": [],
+    "matrix_signals": {
+      "row_count": 0,
+      "paper_count": 0,
+      "paper_ids": [],
+      "method_families": [],
+      "tasks": [],
+      "datasets": [],
+      "metrics": [],
+      "claim_count": 0
+    },
+    "argument_moves": [
+      {
+        "move_id": "sec-method-taxonomy-comparison-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Comparative Method Evidence and Tradeoffs around the dominant themes and clarify why this evidence cluster matters.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_points": []
+      },
+      {
+        "move_id": "sec-method-taxonomy-comparison-comparison-2",
+        "move_type": "comparison",
+        "purpose": "Compare how the dominant themes diverge in evidence density, contradictions, or reporting conventions.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_points": []
+      },
+      {
+        "move_id": "sec-method-taxonomy-comparison-evidence-3",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 0 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_points": []
+      },
+      {
+        "move_id": "sec-method-taxonomy-comparison-synthesis-4",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_points": []
+      }
+    ]
+  },
+  {
+    "section_id": "sec-conclusion",
+    "title": "Conclusion",
+    "objective": "Summarize the selected taxonomy, the strongest synthesis themes, and the main future directions implied by the evidence base.",
+    "section_goal": "Summarize the selected taxonomy, the strongest synthesis themes, and the main future directions implied by the evidence base. Use the dominant evidence clusters as the organizing lens across 0 matrix rows.",
+    "structure": "method_taxonomy",
+    "dominant_axis": "method",
+    "theme_refs": [],
+    "gap_refs": [],
+    "matrix_signals": {
+      "row_count": 0,
+      "paper_count": 0,
+      "paper_ids": [],
+      "method_families": [],
+      "tasks": [],
+      "datasets": [],
+      "metrics": [],
+      "claim_count": 0
+    },
+    "argument_moves": [
+      {
+        "move_id": "sec-conclusion-synthesis-1",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_points": []
+      },
+      {
+        "move_id": "sec-conclusion-comparison-2",
+        "move_type": "comparison",
+        "purpose": "Compare how the dominant themes diverge in evidence density, contradictions, or reporting conventions.",
+        "theme_refs": [],
+        "gap_refs": [],
+        "citation_targets": [],
+        "supporting_points": []
+      }
+    ]
+  }
+]

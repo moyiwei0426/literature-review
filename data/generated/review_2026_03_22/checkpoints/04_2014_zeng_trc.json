@@ -1,0 +1,117 @@
+{
+  "paper_id": "04_2014_zeng_trc",
+  "title": "Untitled",
+  "research_problem": "Limited pedestrian behavior models exist for signalized crosswalks, where pedestrian behavior involves group or individual evasion with surrounding pedestrians, collision avoidance with conflicting vehicles, response to signal control, and crosswalk boundary. The study addresses this gap by developing a microscopic simulation model for pedestrian behavior analysis at signalized intersections.",
+  "problem_type": "Modeling and simulation",
+  "domain": "Transportation engineering/Pedestrian dynamics",
+  "language_scope": "English",
+  "method_summary": "A modified social force model is developed based on pedestrian psychological process, incorporating five sources of social force: driving force toward destination, repulsive/attractive force from crosswalk boundary, repulsive force from surrounding pedestrians (both group evasive and individual evasive behavior), repulsive force from conflicting vehicles, and attractive force from signal phase. The model includes desired direction model using Weibull distribution, stop/go decision model using binary Logit for pedestrian flashing green phase, and collision avoidance mechanisms. Parameters are separated into measurable (directly estimated from trajectory data) and non-measurable (derived by maximum likelihood estimation) groups.",
+  "method_family": [
+    "Microscopic pedestrian simulation/Social force model/Force-based model"
+  ],
+  "datasets": [
+    "Video data from Kanayama intersection, Nagoya City, Japan - 1352 pedestrians and 124 left-turning vehicles",
+    "97,200 position samples for trajectory profiles"
+  ],
+  "tasks": [
+    "Pedestrian trajectory estimation",
+    "Pedestrian crossing behavior simulation at signalized crosswalk",
+    "Collision avoidance modeling with vehicles",
+    "Lane-formation phenomenon reproduction",
+    "Stop/go decision modeling at PFG phase"
+  ],
+  "metrics": [
+    "Mean Absolute Percentage Error (MAPE) for position estimation: 5.7%",
+    "Mean Absolute Percentage Error (MAPE) for speed estimation: 10.5%",
+    "Two-sample t-test for passing position distribution at cross-sections",
+    "Lane formation count comparison",
+    "Instant angle distribution between current and desired direction",
+    "Passing time distribution at crosswalk"
+  ],
+  "baselines": [
+    "Non-route-choice based desired direction model (uniform random distribution)",
+    "Classical social force model without signal phase consideration",
+    "Simplified OD direction assumptions from previous studies"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "The desired direction model using Weibull distribution enables realistic representation of pedestrian maneuver toward predetermined positions at crosswalk, incorporating crosswalk geometry, pedestrian origin-destination movement, and density factors.",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "b34ca3d3-8cd3-4da9-b83c-78637d6b4dff",
+        "cfde72ca-d944-4c51-b9d3-1decb689b749"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "The modified social force model achieves 5.7% MAPE for position estimation and 10.5% for speed estimation, demonstrating accurate reproduction of pedestrian trajectories at signalized crosswalk.",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "6b579ee0-1a71-4dc0-862b-9d4ae41580e0",
+        "cfde72ca-d944-4c51-b9d3-1decb689b749"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "The model successfully reproduces lane-formation phenomenon with 3.5 lanes (vs 2.8 observed) using route-choice based desired direction, and represents collision avoidance behavior with left-turning vehicles.",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "a35f871a-866d-4ab7-9435-46d4eee341ab",
+        "9077fad2-18e6-4f3b-82d6-4fb19fdd305e"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "The separation of parameters into measurable and non-measurable groups with respective calibration methods provides effective parameter estimation with all parameters significant at 95% confidence level.",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "d3ca3d57-4946-4eb9-9c87-312444e81e98",
+        "1c25b86c-9677-4854-93d7-02ed84bbcd79"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-5",
+      "claim_text": "The coefficient for vehicle repulsive force interaction strength has the largest parameter value, indicating highest sensitivity of pedestrian behavior to collision avoidance with vehicles.",
+      "claim_type": "theoretical",
+      "evidence_chunk_ids": [
+        "1c25b86c-9677-4854-93d7-02ed84bbcd79"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Pedestrian reaction to vehicles is more sensitive in simulation than in real world - the repulsive force from turning vehicle needs improvement",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "9077fad2-18e6-4f3b-82d6-4fb19fdd305e"
+      ]
+    },
+    {
+      "text": "Pedestrian heterogeneous characteristics such as age, gender, and partner relationship are not considered as influencing factors",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "0123e98b-af04-4dcd-889d-30d16ce9bf1c"
+      ]
+    },
+    {
+      "text": "The visual range parameters (angle 170 degrees, radius 8m) are adopted from related studies rather than directly estimated from the trajectory dataset due to data collection limitations",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "2b26ccfa-0af2-4eaf-8aa9-7950632c126f"
+      ]
+    }
+  ],
+  "future_work": [
+    "Improve pedestrian reaction sensitivity to vehicles to match real-world behavior",
+    "Incorporate pedestrian heterogeneous characteristics (age, gender, partner relationship) as influencing factors in crossing behavior",
+    "Develop more elaborate modeling approach and stricter calibration procedure",
+    "Enhance the repulsive force from turning vehicle for better collision avoidance representation"
+  ],
+  "notes": "Study funded by Committee on Advanced Road Technology (CART) of Road Bureau, Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Japan. Data collected from north crosswalk at Kanayama intersection in Nagoya City using video image processing software."
+}

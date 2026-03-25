@@ -1,0 +1,36 @@
+[
+  {
+    "gap_id": "10617cfa-3771-43f6-8c00-7b7010bf808a",
+    "gap_statement": "Current coverage appears to underrepresent Chinese-language or Chinese-context studies.",
+    "gap_type": "language",
+    "supporting_evidence": [
+      "language_distribution={'English (scientific documents)': 1}",
+      "chinese_coverage_count=0"
+    ],
+    "counter_evidence": [],
+    "confidence": 0.8,
+    "novelty_value": 0.7,
+    "review_worthiness": 0.76,
+    "status": "calibrated_weak"
+  },
+  {
+    "gap_id": "56fcd571-4a59-49cb-99ff-a369903343eb",
+    "gap_statement": "There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.",
+    "gap_type": "comparison",
+    "supporting_evidence": [
+      "contradiction_count=2 (source unclear - not found in provided data)"
+    ],
+    "counter_evidence": [
+      "Matrix contains only ONE paper (paper_id: e9f40f8d-6c58-4c0c-8ec8-e9ed8436948e) with 4 claims",
+      "All 4 claims originate from the same single study comparing 3 methods (spaCy, T5, GPT-3.5-TURBO-0125)",
+      "claim-1: ROUGE-1 - GPT(0.364) > T5(0.268) > spaCy(0.257)",
+      "claim-4: T5 achieves second-place with ROUGE-1=0.268, ROUGE-L=0.204",
+      "These claims are internally consistent; no cross-paper contradictions exist",
+      "The noted limitation in claim-3 ('satisfactory results') is subjective language rather than a factual contradiction"
+    ],
+    "confidence": 0.1,
+    "novelty_value": 0.6,
+    "review_worthiness": 0.3,
+    "status": "invalidated"
+  }
+]

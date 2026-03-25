@@ -1,0 +1,59 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction: Automated Literature Review Generation",
+    "objective": "Contextualize the problem of manual literature review bottleneck and introduce the motivation for automated text summarization approaches in scientific document processing",
+    "gap_inputs": [
+      "gap-1",
+      "gap-2",
+      "gap-3"
+    ],
+    "matrix_row_count": 4
+  },
+  {
+    "section_id": "sec-2",
+    "title": "NLP Approaches for Literature Review Automation",
+    "objective": "Present and compare the three implemented methodologies: extractive (spaCy frequency-based), abstractive (T5 fine-tuned), and LLM-based (GPT-3.5 with RAG) approaches",
+    "gap_inputs": [
+      "gap-3"
+    ],
+    "matrix_row_count": 4
+  },
+  {
+    "section_id": "sec-3",
+    "title": "Evaluation Framework and Dataset Limitations",
+    "objective": "Analyze the reliance on SciTLDR dataset and ROUGE metrics, examining how single-dataset evaluation constrains generalizability claims",
+    "gap_inputs": [
+      "gap-1",
+      "gap-4"
+    ],
+    "matrix_row_count": 4
+  },
+  {
+    "section_id": "sec-4",
+    "title": "Single-Document vs. Multi-Document Summarization",
+    "objective": "Examine the distinction between TLDR generation (single-document) and literature review synthesis (multi-document integration), addressing the methodological conflation in the evaluated approach",
+    "gap_inputs": [
+      "gap-5"
+    ],
+    "matrix_row_count": 4
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Human-AI Collaboration and Interactive Refinement",
+    "objective": "Discuss the absence of frameworks for user feedback integration and interactive refinement in the current literature review automation pipeline",
+    "gap_inputs": [
+      "gap-6"
+    ],
+    "matrix_row_count": 4
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Multilingual and Cross-Domain Generalization",
+    "objective": "Address the critical gap in evaluating approaches across non-English scientific documents and diverse research domains",
+    "gap_inputs": [
+      "gap-2"
+    ],
+    "matrix_row_count": 4
+  }
+]

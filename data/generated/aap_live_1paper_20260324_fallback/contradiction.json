@@ -1,0 +1,79 @@
+{
+  "task_groups": {
+    "Predicting pedestrian violating crossing behavior intention": [
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-1",
+        "claim_text": "Instrumental attitude is a significant predictor of pedestrians' violating crossing behavior intention across all models tested.",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-2",
+        "claim_text": "Descriptive norm (perceived actual behavior of family and friends) is a stronger predictor than subjective norm (perceived approval) and remains significant when added to the basic TPB model.",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-3",
+        "claim_text": "Conformity tendency (the tendency to modify behavior when around others) is a strong predictor of violating crossing intention, indicating that the presence of other pedestrians influences behavioral intention.",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-4",
+        "claim_text": "Subjective norm is significant in the basic TPB model but becomes non-significant when descriptive norm is added, suggesting that observation of others' behavior has greater influence than perceived approval from important referents.",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-5",
+        "claim_text": "Perceived behavioral control is not a significant predictor of violating crossing behavior, likely because the behavior is not challenging enough for the study population.",
+        "claim_type": "theoretical"
+      }
+    ]
+  },
+  "normalized_task_groups": [
+    {
+      "tasks": [
+        "Predicting pedestrian violating crossing behavior intention"
+      ],
+      "paper_count": 1,
+      "claims": [
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-1",
+          "claim_text": "Instrumental attitude is a significant predictor of pedestrians' violating crossing behavior intention across all models tested.",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-2",
+          "claim_text": "Descriptive norm (perceived actual behavior of family and friends) is a stronger predictor than subjective norm (perceived approval) and remains significant when added to the basic TPB model.",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-3",
+          "claim_text": "Conformity tendency (the tendency to modify behavior when around others) is a strong predictor of violating crossing intention, indicating that the presence of other pedestrians influences behavioral intention.",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-4",
+          "claim_text": "Subjective norm is significant in the basic TPB model but becomes non-significant when descriptive norm is added, suggesting that observation of others' behavior has greater influence than perceived approval from important referents.",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-5",
+          "claim_text": "Perceived behavioral control is not a significant predictor of violating crossing behavior, likely because the behavior is not challenging enough for the study population.",
+          "claim_type": "theoretical"
+        }
+      ],
+      "has_conflict": false
+    }
+  ],
+  "contradictions": [],
+  "contradiction_count": 0
+}

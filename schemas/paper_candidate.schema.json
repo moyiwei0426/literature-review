@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "aris-lit/paper_candidate",
+  "title": "PaperCandidate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["source", "source_id", "title", "authors", "year", "retrieval_query"],
+  "properties": {
+    "source": {"type": "string", "description": "Retrieval source name, e.g. openalex or arxiv."},
+    "source_id": {"type": "string", "description": "Identifier from the source system."},
+    "title": {"type": "string"},
+    "authors": {"type": "array", "items": {"type": "string"}, "default": []},
+    "year": {"type": ["integer", "null"], "minimum": 1900},
+    "venue": {"type": ["string", "null"], "default": null},
+    "doi": {"type": ["string", "null"], "default": null},
+    "arxiv_id": {"type": ["string", "null"], "default": null},
+    "abstract": {"type": ["string", "null"], "default": null},
+    "keywords": {"type": "array", "items": {"type": "string"}, "default": []},
+    "citation_count": {"type": ["integer", "null"], "minimum": 0, "default": null},
+    "references": {"type": "array", "items": {"type": "string"}, "default": []},
+    "related_urls": {"type": "array", "items": {"type": "string"}, "default": []},
+    "pdf_url": {"type": ["string", "null"], "default": null},
+    "is_open_access": {"type": ["boolean", "null"], "default": null},
+    "retrieval_query": {"type": "string"},
+    "retrieval_score": {"type": ["number", "null"], "default": null}
+  }
+}

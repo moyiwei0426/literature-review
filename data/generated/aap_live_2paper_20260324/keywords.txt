@@ -1,0 +1,8 @@
+predicting pedestrian violating road-crossing behavior intentions
+evaluating contribution of tpb components and extended factors
+pedestrian street crossing under various mobile phone distraction conditions
+n/a - experimental study with 28 participants
+survey data from 260 respondents in dalian, china (2015)
+structural equation modeling (sem) based on theory of planned behavior (tpb)
+controlled laboratory experiment with eye-tracking
+this paper aimed to examine pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (tpb), extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions.

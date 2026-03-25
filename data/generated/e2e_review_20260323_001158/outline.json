@@ -1,0 +1,56 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction and Research Context",
+    "objective": "Establish the research domain of pedestrian crossing behavior at signalized intersections, framing the importance of understanding both traditional crossing violations and emerging autonomous vehicle interactions",
+    "gap_inputs": [
+      "b887fd39-3f4e-49fa-addd-c48467308d3c"
+    ],
+    "matrix_row_count": 14
+  },
+  {
+    "section_id": "sec-2",
+    "title": "Methodological Approaches in Pedestrian Crossing Research",
+    "objective": "Survey and categorize the methodological families employed in pedestrian crossing behavior research, including VR experiments, observational studies, and statistical modeling techniques",
+    "gap_inputs": [
+      "b887fd39-3f4e-49fa-addd-c48467308d3c"
+    ],
+    "matrix_row_count": 14
+  },
+  {
+    "section_id": "sec-3",
+    "title": "External Interface Design for Autonomous Vehicles",
+    "objective": "Synthesize findings from VR-based studies on pedestrian interactions with fully autonomous vehicles, evaluating external feature preferences and their effects on crossing decisions",
+    "gap_inputs": [
+      "b887fd39-3f4e-49fa-addd-c48467308d3c"
+    ],
+    "matrix_row_count": 4
+  },
+  {
+    "section_id": "sec-4",
+    "title": "Factors Influencing Pedestrian Red-Light Running Behavior",
+    "objective": "Compare and contrast statistical modeling approaches and findings from red-light running studies across different geographic contexts, examining personal, environmental, and social factors",
+    "gap_inputs": [
+      "b887fd39-3f4e-49fa-addd-c48467308d3c"
+    ],
+    "matrix_row_count": 10
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Cross-Study Comparison and Claim Synthesis",
+    "objective": "Identify and analyze unresolved claim differences across related tasks, examining contradictions in gender effects, age effects, and environmental factor impacts between studies",
+    "gap_inputs": [
+      "b887fd39-3f4e-49fa-addd-c48467308d3c"
+    ],
+    "matrix_row_count": 10
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Research Gaps and Future Directions",
+    "objective": "Synthesize identified methodological and empirical gaps, proposing clearer comparison criteria and highlighting opportunities for integrated research on pedestrian crossing behavior",
+    "gap_inputs": [
+      "b887fd39-3f4e-49fa-addd-c48467308d3c"
+    ],
+    "matrix_row_count": 14
+  }
+]

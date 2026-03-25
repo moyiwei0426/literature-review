@@ -1,0 +1,380 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction and Scope of Pedestrian Crossing Behavior Research",
+    "text": "Pedestrian fatalities constitute a substantial proportion of global road traffic deaths, with intersection crossings representing a significant portion of these incidents. The behavioral complexity inherent in pedestrian road-crossing decisions has long posed challenges for traffic safety researchers, as these decisions integrate perceptual, cognitive, social, and environmental factors in dynamic and context-dependent ways. Understanding the determinants of pedestrian crossing behavior has become increasingly urgent amid rising mobile device usage while walking—approximately one-third of pedestrians in China and 60% of adults in the US reportedly use mobile phones while crossing streets.\n\nThis review synthesizes findings from empirical studies examining pedestrian crossing behavior, focusing on two primary research streams: psychological models predicting violating crossing intentions and experimental investigations of mobile phone distraction effects on crossing performance. The scope encompasses behavioral and social factors (attitudes, norms, conformity), risk perception, and visual attention allocation during street crossing. The review draws on structural equation modeling analyses of survey data and controlled laboratory experiments employing eye-tracking technology.\n\nThis synthesis addresses three motivations. First, existing studies employ diverse theoretical frameworks—ranging from the Theory of Planned Behavior to cognitive load models—yet the literature lacks structured comparison across these approaches. Second, methodological heterogeneity across studies (survey-based self-reports versus behavioral experiments) creates challenges for cross-study comparison and generalization. Third, practical implications for safety interventions require integration of findings from both research traditions. This review organizes the evidence by factor clusters, comparing methodological approaches and identifying implications for pedestrian safety education and infrastructure design.",
+    "citation_keys": [
+      "09_2018_jiang_aap",
+      "08_2016_zhou_aap"
+    ],
+    "paragraphs": [
+      {
+        "text": "Pedestrian fatalities constitute a substantial proportion of global road traffic deaths, with intersection crossings representing a significant portion of these incidents. The behavioral complexity inherent in pedestrian road-crossing decisions has long posed challenges for traffic safety researchers, as these decisions integrate perceptual, cognitive, social, and environmental factors in dynamic and context-dependent ways. Understanding the determinants of pedestrian crossing behavior has become increasingly urgent amid rising mobile device usage while walking—approximately one-third of pedestrians in China and 60% of adults in the US reportedly use mobile phones while crossing streets.",
+        "citation_keys": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "09_2018_jiang_aap": 239.5,
+          "08_2016_zhou_aap": 85.0
+        }
+      },
+      {
+        "text": "This review synthesizes findings from empirical studies examining pedestrian crossing behavior, focusing on two primary research streams: psychological models predicting violating crossing intentions and experimental investigations of mobile phone distraction effects on crossing performance. The scope encompasses behavioral and social factors (attitudes, norms, conformity), risk perception, and visual attention allocation during street crossing. The review draws on structural equation modeling analyses of survey data and controlled laboratory experiments employing eye-tracking technology.",
+        "citation_keys": [
+          "09_2018_jiang_aap",
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "09_2018_jiang_aap": 205.0,
+          "08_2016_zhou_aap": 141.5
+        }
+      },
+      {
+        "text": "This synthesis addresses three motivations. First, existing studies employ diverse theoretical frameworks—ranging from the Theory of Planned Behavior to cognitive load models—yet the literature lacks structured comparison across these approaches. Second, methodological heterogeneity across studies (survey-based self-reports versus behavioral experiments) creates challenges for cross-study comparison and generalization. Third, practical implications for safety interventions require integration of findings from both research traditions. This review organizes the evidence by factor clusters, comparing methodological approaches and identifying implications for pedestrian safety education and infrastructure design.",
+        "citation_keys": [
+          "08_2016_zhou_aap",
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 114.5,
+          "09_2018_jiang_aap": 102.0
+        }
+      }
+    ],
+    "_citation_scores": {
+      "08_2016_zhou_aap": 30.5,
+      "09_2018_jiang_aap": 30.0
+    }
+  },
+  {
+    "section_id": "sec-2",
+    "title": "Theoretical Foundations: Theory of Planned Behavior in Pedestrian Crossing",
+    "text": "The Theory of Planned Behavior (TPB) provides the dominant framework for predicting pedestrian crossing intentions, particularly for violating behaviors such as crossing against traffic signals or jaywalking. The TPB posits that behavioral intention is determined by three core constructs: attitude toward the behavior, subjective norm (perceived social pressure), and perceived behavioral control (the perceived ease or difficulty of performing the behavior). In the pedestrian crossing context, attitude reflects the individual's evaluation of crossing outcomes (e.g., time saved versus safety risk), subjective norm captures perceived approval from family, friends, or society, and perceived behavioral control captures the individual's confidence in their ability to cross safely.\n\nZhou et al. (2016) applied TPB to predict pedestrian violating crossing behavior intentions using structural equation modeling with survey data from 260 respondents in Dalian, China. Their analysis tested both the basic TPB model and extended models incorporating additional constructs. The study found that the basic TPB components—particularly instrumental attitude, subjective norm, and perceived behavioral control—demonstrated varying predictive utility, with Model 4 incorporating extended factors achieving the best fit (CFI = 0.996, RMSEA = 0.030). This application represents one of the first TPB-based investigations specifically targeting pedestrian violating crossing behavior in China, where approximately 40% of travel is completed on foot and traffic violations are common.\n\nThe TPB framework has been extended in pedestrian research by adding constructs such as descriptive norm (perceived behavior of others), perceived risk, and conformity tendency. Zhou et al. (2016) systematically tested these extensions, finding that descriptive norm and conformity tendency significantly improved model fit, while perceived risk did not emerge as a significant predictor. This pattern suggests that pedestrians may not adequately perceive or weigh the danger of violating crossing behavior when forming intentions—a finding with important implications for safety interventions.",
+    "citation_keys": [
+      "08_2016_zhou_aap"
+    ],
+    "paragraphs": [
+      {
+        "text": "The Theory of Planned Behavior (TPB) provides the dominant framework for predicting pedestrian crossing intentions, particularly for violating behaviors such as crossing against traffic signals or jaywalking. The TPB posits that behavioral intention is determined by three core constructs: attitude toward the behavior, subjective norm (perceived social pressure), and perceived behavioral control (the perceived ease or difficulty of performing the behavior). In the pedestrian crossing context, attitude reflects the individual's evaluation of crossing outcomes (e.g., time saved versus safety risk), subjective norm captures perceived approval from family, friends, or society, and perceived behavioral control captures the individual's confidence in their ability to cross safely.",
+        "citation_keys": [
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 232.5,
+          "09_2018_jiang_aap": 71.0
+        }
+      },
+      {
+        "text": "Zhou et al. (2016) applied TPB to predict pedestrian violating crossing behavior intentions using structural equation modeling with survey data from 260 respondents in Dalian, China. Their analysis tested both the basic TPB model and extended models incorporating additional constructs. The study found that the basic TPB components—particularly instrumental attitude, subjective norm, and perceived behavioral control—demonstrated varying predictive utility, with Model 4 incorporating extended factors achieving the best fit (CFI = 0.996, RMSEA = 0.030). This application represents one of the first TPB-based investigations specifically targeting pedestrian violating crossing behavior in China, where approximately 40% of travel is completed on foot and traffic violations are common.",
+        "citation_keys": [
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 437.0,
+          "09_2018_jiang_aap": 85.0
+        }
+      },
+      {
+        "text": "The TPB framework has been extended in pedestrian research by adding constructs such as descriptive norm (perceived behavior of others), perceived risk, and conformity tendency. Zhou et al. (2016) systematically tested these extensions, finding that descriptive norm and conformity tendency significantly improved model fit, while perceived risk did not emerge as a significant predictor. This pattern suggests that pedestrians may not adequately perceive or weigh the danger of violating crossing behavior when forming intentions—a finding with important implications for safety interventions.",
+        "citation_keys": [
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 250.5,
+          "09_2018_jiang_aap": 82.0
+        }
+      }
+    ],
+    "_citation_scores": {
+      "08_2016_zhou_aap": 54.0,
+      "09_2018_jiang_aap": 19.0
+    }
+  },
+  {
+    "section_id": "sec-3",
+    "title": "Behavioral and Social Factors Influencing Crossing Intentions",
+    "text": "The evidence consistently identifies several behavioral and social factors as significant predictors of pedestrian violating crossing behavior intentions. Instrumental attitude—the individual's evaluation of the consequences of violating crossing—emerged as a significant predictor in Zhou et al. (2016), indicating that pedestrians who perceive time savings or convenience benefits from violating are more likely to form intentions to do so. This finding aligns with rational choice perspectives in which crossing decisions weigh perceived costs and benefits.\n\nDescriptive norm, defined as the perceived behavior of family and friends, demonstrated stronger predictive power than subjective norm (perceived approval) in Zhou et al. (2016). When descriptive norm was added to the model, subjective norm became non-significant, suggesting that pedestrians' observations of others' actual behavior exert greater influence than perceived social approval. This pattern indicates that safety interventions targeting observational learning and social modeling may be particularly effective.\n\nConformity tendency also proved a strong predictor, indicating that the presence of other pedestrians influences behavioral intention. Zhou et al. (2016) found that pedestrians are more likely to form intentions to violate when they perceive others crossing illegally, reflecting a copy-the-majority heuristic that may override individual risk assessment. This finding has implications for infrastructure design: if conformity effects operate through perceived prevalence of violations, enforcement that visibly reduces violation rates could generate positive cascades through social influence.\n\nThe combined predictive utility of instrumental attitude, descriptive norm, and conformity tendency (Model 4) exceeded that of the basic TPB model, supporting the extension of TPB with these social-behavioral factors for pedestrian crossing research.",
+    "citation_keys": [
+      "08_2016_zhou_aap"
+    ],
+    "paragraphs": [
+      {
+        "text": "The evidence consistently identifies several behavioral and social factors as significant predictors of pedestrian violating crossing behavior intentions. Instrumental attitude—the individual's evaluation of the consequences of violating crossing—emerged as a significant predictor in Zhou et al. (2016), indicating that pedestrians who perceive time savings or convenience benefits from violating are more likely to form intentions to do so. This finding aligns with rational choice perspectives in which crossing decisions weigh perceived costs and benefits.",
+        "citation_keys": [
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 156.5,
+          "09_2018_jiang_aap": 75.0
+        }
+      },
+      {
+        "text": "Descriptive norm, defined as the perceived behavior of family and friends, demonstrated stronger predictive power than subjective norm (perceived approval) in Zhou et al. (2016). When descriptive norm was added to the model, subjective norm became non-significant, suggesting that pedestrians' observations of others' actual behavior exert greater influence than perceived social approval. This pattern indicates that safety interventions targeting observational learning and social modeling may be particularly effective.",
+        "citation_keys": [
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 267.5,
+          "09_2018_jiang_aap": 54.5
+        }
+      },
+      {
+        "text": "Conformity tendency also proved a strong predictor, indicating that the presence of other pedestrians influences behavioral intention. Zhou et al. (2016) found that pedestrians are more likely to form intentions to violate when they perceive others crossing illegally, reflecting a copy-the-majority heuristic that may override individual risk assessment. This finding has implications for infrastructure design: if conformity effects operate through perceived prevalence of violations, enforcement that visibly reduces violation rates could generate positive cascades through social influence.",
+        "citation_keys": [
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 184.5,
+          "09_2018_jiang_aap": 64.5
+        }
+      },
+      {
+        "text": "The combined predictive utility of instrumental attitude, descriptive norm, and conformity tendency (Model 4) exceeded that of the basic TPB model, supporting the extension of TPB with these social-behavioral factors for pedestrian crossing research.",
+        "citation_keys": [
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 164.5,
+          "09_2018_jiang_aap": 43.0
+        }
+      }
+    ],
+    "_citation_scores": {
+      "08_2016_zhou_aap": 30.0,
+      "09_2018_jiang_aap": 19.5
+    }
+  },
+  {
+    "section_id": "sec-4",
+    "title": "Risk Perception and Control Factors in Crossing Behavior",
+    "text": "Perceived risk and perceived behavioral control represent two theoretically important constructs in pedestrian crossing behavior, yet the evidence suggests their predictive contributions are limited in certain contexts. Zhou et al. (2016) found that perceived risk was not a significant predictor of violating crossing behavior intention in any of the tested models. This non-finding is notable because risk perception would seem logically relevant to unsafe crossing decisions—pedestrians who fail to perceive the danger of violating would presumably be more likely to intend such behavior. The authors interpret this as indicating that pedestrians likely failed to realize or adequately perceive the danger of violating crossing behavior, suggesting a potential target for safety education interventions.\n\nPerceived behavioral control also failed to achieve significance in Zhou et al. (2016). The authors speculate that this result may reflect the sample population's perception that crossing the street is not challenging—Dalian pedestrians may have high baseline confidence in their crossing ability, rendering this construct non-discriminating. The authors note that perceived behavioral control might become significant in more risky or intimidating scenarios, such as wider roads or higher-speed traffic environments.\n\nTaken together, these findings suggest that risk perception and control constructs may not always provide sufficient predictive power in TPB models of pedestrian crossing, particularly in contexts where the target behavior is common and perceived as low-difficulty. This limitation does not invalidate the TPB framework but indicates scope conditions for its application.",
+    "citation_keys": [
+      "08_2016_zhou_aap"
+    ],
+    "paragraphs": [
+      {
+        "text": "Perceived risk and perceived behavioral control represent two theoretically important constructs in pedestrian crossing behavior, yet the evidence suggests their predictive contributions are limited in certain contexts. Zhou et al. (2016) found that perceived risk was not a significant predictor of violating crossing behavior intention in any of the tested models. This non-finding is notable because risk perception would seem logically relevant to unsafe crossing decisions—pedestrians who fail to perceive the danger of violating would presumably be more likely to intend such behavior. The authors interpret this as indicating that pedestrians likely failed to realize or adequately perceive the danger of violating crossing behavior, suggesting a potential target for safety education interventions.",
+        "citation_keys": [
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 292.0,
+          "09_2018_jiang_aap": 84.0
+        }
+      },
+      {
+        "text": "Perceived behavioral control also failed to achieve significance in Zhou et al. (2016). The authors speculate that this result may reflect the sample population's perception that crossing the street is not challenging—Dalian pedestrians may have high baseline confidence in their crossing ability, rendering this construct non-discriminating. The authors note that perceived behavioral control might become significant in more risky or intimidating scenarios, such as wider roads or higher-speed traffic environments.",
+        "citation_keys": [
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 313.5,
+          "09_2018_jiang_aap": 89.0
+        }
+      },
+      {
+        "text": "Taken together, these findings suggest that risk perception and control constructs may not always provide sufficient predictive power in TPB models of pedestrian crossing, particularly in contexts where the target behavior is common and perceived as low-difficulty. This limitation does not invalidate the TPB framework but indicates scope conditions for its application.",
+        "citation_keys": [
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 104.5,
+          "09_2018_jiang_aap": 69.5
+        }
+      }
+    ],
+    "_citation_scores": {
+      "08_2016_zhou_aap": 44.0,
+      "09_2018_jiang_aap": 23.5
+    }
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Mobile Phone Distraction Effects on Pedestrian Crossing Performance",
+    "text": "Mobile phone distraction has emerged as a critical factor in pedestrian safety research, with experimental evidence demonstrating measurable impairments to crossing performance across multiple distraction types. Jiang et al. (2018) conducted an outdoor experiment at a signalized intersection in Hefei, China, testing three distraction conditions: music distraction, phone conversation distraction, and text distraction. The study employed 28 college student participants and measured crossing behavior (initiate time, look left/right frequency, crossing speed) alongside eye-tracking metrics.\n\nThe findings reveal a clear hierarchy of distraction severity. Text distraction caused the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction, with music distraction having the least impact. Under text distraction conditions, pedestrians looked left and right significantly less often (2.50 times versus 4.46 times in the undistracted condition), switched less between visual areas, and distributed less visual attention toward the traffic environment. Fixation points toward the crosswalk dropped dramatically from 65.04% (undistracted) to 16.79% (text distraction).\n\nMusic distraction produced a distinct pattern: pedestrians initiated crossing later (1.28 seconds versus 0.69 seconds) but maintained relatively intact visual scanning. Phone conversation distraction reduced crossing speed (1.37 m/s versus 1.46 m/s) and shifted visual attention away from right traffic areas. These differentiated effects suggest that different cognitive demands of phone tasks (visual-manual versus auditory-verbal) impose distinct attentional burdens that safety interventions should address through targeted messaging.",
+    "citation_keys": [
+      "09_2018_jiang_aap"
+    ],
+    "paragraphs": [
+      {
+        "text": "Mobile phone distraction has emerged as a critical factor in pedestrian safety research, with experimental evidence demonstrating measurable impairments to crossing performance across multiple distraction types. Jiang et al. (2018) conducted an outdoor experiment at a signalized intersection in Hefei, China, testing three distraction conditions: music distraction, phone conversation distraction, and text distraction. The study employed 28 college student participants and measured crossing behavior (initiate time, look left/right frequency, crossing speed) alongside eye-tracking metrics.",
+        "citation_keys": [
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "09_2018_jiang_aap": 374.0,
+          "08_2016_zhou_aap": 59.5
+        }
+      },
+      {
+        "text": "The findings reveal a clear hierarchy of distraction severity. Text distraction caused the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction, with music distraction having the least impact. Under text distraction conditions, pedestrians looked left and right significantly less often (2.50 times versus 4.46 times in the undistracted condition), switched less between visual areas, and distributed less visual attention toward the traffic environment. Fixation points toward the crosswalk dropped dramatically from 65.04% (undistracted) to 16.79% (text distraction).",
+        "citation_keys": [
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "09_2018_jiang_aap": 341.0,
+          "08_2016_zhou_aap": 36.5
+        }
+      },
+      {
+        "text": "Music distraction produced a distinct pattern: pedestrians initiated crossing later (1.28 seconds versus 0.69 seconds) but maintained relatively intact visual scanning. Phone conversation distraction reduced crossing speed (1.37 m/s versus 1.46 m/s) and shifted visual attention away from right traffic areas. These differentiated effects suggest that different cognitive demands of phone tasks (visual-manual versus auditory-verbal) impose distinct attentional burdens that safety interventions should address through targeted messaging.",
+        "citation_keys": [
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "09_2018_jiang_aap": 165.0,
+          "08_2016_zhou_aap": 53.0
+        }
+      }
+    ],
+    "_citation_scores": {
+      "09_2018_jiang_aap": 64.5,
+      "08_2016_zhou_aap": 14.0
+    }
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Visual Attention Allocation During Street Crossing",
+    "text": "Eye-tracking evidence provides mechanistic insight into how distraction affects the visual attention allocation critical for safe street crossing. Jiang et al. (2018) employed Tobii Pro Glasses 2 to capture five eye movement indicators: pupil diameter (cognitive load), scanning frequency (visual alertness), fixation points (attention switching), fixation time (attention resource distribution), and fixation duration (attention maintenance). These metrics were measured across five areas of interest at a signalized intersection.\n\nUnder music distraction, pedestrians showed increased pupil diameter (2.86 mm versus 2.75 mm) and reduced scanning frequency (6.00 versus 6.82), indicating elevated cognitive load with reduced visual alertness. Fixation points toward traffic signal areas decreased, suggesting attention was partially diverted from traffic-relevant information. These changes occurred despite relatively preserved behavioral measures (look frequency), indicating that cognitive distraction can impair visual processing even when behavioral adaptations (delayed initiation) are apparent.\n\nText distraction produced the most severe attentional disruption. Pedestrians under text distraction maintained significantly less visual attention on the traffic environment, with fixation points toward the crosswalk dropping from 65.04% to 16.79%. This pattern indicates that visual-manual phone tasks essentially compete for the visual attention resources necessary for safe crossing, rendering pedestrians effectively blind to traffic information for substantial portions of the crossing task. The eye-tracking data provide more accurate determination of visual attention allocation compared to video-based head movement observations, as they capture where attention is directed rather than merely head orientation.",
+    "citation_keys": [
+      "09_2018_jiang_aap"
+    ],
+    "paragraphs": [
+      {
+        "text": "Eye-tracking evidence provides mechanistic insight into how distraction affects the visual attention allocation critical for safe street crossing. Jiang et al. (2018) employed Tobii Pro Glasses 2 to capture five eye movement indicators: pupil diameter (cognitive load), scanning frequency (visual alertness), fixation points (attention switching), fixation time (attention resource distribution), and fixation duration (attention maintenance). These metrics were measured across five areas of interest at a signalized intersection.",
+        "citation_keys": [
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "09_2018_jiang_aap": 511.0,
+          "08_2016_zhou_aap": 35.0
+        }
+      },
+      {
+        "text": "Under music distraction, pedestrians showed increased pupil diameter (2.86 mm versus 2.75 mm) and reduced scanning frequency (6.00 versus 6.82), indicating elevated cognitive load with reduced visual alertness. Fixation points toward traffic signal areas decreased, suggesting attention was partially diverted from traffic-relevant information. These changes occurred despite relatively preserved behavioral measures (look frequency), indicating that cognitive distraction can impair visual processing even when behavioral adaptations (delayed initiation) are apparent.",
+        "citation_keys": [
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "09_2018_jiang_aap": 276.5,
+          "08_2016_zhou_aap": 55.0
+        }
+      },
+      {
+        "text": "Text distraction produced the most severe attentional disruption. Pedestrians under text distraction maintained significantly less visual attention on the traffic environment, with fixation points toward the crosswalk dropping from 65.04% to 16.79%. This pattern indicates that visual-manual phone tasks essentially compete for the visual attention resources necessary for safe crossing, rendering pedestrians effectively blind to traffic information for substantial portions of the crossing task. The eye-tracking data provide more accurate determination of visual attention allocation compared to video-based head movement observations, as they capture where attention is directed rather than merely head orientation.",
+        "citation_keys": [
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "09_2018_jiang_aap": 277.5,
+          "08_2016_zhou_aap": 63.5
+        }
+      }
+    ],
+    "_citation_scores": {
+      "09_2018_jiang_aap": 54.0,
+      "08_2016_zhou_aap": 9.5
+    }
+  },
+  {
+    "section_id": "sec-7",
+    "title": "Methodological Approaches and Their Contributions",
+    "text": "The reviewed literature employs two distinct methodological paradigms, each with characteristic strengths and limitations. The first approach uses structural equation modeling (SEM) based on the Theory of Planned Behavior to predict pedestrian crossing intentions from survey data. Zhou et al. (2016) applied this approach with 260 respondents in Dalian, testing multiple models and comparing fit indices (CFI, RMSEA, CMIN/df). The SEM approach enables simultaneous estimation of multiple pathways between latent constructs, allowing identification of direct and indirect effects of attitudes, norms, and control perceptions on behavioral intention.\n\nThe second approach uses controlled laboratory experiments with eye-tracking technology to measure behavioral and attentional responses to specific conditions. Jiang et al. (2018) employed this approach with 28 participants at a signalized intersection, manipulating mobile phone distraction conditions and capturing real-time eye movement data. This approach enables causal inference about distraction effects and provides continuous measures of visual attention allocation that self-report methods cannot capture.\n\nA fundamental trade-off exists between these paradigms. The SEM approach based on survey data captures the cognitive constructs underlying intentions but relies on self-reported measures that may introduce bias, especially for negative behaviors. Self-reported behavior may not reflect actual behavior, and scenario-based measures may not capture varying difficulty levels across crossing contexts. The eye-tracking approach provides objective behavioral and attentional measures but cannot directly assess the cognitive constructs (attitudes, norms, perceived control) that drive decisions. Furthermore, experimental samples are typically small (n = 28) and limited to specific populations (college students), limiting generalizability.\n\nThe two approaches thus provide complementary perspectives: survey-based TPB models explain the cognitive structure of crossing intentions, while eye-tracking experiments reveal the attentional mechanisms through which external factors (distraction) impair crossing performance. Integration of these approaches—combining psychometric measurement of TPB constructs with experimental manipulation and objective behavioral recording—represents a promising direction for future research.",
+    "citation_keys": [
+      "08_2016_zhou_aap",
+      "09_2018_jiang_aap"
+    ],
+    "paragraphs": [
+      {
+        "text": "The reviewed literature employs two distinct methodological paradigms, each with characteristic strengths and limitations. The first approach uses structural equation modeling (SEM) based on the Theory of Planned Behavior to predict pedestrian crossing intentions from survey data. Zhou et al. (2016) applied this approach with 260 respondents in Dalian, testing multiple models and comparing fit indices (CFI, RMSEA, CMIN/df). The SEM approach enables simultaneous estimation of multiple pathways between latent constructs, allowing identification of direct and indirect effects of attitudes, norms, and control perceptions on behavioral intention.",
+        "citation_keys": [
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 238.5,
+          "09_2018_jiang_aap": 75.0
+        }
+      },
+      {
+        "text": "The second approach uses controlled laboratory experiments with eye-tracking technology to measure behavioral and attentional responses to specific conditions. Jiang et al. (2018) employed this approach with 28 participants at a signalized intersection, manipulating mobile phone distraction conditions and capturing real-time eye movement data. This approach enables causal inference about distraction effects and provides continuous measures of visual attention allocation that self-report methods cannot capture.",
+        "citation_keys": [
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "09_2018_jiang_aap": 220.5,
+          "08_2016_zhou_aap": 44.5
+        }
+      },
+      {
+        "text": "A fundamental trade-off exists between these paradigms. The SEM approach based on survey data captures the cognitive constructs underlying intentions but relies on self-reported measures that may introduce bias, especially for negative behaviors. Self-reported behavior may not reflect actual behavior, and scenario-based measures may not capture varying difficulty levels across crossing contexts. The eye-tracking approach provides objective behavioral and attentional measures but cannot directly assess the cognitive constructs (attitudes, norms, perceived control) that drive decisions. Furthermore, experimental samples are typically small (n = 28) and limited to specific populations (college students), limiting generalizability.",
+        "citation_keys": [
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 307.0,
+          "09_2018_jiang_aap": 156.5
+        }
+      },
+      {
+        "text": "The two approaches thus provide complementary perspectives: survey-based TPB models explain the cognitive structure of crossing intentions, while eye-tracking experiments reveal the attentional mechanisms through which external factors (distraction) impair crossing performance. Integration of these approaches—combining psychometric measurement of TPB constructs with experimental manipulation and objective behavioral recording—represents a promising direction for future research.",
+        "citation_keys": [
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "09_2018_jiang_aap": 92.0,
+          "08_2016_zhou_aap": 66.5
+        }
+      }
+    ],
+    "_citation_scores": {
+      "08_2016_zhou_aap": 9.5,
+      "09_2018_jiang_aap": 7.0
+    }
+  },
+  {
+    "section_id": "sec-8",
+    "title": "Implications for Pedestrian Safety Interventions",
+    "text": "The synthesized findings from both research streams carry distinct implications for pedestrian safety interventions. From the TPB-based research, safety education campaigns should target instrumental attitudes toward violating crossing (emphasizing the safety costs of time savings), correct descriptive norms by highlighting that safe crossing is more prevalent than violations, and leverage conformity effects by making safe behavior socially visible. The finding that perceived risk was not a significant predictor suggests that interventions emphasizing danger may be less effective than those addressing social norms and attitudes.\n\nFrom the distraction research, interventions should differentiate by phone task type. Texting while crossing represents the highest-risk behavior, requiring messaging that specifically targets visual-manual phone use. The finding that music distraction delays crossing initiation suggests that even non-visual phone tasks impose cognitive costs that compromise safety. Public awareness campaigns should communicate that phone conversation (even hands-free) reduces crossing speed and attention to traffic, addressing the common misconception that auditory distraction is safer than visual distraction.\n\nAt the infrastructure level, the conformity tendency finding suggests that visible enforcement and design measures that reduce perceived violation prevalence could generate positive social cascades. Eye-tracking evidence indicating severe attention disruption under text distraction supports engineering solutions such as dedicated crossing phases with longer intervals, countdown timers, and protected phases that reduce the attention demands placed on pedestrians. The methodological comparison suggests that integrated approaches—combining psychological construct measurement with behavioral observation—will provide the most robust evidence base for intervention design.",
+    "citation_keys": [
+      "08_2016_zhou_aap",
+      "09_2018_jiang_aap"
+    ],
+    "paragraphs": [
+      {
+        "text": "The synthesized findings from both research streams carry distinct implications for pedestrian safety interventions. From the TPB-based research, safety education campaigns should target instrumental attitudes toward violating crossing (emphasizing the safety costs of time savings), correct descriptive norms by highlighting that safe crossing is more prevalent than violations, and leverage conformity effects by making safe behavior socially visible. The finding that perceived risk was not a significant predictor suggests that interventions emphasizing danger may be less effective than those addressing social norms and attitudes.",
+        "citation_keys": [
+          "08_2016_zhou_aap"
+        ],
+        "_citation_scores": {
+          "08_2016_zhou_aap": 153.5,
+          "09_2018_jiang_aap": 81.0
+        }
+      },
+      {
+        "text": "From the distraction research, interventions should differentiate by phone task type. Texting while crossing represents the highest-risk behavior, requiring messaging that specifically targets visual-manual phone use. The finding that music distraction delays crossing initiation suggests that even non-visual phone tasks impose cognitive costs that compromise safety. Public awareness campaigns should communicate that phone conversation (even hands-free) reduces crossing speed and attention to traffic, addressing the common misconception that auditory distraction is safer than visual distraction.",
+        "citation_keys": [
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "09_2018_jiang_aap": 154.0,
+          "08_2016_zhou_aap": 71.0
+        }
+      },
+      {
+        "text": "At the infrastructure level, the conformity tendency finding suggests that visible enforcement and design measures that reduce perceived violation prevalence could generate positive social cascades. Eye-tracking evidence indicating severe attention disruption under text distraction supports engineering solutions such as dedicated crossing phases with longer intervals, countdown timers, and protected phases that reduce the attention demands placed on pedestrians. The methodological comparison suggests that integrated approaches—combining psychological construct measurement with behavioral observation—will provide the most robust evidence base for intervention design.",
+        "citation_keys": [
+          "09_2018_jiang_aap"
+        ],
+        "_citation_scores": {
+          "09_2018_jiang_aap": 107.0,
+          "08_2016_zhou_aap": 78.0
+        }
+      }
+    ],
+    "_citation_scores": {
+      "09_2018_jiang_aap": 19.5,
+      "08_2016_zhou_aap": 14.0
+    }
+  }
+]

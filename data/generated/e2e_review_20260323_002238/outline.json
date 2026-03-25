@@ -1,0 +1,56 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction and Research Context",
+    "objective": "Establish the scope of the review covering pedestrian crossing behavior research, including both autonomous vehicle interaction and signalized intersection violations, and identify the comparative analysis focus",
+    "gap_inputs": [
+      "98d249ab-50b0-4bd4-9248-fde0ca7fe463"
+    ],
+    "matrix_row_count": 14
+  },
+  {
+    "section_id": "sec-2",
+    "title": "Virtual Reality Approaches to AV-Pedestrian Communication",
+    "objective": "Synthesize VR-based experimental findings on external communication features for autonomous vehicles and their effects on pedestrian crossing behavior and receptivity",
+    "gap_inputs": [
+      "98d249ab-50b0-4bd4-9248-fde0ca7fe463"
+    ],
+    "matrix_row_count": 4
+  },
+  {
+    "section_id": "sec-3",
+    "title": "Regression Methods for Pedestrian Violation Analysis",
+    "objective": "Compare statistical modeling approaches for pedestrian red-light running behavior, examining binary logistic regression versus random parameter logit models",
+    "gap_inputs": [
+      "98d249ab-50b0-4bd4-9248-fde0ca7fe463"
+    ],
+    "matrix_row_count": 10
+  },
+  {
+    "section_id": "sec-4",
+    "title": "Cross-Paper Claim Comparison and Synthesis",
+    "objective": "Evaluate conflicting findings across related studies on pedestrian crossing behavior, identifying where claims converge or diverge and proposing clearer comparison criteria",
+    "gap_inputs": [
+      "98d249ab-50b0-4bd4-9248-fde0ca7fe463"
+    ],
+    "matrix_row_count": 14
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Methodological Limitations and Research Gaps",
+    "objective": "Synthesize methodological limitations across VR experiments and regression-based studies, highlighting gaps in sample sizes, geographical coverage, and analytical approaches",
+    "gap_inputs": [
+      "98d249ab-50b0-4bd4-9248-fde0ca7fe463"
+    ],
+    "matrix_row_count": 14
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Conclusions and Future Research Directions",
+    "objective": "Summarize key findings, address the verified gap regarding comparison criteria, and propose future research directions for pedestrian crossing behavior studies",
+    "gap_inputs": [
+      "98d249ab-50b0-4bd4-9248-fde0ca7fe463"
+    ],
+    "matrix_row_count": 14
+  }
+]

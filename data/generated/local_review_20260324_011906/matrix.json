@@ -1,0 +1,40 @@
+[
+  {
+    "paper_id": "01_2001_hamed_safety_science",
+    "title": "Untitled",
+    "authors": "Hamed",
+    "year": 2001,
+    "venue": "safety science",
+    "research_problem": "Automatically extract structured literature review signals from academic papers.",
+    "method_summary": "A pipeline that combines retrieval, PDF parsing, chunking, and structured extraction.",
+    "method_family": "pipeline; llm-assisted-extraction",
+    "tasks": "literature_review; information_extraction",
+    "datasets": "",
+    "metrics": "",
+    "claim_id": "claim-1",
+    "claim_text": "The pipeline can transform parsed paper chunks into a structured paper profile.",
+    "claim_type": "methodological",
+    "evidence_chunk_ids": "45410c5a-b358-4cfa-8f0e-63c9773325db",
+    "limitations": "The current output may rely on stubbed model behavior before real LLM integration.",
+    "notes": "Stub extraction response for local development."
+  },
+  {
+    "paper_id": "01_2001_hamed_safety_science",
+    "title": "Untitled",
+    "authors": "Hamed",
+    "year": 2001,
+    "venue": "safety science",
+    "research_problem": "Automatically extract structured literature review signals from academic papers.",
+    "method_summary": "A pipeline that combines retrieval, PDF parsing, chunking, and structured extraction.",
+    "method_family": "pipeline; llm-assisted-extraction",
+    "tasks": "literature_review; information_extraction",
+    "datasets": "",
+    "metrics": "",
+    "claim_id": "claim-2",
+    "claim_text": "The system supports downstream gap analysis by preserving evidence links.",
+    "claim_type": "application",
+    "evidence_chunk_ids": "cee8d624-17c6-4392-a6e9-fe99e9228c53",
+    "limitations": "The current output may rely on stubbed model behavior before real LLM integration.",
+    "notes": "Stub extraction response for local development."
+  }
+]

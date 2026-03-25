@@ -1,0 +1,214 @@
+{
+  "generated_at": "2026-03-23T17:18:50.831628+00:00",
+  "validator": "review_validator.rule_based.v1",
+  "status": "fail",
+  "overall_status": "fail",
+  "counts": {
+    "section_count": 6,
+    "healthy_section_count": 5,
+    "weak_section_count": 1,
+    "finding_count": 4,
+    "findings": 4,
+    "severity_counts": {
+      "warning": 3,
+      "error": 1
+    }
+  },
+  "summary": {
+    "overall_status": "fail",
+    "section_count": 6,
+    "healthy_section_count": 5,
+    "weak_section_count": 1,
+    "finding_count": 4,
+    "severity_counts": {
+      "warning": 3,
+      "error": 1
+    },
+    "flagged_sections": [
+      {
+        "section_id": "sec-conclusion",
+        "title": "Conclusion",
+        "status": "fail",
+        "finding_count": 4
+      }
+    ]
+  },
+  "sections": [
+    {
+      "section_id": "sec-intro",
+      "title": "Introduction and Review Scope",
+      "role": "introduction",
+      "status": "pass",
+      "expected_moves": [
+        "framing",
+        "evidence",
+        "synthesis",
+        "gap"
+      ],
+      "observed_moves": {
+        "framing": 1,
+        "evidence": 1,
+        "synthesis": 1,
+        "gap": 1
+      },
+      "paragraph_count": 4,
+      "cited_paragraph_count": 4,
+      "section_citation_count": 1,
+      "linked_gap_count": 1,
+      "findings": [],
+      "recommendations": []
+    },
+    {
+      "section_id": "sec-factor-taxonomy",
+      "title": "Factor Taxonomy and Contextual Drivers",
+      "role": "introduction",
+      "status": "pass",
+      "expected_moves": [
+        "framing",
+        "evidence",
+        "comparison",
+        "synthesis",
+        "gap"
+      ],
+      "observed_moves": {
+        "framing": 1,
+        "evidence": 1,
+        "comparison": 1,
+        "synthesis": 1,
+        "gap": 1
+      },
+      "paragraph_count": 5,
+      "cited_paragraph_count": 5,
+      "section_citation_count": 1,
+      "linked_gap_count": 1,
+      "findings": [],
+      "recommendations": []
+    },
+    {
+      "section_id": "sec-factor-design-factors",
+      "title": "Factor Focus: Design Factors",
+      "role": "body",
+      "status": "pass",
+      "expected_moves": [
+        "framing",
+        "evidence",
+        "synthesis",
+        "gap"
+      ],
+      "observed_moves": {
+        "framing": 1,
+        "evidence": 1,
+        "synthesis": 1,
+        "gap": 1
+      },
+      "paragraph_count": 4,
+      "cited_paragraph_count": 4,
+      "section_citation_count": 1,
+      "linked_gap_count": 1,
+      "findings": [],
+      "recommendations": []
+    },
+    {
+      "section_id": "sec-factor-taxonomy-comparison",
+      "title": "Comparative Factor Evidence and Interactions",
+      "role": "comparison",
+      "status": "pass",
+      "expected_moves": [
+        "framing",
+        "comparison",
+        "evidence",
+        "synthesis",
+        "gap"
+      ],
+      "observed_moves": {
+        "framing": 1,
+        "comparison": 1,
+        "evidence": 1,
+        "synthesis": 1,
+        "gap": 1
+      },
+      "paragraph_count": 5,
+      "cited_paragraph_count": 5,
+      "section_citation_count": 1,
+      "linked_gap_count": 1,
+      "findings": [],
+      "recommendations": []
+    },
+    {
+      "section_id": "sec-gaps",
+      "title": "Research Gaps and Opportunities",
+      "role": "gap",
+      "status": "pass",
+      "expected_moves": [
+        "framing",
+        "gap",
+        "synthesis"
+      ],
+      "observed_moves": {
+        "framing": 1,
+        "gap": 1,
+        "synthesis": 1
+      },
+      "paragraph_count": 3,
+      "cited_paragraph_count": 3,
+      "section_citation_count": 1,
+      "linked_gap_count": 1,
+      "findings": [],
+      "recommendations": []
+    },
+    {
+      "section_id": "sec-conclusion",
+      "title": "Conclusion",
+      "role": "conclusion",
+      "status": "fail",
+      "expected_moves": [
+        "synthesis",
+        "comparison",
+        "gap"
+      ],
+      "observed_moves": {},
+      "paragraph_count": 1,
+      "cited_paragraph_count": 1,
+      "section_citation_count": 1,
+      "linked_gap_count": 1,
+      "findings": [
+        {
+          "code": "missing_synthesis_move",
+          "severity": "warning",
+          "message": "Missing expected synthesis move for conclusion-oriented section.",
+          "recommendation": "Add a closing synthesis paragraph that explains what the conclusion section implies for the broader review."
+        },
+        {
+          "code": "missing_comparison_move",
+          "severity": "warning",
+          "message": "Missing expected comparison move for conclusion-oriented section.",
+          "recommendation": "Add a comparison paragraph that contrasts at least two evidence clusters or reporting patterns."
+        },
+        {
+          "code": "missing_gap_move",
+          "severity": "warning",
+          "message": "Missing expected gap move for conclusion-oriented section.",
+          "recommendation": "Add a gap paragraph linking unresolved evidence, insufficiency, and concrete research need."
+        },
+        {
+          "code": "missing_expected_moves",
+          "severity": "error",
+          "message": "Section is missing expected moves: synthesis, comparison, gap.",
+          "recommendation": "Restore the missing rhetorical moves so the section retains framing, evidence, synthesis, and gap handling where expected."
+        }
+      ],
+      "recommendations": [
+        "Add a closing synthesis paragraph that explains what the conclusion section implies for the broader review.",
+        "Add a comparison paragraph that contrasts at least two evidence clusters or reporting patterns.",
+        "Add a gap paragraph linking unresolved evidence, insufficiency, and concrete research need.",
+        "Restore the missing rhetorical moves so the section retains framing, evidence, synthesis, and gap handling where expected."
+      ]
+    }
+  ],
+  "recommendations": [
+    "Add a closing synthesis paragraph that explains what the conclusion section implies for the broader review.",
+    "Add a comparison paragraph that contrasts at least two evidence clusters or reporting patterns.",
+    "Add a gap paragraph linking unresolved evidence, insufficiency, and concrete research need.",
+    "Restore the missing rhetorical moves so the section retains framing, evidence, synthesis, and gap handling where expected."
+  ]
+}

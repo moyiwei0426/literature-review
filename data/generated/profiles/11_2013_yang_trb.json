@@ -1,0 +1,97 @@
+{
+  "paper_id": "11_2013_yang_trb",
+  "title": "Untitled",
+  "research_problem": "Understanding and modeling pedestrian street-crossing behavior at signalized intersections, specifically their intended waiting times during the red-man phase of traffic light signals",
+  "problem_type": "Statistical modeling of bounded waiting time distributions",
+  "domain": "Transportation engineering, pedestrian safety",
+  "language_scope": "English",
+  "method_summary": "The paper develops a statistical mixture model for pedestrian waiting times. Starting from a simplified scenario for a particular pedestrian under specific traffic conditions, the model incorporates vehicle-pedestrian interaction via statistical unconditioning. The resulting distribution is a mixture of four components derived from the bounded Pareto distribution, classified by pedestrian type (risk-taking vs risk-averse) and traffic conditions (minimum headway vs larger gap). Parameter estimation uses the EM algorithm with model selection via BIC.",
+  "method_family": [
+    "Statistical mixture model, bounded Pareto distribution, generalized linear model"
+  ],
+  "datasets": [
+    "Field data from Kunming, China - 283 valid observations collected on two consecutive weekend days at a signalized intersection (red-man phase: 75s, total cycle: 110s)"
+  ],
+  "tasks": [
+    "Pedestrian waiting time modeling",
+    "Understanding pedestrian crossing behavior patterns",
+    "Risk factor analysis by age and gender"
+  ],
+  "metrics": [
+    "Chi-square goodness-of-fit test",
+    "Median and interquartile range for centrality and dispersion",
+    "BIC for model selection"
+  ],
+  "baselines": [
+    "Exponential distribution (commonly used in queueing theory)",
+    "Weibull distribution",
+    "Gamma distribution",
+    "Pareto distribution"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "The U-shaped distribution of pedestrian intended waiting times emerges from the interaction between vehicles and pedestrians via statistical unconditioning, showing that a large proportion of pedestrians cross immediately while another large proportion wait for the entire red-man phase",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "c1f9a377-16d0-4619-81eb-d2f5d26b90cf",
+        "bede95f7-122a-4193-a8e6-ee945e7045a9"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "The proposed bounded Pareto mixture model better captures pedestrian waiting time behavior at signalized intersections compared to conventional exponential distribution and its extensions, which cannot adequately model the bounded nature and U-shaped pattern of waiting times",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "7f5bf45c-23fd-4124-94b2-5498ff31c23e",
+        "b42e7cb2-bf05-4112-bfc0-f0a2270984b4"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "Risk-taking pedestrians have significantly smaller intended waiting times than risk-averse pedestrians due to their lower effective critical headway and higher sensitivity to excess headway",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "bede95f7-122a-4193-a8e6-ee945e7045a9",
+        "2257e91f-3ff1-46a0-ae31-f15bfc80d45b"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "Younger pedestrians tend to be risk-takers (higher proportion cross immediately) while elderly pedestrians are more risk-averse (higher proportion wait for entire phase); males are more aggressive than females in crossing behavior",
+      "claim_type": "application",
+      "evidence_chunk_ids": [
+        "f9551288-f9dc-42b4-8d5e-b035f0d92b2b",
+        "34af6b9b-ebaa-4b85-b9fc-1ae412531576",
+        "760ac32f-87d6-4bc9-a86a-d9c3a125ba70"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The paper focuses on univariate analysis modeling only waiting time explicitly; multivariate approaches for simultaneously analyzing multiple risk factors are not developed",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "237896c4-7a53-40c7-98f2-bc05f35952be"
+      ]
+    },
+    {
+      "text": "Model parameters and distribution shapes are derived from specific traffic conditions at one intersection in Kunming; generalizability to different intersection types, traffic densities, and cultural contexts may be limited",
+      "source": "inferred",
+      "evidence_chunk_ids": []
+    },
+    {
+      "text": "The model assumes pedestrians can be classified into two broad categories (risk-taking and risk-averse), which may oversimplify real-world behavioral heterogeneity",
+      "source": "inferred",
+      "evidence_chunk_ids": []
+    }
+  ],
+  "future_work": [
+    "Develop a multivariate modeling approach, based on the proposed model, for pedestrians' waiting times at signalized intersections that can account for multiple risk factors simultaneously rather than just the single variable of waiting time"
+  ],
+  "notes": "The research addresses important pedestrian safety concerns - pedestrian fatalities account for 40-50% of road deaths in Delhi and 21.9% in the UK. The model has implications for traffic-light control optimization and roadway layout design to improve both pedestrian safety and vehicle flow."
+}

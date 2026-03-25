@@ -1,0 +1,28 @@
+[
+  {
+    "gap_id": "b028cd5f-0fc9-4850-8068-b94b543db743",
+    "gap_statement": "The current literature set shows weak metric reporting, limiting rigorous cross-paper evaluation.",
+    "gap_type": "evaluation",
+    "supporting_evidence": [
+      "metric_rows=0"
+    ],
+    "counter_evidence": [],
+    "confidence": null,
+    "novelty_value": null,
+    "review_worthiness": null,
+    "status": "verified",
+    "partial_evidence_paper_ids": [
+      "08_2016_zhou_aap",
+      "09_2018_jiang_aap",
+      "12_2016_zhang_aap"
+    ],
+    "partial_evidence_summary": "The corpus contains 8 matrix rows, but only 0 rows expose reusable metric information for cross-paper evaluation.",
+    "why_insufficient": "too few studies report metrics in a consistent, reusable form for rigorous comparison or downstream benchmarking",
+    "practical_consequence": "section-level synthesis must stay narrative because cross-paper performance claims cannot be normalized with confidence",
+    "research_need": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale",
+    "resolution_needed": "common evaluation protocols and explicit metric reporting conventions that let future reviews compare outcomes on the same scale",
+    "partial_evidence": "The corpus contains 8 matrix rows, but only 0 rows expose reusable metric information for cross-paper evaluation.",
+    "insufficiency_reason": "too few studies report metrics in a consistent, reusable form for rigorous comparison or downstream benchmarking",
+    "consequence": "section-level synthesis must stay narrative because cross-paper performance claims cannot be normalized with confidence"
+  }
+]

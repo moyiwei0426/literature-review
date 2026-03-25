@@ -1,0 +1,28 @@
+[
+  {
+    "gap_id": "63f2bf23-2a41-4c3b-82f8-1c6fb8402eb0",
+    "gap_statement": "Current coverage appears to underrepresent Chinese-language or Chinese-context studies.",
+    "gap_type": "language",
+    "supporting_evidence": [
+      "language_distribution={'english': 3}"
+    ],
+    "counter_evidence": [],
+    "confidence": 0.6,
+    "novelty_value": 0.6,
+    "review_worthiness": 0.6,
+    "status": "verified"
+  },
+  {
+    "gap_id": "2b44c14b-7698-4c7d-860f-934ee7788022",
+    "gap_statement": "There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.",
+    "gap_type": "comparison",
+    "supporting_evidence": [
+      "contradiction_count=1"
+    ],
+    "counter_evidence": [],
+    "confidence": 0.6,
+    "novelty_value": 0.6,
+    "review_worthiness": 0.6,
+    "status": "verified"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction: Automating Literature Review Generation",
+    "objective": "Introduce the research problem of manual literature review being time-consuming and error-prone, and motivate the need for automated systems that can generate literature reviews from PDF inputs",
+    "gap_inputs": [
+      "37b68705-6b07-4780-9c7d-2b1da20a0750",
+      "72695c62-fa5c-43b0-b136-8baa0d29182d"
+    ],
+    "matrix_row_count": 4
+  },
+  {
+    "section_id": "sec-2",
+    "title": "Methodological Approaches to Automated Review Generation",
+    "objective": "Present and compare the three NLP approaches implemented in the reviewed study: frequency-based (spaCy), transformer-based (T5), and LLM-based (GPT-3.5-Turbo with RAG)",
+    "gap_inputs": [
+      "37b68705-6b07-4780-9c7d-2b1da20a0750",
+      "72695c62-fa5c-43b0-b136-8baa0d29182d"
+    ],
+    "matrix_row_count": 4
+  },
+  {
+    "section_id": "sec-3",
+    "title": "Experimental Setup: Dataset and Evaluation Metrics",
+    "objective": "Describe the SciTLDR dataset used for training and evaluation, along with the ROUGE family of metrics (ROUGE-1, ROUGE-2, ROUGE-L, ROUGE-Lsum) employed for performance assessment",
+    "gap_inputs": [
+      "37b68705-6b07-4780-9c7d-2b1da20a0750",
+      "72695c62-fa5c-43b0-b136-8baa0d29182d"
+    ],
+    "matrix_row_count": 4
+  },
+  {
+    "section_id": "sec-4",
+    "title": "Performance Comparison of NLP Approaches",
+    "objective": "Synthesize the empirical findings comparing the three approaches, highlighting the LLM-based method's superior ROUGE-1 performance (0.364) over T5 (0.268) and spaCy (0.257)",
+    "gap_inputs": [
+      "37b68705-6b07-4780-9c7d-2b1da20a0750",
+      "72695c62-fa5c-43b0-b136-8baa0d29182d"
+    ],
+    "matrix_row_count": 4
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Limitations and Applicability Constraints",
+    "objective": "Discuss the identified limitations including English-only language restriction, domain specificity of SciTLDR, and relatively low absolute ROUGE scores indicating room for improvement",
+    "gap_inputs": [
+      "37b68705-6b07-4780-9c7d-2b1da20a0750",
+      "72695c62-fa5c-43b0-b136-8baa0d29182d"
+    ],
+    "matrix_row_count": 4
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Open Problems and Future Research Directions",
+    "objective": "Identify unresolved challenges in automated literature review generation, including multilingual support, broader domain coverage, and improving summarization quality beyond current ROUGE benchmarks",
+    "gap_inputs": [
+      "37b68705-6b07-4780-9c7d-2b1da20a0750",
+      "72695c62-fa5c-43b0-b136-8baa0d29182d"
+    ],
+    "matrix_row_count": 4
+  }
+]

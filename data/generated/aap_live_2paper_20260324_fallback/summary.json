@@ -1,0 +1,550 @@
+{
+  "status": "success",
+  "output_dir": "data/generated/aap_live_2paper_20260324_fallback",
+  "parsed": 2,
+  "extracted": 2,
+  "processing_errors": [],
+  "extraction_reports": [
+    {
+      "paper_id": "08_2016_zhou_aap",
+      "provider": "openai_compatible",
+      "model": "MiniMax-M2.5",
+      "latency_ms": 36139,
+      "usage": {
+        "total_tokens": 12997,
+        "total_characters": 0,
+        "prompt_tokens": 11473,
+        "completion_tokens": 1524,
+        "completion_tokens_details": {
+          "reasoning_tokens": 503
+        }
+      },
+      "chunk_count": 36,
+      "attempts": 1,
+      "recovered_after_retry": false,
+      "fallback_used": false
+    },
+    {
+      "paper_id": "09_2018_jiang_aap",
+      "provider": "openai_compatible",
+      "model": "MiniMax-M2.5",
+      "latency_ms": 58981,
+      "usage": {
+        "total_tokens": 17092,
+        "total_characters": 0,
+        "prompt_tokens": 15372,
+        "completion_tokens": 1720,
+        "completion_tokens_details": {
+          "reasoning_tokens": 466
+        }
+      },
+      "chunk_count": 47,
+      "attempts": 2,
+      "recovered_after_retry": true,
+      "fallback_used": false
+    }
+  ],
+  "coverage": {
+    "paper_count": 2,
+    "method_family_distribution": {
+      "Structural Equation Modeling (SEM)": 1,
+      "controlled_experiment": 1,
+      "eye_tracking_study": 1,
+      "laboratory_outdoor_study": 1
+    },
+    "task_distribution": {
+      "Predicting pedestrians' violating road-crossing behavior intentions": 1,
+      "pedestrian_crossing_behavior": 1,
+      "visual_attention_allocation": 1
+    },
+    "language_distribution": {
+      "english": 2
+    },
+    "dataset_distribution": {
+      "Survey data from Dalian, China (260 complete and valid responses)": 1
+    },
+    "year_distribution": {
+      "2016": 1,
+      "2018": 1
+    },
+    "chinese_coverage_count": 1,
+    "themes": [
+      "Structural Equation Modeling (SEM)",
+      "controlled_experiment",
+      "eye_tracking_study",
+      "laboratory_outdoor_study"
+    ]
+  },
+  "matrix_rows": 9,
+  "contradictions": 0,
+  "gaps": {
+    "candidates": 0,
+    "verified": 0,
+    "scored": 0
+  },
+  "synthesis_map": {
+    "overview": {
+      "paper_count": 2,
+      "matrix_row_count": 9,
+      "verified_gap_count": 0,
+      "scored_gap_count": 0,
+      "rejected_gap_count": 0,
+      "contradiction_count": 0,
+      "dominant_axis": "factor",
+      "average_gap_score": 0.0,
+      "theme_counts": {
+        "method": 4,
+        "task": 3,
+        "factor": 5,
+        "application": 1
+      },
+      "coverage_themes": [
+        "Structural Equation Modeling (SEM)",
+        "controlled_experiment",
+        "eye_tracking_study",
+        "laboratory_outdoor_study"
+      ]
+    },
+    "theme_axes": {
+      "method": [
+        {
+          "theme_id": "method:structural_equation_modeling_(sem)",
+          "theme_type": "method",
+          "label": "Structural Equation Modeling (SEM)",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Structural Equation Modeling (SEM) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "method:controlled_experiment",
+          "theme_type": "method",
+          "label": "controlled_experiment",
+          "evidence_count": 4,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 4.0,
+          "synthesis_note": "controlled_experiment appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "method:eye_tracking_study",
+          "theme_type": "method",
+          "label": "eye_tracking_study",
+          "evidence_count": 4,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 4.0,
+          "synthesis_note": "eye_tracking_study appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "method:laboratory_outdoor_study",
+          "theme_type": "method",
+          "label": "laboratory_outdoor_study",
+          "evidence_count": 4,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 4.0,
+          "synthesis_note": "laboratory_outdoor_study appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ],
+      "task": [
+        {
+          "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+          "theme_type": "task",
+          "label": "Predicting pedestrians' violating road-crossing behavior intentions",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "task:pedestrian_crossing_behavior",
+          "theme_type": "task",
+          "label": "pedestrian_crossing_behavior",
+          "evidence_count": 4,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 4.0,
+          "synthesis_note": "pedestrian_crossing_behavior appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "task:visual_attention_allocation",
+          "theme_type": "task",
+          "label": "visual_attention_allocation",
+          "evidence_count": 4,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 4.0,
+          "synthesis_note": "visual_attention_allocation appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ],
+      "factor": [
+        {
+          "theme_id": "factor:behavioral_factors",
+          "theme_type": "factor",
+          "label": "behavioral_factors",
+          "evidence_count": 9,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 9.0,
+          "synthesis_note": "behavioral_factors appears in 9 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "factor:design_factors",
+          "theme_type": "factor",
+          "label": "design_factors",
+          "evidence_count": 4,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 4.0,
+          "synthesis_note": "design_factors appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "factor:environmental_factors",
+          "theme_type": "factor",
+          "label": "environmental_factors",
+          "evidence_count": 4,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 4.0,
+          "synthesis_note": "environmental_factors appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "factor:temporal_factors",
+          "theme_type": "factor",
+          "label": "temporal_factors",
+          "evidence_count": 4,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 4.0,
+          "synthesis_note": "temporal_factors appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        },
+        {
+          "theme_id": "factor:traffic_factors",
+          "theme_type": "factor",
+          "label": "traffic_factors",
+          "evidence_count": 4,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 4.0,
+          "synthesis_note": "traffic_factors appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ],
+      "application": [
+        {
+          "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+          "theme_type": "application",
+          "label": "Survey data from Dalian, China (260 complete and valid responses)",
+          "evidence_count": 5,
+          "gap_count": 0,
+          "contradiction_count": 0,
+          "priority_score": 5.0,
+          "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        }
+      ]
+    },
+    "top_themes": [
+      {
+        "theme_id": "factor:behavioral_factors",
+        "theme_type": "factor",
+        "label": "behavioral_factors",
+        "evidence_count": 9,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 9.0,
+        "synthesis_note": "behavioral_factors appears in 9 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "application:survey_data_from_dalian,_china_(260_complete_and_valid_responses)",
+        "theme_type": "application",
+        "label": "Survey data from Dalian, China (260 complete and valid responses)",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Survey data from Dalian, China (260 complete and valid responses) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "method:structural_equation_modeling_(sem)",
+        "theme_type": "method",
+        "label": "Structural Equation Modeling (SEM)",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Structural Equation Modeling (SEM) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "task:predicting_pedestrians'_violating_road-crossing_behavior_intentions",
+        "theme_type": "task",
+        "label": "Predicting pedestrians' violating road-crossing behavior intentions",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Predicting pedestrians' violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:design_factors",
+        "theme_type": "factor",
+        "label": "design_factors",
+        "evidence_count": 4,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 4.0,
+        "synthesis_note": "design_factors appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:environmental_factors",
+        "theme_type": "factor",
+        "label": "environmental_factors",
+        "evidence_count": 4,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 4.0,
+        "synthesis_note": "environmental_factors appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "method:controlled_experiment",
+        "theme_type": "method",
+        "label": "controlled_experiment",
+        "evidence_count": 4,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 4.0,
+        "synthesis_note": "controlled_experiment appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "method:eye_tracking_study",
+        "theme_type": "method",
+        "label": "eye_tracking_study",
+        "evidence_count": 4,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 4.0,
+        "synthesis_note": "eye_tracking_study appears in 4 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ]
+  },
+  "organization": {
+    "recommended_structure": "factor_taxonomy",
+    "scores": {
+      "method_taxonomy": 5.2,
+      "task_taxonomy": 3.9,
+      "factor_taxonomy": 13.156,
+      "application_scenario": 2.0
+    },
+    "rationale": "Cross-paper factor signals are dense enough to support a variable-centered narrative.",
+    "signals": {
+      "method_theme_count": 4,
+      "task_theme_count": 3,
+      "factor_theme_count": 5,
+      "application_theme_count": 1,
+      "contradiction_count": 0,
+      "average_gap_score": 0.0
+    }
+  },
+  "abstract": {
+    "title": "AAP live two-paper fallback",
+    "paper_count": 2,
+    "matrix_row_count": 9,
+    "dominant_axis": "factor structure",
+    "top_themes": [
+      "behavioral factors",
+      "Survey data from Dalian, China (260 complete and valid responses)",
+      "Structural Equation Modeling (SEM)"
+    ],
+    "top_methods": [
+      "Structural Equation Modeling (SEM)",
+      "controlled experiment",
+      "eye tracking study"
+    ],
+    "top_tasks": [
+      "Predicting pedestrians' violating road-crossing behavior intentions",
+      "pedestrian crossing behavior",
+      "visual attention allocation"
+    ],
+    "verified_gap_count": 0,
+    "text": "AAP live two-paper fallback synthesizes 2 papers across 9 evidence rows using factor structure as the main organizing lens. The synthesis is concentrated in behavioral factors, Survey data from Dalian, China (260 complete and valid responses), with recurring methods such as Structural Equation Modeling (SEM), controlled experiment and task coverage centered on Predicting pedestrians' violating road-crossing behavior intentions, pedestrian crossing behavior. Across 2 papers, the evidence is most coherently organized around factor structure rather than any single method, and the strongest clusters are behavioral factors, Survey data from Dalian, China (260 complete and valid responses), Structural Equation Modeling (SEM). Future work should prioritize standardized reporting and more explicit cross-study comparison."
+  },
+  "keywords": {
+    "keywords": [
+      "predicting pedestrians' violating road-crossing behavior intentions",
+      "structural equation modeling (sem)",
+      "survey data from dalian, china (260 complete and valid responses)",
+      "controlled experiment",
+      "pedestrian crossing behavior",
+      "visual attention allocation",
+      "eye tracking study",
+      "examine pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (tpb), and extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions"
+    ],
+    "keyword_count": 8,
+    "dominant_axis": "factor taxonomy",
+    "signals": {
+      "predicting pedestrians' violating road-crossing behavior intentions": 9.35,
+      "structural equation modeling (sem)": 8.6,
+      "survey data from dalian, china (260 complete and valid responses)": 7.6,
+      "controlled experiment": 7.1,
+      "pedestrian crossing behavior": 6.5,
+      "visual attention allocation": 6.5,
+      "eye tracking study": 5.9,
+      "examine pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (tpb), and extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions": 5.0,
+      "cmin/df ratio": 4.5,
+      "rmsea (root mean square error of approximation)": 4.5,
+      "pclose": 4.5,
+      "this study investigates how mobile phone distractions (music distraction, phone conversation distraction, and text distraction) affect the behavior of pedestrians while crossing the street at a signalized intersection, addressing the growing safety concern of mobile phone use among pedestrians.": 4.0
+    }
+  },
+  "outline_sections": 9,
+  "bib_entries": 2,
+  "validation": {
+    "overall_status": "pass",
+    "section_count": 9,
+    "healthy_section_count": 9,
+    "weak_section_count": 0,
+    "finding_count": 0,
+    "severity_counts": {},
+    "flagged_sections": []
+  },
+  "compile": null,
+  "warnings": [],
+  "artifacts": {
+    "artifacts.json": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/artifacts.json",
+      "exists": true,
+      "size_bytes": 4034
+    },
+    "summary.json": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/summary.json",
+      "exists": true,
+      "size_bytes": 16171
+    },
+    "coverage.json": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/coverage.json",
+      "exists": true,
+      "size_bytes": 781
+    },
+    "matrix.json": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/matrix.json",
+      "exists": true,
+      "size_bytes": 24804
+    },
+    "matrix.csv": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/matrix.csv",
+      "exists": true,
+      "size_bytes": 21940
+    },
+    "matrix.md": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/matrix.md",
+      "exists": true,
+      "size_bytes": 22313
+    },
+    "contradiction.json": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/contradiction.json",
+      "exists": true,
+      "size_bytes": 10259
+    },
+    "candidate_gaps.json": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/candidate_gaps.json",
+      "exists": true,
+      "size_bytes": 2
+    },
+    "verified_gaps.json": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/verified_gaps.json",
+      "exists": true,
+      "size_bytes": 2
+    },
+    "scored_gaps.json": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/scored_gaps.json",
+      "exists": true,
+      "size_bytes": 2
+    },
+    "synthesis_map.json": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/synthesis_map.json",
+      "exists": true,
+      "size_bytes": 9330
+    },
+    "organization.json": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/organization.json",
+      "exists": true,
+      "size_bytes": 486
+    },
+    "outline.json": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/outline.json",
+      "exists": true,
+      "size_bytes": 3223
+    },
+    "section_plans.json": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/section_plans.json",
+      "exists": true,
+      "size_bytes": 75097
+    },
+    "paragraph_plans.json": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/paragraph_plans.json",
+      "exists": true,
+      "size_bytes": 76618
+    },
+    "sections.json": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/sections.json",
+      "exists": true,
+      "size_bytes": 114357
+    },
+    "validation_report.json": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/validation_report.json",
+      "exists": true,
+      "size_bytes": 5334
+    },
+    "review.md": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/review.md",
+      "exists": true,
+      "size_bytes": 20337
+    },
+    "review.tex": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/review.tex",
+      "exists": true,
+      "size_bytes": 22833
+    },
+    "bib.tex": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/bib.tex",
+      "exists": true,
+      "size_bytes": 659
+    },
+    "abstract.json": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/abstract.json",
+      "exists": true,
+      "size_bytes": 1443
+    },
+    "abstract.txt": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/abstract.txt",
+      "exists": true,
+      "size_bytes": 824
+    },
+    "keywords.json": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/keywords.json",
+      "exists": true,
+      "size_bytes": 1765
+    },
+    "keywords.txt": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/keywords.txt",
+      "exists": true,
+      "size_bytes": 548
+    },
+    "appendix.json": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/appendix.json",
+      "exists": true,
+      "size_bytes": 5085
+    },
+    "evidence_table.json": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/evidence_table.json",
+      "exists": true,
+      "size_bytes": 3888
+    },
+    "evidence_table.md": {
+      "path": "data/generated/aap_live_2paper_20260324_fallback/evidence_table.md",
+      "exists": true,
+      "size_bytes": 3320
+    }
+  }
+}

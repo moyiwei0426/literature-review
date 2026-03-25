@@ -1,0 +1,129 @@
+{
+  "paper_id": "02_2003_brosseau_trf",
+  "title": "Untitled",
+  "research_problem": "The paper investigates pedestrian behaviors at various urban crosswalks and pedestrian perceptions toward different pedestrian facilities (signalized/unsignalized intersection crosswalks, midblock crosswalks, physical barriers, shelters, colored paving) in a divided urban boulevard next to Michigan State University.",
+  "problem_type": "empirical_observational_study",
+  "domain": "transportation_engineering_pedestrian_safety",
+  "language_scope": "english",
+  "method_summary": "Mixed-methods study combining: (1) video-camera observation of pedestrian movements using 8 cameras at study site over multiple sessions during peak periods, and (2) user survey administered electronically to 711 pedestrians (daily and occasional users) covering crossing patterns, preferences, and perceptions.",
+  "method_family": [
+    "observational_study_survey_research"
+  ],
+  "datasets": [
+    "Grand River Avenue (M-43), East Lansing MI - 1km divided boulevard section from Abbott to Bogue Streets",
+    "Survey data: 711 completed questionnaires (from 897 received, after removing 186 non-user or incomplete responses)",
+    "Video data: 16-18 hours of recorded pedestrian movements across study site"
+  ],
+  "tasks": [
+    "pedestrian_crossing_compliance_measurement",
+    "pedestrian_perception_assessment",
+    "factor_analysis_of_crossing_choices",
+    "comparison_of_survey_and_observed_behavior"
+  ],
+  "metrics": [
+    "Spatial_Crossing_Compliance_Rate_SCCR",
+    "Temporal_Crossing_Compliance_Rate_TCCR",
+    "crossing_location_preferences_percent",
+    "perceived_safety_rating",
+    "factor_influence_ratings"
+  ],
+  "baselines": [
+    "signalized_intersection_crosswalks",
+    "unsignalized_intersection_crosswalks",
+    "unsignalized_midblock_crosswalks",
+    "non-striped_midblock_crosswalks"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "Unsignalized midblock crosswalks are the most preferred pedestrian facility (83% reported preference) with high crossing compliance rate (71.2%)",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "80325e84-6874-4ead-8690-7cc62b8f449b"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "Crosswalk location relative to pedestrian origin/destination is the most influential decision factor (90% said so)",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "80325e84-6874-4ead-8690-7cc62b8f449b",
+        "9edc9be5-64ef-4bf2-9061-755b97d48046"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "Pedestrian signal presence significantly influences crossing decisions at specific locations (74% reported influence)",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "80325e84-6874-4ead-8690-7cc62b8f449b"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "Physical barriers (vegetation and concrete walls) influence pedestrian crossing decisions significantly (65% reported influence)",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "80325e84-6874-4ead-8690-7cc62b8f449b",
+        "e79f31ed-6bc2-4c34-b8f7-10d418296e35"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-5",
+      "claim_text": "Good agreement exists between self-reported survey behavior and actual observed pedestrian behavior",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "e2d64668-7b63-4972-ac2d-9f5166310824"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "Study conducted at single location (university campus corridor) - limited geographic generalizability",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "416abacb-d34e-4d2d-b7bd-7efcbf6fab59"
+      ]
+    },
+    {
+      "text": "Survey response rate was 17.9% - potential for non-response bias",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "672b920e-5597-4d49-9a42-4bcdc3da0c28"
+      ]
+    },
+    {
+      "text": "Sample predominantly university affiliates (students, staff, faculty) - may not represent general population",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "56198444-f8db-4f57-87f5-cd4242e42927"
+      ]
+    },
+    {
+      "text": "Data collection limited to Michigan State University session periods (Spring/Fall 1998), excluding weekends and adverse weather",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "cacc509e-803f-4167-8c05-2238be985276"
+      ]
+    },
+    {
+      "text": "Self-reported survey data may be subject to social desirability bias",
+      "source": "inferred",
+      "evidence_chunk_ids": []
+    }
+  ],
+  "future_work": [
+    "conduct_crash_and_conflict_analysis_to_assess_warning_sign_value",
+    "examine_relationship_between_safety_and_pedestrian_acceptance",
+    "investigate_differences_between_drivers_and_pedestrians_regarding_right_of_way",
+    "examine_differences_across_demographic_groups_age_gender",
+    "evaluate_effectiveness_of_leading_pedestrian_intervals",
+    "develop_guidelines_for_pedestrian_control_at_corridors_with_high_volumes"
+  ],
+  "notes": "Study site was renovated Grand River Avenue corridor with multiple facility types in same environment. SCCR averages 71.4% across all crosswalk types. Signalized crosswalks showed highest SCCR (82.8%) but lower temporal compliance. Survey responses showed good consistency with observed behavior (59% spatial compliance from survey vs 71.4% observed)."
+}

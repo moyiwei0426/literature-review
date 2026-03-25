@@ -1,0 +1,52 @@
+[
+  {
+    "claim_id": "claim-1",
+    "claim_text": "Female pedestrians have significantly lower propensity of red light running compared to males (b=-0.433, odds ratio=0.649)",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "ea55407c-1ad0-4645-bdb8-a4f3c72fe6be",
+      "261fd80c-4852-4037-b56b-394b0cde2b47"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-2",
+    "claim_text": "Pedestrian age significantly affects red light running propensity: adolescents have lower (b=-0.228) and elderly have higher propensity (b=0.174) compared to adults",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "ea55407c-1ad0-4645-bdb8-a4f3c72fe6be",
+      "11c971de-8d81-40a9-ad87-8e5b59058284"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-3",
+    "claim_text": "Presence of a companion significantly reduces red light running propensity (b=-0.984, odds ratio=0.374)",
+    "claim_type": "methodological",
+    "evidence_chunk_ids": [
+      "ea55407c-1ad0-4645-bdb8-a4f3c72fe6be",
+      "2c67ed1c-8ef6-4112-8ba1-19df94f288e4"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-4",
+    "claim_text": "Social influences strongly affect individual violation decisions: presence of other violators increases propensity (b=1.029) while more pedestrians waiting reduces it (b=-0.394)",
+    "claim_type": "application",
+    "evidence_chunk_ids": [
+      "ea55407c-1ad0-4645-bdb8-a4f3c72fe6be",
+      "2c67ed1c-8ef6-4112-8ba1-19df94f288e4"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-5",
+    "claim_text": "Environmental factors including time to green, red time, traffic volume, and number of lanes significantly affect red light running propensity",
+    "claim_type": "theoretical",
+    "evidence_chunk_ids": [
+      "84ec1043-cd63-48a6-b826-b58220407245",
+      "461a8223-48e4-4466-979b-670a77afc8f2"
+    ],
+    "confidence": null
+  }
+]

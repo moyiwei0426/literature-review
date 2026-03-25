@@ -1,0 +1,3 @@
+| paper_id | title | year | venue | authors | methods | tasks | datasets | metrics | claim_count | claims | gap_matches | evidence_chunk_ids |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 01_2001_hamed_safety_science | Untitled | 2001 | safety science | ['Hamed'] | ['pipeline', 'llm-assisted-extraction'] | ['literature review', 'information extraction'] | [] | [] | 2 | ['The pipeline can transform parsed paper chunks into a structured paper profile.', 'The system supports downstream gap analysis by preserving evidence links.'] | ['3bf36a13-bc65-4e84-a1dd-caddae22df39'] | ['6b360c0d-b73f-49f5-bc79-971f9b8cdb20', '6e874ffa-a4c6-4416-afa9-d310e426ddb7'] |

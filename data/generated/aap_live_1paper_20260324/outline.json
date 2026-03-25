@@ -1,0 +1,51 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction and Research Context",
+    "objective": "Introduce the problem of pedestrian violating crossing behavior and its significance for traffic safety research",
+    "gap_inputs": [],
+    "matrix_row_count": 5
+  },
+  {
+    "section_id": "sec-2",
+    "title": "Theoretical Background: Theory of Planned Behavior and Extensions",
+    "objective": "Provide theoretical grounding in TPB and its extensions for understanding pedestrian behavior prediction",
+    "gap_inputs": [],
+    "matrix_row_count": 5
+  },
+  {
+    "section_id": "sec-3",
+    "title": "Structural Equation Modeling Methodology",
+    "objective": "Describe the SEM methodology employed for modeling pedestrian violating crossing intentions and its analytical advantages",
+    "gap_inputs": [],
+    "matrix_row_count": 5
+  },
+  {
+    "section_id": "sec-4",
+    "title": "Behavioral Factors in Crossing Intentions",
+    "objective": "Synthesize evidence on instrumental attitude, descriptive norm, conformity tendency, and perceived risk as predictors of violating behavior intentions",
+    "gap_inputs": [],
+    "matrix_row_count": 5
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Demographic and Traffic Context Factors",
+    "objective": "Analyze the role of demographic characteristics and traffic factors in shaping pedestrian crossing decisions",
+    "gap_inputs": [],
+    "matrix_row_count": 5
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Study Limitations and Methodological Considerations",
+    "objective": "Discuss self-report bias, cultural generalizability concerns, and measurement limitations in the reviewed research",
+    "gap_inputs": [],
+    "matrix_row_count": 5
+  },
+  {
+    "section_id": "sec-7",
+    "title": "Conclusions and Implications for Safety Interventions",
+    "objective": "Summarize key findings on TPB extensions for pedestrian behavior prediction and their implications for traffic safety interventions",
+    "gap_inputs": [],
+    "matrix_row_count": 5
+  }
+]

@@ -1,0 +1,833 @@
+[
+  {
+    "section_id": "sec-intro",
+    "title": "Introduction and Review Scope",
+    "objective": "Establish the review motivation, scope, and the evidence base that the selected structure will organize.",
+    "section_goal": "Establish the review motivation, scope, and the evidence base that the selected structure will organize. Use Behavioral Factors, Survey Data From 260 Respondents In Dalian, China as the organizing lens across 5 matrix rows.",
+    "structure": "factor_taxonomy",
+    "dominant_axis": "factor",
+    "theme_refs": [
+      {
+        "theme_id": "factor:behavioral_factors",
+        "label": "Behavioral Factors",
+        "theme_type": "factor",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+        "label": "Survey Data From 260 Respondents In Dalian, China",
+        "theme_type": "application",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "gap_refs": [],
+    "matrix_signals": {
+      "row_count": 5,
+      "paper_count": 1,
+      "paper_ids": [
+        "08_2016_zhou_aap"
+      ],
+      "method_families": [
+        "Structural Equation Modeling (Sem) / Survey Based Research"
+      ],
+      "tasks": [
+        "Predicting Pedestrian Violating Crossing Behavior Intention"
+      ],
+      "datasets": [
+        "Survey Data From 260 Respondents In Dalian, China"
+      ],
+      "metrics": [
+        "Cmin/Df Ratio",
+        "Rmsea",
+        "Pclose",
+        "Cfi"
+      ],
+      "claim_count": 5
+    },
+    "argument_moves": [
+      {
+        "move_id": "sec-intro-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Introduction and Review Scope around Behavioral Factors, Survey Data From 260 Respondents In Dalian, China and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+            "label": "Survey Data From 260 Respondents In Dalian, China",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "Examining pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (TPB) and extending it with descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on behavioral intentions."
+        ]
+      },
+      {
+        "move_id": "sec-intro-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 5 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+            "label": "Survey Data From 260 Respondents In Dalian, China",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "Conformity tendency (the tendency to modify behavior when around others) is a strong predictor of violating crossing intention, indicating that the presence of other pedestrians influences behavioral intention.",
+          "Subjective norm is significant in the basic TPB model but becomes non-significant when descriptive norm is added, suggesting that observation of others' behavior has greater influence than perceived approval from important referents."
+        ]
+      },
+      {
+        "move_id": "sec-intro-synthesis-3",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+            "label": "Survey Data From 260 Respondents In Dalian, China",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Behavioral Factors, Survey Data From 260 Respondents In Dalian, China."
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-factor-taxonomy",
+    "title": "Factor Taxonomy and Contextual Drivers",
+    "objective": "Organize the review around variable-centered factors and explain how the strongest contextual drivers shape the evidence base.",
+    "section_goal": "Organize the review around variable-centered factors and explain how the strongest contextual drivers shape the evidence base. Use Behavioral Factors, Survey Data From 260 Respondents In Dalian, China as the organizing lens across 5 matrix rows.",
+    "structure": "factor_taxonomy",
+    "dominant_axis": "factor",
+    "theme_refs": [
+      {
+        "theme_id": "factor:behavioral_factors",
+        "label": "Behavioral Factors",
+        "theme_type": "factor",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+        "label": "Survey Data From 260 Respondents In Dalian, China",
+        "theme_type": "application",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "gap_refs": [],
+    "matrix_signals": {
+      "row_count": 5,
+      "paper_count": 1,
+      "paper_ids": [
+        "08_2016_zhou_aap"
+      ],
+      "method_families": [
+        "Structural Equation Modeling (Sem) / Survey Based Research"
+      ],
+      "tasks": [
+        "Predicting Pedestrian Violating Crossing Behavior Intention"
+      ],
+      "datasets": [
+        "Survey Data From 260 Respondents In Dalian, China"
+      ],
+      "metrics": [
+        "Cmin/Df Ratio",
+        "Rmsea",
+        "Pclose",
+        "Cfi"
+      ],
+      "claim_count": 5
+    },
+    "argument_moves": [
+      {
+        "move_id": "sec-factor-taxonomy-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Factor Taxonomy and Contextual Drivers around Behavioral Factors, Survey Data From 260 Respondents In Dalian, China and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+            "label": "Survey Data From 260 Respondents In Dalian, China",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "Examining pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (TPB) and extending it with descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on behavioral intentions."
+        ]
+      },
+      {
+        "move_id": "sec-factor-taxonomy-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 5 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+            "label": "Survey Data From 260 Respondents In Dalian, China",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "Conformity tendency (the tendency to modify behavior when around others) is a strong predictor of violating crossing intention, indicating that the presence of other pedestrians influences behavioral intention.",
+          "Instrumental attitude is a significant predictor of pedestrians' violating crossing behavior intention across all models tested."
+        ]
+      },
+      {
+        "move_id": "sec-factor-taxonomy-comparison-3",
+        "move_type": "comparison",
+        "purpose": "Compare how Behavioral Factors, Survey Data From 260 Respondents In Dalian, China diverge in evidence density, contradictions, or reporting conventions.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+            "label": "Survey Data From 260 Respondents In Dalian, China",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s).",
+          "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        ]
+      },
+      {
+        "move_id": "sec-factor-taxonomy-synthesis-4",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+            "label": "Survey Data From 260 Respondents In Dalian, China",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Behavioral Factors, Survey Data From 260 Respondents In Dalian, China."
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-factor-behavioral-factors",
+    "title": "Factor Focus: Behavioral Factors",
+    "objective": "Synthesize the behavioral factors evidence cluster across 5 studies, highlighting 0 gap signals and 0 contradiction signals.",
+    "section_goal": "Synthesize the behavioral factors evidence cluster across 5 studies, highlighting 0 gap signals and 0 contradiction signals. Use Behavioral Factors, Survey Data From 260 Respondents In Dalian, China as the organizing lens across 5 matrix rows.",
+    "structure": "factor_taxonomy",
+    "dominant_axis": "factor",
+    "theme_refs": [
+      {
+        "theme_id": "factor:behavioral_factors",
+        "label": "Behavioral Factors",
+        "theme_type": "factor",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+        "label": "Survey Data From 260 Respondents In Dalian, China",
+        "theme_type": "application",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "gap_refs": [],
+    "matrix_signals": {
+      "row_count": 5,
+      "paper_count": 1,
+      "paper_ids": [
+        "08_2016_zhou_aap"
+      ],
+      "method_families": [
+        "Structural Equation Modeling (Sem) / Survey Based Research"
+      ],
+      "tasks": [
+        "Predicting Pedestrian Violating Crossing Behavior Intention"
+      ],
+      "datasets": [
+        "Survey Data From 260 Respondents In Dalian, China"
+      ],
+      "metrics": [
+        "Cmin/Df Ratio",
+        "Rmsea",
+        "Pclose",
+        "Cfi"
+      ],
+      "claim_count": 5
+    },
+    "argument_moves": [
+      {
+        "move_id": "sec-factor-behavioral-factors-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Factor Focus: Behavioral Factors around Behavioral Factors, Survey Data From 260 Respondents In Dalian, China and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+            "label": "Survey Data From 260 Respondents In Dalian, China",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "Examining pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (TPB) and extending it with descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on behavioral intentions."
+        ]
+      },
+      {
+        "move_id": "sec-factor-behavioral-factors-evidence-2",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 5 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+            "label": "Survey Data From 260 Respondents In Dalian, China",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "Instrumental attitude is a significant predictor of pedestrians' violating crossing behavior intention across all models tested.",
+          "Descriptive norm (perceived actual behavior of family and friends) is a stronger predictor than subjective norm (perceived approval) and remains significant when added to the basic TPB model."
+        ]
+      },
+      {
+        "move_id": "sec-factor-behavioral-factors-synthesis-3",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+            "label": "Survey Data From 260 Respondents In Dalian, China",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Behavioral Factors, Survey Data From 260 Respondents In Dalian, China."
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-factor-taxonomy-comparison",
+    "title": "Comparative Factor Evidence and Interactions",
+    "objective": "Compare the strongest factor themes, emphasizing interaction patterns, shared covariates, and variable-level gaps.",
+    "section_goal": "Compare the strongest factor themes, emphasizing interaction patterns, shared covariates, and variable-level gaps. Use Behavioral Factors, Survey Data From 260 Respondents In Dalian, China as the organizing lens across 5 matrix rows.",
+    "structure": "factor_taxonomy",
+    "dominant_axis": "factor",
+    "theme_refs": [
+      {
+        "theme_id": "factor:behavioral_factors",
+        "label": "Behavioral Factors",
+        "theme_type": "factor",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+        "label": "Survey Data From 260 Respondents In Dalian, China",
+        "theme_type": "application",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "gap_refs": [],
+    "matrix_signals": {
+      "row_count": 5,
+      "paper_count": 1,
+      "paper_ids": [
+        "08_2016_zhou_aap"
+      ],
+      "method_families": [
+        "Structural Equation Modeling (Sem) / Survey Based Research"
+      ],
+      "tasks": [
+        "Predicting Pedestrian Violating Crossing Behavior Intention"
+      ],
+      "datasets": [
+        "Survey Data From 260 Respondents In Dalian, China"
+      ],
+      "metrics": [
+        "Cmin/Df Ratio",
+        "Rmsea",
+        "Pclose",
+        "Cfi"
+      ],
+      "claim_count": 5
+    },
+    "argument_moves": [
+      {
+        "move_id": "sec-factor-taxonomy-comparison-framing-1",
+        "move_type": "framing",
+        "purpose": "Frame Comparative Factor Evidence and Interactions around Behavioral Factors, Survey Data From 260 Respondents In Dalian, China and clarify why this evidence cluster matters.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+            "label": "Survey Data From 260 Respondents In Dalian, China",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "Examining pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (TPB) and extending it with descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on behavioral intentions."
+        ]
+      },
+      {
+        "move_id": "sec-factor-taxonomy-comparison-comparison-2",
+        "move_type": "comparison",
+        "purpose": "Compare how Behavioral Factors, Survey Data From 260 Respondents In Dalian, China diverge in evidence density, contradictions, or reporting conventions.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+            "label": "Survey Data From 260 Respondents In Dalian, China",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s).",
+          "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        ]
+      },
+      {
+        "move_id": "sec-factor-taxonomy-comparison-evidence-3",
+        "move_type": "evidence",
+        "purpose": "Anchor the section in 5 extracted claim signal(s) and the strongest matrix evidence.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+            "label": "Survey Data From 260 Respondents In Dalian, China",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "Instrumental attitude is a significant predictor of pedestrians' violating crossing behavior intention across all models tested.",
+          "Descriptive norm (perceived actual behavior of family and friends) is a stronger predictor than subjective norm (perceived approval) and remains significant when added to the basic TPB model."
+        ]
+      },
+      {
+        "move_id": "sec-factor-taxonomy-comparison-synthesis-4",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+            "label": "Survey Data From 260 Respondents In Dalian, China",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Behavioral Factors, Survey Data From 260 Respondents In Dalian, China."
+        ]
+      }
+    ]
+  },
+  {
+    "section_id": "sec-conclusion",
+    "title": "Conclusion",
+    "objective": "Summarize the selected taxonomy, the strongest synthesis themes, and the main future directions implied by the evidence base.",
+    "section_goal": "Summarize the selected taxonomy, the strongest synthesis themes, and the main future directions implied by the evidence base. Use Behavioral Factors, Survey Data From 260 Respondents In Dalian, China as the organizing lens across 5 matrix rows.",
+    "structure": "factor_taxonomy",
+    "dominant_axis": "factor",
+    "theme_refs": [
+      {
+        "theme_id": "factor:behavioral_factors",
+        "label": "Behavioral Factors",
+        "theme_type": "factor",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+        "label": "Survey Data From 260 Respondents In Dalian, China",
+        "theme_type": "application",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "gap_refs": [],
+    "matrix_signals": {
+      "row_count": 5,
+      "paper_count": 1,
+      "paper_ids": [
+        "08_2016_zhou_aap"
+      ],
+      "method_families": [
+        "Structural Equation Modeling (Sem) / Survey Based Research"
+      ],
+      "tasks": [
+        "Predicting Pedestrian Violating Crossing Behavior Intention"
+      ],
+      "datasets": [
+        "Survey Data From 260 Respondents In Dalian, China"
+      ],
+      "metrics": [
+        "Cmin/Df Ratio",
+        "Rmsea",
+        "Pclose",
+        "Cfi"
+      ],
+      "claim_count": 5
+    },
+    "argument_moves": [
+      {
+        "move_id": "sec-conclusion-synthesis-1",
+        "move_type": "synthesis",
+        "purpose": "Close the section by stating the field-level takeaway rather than repeating paper-by-paper details.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+            "label": "Survey Data From 260 Respondents In Dalian, China",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "The evidence clusters most clearly around Behavioral Factors, Survey Data From 260 Respondents In Dalian, China."
+        ]
+      },
+      {
+        "move_id": "sec-conclusion-comparison-2",
+        "move_type": "comparison",
+        "purpose": "Compare how Behavioral Factors, Survey Data From 260 Respondents In Dalian, China diverge in evidence density, contradictions, or reporting conventions.",
+        "theme_refs": [
+          {
+            "theme_id": "factor:behavioral_factors",
+            "label": "Behavioral Factors",
+            "theme_type": "factor",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          },
+          {
+            "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china",
+            "label": "Survey Data From 260 Respondents In Dalian, China",
+            "theme_type": "application",
+            "evidence_count": 5,
+            "gap_count": 0,
+            "contradiction_count": 0,
+            "priority_score": 5.0,
+            "synthesis_note": "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+          }
+        ],
+        "gap_refs": [],
+        "citation_targets": [
+          "08_2016_zhou_aap"
+        ],
+        "supporting_points": [
+          "behavioral_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s).",
+          "Survey data from 260 respondents in Dalian, China appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+        ]
+      }
+    ]
+  }
+]

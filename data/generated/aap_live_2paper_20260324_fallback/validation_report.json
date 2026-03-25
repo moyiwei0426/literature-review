@@ -1,0 +1,223 @@
+{
+  "generated_at": "2026-03-24T06:55:46.690823+00:00",
+  "validator": "review_validator.rule_based.v1",
+  "status": "pass",
+  "overall_status": "pass",
+  "counts": {
+    "section_count": 9,
+    "healthy_section_count": 9,
+    "weak_section_count": 0,
+    "finding_count": 0,
+    "findings": 0,
+    "severity_counts": {}
+  },
+  "summary": {
+    "overall_status": "pass",
+    "section_count": 9,
+    "healthy_section_count": 9,
+    "weak_section_count": 0,
+    "finding_count": 0,
+    "severity_counts": {},
+    "flagged_sections": []
+  },
+  "sections": [
+    {
+      "section_id": "sec-1",
+      "title": "Introduction and Research Context",
+      "role": "introduction",
+      "status": "pass",
+      "expected_moves": [
+        "framing",
+        "evidence",
+        "synthesis"
+      ],
+      "observed_moves": {
+        "framing": 1,
+        "evidence": 1,
+        "synthesis": 1
+      },
+      "paragraph_count": 3,
+      "cited_paragraph_count": 3,
+      "section_citation_count": 2,
+      "linked_gap_count": 0,
+      "findings": [],
+      "recommendations": []
+    },
+    {
+      "section_id": "sec-2",
+      "title": "Theoretical Foundations of Pedestrian Crossing Behavior",
+      "role": "body",
+      "status": "pass",
+      "expected_moves": [
+        "framing",
+        "evidence",
+        "synthesis"
+      ],
+      "observed_moves": {
+        "framing": 1,
+        "evidence": 1,
+        "synthesis": 1
+      },
+      "paragraph_count": 3,
+      "cited_paragraph_count": 3,
+      "section_citation_count": 2,
+      "linked_gap_count": 0,
+      "findings": [],
+      "recommendations": []
+    },
+    {
+      "section_id": "sec-3",
+      "title": "Behavioral Factors Influencing Crossing Intentions",
+      "role": "body",
+      "status": "pass",
+      "expected_moves": [
+        "framing",
+        "evidence",
+        "synthesis"
+      ],
+      "observed_moves": {
+        "framing": 1,
+        "evidence": 1,
+        "synthesis": 1
+      },
+      "paragraph_count": 3,
+      "cited_paragraph_count": 3,
+      "section_citation_count": 2,
+      "linked_gap_count": 0,
+      "findings": [],
+      "recommendations": []
+    },
+    {
+      "section_id": "sec-4",
+      "title": "The Role of Perceived Risk and Control in Crossing Behavior",
+      "role": "body",
+      "status": "pass",
+      "expected_moves": [
+        "framing",
+        "evidence",
+        "synthesis"
+      ],
+      "observed_moves": {
+        "framing": 1,
+        "evidence": 1,
+        "synthesis": 1
+      },
+      "paragraph_count": 3,
+      "cited_paragraph_count": 3,
+      "section_citation_count": 2,
+      "linked_gap_count": 0,
+      "findings": [],
+      "recommendations": []
+    },
+    {
+      "section_id": "sec-5",
+      "title": "Mobile Phone Distraction Effects on Crossing Performance",
+      "role": "body",
+      "status": "pass",
+      "expected_moves": [
+        "framing",
+        "evidence",
+        "synthesis"
+      ],
+      "observed_moves": {
+        "framing": 1,
+        "evidence": 1,
+        "synthesis": 1
+      },
+      "paragraph_count": 3,
+      "cited_paragraph_count": 3,
+      "section_citation_count": 2,
+      "linked_gap_count": 0,
+      "findings": [],
+      "recommendations": []
+    },
+    {
+      "section_id": "sec-6",
+      "title": "Visual Attention Allocation Under Distraction",
+      "role": "body",
+      "status": "pass",
+      "expected_moves": [
+        "framing",
+        "evidence",
+        "synthesis"
+      ],
+      "observed_moves": {
+        "framing": 1,
+        "evidence": 1,
+        "synthesis": 1
+      },
+      "paragraph_count": 3,
+      "cited_paragraph_count": 3,
+      "section_citation_count": 2,
+      "linked_gap_count": 0,
+      "findings": [],
+      "recommendations": []
+    },
+    {
+      "section_id": "sec-7",
+      "title": "Environmental and Design Factors in Pedestrian Safety",
+      "role": "body",
+      "status": "pass",
+      "expected_moves": [
+        "framing",
+        "evidence",
+        "synthesis"
+      ],
+      "observed_moves": {
+        "framing": 1,
+        "evidence": 1,
+        "synthesis": 1
+      },
+      "paragraph_count": 3,
+      "cited_paragraph_count": 3,
+      "section_citation_count": 2,
+      "linked_gap_count": 0,
+      "findings": [],
+      "recommendations": []
+    },
+    {
+      "section_id": "sec-8",
+      "title": "Methodological Approaches and Their Contributions",
+      "role": "body",
+      "status": "pass",
+      "expected_moves": [
+        "framing",
+        "evidence",
+        "synthesis"
+      ],
+      "observed_moves": {
+        "framing": 1,
+        "evidence": 1,
+        "synthesis": 1
+      },
+      "paragraph_count": 3,
+      "cited_paragraph_count": 3,
+      "section_citation_count": 2,
+      "linked_gap_count": 0,
+      "findings": [],
+      "recommendations": []
+    },
+    {
+      "section_id": "sec-9",
+      "title": "Conclusions and Future Research Directions",
+      "role": "gap",
+      "status": "pass",
+      "expected_moves": [
+        "synthesis",
+        "comparison"
+      ],
+      "observed_moves": {
+        "synthesis": 2,
+        "comparison": 1,
+        "gap": 1
+      },
+      "paragraph_count": 4,
+      "cited_paragraph_count": 4,
+      "section_citation_count": 2,
+      "linked_gap_count": 0,
+      "findings": [],
+      "recommendations": []
+    }
+  ],
+  "recommendations": []
+}

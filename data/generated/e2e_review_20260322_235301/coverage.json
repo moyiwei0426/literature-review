@@ -1,0 +1,37 @@
+{
+  "paper_count": 3,
+  "method_family_distribution": {
+    "Experimental VR simulation study": 1,
+    "statistical_modeling": 1,
+    "random_parameter_logit_model": 1
+  },
+  "task_distribution": {
+    "Pedestrian crossing behavior at unsignalized crosswalk in presence of FAV with external communication features": 1,
+    "analyze factors affecting pedestrian red-light running behavior": 1,
+    "predict probability of red-light running based on significant variables": 1,
+    "analyze_pedestrian_red_light_running_behavior": 1,
+    "identify_factors_affecting_red_light_violation": 1,
+    "examine_interaction_effects_between_personal_and_environmental_factors": 1
+  },
+  "language_distribution": {
+    "english": 3
+  },
+  "dataset_distribution": {
+    "Original VR-generated data (not pre-existing dataset)": 1,
+    "631 valid pedestrian survey samples from Hefei, China (collected May-June 2015)": 1,
+    "6,320 pedestrians observed at 6 signalized crosswalks in Hong Kong": 1,
+    "652 signal cycles": 1,
+    "Urban crosswalk locations: Prince Edward Road West j/w Nathan Road, Argyle Street j/w Nathan Road, Argyle Street j/w Sai Yee Street, Tonkin Street j/w Shun Ning Road, Hung Hom South Road j/w Po loi Street, To Kwa Wan Road j/w Chi Kiang Street": 1
+  },
+  "year_distribution": {
+    "2018": 1,
+    "2016": 1,
+    "2020": 1
+  },
+  "chinese_coverage_count": 2,
+  "themes": [
+    "Experimental VR simulation study",
+    "statistical_modeling",
+    "random_parameter_logit_model"
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "task_groups": {
+    "Predicting pedestrian violating road-crossing behavior intentions": [
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-1",
+        "claim_text": "Instrumental attitude, descriptive norm, and conformity tendency are significant predictors of pedestrian violating crossing behavior intention, providing better predictive utility than the basic TPB model (Model 4 achieved best fit: CFI=0.996, RMSEA=0.030)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-2",
+        "claim_text": "Descriptive norm is a stronger predictor than subjective norm; when descriptive norm was added, subjective norm became non-significant, indicating that pedestrians' observations of family and friends' behavior have greater influence than perceived approval from them",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-3",
+        "claim_text": "Conformity tendency is a strong predictor of violating crossing behavior, indicating that the presence of other pedestrians influences behavioral intention",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-4",
+        "claim_text": "Perceived risk was not a significant predictor, indicating pedestrians likely failed to realize or adequately perceive the danger of violating crossing behavior",
+        "claim_type": "theoretical"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-5",
+        "claim_text": "Perceived behavioral control was not a significant predictor in any model, likely because crossing the street was not perceived as challenging for the sample population",
+        "claim_type": "theoretical"
+      }
+    ],
+    "Evaluating contribution of TPB components and extended factors": [
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-1",
+        "claim_text": "Instrumental attitude, descriptive norm, and conformity tendency are significant predictors of pedestrian violating crossing behavior intention, providing better predictive utility than the basic TPB model (Model 4 achieved best fit: CFI=0.996, RMSEA=0.030)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-2",
+        "claim_text": "Descriptive norm is a stronger predictor than subjective norm; when descriptive norm was added, subjective norm became non-significant, indicating that pedestrians' observations of family and friends' behavior have greater influence than perceived approval from them",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-3",
+        "claim_text": "Conformity tendency is a strong predictor of violating crossing behavior, indicating that the presence of other pedestrians influences behavioral intention",
+        "claim_type": "application"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-4",
+        "claim_text": "Perceived risk was not a significant predictor, indicating pedestrians likely failed to realize or adequately perceive the danger of violating crossing behavior",
+        "claim_type": "theoretical"
+      },
+      {
+        "paper_id": "08_2016_zhou_aap",
+        "claim_id": "claim-5",
+        "claim_text": "Perceived behavioral control was not a significant predictor in any model, likely because crossing the street was not perceived as challenging for the sample population",
+        "claim_type": "theoretical"
+      }
+    ],
+    "Pedestrian street crossing under various mobile phone distraction conditions": [
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-1",
+        "claim_text": "Text distraction causes the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction, with music distraction having the least impact",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-2",
+        "claim_text": "Music distraction causes pedestrians to initiate crossing later (1.28s vs 0.69s), increase pupil diameter (2.86mm vs 2.75mm), and reduce scanning frequency (6.00 vs 6.82) and fixation points toward traffic signal areas",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-3",
+        "claim_text": "Phone conversation distraction causes pedestrians to cross at slower speeds (1.37m/s vs 1.46m/s), direct fewer fixation points to right traffic area, and spend less fixation time and average fixation duration on left traffic area",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-4",
+        "claim_text": "Text distraction causes pedestrians to look left and right less often (2.50 times vs 4.46 times), switch less between visual areas, and distribute and maintain less visual attention on the traffic environment (fixation points toward crosswalk: 16.79% vs 65.04%)",
+        "claim_type": "performance"
+      },
+      {
+        "paper_id": "09_2018_jiang_aap",
+        "claim_id": "claim-5",
+        "claim_text": "Eye-tracking data provides more accurate determination of visual attention allocation compared to video-based head movement observations",
+        "claim_type": "methodological"
+      }
+    ]
+  },
+  "normalized_task_groups": [
+    {
+      "tasks": [
+        "Predicting pedestrian violating road-crossing behavior intentions"
+      ],
+      "paper_count": 1,
+      "claims": [
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-1",
+          "claim_text": "Instrumental attitude, descriptive norm, and conformity tendency are significant predictors of pedestrian violating crossing behavior intention, providing better predictive utility than the basic TPB model (Model 4 achieved best fit: CFI=0.996, RMSEA=0.030)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-2",
+          "claim_text": "Descriptive norm is a stronger predictor than subjective norm; when descriptive norm was added, subjective norm became non-significant, indicating that pedestrians' observations of family and friends' behavior have greater influence than perceived approval from them",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-3",
+          "claim_text": "Conformity tendency is a strong predictor of violating crossing behavior, indicating that the presence of other pedestrians influences behavioral intention",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-4",
+          "claim_text": "Perceived risk was not a significant predictor, indicating pedestrians likely failed to realize or adequately perceive the danger of violating crossing behavior",
+          "claim_type": "theoretical"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-5",
+          "claim_text": "Perceived behavioral control was not a significant predictor in any model, likely because crossing the street was not perceived as challenging for the sample population",
+          "claim_type": "theoretical"
+        }
+      ],
+      "has_conflict": false
+    },
+    {
+      "tasks": [
+        "Evaluating contribution of TPB components and extended factors"
+      ],
+      "paper_count": 1,
+      "claims": [
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-1",
+          "claim_text": "Instrumental attitude, descriptive norm, and conformity tendency are significant predictors of pedestrian violating crossing behavior intention, providing better predictive utility than the basic TPB model (Model 4 achieved best fit: CFI=0.996, RMSEA=0.030)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-2",
+          "claim_text": "Descriptive norm is a stronger predictor than subjective norm; when descriptive norm was added, subjective norm became non-significant, indicating that pedestrians' observations of family and friends' behavior have greater influence than perceived approval from them",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-3",
+          "claim_text": "Conformity tendency is a strong predictor of violating crossing behavior, indicating that the presence of other pedestrians influences behavioral intention",
+          "claim_type": "application"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-4",
+          "claim_text": "Perceived risk was not a significant predictor, indicating pedestrians likely failed to realize or adequately perceive the danger of violating crossing behavior",
+          "claim_type": "theoretical"
+        },
+        {
+          "paper_id": "08_2016_zhou_aap",
+          "claim_id": "claim-5",
+          "claim_text": "Perceived behavioral control was not a significant predictor in any model, likely because crossing the street was not perceived as challenging for the sample population",
+          "claim_type": "theoretical"
+        }
+      ],
+      "has_conflict": false
+    },
+    {
+      "tasks": [
+        "Pedestrian street crossing under various mobile phone distraction conditions"
+      ],
+      "paper_count": 1,
+      "claims": [
+        {
+          "paper_id": "09_2018_jiang_aap",
+          "claim_id": "claim-1",
+          "claim_text": "Text distraction causes the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction, with music distraction having the least impact",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "09_2018_jiang_aap",
+          "claim_id": "claim-2",
+          "claim_text": "Music distraction causes pedestrians to initiate crossing later (1.28s vs 0.69s), increase pupil diameter (2.86mm vs 2.75mm), and reduce scanning frequency (6.00 vs 6.82) and fixation points toward traffic signal areas",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "09_2018_jiang_aap",
+          "claim_id": "claim-3",
+          "claim_text": "Phone conversation distraction causes pedestrians to cross at slower speeds (1.37m/s vs 1.46m/s), direct fewer fixation points to right traffic area, and spend less fixation time and average fixation duration on left traffic area",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "09_2018_jiang_aap",
+          "claim_id": "claim-4",
+          "claim_text": "Text distraction causes pedestrians to look left and right less often (2.50 times vs 4.46 times), switch less between visual areas, and distribute and maintain less visual attention on the traffic environment (fixation points toward crosswalk: 16.79% vs 65.04%)",
+          "claim_type": "performance"
+        },
+        {
+          "paper_id": "09_2018_jiang_aap",
+          "claim_id": "claim-5",
+          "claim_text": "Eye-tracking data provides more accurate determination of visual attention allocation compared to video-based head movement observations",
+          "claim_type": "methodological"
+        }
+      ],
+      "has_conflict": false
+    }
+  ],
+  "contradictions": [],
+  "contradiction_count": 0
+}

@@ -1,0 +1,26 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Local databases / logs
+*.log
+
+# Build artifacts
+.dist/
+build/
+dist/

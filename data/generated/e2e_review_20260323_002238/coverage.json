@@ -1,0 +1,37 @@
+{
+  "paper_count": 3,
+  "method_family_distribution": {
+    "VR experiment, randomized complete block design": 1,
+    "Binary logistic regression": 1,
+    "Random parameter logit model (binary logit regression with random parameters)": 1
+  },
+  "task_distribution": {
+    "Pedestrian crossing behavior at unsignalized crosswalk": 1,
+    "Feature preference evaluation": 1,
+    "Receptivity assessment": 1,
+    "Analyze pedestrian red-light running behavior at intersections": 1,
+    "Identify significant factors affecting red-light running decisions": 1,
+    "Predict probability of red-light running behavior": 1,
+    "Analyze pedestrian red light running violation behavior at signalized intersections": 1
+  },
+  "language_distribution": {
+    "english": 3
+  },
+  "dataset_distribution": {
+    "SP survey data from Hefei, China (631 valid samples)": 1,
+    "Collected May-June 2015": 1,
+    "Six typical signalized intersections near central business district or transit stations": 1,
+    "Video observation data from six signalized crosswalks in urban Hong Kong - 6320 pedestrians observed during 652 signal cycles": 1
+  },
+  "year_distribution": {
+    "2018": 1,
+    "2016": 1,
+    "2020": 1
+  },
+  "chinese_coverage_count": 2,
+  "themes": [
+    "VR experiment, randomized complete block design",
+    "Binary logistic regression",
+    "Random parameter logit model (binary logit regression with random parameters)"
+  ]
+}

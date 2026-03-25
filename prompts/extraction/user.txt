@@ -1,0 +1,29 @@
+Extract a structured paper profile from the provided paper chunks.
+Return fields for:
+- title
+- authors
+- year
+- venue
+- research_problem
+- problem_type
+- domain
+- language_scope
+- method_summary
+- method_family
+- datasets
+- tasks
+- metrics
+- baselines
+- main_claims
+- limitations
+- future_work
+- notes
+
+For main_claims:
+- provide 2 to 5 claims when possible
+- assign claim_type from: performance, methodological, application, theoretical
+- link each claim to supporting evidence_chunk_ids
+
+For limitations:
+- classify source as explicit or inferred
+- link evidence_chunk_ids when possible

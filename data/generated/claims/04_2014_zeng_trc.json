@@ -1,0 +1,48 @@
+[
+  {
+    "claim_id": "claim-1",
+    "claim_text": "The modified social force model can accurately reproduce pedestrian trajectory with MAPE of 5.7% for position and 10.5% for speed",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "39ddbe01-9d1c-4eaa-85f2-ca52ced2d7bc"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-2",
+    "claim_text": "The model successfully represents lane-formation phenomenon with number of formed lanes (3.5) closer to observed (2.8) compared to non-route-choice model (4.1)",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "57c47678-a1d7-4951-b9c1-f1f727d43fca",
+      "94c83556-4ce0-4223-a5e2-0a5e82f64444"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-3",
+    "claim_text": "The model can represent pedestrian collision avoidance behavior with turning vehicles, with passing position shifting from 0 to 2-2.5m when conflicts exist",
+    "claim_type": "application",
+    "evidence_chunk_ids": [
+      "4e542106-28f3-4a75-805d-8fe4bb88b4f3"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-4",
+    "claim_text": "Separating parameters into measurable and non-measurable groups for calibration is an effective approach achieving favorable calibration results",
+    "claim_type": "methodological",
+    "evidence_chunk_ids": [
+      "c1d6398a-44bc-40d8-b418-09c6466bb8f2"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-5",
+    "claim_text": "The desired direction model using Weibull distribution with influencing factors (crosswalk geometry, OD movement, pedestrian density) reasonably reflects pedestrian behavior characteristics",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "f79768f2-f5da-480b-9c27-9c9898fb9660"
+    ],
+    "confidence": null
+  }
+]

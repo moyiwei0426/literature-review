@@ -1,0 +1,28 @@
+{
+  "keywords": [
+    "structural equation modeling (sem), theory of planned behavior (tpb) extension",
+    "predict pedestrians' violating road-crossing behavior intentions",
+    "survey data from 260 respondents in dalian, china",
+    "examine pedestrians' self-reported violating crossing behavior intentions by applying and extending the theory of planned behavior (tpb), testing instrumental attitude, subjective norm, perceived behavioral control, and extended factors including descriptive norm, perceived risk, and conformity tendency",
+    "cronbach's alpha (reliability)",
+    "confirmatory factor analysis (validity)",
+    "cmin/df ratio",
+    "behavioral factors"
+  ],
+  "keyword_count": 8,
+  "dominant_axis": "factor taxonomy",
+  "signals": {
+    "structural equation modeling (sem), theory of planned behavior (tpb) extension": 8.6,
+    "predict pedestrians' violating road-crossing behavior intentions": 7.85,
+    "survey data from 260 respondents in dalian, china": 7.6,
+    "examine pedestrians' self-reported violating crossing behavior intentions by applying and extending the theory of planned behavior (tpb), testing instrumental attitude, subjective norm, perceived behavioral control, and extended factors including descriptive norm, perceived risk, and conformity tendency": 5.0,
+    "cronbach's alpha (reliability)": 4.5,
+    "confirmatory factor analysis (validity)": 4.5,
+    "cmin/df ratio": 4.5,
+    "behavioral factors": 2.7,
+    "factor taxonomy": 1.8,
+    "demographic factors": 1.5,
+    "theory planned": 1.2,
+    "theory planned behavior": 1.2
+  }
+}

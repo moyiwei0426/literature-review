@@ -1,0 +1,18 @@
+[
+  {
+    "key": "01_2001_hamed_safety_science",
+    "year": 2001,
+    "title": "[Unknown - Appears to be Persian language paper on safety science]",
+    "authors": "Unknown",
+    "venue": "Unknown",
+    "entry": "@article{01_2001_hamed_safety_science,\n  author={Unknown},\n  title={[Unknown - Appears to be Persian language paper on safety science]},\n  year={2001},\n  journal={Unknown}\n}"
+  },
+  {
+    "key": "02_2003_brosseau_trf",
+    "year": 2003,
+    "title": "Pedestrian behaviors at and perceptions towards various pedestrian facilities: an examination based on observation and survey data",
+    "authors": "V.P. Sisiopiku; D. Akin",
+    "venue": "Transportation Research Part F",
+    "entry": "@article{02_2003_brosseau_trf,\n  author={V.P. Sisiopiku; D. Akin},\n  title={Pedestrian behaviors at and perceptions towards various pedestrian facilities: an examination based on observation and survey data},\n  year={2003},\n  journal={Transportation Research Part F}\n}"
+  }
+]

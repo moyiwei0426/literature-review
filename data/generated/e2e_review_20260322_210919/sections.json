@@ -1,0 +1,112 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction and Research Scope",
+    "text": "This review synthesizes evidence from 12 papers examining accident analysis, pedestrian crossing compliance analysis, pedestrian perception assessment, with findings organized around 53 discrete claims drawn from a structured comparison matrix. The reviewed evidence employs statistical analysis, mixed methods behavioral observation and survey research, social force model as primary analytical frameworks. A persistent challenge in this literature is the heterogeneity in how studies operationalize crossing behavior constructs, report metrics, and handle context specificity — factors that collectively limit direct cross-study comparison. This review structures its analysis around methodological families, task-level performance patterns, metric reporting practices, and verified gaps (2 identified), moving beyond siloed paper summaries toward a structured evidence synthesis. The review is organized as follows: Section 2 examines methodological approaches and their representational tradeoffs; Section 3 addresses task-level findings and performance patterns; Section 4 evaluates metric reporting and comparability; Section 5 identifies verified research gaps and implications; Section 6 provides a field-level synthesis and research priorities.",
+    "citation_keys": [
+      "13_2020_chen_trf",
+      "13_2020_chen_trf",
+      "13_2020_chen_trf"
+    ],
+    "_citation_scores": {
+      "13_2020_chen_trf": 11.5
+    }
+  },
+  {
+    "section_id": "sec-2",
+    "title": "Methodological Approaches to Pedestrian Crossing Analysis",
+    "text": "The statistical analysis family constitutes a primary methodological strand in the reviewed literature. Represents a distinct representational approach with characteristic strengths and limitations. Evidence across reviewed studies suggests that this approach is particularly well-suited to analyzing crossing decision determinants under specific traffic conditions. Limitations of this approach include reduced generalizability to contexts with substantially different traffic signal configurations. The mixed methods behavioral observation and survey research family represents a primary methodological strand in the reviewed literature. Represents a distinct representational approach with characteristic strengths and limitations. Evidence across reviewed studies suggests that this approach is particularly well-suited to analyzing crossing decision determinants under specific traffic conditions. Limitations of this approach include reduced generalizability to contexts with substantially different traffic signal configurations. The social force model family represents a secondary methodological strand in the reviewed literature. Captures emergent group behaviors including collective waiting dynamics but requires careful parameter calibration. Evidence across reviewed studies suggests that this approach is particularly well-suited to analyzing pedestrian-vehicle interaction patterns. Limitations of this approach include reduced generalizability to contexts with substantially different group compositions. The Microscopic traffic simulation; Behavioral modeling family represents a secondary methodological strand in the reviewed literature. Represents a distinct representational approach with characteristic strengths and limitations. Evidence across reviewed studies suggests that this approach is particularly well-suited to analyzing crossing decision determinants under specific traffic conditions. Limitations of this approach include reduced generalizability to contexts with substantially different traffic signal configurations. The experimental study virtual reality simulation family represents a secondary methodological strand in the reviewed literature. Represents a distinct representational approach with characteristic strengths and limitations. Evidence across reviewed studies suggests that this approach is particularly well-suited to analyzing crossing decision determinants under specific traffic conditions. Limitations of this approach include reduced generalizability to contexts with substantially different traffic signal configurations. Across these 12 methodological families, a clear tension emerges between interpretive richness and predictive performance. Structural models — including discrete choice and social force approaches — provide parameters directly interpretable for traffic engineering and policy purposes, whereas data-driven approaches achieve higher predictive accuracy on specific benchmark datasets but lack comparable policy utility. No single paradigm has been validated across the full range of pedestrian populations, traffic environments, and signal configurations represented in this corpus.",
+    "citation_keys": [
+      "15_2014_study_trf",
+      "15_2014_study_trf"
+    ],
+    "_citation_scores": {
+      "15_2014_study_trf": 27.5
+    }
+  },
+  {
+    "section_id": "sec-3",
+    "title": "Pedestrian Compliance and Red Light Running Behavior",
+    "text": "This section synthesizes findings from 12 papers examining accident analysis, pedestrian crossing compliance analysis, pedestrian perception assessment using statistical analysis, mixed methods behavioral observation and survey research, social force model. The comparative evidence matrix structures claims, metrics, and limitations to support structured analysis. A key observation is that statistical analysis and mixed methods behavioral observation and survey research approaches are the dominant methodological families in this corpus, though significant heterogeneity in reporting practices limits direct cross-study comparison.",
+    "citation_keys": [
+      "13_2020_chen_trf",
+      "13_2020_chen_trf"
+    ],
+    "_citation_scores": {
+      "13_2020_chen_trf": 79.0
+    }
+  },
+  {
+    "section_id": "sec-4",
+    "title": "Pedestrian Waiting Time and Crossing Dynamics",
+    "text": "This section synthesizes findings from 12 papers examining accident analysis, pedestrian crossing compliance analysis, pedestrian perception assessment using statistical analysis, mixed methods behavioral observation and survey research, social force model. The comparative evidence matrix structures claims, metrics, and limitations to support structured analysis. A key observation is that statistical analysis and mixed methods behavioral observation and survey research approaches are the dominant methodological families in this corpus, though significant heterogeneity in reporting practices limits direct cross-study comparison.",
+    "citation_keys": [
+      "11_2013_yang_trb",
+      "11_2013_yang_trb"
+    ],
+    "_citation_scores": {
+      "11_2013_yang_trb": 47.5
+    }
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Autonomous Vehicle Interaction and External Communication Features",
+    "text": "This section synthesizes findings from 12 papers examining accident analysis, pedestrian crossing compliance analysis, pedestrian perception assessment using statistical analysis, mixed methods behavioral observation and survey research, social force model. The comparative evidence matrix structures claims, metrics, and limitations to support structured analysis. A key observation is that statistical analysis and mixed methods behavioral observation and survey research approaches are the dominant methodological families in this corpus, though significant heterogeneity in reporting practices limits direct cross-study comparison.",
+    "citation_keys": [
+      "07_2006_yang_tra",
+      "07_2006_yang_tra"
+    ],
+    "_citation_scores": {
+      "07_2006_yang_tra": 26.0
+    }
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Distraction Effects on Pedestrian Crossing Behavior",
+    "text": "This section synthesizes findings from 12 papers examining accident analysis, pedestrian crossing compliance analysis, pedestrian perception assessment using statistical analysis, mixed methods behavioral observation and survey research, social force model. The comparative evidence matrix structures claims, metrics, and limitations to support structured analysis. A key observation is that statistical analysis and mixed methods behavioral observation and survey research approaches are the dominant methodological families in this corpus, though significant heterogeneity in reporting practices limits direct cross-study comparison.",
+    "citation_keys": [
+      "10_2020_chen_trf",
+      "10_2020_chen_trf"
+    ],
+    "_citation_scores": {
+      "10_2020_chen_trf": 41.0
+    }
+  },
+  {
+    "section_id": "sec-7",
+    "title": "Geographic Distribution and Contextual Factors",
+    "text": "This section synthesizes findings from 12 papers examining accident analysis, pedestrian crossing compliance analysis, pedestrian perception assessment using statistical analysis, mixed methods behavioral observation and survey research, social force model. The comparative evidence matrix structures claims, metrics, and limitations to support structured analysis. A key observation is that statistical analysis and mixed methods behavioral observation and survey research approaches are the dominant methodological families in this corpus, though significant heterogeneity in reporting practices limits direct cross-study comparison.",
+    "citation_keys": [
+      "11_2013_yang_trb",
+      "11_2013_yang_trb"
+    ],
+    "_citation_scores": {
+      "11_2013_yang_trb": 19.5
+    }
+  },
+  {
+    "section_id": "sec-8",
+    "title": "Synthesis of Conflicting Claims and Research Gaps",
+    "text": "The comparative analysis of 12 papers reveals 2 persistent gaps that current approaches have not adequately resolved. These gaps are documented through verified evidence from the review matrix and are categorized by severity below. Gap [fc77227a] (medium severity): Current coverage appears to underrepresent Chinese-language or Chinese-context studies.. This gap limits the ability to draw robust conclusions from the existing literature. Gap [75ee894d] (medium severity): There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.. This gap limits the ability to draw robust conclusions from the existing literature. These gaps collectively indicate that the field lacks the empirical foundation needed to support confident generalization of crossing behavior models across contexts, populations, and technologies. Prioritizing the most severe gaps in future empirical work will be essential for advancing both scientific understanding and the practical applicability of crossing behavior models.",
+    "citation_keys": [
+      "01_2001_hamed_safety_science",
+      "01_2001_hamed_safety_science"
+    ],
+    "_citation_scores": {
+      "01_2001_hamed_safety_science": 9.0,
+      "04_2014_zeng_trc": 9.0
+    }
+  },
+  {
+    "section_id": "sec-9",
+    "title": "Conclusions and Future Research Directions",
+    "text": "The evidence across 12 reviewed papers converges on a field-level picture in which pedestrian crossing behavior at signalized intersections is influenced by a complex interaction of individual characteristics, traffic flow properties, signal timing parameters, and environmental context. Methodological approaches to modeling this behavior range from structural models grounded in behavioral theory to data-driven approaches optimized for predictive accuracy. Three stable conclusions emerge from this review. First, waiting time is among the most consistent predictors of crossing initiation and violation behavior across reviewed studies. Second, methodological approaches exhibit a persistent tradeoff between interpretability and predictive performance. Third, metric reporting heterogeneity across studies substantially limits the precision of cross-study synthesis. Two persistent tensions run through this literature. The first concerns the cross-context validity of gap acceptance thresholds: values derived from studies in North American and European contexts may not transfer to other traffic environments with different vehicle-pedestrian interaction norms. The second tension concerns the behavioral effects of automated vehicles: whether pedestrians recalibrate their crossing heuristics with sustained AV exposure remains unresolved due to the absence of longitudinal field studies. Resolving these tensions will require longitudinal field studies in diverse cultural contexts. Priority should be given to addressing Gap [0] concerning cross-cultural threshold transfer and Gap [1] concerning longitudinal behavioral adaptation in AV environments — gaps that carry direct implications for both road safety policy and the design of pedestrian-accepting automated vehicle systems.",
+    "citation_keys": [
+      "15_2014_study_trf",
+      "15_2014_study_trf"
+    ],
+    "_citation_scores": {
+      "15_2014_study_trf": 8.5
+    }
+  }
+]

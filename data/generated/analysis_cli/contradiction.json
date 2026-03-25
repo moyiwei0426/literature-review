@@ -1,0 +1,71 @@
+{
+  "task_groups": {
+    "literature_review": [
+      {
+        "paper_id": "cli-demo-paper",
+        "claim_id": "claim-1",
+        "claim_text": "The pipeline can transform parsed paper chunks into a structured paper profile.",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "cli-demo-paper",
+        "claim_id": "claim-2",
+        "claim_text": "The system supports downstream gap analysis by preserving evidence links.",
+        "claim_type": "application"
+      }
+    ],
+    "information_extraction": [
+      {
+        "paper_id": "cli-demo-paper",
+        "claim_id": "claim-1",
+        "claim_text": "The pipeline can transform parsed paper chunks into a structured paper profile.",
+        "claim_type": "methodological"
+      },
+      {
+        "paper_id": "cli-demo-paper",
+        "claim_id": "claim-2",
+        "claim_text": "The system supports downstream gap analysis by preserving evidence links.",
+        "claim_type": "application"
+      }
+    ]
+  },
+  "contradictions": [
+    {
+      "task": "literature_review",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "cli-demo-paper",
+          "claim_id": "claim-1",
+          "claim_text": "The pipeline can transform parsed paper chunks into a structured paper profile.",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "cli-demo-paper",
+          "claim_id": "claim-2",
+          "claim_text": "The system supports downstream gap analysis by preserving evidence links.",
+          "claim_type": "application"
+        }
+      ]
+    },
+    {
+      "task": "information_extraction",
+      "reason": "Multiple claim types detected under the same task; manual review recommended.",
+      "claims": [
+        {
+          "paper_id": "cli-demo-paper",
+          "claim_id": "claim-1",
+          "claim_text": "The pipeline can transform parsed paper chunks into a structured paper profile.",
+          "claim_type": "methodological"
+        },
+        {
+          "paper_id": "cli-demo-paper",
+          "claim_id": "claim-2",
+          "claim_text": "The system supports downstream gap analysis by preserving evidence links.",
+          "claim_type": "application"
+        }
+      ]
+    }
+  ],
+  "contradiction_count": 2
+}

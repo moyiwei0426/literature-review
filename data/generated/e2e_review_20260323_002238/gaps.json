@@ -1,0 +1,16 @@
+[
+  {
+    "gap_id": "98d249ab-50b0-4bd4-9248-fde0ca7fe463",
+    "gap_statement": "There are unresolved claim differences across papers under related tasks, suggesting a need for clearer comparison criteria.",
+    "gap_type": "comparison",
+    "supporting_evidence": [
+      "contradiction_count=1",
+      "cross_paper_task_groups=1"
+    ],
+    "counter_evidence": [],
+    "confidence": 0.8,
+    "novelty_value": 0.7,
+    "review_worthiness": 0.76,
+    "status": "verified"
+  }
+]

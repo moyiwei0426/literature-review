@@ -1,0 +1,65 @@
+[
+  {
+    "section_id": "sec-1",
+    "title": "Introduction and Research Context",
+    "objective": "Introduce the research domain of pedestrian crossing behavior, establish the importance of understanding both intentional violations and distraction effects, and outline the scope of this review.",
+    "gap_inputs": [],
+    "matrix_row_count": 9
+  },
+  {
+    "section_id": "sec-2",
+    "title": "Theoretical Foundations of Pedestrian Crossing Behavior",
+    "objective": "Present the Theory of Planned Behavior (TPB) framework as applied to pedestrian violating behavior, and establish the psychological constructs (attitudes, norms, perceived control) that inform behavioral prediction models.",
+    "gap_inputs": [],
+    "matrix_row_count": 5
+  },
+  {
+    "section_id": "sec-3",
+    "title": "Behavioral Factors Influencing Crossing Intentions",
+    "objective": "Synthesize evidence on key psychological predictors of pedestrian violating behavior, including instrumental attitude, descriptive norm, and conformity tendency, and evaluate their relative importance in structural models.",
+    "gap_inputs": [],
+    "matrix_row_count": 5
+  },
+  {
+    "section_id": "sec-4",
+    "title": "The Role of Perceived Risk and Control in Crossing Behavior",
+    "objective": "Examine evidence on why perceived behavioral control and perceived risk often fail to predict pedestrian crossing violations, and discuss implications for safety interventions.",
+    "gap_inputs": [],
+    "matrix_row_count": 2
+  },
+  {
+    "section_id": "sec-5",
+    "title": "Mobile Phone Distraction Effects on Crossing Performance",
+    "objective": "Synthesize experimental findings on how different types of mobile phone use (texting, conversation, music) differentially impair pedestrian crossing behavior and visual attention allocation.",
+    "gap_inputs": [],
+    "matrix_row_count": 4
+  },
+  {
+    "section_id": "sec-6",
+    "title": "Visual Attention Allocation Under Distraction",
+    "objective": "Analyze eye-tracking evidence on how mobile phone distraction affects pedestrians' visual scanning patterns, fixation points, and attention to traffic environment.",
+    "gap_inputs": [],
+    "matrix_row_count": 4
+  },
+  {
+    "section_id": "sec-7",
+    "title": "Environmental and Design Factors in Pedestrian Safety",
+    "objective": "Integrate findings on how infrastructure design, traffic conditions, and environmental factors interact with behavioral and distraction effects in pedestrian crossing safety.",
+    "gap_inputs": [],
+    "matrix_row_count": 4
+  },
+  {
+    "section_id": "sec-8",
+    "title": "Methodological Approaches and Their Contributions",
+    "objective": "Compare the strengths and limitations of structural equation modeling approaches versus controlled experimental eye-tracking studies for understanding pedestrian crossing behavior.",
+    "gap_inputs": [],
+    "matrix_row_count": 9
+  },
+  {
+    "section_id": "sec-9",
+    "title": "Conclusions and Future Research Directions",
+    "objective": "Synthesize the key findings across behavioral prediction and distraction research, identify convergent themes, and propose directions for future investigation.",
+    "gap_inputs": [],
+    "matrix_row_count": 9
+  }
+]

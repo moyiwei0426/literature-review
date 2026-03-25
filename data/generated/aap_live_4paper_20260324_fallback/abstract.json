@@ -1,0 +1,23 @@
+{
+  "title": "AAP live four-paper fallback",
+  "paper_count": 4,
+  "matrix_row_count": 19,
+  "dominant_axis": "factor structure",
+  "top_themes": [
+    "behavioral factors",
+    "traffic factors",
+    "design factors"
+  ],
+  "top_methods": [
+    "Survey-based Structural Equation Modeling (SEM)",
+    "Controlled field experiment",
+    "Statistical modeling (Binomial logistic regression)"
+  ],
+  "top_tasks": [
+    "Predicting pedestrian violating crossing behavior intentions",
+    "Pedestrian crossing behavior under mobile phone distraction",
+    "Identify factors affecting pedestrian red-light running behavior at signalized intersections"
+  ],
+  "verified_gap_count": 0,
+  "text": "AAP live four-paper fallback synthesizes 4 papers across 19 evidence rows using factor structure as the main organizing lens. The synthesis is concentrated in behavioral factors, traffic factors, with recurring methods such as Survey-based Structural Equation Modeling (SEM), Controlled field experiment and task coverage centered on Predicting pedestrian violating crossing behavior intentions, Pedestrian crossing behavior under mobile phone distraction. Across 4 papers, the evidence is most coherently organized around factor structure rather than any single method, and the strongest clusters are behavioral factors, traffic factors, design factors. Future work should prioritize standardized reporting and more explicit cross-study comparison."
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "gap_id": "gap-1",
+    "gap_statement": "Evaluation is limited to the SciTLDR dataset (5,400 TLDRs from 3,200 papers), which may not represent the full spectrum of scientific domains or document structures encountered in real-world literature reviews.",
+    "gap_type": "coverage",
+    "supporting_evidence": [],
+    "counter_evidence": [],
+    "confidence": 0.4,
+    "novelty_value": 0.5,
+    "review_worthiness": 0.44,
+    "status": "verified"
+  },
+  {
+    "gap_id": "gap-2",
+    "gap_statement": "All approaches are evaluated exclusively on English scientific documents, leaving a critical gap in multi-lingual literature review automation.",
+    "gap_type": "coverage",
+    "supporting_evidence": [],
+    "counter_evidence": [],
+    "confidence": 0.4,
+    "novelty_value": 0.5,
+    "review_worthiness": 0.44,
+    "status": "verified"
+  },
+  {
+    "gap_id": "gap-3",
+    "gap_statement": "Only three specific NLP approaches (spaCy extractive, T5 abstractive, GPT-3.5 with RAG) are compared, representing a narrow slice of available text summarization methods.",
+    "gap_type": "coverage",
+    "supporting_evidence": [],
+    "counter_evidence": [],
+    "confidence": 0.4,
+    "novelty_value": 0.5,
+    "review_worthiness": 0.44,
+    "status": "verified"
+  },
+  {
+    "gap_id": "gap-4",
+    "gap_statement": "Evaluation relies solely on ROUGE metrics (ROUGE-1, ROUGE-2, ROUGE-L, ROUGE-Lsum), which may not capture semantic quality, factual consistency, or task-specific utility for literature reviews.",
+    "gap_type": "coverage",
+    "supporting_evidence": [],
+    "counter_evidence": [],
+    "confidence": 0.4,
+    "novelty_value": 0.5,
+    "review_worthiness": 0.44,
+    "status": "verified"
+  },
+  {
+    "gap_id": "gap-5",
+    "gap_statement": "The paper conflates single-document TLDR generation with multi-document literature review synthesis, but does not explicitly evaluate the more complex task of integrating multiple papers into coherent thematic summaries.",
+    "gap_type": "coverage",
+    "supporting_evidence": [],
+    "counter_evidence": [],
+    "confidence": 0.4,
+    "novelty_value": 0.5,
+    "review_worthiness": 0.44,
+    "status": "verified"
+  },
+  {
+    "gap_id": "gap-6",
+    "gap_statement": "The system acknowledges needing human reviewers for validation but provides no framework for interactive refinement or user feedback integration.",
+    "gap_type": "coverage",
+    "supporting_evidence": [],
+    "counter_evidence": [],
+    "confidence": 0.4,
+    "novelty_value": 0.5,
+    "review_worthiness": 0.44,
+    "status": "verified"
+  }
+]

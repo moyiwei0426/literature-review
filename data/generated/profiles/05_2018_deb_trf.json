@@ -1,0 +1,29 @@
+{
+  "paper_id": "05_2018_deb_trf",
+  "title": "Untitled",
+  "research_problem": "Unable to extract - paper content not available in provided chunks (error page from ScienceDirect)",
+  "problem_type": "unknown",
+  "domain": "unknown",
+  "language_scope": "unknown",
+  "method_summary": "Unable to extract - paper content not available",
+  "method_family": [
+    "unknown"
+  ],
+  "datasets": [],
+  "tasks": [],
+  "metrics": [],
+  "baselines": [],
+  "main_claims": [],
+  "limitations": [
+    {
+      "text": "Provided chunks contain only error page content from ScienceDirect, no actual paper text was retrieved",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "6e5cb969-605d-445d-8c25-1f33fff24816",
+        "bdf5407d-2d3e-4ec0-a179-5820aed1c286"
+      ]
+    }
+  ],
+  "future_work": [],
+  "notes": "Paper content unavailable - chunks contain ScienceDirect error page and footer information only. Paper ID 05_2018_deb_trf suggests possible connection to debiasing and transformers based on ID pattern, but actual content could not be extracted."
+}

@@ -1,0 +1,31 @@
+{
+  "paper_count": 2,
+  "method_family_distribution": {
+    "unknown": 1,
+    "Mixed methods (empirical observation + survey)": 1
+  },
+  "task_distribution": {
+    "Safety analysis, knowledge assessment": 1,
+    "Analyze pedestrian crossing compliance rates at various crosswalk types": 1,
+    "Assess pedestrian perceptions toward different pedestrian facilities": 1,
+    "Identify factors influencing pedestrian crossing choices": 1,
+    "Compare survey responses with observed behavioral data": 1
+  },
+  "language_distribution": {
+    "Persian (Farsi)": 1,
+    "english": 1
+  },
+  "dataset_distribution": {
+    "Not specified in available chunks": 1,
+    "Grand River Avenue (M-43) in East Lansing, Michigan - 1km divided boulevard section extending from Abbott to Bogue Streets": 1
+  },
+  "year_distribution": {
+    "2001": 1,
+    "2003": 1
+  },
+  "chinese_coverage_count": 0,
+  "themes": [
+    "unknown",
+    "Mixed methods (empirical observation + survey)"
+  ]
+}

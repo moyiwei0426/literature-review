@@ -1,0 +1,122 @@
+{
+  "paper_id": "04_2014_zeng_trc",
+  "title": "Untitled",
+  "research_problem": "This study addresses the lack of pedestrian behavior models for signalized crosswalks, where pedestrian behavior involves group/individual evasion with surrounding pedestrians, collision avoidance with conflicting vehicles, and response to signal control and crosswalk boundary. The research aims to develop a microscopic simulation model for safety assessment at signalized intersections.",
+  "problem_type": "simulation_model_development",
+  "domain": "transportation_traffic_engineering",
+  "language_scope": "en",
+  "method_summary": "A modified social force model was developed for pedestrian behavior at signalized crosswalks, incorporating five sources of social force: driving force toward destination, repulsive/attractive force from crosswalk boundary, repulsive force from surrounding pedestrians (both group and individual evasive behavior), repulsive force from conflicting left-turning vehicles, and attractive force from signal phase. The model includes desired direction model using Weibull distribution and stop/go decision model for pedestrian flashing green phase. Parameters were calibrated by separating measurable parameters (directly estimated from observed trajectory data) from non-measurable parameters (derived by maximum likelihood estimation).",
+  "method_family": [
+    "microscopic_simulation_social_force_model"
+  ],
+  "datasets": [
+    "Kanayama intersection north crosswalk in Nagoya City, Japan - 1352 pedestrian trajectories",
+    "124 left-turning vehicle trajectories",
+    "97,200 position samples at 0.5s intervals"
+  ],
+  "tasks": [
+    "pedestrian_trajectory_estimation",
+    "collision_avoidance_behavior_simulation",
+    "lane_formation_phenomenon_analysis",
+    "safety_assessment_at_signalized_intersections"
+  ],
+  "metrics": [
+    "Mean Absolute Percentage Error (MAPE) for position estimation",
+    "Mean Absolute Percentage Error (MAPE) for speed estimation",
+    "passing_position_distribution_at_cross_sections",
+    "number_of_formed_lanes",
+    "instant_angle_distribution",
+    "passing_time_distribution",
+    "two_sample_ttest_for_mean_differences"
+  ],
+  "baselines": [
+    "classical_social_force_model_Helbing_1995",
+    "non_route_choice_based_desired_direction_model"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "The modified social force model can accurately reproduce pedestrian trajectory with MAPE of 5.7% for position and 10.5% for speed",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "39ddbe01-9d1c-4eaa-85f2-ca52ced2d7bc"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "The model successfully represents lane-formation phenomenon with number of formed lanes (3.5) closer to observed (2.8) compared to non-route-choice model (4.1)",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "57c47678-a1d7-4951-b9c1-f1f727d43fca",
+        "94c83556-4ce0-4223-a5e2-0a5e82f64444"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "The model can represent pedestrian collision avoidance behavior with turning vehicles, with passing position shifting from 0 to 2-2.5m when conflicts exist",
+      "claim_type": "application",
+      "evidence_chunk_ids": [
+        "4e542106-28f3-4a75-805d-8fe4bb88b4f3"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "Separating parameters into measurable and non-measurable groups for calibration is an effective approach achieving favorable calibration results",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "c1d6398a-44bc-40d8-b418-09c6466bb8f2"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-5",
+      "claim_text": "The desired direction model using Weibull distribution with influencing factors (crosswalk geometry, OD movement, pedestrian density) reasonably reflects pedestrian behavior characteristics",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "f79768f2-f5da-480b-9c27-9c9898fb9660"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The reaction of pedestrians to vehicles is more sensitive in simulation than in real world (peak shift 2.5m vs 2m observed)",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "4e542106-28f3-4a75-805d-8fe4bb88b4f3"
+      ]
+    },
+    {
+      "text": "Model calibrated using data from only one intersection (Kanayama North crosswalk), limiting generalizability",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "081752d0-42b9-473c-a212-38aaa4aa2876"
+      ]
+    },
+    {
+      "text": "Pedestrian heterogeneous characteristics (age, gender, partner relationship) not considered as influencing factors",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "05c38541-3ae3-42d0-bd42-6120b4723cf0"
+      ]
+    },
+    {
+      "text": "Only left-turning vehicles considered; right-turning and through vehicles not modeled",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "cd872b05-aef1-4dcf-a406-d33ae4b9c82c"
+      ]
+    }
+  ],
+  "future_work": [
+    "Improve pedestrian reaction sensitivity to vehicles to match real-world behavior",
+    "Incorporate pedestrian heterogeneous characteristics including age, gender, and partner relationships",
+    "Develop more elaborate modeling approach for diverse vehicle types and interactions",
+    "Conduct more strict calibration procedures with data from multiple intersections",
+    "Extend model to consider right-turning vehicles and other vehicle movements"
+  ],
+  "notes": "Published in Transportation Research Part C: Emerging Technologies, Volume 40, March 2014, Pages 143-159. The study is part of efforts to develop microscopic simulation for safety assessment at signalized intersections. Japan has over 30% of traffic accident fatalities being pedestrians at crosswalks. The model can visually reproduce pedestrian crossing behavior as in the real world."
+}

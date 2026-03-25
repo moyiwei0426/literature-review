@@ -1,0 +1,42 @@
+[
+  {
+    "claim_id": "claim-1",
+    "claim_text": "The model successfully represents the high rate of pedestrian red light running and mixed traffic characteristics in Chinese cities, with simulated red light runner proportions (0.82 mean) matching field observations (0.85 mean) after parameter adjustment",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "c787943d-905c-4947-821d-d09522a57b04",
+      "e4041b6a-8622-41f8-bd58-331749aa4570"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-2",
+    "claim_text": "Classifying pedestrians into law-obeying and opportunistic types with dynamic proportions based on external factors (policeman, other pedestrians' behavior, vehicle flow) provides more accurate simulation than fixed proportions",
+    "claim_type": "methodological",
+    "evidence_chunk_ids": [
+      "0814125a-ee1c-4e25-8cf7-13063135f937",
+      "aa37494c-1681-4bb7-8826-c2f088c50556"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-3",
+    "claim_text": "The gap acceptance criterion DT calculated from pedestrian-estimated vehicle velocity better represents real pedestrian decision-making compared to methods using actual vehicle instantaneous speed",
+    "claim_type": "methodological",
+    "evidence_chunk_ids": [
+      "056a8f45-bfce-4e74-8ce9-3fcb2ebf2ccb",
+      "a7f68a18-ee60-4d56-bf1b-6855854a452c"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-4",
+    "claim_text": "Questionnaire calibration alone produces discrepancies (red light jumper proportion 0.69 vs field 0.85), requiring adjustment based on analyzing deviation causes to achieve better agreement",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "c787943d-905c-4947-821d-d09522a57b04",
+      "bdb7b3e8-ce76-41ff-ba01-54acc1c1f1a4"
+    ],
+    "confidence": null
+  }
+]

@@ -1,0 +1,244 @@
+{
+  "overview": {
+    "paper_count": 2,
+    "matrix_row_count": 10,
+    "verified_gap_count": 0,
+    "scored_gap_count": 0,
+    "rejected_gap_count": 0,
+    "contradiction_count": 0,
+    "dominant_axis": "factor",
+    "average_gap_score": 0.0,
+    "theme_counts": {
+      "method": 2,
+      "task": 3,
+      "factor": 6,
+      "application": 2
+    },
+    "coverage_themes": [
+      "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB)",
+      "Controlled laboratory experiment with eye-tracking"
+    ]
+  },
+  "theme_axes": {
+    "method": [
+      {
+        "theme_id": "method:controlled_laboratory_experiment_with_eye-tracking",
+        "theme_type": "method",
+        "label": "Controlled laboratory experiment with eye-tracking",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Controlled laboratory experiment with eye-tracking appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+        "theme_type": "method",
+        "label": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB)",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "task": [
+      {
+        "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+        "theme_type": "task",
+        "label": "Evaluating contribution of TPB components and extended factors",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "task:pedestrian_street_crossing_under_various_mobile_phone_distraction_conditions",
+        "theme_type": "task",
+        "label": "Pedestrian street crossing under various mobile phone distraction conditions",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Pedestrian street crossing under various mobile phone distraction conditions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "task:predicting_pedestrian_violating_road-crossing_behavior_intentions",
+        "theme_type": "task",
+        "label": "Predicting pedestrian violating road-crossing behavior intentions",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Predicting pedestrian violating road-crossing behavior intentions appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "factor": [
+      {
+        "theme_id": "factor:behavioral_factors",
+        "theme_type": "factor",
+        "label": "behavioral_factors",
+        "evidence_count": 10,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 10.0,
+        "synthesis_note": "behavioral_factors appears in 10 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:traffic_factors",
+        "theme_type": "factor",
+        "label": "traffic_factors",
+        "evidence_count": 10,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 10.0,
+        "synthesis_note": "traffic_factors appears in 10 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:demographic_factors",
+        "theme_type": "factor",
+        "label": "demographic_factors",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "demographic_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:design_factors",
+        "theme_type": "factor",
+        "label": "design_factors",
+        "evidence_count": 2,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 2.0,
+        "synthesis_note": "design_factors appears in 2 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:environmental_factors",
+        "theme_type": "factor",
+        "label": "environmental_factors",
+        "evidence_count": 1,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 1.0,
+        "synthesis_note": "environmental_factors appears in 1 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "factor:temporal_factors",
+        "theme_type": "factor",
+        "label": "temporal_factors",
+        "evidence_count": 1,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 1.0,
+        "synthesis_note": "temporal_factors appears in 1 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ],
+    "application": [
+      {
+        "theme_id": "application:n/a_-_experimental_study_with_28_participants",
+        "theme_type": "application",
+        "label": "N/A - experimental study with 28 participants",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "N/A - experimental study with 28 participants appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      },
+      {
+        "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china_(2015)",
+        "theme_type": "application",
+        "label": "Survey data from 260 respondents in Dalian, China (2015)",
+        "evidence_count": 5,
+        "gap_count": 0,
+        "contradiction_count": 0,
+        "priority_score": 5.0,
+        "synthesis_note": "Survey data from 260 respondents in Dalian, China (2015) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+      }
+    ]
+  },
+  "top_themes": [
+    {
+      "theme_id": "factor:behavioral_factors",
+      "theme_type": "factor",
+      "label": "behavioral_factors",
+      "evidence_count": 10,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 10.0,
+      "synthesis_note": "behavioral_factors appears in 10 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "factor:traffic_factors",
+      "theme_type": "factor",
+      "label": "traffic_factors",
+      "evidence_count": 10,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 10.0,
+      "synthesis_note": "traffic_factors appears in 10 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "application:n/a_-_experimental_study_with_28_participants",
+      "theme_type": "application",
+      "label": "N/A - experimental study with 28 participants",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "N/A - experimental study with 28 participants appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "application:survey_data_from_260_respondents_in_dalian,_china_(2015)",
+      "theme_type": "application",
+      "label": "Survey data from 260 respondents in Dalian, China (2015)",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "Survey data from 260 respondents in Dalian, China (2015) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "factor:demographic_factors",
+      "theme_type": "factor",
+      "label": "demographic_factors",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "demographic_factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "method:controlled_laboratory_experiment_with_eye-tracking",
+      "theme_type": "method",
+      "label": "Controlled laboratory experiment with eye-tracking",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "Controlled laboratory experiment with eye-tracking appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "method:structural_equation_modeling_(sem)_based_on_theory_of_planned_behavior_(tpb)",
+      "theme_type": "method",
+      "label": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB)",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "Structural equation modeling (SEM) based on Theory of Planned Behavior (TPB) appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    },
+    {
+      "theme_id": "task:evaluating_contribution_of_tpb_components_and_extended_factors",
+      "theme_type": "task",
+      "label": "Evaluating contribution of TPB components and extended factors",
+      "evidence_count": 5,
+      "gap_count": 0,
+      "contradiction_count": 0,
+      "priority_score": 5.0,
+      "synthesis_note": "Evaluating contribution of TPB components and extended factors appears in 5 evidence unit(s), with 0 gap signal(s) and 0 contradiction signal(s)."
+    }
+  ]
+}

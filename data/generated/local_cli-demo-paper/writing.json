@@ -1,0 +1,136 @@
+{
+  "outline": [
+    {
+      "section_id": "sec-1",
+      "title": "Introduction and Background",
+      "objective": "Establish the research problem of automating literature review generation and position the current review within the broader NLP landscape",
+      "gap_inputs": [
+        "cbf8c16a-90d2-498a-b3bc-974010b1ca55",
+        "9f897d4f-e5e3-437d-b2fd-cf8b0c3c162a"
+      ],
+      "matrix_row_count": 4
+    },
+    {
+      "section_id": "sec-2",
+      "title": "Methodological Approaches to Automated Literature Review Generation",
+      "objective": "Categorize and compare the three main approaches: extractive summarization (spaCy), abstractive summarization (T5), and retrieval-augmented generation (GPT-3.5)",
+      "gap_inputs": [
+        "9f897d4f-e5e3-437d-b2fd-cf8b0c3c162a"
+      ],
+      "matrix_row_count": 4
+    },
+    {
+      "section_id": "sec-3",
+      "title": "Performance Evaluation and Metric Analysis",
+      "objective": "Synthesize ROUGE-based evaluation results across methods and examine claim conflicts regarding method superiority",
+      "gap_inputs": [
+        "9f897d4f-e5e3-437d-b2fd-cf8b0c3c162a"
+      ],
+      "matrix_row_count": 4
+    },
+    {
+      "section_id": "sec-4",
+      "title": "Datasets and Generalizability Constraints",
+      "objective": "Analyze the reliance on SciTLDR dataset and its implications for domain applicability and cross-disciplinary transfer",
+      "gap_inputs": [
+        "cbf8c16a-90d2-498a-b3bc-974010b1ca55",
+        "9f897d4f-e5e3-437d-b2fd-cf8b0c3c162a"
+      ],
+      "matrix_row_count": 4
+    },
+    {
+      "section_id": "sec-5",
+      "title": "Language and Geographic Representation Gaps",
+      "objective": "Identify the underrepresentation of Chinese-language studies and discuss implications for cross-lingual literature review automation",
+      "gap_inputs": [
+        "cbf8c16a-90d2-498a-b3bc-974010b1ca55"
+      ],
+      "matrix_row_count": 4
+    },
+    {
+      "section_id": "sec-6",
+      "title": "Open Challenges and Future Research Directions",
+      "objective": "Consolidate unresolved claim differences, methodological limitations, and propose a framework for standardized comparison in future work",
+      "gap_inputs": [
+        "9f897d4f-e5e3-437d-b2fd-cf8b0c3c162a",
+        "cbf8c16a-90d2-498a-b3bc-974010b1ca55"
+      ],
+      "matrix_row_count": 4
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "sec-1",
+      "title": "Introduction and Background",
+      "text": "This review synthesizes evidence from 1 papers addressing text_summarization; multi_document_summarization; automated_literature_review_generation, drawn from the automated literature review domain. Systems examined employ diverse methodological families, including extractive_summarization; abstractive_summarization; retrieval_augmented_generation. The review structures findings around 4 discrete claims, organized into a comparative matrix that highlights where methods converge, diverge, or lack sufficient evaluation evidence. The objective is to move beyond siloed paper summaries toward a structured understanding of the current state, open problems, and underexplored regions of the literature.",
+      "citation_keys": [
+        "cli-demo-paper",
+        "cli-demo-paper",
+        "cli-demo-paper"
+      ],
+      "_citation_scores": {
+        "cli-demo-paper": 5.0
+      }
+    },
+    {
+      "section_id": "sec-2",
+      "title": "Methodological Approaches to Automated Literature Review Generation",
+      "text": "extractive_summarization; abstractive_summarization; retrieval_augmented_generation systems make claims including: The LLM-based approach (GPT-3.5-turbo) achieved the highest ROUGE-1 score of 0.364, outperforming T5 (0.268) and spaCy (0.257); All three NLP approaches (spaCy, T5, and GPT-3.5-TURBO-0125) can produce satisfactory results in automating literature review generation.",
+      "citation_keys": [
+        "cli-demo-paper",
+        "cli-demo-paper"
+      ],
+      "_citation_scores": {
+        "cli-demo-paper": 27.5
+      }
+    },
+    {
+      "section_id": "sec-3",
+      "title": "Performance Evaluation and Metric Analysis",
+      "text": "Reported metrics include: ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum; ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum; ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum; ROUGE-1; ROUGE-2; ROUGE-L; ROUGE-Lsum. Metric reporting practices vary considerably across papers, making direct cross-study comparison difficult in several cases.",
+      "citation_keys": [
+        "cli-demo-paper",
+        "cli-demo-paper"
+      ],
+      "_citation_scores": {
+        "cli-demo-paper": 10.0
+      }
+    },
+    {
+      "section_id": "sec-4",
+      "title": "Datasets and Generalizability Constraints",
+      "text": "This section synthesizes findings from 1 papers in the review corpus, addressing text_summarization; multi_document_summarization; automated_literature_review_generation with extractive_summarization; abstractive_summarization; retrieval_augmented_generation. The comparative evidence matrix structures claims, metrics, and limitations to support structured analysis.",
+      "citation_keys": [
+        "cli-demo-paper",
+        "cli-demo-paper"
+      ],
+      "_citation_scores": {
+        "cli-demo-paper": 10.0
+      }
+    },
+    {
+      "section_id": "sec-5",
+      "title": "Language and Geographic Representation Gaps",
+      "text": "The following gaps have been verified through the evidence matrix:\n\nGap [cbf8c16a-90d2-498a-b3bc-974010b1ca55] (medium severity): Current coverage appears to underrepresent Chinese-language or Chinese-context studies.\nGap [9f897d4f-e5e3-437d-b2fd-cf8b0c3c162a] (medium severity): There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.",
+      "citation_keys": [
+        "cli-demo-paper",
+        "cli-demo-paper"
+      ],
+      "_citation_scores": {
+        "cli-demo-paper": 5.0
+      }
+    },
+    {
+      "section_id": "sec-6",
+      "title": "Open Challenges and Future Research Directions",
+      "text": "This review has examined 1 papers covering text_summarization; multi_document_summarization; automated_literature_review_generation using extractive_summarization; abstractive_summarization; retrieval_augmented_generation. Key gaps identified include: [cbf8c16a-90d2-498a-b3bc-974010b1ca55] Current coverage appears to underrepresent Chinese-language or Chinese-context studies. [9f897d4f-e5e3-437d-b2fd-cf8b0c3c162a] There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.. Future research directions emerging from this analysis include addressing metric standardization, expanding linguistic coverage, and resolving conflicting performance claims through rigorous comparative evaluation.",
+      "citation_keys": [
+        "cli-demo-paper",
+        "cli-demo-paper"
+      ],
+      "_citation_scores": {
+        "cli-demo-paper": 5.0
+      }
+    }
+  ]
+}

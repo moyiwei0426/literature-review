@@ -1,0 +1,53 @@
+[
+  {
+    "claim_id": "claim-1",
+    "claim_text": "Pedestrians receptivity toward FAVs significantly increased with the inclusion of external features",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "5b692ae7-6522-49d5-bb8c-dea63ac46774",
+      "db61fb88-ce40-4b60-87e5-940feca4fbbc"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-2",
+    "claim_text": "Walking silhouette and braking text were the most favored visual interfaces while verbal message was the preferred audible feature",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "5b692ae7-6522-49d5-bb8c-dea63ac46774",
+      "e0da41fa-e99f-480c-800c-94e97f5d4aa5"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-3",
+    "claim_text": "Females and people from 30+ age group reacted most positively to the external features",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "5b692ae7-6522-49d5-bb8c-dea63ac46774",
+      "f7ab6778-4a08-4524-bb62-74c19d7dd51a",
+      "de46362d-9c45-4db6-a3b7-1ec0c8cde52d"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-4",
+    "claim_text": "Pedestrians who commit errors or show aggressive behaviors rated FAVs poorly even with external features",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "5b692ae7-6522-49d5-bb8c-dea63ac46774",
+      "c3f1ba7a-d3aa-4ab8-8235-e3676c189c92"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-5",
+    "claim_text": "Pedestrians who intentionally violate traffic rules or get distracted became more cautious with FAVs and appreciated external features",
+    "claim_type": "application",
+    "evidence_chunk_ids": [
+      "5b692ae7-6522-49d5-bb8c-dea63ac46774",
+      "c3f1ba7a-d3aa-4ab8-8235-e3676c189c92"
+    ],
+    "confidence": null
+  }
+]

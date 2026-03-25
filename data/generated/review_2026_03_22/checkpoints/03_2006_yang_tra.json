@@ -1,0 +1,111 @@
+{
+  "paper_id": "03_2006_yang_tra",
+  "title": "Untitled",
+  "research_problem": "Developing a pedestrian micro-simulation model for Chinese cities that accounts for the high rate of red light running and mixed traffic characteristics, which differ significantly from developed countries",
+  "problem_type": "Modeling and simulation",
+  "domain": "Transportation engineering - pedestrian behavior modeling",
+  "language_scope": "English",
+  "method_summary": "A pedestrian micro-simulation model classifying pedestrians into two types (law-obeying and opportunistic) with parameters calibrated via questionnaires (n=495) and time gap distributions extracted from videotape (989 samples). The model incorporates external factors including policeman presence, vehicle flow, and other pedestrians' behavior to determine crossing decisions during red light",
+  "method_family": [
+    "Agent-based micro-simulation with behavioral modeling"
+  ],
+  "datasets": [
+    "Questionnaire data from 495 respondents in Xi'an (November 2003)",
+    "Videotape data from zebra crossing at Southeast Gate of Xi'an Jiaotong University (989 samples)",
+    "Field observation data from crossings without police (June 2003 - April 2004)"
+  ],
+  "tasks": [
+    "Pedestrian road-crossing behavior simulation",
+    "Red light running prediction",
+    "Mixed traffic flow modeling"
+  ],
+  "metrics": [
+    "Proportion of red light jumpers",
+    "Proportion of violation followers",
+    "Pedestrian arriving interval distribution",
+    "Time gap acceptance (ΔT)"
+  ],
+  "baselines": [
+    "CORSIM (found inadequate for Chinese pedestrian modeling by He 2003)",
+    "SIMTRAFFIC (found inadequate for Chinese pedestrian modeling by He 2003)",
+    "Previous opportunistic/law-obeying classification by Liu et al. 2000 (but with fixed proportions)"
+  ],
+  "main_claims": [
+    {
+      "claim_id": "claim-1",
+      "claim_text": "The proposed model successfully represents the high rate of pedestrian red light running and mixed traffic characteristics in Chinese cities, with adjusted simulation results closely matching field observations (mean red light runner proportion: 0.82 simulated vs 0.85 field)",
+      "claim_type": "performance",
+      "evidence_chunk_ids": [
+        "aae2617a-29c3-4f56-8943-86676943edf7",
+        "8c0f01f7-da45-451b-ba5e-cdfbd088b8d4"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-2",
+      "claim_text": "Pedestrians can be effectively classified into two types—law-obeying and opportunistic—with the proportion of opportunistic pedestrians varying based on external situational factors such as policeman presence, traffic volume, and other pedestrians' behavior",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "580dc099-41e6-470a-b059-c139d1d04733",
+        "11c9eae1-9d53-4994-ba85-32c2ad07f218"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-3",
+      "claim_text": "The violation follower phenomenon (where law-obeying pedestrians follow others to violate traffic signals) significantly affects overall red light running rates, with 69% of Type I pedestrians potentially becoming followers when witnessing violations",
+      "claim_type": "application",
+      "evidence_chunk_ids": [
+        "b3de2597-6aa0-42b4-9fe6-a29d4ef175f9",
+        "1f97545e-c4a8-4714-94d3-529dfea1df3c"
+      ],
+      "confidence": null
+    },
+    {
+      "claim_id": "claim-4",
+      "claim_text": "Questionnaire-based parameter calibration alone is insufficient, as self-reported behavior differs from actual behavior, requiring adjustment of the law-obeying proportion parameter from 0.55 to 0.35 to achieve better simulation-field data alignment",
+      "claim_type": "methodological",
+      "evidence_chunk_ids": [
+        "aae2617a-29c3-4f56-8943-86676943edf7"
+      ],
+      "confidence": null
+    }
+  ],
+  "limitations": [
+    {
+      "text": "The model only considers pedestrians' decision making based on instantaneous states of oncoming vehicles, not accounting for vehicle state changes (acceleration/deceleration)",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "8c0f01f7-da45-451b-ba5e-cdfbd088b8d4"
+      ]
+    },
+    {
+      "text": "The calculation method of time gap (ΔT) needs improvement for turning vehicles to make the model more practical",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "8c0f01f7-da45-451b-ba5e-cdfbd088b8d4"
+      ]
+    },
+    {
+      "text": "The model simplifies vehicle behavior by treating turning vehicles as straight-going vehicles",
+      "source": "explicit",
+      "evidence_chunk_ids": [
+        "fcbc9c5b-55ec-480c-8c5d-293465864828"
+      ]
+    },
+    {
+      "text": "Questionnaire respondents may not represent all pedestrians, and answers may not reflect actual daily behavior, leading to calibration uncertainties",
+      "source": "inferred",
+      "evidence_chunk_ids": [
+        "aae2617a-29c3-4f56-8943-86676943edf7"
+      ]
+    }
+  ],
+  "future_work": [
+    "Extend model to handle turning vehicle scenarios and improve ΔT calculation method",
+    "Incorporate pedestrian behavior modeling for vehicle state changes (acceleration/deceleration)",
+    "Apply the model to other developing cities with similar traffic characteristics",
+    "Further validation across multiple Chinese cities"
+  ],
+  "notes": "The model addresses a critical gap in traffic micro-simulation for developing countries, particularly China where pedestrian violation rates can reach 66.7% in some sections. The approach of using both questionnaires and videotape for calibration is novel, though the paper acknowledges the deviation between simulated and field results before parameter adjustment."
+}

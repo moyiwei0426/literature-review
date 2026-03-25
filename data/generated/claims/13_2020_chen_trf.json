@@ -1,0 +1,51 @@
+[
+  {
+    "claim_id": "claim-1",
+    "claim_text": "Female pedestrians have significantly lower propensity to run red lights compared to males (odds ratio = 0.667)",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "998b5f71-dfcf-4efd-8a12-117455d561a1"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-2",
+    "claim_text": "Elderly pedestrians have higher red light running propensity than adults, contrary to some previous findings",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "d1b623ed-1515-41a2-87a7-93556b113566",
+      "a7c213a7-9cee-400c-a220-0894fd2ab392"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-3",
+    "claim_text": "Presence of a companion significantly reduces red light running propensity (odds ratio = 0.579), and presence of other violators increases it (odds ratio = 4.023)",
+    "claim_type": "methodological",
+    "evidence_chunk_ids": [
+      "998b5f71-dfcf-4efd-8a12-117455d561a1",
+      "99c7570b-2746-4d3e-b649-903f494aae81"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-4",
+    "claim_text": "Traffic volume and percentage of heavy vehicles are negatively associated with red light running propensity",
+    "claim_type": "performance",
+    "evidence_chunk_ids": [
+      "a5c58bad-507a-4989-ac76-da5b4f6095ea",
+      "23153421-f563-4711-80e7-3f18784ff41d"
+    ],
+    "confidence": null
+  },
+  {
+    "claim_id": "claim-5",
+    "claim_text": "Significant interaction effects exist between gender and traffic volume, gender and other violators, elderly and companion status on red light running propensity",
+    "claim_type": "methodological",
+    "evidence_chunk_ids": [
+      "66ac8f53-2362-4c7a-bc4b-b7fe9a9f7d18",
+      "23f87cd1-0feb-460d-b68f-124edaabe0d8"
+    ],
+    "confidence": null
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "paper_id": "09_2018_jiang_aap",
+    "title": "Effects of mobile phone distraction on pedestrians' crossing behavior and visual attention allocation at a signalized intersection: An outdoor experimental study",
+    "year": 2018,
+    "venue": "Accident Analysis and Prevention",
+    "authors": [
+      "Kang Jiang",
+      "Feiyang Ling",
+      "Zhongxiang Feng",
+      "Changxi Ma",
+      "Wesley Kumfer",
+      "Chen Shao",
+      "Kun Wang"
+    ],
+    "methods": [
+      "controlled experiment",
+      "eye tracking study",
+      "laboratory outdoor study"
+    ],
+    "tasks": [
+      "pedestrian crossing behavior",
+      "visual attention allocation"
+    ],
+    "datasets": [],
+    "metrics": [
+      "initiate time",
+      "look left and right frequency",
+      "crossing speed",
+      "pupil diameter",
+      "scanning frequency",
+      "fixation points",
+      "fixation time",
+      "fixation duration"
+    ],
+    "claim_count": 4,
+    "claims": [
+      "Text distraction causes the greatest impairment to pedestrians' crossing performance, followed by phone conversation distraction and music distraction, with text distraction significantly affecting all three crossing behavior variables and five visual attention variables",
+      "Music distraction increases pedestrian pupil diameter and reduces scanning frequency as well as fixation points and fixation times toward traffic signal area priority, indicating cognitive load without extreme behavioral impairment",
+      "Pedestrians distracted by phone conversation cross the street more slowly, direct fewer fixation points to the right traffic area, and spend less fixation time and lower average fixation duration on the left traffic area"
+    ],
+    "gap_matches": [],
+    "evidence_chunk_ids": [
+      "7e722b72-129d-469e-98bd-6e26b075b1f1",
+      "202c2c0c-a40b-4613-9b68-271e035b5d87",
+      "11d3a3da-1314-40eb-bf52-8d1d1cfd8470",
+      "b1ebe8d3-e7ad-4def-9956-bf48db40a414",
+      "8b099286-666a-41af-bfe5-84164b9b9fab",
+      "b560a577-ab88-4a11-83d5-d5471b0d54ba",
+      "b770382d-0015-4179-a4d8-0a69eb22f6b6",
+      "44c0651c-7e9f-4bf4-9468-9d802da83184"
+    ]
+  },
+  {
+    "paper_id": "08_2016_zhou_aap",
+    "title": "An extension of the theory of planned behavior to predict pedestrians' violating crossing behavior using structural equation modeling",
+    "year": 2016,
+    "venue": "Accident Analysis and Prevention",
+    "authors": [
+      "Hongmei Zhou",
+      "Stephanie Ballon Romero",
+      "Xiao Qin"
+    ],
+    "methods": [
+      "Structural Equation Modeling (SEM)"
+    ],
+    "tasks": [
+      "Predicting pedestrians' violating road-crossing behavior intentions"
+    ],
+    "datasets": [
+      "Survey data from Dalian, China (260 complete and valid responses)"
+    ],
+    "metrics": [
+      "CMIN/df ratio",
+      "RMSEA (Root Mean Square Error of Approximation)",
+      "PCLOSE",
+      "CFI (Comparative Fit Index)",
+      "Cronbach's alpha for reliability"
+    ],
+    "claim_count": 5,
+    "claims": [
+      "Instrumental attitude was a significant predictor of pedestrians' violating crossing behavior intention across all four models tested",
+      "When descriptive norm was added to the model, subjective norm became insignificant while descriptive norm emerged as a stronger predictor, indicating that pedestrians' observations of family and friends' behavior had greater influence than perceived approval from them",
+      "Conformity tendency was a strong predictor of violating crossing behavior, indicating that the presence of other pedestrians influences behavioral intention"
+    ],
+    "gap_matches": [],
+    "evidence_chunk_ids": [
+      "14a9d6ac-c41b-4e1a-a2e0-9ba3ffc7b621",
+      "e4c22d09-4788-4535-ac1c-370aa948b8fb",
+      "6e48d465-39ff-453b-b548-39f552250d06",
+      "9387974c-6698-45d3-96e1-fde5a5f3a2eb",
+      "fc11f6f9-bbe8-46d4-84e6-a50c9e5863af"
+    ]
+  }
+]

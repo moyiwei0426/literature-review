@@ -1,0 +1,28 @@
+{
+  "keywords": [
+    "predicting pedestrian violating road-crossing behavior intentions",
+    "evaluating contribution of tpb components and extended factors",
+    "pedestrian street crossing under various mobile phone distraction conditions",
+    "n/a - experimental study with 28 participants",
+    "survey data from 260 respondents in dalian, china (2015)",
+    "structural equation modeling (sem) based on theory of planned behavior (tpb)",
+    "controlled laboratory experiment with eye-tracking",
+    "this paper aimed to examine pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (tpb), extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions."
+  ],
+  "keyword_count": 8,
+  "dominant_axis": "factor taxonomy",
+  "signals": {
+    "predicting pedestrian violating road-crossing behavior intentions": 7.85,
+    "evaluating contribution of tpb components and extended factors": 7.85,
+    "pedestrian street crossing under various mobile phone distraction conditions": 7.85,
+    "n/a - experimental study with 28 participants": 7.6,
+    "survey data from 260 respondents in dalian, china (2015)": 7.6,
+    "structural equation modeling (sem) based on theory of planned behavior (tpb)": 7.1,
+    "controlled laboratory experiment with eye-tracking": 7.1,
+    "this paper aimed to examine pedestrians' self-reported violating crossing behavior intentions by applying the theory of planned behavior (tpb), extending it by adding descriptive norm, perceived risk, and conformity tendency to evaluate their respective impacts on pedestrians' behavior intentions.": 5.0,
+    "this study investigates how mobile phone distractions (music distraction, phone conversation distraction, and text distraction) affect the crossing behavior and visual attention allocation of pedestrians at a signalized intersection. the research addresses the growing concern about pedestrian safety as mobile phone usage while crossing has increased globally, with approximately one-third of pedestrians in china and 60% of adults in the us reportedly using mobile phones while crossing streets.": 5.0,
+    "cmin/df ratio": 4.5,
+    "rmsea (root mean square error of approximation)": 4.5,
+    "pclose": 4.5
+  }
+}

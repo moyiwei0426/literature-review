@@ -1,0 +1,14 @@
+[
+  {
+    "claim_id": "claim-1",
+    "chunk_id": "537b5489-9062-4c86-9f09-03568131b95e",
+    "support_type": "supports",
+    "confidence": 0.7
+  },
+  {
+    "claim_id": "claim-2",
+    "chunk_id": "474cb77d-f4a7-44da-a348-d62ea3c65e33",
+    "support_type": "supports",
+    "confidence": 0.68
+  }
+]

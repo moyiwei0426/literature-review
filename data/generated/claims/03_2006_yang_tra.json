@@ -1,0 +1,20 @@
+[
+  {
+    "claim_id": "claim-1",
+    "claim_text": "The pipeline can transform parsed paper chunks into a structured paper profile.",
+    "claim_type": "methodological",
+    "evidence_chunk_ids": [
+      "537b5489-9062-4c86-9f09-03568131b95e"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "claim_id": "claim-2",
+    "claim_text": "The system supports downstream gap analysis by preserving evidence links.",
+    "claim_type": "application",
+    "evidence_chunk_ids": [
+      "474cb77d-f4a7-44da-a348-d62ea3c65e33"
+    ],
+    "confidence": 0.68
+  }
+]

@@ -1,0 +1,1048 @@
+{
+  "openalex": {
+    "meta": {
+      "count": 51037,
+      "db_response_time_ms": 1719,
+      "page": 1,
+      "per_page": 1,
+      "groups_count": null,
+      "cost_usd": 0.001
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W4403248625",
+        "doi": "https://doi.org/10.3390/app14199103",
+        "title": "Automating Systematic Literature Reviews with Retrieval-Augmented Generation: A Comprehensive Overview",
+        "display_name": "Automating Systematic Literature Reviews with Retrieval-Augmented Generation: A Comprehensive Overview",
+        "relevance_score": 411.45786,
+        "publication_year": 2024,
+        "publication_date": "2024-10-09",
+        "ids": {
+          "openalex": "https://openalex.org/W4403248625",
+          "doi": "https://doi.org/10.3390/app14199103"
+        },
+        "language": "en",
+        "primary_location": {
+          "id": "doi:10.3390/app14199103",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3390/app14199103",
+          "pdf_url": "https://www.mdpi.com/2076-3417/14/19/9103/pdf?version=1728436391",
+          "source": {
+            "id": "https://openalex.org/S4210205812",
+            "display_name": "Applied Sciences",
+            "issn_l": "2076-3417",
+            "issn": [
+              "2076-3417"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310310987",
+            "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310310987"
+            ],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Applied Sciences",
+          "raw_type": "journal-article"
+        },
+        "type": "article",
+        "indexed_in": [
+          "crossref",
+          "doaj"
+        ],
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://www.mdpi.com/2076-3417/14/19/9103/pdf?version=1728436391",
+          "any_repository_has_fulltext": true
+        },
+        "authorships": [
+          {
+            "author_position": "first",
+            "author": {
+              "id": "https://openalex.org/A5051029150",
+              "display_name": "Binglan Han",
+              "orcid": "https://orcid.org/0000-0001-5376-8986"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I51158804",
+                "display_name": "Massey University",
+                "ror": "https://ror.org/052czxv31",
+                "country_code": "NZ",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I51158804"
+                ]
+              }
+            ],
+            "countries": [
+              "NZ"
+            ],
+            "is_corresponding": false,
+            "raw_author_name": "Binglan Han",
+            "raw_affiliation_strings": [
+              "School of Mathematical and Computational Sciences, Massey University, Auckland 0632, New Zealand"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Mathematical and Computational Sciences, Massey University, Auckland 0632, New Zealand",
+                "institution_ids": [
+                  "https://openalex.org/I51158804"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "middle",
+            "author": {
+              "id": "https://openalex.org/A5037915797",
+              "display_name": "Teo Sušnjak",
+              "orcid": "https://orcid.org/0000-0001-9416-1435"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I51158804",
+                "display_name": "Massey University",
+                "ror": "https://ror.org/052czxv31",
+                "country_code": "NZ",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I51158804"
+                ]
+              }
+            ],
+            "countries": [
+              "NZ"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "Teo Susnjak",
+            "raw_affiliation_strings": [
+              "School of Mathematical and Computational Sciences, Massey University, Auckland 0632, New Zealand"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Mathematical and Computational Sciences, Massey University, Auckland 0632, New Zealand",
+                "institution_ids": [
+                  "https://openalex.org/I51158804"
+                ]
+              }
+            ]
+          },
+          {
+            "author_position": "last",
+            "author": {
+              "id": "https://openalex.org/A5034166135",
+              "display_name": "Anuradha Mathrani",
+              "orcid": "https://orcid.org/0000-0002-9124-2536"
+            },
+            "institutions": [
+              {
+                "id": "https://openalex.org/I51158804",
+                "display_name": "Massey University",
+                "ror": "https://ror.org/052czxv31",
+                "country_code": "NZ",
+                "type": "education",
+                "lineage": [
+                  "https://openalex.org/I51158804"
+                ]
+              }
+            ],
+            "countries": [
+              "NZ"
+            ],
+            "is_corresponding": true,
+            "raw_author_name": "Anuradha Mathrani",
+            "raw_affiliation_strings": [
+              "School of Mathematical and Computational Sciences, Massey University, Auckland 0632, New Zealand"
+            ],
+            "affiliations": [
+              {
+                "raw_affiliation_string": "School of Mathematical and Computational Sciences, Massey University, Auckland 0632, New Zealand",
+                "institution_ids": [
+                  "https://openalex.org/I51158804"
+                ]
+              }
+            ]
+          }
+        ],
+        "institutions": [],
+        "countries_distinct_count": 1,
+        "institutions_distinct_count": 3,
+        "corresponding_author_ids": [
+          "https://openalex.org/A5034166135",
+          "https://openalex.org/A5037915797"
+        ],
+        "corresponding_institution_ids": [
+          "https://openalex.org/I51158804"
+        ],
+        "apc_list": {
+          "value": 2300,
+          "currency": "CHF",
+          "value_usd": 2490
+        },
+        "apc_paid": {
+          "value": 2300,
+          "currency": "CHF",
+          "value_usd": 2490
+        },
+        "fwci": 13.2892,
+        "has_fulltext": true,
+        "cited_by_count": 37,
+        "citation_normalized_percentile": {
+          "value": 0.99042147,
+          "is_in_top_1_percent": true,
+          "is_in_top_10_percent": true
+        },
+        "cited_by_percentile_year": {
+          "min": 99,
+          "max": 100
+        },
+        "biblio": {
+          "volume": "14",
+          "issue": "19",
+          "first_page": "9103",
+          "last_page": "9103"
+        },
+        "is_retracted": false,
+        "is_paratext": false,
+        "is_xpac": false,
+        "primary_topic": {
+          "id": "https://openalex.org/T13083",
+          "display_name": "Advanced Text Analysis Techniques",
+          "score": 0.9952999949455261,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1702",
+            "display_name": "Artificial Intelligence"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        "topics": [
+          {
+            "id": "https://openalex.org/T13083",
+            "display_name": "Advanced Text Analysis Techniques",
+            "score": 0.9952999949455261,
+            "subfield": {
+              "id": "https://openalex.org/subfields/1702",
+              "display_name": "Artificial Intelligence"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/17",
+              "display_name": "Computer Science"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T10028",
+            "display_name": "Topic Modeling",
+            "score": 0.9930999875068665,
+            "subfield": {
+              "id": "https://openalex.org/subfields/1702",
+              "display_name": "Artificial Intelligence"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/17",
+              "display_name": "Computer Science"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/3",
+              "display_name": "Physical Sciences"
+            }
+          },
+          {
+            "id": "https://openalex.org/T11710",
+            "display_name": "Biomedical Text Mining and Ontologies",
+            "score": 0.9894000291824341,
+            "subfield": {
+              "id": "https://openalex.org/subfields/1312",
+              "display_name": "Molecular Biology"
+            },
+            "field": {
+              "id": "https://openalex.org/fields/13",
+              "display_name": "Biochemistry, Genetics and Molecular Biology"
+            },
+            "domain": {
+              "id": "https://openalex.org/domains/1",
+              "display_name": "Life Sciences"
+            }
+          }
+        ],
+        "keywords": [
+          {
+            "id": "https://openalex.org/keywords/systematic-review",
+            "display_name": "Systematic review",
+            "score": 0.49683907628059387
+          },
+          {
+            "id": "https://openalex.org/keywords/computer-science",
+            "display_name": "Computer science",
+            "score": 0.4929506778717041
+          },
+          {
+            "id": "https://openalex.org/keywords/information-retrieval",
+            "display_name": "Information retrieval",
+            "score": 0.47905051708221436
+          },
+          {
+            "id": "https://openalex.org/keywords/medline",
+            "display_name": "MEDLINE",
+            "score": 0.13001763820648193
+          },
+          {
+            "id": "https://openalex.org/keywords/political-science",
+            "display_name": "Political science",
+            "score": 0.11298584938049316
+          }
+        ],
+        "concepts": [
+          {
+            "id": "https://openalex.org/C189708586",
+            "wikidata": "https://www.wikidata.org/wiki/Q1504425",
+            "display_name": "Systematic review",
+            "level": 3,
+            "score": 0.49683907628059387
+          },
+          {
+            "id": "https://openalex.org/C41008148",
+            "wikidata": "https://www.wikidata.org/wiki/Q21198",
+            "display_name": "Computer science",
+            "level": 0,
+            "score": 0.4929506778717041
+          },
+          {
+            "id": "https://openalex.org/C23123220",
+            "wikidata": "https://www.wikidata.org/wiki/Q816826",
+            "display_name": "Information retrieval",
+            "level": 1,
+            "score": 0.47905051708221436
+          },
+          {
+            "id": "https://openalex.org/C2779473830",
+            "wikidata": "https://www.wikidata.org/wiki/Q1540899",
+            "display_name": "MEDLINE",
+            "level": 2,
+            "score": 0.13001763820648193
+          },
+          {
+            "id": "https://openalex.org/C17744445",
+            "wikidata": "https://www.wikidata.org/wiki/Q36442",
+            "display_name": "Political science",
+            "level": 0,
+            "score": 0.11298584938049316
+          },
+          {
+            "id": "https://openalex.org/C199539241",
+            "wikidata": "https://www.wikidata.org/wiki/Q7748",
+            "display_name": "Law",
+            "level": 1,
+            "score": 0.0
+          }
+        ],
+        "mesh": [],
+        "locations_count": 2,
+        "locations": [
+          {
+            "id": "doi:10.3390/app14199103",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3390/app14199103",
+            "pdf_url": "https://www.mdpi.com/2076-3417/14/19/9103/pdf?version=1728436391",
+            "source": {
+              "id": "https://openalex.org/S4210205812",
+              "display_name": "Applied Sciences",
+              "issn_l": "2076-3417",
+              "issn": [
+                "2076-3417"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "host_organization": "https://openalex.org/P4310310987",
+              "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310310987"
+              ],
+              "host_organization_lineage_names": [
+                "Multidisciplinary Digital Publishing Institute"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Applied Sciences",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:1804b0f397dc4e0d8adc5891fc53ae8d",
+            "is_oa": true,
+            "landing_page_url": "https://doaj.org/article/1804b0f397dc4e0d8adc5891fc53ae8d",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S112646816",
+              "display_name": "SHILAP Revista de lepidopterología",
+              "issn_l": "0300-5267",
+              "issn": [
+                "0300-5267",
+                "2340-4078"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": false,
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Applied Sciences, Vol 14, Iss 19, p 9103 (2024)",
+            "raw_type": "article"
+          }
+        ],
+        "best_oa_location": {
+          "id": "doi:10.3390/app14199103",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3390/app14199103",
+          "pdf_url": "https://www.mdpi.com/2076-3417/14/19/9103/pdf?version=1728436391",
+          "source": {
+            "id": "https://openalex.org/S4210205812",
+            "display_name": "Applied Sciences",
+            "issn_l": "2076-3417",
+            "issn": [
+              "2076-3417"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310310987",
+            "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310310987"
+            ],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Applied Sciences",
+          "raw_type": "journal-article"
+        },
+        "sustainable_development_goals": [
+          {
+            "score": 0.7699999809265137,
+            "display_name": "Quality Education",
+            "id": "https://metadata.un.org/sdg/4"
+          }
+        ],
+        "awards": [],
+        "funders": [],
+        "has_content": {
+          "grobid_xml": true,
+          "pdf": true
+        },
+        "content_urls": {
+          "pdf": "https://content.openalex.org/works/W4403248625.pdf",
+          "grobid_xml": "https://content.openalex.org/works/W4403248625.grobid-xml"
+        },
+        "referenced_works_count": 38,
+        "referenced_works": [
+          "https://openalex.org/W2173536757",
+          "https://openalex.org/W2951434086",
+          "https://openalex.org/W2970771982",
+          "https://openalex.org/W3090556797",
+          "https://openalex.org/W3099700870",
+          "https://openalex.org/W3104404235",
+          "https://openalex.org/W3111425437",
+          "https://openalex.org/W3156789018",
+          "https://openalex.org/W3186138538",
+          "https://openalex.org/W4226082499",
+          "https://openalex.org/W4252076394",
+          "https://openalex.org/W4287887100",
+          "https://openalex.org/W4287891464",
+          "https://openalex.org/W4318148415",
+          "https://openalex.org/W4321351832",
+          "https://openalex.org/W4378783233",
+          "https://openalex.org/W4385570045",
+          "https://openalex.org/W4385571271",
+          "https://openalex.org/W4386351210",
+          "https://openalex.org/W4387874094",
+          "https://openalex.org/W4388778348",
+          "https://openalex.org/W4389518671",
+          "https://openalex.org/W4389519118",
+          "https://openalex.org/W4389520468",
+          "https://openalex.org/W4389520758",
+          "https://openalex.org/W4389524398",
+          "https://openalex.org/W4391221150",
+          "https://openalex.org/W4399480372",
+          "https://openalex.org/W4400526126",
+          "https://openalex.org/W4401042621",
+          "https://openalex.org/W4401042773",
+          "https://openalex.org/W4402670290",
+          "https://openalex.org/W4402671071",
+          "https://openalex.org/W4402773236",
+          "https://openalex.org/W4404783091",
+          "https://openalex.org/W6685326625",
+          "https://openalex.org/W6850507425",
+          "https://openalex.org/W6926229601"
+        ],
+        "related_works": [
+          "https://openalex.org/W4391375266",
+          "https://openalex.org/W2748952813",
+          "https://openalex.org/W2390279801",
+          "https://openalex.org/W2358668433",
+          "https://openalex.org/W4396701345",
+          "https://openalex.org/W2376932109",
+          "https://openalex.org/W2001405890",
+          "https://openalex.org/W4396696052",
+          "https://openalex.org/W4402327032",
+          "https://openalex.org/W2382290278"
+        ],
+        "abstract_inverted_index": {
+          "This": [
+            0
+          ],
+          "study": [
+            1
+          ],
+          "examines": [
+            2
+          ],
+          "Retrieval-Augmented": [
+            3
+          ],
+          "Generation": [
+            4
+          ],
+          "(RAG)": [
+            5
+          ],
+          "in": [
+            6,
+            40,
+            57,
+            79
+          ],
+          "large": [
+            7
+          ],
+          "language": [
+            8
+          ],
+          "models": [
+            9
+          ],
+          "(LLMs)": [
+            10
+          ],
+          "and": [
+            11,
+            31,
+            44,
+            59,
+            90,
+            102,
+            115,
+            117,
+            146,
+            163,
+            183,
+            201
+          ],
+          "their": [
+            12,
+            49
+          ],
+          "significant": [
+            13
+          ],
+          "application": [
+            14
+          ],
+          "for": [
+            15,
+            130
+          ],
+          "undertaking": [
+            16
+          ],
+          "systematic": [
+            17
+          ],
+          "literature": [
+            18,
+            140,
+            142
+          ],
+          "reviews": [
+            19
+          ],
+          "(SLRs).": [
+            20
+          ],
+          "RAG-based": [
+            21,
+            97,
+            128
+          ],
+          "LLMs": [
+            22,
+            36,
+            98,
+            129
+          ],
+          "can": [
+            23,
+            55
+          ],
+          "potentially": [
+            24
+          ],
+          "automate": [
+            25
+          ],
+          "tasks": [
+            26
+          ],
+          "like": [
+            27
+          ],
+          "data": [
+            28,
+            113,
+            144,
+            188
+          ],
+          "extraction,": [
+            29,
+            145
+          ],
+          "summarization,": [
+            30
+          ],
+          "trend": [
+            32
+          ],
+          "identification.": [
+            33
+          ],
+          "However,": [
+            34
+          ],
+          "while": [
+            35
+          ],
+          "are": [
+            37
+          ],
+          "exceptionally": [
+            38
+          ],
+          "proficient": [
+            39
+          ],
+          "generating": [
+            41
+          ],
+          "human-like": [
+            42
+          ],
+          "text": [
+            43
+          ],
+          "interpreting": [
+            45
+          ],
+          "complex": [
+            46
+          ],
+          "linguistic": [
+            47
+          ],
+          "nuances,": [
+            48
+          ],
+          "dependence": [
+            50
+          ],
+          "on": [
+            51,
+            174
+          ],
+          "static,": [
+            52
+          ],
+          "pre-trained": [
+            53
+          ],
+          "knowledge": [
+            54
+          ],
+          "result": [
+            56
+          ],
+          "inaccuracies": [
+            58
+          ],
+          "hallucinations.": [
+            60
+          ],
+          "RAG": [
+            61,
+            87,
+            161
+          ],
+          "mitigates": [
+            62
+          ],
+          "these": [
+            63,
+            187
+          ],
+          "limitations": [
+            64
+          ],
+          "by": [
+            65
+          ],
+          "integrating": [
+            66
+          ],
+          "LLMs’": [
+            67
+          ],
+          "generative": [
+            68
+          ],
+          "capabilities": [
+            69
+          ],
+          "with": [
+            70,
+            171
+          ],
+          "the": [
+            71,
+            81,
+            86,
+            154,
+            168,
+            175,
+            184
+          ],
+          "precision": [
+            72
+          ],
+          "of": [
+            73,
+            85,
+            96,
+            109,
+            119,
+            127,
+            137,
+            177,
+            186
+          ],
+          "real-time": [
+            74
+          ],
+          "information": [
+            75,
+            147,
+            178
+          ],
+          "retrieval.": [
+            76
+          ],
+          "We": [
+            77,
+            92,
+            123
+          ],
+          "review": [
+            78
+          ],
+          "detail": [
+            80
+          ],
+          "three": [
+            82
+          ],
+          "key": [
+            83
+          ],
+          "processes": [
+            84
+          ],
+          "framework—retrieval,": [
+            88
+          ],
+          "augmentation,": [
+            89
+          ],
+          "generation.": [
+            91
+          ],
+          "then": [
+            93
+          ],
+          "discuss": [
+            94
+          ],
+          "applications": [
+            95
+          ],
+          "to": [
+            99,
+            152,
+            166,
+            189
+          ],
+          "SLR": [
+            100,
+            138
+          ],
+          "automation": [
+            101
+          ],
+          "highlight": [
+            103
+          ],
+          "future": [
+            104
+          ],
+          "research": [
+            105,
+            150
+          ],
+          "topics,": [
+            106
+          ],
+          "including": [
+            107
+          ],
+          "integration": [
+            108,
+            185
+          ],
+          "domain-specific": [
+            110
+          ],
+          "LLMs,": [
+            111
+          ],
+          "multimodal": [
+            112
+          ],
+          "processing": [
+            114
+          ],
+          "generation,": [
+            116
+          ],
+          "utilization": [
+            118
+          ],
+          "multiple": [
+            120
+          ],
+          "retrieval": [
+            121,
+            176
+          ],
+          "sources.": [
+            122
+          ],
+          "propose": [
+            124
+          ],
+          "a": [
+            125
+          ],
+          "framework": [
+            126
+          ],
+          "automating": [
+            131
+          ],
+          "SRLs,": [
+            132
+          ],
+          "which": [
+            133
+          ],
+          "covers": [
+            134
+          ],
+          "four": [
+            135
+          ],
+          "stages": [
+            136
+          ],
+          "process:": [
+            139
+          ],
+          "search,": [
+            141
+          ],
+          "screening,": [
+            143
+          ],
+          "synthesis.": [
+            148
+          ],
+          "Future": [
+            149
+          ],
+          "aims": [
+            151
+          ],
+          "optimize": [
+            153
+          ],
+          "interaction": [
+            155
+          ],
+          "between": [
+            156
+          ],
+          "LLM": [
+            157
+          ],
+          "selection,": [
+            158
+          ],
+          "training": [
+            159
+          ],
+          "strategies,": [
+            160
+          ],
+          "techniques,": [
+            162
+          ],
+          "prompt": [
+            164
+          ],
+          "engineering": [
+            165
+          ],
+          "implement": [
+            167
+          ],
+          "proposed": [
+            169
+          ],
+          "framework,": [
+            170
+          ],
+          "particular": [
+            172
+          ],
+          "emphasis": [
+            173
+          ],
+          "from": [
+            179
+          ],
+          "individual": [
+            180
+          ],
+          "scientific": [
+            181
+          ],
+          "papers": [
+            182
+          ],
+          "produce": [
+            190
+          ],
+          "outputs": [
+            191
+          ],
+          "addressing": [
+            192
+          ],
+          "various": [
+            193
+          ],
+          "aspects": [
+            194
+          ],
+          "such": [
+            195
+          ],
+          "as": [
+            196
+          ],
+          "current": [
+            197
+          ],
+          "status,": [
+            198
+          ],
+          "existing": [
+            199
+          ],
+          "gaps,": [
+            200
+          ],
+          "emerging": [
+            202
+          ],
+          "trends.": [
+            203
+          ]
+        },
+        "counts_by_year": [
+          {
+            "year": 2026,
+            "cited_by_count": 7
+          },
+          {
+            "year": 2025,
+            "cited_by_count": 30
+          }
+        ],
+        "updated_date": "2026-03-15T09:29:46.208133",
+        "created_date": "2025-10-10T00:00:00"
+      }
+    ],
+    "group_by": []
+  },
+  "arxiv": {
+    "raw_xml": "<?xml version='1.0' encoding='UTF-8'?>\n<feed xmlns:opensearch=\"http://a9.com/-/spec/opensearch/1.1/\" xmlns:arxiv=\"http://arxiv.org/schemas/atom\" xmlns=\"http://www.w3.org/2005/Atom\">\n  <id>https://arxiv.org/api/N7LreS/JREV2/UnKZMxjvoPBmSk</id>\n  <title>arXiv Query: search_query=all:retrieval OR all:augmented OR all:generation OR all:literature OR all:review&amp;id_list=&amp;start=0&amp;max_results=1</title>\n  <updated>2026-03-19T11:35:36Z</updated>\n  <link href=\"https://arxiv.org/api/query?search_query=all:retrieval+OR+(all:augmented+OR+(all:generation+OR+(all:literature+OR+all:review)))&amp;start=0&amp;max_results=1&amp;id_list=\" type=\"application/atom+xml\"/>\n  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>\n  <opensearch:totalResults>1070610</opensearch:totalResults>\n  <opensearch:startIndex>0</opensearch:startIndex>\n  <entry>\n    <id>http://arxiv.org/abs/2411.18583v1</id>\n    <title>Automated Literature Review Using NLP Techniques and LLM-Based Retrieval-Augmented Generation</title>\n    <updated>2024-11-27T18:27:07Z</updated>\n    <link href=\"https://arxiv.org/abs/2411.18583v1\" rel=\"alternate\" type=\"text/html\"/>\n    <link href=\"https://arxiv.org/pdf/2411.18583v1\" rel=\"related\" type=\"application/pdf\" title=\"pdf\"/>\n    <summary>This research presents and compares multiple approaches to automate the generation of literature reviews using several Natural Language Processing (NLP) techniques and retrieval-augmented generation (RAG) with a Large Language Model (LLM). The ever-increasing number of research articles provides a huge challenge for manual literature review. It has resulted in an increased demand for automation. Developing a system capable of automatically generating the literature reviews from only the PDF files as input is the primary objective of this research work. The effectiveness of several Natural Language Processing (NLP) strategies, such as the frequency-based method (spaCy), the transformer model (Simple T5), and retrieval-augmented generation (RAG) with Large Language Model (GPT-3.5-turbo), is evaluated to meet the primary objective. The SciTLDR dataset is chosen for this research experiment and three distinct techniques are utilized to implement three different systems for auto-generating the literature reviews. The ROUGE scores are used for the evaluation of all three systems. Based on the evaluation, the Large Language Model GPT-3.5-turbo achieved the highest ROUGE-1 score, 0.364. The transformer model comes in second place and spaCy is at the last position. Finally, a graphical user interface is created for the best system based on the large language model.</summary>\n    <category term=\"cs.CL\" scheme=\"http://arxiv.org/schemas/atom\"/>\n    <category term=\"cs.AI\" scheme=\"http://arxiv.org/schemas/atom\"/>\n    <category term=\"cs.IR\" scheme=\"http://arxiv.org/schemas/atom\"/>\n    <category term=\"cs.LG\" scheme=\"http://arxiv.org/schemas/atom\"/>\n    <published>2024-11-27T18:27:07Z</published>\n    <arxiv:comment>Key Words : T5, SpaCy, Large Language Model, GPT, ROUGE, Literature Review, Natural Language Processing, Retrieval-augmented generation</arxiv:comment>\n    <arxiv:primary_category term=\"cs.CL\"/>\n    <author>\n      <name>Nurshat Fateh Ali</name>\n    </author>\n    <author>\n      <name>Md. Mahdi Mohtasim</name>\n    </author>\n    <author>\n      <name>Shakil Mosharrof</name>\n    </author>\n    <author>\n      <name>T. Gopi Krishna</name>\n    </author>\n  </entry>\n</feed>\n"
+  }
+}

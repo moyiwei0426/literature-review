@@ -1,0 +1,25 @@
+{
+  "paper_count": 4,
+  "method_family_distribution": {
+    "pipeline": 4,
+    "llm-assisted-extraction": 4
+  },
+  "task_distribution": {
+    "literature_review": 4,
+    "information_extraction": 4
+  },
+  "language_distribution": {
+    "english": 4
+  },
+  "dataset_distribution": {},
+  "year_distribution": {
+    "2016": 2,
+    "2018": 1,
+    "2017": 1
+  },
+  "chinese_coverage_count": 0,
+  "themes": [
+    "pipeline",
+    "llm-assisted-extraction"
+  ]
+}

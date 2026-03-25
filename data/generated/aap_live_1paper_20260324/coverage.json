@@ -1,0 +1,22 @@
+{
+  "paper_count": 1,
+  "method_family_distribution": {
+    "Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) extension": 1
+  },
+  "task_distribution": {
+    "Predict pedestrians' violating road-crossing behavior intentions": 1
+  },
+  "language_distribution": {
+    "english": 1
+  },
+  "dataset_distribution": {
+    "Survey data from 260 respondents in Dalian, China": 1
+  },
+  "year_distribution": {
+    "2016": 1
+  },
+  "chinese_coverage_count": 1,
+  "themes": [
+    "Structural Equation Modeling (SEM), Theory of Planned Behavior (TPB) extension"
+  ]
+}

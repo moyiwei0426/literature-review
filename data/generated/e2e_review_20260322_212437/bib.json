@@ -1,0 +1,18 @@
+[
+  {
+    "key": "01_2001_hamed_safety_science",
+    "year": "2001",
+    "title": "The proposed safety assessment method provides more comprehensive evaluation com",
+    "authors": "Hamed, [surname only]",
+    "venue": "preprint",
+    "entry": "@article{01_2001_hamed_safety_science,\n  author={Hamed, [surname only]},\n  title={The proposed safety assessment method provides more comprehensive evaluation com},\n  year={2001},\n  journal={preprint}\n}"
+  },
+  {
+    "key": "02_2003_brosseau_trf",
+    "year": "2003",
+    "title": "Unsignalized midblock crosswalks showed the highest pedestrian preference (83% r",
+    "authors": "Brosseau, [surname only]",
+    "venue": "preprint",
+    "entry": "@article{02_2003_brosseau_trf,\n  author={Brosseau, [surname only]},\n  title={Unsignalized midblock crosswalks showed the highest pedestrian preference (83% r},\n  year={2003},\n  journal={preprint}\n}"
+  }
+]

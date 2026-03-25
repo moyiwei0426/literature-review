@@ -1,0 +1,37 @@
+[
+  {
+    "gap_id": "4c163add-ba72-41cb-80fb-62255ed5439b",
+    "gap_statement": "Current coverage appears to underrepresent Chinese-language or Chinese-context studies.",
+    "gap_type": "language",
+    "supporting_evidence": [
+      "language_distribution={'Arabic (with English references)': 1, 'english': 7, 'English': 3, 'en': 1}",
+      "chinese_coverage_count: 0 (explicit in coverage report)"
+    ],
+    "counter_evidence": [
+      "7 papers explicitly study Chinese contexts: Xi'an (papers 03_2006, 06_2013), Dalian (08_2016), Hefei (09_2018, 12_2016), Hong Kong (10_2020), Shanghai (14_2020)",
+      "All Chinese-context papers are English-language publications, but the geographic coverage of Chinese pedestrian behavior is substantial"
+    ],
+    "confidence": 0.5,
+    "novelty_value": 0.7,
+    "review_worthiness": 0.58,
+    "status": "partially_verified_with_calibration"
+  },
+  {
+    "gap_id": "67b03b55-ecc9-4154-9614-04a2aa7964fe",
+    "gap_statement": "There are unresolved claim differences across papers under the same task, suggesting a need for clearer comparison criteria.",
+    "gap_type": "comparison",
+    "supporting_evidence": [
+      "contradiction_count=32 in contradiction report"
+    ],
+    "counter_evidence": [
+      "Task distribution shows diverse specific tasks; multiple papers addressing 'pedestrian_signal_non_compliance_decision_modeling' (papers 03_2006, 06_2013, 10_2020, 12_2016) show complementary rather than contradictory findings (all find high violation rates, identify personal/environmental factors)",
+      "Methodological differences across papers (simulation vs. survey vs. observation) explain differing results rather than true contradictions",
+      "Geographic/contextual differences (Xi'an, Dalian, Hefei, Hong Kong) account for varying factor importance - these are not contradictions but context-dependent findings",
+      "The 32 contradictions may reflect expected scholarly discourse rather than unresolved conflicts"
+    ],
+    "confidence": 0.1,
+    "novelty_value": 0.6,
+    "review_worthiness": 0.3,
+    "status": "partially_verified_with_calibration"
+  }
+]

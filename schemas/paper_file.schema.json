@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "aris-lit/paper_file",
+  "title": "PaperFile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["paper_id", "file_type", "file_path"],
+  "properties": {
+    "paper_id": {"type": "string"},
+    "file_type": {"type": "string"},
+    "file_path": {"type": "string"},
+    "source_url": {"type": ["string", "null"], "default": null},
+    "parse_status": {"type": ["string", "null"], "default": null}
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "AAP live two-paper fallback",
+  "paper_count": 2,
+  "matrix_row_count": 9,
+  "dominant_axis": "factor structure",
+  "top_themes": [
+    "behavioral factors",
+    "Survey data from Dalian, China (260 complete and valid responses)",
+    "Structural Equation Modeling (SEM)"
+  ],
+  "top_methods": [
+    "Structural Equation Modeling (SEM)",
+    "controlled experiment",
+    "eye tracking study"
+  ],
+  "top_tasks": [
+    "Predicting pedestrians' violating road-crossing behavior intentions",
+    "pedestrian crossing behavior",
+    "visual attention allocation"
+  ],
+  "verified_gap_count": 0,
+  "text": "AAP live two-paper fallback synthesizes 2 papers across 9 evidence rows using factor structure as the main organizing lens. The synthesis is concentrated in behavioral factors, Survey data from Dalian, China (260 complete and valid responses), with recurring methods such as Structural Equation Modeling (SEM), controlled experiment and task coverage centered on Predicting pedestrians' violating road-crossing behavior intentions, pedestrian crossing behavior. Across 2 papers, the evidence is most coherently organized around factor structure rather than any single method, and the strongest clusters are behavioral factors, Survey data from Dalian, China (260 complete and valid responses), Structural Equation Modeling (SEM). Future work should prioritize standardized reporting and more explicit cross-study comparison."
+}
