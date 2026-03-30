@@ -68,6 +68,7 @@ from services.writing.version_selector import select_best_version
 from services.writing.section_planner import build_section_plans
 from services.writing.paragraph_planner import build_paragraph_plans
 from services.writing.section_writer import write_sections
+from services.writing.shadow_reviewer import ShadowReviewer
 from services.writing.style_rewriter import rewrite_style
 from storage.repositories.entities import PapersRepository, ChunksRepository, ProfilesRepository
 
@@ -211,6 +212,7 @@ def _artifact_manifest(output_dir: Path, compile_result: dict | None = None) -> 
         "paragraph_plans.json",
         "sections.json",
         "validation_report.json",
+        "shadow_report.json",
         "draft.json",
         "safe_sections.json",
         "polished_sections.json",
@@ -475,6 +477,19 @@ def run_local_review(
         section_plans=section_plans,
         paragraph_plans=paragraph_plans,
     )
+
+    # --- Shadow Review (multi-round critique loop) ---
+    shadow_report = None
+    if not os.environ.get("ARIS_LIT_SKIP_SHADOW"):
+        try:
+            shadow = ShadowReviewer(max_rounds=3, strict=False)
+            shadow_report = shadow.review(sections, matrix, outline=outline)
+            log.info("  ShadowReview: %s", shadow_report.summary())
+            if shadow_report.final_sections and len(shadow_report.final_sections) == len(sections):
+                sections = shadow_report.final_sections
+        except Exception as exc:
+            log.warning("  Shadow review skipped (%s), using original sections.", exc)
+
     safe_sections = ground_citations(sections, matrix)
     safe_paragraph_validation = validate_paragraphs(safe_sections, strict=False)
     safe_section_validation = validate_section_tracks(outline, section_plans, paragraph_plans, safe_sections, strict=False, track="safe")
@@ -555,6 +570,16 @@ def run_local_review(
                 synthesis_map=synthesis_map,
                 organization=organization,
             )
+            if not os.environ.get("ARIS_LIT_SKIP_SHADOW"):
+                try:
+                    shadow_fb = ShadowReviewer(max_rounds=3, strict=False)
+                    shadow_report_fb = shadow_fb.review(sections_fb, matrix, outline=outline_fb)
+                    if shadow_report_fb.final_sections and len(shadow_report_fb.final_sections) == len(sections_fb):
+                        sections_fb = shadow_report_fb.final_sections
+                        if shadow_report is not None:
+                            shadow_report = shadow_report_fb
+                except Exception:
+                    pass
             grounded_fb = ground_citations(sections_fb, matrix)
             rewritten_fb = rewrite_style(grounded_fb, track="polished")
             validation_fb = validate_review_writing(
@@ -666,6 +691,8 @@ def run_local_review(
     (output_dir / "safe_sections.json").write_text(json.dumps(safe_sections, ensure_ascii=False, indent=2), encoding="utf-8")
     (output_dir / "polished_sections.json").write_text(json.dumps(rewritten, ensure_ascii=False, indent=2), encoding="utf-8")
     (output_dir / "validation_report.json").write_text(json.dumps(validation_report, ensure_ascii=False, indent=2))
+    if shadow_report is not None:
+        (output_dir / "shadow_report.json").write_text(json.dumps(shadow_report.to_dict(), ensure_ascii=False, indent=2), encoding="utf-8")
     (output_dir / "bib.tex").write_text(bib_tex_str, encoding="utf-8")
     (output_dir / "abstract.json").write_text(json.dumps(abstract, ensure_ascii=False, indent=2))
     (output_dir / "abstract.txt").write_text(abstract.get("text", ""), encoding="utf-8")
@@ -737,6 +764,7 @@ def run_local_review(
         "organization": organization,
         "extraction_strategy": extraction_strategy,
         "writing_strategy": writing_strategy,
+        "shadow_review": shadow_report.to_dict() if shadow_report else None,
         "dual_track": dual_track,
         "abstract": abstract,
         "keywords": keywords,
