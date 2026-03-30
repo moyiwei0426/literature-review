@@ -187,6 +187,12 @@ def test_paragraph_planner_prefers_frame_evidence_synthesis_progression_and_pres
     assert blocks[0]["move_id"].startswith("sec-task-")
     assert blocks[0]["block_id"].startswith("sec-task-")
     assert blocks[0]["citation_targets"] == blocks[0]["supporting_citations"]
+    assert blocks[0]["required_evidence_count"] == 0
+    assert blocks[1]["required_evidence_count"] == 1
+    assert blocks[1]["coverage_policy"] == "grounded_only"
+    assert blocks[1]["allowed_citation_keys"] == blocks[1]["citation_targets"]
+    assert blocks[-1]["must_include_gap_statement"] is True
+    assert blocks[-1]["polish_eligible"] is True
     assert blocks[0]["theme_refs"]
     assert blocks[0]["gap_refs"]
     assert [sentence["role"] for sentence in blocks[0]["sentence_plan"]] == ["topic", "evidence", "closing"]
@@ -852,17 +858,43 @@ def test_compose_review_markdown_renders_keywords_and_appendix() -> None:
         abstract={"text": "This review synthesizes evidence around task structure."},
         keywords={"keywords": ["task structure", "gap acceptance"]},
         appendix=appendix,
+        citation_metadata=[{"paper_id": "p1", "authors": ["Alice Smith", "Bob Jones"], "year": 2023, "title": "Demo Paper"}],
+        citation_style="apa",
     )
 
     assert "# Demo Review" in markdown
     assert "## Abstract" in markdown
     assert "**Keywords:** task structure, gap acceptance" in markdown
     assert "## Introduction" in markdown
+    assert "Opening paragraph (Smith & Jones, 2023)." in markdown
     assert "## Appendix" in markdown
     assert "### Evidence Highlights" in markdown
     assert "Demo Paper" in markdown
     assert "### Gap Index" in markdown
     assert "Cross-context transfer remains under-tested." in markdown
+    assert "## References" in markdown
+    assert "- Smith, A., & Jones, B. (2023). Demo Paper." in markdown
+
+
+def test_compose_review_markdown_renders_apa_reference_fallbacks() -> None:
+    sections = [
+        {
+            "section_id": "sec-1",
+            "title": "Findings",
+            "paragraphs": [{"text": "Key result.", "citation_keys": ["p2_2024_chen_demo"]}],
+        }
+    ]
+
+    markdown = compose_review_markdown(
+        "Demo Review",
+        sections,
+        citation_metadata=[{"paper_id": "p2_2024_chen_demo", "authors": ["Liang Chen", "Mina Park"], "year": 2024, "title": "Structured Review Systems", "venue": "Journal of Review Engineering", "doi": "10.1000/demo"}],
+        citation_style="apa",
+    )
+
+    assert "Key result (Chen & Park, 2024)." in markdown
+    assert "## References" in markdown
+    assert "- Chen, L., & Park, M. (2024). Structured Review Systems. Journal of Review Engineering. https://doi.org/10.1000/demo" in markdown
 
 
 def test_rewrite_style_preserves_paragraph_structure_and_metadata() -> None:
@@ -1182,3 +1214,109 @@ def test_review_validator_flags_weak_gap_section() -> None:
     assert "missing_linked_gap_handling" in finding_codes
     assert "missing_expected_moves" in finding_codes
     assert section_report["status"] == "fail"
+
+
+from services.writing.evidence_bundle import build_evidence_bundle
+from services.writing.version_selector import select_best_version
+
+
+def test_build_evidence_bundle_collects_allowed_rows_and_gap_refs() -> None:
+    section_plan = {"section_id": "sec-1"}
+    block = {
+        "block_id": "sec-1-block-1",
+        "move_type": "comparison",
+        "citation_targets": ["p1"],
+        "supporting_citations": ["p1", "p2"],
+        "required_evidence_count": 1,
+        "supporting_points": ["shared benchmark", "reporting mismatch"],
+        "gap_refs": [{"gap_id": "g1", "gap_statement": "Need aligned reporting."}],
+    }
+    matrix = [{"paper_id": "p1", "claim_text": "A"}, {"paper_id": "p2", "claim_text": "B"}, {"paper_id": "p3", "claim_text": "C"}]
+    verified = [{"gap_id": "g1", "gap_statement": "Need aligned reporting.", "research_need": "shared metrics"}]
+
+    bundle = build_evidence_bundle(section_plan, block, matrix, verified)
+
+    assert bundle["bundle_id"] == "sec-1-block-1-evidence"
+    assert bundle["allowed_citation_keys"] == ["p1", "p2"]
+    assert [row["paper_id"] for row in bundle["evidence_rows"]] == ["p1", "p2"]
+    assert bundle["gap_refs"][0]["gap_id"] == "g1"
+
+
+def test_version_selector_prefers_polished_when_not_worse() -> None:
+    choice = select_best_version(
+        {"sections": [{"section_id": "sec-1"}], "paragraph_validation": {"summary": {"finding_count": 1}}, "section_validation": {"status": "pass", "summary": {"finding_count": 1}}},
+        {"sections": [{"section_id": "sec-1", "track": "polished", "paragraphs": [{"move_type": "synthesis", "track": "polished", "quality_notes": ["polished_synthesis_flow", "citation_retained"]}]}], "paragraph_validation": {"summary": {"finding_count": 0}}, "section_validation": {"status": "pass", "summary": {"finding_count": 0}}},
+    )
+
+    assert choice["selected_track"] == "polished"
+    assert choice["selected_sections"][0]["track"] == "polished"
+    assert choice["selection_report"]["reason"] == "polished_quality_gain_within_risk_budget"
+
+
+def test_rewrite_style_strengthens_high_value_polished_moves_without_dropping_citations() -> None:
+    sections = [
+        {
+            "section_id": "sec-comp",
+            "title": "Comparative Task Evidence and Evaluation Tradeoffs",
+            "paragraphs": [
+                {
+                    "text": "Studies show similar trends across datasets [p1][p2].",
+                    "move_type": "synthesis",
+                    "citation_keys": ["p1", "p2"],
+                    "citation_targets": ["p1", "p2"],
+                    "supporting_citations": ["p1", "p2"],
+                    "polish_eligible": True,
+                },
+                {
+                    "text": "The results differ across metrics [p1][p2].",
+                    "move_type": "comparison",
+                    "citation_keys": ["p1", "p2"],
+                    "citation_targets": ["p1", "p2"],
+                    "supporting_citations": ["p1", "p2"],
+                    "polish_eligible": True,
+                },
+                {
+                    "text": "No studies resolve the reporting issue [p2].",
+                    "move_type": "gap",
+                    "citation_keys": ["p2"],
+                    "citation_targets": ["p2"],
+                    "supporting_citations": ["p2"],
+                    "polish_eligible": True,
+                },
+            ],
+        }
+    ]
+
+    rewritten = rewrite_style(sections, track="polished")
+    paragraphs = rewritten[0]["paragraphs"]
+
+    assert paragraphs[0]["text"] != sections[0]["paragraphs"][0]["text"]
+    assert any(marker in paragraphs[0]["text"].lower() for marker in ("taken together", "across these studies", "viewed jointly"))
+    assert any(marker in paragraphs[1]["text"].lower() for marker in ("comparison", "compared with", "tradeoff", "contrast"))
+    assert "no studies" not in paragraphs[2]["text"].lower()
+    assert "limited evidence" in paragraphs[2]["text"].lower() or "remains unresolved" in paragraphs[2]["text"].lower()
+    assert paragraphs[0]["citation_keys"] == ["p1", "p2"]
+    assert paragraphs[0]["text"].count("[p1]") == 1
+    assert paragraphs[0]["text"].count("[p2]") == 1
+    assert "citation_retained" in paragraphs[0]["quality_notes"]
+    assert "risk_checked" in paragraphs[2]["quality_notes"]
+
+
+def test_version_selector_rejects_polished_when_risk_constraints_fail() -> None:
+    choice = select_best_version(
+        {
+            "sections": [{"section_id": "sec-1", "track": "safe"}],
+            "paragraph_validation": {"status": "pass", "summary": {"finding_count": 0}, "findings": []},
+            "section_validation": {"status": "pass", "summary": {"finding_count": 0}, "extended_findings": []},
+        },
+        {
+            "sections": [{"section_id": "sec-1", "track": "polished", "paragraphs": [{"move_type": "synthesis", "track": "polished", "quality_notes": ["polished_synthesis_flow"]}]}],
+            "paragraph_validation": {"status": "fail", "summary": {"finding_count": 1}, "findings": [{"code": "citation_outside_bundle"}]},
+            "section_validation": {"status": "pass", "summary": {"finding_count": 0}, "extended_findings": []},
+            "metrics": {"citation_retention_penalty": 1, "unsupported_assertion_penalty": 0, "role_drift_penalty": 0, "overstatement_penalty": 1},
+        },
+    )
+
+    assert choice["selected_track"] == "safe"
+    assert choice["selection_report"]["reason"] == "safe_due_to_hard_risk"
+    assert choice["selection_report"]["polished"]["hard_risk"] >= 1

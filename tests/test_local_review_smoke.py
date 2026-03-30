@@ -84,7 +84,7 @@ def test_run_local_review_writes_artifacts_and_skips_demo_pdf(tmp_path, monkeypa
     monkeypatch.setattr(local_review, "build_paragraph_plans", lambda *args, **kwargs: [{"section_id": "sec-1", "title": "Introduction", "blocks": []}])
     monkeypatch.setattr(local_review, "write_sections", lambda *args, **kwargs: [{"section_id": "sec-1", "title": "Introduction", "text": "Evidence paragraph.", "paragraphs": [{"text": "Evidence paragraph.", "move_type": "evidence", "citation_targets": ["01_2001_hamed_safety_science"]}]}])
     monkeypatch.setattr(local_review, "ground_citations", lambda sections, matrix: [{"section_id": "sec-1", "title": "Introduction", "text": "Evidence paragraph.", "citation_keys": ["01_2001_hamed_safety_science"], "paragraphs": [{"text": "Evidence paragraph.", "move_type": "evidence", "citation_keys": ["01_2001_hamed_safety_science"]}]}])
-    monkeypatch.setattr(local_review, "rewrite_style", lambda sections: sections)
+    monkeypatch.setattr(local_review, "rewrite_style", lambda sections, **kwargs: sections)
     monkeypatch.setattr(local_review, "validate_review_writing", lambda **kwargs: {"summary": {"overall_status": "pass", "weak_section_count": 0, "finding_count": 0}})
     monkeypatch.setattr(local_review, "build_bib_entries", lambda matrix: [{"paper_id": "01_2001_hamed_safety_science", "entry": "@article{p1,title={Demo}}"}])
     monkeypatch.setattr(local_review, "prune_bib_entries", lambda entries, used_keys: entries)
@@ -111,14 +111,14 @@ def test_run_local_review_writes_artifacts_and_skips_demo_pdf(tmp_path, monkeypa
         "recovered_after_retry_count": 0,
         "recovered_after_retry_papers": [],
     }
-    assert result["writing_strategy"] == {
-        "mode": "live",
-        "fallback_triggered": False,
-        "fallback_adopted": False,
-        "fallback_reason": None,
-        "initial_validation": "pass",
-        "final_validation": "pass",
-    }
+    assert result["writing_strategy"]["mode"] == "live"
+    assert result["writing_strategy"]["fallback_triggered"] is False
+    assert result["writing_strategy"]["fallback_adopted"] is False
+    assert result["writing_strategy"]["fallback_reason"] is None
+    assert result["writing_strategy"]["initial_validation"] == "pass"
+    assert result["writing_strategy"]["final_validation"] == "pass"
+    assert result["writing_strategy"]["selected_track"] == "polished"
+    assert result["writing_strategy"]["selection_report"]["reason"]
     assert result["run_log"].endswith("run.log")
     assert result["artifacts"]["summary.json"]["exists"] is True
     assert result["artifacts"]["review.tex"]["exists"] is True
@@ -198,7 +198,7 @@ def test_run_local_review_uses_rule_based_writing_fallback_when_live_validation_
     monkeypatch.setattr(local_review, "build_paragraph_plans", lambda outline, *args, **kwargs: [{"section_id": outline[0]["section_id"], "title": outline[0]["title"], "blocks": []}])
     monkeypatch.setattr(local_review, "write_sections", lambda outline, *args, **kwargs: [{"section_id": outline[0]["section_id"], "title": outline[0]["title"], "text": "Evidence paragraph.", "paragraphs": [{"text": "Evidence paragraph.", "move_type": "evidence", "citation_targets": ["01_2001_hamed_safety_science"]}]}])
     monkeypatch.setattr(local_review, "ground_citations", lambda sections, matrix: [{**sections[0], "citation_keys": ["01_2001_hamed_safety_science"], "paragraphs": [{"text": "Evidence paragraph.", "move_type": "evidence", "citation_keys": ["01_2001_hamed_safety_science"]}]}])
-    monkeypatch.setattr(local_review, "rewrite_style", lambda sections: sections)
+    monkeypatch.setattr(local_review, "rewrite_style", lambda sections, **kwargs: sections)
 
     validate_calls = {"count": 0}
     def fake_validate_review_writing(**kwargs):
@@ -238,14 +238,14 @@ def test_run_local_review_uses_rule_based_writing_fallback_when_live_validation_
         "recovered_after_retry_count": 0,
         "recovered_after_retry_papers": [],
     }
-    assert result["writing_strategy"] == {
-        "mode": "rule_based_fallback",
-        "fallback_triggered": True,
-        "fallback_adopted": True,
-        "fallback_reason": "live_writing_validation_failed",
-        "initial_validation": "fail",
-        "final_validation": "pass",
-    }
+    assert result["writing_strategy"]["mode"] == "rule_based_fallback"
+    assert result["writing_strategy"]["fallback_triggered"] is True
+    assert result["writing_strategy"]["fallback_adopted"] is True
+    assert result["writing_strategy"]["fallback_reason"] == "live_writing_validation_failed"
+    assert result["writing_strategy"]["initial_validation"] == "fail"
+    assert result["writing_strategy"]["final_validation"] == "pass"
+    assert result["writing_strategy"]["selected_track"] == "polished"
+    assert result["writing_strategy"]["selection_report"]["reason"]
     assert "Rule-based writing fallback adopted after live writing validation failed." in result["warnings"]
     assert result["outline_sections"] == 1
     summary = json.loads((output_dir / "summary.json").read_text(encoding="utf-8"))
@@ -281,3 +281,48 @@ def test_run_local_review_returns_error_when_no_profiles_extract(tmp_path, monke
     summary = json.loads((output_dir / "summary.json").read_text(encoding="utf-8"))
     assert summary["status"] == "error"
     assert summary["message"] == "No profiles extracted from local PDFs"
+
+
+def test_run_local_review_records_dual_track_fields(tmp_path, monkeypatch) -> None:
+    pdf_dir = tmp_path / "pdfs"
+    pdf_dir.mkdir()
+    real_pdf = _write_fake_pdf(pdf_dir, "01_2001_hamed_safety_science.pdf")
+    output_dir = tmp_path / "out"
+
+    monkeypatch.setattr(local_review, "parse_pdf", lambda pdf_path, extractor: ({"status": "ok", "full_text": "text", "page_count": 1}, [{"chunk_id": f"{real_pdf.stem}-c1", "paper_id": real_pdf.stem, "section": "Body", "text": "evidence"}], {"title": "", "authors": [], "overall_score": 0.9}))
+    monkeypatch.setattr(local_review, "extract_profile", lambda paper_id, chunks, extractor, **kwargs: (PaperProfile(paper_id=paper_id, title="Untitled", authors=[], year=None, venue=None, research_problem="p", method_summary="m", method_family=["obs"], tasks=["crossing"], datasets=["field"], main_claims=[PaperClaim(claim_id="c1", claim_text="t", claim_type="application", evidence_chunk_ids=[chunks[0]["chunk_id"]], confidence=0.8)], limitations=[]), [_FakeLink("c1", chunks[0]["chunk_id"])], {"provider": "stub", "fallback_used": True}))
+    monkeypatch.setattr(local_review, "build_coverage_report", lambda profiles: {"paper_count": 1, "themes": ["obs"]})
+    monkeypatch.setattr(local_review, "build_claims_evidence_matrix", lambda profiles: [{"paper_id": profiles[0].paper_id, "claim_text": "t"}])
+    monkeypatch.setattr(local_review, "detect_contradictions", lambda profiles: {"contradiction_count": 0, "contradictions": []})
+    monkeypatch.setattr(local_review, "generate_candidate_gaps", lambda *args, **kwargs: [])
+    monkeypatch.setattr(local_review, "verify_gaps", lambda *args, **kwargs: [])
+    monkeypatch.setattr(local_review, "score_gaps", lambda *args, **kwargs: [])
+    monkeypatch.setattr(local_review, "build_synthesis_map", lambda *args, **kwargs: {"overview": {}, "top_themes": []})
+    monkeypatch.setattr(local_review, "select_organization", lambda *args, **kwargs: {"recommended_structure": "method_taxonomy"})
+    monkeypatch.setattr(local_review, "build_outline", lambda *args, **kwargs: [{"section_id": "sec-1", "title": "Conclusion"}])
+    monkeypatch.setattr(local_review, "build_section_plans", lambda *args, **kwargs: [{"section_id": "sec-1", "title": "Conclusion", "argument_moves": [{"move_id": "m1", "move_type": "synthesis"}]}])
+    monkeypatch.setattr(local_review, "build_paragraph_plans", lambda *args, **kwargs: [{"section_id": "sec-1", "title": "Conclusion", "blocks": [{"block_id": "b1", "move_type": "synthesis"}]}])
+    monkeypatch.setattr(local_review, "write_sections", lambda *args, **kwargs: [{"section_id": "sec-1", "title": "Conclusion", "text": "It is worth noting that closing text.", "paragraphs": [{"text": "It is worth noting that closing text.", "move_type": "synthesis", "polish_eligible": True, "citation_targets": [real_pdf.stem], "evidence_bundle": {"allowed_citation_keys": [real_pdf.stem], "required_citation_count": 0}}]}])
+    monkeypatch.setattr(local_review, "ground_citations", lambda sections, matrix: [{**sections[0], "citation_keys": [real_pdf.stem], "paragraphs": [{**sections[0]["paragraphs"][0], "citation_keys": [real_pdf.stem]}]}])
+    monkeypatch.setattr(local_review, "validate_review_writing", lambda **kwargs: {"summary": {"overall_status": "pass", "weak_section_count": 0, "finding_count": 0}})
+    monkeypatch.setattr(local_review, "build_bib_entries", lambda matrix: [{"paper_id": real_pdf.stem, "entry": "@article{p1,title={Demo}}"}])
+    monkeypatch.setattr(local_review, "prune_bib_entries", lambda entries, used_keys: entries)
+    monkeypatch.setattr(local_review, "build_appendix_artifact", lambda *args, **kwargs: {"evidence_table": [{"paper_id": real_pdf.stem}]})
+    monkeypatch.setattr(local_review, "build_conclusion_artifact", lambda *args, **kwargs: {"text": "Conclusion"})
+    monkeypatch.setattr(local_review, "build_review_abstract", lambda *args, **kwargs: {"text": "Abstract"})
+    monkeypatch.setattr(local_review, "build_review_keywords", lambda *args, **kwargs: {"keywords": ["pedestrian crossing"]})
+    monkeypatch.setattr(local_review, "compose_latex", lambda *args, **kwargs: "\section{Introduction}")
+    monkeypatch.setattr(local_review, "compose_review_markdown", lambda *args, **kwargs: "# Review")
+    monkeypatch.setattr(local_review, "export_json", lambda path, payload: path.write_text(json.dumps(payload), encoding="utf-8"))
+    monkeypatch.setattr(local_review, "export_csv", lambda path, rows: path.write_text("paper_id\n1\n", encoding="utf-8"))
+    monkeypatch.setattr(local_review, "export_markdown_table", lambda path, rows: path.write_text("| paper_id |\n", encoding="utf-8"))
+
+    result = local_review.run_local_review(pdf_dir=pdf_dir, title="Trial Review", output_dir=output_dir, skip_compile=True, timeout_seconds=5)
+    assert result["dual_track"]["selected_track"] in {"safe", "polished"}
+    assert result["artifacts"]["draft.json"]["exists"] is True
+    summary = json.loads((output_dir / "summary.json").read_text(encoding="utf-8"))
+    assert "dual_track" in summary
+    assert summary["dual_track"]["safe"]["quality_metrics"]["quality_notes"] >= 0
+    assert summary["dual_track"]["polished"]["quality_metrics"]["citation_retention_penalty"] == 0
+    assert summary["writing_strategy"]["selected_track"] == result["dual_track"]["selected_track"]
+    assert summary["writing_strategy"]["selection_report"]["reason"]

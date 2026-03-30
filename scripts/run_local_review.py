@@ -32,10 +32,10 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from core.models import PaperCandidate, PaperChunk, PaperMaster, PaperProfile
+from core.models import Draft, DraftTrack, PaperCandidate, PaperChunk, PaperMaster, PaperProfile
 from services.analysis.coverage_analyzer import build_coverage_report
 from services.analysis.contradiction_analyzer import detect_contradictions
-from services.analysis.exporters import export_csv, export_json, export_markdown_table
+from services.analysis.exporters import export_csv, export_docx, export_json, export_markdown_table
 from services.analysis.gap_generator import generate_candidate_gaps
 from services.analysis.gap_scorer import score_gaps
 from services.analysis.gap_verifier import verify_gaps
@@ -62,6 +62,9 @@ from services.writing.markdown_composer import compose_review_markdown
 from services.writing.organization_selector import select_organization
 from services.writing.outline_planner import build_outline
 from services.writing.review_validator import validate_review_writing
+from services.writing.paragraph_validator import validate_paragraphs
+from services.writing.section_level_validator import validate_section_tracks
+from services.writing.version_selector import select_best_version
 from services.writing.section_planner import build_section_plans
 from services.writing.paragraph_planner import build_paragraph_plans
 from services.writing.section_writer import write_sections
@@ -208,7 +211,11 @@ def _artifact_manifest(output_dir: Path, compile_result: dict | None = None) -> 
         "paragraph_plans.json",
         "sections.json",
         "validation_report.json",
+        "draft.json",
+        "safe_sections.json",
+        "polished_sections.json",
         "review.md",
+        "review.docx",
         "review.tex",
         "bib.tex",
         "abstract.json",
@@ -442,6 +449,7 @@ def run_local_review(
         "fallback_reason": None,
         "initial_validation": None,
         "final_validation": None,
+        "selected_track": None,
     }
     outline = build_outline(verified or scored, matrix, synthesis_map=synthesis_map, organization=organization)
     section_plans = build_section_plans(
@@ -464,19 +472,53 @@ def run_local_review(
         verified,
         synthesis_map=synthesis_map,
         organization=organization,
+        section_plans=section_plans,
+        paragraph_plans=paragraph_plans,
     )
-    grounded = ground_citations(sections, matrix)
-    rewritten = rewrite_style(grounded)
+    safe_sections = ground_citations(sections, matrix)
+    safe_paragraph_validation = validate_paragraphs(safe_sections, strict=False)
+    safe_section_validation = validate_section_tracks(outline, section_plans, paragraph_plans, safe_sections, strict=False, track="safe")
+    rewritten = rewrite_style(safe_sections, track="polished")
+    polished_paragraph_validation = validate_paragraphs(rewritten, strict=True)
+    polished_section_validation = validate_section_tracks(outline, section_plans, paragraph_plans, rewritten, strict=True, track="polished")
+    safe_quality_metrics = {
+        "quality_notes": sum(
+            len(paragraph.get("quality_notes", []))
+            for section in safe_sections
+            for paragraph in (section.get("paragraphs", []) if isinstance(section.get("paragraphs"), list) else [])
+            if isinstance(paragraph, dict)
+        ),
+    }
+    polished_quality_metrics = {
+        "quality_notes": sum(
+            len(paragraph.get("quality_notes", []))
+            for section in rewritten
+            for paragraph in (section.get("paragraphs", []) if isinstance(section.get("paragraphs"), list) else [])
+            if isinstance(paragraph, dict)
+        ),
+        "citation_retention_penalty": 0,
+        "unsupported_assertion_penalty": 0,
+        "role_drift_penalty": 0,
+        "overstatement_penalty": 0,
+    }
+    selection = select_best_version(
+        {"name": "safe", "sections": safe_sections, "paragraph_validation": safe_paragraph_validation, "section_validation": safe_section_validation, "metrics": safe_quality_metrics},
+        {"name": "polished", "sections": rewritten, "paragraph_validation": polished_paragraph_validation, "section_validation": polished_section_validation, "metrics": polished_quality_metrics},
+    )
+    grounded = safe_sections
+    final_sections = selection["selected_sections"]
     validation_report = validate_review_writing(
         outline=outline,
         section_plans=section_plans,
         paragraph_plans=paragraph_plans,
         drafted_sections=sections,
         grounded_sections=grounded,
-        rewritten_sections=rewritten,
+        rewritten_sections=final_sections,
         verified_gaps=verified,
     )
     writing_strategy["initial_validation"] = validation_report.get("summary", {}).get("overall_status", validation_report.get("status"))
+    writing_strategy["selected_track"] = selection.get("selected_track")
+    writing_strategy["selection_report"] = selection.get("selection_report", {})
     llm = LLMAdapter()
     if (
         validation_report.get("summary", {}).get("overall_status") == "fail"
@@ -514,7 +556,7 @@ def run_local_review(
                 organization=organization,
             )
             grounded_fb = ground_citations(sections_fb, matrix)
-            rewritten_fb = rewrite_style(grounded_fb)
+            rewritten_fb = rewrite_style(grounded_fb, track="polished")
             validation_fb = validate_review_writing(
                 outline=outline_fb,
                 section_plans=section_plans_fb,
@@ -548,6 +590,27 @@ def run_local_review(
                 fallback_failings,
             )
     writing_strategy["final_validation"] = validation_report.get("summary", {}).get("overall_status", validation_report.get("status"))
+    dual_track = {
+        "safe": {"section_validation": safe_section_validation, "paragraph_validation": safe_paragraph_validation, "section_count": len(safe_sections), "quality_metrics": safe_quality_metrics},
+        "polished": {"section_validation": polished_section_validation, "paragraph_validation": polished_paragraph_validation, "section_count": len(rewritten), "quality_metrics": polished_quality_metrics},
+        "selected_track": selection.get("selected_track"),
+        "selection_report": selection.get("selection_report", {}),
+    }
+    draft = Draft(
+        draft_id=f"draft_{timestamp}",
+        project_id=title,
+        version=1,
+        outline=outline,
+        status="generated",
+        tracks=[
+            DraftTrack(name="safe", sections=safe_sections, paragraph_validation=safe_paragraph_validation, section_validation=safe_section_validation, metrics=dual_track["safe"]),
+            DraftTrack(name="polished", sections=rewritten, paragraph_validation=polished_paragraph_validation, section_validation=polished_section_validation, metrics=dual_track["polished"]),
+        ],
+        selected_track=selection.get("selected_track"),
+        selected_sections=final_sections,
+        selection_report=selection.get("selection_report", {}),
+        dual_track_metrics=dual_track,
+    )
     bib_entries = build_bib_entries(matrix)
     used_keys = []
     for section in grounded:
@@ -584,19 +647,24 @@ def run_local_review(
         appendix=appendix,
         abstract=abstract,
     )
-    tex = compose_latex(title, rewritten, pruned, appendix=appendix, abstract=abstract, keywords=keywords)
+    tex = compose_latex(title, final_sections, pruned, appendix=appendix, abstract=abstract, keywords=keywords)
     markdown = compose_review_markdown(
         title,
-        rewritten,
+        final_sections,
         abstract=abstract,
         keywords=keywords,
         appendix=appendix,
+        citation_metadata=matrix,
+        citation_style="apa",
     )
 
     (output_dir / "outline.json").write_text(json.dumps(outline, ensure_ascii=False, indent=2))
     (output_dir / "section_plans.json").write_text(json.dumps(section_plans, ensure_ascii=False, indent=2))
     (output_dir / "paragraph_plans.json").write_text(json.dumps(paragraph_plans, ensure_ascii=False, indent=2))
-    (output_dir / "sections.json").write_text(json.dumps(rewritten, ensure_ascii=False, indent=2))
+    (output_dir / "sections.json").write_text(json.dumps(final_sections, ensure_ascii=False, indent=2))
+    (output_dir / "draft.json").write_text(draft.model_dump_json(indent=2), encoding="utf-8")
+    (output_dir / "safe_sections.json").write_text(json.dumps(safe_sections, ensure_ascii=False, indent=2), encoding="utf-8")
+    (output_dir / "polished_sections.json").write_text(json.dumps(rewritten, ensure_ascii=False, indent=2), encoding="utf-8")
     (output_dir / "validation_report.json").write_text(json.dumps(validation_report, ensure_ascii=False, indent=2))
     (output_dir / "bib.tex").write_text(bib_tex_str, encoding="utf-8")
     (output_dir / "abstract.json").write_text(json.dumps(abstract, ensure_ascii=False, indent=2))
@@ -607,6 +675,10 @@ def run_local_review(
     (output_dir / "evidence_table.json").write_text(json.dumps(appendix.get("evidence_table", []), ensure_ascii=False, indent=2))
     export_markdown_table(output_dir / "evidence_table.md", appendix.get("evidence_table", []))
     (output_dir / "review.md").write_text(markdown, encoding="utf-8")
+    try:
+        export_docx(output_dir / "review.md", output_dir / "review.docx")
+    except Exception as exc:
+        log.warning("  DOCX export skipped: %s", exc)
     (output_dir / "review.tex").write_text(tex, encoding="utf-8")
     log.info("  %d outline sections, %d bib entries", len(outline), len(pruned))
     log.info(
@@ -665,6 +737,7 @@ def run_local_review(
         "organization": organization,
         "extraction_strategy": extraction_strategy,
         "writing_strategy": writing_strategy,
+        "dual_track": dual_track,
         "abstract": abstract,
         "keywords": keywords,
         "outline_sections": len(outline),

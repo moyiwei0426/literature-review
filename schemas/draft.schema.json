@@ -12,6 +12,26 @@
     "outline": {"type": ["object", "array", "null"], "default": null},
     "latex_source": {"type": ["string", "null"], "default": null},
     "compiled_pdf_path": {"type": ["string", "null"], "default": null},
-    "status": {"type": ["string", "null"], "default": null}
+    "status": {"type": ["string", "null"], "default": null},
+    "tracks": {
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": ["name"],
+        "properties": {
+          "name": {"type": "string", "enum": ["safe", "polished"]},
+          "sections": {"type": "array", "default": []},
+          "paragraph_validation": {"type": ["object", "null"], "default": null},
+          "section_validation": {"type": ["object", "null"], "default": null},
+          "metrics": {"type": "object", "default": {}}
+        }
+      }
+    },
+    "selected_track": {"type": ["string", "null"], "enum": ["safe", "polished", null], "default": null},
+    "selected_sections": {"type": "array", "default": []},
+    "selection_report": {"type": ["object", "null"], "default": null},
+    "dual_track_metrics": {"type": "object", "default": {}}
   }
 }

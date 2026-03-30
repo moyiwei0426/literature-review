@@ -11,6 +11,7 @@ from .normalizers import normalize_sections
 from .gap_section_builder import build_gap_section, has_structured_gap_data
 from .section_planner import build_section_plans
 from .paragraph_planner import build_paragraph_plans
+from .evidence_bundle import build_evidence_bundle
 
 
 PROMPT_PATH = Path(__file__).resolve().parents[2] / "prompts" / "writing" / "section_system.txt"
@@ -24,11 +25,17 @@ def write_sections(
     verified_gaps: list[dict[str, Any]],
     synthesis_map: dict[str, Any] | None = None,
     organization: dict[str, Any] | None = None,
+    section_plans: list[dict[str, Any]] | None = None,
+    paragraph_plans: list[dict[str, Any]] | None = None,
 ) -> list[dict[str, Any]]:
     llm = LLMAdapter()
     if llm.provider != "stub" and llm.base_url and llm._has_auth():
         try:
-            return _write_sections_llm(llm, outline, matrix, verified_gaps, synthesis_map=synthesis_map, organization=organization)
+            return _write_sections_llm(
+                llm, outline, matrix, verified_gaps,
+                synthesis_map=synthesis_map, organization=organization,
+                section_plans=section_plans, paragraph_plans=paragraph_plans,
+            )
         except Exception:
             pass
     return _write_sections_rule_based(outline, matrix, verified_gaps, synthesis_map=synthesis_map, organization=organization)
@@ -41,9 +48,17 @@ def _write_sections_llm(
     verified_gaps: list[dict[str, Any]],
     synthesis_map: dict[str, Any] | None = None,
     organization: dict[str, Any] | None = None,
+    section_plans: list[dict[str, Any]] | None = None,
+    paragraph_plans: list[dict[str, Any]] | None = None,
 ) -> list[dict[str, Any]]:
     # Load learning corpus context to inject into prompt
     learning_ref = _build_learning_context()
+
+    # Build plans if not provided so we can annotate LLM output with move metadata
+    if section_plans is None or paragraph_plans is None:
+        _sp, _pp = _build_plan_maps(outline, matrix, verified_gaps, synthesis_map, organization)
+        section_plans = section_plans or list(_sp.values())
+        paragraph_plans = paragraph_plans or list(_pp.values())
 
     system_prompt = PROMPT_PATH.read_text(encoding="utf-8") + "\n" + learning_ref + "\nReturn ONLY JSON with key sections as a list of section drafts. Each item must contain: section_id, title, text. Write substantive academic prose, not placeholders."
     user_prompt = (
@@ -64,6 +79,10 @@ def _write_sections_llm(
     else:
         raw_sections = []
     sections = normalize_sections(raw_sections, outline)
+
+    # Annotate LLM sections with paragraph-level move metadata from paragraph_plans
+    sections = _annotate_sections_with_plan_metadata(sections, section_plans, paragraph_plans)
+
     return sections or _write_sections_rule_based(outline, matrix, verified_gaps, synthesis_map=synthesis_map, organization=organization)
 
 
@@ -820,9 +839,125 @@ def _build_plan_maps(
     )
 
 
+def _annotate_sections_with_plan_metadata(
+    sections: list[dict[str, Any]],
+    section_plans: list[dict[str, Any]] | None,
+    paragraph_plans: list[dict[str, Any]] | None,
+) -> list[dict[str, Any]]:
+    """Split LLM-written section text into paragraphs and inject move metadata from paragraph_plans.
+
+    The LLM returns flat {section_id, title, text} without paragraph boundaries or move_type.
+    This function:
+      1. Splits each section's text on double newlines (paragraph boundaries)
+      2. Maps each paragraph to the corresponding block in paragraph_plan by index
+      3. Injects move_type, purpose, theme_refs, gap_refs, citation_targets from the plan block
+    """
+    if not sections:
+        return sections
+
+    section_plan_map = {str(sp.get("section_id") or ""): sp for sp in (section_plans or []) if isinstance(sp, dict)}
+    paragraph_plan_map = {str(pp.get("section_id") or ""): pp for pp in (paragraph_plans or []) if isinstance(pp, dict)}
+
+    annotated = []
+    for section in sections:
+        section_id = str(section.get("section_id") or "")
+        section_title = str(section.get("title") or "")
+        text = str(section.get("text") or "")
+
+        # Split text into paragraphs on blank-line boundaries
+        raw_chunks = [c.strip() for c in re.split(r"\n\s*\n+", text) if c.strip()]
+        if not raw_chunks:
+            annotated.append(section)
+            continue
+
+        section_plan = section_plan_map.get(section_id, {})
+        para_plan = paragraph_plan_map.get(section_id, {})
+        blocks = para_plan.get("blocks", []) if isinstance(para_plan, dict) else []
+        matrix_signals = section_plan.get("matrix_signals", {}) if isinstance(section_plan, dict) else {}
+        section_theme_refs = section_plan.get("theme_refs", []) if isinstance(section_plan, dict) else []
+        section_gap_refs = section_plan.get("gap_refs", []) if isinstance(section_plan, dict) else []
+
+        paragraphs = []
+        for idx, chunk_text in enumerate(raw_chunks):
+            block = blocks[idx] if idx < len(blocks) else {}
+            move_type = str(block.get("move_type") or "synthesis").strip()
+            purpose = str(block.get("purpose") or "").strip()
+            theme_refs = block.get("theme_refs") if isinstance(block.get("theme_refs"), list) else []
+            gap_refs = block.get("gap_refs") if isinstance(block.get("gap_refs"), list) else []
+            citation_targets = block.get("citation_targets") if isinstance(block.get("citation_targets"), list) else []
+            allowed_citation_keys = block.get("allowed_citation_keys") if isinstance(block.get("allowed_citation_keys"), list) else []
+            supporting_points = block.get("supporting_points") if isinstance(block.get("supporting_points"), list) else []
+            required_evidence_count = int(block.get("required_evidence_count") or 0)
+            max_citations = int(block.get("max_citations") or 0)
+            coverage_policy = str(block.get("coverage_policy") or "optional")
+            must_include_gap_statement = bool(block.get("must_include_gap_statement"))
+            forbidden_patterns = block.get("forbidden_patterns") if isinstance(block.get("forbidden_patterns"), list) else []
+            evidence_bundle_id = block.get("evidence_bundle_id")
+            polish_eligible = bool(block.get("polish_eligible"))
+
+            paragraphs.append({
+                "text": chunk_text,
+                "move_type": move_type,
+                "purpose": purpose,
+                "theme_refs": theme_refs,
+                "gap_refs": gap_refs,
+                "citation_targets": citation_targets,
+                "allowed_citation_keys": allowed_citation_keys,
+                "supporting_points": supporting_points,
+                "required_evidence_count": required_evidence_count,
+                "max_citations": max_citations,
+                "coverage_policy": coverage_policy,
+                "must_include_gap_statement": must_include_gap_statement,
+                "forbidden_patterns": forbidden_patterns,
+                "evidence_bundle_id": evidence_bundle_id,
+                "polish_eligible": polish_eligible,
+                "track": "live",
+            })
+
+        # section-level aggregates
+        section_citation_keys: list[str] = []
+        for p in paragraphs:
+            section_citation_keys.extend(p.get("citation_targets") or [])
+
+        annotated.append({
+            **section,
+            "text": "\n\n".join(p["text"] for p in paragraphs if p["text"].strip()),
+            "paragraphs": paragraphs,
+            "role": _infer_role_from_plan(section_plan),
+            "section_goal": str(section_plan.get("section_goal") or "") if isinstance(section_plan, dict) else "",
+            "theme_refs": section_theme_refs,
+            "gap_refs": section_gap_refs,
+            "citation_keys": section_citation_keys,
+        })
+
+    return annotated
+
+
+def _infer_role_from_plan(section_plan: dict[str, Any] | None) -> str:
+    """Infer section role from section_plan title/role field."""
+    if not isinstance(section_plan, dict):
+        return "body"
+    role = str(section_plan.get("role") or "").strip().lower()
+    if role:
+        return role
+    title = str(section_plan.get("title") or "").lower()
+    for key, role_candidate in (
+        ("intro", "introduction"), ("background", "introduction"),
+        ("compar", "comparison"), ("tradeoff", "comparison"),
+        ("gap", "gap"), ("opportun", "gap"), ("limitation", "gap"),
+        ("conclus", "conclusion"), ("summar", "conclusion"),
+        ("taxonomy", "taxonomy"),
+    ):
+        if key in title:
+            return role_candidate
+    return "body"
+
+
 def _render_planned_section(
     section_plan: dict[str, Any] | None,
     paragraph_plan: dict[str, Any] | None,
+    matrix: list[dict[str, Any]] | None = None,
+    verified_gaps: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any] | None:
     if not isinstance(section_plan, dict) or not isinstance(paragraph_plan, dict):
         return None
@@ -871,6 +1006,16 @@ def _render_planned_section(
                     "supporting_citations": block.get("supporting_citations", []),
                     "supporting_points": block.get("supporting_points", []),
                     "sentence_plan": block.get("sentence_plan", []),
+                    "required_evidence_count": block.get("required_evidence_count", 0),
+                    "max_citations": block.get("max_citations", 0),
+                    "allowed_citation_keys": block.get("allowed_citation_keys", []),
+                    "coverage_policy": block.get("coverage_policy", "optional"),
+                    "must_include_gap_statement": block.get("must_include_gap_statement", False),
+                    "forbidden_patterns": block.get("forbidden_patterns", []),
+                    "evidence_bundle_id": block.get("evidence_bundle_id"),
+                    "polish_eligible": block.get("polish_eligible", False),
+                    "track": "safe",
+                    "evidence_bundle": build_evidence_bundle(section_plan, block, [], gap_labels and [{"gap_statement": label} for label in gap_labels] or []),
                 }
             )
 
@@ -1124,7 +1269,7 @@ def _write_sections_rule_based(
         title = item.get("title", "").lower()
         section_id = item.get("section_id", "sec-x")
         is_conclusion_like = any(key in title for key in ("conclus", "summar", "futur", "discuss"))
-        planned = None if is_conclusion_like else _render_planned_section(section_plan_map.get(section_id), paragraph_plan_map.get(section_id))
+        planned = None if is_conclusion_like else _render_planned_section(section_plan_map.get(section_id), paragraph_plan_map.get(section_id), matrix, verified_gaps)
         structured_text = _build_structured_section(item, matrix, verified_gaps, synthesis_map, organization)
         section_matrix = _select_relevant_rows(item, matrix)
         stats = _matrix_stats(section_matrix)

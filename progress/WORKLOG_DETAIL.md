@@ -174,3 +174,161 @@
 **全 live writing**
 
 这也是后续是否进入方向 B（live writing 本体修复）的清晰分界。
+
+
+---
+
+## 2026-03-25 — 方案 C 双轨写作链路实施记录
+
+### 目标
+把当前单轨 drafting / rewrite 流程扩成：
+- `safe`：paragraph-first、强约束、先保结构与证据
+- `polished`：在 safe 基础上对高价值段落做 constrained polish
+
+### 本轮实施要求
+- 保持 `write_sections(...)` / `rewrite_style(...)` 等主接口尽量兼容
+- `run_local_review.py` 要能输出双轨结果、校验结果、版本选择结果
+- `summary.json` / `artifacts.json` 要反映双轨指标
+- 增加最小但有效的回归测试
+
+### 2026-03-25 20:18 — quality-first 继续优化
+
+**1. polished 轨表达增强**
+- 在 `style_rewriter.py` 里把高价值段落单独处理：
+  - `synthesis`：更强调跨研究归纳与 field-level takeaway
+  - `comparison`：更明确 side-by-side 对比与 tradeoff
+  - `contradiction`：强调 mixed / conditional disagreement，而不是硬下结论
+  - `gap`：把 `no studies` 之类易越界表达改写为 `limited evidence / remains unresolved`
+  - `conclusion`：增强收束句，但保留边界条件
+- 同时保留 citation retention，避免 polish 过程丢 citation。
+
+**2. selector 改成质量优先但有风险护栏**
+- `version_selector.py` 不再只比较 finding_count。
+- 新增：
+  - `quality_score`
+  - `risk_score`
+  - `hard_risk`
+  - 可解释的 `signals`
+- 风险项显式覆盖：
+  - citation retention penalty
+  - unsupported assertion penalty
+  - role drift penalty
+  - overstatement penalty
+- 决策逻辑：只有在质量增益成立且风险在预算内时才选 polished；命中硬风险则回 safe。
+
+**3. local review 输出可解释质量字段**
+- `run_local_review.py` 现在会把：
+  - `dual_track.safe.quality_metrics`
+  - `dual_track.polished.quality_metrics`
+  - `writing_strategy.selection_report`
+  写入 summary/result，方便真实 review 输出排查。
+
+**4. 回归测试补充**
+- 新增 polished 高价值段落质量提升测试
+- 新增 selector 风险拒绝测试
+- 扩展 local review dual_track quality 字段断言
+
+---
+
+## 2026-03-26 — `AND NOT` 检索 / APA 参考文献 / DOCX 输出补齐
+
+### 背景
+这轮不是重做主链，而是补齐最终交付体验里的三个明显缺口：
+1. 用户希望检索式能直接写 `AND NOT`
+2. 用户希望文内引用之外，最终文稿里把 APA 格式梳理完整
+3. 用户希望默认就有 Word 文档输出，不再额外手工转格式
+
+### 本轮判断
+#### 1. `AND NOT` 主体能力已经有一半在代码里
+排查后发现：
+- `query_builder.py` 已经具备 `parse_boolean_query(...)`
+- `QueryPlan` 已能保存：
+  - `raw_query`
+  - `positive_terms`
+  - `negative_terms`
+- `aggregator.py` 已会把 `exclude_terms` 传入 source client
+- `arxiv_client.py` 已能把 negative terms 组装到 arXiv 的布尔查询里
+
+所以这块不是“从零接入”，而是确认整条链已连通，并把它纳入本轮正式交付说明。
+
+#### 2. APA 之前只有“文内 parenthetical citation”，没有完整参考文献区
+`markdown_composer.py` 之前已经能把段落里的 citation key 渲染成：
+- `(Smith & Jones, 2023)`
+这对正文可读性是够的，但还缺：
+- 独立 `References` 章节
+- APA 风格作者名格式化
+- title / venue / doi 的汇总输出
+
+这也是 Word 阅读版本里最直观的缺口。
+
+#### 3. DOCX 之前是手工导出，不是主流程默认产物
+已有环境可以转出 docx，但默认 pipeline 没有把它当作标准 artifact。
+因此要补的是：
+- 自动导出
+- artifact manifest 记录
+- 转换失败不拖垮主流程
+
+### 本轮代码调整
+#### A. `services/writing/markdown_composer.py`
+**新增：**
+- `_collect_cited_keys(...)`
+  - 从 section / paragraph 层收集实际用到的 citation key
+- `_render_references(...)`
+  - 在正文与 appendix 后补出 `## References`
+- `_format_apa_reference(...)`
+  - 输出 APA 风格参考文献条目
+- `_format_apa_reference_authors(...)`
+  - 把作者列表转成 `Surname, A.` / `Surname, A., & Surname, B.` 形式
+- `_format_reference_author_name(...)`
+  - 处理 `Given Family` 与 `Family, Given` 两种输入
+
+**调整：**
+- `compose_markdown_review(...)`
+  - 改成先构建 citation metadata，再渲染 sections / references
+- `_build_citation_metadata(...)`
+  - 改成合并式写法，避免 matrix 多行记录把已有的 title/authors/venue/doi 覆盖成空值
+
+**结果：**
+最终 `review.md` / `review.docx` 不只在正文里有 `(Author, Year)`，还会有可读的 APA 风格 `References` 区。
+
+#### B. `services/analysis/exporters.py`
+**新增：**
+- `export_docx(markdown_path, output_path)`
+
+**策略：**
+- 优先 `pandoc`
+- 回退 `textutil`
+- 两者都没有则抛错，由调用层决定是否降级
+
+#### C. `scripts/run_local_review.py`
+**新增：**
+- `review.md` 写出后自动尝试生成 `review.docx`
+- 若失败，仅记 warning，不中断 review 主流程
+- `artifacts.json` 新增 `review.docx`
+
+#### D. `scripts/run_review.py`
+**同步：**
+- 在线 / 本地统一主流程同样自动补出 `review.docx`
+
+### 测试补充
+#### `tests/test_writing_smoke.py`
+新增与增强：
+- `References` 章节断言
+- APA 参考文献条目断言
+- DOI/venue 的格式化断言
+
+### 本轮验证
+已执行：
+- `python3 -m py_compile services/analysis/exporters.py scripts/run_local_review.py scripts/run_review.py`
+- `pytest tests/test_retrieval_smoke.py tests/test_writing_smoke.py -q`
+- 手动从现有 `review.md` 导出 `review.docx`
+
+### 本轮结果
+用户现在拿到的最终 review 输出，默认应包含：
+- `review.md`
+- `review.docx`
+- `review.tex`
+
+同时：
+- 检索式可以直接写 `AND NOT`
+- Word / Markdown 阅读版本会有更完整的 APA 格式参考文献整理

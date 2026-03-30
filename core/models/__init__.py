@@ -2,7 +2,7 @@ from .paper import PaperCandidate, PaperMaster, PaperFile
 from .chunk import PaperChunk
 from .profile import ClaimType, LimitationSource, PaperProfile, PaperClaim, PaperLimitation, ClaimEvidenceLink
 from .gap import Gap, GapType
-from .draft import Draft
+from .draft import Draft, DraftTrack
 
 __all__ = [
     "PaperCandidate",
@@ -18,4 +18,5 @@ __all__ = [
     "Gap",
     "GapType",
     "Draft",
+    "DraftTrack",
 ]
